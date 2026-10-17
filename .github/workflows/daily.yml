@@ -50,7 +50,7 @@ jobs:
         if: ${{ !inputs.health && (github.event_name == 'schedule' || inputs.send) }}
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: node -e "import('./src/output.mjs').then(async m=>{const r=JSON.parse(require('fs').readFileSync('latest.json','utf8'));await m.sendDiscord(process.env.DISCORD_WEBHOOK_URL,r);console.log('已發送',r.items.length,'則')})"
+        run: node src/send.mjs
 
       - name: 存回 repo（早報、判斷紀錄、快取）
         if: ${{ !inputs.health }}

@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 import { collect, isSpam } from './sources.mjs';
 import { call, stats } from './llm.mjs';
-import { render, sendDiscord } from './output.mjs';
+import { render } from './output.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const args = process.argv.slice(2);
@@ -105,7 +105,6 @@ if (picked.length > 1) {
       for (const i of idx.slice(1)) { drop.add(i); if (picked[i].sourceName !== lead.sourceName) lead.alsoFrom = [...new Set([...(lead.alsoFrom || []), picked[i].sourceName])]; lead.related = [...(lead.related || []), picked[i].url]; }
     }
     if (drop.size) log(`合併同一事件：去掉 ${drop.size} 則重複`);
-    for (const i of drop) seen[picked[i].url] = new Date().toISOString();
     picked = picked.filter((_, i) => !drop.has(i));
   } catch (e) { log('合併步驟失敗，略過：' + e.message.slice(0, 120)); }
 }
@@ -133,14 +132,12 @@ fs.mkdirSync(ROOT + 'daily', { recursive: true }); fs.mkdirSync(ROOT + 'audit', 
 fs.writeFileSync(ROOT + `daily/${today}.md`, render(report));
 writeJson('latest.json', report);
 writeJson(`audit/${today}.json`, audit);
-for (const it of picked) seen[it.url] = new Date().toISOString();
+// 已收錄（seen）只在真的發到 Discord 後才記錄，見 src/send.mjs；這裡只存清理過期後的 seen 和快取
 writeJson('state/seen.json', seen); writeJson('state/cache.json', cache);
 log(`寫入 daily/${today}.md｜模型呼叫 ${stats.calls} 次、失敗 ${stats.failures}、tokens ${stats.tokens}`);
 log('路線：' + JSON.stringify(stats.byRoute));
 
 if (SEND) {
-  const hook = process.env.DISCORD_WEBHOOK_URL;
-  if (!hook) { console.error('沒有 DISCORD_WEBHOOK_URL，不發送'); process.exit(1); }
-  await sendDiscord(hook, report);
-  log('已發送到 Discord');
+  const { send } = await import('./send.mjs');
+  await send();
 }

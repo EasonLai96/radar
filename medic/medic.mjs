@@ -111,10 +111,8 @@ function runReport() {
 }
 
 async function sendReport() {
-  const { sendDiscord } = await import(new URL('../src/output.mjs', import.meta.url));
-  const r = JSON.parse(fs.readFileSync('latest.json', 'utf8'));
-  await sendDiscord(DISCORD_WEBHOOK_URL, r);
-  return r.items.length;
+  const { send } = await import(new URL('../src/send.mjs', import.meta.url));
+  return send();
 }
 
 function push(message, files) {
