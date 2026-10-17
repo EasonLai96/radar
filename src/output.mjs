@@ -3,7 +3,7 @@ const medal = i => ['🥇', '🥈', '🥉'][i] || `**${i + 1}.**`;
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
 const WEEK = '日一二三四五六';
 
-export function renderReport(r) {
+export function render(r) {
   const d = new Date(r.date + 'T00:00:00+08:00');
   const lines = [`# ${r.siteName}｜${r.date}（${WEEK[d.getUTCDay()]}）`, ''];
   if (!r.items.length) lines.push('今天沒有達到門檻的消息。', '');

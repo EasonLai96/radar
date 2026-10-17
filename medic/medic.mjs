@@ -121,7 +121,16 @@ function push(message, files) {
   git('add', '--', ...files);
   if (git('diff', '--cached', '--quiet').ok) return true;
   git('-c', 'user.name=radar-medic', '-c', 'user.email=radar-medic@users.noreply.github.com', 'commit', '-qm', message);
-  for (let i = 0; i < 3; i++) { if (git('pull', '-q', '--rebase', 'origin', 'main').ok && git('push', '-q', 'origin', 'HEAD:main').ok) return true; sh('sleep', ['5']); }
+  // 驗證時跑過早報，state/、latest.json 會有未提交的修改；--autostash 先收起來，否則 pull --rebase 會拒絕
+  let last = '';
+  for (let i = 0; i < 3; i++) {
+    const p = git('pull', '-q', '--rebase', '--autostash', 'origin', 'main');
+    if (!p.ok) { last = p.out; git('rebase', '--abort'); sh('sleep', ['5']); continue; }
+    const q = git('push', '-q', 'origin', 'HEAD:main');
+    if (q.ok) return true;
+    last = q.out; sh('sleep', ['5']);
+  }
+  log('推送失敗：' + redact(last).slice(-800));
   return false;
 }
 
