@@ -1,0 +1,950 @@
+{
+ "prefilter:d2932bff:deepseek:https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 模型發布與可用性，屬開發者關注焦點"
+  },
+  "at": "2026-10-17T14:31:26.189Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/anujasid/blender-ai-mcp-addon": {
+  "v": {
+   "label": "PASS",
+   "reason": "Blender MCP 外掛，AI 代理與 3D 工具整合"
+  },
+  "at": "2026-10-17T14:31:26.591Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/T-Auto/dsh-ops": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 底層工具插件，直接關乎 Token 效率與 Agent 開發"
+  },
+  "at": "2026-10-17T14:31:26.902Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/16/code-review": {
+  "v": {
+   "label": "PASS",
+   "reason": "coding agent 融入 code review 流程，與開發工具實質相關"
+  },
+  "at": "2026-10-17T14:31:27.207Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub 依賴授權合規工具，屬開發工具"
+  },
+  "at": "2026-10-17T14:31:28.770Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.latent.space/p/ainews-high-taste-testers-ep-1": {
+  "v": {
+   "label": "UNKNOWN",
+   "reason": "僅節目開播預告，無實質技術內容"
+  },
+  "at": "2026-10-17T14:31:29.903Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/onehumanbeing/esp32-iphone-agent": {
+  "v": {
+   "label": "PASS",
+   "reason": "ESP32 驅動 AI agent 操作手機，computer-use 開源專案"
+  },
+  "at": "2026-10-17T14:31:30.046Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/itau-generative-ai": {
+  "v": {
+   "label": "PASS",
+   "reason": "企業生成式AI應用與治理案例，屬AI實務"
+  },
+  "at": "2026-10-17T14:31:30.184Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Fei2411/DeepSeek-Bot": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 機器人外掛，多代理與群組聊天，開發直接相關"
+  },
+  "at": "2026-10-17T14:31:31.846Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/sepehr071/awesome-iran-mcp": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 MCP servers 集合，與 AI Agent 開發直接相關"
+  },
+  "at": "2026-10-17T14:31:32.001Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/yeyuxin777/baoyan-agent-benchmark": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI Agent 評測基準開源專案，與 coding agent 相關"
+  },
+  "at": "2026-10-17T14:31:33.101Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "v": {
+   "label": "PASS",
+   "reason": "新模型發布，與 AI 模型可用性直接相關"
+  },
+  "at": "2026-10-17T14:31:34.876Z"
+ },
+ "prefilter:d2932bff:deepseek:https://llmspeed.dev": {
+  "v": {
+   "label": "PASS",
+   "reason": "本地 LLM 推論速度測試工具，屬 AI 模型與開發工具"
+  },
+  "at": "2026-10-17T14:31:35.730Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/HeyPuter/everything": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源軟體重製專案，與開發工具相關"
+  },
+  "at": "2026-10-17T14:31:36.780Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/jhaizhou-ops/d2r-mobile": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源遊戲移植相容層，與遊戲開發相關"
+  },
+  "at": "2026-10-17T14:31:37.806Z"
+ },
+ "prefilter:d2932bff:deepseek:https://dune.fandom.com/wiki/Butlerian_Jihad": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "沙丘小說設定條目，非AI或開發工具"
+  },
+  "at": "2026-10-17T14:31:49.264Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/christos-antono/NPCTalk": {
+  "v": {
+   "label": "PASS",
+   "reason": "Agent Skills、MCP 與遊戲模改工具，符合開發主題"
+  },
+  "at": "2026-10-17T14:32:09.007Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/NB-Corp/gpt-with-taste": {
+  "v": {
+   "label": "PASS",
+   "reason": "coding agent 指令與 harness 整合工具"
+  },
+  "at": "2026-10-17T14:32:09.360Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/mu-zi-lee/magpie-our-free-model": {
+  "v": {
+   "label": "PASS",
+   "reason": "Magpie 插件整合免費模型池與授權，與 agent 開發相關"
+  },
+  "at": "2026-10-17T14:32:09.557Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/deeplethe/solid-glass": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 應用設計系統，前端開發相關"
+  },
+  "at": "2026-10-17T14:32:12.253Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/tinyhumansai/openscion": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源版本控制系統，面向 AI agent 與 CI 的開發工具"
+  },
+  "at": "2026-10-17T14:32:14.284Z"
+ },
+ "prefilter:d2932bff:deepseek:https://bfl.ai/blog/flux-3-image-klein": {
+  "v": {
+   "label": "PASS",
+   "reason": "FLUX新影像模型發布，與AI繪圖工具相關"
+  },
+  "at": "2026-10-17T14:32:14.635Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/xcisxc29/dsh-wechat": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 微信遠端控制插件，與開發工具直接相關"
+  },
+  "at": "2026-10-17T14:32:15.920Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/savinglighting/dsh-sd-bridge-guard": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "主打無限制生圖與違禁詞注入，涉 NSFW 規避"
+  },
+  "at": "2026-10-17T14:32:19.147Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/chenglou/handwired": {
+  "v": {
+   "label": "PASS",
+   "reason": "JS轉可微分神經網路開源專案，與AI及開發工具相關"
+  },
+  "at": "2026-10-17T14:32:20.796Z"
+ },
+ "prefilter:d2932bff:deepseek:https://alexwang.ai/posts/associative-memory": {
+  "v": {
+   "label": "PASS",
+   "reason": "解析 transformer 架構原理，與 AI 模型實質相關"
+  },
+  "at": "2026-10-17T14:32:21.084Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/cranebeaker/coop-anything": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI agent 改造單機遊戲成合作模式，含 MCP 與技能，開發工具相關"
+  },
+  "at": "2026-10-17T14:32:21.609Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/ahwootech/BRUTAL": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 C# 遊戲引擎框架，與遊戲開發相關"
+  },
+  "at": "2026-10-17T14:32:22.025Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/honwee/mynah": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源數位人與語音對話自架專案，屬AI開發工具"
+  },
+  "at": "2026-10-17T14:32:22.239Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/cobanov/PS5LM": {
+  "v": {
+   "label": "PASS",
+   "reason": "GGUF本地推論與開發工具，與AI模型實作相關"
+  },
+  "at": "2026-10-17T14:32:22.612Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.arrl.org/arrlletterissue?issue=2026-10-15": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "無線電設備交易政策，與AI或開發無關"
+  },
+  "at": "2026-10-17T14:32:23.810Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/LAGcomcom/zen-gate": {
+  "v": {
+   "label": "PASS",
+   "reason": "LLM 网关接多種 coding agent，含 DSH"
+  },
+  "at": "2026-10-17T14:32:24.023Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/feder-cr/git-ai": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源版 AI agent 專用 Git 版本控制工具"
+  },
+  "at": "2026-10-17T14:32:24.024Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Supermedo/uncharted_pc": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 C++ 遊戲移植專案，技術類"
+  },
+  "at": "2026-10-17T14:32:24.679Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Microqian2th/dsh-codex-effort-slider": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 推理等級滑條外掛，與 coding agent 開發工具相關"
+  },
+  "at": "2026-10-17T14:32:25.913Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Caho1/open-claude-ui": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 桌面端 UI 逆向與前端元件庫，屬開發工具"
+  },
+  "at": "2026-10-17T14:32:26.099Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/zhuyansen/new-term-radar": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 新詞雷達開源工具，涉 agent skill 與開發"
+  },
+  "at": "2026-10-17T14:32:26.514Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.mercor.com/research/labor-index/benchmark-map": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 基準覆蓋率研究，與 AI 模型評測相關"
+  },
+  "at": "2026-10-17T14:32:27.130Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.anthropic.com/research/designing-efficient-quantum-circuits": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 模型輔助電路設計，屬 AI 開發工具範疇"
+  },
+  "at": "2026-10-17T14:32:27.132Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/openbin-ai/binny": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源逆向工程 agent harness，可接任意模型與本地模型"
+  },
+  "at": "2026-10-17T14:32:27.936Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.anthropic.com/research/ecdsa-curve-origins": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI模型參與密碼學研究，屬AI領域消息"
+  },
+  "at": "2026-10-17T14:32:29.231Z"
+ },
+ "prefilter:d2932bff:deepseek:https://jakearchibald.com/2026/jpeg-xl-vs-avif": {
+  "v": {
+   "label": "PASS",
+   "reason": "網頁圖片格式比較，屬 Web 前端實務"
+  },
+  "at": "2026-10-17T14:32:29.788Z"
+ },
+ "prefilter:d2932bff:deepseek:https://machinelearning.apple.com/research/mlx-distributed-inference": {
+  "v": {
+   "label": "PASS",
+   "reason": "MLX分散式推理，AI模型開發工具相關"
+  },
+  "at": "2026-10-17T14:32:32.215Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "半導體製造教材，與讀者開發主題無關"
+  },
+  "at": "2026-10-17T14:32:33.024Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Shyboy0499/antibody": {
+  "v": {
+   "label": "PASS",
+   "reason": "coding agent 共享修復的 MCP 開源工具"
+  },
+  "at": "2026-10-17T14:32:35.126Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/sv3nbeast/agent-manager-lite": {
+  "v": {
+   "label": "PASS",
+   "reason": "Agent 實例與帳號管理開源工具，屬 coding agent 生態"
+  },
+  "at": "2026-10-17T14:32:36.001Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/outcrawlai/scout": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源瀏覽器 AI agent，符合開發工具"
+  },
+  "at": "2026-10-17T14:32:36.103Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/dieqiyun/uni-switch": {
+  "v": {
+   "label": "PASS",
+   "reason": "Codex/Claude Code API 配置開源工具，相關"
+  },
+  "at": "2026-10-17T14:32:40.167Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/jwuthri-cloud/Tracely-ai": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI agent 追蹤轉 CI 迴歸測試工具，相關"
+  },
+  "at": "2026-10-17T14:32:40.179Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/YOU-SHOULD-KNOW-ME/antigrative-dashboard": {
+  "v": {
+   "label": "PASS",
+   "reason": "IDE開發工具插件，追蹤token用量與配額"
+  },
+  "at": "2026-10-17T14:32:42.198Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/h0m3us3r/w1700k-sdr": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源SDR韌體逆向專案，實質開發工具"
+  },
+  "at": "2026-10-17T14:32:43.944Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/liseami/CCBaga": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude身分/指紋管理開源工具，涉模型可用性"
+  },
+  "at": "2026-10-17T14:32:44.322Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/AjncSystem/ShadowOfTheColossus-PC": {
+  "v": {
+   "label": "PASS",
+   "reason": "PS4遊戲原生移植開源專案，技術含量高"
+  },
+  "at": "2026-10-17T14:32:47.175Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/threerocks/sweety-handdraw-video": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI agent skill 做手繪影片，開源開發工具"
+  },
+  "at": "2026-10-17T14:32:49.034Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Zfinix/eleven": {
+  "v": {
+   "label": "PASS",
+   "reason": "agent+MCP 開源逆向工具，開發相關"
+  },
+  "at": "2026-10-17T14:32:49.789Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Leonxlnx/earshot": {
+  "v": {
+   "label": "PASS",
+   "reason": "MCP 音訊工具，coding agent 相關"
+  },
+  "at": "2026-10-17T14:32:51.894Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/overdriveps5/overdrive-releases": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "PS5越獄遊戲商店，非開發相關"
+  },
+  "at": "2026-10-17T14:32:51.983Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/CoolkHz/gptibo": {
+  "v": {
+   "label": "PASS",
+   "reason": "自托管商城開源專案，前後端可自建二次開發"
+  },
+  "at": "2026-10-17T14:32:52.650Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/MyLuxy/overdrive": {
+  "v": {
+   "label": "PASS",
+   "reason": "PS5 homebrew 開源專案，屬遊戲開發工具"
+  },
+  "at": "2026-10-17T14:32:58.854Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/rohit267/net-merge": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源網速聚合工具，開發者下載實用"
+  },
+  "at": "2026-10-17T14:33:00.177Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/16/code-review": {
+  "v": 58,
+  "at": "2026-10-17T14:33:11.942Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/T-Auto/dsh-ops": {
+  "v": 73,
+  "at": "2026-10-17T14:33:13.828Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/anujasid/blender-ai-mcp-addon": {
+  "v": 68,
+  "at": "2026-10-17T14:33:13.978Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Oct/16/code-review": {
+  "v": 45,
+  "at": "2026-10-17T14:33:14.788Z"
+ },
+ "scoreA:118d0780:deepseek:https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017": {
+  "v": 80,
+  "at": "2026-10-17T14:33:15.637Z"
+ },
+ "scoreB:118d0780:glm:https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017": {
+  "v": 78,
+  "at": "2026-10-17T14:33:15.960Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/itau-generative-ai": {
+  "v": 14,
+  "at": "2026-10-17T14:33:17.533Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/jhaizhou-ops/d2r-mobile": {
+  "v": 55,
+  "at": "2026-10-17T14:33:17.942Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/T-Auto/dsh-ops": {
+  "v": 73,
+  "at": "2026-10-17T14:33:18.611Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available": {
+  "v": 18,
+  "at": "2026-10-17T14:33:18.897Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/jhaizhou-ops/d2r-mobile": {
+  "v": 67,
+  "at": "2026-10-17T14:33:20.207Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/anujasid/blender-ai-mcp-addon": {
+  "v": 45,
+  "at": "2026-10-17T14:33:20.805Z"
+ },
+ "scoreB:118d0780:glm:https://www.latent.space/p/ainews-high-taste-testers-ep-1": {
+  "v": 18,
+  "at": "2026-10-17T14:33:21.528Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/onehumanbeing/esp32-iphone-agent": {
+  "v": 62,
+  "at": "2026-10-17T14:33:23.970Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Fei2411/DeepSeek-Bot": {
+  "v": 80,
+  "at": "2026-10-17T14:33:24.875Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available": {
+  "v": 15,
+  "at": "2026-10-17T14:33:31.235Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/itau-generative-ai": {
+  "v": 16,
+  "at": "2026-10-17T14:33:31.239Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.latent.space/p/ainews-high-taste-testers-ep-1": {
+  "v": 15,
+  "at": "2026-10-17T14:33:32.270Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Fei2411/DeepSeek-Bot": {
+  "v": 80,
+  "at": "2026-10-17T14:33:32.800Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "v": 78,
+  "at": "2026-10-17T14:33:36.355Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/liseami/CCBaga": {
+  "v": 28,
+  "at": "2026-10-17T14:33:36.542Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/sepehr071/awesome-iran-mcp": {
+  "v": 28,
+  "at": "2026-10-17T14:33:37.027Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/onehumanbeing/esp32-iphone-agent": {
+  "v": 75,
+  "at": "2026-10-17T14:33:38.604Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/yeyuxin777/baoyan-agent-benchmark": {
+  "v": 28,
+  "at": "2026-10-17T14:33:38.976Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/christos-antono/NPCTalk": {
+  "v": 66,
+  "at": "2026-10-17T14:33:42.935Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/christos-antono/NPCTalk": {
+  "v": 75,
+  "at": "2026-10-17T14:33:45.879Z"
+ },
+ "scoreB:118d0780:glm:https://llmspeed.dev": {
+  "v": 55,
+  "at": "2026-10-17T14:33:50.814Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "v": 81,
+  "at": "2026-10-17T14:33:52.380Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/yeyuxin777/baoyan-agent-benchmark": {
+  "v": 38,
+  "at": "2026-10-17T14:33:53.307Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/sepehr071/awesome-iran-mcp": {
+  "v": 32,
+  "at": "2026-10-17T14:33:55.981Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/HeyPuter/everything": {
+  "v": 57,
+  "at": "2026-10-17T14:33:57.388Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/NB-Corp/gpt-with-taste": {
+  "v": 68,
+  "at": "2026-10-17T14:33:57.689Z"
+ },
+ "scoreA:118d0780:deepseek:https://llmspeed.dev": {
+  "v": 56,
+  "at": "2026-10-17T14:34:02.031Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/cranebeaker/coop-anything": {
+  "v": 72,
+  "at": "2026-10-17T14:34:04.008Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/liseami/CCBaga": {
+  "v": 24,
+  "at": "2026-10-17T14:34:04.017Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/HeyPuter/everything": {
+  "v": 55,
+  "at": "2026-10-17T14:34:18.472Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/NB-Corp/gpt-with-taste": {
+  "v": 70,
+  "at": "2026-10-17T14:34:21.044Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/ahwootech/BRUTAL": {
+  "v": 58,
+  "at": "2026-10-17T14:34:25.304Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/mu-zi-lee/magpie-our-free-model": {
+  "v": 72,
+  "at": "2026-10-17T14:34:25.399Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/cranebeaker/coop-anything": {
+  "v": 68,
+  "at": "2026-10-17T14:34:25.774Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/ahwootech/BRUTAL": {
+  "v": 56,
+  "at": "2026-10-17T14:34:26.069Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/tinyhumansai/openscion": {
+  "v": 39,
+  "at": "2026-10-17T14:34:28.577Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/deeplethe/solid-glass": {
+  "v": 58,
+  "at": "2026-10-17T14:34:28.793Z"
+ },
+ "scoreB:118d0780:glm:https://bfl.ai/blog/flux-3-image-klein": {
+  "v": 78,
+  "at": "2026-10-17T14:34:28.995Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/xcisxc29/dsh-wechat": {
+  "v": 82,
+  "at": "2026-10-17T14:34:30.623Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/mu-zi-lee/magpie-our-free-model": {
+  "v": 63,
+  "at": "2026-10-17T14:34:31.542Z"
+ },
+ "scoreB:118d0780:glm:https://alexwang.ai/posts/associative-memory": {
+  "v": 45,
+  "at": "2026-10-17T14:34:34.361Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/deeplethe/solid-glass": {
+  "v": 63,
+  "at": "2026-10-17T14:34:40.947Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/tinyhumansai/openscion": {
+  "v": 38,
+  "at": "2026-10-17T14:34:44.935Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/chenglou/handwired": {
+  "v": 53,
+  "at": "2026-10-17T14:34:45.106Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/xcisxc29/dsh-wechat": {
+  "v": 78,
+  "at": "2026-10-17T14:34:47.427Z"
+ },
+ "scoreB:118d0780:glm:https://www.anthropic.com/research/ecdsa-curve-origins": {
+  "v": 42,
+  "at": "2026-10-17T14:34:48.857Z"
+ },
+ "scoreA:118d0780:deepseek:https://bfl.ai/blog/flux-3-image-klein": {
+  "v": 65,
+  "at": "2026-10-17T14:34:50.290Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Supermedo/uncharted_pc": {
+  "v": 55,
+  "at": "2026-10-17T14:34:51.641Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/chenglou/handwired": {
+  "v": 68,
+  "at": "2026-10-17T14:34:52.498Z"
+ },
+ "scoreA:118d0780:deepseek:https://alexwang.ai/posts/associative-memory": {
+  "v": 52,
+  "at": "2026-10-17T14:34:52.911Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/honwee/mynah": {
+  "v": 48,
+  "at": "2026-10-17T14:34:55.464Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/cobanov/PS5LM": {
+  "v": 36,
+  "at": "2026-10-17T14:34:56.372Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/feder-cr/git-ai": {
+  "v": 58,
+  "at": "2026-10-17T14:34:57.030Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/cobanov/PS5LM": {
+  "v": 48,
+  "at": "2026-10-17T14:35:07.280Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.anthropic.com/research/ecdsa-curve-origins": {
+  "v": 56,
+  "at": "2026-10-17T14:35:07.643Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Supermedo/uncharted_pc": {
+  "v": 52,
+  "at": "2026-10-17T14:35:09.801Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/feder-cr/git-ai": {
+  "v": 48,
+  "at": "2026-10-17T14:35:12.414Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/honwee/mynah": {
+  "v": 49,
+  "at": "2026-10-17T14:35:14.158Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Microqian2th/dsh-codex-effort-slider": {
+  "v": 65,
+  "at": "2026-10-17T14:35:21.718Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/LAGcomcom/zen-gate": {
+  "v": 78,
+  "at": "2026-10-17T14:35:25.223Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/LAGcomcom/zen-gate": {
+  "v": 78,
+  "at": "2026-10-17T14:35:25.373Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Microqian2th/dsh-codex-effort-slider": {
+  "v": 71,
+  "at": "2026-10-17T14:35:25.690Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Caho1/open-claude-ui": {
+  "v": 65,
+  "at": "2026-10-17T14:35:25.879Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/zhuyansen/new-term-radar": {
+  "v": 49,
+  "at": "2026-10-17T14:35:26.574Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/zhuyansen/new-term-radar": {
+  "v": 60,
+  "at": "2026-10-17T14:35:28.230Z"
+ },
+ "scoreB:118d0780:glm:https://www.anthropic.com/research/designing-efficient-quantum-circuits": {
+  "v": 18,
+  "at": "2026-10-17T14:35:30.924Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Caho1/open-claude-ui": {
+  "v": 70,
+  "at": "2026-10-17T14:35:31.558Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/openbin-ai/binny": {
+  "v": 48,
+  "at": "2026-10-17T14:35:32.526Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.anthropic.com/research/designing-efficient-quantum-circuits": {
+  "v": 36,
+  "at": "2026-10-17T14:35:32.901Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Shyboy0499/antibody": {
+  "v": 52,
+  "at": "2026-10-17T14:35:33.981Z"
+ },
+ "scoreB:118d0780:glm:https://www.mercor.com/research/labor-index/benchmark-map": {
+  "v": 53,
+  "at": "2026-10-17T14:35:34.312Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/AjncSystem/ShadowOfTheColossus-PC": {
+  "v": 56,
+  "at": "2026-10-17T14:35:38.652Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.mercor.com/research/labor-index/benchmark-map": {
+  "v": 34,
+  "at": "2026-10-17T14:35:39.083Z"
+ },
+ "scoreB:118d0780:glm:https://jakearchibald.com/2026/jpeg-xl-vs-avif": {
+  "v": 45,
+  "at": "2026-10-17T14:35:41.381Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/AjncSystem/ShadowOfTheColossus-PC": {
+  "v": 45,
+  "at": "2026-10-17T14:35:44.276Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/sv3nbeast/agent-manager-lite": {
+  "v": 30,
+  "at": "2026-10-17T14:35:46.074Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/openbin-ai/binny": {
+  "v": 49,
+  "at": "2026-10-17T14:35:48.530Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/sv3nbeast/agent-manager-lite": {
+  "v": 35,
+  "at": "2026-10-17T14:35:50.768Z"
+ },
+ "scoreB:118d0780:glm:https://machinelearning.apple.com/research/mlx-distributed-inference": {
+  "v": 34,
+  "at": "2026-10-17T14:35:52.416Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/outcrawlai/scout": {
+  "v": 60,
+  "at": "2026-10-17T14:35:54.367Z"
+ },
+ "scoreA:118d0780:deepseek:https://jakearchibald.com/2026/jpeg-xl-vs-avif": {
+  "v": 61,
+  "at": "2026-10-17T14:35:55.744Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/dieqiyun/uni-switch": {
+  "v": 58,
+  "at": "2026-10-17T14:35:57.776Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Shyboy0499/antibody": {
+  "v": 54,
+  "at": "2026-10-17T14:36:03.971Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/jwuthri-cloud/Tracely-ai": {
+  "v": 47,
+  "at": "2026-10-17T14:36:06.607Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/outcrawlai/scout": {
+  "v": 67,
+  "at": "2026-10-17T14:36:06.696Z"
+ },
+ "scoreA:118d0780:deepseek:https://machinelearning.apple.com/research/mlx-distributed-inference": {
+  "v": 50,
+  "at": "2026-10-17T14:36:06.836Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/jwuthri-cloud/Tracely-ai": {
+  "v": 47,
+  "at": "2026-10-17T14:36:08.416Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/YOU-SHOULD-KNOW-ME/antigrative-dashboard": {
+  "v": 47,
+  "at": "2026-10-17T14:36:11.535Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/CoolkHz/gptibo": {
+  "v": 44,
+  "at": "2026-10-17T14:36:14.653Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/h0m3us3r/w1700k-sdr": {
+  "v": 46,
+  "at": "2026-10-17T14:36:15.849Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/threerocks/sweety-handdraw-video": {
+  "v": 66,
+  "at": "2026-10-17T14:36:16.353Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/CoolkHz/gptibo": {
+  "v": 58,
+  "at": "2026-10-17T14:36:16.710Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/dieqiyun/uni-switch": {
+  "v": 50,
+  "at": "2026-10-17T14:36:17.299Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Zfinix/eleven": {
+  "v": 47,
+  "at": "2026-10-17T14:36:23.174Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/MyLuxy/overdrive": {
+  "v": 40,
+  "at": "2026-10-17T14:36:23.469Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/YOU-SHOULD-KNOW-ME/antigrative-dashboard": {
+  "v": 40,
+  "at": "2026-10-17T14:36:26.288Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/h0m3us3r/w1700k-sdr": {
+  "v": 58,
+  "at": "2026-10-17T14:36:26.551Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Zfinix/eleven": {
+  "v": 58,
+  "at": "2026-10-17T14:36:27.955Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Leonxlnx/earshot": {
+  "v": 66,
+  "at": "2026-10-17T14:36:31.383Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/MyLuxy/overdrive": {
+  "v": 37,
+  "at": "2026-10-17T14:36:31.880Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/rohit267/net-merge": {
+  "v": 45,
+  "at": "2026-10-17T14:36:33.034Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/threerocks/sweety-handdraw-video": {
+  "v": 60,
+  "at": "2026-10-17T14:36:47.699Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Leonxlnx/earshot": {
+  "v": 75,
+  "at": "2026-10-17T14:36:49.945Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/rohit267/net-merge": {
+  "v": 67,
+  "at": "2026-10-17T14:36:50.249Z"
+ },
+ "write:2d964375:claude:https://github.com/xcisxc29/dsh-wechat": {
+  "v": {
+   "title": "WeChat 也能遙控 DSH",
+   "summary": "dsh-wechat 是 DSH 的 WeChat 外掛，在手機傳訊息就能讓電腦上的 DSH agent 工作，不需公開 IP。",
+   "why": "不在電腦前也能用手機叫 DSH 做事、收發檔案，還能遠端回覆權限詢問。"
+  },
+  "at": "2026-10-17T14:37:00.517Z"
+ },
+ "write:2d964375:claude:https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "v": {
+   "title": "DeepSeek 上架 V4.1",
+   "summary": "DeepSeek 在 Hugging Face 放出 DeepSeek-V4.1-Flash-1017，Hacker News 上有 294 分、114 則留言。材料沒有附規格或跑分。",
+   "why": "先看模型頁的說明與授權，再評估能不能接進你的 Discord 機器人。"
+  },
+  "at": "2026-10-17T14:37:02.334Z"
+ },
+ "write:2d964375:claude:https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017": {
+  "v": {
+   "title": "DeepSeek v4.1 Flash 上架",
+   "summary": "OpenRouter 出現 DeepSeek v4.1 Flash 1017 的模型頁面，在 Hacker News 獲得 389 分、177 則留言。",
+   "why": "做 Discord 機器人想換模型時，可以到 OpenRouter 頁面查看詳情。"
+  },
+  "at": "2026-10-17T14:37:03.121Z"
+ },
+ "write:2d964375:claude:https://github.com/Fei2411/DeepSeek-Bot": {
+  "v": {
+   "title": "DS Bot：DSH bot 外掛",
+   "summary": "DS Bot 是 DeepSeek Harness 的外掛，可建立長期運作的 bots，支援 bot 間訊息與群組聊天，並沿用 DSH 已設定的模型。",
+   "why": "想試多個 bot 分工、互相傳訊，可在 DSH 裡直接安裝 ds-bot 玩玩看。"
+  },
+  "at": "2026-10-17T14:37:03.315Z"
+ },
+ "write:2d964375:claude:https://github.com/LAGcomcom/zen-gate": {
+  "v": {
+   "title": "Zen Gate 串接免費模型",
+   "summary": "本機網關，把 OpenCode Zen 免費模型轉成 OpenAI/Anthropic 相容介面，自動接入多款 Agent。",
+   "why": "想用免費模型接 Aider、Claude Code 等工具的人，可看它怎麼設定。"
+  },
+  "at": "2026-10-17T14:37:12.961Z"
+ },
+ "write:2d964375:claude:https://github.com/christos-antono/NPCTalk": {
+  "v": {
+   "title": "NPCTalk 讓遊戲 NPC 開口說話",
+   "summary": "NPCTalk 是開源工具包，讓 AI 助理幫遊戲 NPC 接上 Fish Audio 語音，玩家說話後約一秒就聽到回應，附 GTA V 範例。",
+   "why": "想讓自己遊戲的角色會聊天，可參考它怎麼把語音與 AI 角色接起來。"
+  },
+  "at": "2026-10-17T14:37:13.332Z"
+ },
+ "write:2d964375:claude:https://github.com/T-Auto/dsh-ops": {
+  "v": {
+   "title": "dsh-ops 省 Token 插件",
+   "summary": "Rust 寫的 DSH 底層工具插件 dsh-ops，主打省 Token 與時間，Windows 另有 ops_bash 可用。",
+   "why": "在 Windows 上用 DSH 常被 PowerShell 報錯卡住，可試試 ops_bash。"
+  },
+  "at": "2026-10-17T14:37:17.273Z"
+ },
+ "write:2d964375:claude:https://bfl.ai/blog/flux-3-image-klein": {
+  "v": {
+   "title": "FLUX 3 Image Klein",
+   "summary": "bfl.ai 部落格 10/16 發布 FLUX 3 Image Klein，在 Hacker News 上有 184 分、52 則留言。",
+   "why": "做 AI 繪圖的話，可先看原文確認規格與用法，再決定要不要試。"
+  },
+  "at": "2026-10-17T14:37:18.401Z"
+ },
+ "write:2d964375:claude:https://github.com/Leonxlnx/earshot": {
+  "v": {
+   "title": "earshot：讓 AI 聽見聲音",
+   "summary": "earshot 是開源 CPU 工具，讓 AI 程式助理能描述、比對音檔，也能用程式合成音效，支援 CLI 與 MCP server。",
+   "why": "做網頁小遊戲時，可讓 AI 檢查音效有沒有對上畫面、聽起來夠不夠質感。"
+  },
+  "at": "2026-10-17T14:37:25.520Z"
+ },
+ "write:2d964375:claude:https://github.com/cranebeaker/coop-anything": {
+  "v": {
+   "title": "讓 AI 代理把單機遊戲改成多人合作",
+   "summary": "coop-anything 用 MCP server 與 playbook 讓 AI 代理替單機遊戲做合作模式，朋友經 Steam 加入。",
+   "why": "想和同學玩單機遊戲，可參考它怎麼讓 AI 代理做逆向與測試。"
+  },
+  "at": "2026-10-17T14:37:25.679Z"
+ },
+ "write:2d964375:claude:https://github.com/NB-Corp/gpt-with-taste": {
+  "v": {
+   "title": "dsh 可用的 GPT 指令包",
+   "summary": "gpt-with-taste 是 GPT 的行為指令包，支援 Codex、Claude Code 與 dsh，已有 348 星。",
+   "why": "用 dsh 寫程式時，可照 docs/harnesses/dsh.md 裝上，讓 AI 少囉嗦、多做決定。"
+  },
+  "at": "2026-10-17T14:38:26.132Z"
+ }
+}

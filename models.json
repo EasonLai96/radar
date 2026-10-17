@@ -1,0 +1,26 @@
+{
+  "_說明": "每個邏輯模型依序嘗試路線，前面失敗才換下一條。金鑰從環境變數讀（GitHub Secrets），本機則退回 /root/.dsh/.credentials.yaml。",
+  "relays": {
+    "wtf":      { "base": "https://nexusai12344.zynuke.lol/v1", "keyRef": "WTFISTHIS_API_KEY" },
+    "owob":     { "base": "https://ai.owob.dev/v1",             "keyRef": "GPT_API_KEY" },
+    "avianjay": { "base": "https://gayaicpa.avianjay.sbs/v1",   "keyRef": "CLAUDE_API_KEY" }
+  },
+  "models": {
+    "deepseek": [
+      { "relay": "wtf",  "model": "NullPtr Think Flash max" },
+      { "relay": "wtf",  "model": "NullPtr Think Flash Slow max" },
+      { "relay": "owob", "model": "deepseek-free" },
+      { "relay": "owob", "model": "deepseek-v4.1-flash" }
+    ],
+    "glm": [
+      { "relay": "owob", "model": "glm-5.3-flash" },
+      { "relay": "owob", "model": "deepseek-free" },
+      { "relay": "wtf",  "model": "NullPtr Think Flash max" }
+    ],
+    "claude": [
+      { "relay": "avianjay", "model": "mrtoasterrr/claude-sonnet-5-5" },
+      { "relay": "owob",     "model": "claude-sonnet-5-5" },
+      { "relay": "owob",     "model": "deepseek-v4.1-flash" }
+    ]
+  }
+}

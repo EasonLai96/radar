@@ -1,0 +1,62 @@
+name: 早報
+
+on:
+  schedule:
+    - cron: "30 23 * * *"   # 每天 07:30（台灣時間）。GitHub 排程常延遲 5–30 分鐘。
+  workflow_dispatch:
+    inputs:
+      send:
+        description: "發到 Discord"
+        type: boolean
+        default: false
+      health:
+        description: "只測中轉站連線，不跑早報"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      WTFISTHIS_API_KEY: ${{ secrets.WTFISTHIS_API_KEY }}
+      GPT_API_KEY: ${{ secrets.GPT_API_KEY }}
+      CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TZ: Asia/Taipei
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 中轉站連線測試
+        if: ${{ inputs.health }}
+        run: node src/health.mjs
+
+      - name: 產生早報
+        if: ${{ !inputs.health }}
+        run: node src/run.mjs
+
+      - name: 發到 Discord
+        # 排程觸發時一定發；手動觸發時看「發到 Discord」有沒有勾
+        if: ${{ !inputs.health && (github.event_name == 'schedule' || inputs.send) }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node -e "import('./src/output.mjs').then(async m=>{const r=JSON.parse(require('fs').readFileSync('latest.json','utf8'));await m.sendDiscord(process.env.DISCORD_WEBHOOK_URL,r);console.log('已發送',r.items.length,'則')})"
+
+      - name: 存回 repo（早報、判斷紀錄、快取）
+        if: ${{ !inputs.health }}
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add daily audit state latest.json
+          git diff --cached --quiet || git commit -m "早報 $(date +%F)"
+          git push

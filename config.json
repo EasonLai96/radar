@@ -1,0 +1,81 @@
+{
+  "siteName": "DSH 雷達",
+  "subject": "DSH 與 AI 工具",
+  "timezone": "Asia/Taipei",
+  "lookbackHours": 30,
+  "maxCandidates": 60,
+  "threshold": 66,
+  "maxItems": 10,
+  "seenDays": 14,
+  "models": {
+    "prefilter": "deepseek",
+    "scoreA": "deepseek",
+    "scoreB": "glm",
+    "write": "claude"
+  },
+  "sources": [
+    {
+      "id": "gh-new",
+      "kind": "github_search",
+      "name": "GitHub 新專案",
+      "query": "created:>{since7d} stars:>150",
+      "limit": 25
+    },
+    {
+      "id": "gh-dsh",
+      "kind": "github_search",
+      "name": "GitHub DSH 生態",
+      "query": "deepseek-harness OR dsh-plugin OR \"DeepSeek Harness\" in:name,description,readme created:>{since14d} stars:>10",
+      "limit": 15
+    },
+    {
+      "id": "gh-agent",
+      "kind": "github_search",
+      "name": "GitHub Agent 技能",
+      "query": "agent skill OR mcp server created:>{since7d} stars:>80",
+      "limit": 15
+    },
+    {
+      "id": "hn",
+      "kind": "rss",
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage?points=150"
+    },
+    {
+      "id": "simonw",
+      "kind": "rss",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "id": "hf",
+      "kind": "rss",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "openai",
+      "kind": "rss",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "id": "deepmind",
+      "kind": "rss",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "id": "ghchangelog",
+      "kind": "rss",
+      "name": "GitHub Changelog",
+      "url": "https://github.blog/changelog/feed/"
+    },
+    {
+      "id": "latent",
+      "kind": "rss",
+      "name": "Latent Space",
+      "url": "https://www.latent.space/feed"
+    }
+  ]
+}
