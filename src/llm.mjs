@@ -46,8 +46,9 @@ export async function call(name, messages, { maxTokens = 2048, timeoutMs = 90000
     } catch (e) {
       stats.failures++;
       errors.push(`${id} → ${e.message}`);
-      // 格式錯誤不冷卻（下次可能就好）；連線／HTTP 錯誤冷卻 5 分鐘
-      if (!/JSON|欄位/.test(e.message)) cooldown.set(id, Date.now() + 5 * 60_000);
+      // 格式錯誤不冷卻（下次可能就好）；Cloudflare 擋機房 IP（403 Just a moment）整次執行都不再試；其他連線錯誤冷卻 5 分鐘
+      if (/403.*Just a moment|challenge/i.test(e.message)) { for (const r2 of Object.values(cfg.models).flat()) if (r2.relay === rt.relay) cooldown.set(`${r2.relay}:${r2.model}`, Infinity); }
+      else if (!/JSON|欄位/.test(e.message)) cooldown.set(id, Date.now() + 5 * 60_000);
     }
   }
   throw new Error(`${name} 全部路線失敗：` + errors.join('｜'));
