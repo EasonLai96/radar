@@ -1,0 +1,34 @@
+name: 每週健檢
+
+on:
+  schedule:
+    - cron: "0 1 * * 1"   # 每週一 09:00（台灣時間）
+  workflow_dispatch:
+    inputs:
+      notify:
+        description: "沒問題也發一則通知（測試用）"
+        type: boolean
+        default: false
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      WTFISTHIS_API_KEY: ${{ secrets.WTFISTHIS_API_KEY }}
+      GPT_API_KEY: ${{ secrets.GPT_API_KEY }}
+      CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      FORCE_NOTIFY: ${{ inputs.notify }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 健檢
+        run: node medic/weekly.mjs

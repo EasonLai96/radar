@@ -39,6 +39,17 @@
 
 修復模型：owob `deepseek-v4.1-flash` → avianjay Claude → owob Claude（wtf 在 GitHub 機房會被 Cloudflare 擋）。
 
+## 每週健檢
+
+每週一 09:00 自動檢查（`.github/workflows/weekly.yml`），**有問題才發 Discord**：
+
+- 早報最近 3 天有沒有成功（抓到排程被停用、連續失敗）
+- 三家中轉站的金鑰還有沒有效
+- Discord webhook 還在不在
+- `config.json` 的 `reminders` 裡登記的到期日，剩 10 天內開始提醒
+
+早報和維修員用的是 Actions 自動產生的 `GITHUB_TOKEN`，**不會過期**；個人權杖只影響從手機修改 repo。
+
 ## 本機執行
 
 ```bash
