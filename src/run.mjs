@@ -56,7 +56,7 @@ for (const it of fetched.flatMap(f => f.items)) {
   byUrl.set(it.url, it);
 }
 // 輪流從各信源取，避免單一大信源（OpenAI、HF）吃掉全部名額
-const groups = Object.values(Object.groupBy([...byUrl.values()], x => x.sourceId));
+const groups = Object.values(Object.groupBy([...byUrl.values()], x => x.sourceId)).map(g => g.items);
 const candidates = [];
 for (let r = 0; candidates.length < (LIMIT || cfg.maxCandidates) && groups.some(g => g.length > r); r++) for (const g of groups) if (g[r] && candidates.length < (LIMIT || cfg.maxCandidates)) candidates.push(g[r]);
 log(`候選 ${candidates.length}（去重後 ${byUrl.size}，已收錄過 ${old}，灌星過濾 ${spam}）`);
