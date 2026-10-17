@@ -1,0 +1,40 @@
+name: 維修員
+
+# 「早報」失敗時自動觸發。維修員自己失敗不會再觸發任何東西，所以不會無限循環。
+on:
+  workflow_run:
+    workflows: ["早報"]
+    types: [completed]
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  heal:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      RUN_ID: ${{ github.event.workflow_run.id }}
+      RUN_EVENT: ${{ github.event.workflow_run.event }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      WTFISTHIS_API_KEY: ${{ secrets.WTFISTHIS_API_KEY }}
+      GPT_API_KEY: ${{ secrets.GPT_API_KEY }}
+      CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      TZ: Asia/Taipei
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 20
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 診斷並修復
+        run: node medic/medic.mjs

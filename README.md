@@ -25,6 +25,20 @@
 | `audit/` | 每則候選的預篩結果與兩次分數，用來校準門檻 |
 | `state/` | 已收錄網址（14 天內不重複）、判斷快取（重跑不重複花錢） |
 
+## 維修員（自動修復）
+
+「早報」失敗時，`.github/workflows/medic.yml` 會自動啟動 `medic/medic.mjs`：
+
+1. 抓失敗日誌，交給模型判斷是哪一種問題：
+   - **程式 bug** → 給最小修改 → **實際重跑一次完整早報**驗證 → 通過才推送（單獨一個 commit，可以 revert）
+   - **外部暫時故障**（中轉站、網路）→ 等 8 分鐘重跑
+   - **需要人處理**（金鑰過期、權限）→ 在 Discord 通知你
+2. 原本是排程那次失敗的，修好後會補發當天早報。
+3. 只准改 `src/`、`prompts/`、`config.json`、`models.json`；workflow、`medic/`、`state/` 一律不准動。
+4. 修壞了最多再試一輪，還不行就通知你，不會無限循環。
+
+修復模型：owob `deepseek-v4.1-flash` → avianjay Claude → owob Claude（wtf 在 GitHub 機房會被 Cloudflare 擋）。
+
 ## 本機執行
 
 ```bash
