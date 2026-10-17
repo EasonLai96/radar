@@ -1,6 +1,6 @@
 {
  "date": "2026-10-17",
- "generatedAt": "2026-10-17T15:26:50.456Z",
+ "generatedAt": "2026-10-17T15:28:40.269Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -17,7 +17,7 @@
    "url": "https://github.com/Fei2411/DeepSeek-Bot",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 2333,
+   "stars": 2334,
    "score": 80,
    "scores": [
     80,
@@ -84,7 +84,7 @@
    "url": "https://github.com/T-Auto/dsh-ops",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 2755,
+   "stars": 2756,
    "score": 73,
    "scores": [
     73,
@@ -149,7 +149,7 @@
    "url": "https://github.com/Leonxlnx/earshot",
    "source": "GitHub 新專案",
    "alsoFrom": [],
-   "stars": 585,
+   "stars": 586,
    "score": 70,
    "scores": [
     75,
@@ -230,7 +230,7 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 12,
+    "count": 11,
     "error": null
    },
    {
@@ -270,9 +270,9 @@
     "error": null
    }
   ],
-  "candidates": 56,
-  "prefilterPass": 52,
-  "scored": 52,
+  "candidates": 55,
+  "prefilterPass": 51,
+  "scored": 51,
   "picked": 10,
   "llm": {
    "calls": 1,
@@ -280,7 +280,7 @@
    "byRoute": {
     "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
    },
-   "tokens": 1627
+   "tokens": 1644
   }
  }
 }

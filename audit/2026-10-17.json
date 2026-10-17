@@ -599,18 +599,18 @@
   "mergedInto": null
  },
  {
-  "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-  "url": "https://www.mercor.com/research/labor-index/benchmark-map",
+  "title": "JPEG XL vs. AVIF for web use-cases",
+  "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif",
   "source": "Hacker News",
   "prefilter": {
    "label": "PASS",
-   "reason": "AI 基準覆蓋率研究，與 AI 模型評測相關"
+   "reason": "網頁圖片格式比較，屬 Web 前端實務"
   },
   "scores": [
-   34,
-   53
+   61,
+   45
   ],
-  "score": 43,
+  "score": 53,
   "picked": false,
   "mergedInto": null
  },
@@ -647,18 +647,18 @@
   "mergedInto": null
  },
  {
-  "title": "JPEG XL vs. AVIF for web use-cases",
-  "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif",
+  "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+  "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
   "source": "Hacker News",
   "prefilter": {
    "label": "PASS",
-   "reason": "網頁圖片格式比較，屬 Web 前端實務"
+   "reason": "MLX分散式推理，AI模型開發工具相關"
   },
   "scores": [
-   61,
-   45
+   50,
+   34
   ],
-  "score": 53,
+  "score": 42,
   "picked": false,
   "mergedInto": null
  },
@@ -691,22 +691,6 @@
    58
   ],
   "score": 54,
-  "picked": false,
-  "mergedInto": null
- },
- {
-  "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-  "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-  "source": "Hacker News",
-  "prefilter": {
-   "label": "PASS",
-   "reason": "MLX分散式推理，AI模型開發工具相關"
-  },
-  "scores": [
-   50,
-   34
-  ],
-  "score": 42,
   "picked": false,
   "mergedInto": null
  },
