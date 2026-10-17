@@ -1,6 +1,6 @@
 {
  "date": "2026-10-17",
- "generatedAt": "2026-10-17T14:38:26.132Z",
+ "generatedAt": "2026-10-17T15:05:13.208Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,169 +11,67 @@
  },
  "items": [
   {
-   "title": "DS Bot：DSH bot 外掛",
-   "summary": "DS Bot 是 DeepSeek Harness 的外掛，可建立長期運作的 bots，支援 bot 間訊息與群組聊天，並沿用 DSH 已設定的模型。",
-   "why": "想試多個 bot 分工、互相傳訊，可在 DSH 裡直接安裝 ds-bot 玩玩看。",
-   "url": "https://github.com/Fei2411/DeepSeek-Bot",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 2323,
-   "score": 80,
-   "scores": [
-    80,
-    80
-   ],
-   "originalTitle": "Fei2411/DeepSeek-Bot",
-   "related": []
-  },
-  {
-   "title": "WeChat 也能遙控 DSH",
-   "summary": "dsh-wechat 是 DSH 的 WeChat 外掛，在手機傳訊息就能讓電腦上的 DSH agent 工作，不需公開 IP。",
-   "why": "不在電腦前也能用手機叫 DSH 做事、收發檔案，還能遠端回覆權限詢問。",
-   "url": "https://github.com/xcisxc29/dsh-wechat",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 215,
-   "score": 80,
-   "scores": [
-    78,
-    82
-   ],
-   "originalTitle": "xcisxc29/dsh-wechat",
-   "related": []
-  },
-  {
-   "title": "DeepSeek v4.1 Flash 上架",
-   "summary": "OpenRouter 出現 DeepSeek v4.1 Flash 1017 的模型頁面，在 Hacker News 獲得 389 分、177 則留言。",
-   "why": "做 Discord 機器人想換模型時，可以到 OpenRouter 頁面查看詳情。",
-   "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-   "comments": "https://news.ycombinator.com/item?id=50129121",
-   "source": "Hacker News",
-   "alsoFrom": [
-    "Hacker News"
-   ],
-   "stars": null,
-   "score": 79,
-   "scores": [
-    80,
-    78
-   ],
-   "originalTitle": "DeepSeek: DeepSeek v4.1 Flash 1017",
-   "related": [
-    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-   ]
-  },
-  {
-   "title": "Zen Gate 串接免費模型",
-   "summary": "本機網關，把 OpenCode Zen 免費模型轉成 OpenAI/Anthropic 相容介面，自動接入多款 Agent。",
-   "why": "想用免費模型接 Aider、Claude Code 等工具的人，可看它怎麼設定。",
-   "url": "https://github.com/LAGcomcom/zen-gate",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 152,
-   "score": 78,
-   "scores": [
-    78,
-    78
-   ],
-   "originalTitle": "LAGcomcom/zen-gate",
-   "related": []
-  },
-  {
-   "title": "dsh-ops 省 Token 插件",
-   "summary": "Rust 寫的 DSH 底層工具插件 dsh-ops，主打省 Token 與時間，Windows 另有 ops_bash 可用。",
-   "why": "在 Windows 上用 DSH 常被 PowerShell 報錯卡住，可試試 ops_bash。",
-   "url": "https://github.com/T-Auto/dsh-ops",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 2727,
-   "score": 73,
-   "scores": [
-    73,
-    73
-   ],
-   "originalTitle": "T-Auto/dsh-ops",
-   "related": []
-  },
-  {
-   "title": "FLUX 3 Image Klein",
-   "summary": "bfl.ai 部落格 10/16 發布 FLUX 3 Image Klein，在 Hacker News 上有 184 分、52 則留言。",
-   "why": "做 AI 繪圖的話，可先看原文確認規格與用法，再決定要不要試。",
-   "url": "https://bfl.ai/blog/flux-3-image-klein",
-   "comments": "https://news.ycombinator.com/item?id=50123580",
-   "source": "Hacker News",
-   "alsoFrom": [],
-   "stars": null,
-   "score": 71,
-   "scores": [
-    65,
-    78
-   ],
-   "originalTitle": "FLUX 3 Image Klein",
-   "related": []
-  },
-  {
-   "title": "NPCTalk 讓遊戲 NPC 開口說話",
-   "summary": "NPCTalk 是開源工具包，讓 AI 助理幫遊戲 NPC 接上 Fish Audio 語音，玩家說話後約一秒就聽到回應，附 GTA V 範例。",
-   "why": "想讓自己遊戲的角色會聊天，可參考它怎麼把語音與 AI 角色接起來。",
-   "url": "https://github.com/christos-antono/NPCTalk",
-   "source": "GitHub Agent 技能",
-   "alsoFrom": [],
-   "stars": 108,
-   "score": 70,
-   "scores": [
-    75,
-    66
-   ],
-   "originalTitle": "christos-antono/NPCTalk",
-   "related": []
-  },
-  {
-   "title": "讓 AI 代理把單機遊戲改成多人合作",
-   "summary": "coop-anything 用 MCP server 與 playbook 讓 AI 代理替單機遊戲做合作模式，朋友經 Steam 加入。",
-   "why": "想和同學玩單機遊戲，可參考它怎麼讓 AI 代理做逆向與測試。",
-   "url": "https://github.com/cranebeaker/coop-anything",
-   "source": "GitHub Agent 技能",
-   "alsoFrom": [],
-   "stars": 101,
-   "score": 70,
-   "scores": [
-    72,
-    68
-   ],
-   "originalTitle": "cranebeaker/coop-anything",
-   "related": []
-  },
-  {
-   "title": "earshot：讓 AI 聽見聲音",
-   "summary": "earshot 是開源 CPU 工具，讓 AI 程式助理能描述、比對音檔，也能用程式合成音效，支援 CLI 與 MCP server。",
-   "why": "做網頁小遊戲時，可讓 AI 檢查音效有沒有對上畫面、聽起來夠不夠質感。",
-   "url": "https://github.com/Leonxlnx/earshot",
+   "title": "用 ESP32 讓 AI 操控 iPhone",
+   "summary": "esp32-iphone-agent 用一塊 $7 的 ESP32-S3，透過 AirPlay 看畫面、USB HID 當滑鼠鍵盤，讓視覺模型操作 iPhone，免越獄。",
+   "why": "想了解 AI 怎麼看螢幕再點擊操作手機，這個 C 專案是完整範例，可接任何 OpenAI 相容模型。",
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub 新專案",
    "alsoFrom": [],
-   "stars": 559,
-   "score": 70,
+   "stars": 2965,
+   "score": 68,
    "scores": [
     75,
-    66
+    62
    ],
-   "originalTitle": "Leonxlnx/earshot",
+   "originalTitle": "onehumanbeing/esp32-iphone-agent",
    "related": []
   },
   {
-   "title": "dsh 可用的 GPT 指令包",
-   "summary": "gpt-with-taste 是 GPT 的行為指令包，支援 Codex、Claude Code 與 dsh，已有 348 星。",
-   "why": "用 dsh 寫程式時，可照 docs/harnesses/dsh.md 裝上，讓 AI 少囉嗦、多做決定。",
-   "url": "https://github.com/NB-Corp/gpt-with-taste",
+   "title": "DSH 外掛把推理等級改成滑條",
+   "summary": "dsh-codex-effort-slider 把 DSH 模型選單的推理等級改成可拖動滑條，高檔位有紫色星塵特效，動畫有三種可選。",
+   "why": "下載後雙擊 preview/panel.html 就能先試玩，不必先安裝。",
+   "url": "https://github.com/Microqian2th/dsh-codex-effort-slider",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 348,
-   "score": 69,
+   "stars": 148,
+   "score": 68,
    "scores": [
-    70,
-    68
+    65,
+    71
    ],
-   "originalTitle": "NB-Corp/gpt-with-taste",
+   "originalTitle": "Microqian2th/dsh-codex-effort-slider",
+   "related": []
+  },
+  {
+   "title": "Magpie 插件接入免費模型池",
+   "summary": "第三方 Magpie 插件把 Our Free Model 的免費模型池、EAC 授權與多帳號渠道接進 Magpie，會自動管理服務。",
+   "why": "用 Magpie 的話，可直接選免費模型給 Agent，遠端也能用臨時網址管理。",
+   "url": "https://github.com/mu-zi-lee/magpie-our-free-model",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 234,
+   "score": 67,
+   "scores": [
+    63,
+    72
+   ],
+   "originalTitle": "mu-zi-lee/magpie-our-free-model",
+   "related": []
+  },
+  {
+   "title": "開源專案還原Claude桌面版UI",
+   "summary": "open-claude-ui 是還原 Claude 桌面端介面的 TypeScript 專案，含 30 個 React 組件，已獲 1102 星。",
+   "why": "可參考它的彈簧動畫與輸入法合成防誤送做法，把自己的聊天介面做得更順。",
+   "url": "https://github.com/Caho1/open-claude-ui",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 1102,
+   "score": 67,
+   "scores": [
+    65,
+    70
+   ],
+   "originalTitle": "Caho1/open-claude-ui",
    "related": []
   }
  ],
@@ -272,17 +170,19 @@
     "error": null
    }
   ],
-  "candidates": 60,
-  "prefilterPass": 55,
-  "scored": 55,
-  "picked": 10,
+  "candidates": 50,
+  "prefilterPass": 45,
+  "scored": 45,
+  "picked": 4,
   "llm": {
-   "calls": 2,
-   "failures": 0,
+   "calls": 9,
+   "failures": 1,
    "byRoute": {
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 2
+    "owob:deepseek-free": 2,
+    "owob:glm-5.3-flash": 1,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 5
    },
-   "tokens": 4884
+   "tokens": 17673
   }
  }
 }

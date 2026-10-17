@@ -946,5 +946,52 @@
    "why": "用 dsh 寫程式時，可照 docs/harnesses/dsh.md 裝上，讓 AI 少囉嗦、多做決定。"
   },
   "at": "2026-10-17T14:38:26.132Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/0xProbabillity/house-control": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 Mac/iOS 專案，支援 MCP 與 AI 操控，屬開發工具"
+  },
+  "at": "2026-10-17T15:04:09.590Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/0xProbabillity/house-control": {
+  "v": 38,
+  "at": "2026-10-17T15:04:16.596Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/0xProbabillity/house-control": {
+  "v": 47,
+  "at": "2026-10-17T15:04:47.272Z"
+ },
+ "write:2d964375:claude:https://github.com/onehumanbeing/esp32-iphone-agent": {
+  "v": {
+   "title": "用 ESP32 讓 AI 操控 iPhone",
+   "summary": "esp32-iphone-agent 用一塊 $7 的 ESP32-S3，透過 AirPlay 看畫面、USB HID 當滑鼠鍵盤，讓視覺模型操作 iPhone，免越獄。",
+   "why": "想了解 AI 怎麼看螢幕再點擊操作手機，這個 C 專案是完整範例，可接任何 OpenAI 相容模型。"
+  },
+  "at": "2026-10-17T15:04:57.026Z"
+ },
+ "write:2d964375:claude:https://github.com/mu-zi-lee/magpie-our-free-model": {
+  "v": {
+   "title": "Magpie 插件接入免費模型池",
+   "summary": "第三方 Magpie 插件把 Our Free Model 的免費模型池、EAC 授權與多帳號渠道接進 Magpie，會自動管理服務。",
+   "why": "用 Magpie 的話，可直接選免費模型給 Agent，遠端也能用臨時網址管理。"
+  },
+  "at": "2026-10-17T15:05:00.105Z"
+ },
+ "write:2d964375:claude:https://github.com/Caho1/open-claude-ui": {
+  "v": {
+   "title": "開源專案還原Claude桌面版UI",
+   "summary": "open-claude-ui 是還原 Claude 桌面端介面的 TypeScript 專案，含 30 個 React 組件，已獲 1102 星。",
+   "why": "可參考它的彈簧動畫與輸入法合成防誤送做法，把自己的聊天介面做得更順。"
+  },
+  "at": "2026-10-17T15:05:02.279Z"
+ },
+ "write:2d964375:claude:https://github.com/Microqian2th/dsh-codex-effort-slider": {
+  "v": {
+   "title": "DSH 外掛把推理等級改成滑條",
+   "summary": "dsh-codex-effort-slider 把 DSH 模型選單的推理等級改成可拖動滑條，高檔位有紫色星塵特效，動畫有三種可選。",
+   "why": "下載後雙擊 preview/panel.html 就能先試玩，不必先安裝。"
+  },
+  "at": "2026-10-17T15:05:13.207Z"
  }
 }
