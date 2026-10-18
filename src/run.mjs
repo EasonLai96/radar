@@ -7,6 +7,7 @@ import crypto from 'node:crypto';
 import { collect, isSpam } from './sources.mjs';
 import { call, stats } from './llm.mjs';
 import { render } from './output.mjs';
+import { material } from './material.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const args = process.argv.slice(2);
@@ -27,10 +28,6 @@ async function pool(items, n, fn) {
   return out;
 }
 
-function material(it) {
-  const meta = it.kind === 'github' ? `GitHub repo｜★${it.stars}｜語言 ${it.language || '未知'}｜建立 ${it.publishedAt?.slice(0, 10)}${it.topics?.length ? '｜主題 ' + it.topics.slice(0, 6).join(', ') : ''}` : `來源 ${it.sourceName}${it.sourceId === "hn" ? "（Hacker News 首頁熱門，150 分以上）" : ""}｜發布 ${it.publishedAt?.slice(0, 10) || "未知"}`;
-  return `<材料>\n標題：${it.title}\n${meta}\n網址：${it.url}\n內文：${it.body || '（無）'}\n</材料>`;
-}
 
 const today = new Intl.DateTimeFormat('sv-SE', { timeZone: cfg.timezone }).format(new Date());
 const now = Date.now();
@@ -127,7 +124,9 @@ const report = {
   stats: { sources: sourceReport, candidates: candidates.length, prefilterPass: passed.length, scored: passed.filter(p => p.score != null).length, picked: picked.length, llm: stats },
 };
 // 完整判斷紀錄：之後校準門檻用（AIHOT：先改標準、再動門檻）
-const audit = candidates.map(it => ({ title: it.title, url: it.url, source: it.sourceName, prefilter: it.prefilter, scores: it.scores || null, score: it.score ?? null, picked: picked.includes(it), mergedInto: null }));
+// 連同材料一起存，evolve 才能用新提示詞重評同一批東西
+const audit = candidates.map(it => ({ title: it.title, url: it.url, source: it.sourceName, sourceId: it.sourceId, kind: it.kind, stars: it.stars ?? null, language: it.language ?? null, topics: it.topics ?? null, publishedAt: it.publishedAt, body: (it.body || '').slice(0, 1500), prefilter: it.prefilter, scores: it.scores || null, score: it.score ?? null, picked: picked.includes(it), promptVersion: ver.score }));
+for (const f of fs.existsSync(ROOT + 'audit') ? fs.readdirSync(ROOT + 'audit') : []) if (now - Date.parse(f.slice(0, 10)) > 60 * 864e5) fs.rmSync(ROOT + 'audit/' + f);
 fs.mkdirSync(ROOT + 'daily', { recursive: true }); fs.mkdirSync(ROOT + 'audit', { recursive: true });
 fs.writeFileSync(ROOT + `daily/${today}.md`, render(report));
 writeJson('latest.json', report);

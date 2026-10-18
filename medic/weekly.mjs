@@ -41,6 +41,15 @@ for (const [relay, { base, keyRef }] of Object.entries(models.relays)) {
   else problems.push(`⚠️ ${relay} 所有路線都不能用：${result?.status ? 'HTTP ' + result.status + ' ' + result.body : result?.error || '未知'}`);
 }
 
+// 2.5 Discord bot（讀表情用）還有沒有效
+if (process.env.DISCORD_BOT_TOKEN) {
+  try {
+    const r = await fetch('https://discord.com/api/v10/users/@me', { headers: { Authorization: 'Bot ' + process.env.DISCORD_BOT_TOKEN, 'User-Agent': 'DiscordBot (radar, 0.1)' } });
+    if (r.ok) ok.push(`Discord bot 正常（${(await r.json()).username}）`);
+    else problems.push(`🤖 **Discord bot token 失效**（HTTP ${r.status}），讀不到你的 👍👎，自我迭代只剩熱度可看。請重設 token 後跟 AI 說幫你更新`);
+  } catch (e) { problems.push('Discord bot 檢查失敗：' + e.message); }
+} else problems.push('🤖 GitHub Secrets 裡沒有 DISCORD_BOT_TOKEN，自我迭代讀不到你的 👍👎');
+
 // 3. Discord webhook 還在不在（GET 只讀資訊，不會發訊息）
 try {
   const r = await fetch(DISCORD_WEBHOOK_URL);

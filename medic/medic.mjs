@@ -9,7 +9,7 @@ const API = `https://api.github.com/repos/${REPO}`;
 const H = { Authorization: 'Bearer ' + GITHUB_TOKEN, 'User-Agent': 'radar-medic', Accept: 'application/vnd.github+json' };
 const SEND = RUN_EVENT === 'schedule';           // 原本是排程的才代發早報；手動測試的不發
 const MAX_ROUNDS = 2;                            // 修了還是壞，最多再修一輪
-const ALLOW = /^(src\/[\w.-]+\.mjs|prompts\/[\w.-]+\.md|config\.json|models\.json)$/;   // medic/、.github/、state/ 一律不准改
+const ALLOW = /^(src\/[\w.-]+\.mjs|evolve\/[\w.-]+\.mjs|prompts\/[\w.-]+\.md|config\.json|models\.json)$/;   // medic/、.github/、state/ 一律不准改
 
 // 修復用的模型：都是從 GitHub 機房連得到的線路（wtf 會被 Cloudflare 擋）
 const RELAYS = { owob: ['https://ai.owob.dev/v1', 'GPT_API_KEY'], avianjay: ['https://gayaicpa.avianjay.sbs/v1', 'CLAUDE_API_KEY'] };

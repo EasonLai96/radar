@@ -1,0 +1,49 @@
+name: 自我迭代
+
+# 每週日晚上收集回饋 → 提出修改 → 用過去的候選重評 → 確實變好才開 PR 給你合併
+on:
+  schedule:
+    - cron: "0 13 * * 0"   # 每週日 21:00（台灣時間）
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "只看回饋和提案，不重評、不開 PR"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      WTFISTHIS_API_KEY: ${{ secrets.WTFISTHIS_API_KEY }}
+      GPT_API_KEY: ${{ secrets.GPT_API_KEY }}
+      CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+      DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      TZ: Asia/Taipei
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 迭代
+        run: node evolve/evolve.mjs ${{ inputs.dry && '--dry' || '' }}
+      - name: 存回回饋與迭代紀錄
+        if: always()
+        run: |
+          git checkout -q main
+          git config user.name "radar-evolve"
+          git config user.email "radar-evolve@users.noreply.github.com"
+          git add state/feedback.json state/evolve-history.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -qm "迭代紀錄 $(date +%F)"
+          git pull -q --rebase --autostash origin main && git push -q origin main

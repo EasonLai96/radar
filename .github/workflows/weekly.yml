@@ -24,6 +24,7 @@ jobs:
       GPT_API_KEY: ${{ secrets.GPT_API_KEY }}
       CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
       FORCE_NOTIFY: ${{ inputs.notify }}
     steps:
       - uses: actions/checkout@v4

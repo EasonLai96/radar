@@ -36,20 +36,24 @@ export function discordPayloads(r) {
     color: it.score >= 80 ? 0xf5a524 : it.score >= 72 ? 0x4d6bfe : 0x6b7280,
     footer: { text: cut(`${it.source}${it.stars != null ? ` · ★${it.stars}` : ''} · ${host(it.url)} · ${it.score} 分`, 200) },
   }));
-  // webhook 一則最多 10 個 embed、總字數 6000：每 5 則一批最安全
-  const out = [];
-  for (let i = 0; i < Math.max(embeds.length, 1); i += 5) out.push({ username: r.siteName, content: i === 0 ? head : undefined, embeds: embeds.slice(i, i + 5), allowed_mentions: { parse: [] } });
+  // 每則新聞單獨一則訊息：表情是按在「訊息」上，一則一個訊息才能知道你在評哪一則
+  const out = [{ username: r.siteName, content: head + (embeds.length ? '\n-# 覺得好就按 👍，不想看到這類就按 👎，雷達會照著調整' : ''), embeds: [], allowed_mentions: { parse: [] } }];
+  for (const e of embeds) out.push({ username: r.siteName, embeds: [e], allowed_mentions: { parse: [] } });
   return out;
 }
 
+// 回傳每則早報條目對應的 Discord 訊息 id（讓之後能讀表情回饋）
 export async function sendDiscord(hook, r) {
-  for (const body of discordPayloads(r)) {
+  const sent = [];
+  const payloads = discordPayloads(r);
+  for (const [bi, body] of payloads.entries()) {
     for (let attempt = 0; attempt < 3; attempt++) {
       const res = await fetch(hook + (hook.includes('?') ? '&' : '?') + 'wait=true', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
-      if (res.ok) break;
+      if (res.ok) { const m = await res.json().catch(() => ({})); if (bi > 0) sent.push({ messageId: m.id, channelId: m.channel_id, url: r.items[bi - 1].url }); break; }
       if (res.status === 429) { const j = await res.json().catch(() => ({})); await new Promise(z => setTimeout(z, ((j.retry_after || 2) * 1000) + 200)); continue; }
       throw new Error(`Discord ${res.status} ${(await res.text()).slice(0, 200)}`);
     }
-    await new Promise(z => setTimeout(z, 800));
+    await new Promise(z => setTimeout(z, 600));
   }
+  return sent;
 }

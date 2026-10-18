@@ -9,7 +9,13 @@ export async function send() {
   const hook = process.env.DISCORD_WEBHOOK_URL;
   if (!hook) throw new Error('沒有 DISCORD_WEBHOOK_URL，不發送');
   const report = JSON.parse(fs.readFileSync(ROOT + 'latest.json', 'utf8'));
-  await sendDiscord(hook, report);
+  const sent = await sendDiscord(hook, report);
+  // 記下每則新聞的訊息 id，給 evolve 讀表情回饋用
+  let msgs = {};
+  try { msgs = JSON.parse(fs.readFileSync(ROOT + 'state/messages.json', 'utf8')); } catch {}
+  for (const s of sent) { const it = report.items.find(i => i.url === s.url); msgs[s.messageId] = { ...s, date: report.date, title: it?.originalTitle, source: it?.source, score: it?.score }; }
+  for (const [id, m] of Object.entries(msgs)) if (Date.now() - Date.parse(m.date) > 60 * 864e5) delete msgs[id];
+  fs.writeFileSync(ROOT + 'state/messages.json', JSON.stringify(msgs, null, 1) + '\n');
   let seen = {};
   try { seen = JSON.parse(fs.readFileSync(ROOT + 'state/seen.json', 'utf8')); } catch {}
   const now = new Date().toISOString();
