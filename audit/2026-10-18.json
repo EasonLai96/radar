@@ -1,0 +1,794 @@
+[
+ {
+  "title": "jhaizhou-ops/d2r-mobile",
+  "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源遊戲移植相容層，與遊戲開發相關"
+  },
+  "scores": [
+   67,
+   55
+  ],
+  "score": 61,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "T-Auto/dsh-ops",
+  "url": "https://github.com/T-Auto/dsh-ops",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 底層工具插件，直接關乎 Token 效率與 Agent 開發"
+  },
+  "scores": [
+   73,
+   73
+  ],
+  "score": 73,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "cranebeaker/coop-anything",
+  "url": "https://github.com/cranebeaker/coop-anything",
+  "source": "GitHub Agent 技能",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent 改造單機遊戲成合作模式，含 MCP 與技能，開發工具相關"
+  },
+  "scores": [
+   72,
+   68
+  ],
+  "score": 70,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "OpenCode Hacked: User credentials leaked",
+  "url": "https://twitter.com/opencode/status/2111516673953935833",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenCode 為 coding agent 工具，憑證外洩屬開發工具資安事件"
+  },
+  "scores": [
+   41,
+   55
+  ],
+  "score": 48,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+  "url": "https://simonwillison.net/2026/Oct/16/code-review",
+  "source": "Simon Willison",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "coding agent 融入 code review 流程，與開發工具實質相關"
+  },
+  "scores": [
+   58,
+   45
+  ],
+  "score": 51,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "[AINews] High Taste Testers Ep. 1",
+  "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+  "source": "Latent Space",
+  "prefilter": {
+   "label": "UNKNOWN",
+   "reason": "僅節目開播預告，無實質技術內容"
+  },
+  "scores": [
+   15,
+   18
+  ],
+  "score": 16,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "HeyPuter/everything",
+  "url": "https://github.com/HeyPuter/everything",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源軟體重製專案，與開發工具相關"
+  },
+  "scores": [
+   55,
+   57
+  ],
+  "score": 56,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Fei2411/DeepSeek-Bot",
+  "url": "https://github.com/Fei2411/DeepSeek-Bot",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 機器人外掛，多代理與群組聊天，開發直接相關"
+  },
+  "scores": [
+   80,
+   80
+  ],
+  "score": 80,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "christos-antono/NPCTalk",
+  "url": "https://github.com/christos-antono/NPCTalk",
+  "source": "GitHub Agent 技能",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Agent Skills、MCP 與遊戲模改工具，符合開發主題"
+  },
+  "scores": [
+   75,
+   66
+  ],
+  "score": 70,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "Gold is now the top U.S. export",
+  "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "黃金出口財經新聞，與AI及開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "ahwootech/BRUTAL",
+  "url": "https://github.com/ahwootech/BRUTAL",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 C# 遊戲引擎框架，與遊戲開發相關"
+  },
+  "scores": [
+   58,
+   56
+  ],
+  "score": 57,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "NB-Corp/gpt-with-taste",
+  "url": "https://github.com/NB-Corp/gpt-with-taste",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "coding agent 指令與 harness 整合工具"
+  },
+  "scores": [
+   70,
+   68
+  ],
+  "score": 69,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "tinyhumansai/openscion",
+  "url": "https://github.com/tinyhumansai/openscion",
+  "source": "GitHub Agent 技能",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源版本控制系統，面向 AI agent 與 CI 的開發工具"
+  },
+  "scores": [
+   38,
+   39
+  ],
+  "score": 38,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Pele – Mermaid diagrams as themeable SVG",
+  "url": "https://pele.run",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Mermaid 圖表轉 SVG 開發工具,與前端開發相關"
+  },
+  "scores": [
+   50,
+   42
+  ],
+  "score": 46,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "deeplethe/solid-glass",
+  "url": "https://github.com/deeplethe/solid-glass",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 應用設計系統，前端開發相關"
+  },
+  "scores": [
+   63,
+   58
+  ],
+  "score": 60,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "xcisxc29/dsh-wechat",
+  "url": "https://github.com/xcisxc29/dsh-wechat",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 微信遠端控制插件，與開發工具直接相關"
+  },
+  "scores": [
+   78,
+   82
+  ],
+  "score": 80,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "Solar surpasses nuclear power globally for first time",
+  "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "太陽能發電新聞，與AI或開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "chenglou/handwired",
+  "url": "https://github.com/chenglou/handwired",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "JS轉可微分神經網路開源專案，與AI及開發工具相關"
+  },
+  "scores": [
+   68,
+   53
+  ],
+  "score": 60,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "savinglighting/dsh-sd-bridge-guard",
+  "url": "https://github.com/savinglighting/dsh-sd-bridge-guard",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "主打無限制生圖與違禁詞注入，涉 NSFW 規避"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Making chicken transparent using Dorito dust",
+  "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "食物科學實驗，與AI及開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Supermedo/uncharted_pc",
+  "url": "https://github.com/Supermedo/uncharted_pc",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 C++ 遊戲移植專案，技術類"
+  },
+  "scores": [
+   52,
+   55
+  ],
+  "score": 53,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "honwee/mynah",
+  "url": "https://github.com/honwee/mynah",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源數位人與語音對話自架專案，屬AI開發工具"
+  },
+  "scores": [
+   49,
+   48
+  ],
+  "score": 48,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "DeepSeek-v4.1-Flash-1017",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "新模型發布，與 AI 模型可用性直接相關"
+  },
+  "scores": [
+   81,
+   78
+  ],
+  "score": 79,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "feder-cr/git-ai",
+  "url": "https://github.com/feder-cr/git-ai",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源版 AI agent 專用 Git 版本控制工具"
+  },
+  "scores": [
+   48,
+   58
+  ],
+  "score": 53,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "openbin-ai/binny",
+  "url": "https://github.com/openbin-ai/binny",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源逆向工程 agent harness，可接任意模型與本地模型"
+  },
+  "scores": [
+   49,
+   48
+  ],
+  "score": 48,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+  "url": "https://llmspeed.dev",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "本地 LLM 推論速度測試工具，屬 AI 模型與開發工具"
+  },
+  "scores": [
+   56,
+   55
+  ],
+  "score": 55,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "zhuyansen/new-term-radar",
+  "url": "https://github.com/zhuyansen/new-term-radar",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 新詞雷達開源工具，涉 agent skill 與開發"
+  },
+  "scores": [
+   60,
+   49
+  ],
+  "score": 54,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Shyboy0499/antibody",
+  "url": "https://github.com/Shyboy0499/antibody",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "coding agent 共享修復的 MCP 開源工具"
+  },
+  "scores": [
+   54,
+   52
+  ],
+  "score": 53,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Source code of the Estonian online voting system",
+  "url": "https://github.com/valimised/ivxv",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "愛沙尼亞線上投票系統開源程式碼,屬開源專案"
+  },
+  "scores": [
+   40,
+   28
+  ],
+  "score": 34,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "AjncSystem/ShadowOfTheColossus-PC",
+  "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "PS4遊戲原生移植開源專案，技術含量高"
+  },
+  "scores": [
+   56,
+   45
+  ],
+  "score": 50,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "dieqiyun/uni-switch",
+  "url": "https://github.com/dieqiyun/uni-switch",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Codex/Claude Code API 配置開源工具，相關"
+  },
+  "scores": [
+   50,
+   58
+  ],
+  "score": 54,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Dam removals are bringing fish back across the northeastern United States",
+  "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "水壩拆除與生態環境新聞，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "outcrawlai/scout",
+  "url": "https://github.com/outcrawlai/scout",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源瀏覽器 AI agent，符合開發工具"
+  },
+  "scores": [
+   67,
+   60
+  ],
+  "score": 63,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "YOU-SHOULD-KNOW-ME/antigrative-dashboard",
+  "url": "https://github.com/YOU-SHOULD-KNOW-ME/antigrative-dashboard",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "IDE開發工具插件，追蹤token用量與配額"
+  },
+  "scores": [
+   40,
+   47
+  ],
+  "score": 43,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Bleached corals thrive within days when touching healthy neighbour",
+  "url": "https://www.nature.com/articles/d41586-026-03266-x",
+  "source": "Hacker News",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "珊瑚生態研究,與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "CoolkHz/gptibo",
+  "url": "https://github.com/CoolkHz/gptibo",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "自托管商城開源專案，前後端可自建二次開發"
+  },
+  "scores": [
+   58,
+   44
+  ],
+  "score": 51,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "evolvent-ai/RSIGym",
+  "url": "https://github.com/evolvent-ai/RSIGym",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent 自我改進研究環境,與 Agent 開發相關"
+  },
+  "scores": [
+   35,
+   31
+  ],
+  "score": 33,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "rohit267/net-merge",
+  "url": "https://github.com/rohit267/net-merge",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源網速聚合工具，開發者下載實用"
+  },
+  "scores": [
+   67,
+   45
+  ],
+  "score": 56,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "yi-yezhiqiu/dsh-prompt-market",
+  "url": "https://github.com/yi-yezhiqiu/dsh-prompt-market",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH提示词市场插件，属Agent开发工具"
+  },
+  "scores": [
+   71,
+   71
+  ],
+  "score": 71,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "xscreensaver-official/xscreensaver",
+  "url": "https://github.com/xscreensaver-official/xscreensaver",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "名稱搶註的假 repo,無程式碼與開發實質內容"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "c1overzz/dsh-bili-scroll",
+  "url": "https://github.com/c1overzz/dsh-bili-scroll",
+  "source": "GitHub DSH 生態",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 插件開發，與 coding agent 技能生態實質相關"
+  },
+  "scores": [
+   69,
+   68
+  ],
+  "score": 68,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "Leonxlnx/earshot",
+  "url": "https://github.com/Leonxlnx/earshot",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "MCP 音訊工具，coding agent 相關"
+  },
+  "scores": [
+   75,
+   66
+  ],
+  "score": 70,
+  "picked": true,
+  "mergedInto": null
+ },
+ {
+  "title": "Zfinix/eleven",
+  "url": "https://github.com/Zfinix/eleven",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "agent+MCP 開源逆向工具，開發相關"
+  },
+  "scores": [
+   58,
+   47
+  ],
+  "score": 52,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "threerocks/sweety-handdraw-video",
+  "url": "https://github.com/threerocks/sweety-handdraw-video",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent skill 做手繪影片，開源開發工具"
+  },
+  "scores": [
+   60,
+   66
+  ],
+  "score": 63,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "MyLuxy/overdrive",
+  "url": "https://github.com/MyLuxy/overdrive",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "PS5 homebrew 開源專案，屬遊戲開發工具"
+  },
+  "scores": [
+   37,
+   40
+  ],
+  "score": 38,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "anujasid/blender-ai-mcp-addon",
+  "url": "https://github.com/anujasid/blender-ai-mcp-addon",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender MCP 外掛，AI 代理與 3D 工具整合"
+  },
+  "scores": [
+   45,
+   68
+  ],
+  "score": 56,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "overdriveps5/overdrive-releases",
+  "url": "https://github.com/overdriveps5/overdrive-releases",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "PS5越獄遊戲商店，非開發相關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "datalab-to/indra",
+  "url": "https://github.com/datalab-to/indra",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "CPU OCR 開源模型，文件解析與 PDF 轉 Markdown 工具"
+  },
+  "scores": [
+   66,
+   70
+  ],
+  "score": 68,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "Tencent-Hunyuan/Hy-Memory",
+  "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "騰訊開源LLM Agent記憶引擎與SDK，與coding agent開發實質相關"
+  },
+  "scores": [
+   62,
+   59
+  ],
+  "score": 60,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "0xProbabillity/house-control",
+  "url": "https://github.com/0xProbabillity/house-control",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Mac/iOS 專案，支援 MCP 與 AI 操控，屬開發工具"
+  },
+  "scores": [
+   38,
+   47
+  ],
+  "score": 42,
+  "picked": false,
+  "mergedInto": null
+ },
+ {
+  "title": "yeyuxin777/baoyan-agent-benchmark",
+  "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark",
+  "source": "GitHub 新專案",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI Agent 評測基準開源專案，與 coding agent 相關"
+  },
+  "scores": [
+   38,
+   28
+  ],
+  "score": 33,
+  "picked": false,
+  "mergedInto": null
+ }
+]

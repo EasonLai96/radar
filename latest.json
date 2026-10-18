@@ -1,6 +1,6 @@
 {
- "date": "2026-10-17",
- "generatedAt": "2026-10-17T15:28:40.269Z",
+ "date": "2026-10-18",
+ "generatedAt": "2026-10-18T01:19:10.782Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -17,7 +17,7 @@
    "url": "https://github.com/Fei2411/DeepSeek-Bot",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 2334,
+   "stars": 2373,
    "score": 80,
    "scores": [
     80,
@@ -43,38 +43,20 @@
    "related": []
   },
   {
-   "title": "DeepSeek v4.1 Flash 上架",
-   "summary": "OpenRouter 出現 DeepSeek v4.1 Flash 1017 的模型頁面，在 Hacker News 獲得 389 分、177 則留言。",
-   "why": "做 Discord 機器人想換模型時，可以到 OpenRouter 頁面查看詳情。",
-   "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-   "comments": "https://news.ycombinator.com/item?id=50129121",
+   "title": "DeepSeek 上架 V4.1",
+   "summary": "DeepSeek 在 Hugging Face 放出 DeepSeek-V4.1-Flash-1017，Hacker News 上有 294 分、114 則留言。材料沒有附規格或跑分。",
+   "why": "先看模型頁的說明與授權，再評估能不能接進你的 Discord 機器人。",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "comments": "https://news.ycombinator.com/item?id=50129045",
    "source": "Hacker News",
    "alsoFrom": [],
    "stars": null,
    "score": 79,
    "scores": [
-    80,
+    81,
     78
    ],
-   "originalTitle": "DeepSeek: DeepSeek v4.1 Flash 1017",
-   "related": [
-    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-   ]
-  },
-  {
-   "title": "Zen Gate 串接免費模型",
-   "summary": "本機網關，把 OpenCode Zen 免費模型轉成 OpenAI/Anthropic 相容介面，自動接入多款 Agent。",
-   "why": "想用免費模型接 Aider、Claude Code 等工具的人，可看它怎麼設定。",
-   "url": "https://github.com/LAGcomcom/zen-gate",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 156,
-   "score": 78,
-   "scores": [
-    78,
-    78
-   ],
-   "originalTitle": "LAGcomcom/zen-gate",
+   "originalTitle": "DeepSeek-v4.1-Flash-1017",
    "related": []
   },
   {
@@ -84,7 +66,7 @@
    "url": "https://github.com/T-Auto/dsh-ops",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 2756,
+   "stars": 2821,
    "score": 73,
    "scores": [
     73,
@@ -94,36 +76,19 @@
    "related": []
   },
   {
-   "title": "FLUX 3 Image Klein",
-   "summary": "bfl.ai 部落格 10/16 發布 FLUX 3 Image Klein，在 Hacker News 上有 184 分、52 則留言。",
-   "why": "做 AI 繪圖的話，可先看原文確認規格與用法，再決定要不要試。",
-   "url": "https://bfl.ai/blog/flux-3-image-klein",
-   "comments": "https://news.ycombinator.com/item?id=50123580",
-   "source": "Hacker News",
+   "title": "DSH 提示詞市場插件上線，一鍵插入",
+   "summary": "dsh-prompt-market 是 DSH 的提示詞市場插件，內建三個來源共 2527 條，可在輸入框旁搜尋、收藏，選中就寫入輸入框。零後端、免構建，資料只存本機。",
+   "why": "寫程式或畫圖時不用再翻書籤找提示詞，點一下就插入，還能 Ctrl+Z 撤銷。",
+   "url": "https://github.com/yi-yezhiqiu/dsh-prompt-market",
+   "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": null,
+   "stars": 105,
    "score": 71,
    "scores": [
-    65,
-    78
+    71,
+    71
    ],
-   "originalTitle": "FLUX 3 Image Klein",
-   "related": []
-  },
-  {
-   "title": "NPCTalk 讓遊戲 NPC 開口說話",
-   "summary": "NPCTalk 是開源工具包，讓 AI 助理幫遊戲 NPC 接上 Fish Audio 語音，玩家說話後約一秒就聽到回應，附 GTA V 範例。",
-   "why": "想讓自己遊戲的角色會聊天，可參考它怎麼把語音與 AI 角色接起來。",
-   "url": "https://github.com/christos-antono/NPCTalk",
-   "source": "GitHub Agent 技能",
-   "alsoFrom": [],
-   "stars": 109,
-   "score": 70,
-   "scores": [
-    75,
-    66
-   ],
-   "originalTitle": "christos-antono/NPCTalk",
+   "originalTitle": "yi-yezhiqiu/dsh-prompt-market",
    "related": []
   },
   {
@@ -133,7 +98,7 @@
    "url": "https://github.com/cranebeaker/coop-anything",
    "source": "GitHub Agent 技能",
    "alsoFrom": [],
-   "stars": 102,
+   "stars": 176,
    "score": 70,
    "scores": [
     72,
@@ -143,13 +108,29 @@
    "related": []
   },
   {
+   "title": "NPCTalk 讓遊戲 NPC 開口說話",
+   "summary": "NPCTalk 是開源工具包，讓 AI 助理幫遊戲 NPC 接上 Fish Audio 語音，玩家說話後約一秒就聽到回應，附 GTA V 範例。",
+   "why": "想讓自己遊戲的角色會聊天，可參考它怎麼把語音與 AI 角色接起來。",
+   "url": "https://github.com/christos-antono/NPCTalk",
+   "source": "GitHub Agent 技能",
+   "alsoFrom": [],
+   "stars": 120,
+   "score": 70,
+   "scores": [
+    75,
+    66
+   ],
+   "originalTitle": "christos-antono/NPCTalk",
+   "related": []
+  },
+  {
    "title": "earshot：讓 AI 聽見聲音",
    "summary": "earshot 是開源 CPU 工具，讓 AI 程式助理能描述、比對音檔，也能用程式合成音效，支援 CLI 與 MCP server。",
    "why": "做網頁小遊戲時，可讓 AI 檢查音效有沒有對上畫面、聽起來夠不夠質感。",
    "url": "https://github.com/Leonxlnx/earshot",
    "source": "GitHub 新專案",
    "alsoFrom": [],
-   "stars": 586,
+   "stars": 685,
    "score": 70,
    "scores": [
     75,
@@ -165,13 +146,29 @@
    "url": "https://github.com/NB-Corp/gpt-with-taste",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 349,
+   "stars": 352,
    "score": 69,
    "scores": [
     70,
     68
    ],
    "originalTitle": "NB-Corp/gpt-with-taste",
+   "related": []
+  },
+  {
+   "title": "DSH 插件每天替你刷 B站日報",
+   "summary": "dsh-bili-scroll 會每天搜 B站、讀字幕原文挑出值得的影片寫成日報，特別值得的留言 @ 你。",
+   "why": "想做自動追蹤影片主題的工具時，可參考它「讀字幕再判斷」的做法。",
+   "url": "https://github.com/c1overzz/dsh-bili-scroll",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 92,
+   "score": 68,
+   "scores": [
+    69,
+    68
+   ],
+   "originalTitle": "c1overzz/dsh-bili-scroll",
    "related": []
   }
  ],
@@ -224,13 +221,13 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 5,
+    "count": 4,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 11,
+    "count": 10,
     "error": null
    },
    {
@@ -248,7 +245,7 @@
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 1,
+    "count": 0,
     "error": null
    },
    {
@@ -260,7 +257,7 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 1,
+    "count": 0,
     "error": null
    },
    {
@@ -270,17 +267,19 @@
     "error": null
    }
   ],
-  "candidates": 55,
-  "prefilterPass": 51,
-  "scored": 51,
+  "candidates": 51,
+  "prefilterPass": 43,
+  "scored": 43,
   "picked": 10,
   "llm": {
-   "calls": 1,
-   "failures": 0,
+   "calls": 45,
+   "failures": 12,
    "byRoute": {
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
+    "owob:deepseek-free": 29,
+    "owob:deepseek-v4.1-flash": 1,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 3
    },
-   "tokens": 1644
+   "tokens": 48577
   }
  }
 }

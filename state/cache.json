@@ -993,5 +993,183 @@
    "why": "下載後雙擊 preview/panel.html 就能先試玩，不必先安裝。"
   },
   "at": "2026-10-17T15:05:13.207Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "太陽能發電新聞，與AI或開發工具無關"
+  },
+  "at": "2026-10-18T01:18:29.409Z"
+ },
+ "prefilter:d2932bff:deepseek:https://pele.run": {
+  "v": {
+   "label": "PASS",
+   "reason": "Mermaid 圖表轉 SVG 開發工具,與前端開發相關"
+  },
+  "at": "2026-10-18T01:18:29.660Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.numismaticnews.net/gold-now-top-u-s-export": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "黃金出口財經新聞，與AI及開發無關"
+  },
+  "at": "2026-10-18T01:18:29.962Z"
+ },
+ "prefilter:d2932bff:deepseek:https://twitter.com/opencode/status/2111516673953935833": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenCode 為 coding agent 工具，憑證外洩屬開發工具資安事件"
+  },
+  "at": "2026-10-18T01:18:30.016Z"
+ },
+ "prefilter:d2932bff:deepseek:https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "食物科學實驗，與AI及開發無關"
+  },
+  "at": "2026-10-18T01:18:30.083Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/valimised/ivxv": {
+  "v": {
+   "label": "PASS",
+   "reason": "愛沙尼亞線上投票系統開源程式碼,屬開源專案"
+  },
+  "at": "2026-10-18T01:18:31.166Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/yi-yezhiqiu/dsh-prompt-market": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH提示词市场插件，属Agent开发工具"
+  },
+  "at": "2026-10-18T01:18:32.998Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/evolvent-ai/RSIGym": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI agent 自我改進研究環境,與 Agent 開發相關"
+  },
+  "at": "2026-10-18T01:18:33.232Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "水壩拆除與生態環境新聞，與開發無關"
+  },
+  "at": "2026-10-18T01:18:33.414Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.nature.com/articles/d41586-026-03266-x": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "珊瑚生態研究,與開發無關"
+  },
+  "at": "2026-10-18T01:18:33.498Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/c1overzz/dsh-bili-scroll": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 插件開發，與 coding agent 技能生態實質相關"
+  },
+  "at": "2026-10-18T01:18:33.619Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/datalab-to/indra": {
+  "v": {
+   "label": "PASS",
+   "reason": "CPU OCR 開源模型，文件解析與 PDF 轉 Markdown 工具"
+  },
+  "at": "2026-10-18T01:18:35.883Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/xscreensaver-official/xscreensaver": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "名稱搶註的假 repo,無程式碼與開發實質內容"
+  },
+  "at": "2026-10-18T01:18:36.304Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Tencent-Hunyuan/Hy-Memory": {
+  "v": {
+   "label": "PASS",
+   "reason": "騰訊開源LLM Agent記憶引擎與SDK，與coding agent開發實質相關"
+  },
+  "at": "2026-10-18T01:18:38.044Z"
+ },
+ "scoreA:118d0780:deepseek:https://pele.run": {
+  "v": 50,
+  "at": "2026-10-18T01:18:43.222Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/yi-yezhiqiu/dsh-prompt-market": {
+  "v": 71,
+  "at": "2026-10-18T01:18:43.786Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/evolvent-ai/RSIGym": {
+  "v": 35,
+  "at": "2026-10-18T01:18:44.407Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/valimised/ivxv": {
+  "v": 28,
+  "at": "2026-10-18T01:18:44.901Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/yi-yezhiqiu/dsh-prompt-market": {
+  "v": 71,
+  "at": "2026-10-18T01:18:45.613Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/valimised/ivxv": {
+  "v": 40,
+  "at": "2026-10-18T01:18:45.987Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/evolvent-ai/RSIGym": {
+  "v": 31,
+  "at": "2026-10-18T01:18:48.480Z"
+ },
+ "scoreB:118d0780:glm:https://pele.run": {
+  "v": 42,
+  "at": "2026-10-18T01:18:49.344Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/c1overzz/dsh-bili-scroll": {
+  "v": 69,
+  "at": "2026-10-18T01:18:49.654Z"
+ },
+ "scoreB:118d0780:glm:https://twitter.com/opencode/status/2111516673953935833": {
+  "v": 55,
+  "at": "2026-10-18T01:18:50.248Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/datalab-to/indra": {
+  "v": 70,
+  "at": "2026-10-18T01:18:50.423Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/c1overzz/dsh-bili-scroll": {
+  "v": 68,
+  "at": "2026-10-18T01:18:51.634Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/datalab-to/indra": {
+  "v": 66,
+  "at": "2026-10-18T01:18:52.487Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Tencent-Hunyuan/Hy-Memory": {
+  "v": 62,
+  "at": "2026-10-18T01:18:53.505Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Tencent-Hunyuan/Hy-Memory": {
+  "v": 59,
+  "at": "2026-10-18T01:18:54.609Z"
+ },
+ "scoreA:118d0780:deepseek:https://twitter.com/opencode/status/2111516673953935833": {
+  "v": 41,
+  "at": "2026-10-18T01:19:01.343Z"
+ },
+ "write:2d964375:claude:https://github.com/yi-yezhiqiu/dsh-prompt-market": {
+  "v": {
+   "title": "DSH 提示詞市場插件上線，一鍵插入",
+   "summary": "dsh-prompt-market 是 DSH 的提示詞市場插件，內建三個來源共 2527 條，可在輸入框旁搜尋、收藏，選中就寫入輸入框。零後端、免構建，資料只存本機。",
+   "why": "寫程式或畫圖時不用再翻書籤找提示詞，點一下就插入，還能 Ctrl+Z 撤銷。"
+  },
+  "at": "2026-10-18T01:19:05.678Z"
+ },
+ "write:2d964375:claude:https://github.com/c1overzz/dsh-bili-scroll": {
+  "v": {
+   "title": "DSH 插件每天替你刷 B站日報",
+   "summary": "dsh-bili-scroll 會每天搜 B站、讀字幕原文挑出值得的影片寫成日報，特別值得的留言 @ 你。",
+   "why": "想做自動追蹤影片主題的工具時，可參考它「讀字幕再判斷」的做法。"
+  },
+  "at": "2026-10-18T01:19:10.782Z"
  }
 }
