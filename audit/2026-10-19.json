@@ -1,0 +1,1186 @@
+[
+ {
+  "title": "feder-cr/git-ai",
+  "url": "https://github.com/feder-cr/git-ai",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2299,
+  "language": "Go",
+  "topics": [
+   "ai-agents",
+   "coding-agents",
+   "git",
+   "golang",
+   "scion",
+   "version-control"
+  ],
+  "publishedAt": "2026-10-15T13:12:02Z",
+  "body": "Git designed for AI agents.\n\nREADME 節錄： Git designed for AI agents. Anthropic built **Scion**, a faster version control system for coding agents, and described it in Redesigning source control: a server-centric system built for hundreds of agents that read, write and land code at the same time. Scion is internal to Anthropic and is not available to the public. So I built **gitai**: an open-source version of that design that anyone can run, and that the community can improve and maintain together. MIT licensed. Vendor neutral: the server never calls a language model, and every AI feature works with any provider, or none. gitai is an independent implementation of the publicly described design. It is not affiliated with or endorsed by Anthropic. --- ## Why Classic Git hosting was built for humans who clone a repository, work for hours and push once. Coding agents work differently: thousands of short-lived tasks, each touching a few files, each wanting to land in seconds, all on the same branches. Full clones, merge queues and client-side history walks become the bottleneck. Scion's answer is to move the work to the server: clients stay online and fetch only what they need, history questions are answered (and cached) by the server, changes land through a compare-and-swap instead of a queue, every update is an entry in a changeset log, and the repository state lives in a consistent database plus object storage so servers scale out. gitai implements these ideas, with normal Git rep",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源版 AI agent 專用 Git 版本控制工具"
+  },
+  "scores": [
+   48,
+   58
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "yeyuxin777/baoyan-agent-benchmark",
+  "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 599,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-10-12T09:15:11Z",
+  "body": "Sprix AI at 屿智同行 × 保研岛 — an open-source benchmark for AI agents in Baoyan advising and application planning.\n\nREADME 節錄：# Graduate Admissions Agent Benchmark This is 屿智同行's benchmark project for graduate admissions agents, evaluating agent configurations (execution systems paired with models) for admissions advising, application planning and updating advice as student information changes. The current results cover eight agent configurations. The benchmark contains 70 Chinese-language tasks, 23 cases and 83 answer stages, with per-task rubrics and reference programs. The public dataset is available without access approval; scoring materials must be withheld from the agents being evaluated. 简体中文 · Results · Quick start · Questions and scoring · Hugging Face dataset · Methodology ## Evaluation results This leaderboard summarizes evaluation records for 70 public tasks, showing the mean score and completion rate of eight agent configurations. See the documentation for evaluation settings and scoring. | Rank | Agent configuration (system + model) | Tasks | Completion | Mean score / 100 | | ---: | --- | ---: | ---: | ---: | | 1 | Codex + GPT Sol 6.1 | 70 | 70/70 (100.0%) | 79.08 | | 2 | Codex + GPT Astra 6 | 70 | 70/70 (100.0%) | 78.36 | | 3 | DSH + DeepSeek V4.1 Flash | 70 | 70/70 (100.0%) | 68.16 | | 4 | Volcengine Managed Agent + GLM 5.3 Flash | 70 | 70/70 (100.0%) | 66.80 | | 5 | Qwen Code + Qwen 3.8 Max | 70 | 70/70 (100.0%) | 64.24 | | 6 | Kimi Code + Kimi K3 | 70 | 70/70 (100",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI Agent 評測基準開源專案，與 coding agent 相關"
+  },
+  "scores": [
+   38,
+   28
+  ],
+  "score": 33,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "fzn0x/idx",
+  "url": "https://github.com/fzn0x/idx",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 131,
+  "language": "Rust",
+  "topics": [
+   "analytics",
+   "cli",
+   "finance",
+   "idx",
+   "ihsg",
+   "indonesia",
+   "mcp",
+   "rust",
+   "stocks",
+   "terminal"
+  ],
+  "publishedAt": "2026-10-16T17:51:21Z",
+  "body": "Analyze the Indonesian stock market (IDX/IHSG) from web terminal, CLI, or any AI agents via MCP server. IHSG Prices, Fundamentals, and Screening. Free and No API keys required. Changelog: https://github.com/fzn0x/idx/blob/main/CHANGELOG.md\n\nREADME 節錄： Indonesian stock market (IDX / IHSG) analysis for people and AI agents. One binary: a CLI that prints tables, a JSON mode for scripts, and an MCP server for agents. --- ```sh idx stocks quote BBCA,BBRI,TLKM ``` ``` ╭────────┬──────────────────────────────┬───────┬──────┬─────────┬───────┬───────┬───────┬───────────────┬─────────┬───────┬────────╮ │ Symbol ┆ Name ┆ Price ┆ Chg ┆ Chg % ┆ Open ┆ High ┆ Low ┆ Volume ┆ Mkt Cap ┆ P/E ┆ Div % │ ╞════════╪══════════════════════════════╪═══════╪══════╪═════════╪═══════╪═══════╪═══════╪═══════════════╪═════════╪═══════╪════════╡ │ BBCA ┆ PT Bank Central Asia Tbk ┆ 5,175 ┆ -900 ┆ -14.81% ┆ 5,825 ┆ 5,825 ┆ 5,175 ┆ 1,241,098,200 ┆ 635.7T ┆ 10.96 ┆ 6.27% │ │ BBRI ┆ PT Bank Rakyat Indonesia (P… ┆ 2,640 ┆ -460 ┆ -14.84% ┆ 2,640 ┆ 2,890 ┆ 2,640 ┆ 1,193,916,400 ┆ 397.8T ┆ 6.49 ┆ 13.48% │ │ TLKM ┆ Perusahaan Perseroan (Perse… ┆ 1,900 ┆ -330 ┆ -14.80% ┆ 1,900 ┆ 1,985 ┆ 1,900 ┆ 963,614,200 ┆ 187.3T ┆ 10.98 ┆ 10.01% │ ╰────────┴──────────────────────────────┴───────┴──────┴─────────┴───────┴───────┴───────┴───────────────┴─────────┴───────┴────────╯ Last trade 2026-10-16 16:14 WIB · market closed · delayed data ``` ```sh idx -o json stocks quote BBCA | jq '.data[0] | {price, change_pct, pe_trailing, ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust CLI+MCP server 供 Agent 取股市資料,屬開發工具"
+  },
+  "scores": [
+   50,
+   48
+  ],
+  "score": 49,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+  "url": "https://arxiv.org/abs/2610.18861",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T20:48:14.000Z",
+  "body": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5 Comments URL: https://news.ycombinator.com/item?id=50145337 Points: 195 # Comments: 114",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "LLM Agent 混合推理架構,含開源專案與論文"
+  },
+  "scores": [
+   60,
+   48
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "llm-tools-datasette 0.1.1",
+  "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T23:43:09.000Z",
+  "body": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "LLM外掛工具更新,與開發工具有關"
+  },
+  "scores": [
+   28,
+   12
+  ],
+  "score": 20,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "HeyPuter/everything",
+  "url": "https://github.com/HeyPuter/everything",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2221,
+  "language": "JavaScript",
+  "topics": [
+   "adobe",
+   "cad",
+   "office",
+   "photoshop",
+   "saas",
+   "spreadsheet"
+  ],
+  "publishedAt": "2026-10-13T16:18:22Z",
+  "body": "We're rebuilding and open-sourcing the world’s software from scratch.\n\nREADME 節錄： The world’s software. Rebuilt, open-sourced, and MIT-licensed. The Everything Project is an effort to rebuild and open-source the world’s software from scratch. From Office to Slack and Photoshop to AutoCAD, we are recreating free, open-source alternatives to all proprietary software. This is a mono-repository containing all the applications and tools developed under the project. Office · Collaboration · Creative Tools · Engineering · Productivity · Finance · Business · Developer Tools · Games ## Getting started Requires Node.js 22.12 or newer. ```sh git clone https://github.com/HeyPuter/everything.git cd everything/src/[app-name] npm install npm run dev ``` ## Office Application Alternative to Links &nbsp; Spreadsheet Microsoft Excel, Google Sheets, Apple Numbers Try it &nbsp;|&nbsp; Source &nbsp; Documents Microsoft Word, Google Docs, Apple Pages Try it &nbsp;|&nbsp; Source &nbsp; Presentation Microsoft PowerPoint, Google Slides, Apple Keynote Try it &nbsp;|&nbsp; Source &nbsp; Whiteboard Miro, Microsoft Whiteboard, FigJam Try it &nbsp;|&nbsp; Source &nbsp; PDF Adobe Acrobat, PDF Expert Try it &nbsp;|&nbsp; Source &nbsp; Notes Microsoft OneNote, Evernote, Apple Notes Try it &nbsp;|&nbsp; Source &nbsp; Records Airtable, Microsoft Access, Baserow Try it &nbsp;|&nbsp; Source ## Collaboration Application Alternative to Links &nbsp; Meetings Zoom, Google Meet, Microsoft Teams Try it &nbsp;|&nbsp; S",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源軟體重製專案，與開發工具相關"
+  },
+  "scores": [
+   55,
+   57
+  ],
+  "score": 56,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "reason-machines/reason-network",
+  "url": "https://github.com/reason-machines/reason-network",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 421,
+  "language": "Rust",
+  "topics": [
+   "coding-agents",
+   "iroh",
+   "mcp",
+   "peer-to-peer",
+   "reason"
+  ],
+  "publishedAt": "2026-10-16T15:34:34Z",
+  "body": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.\n\nREADME 節錄：# Reason Network Your agents, talking to your **teammates'** agents. One small daemon per computer. Peer to peer, no server. Messages land straight in the session that's open. Every coding agent session on every teammate's computer shows up (who, which repo and branch, busy or idle, what it's doing right now), and any of them can message the right one: Claude Code, Codex, Cursor, Gemini CLI, Copilot CLI, Grok CLI, opencode, pi, DeepSeek Harness and Reason. ## Get started ```sh curl -fsSL https://github.com/reason-machines/reason-network/releases/latest/download/install.sh | sh ``` First it asks: sign in with Reason, or not. - **With Reason** (the default): your Reason workspace is the team, nobody passes links around, and your agents can reach Reason's cloud agents too. The Reason CLI installs and runs it; from then on it's `reason network`. - **Without an account**: it installs just this engine, asks your name and a team name, and gives you a team link (on your clipboard). Teammates open it, paste one command, type their name, and they're in. Or they tell their agent \"join my Reason Network team: \". On Windows, in PowerShell: `irm https://github.com/reason-machines/reason-network/releases/latest/download/install.ps1 | iex` That's it. Ask any agent \"who's on the team?\", or tell it to ask someone's agent something. **Coming from tincan?** Nothing to do: tincan's las",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 coding agent 團隊通訊工具,含 MCP 整合"
+  },
+  "scores": [
+   58,
+   59
+  ],
+  "score": 58,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "tinyhumansai/openscion",
+  "url": "https://github.com/tinyhumansai/openscion",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 96,
+  "language": "Rust",
+  "topics": [],
+  "publishedAt": "2026-10-13T20:59:08Z",
+  "body": "OpenScion is an open-source, server-centric source control system for very large monorepos where most clients are AI agents and CI jobs rather than people on laptops. Based on Anthropic's Scion\n\nREADME 節錄： # OpenScion OpenScion is an open-source, server-centric source control system for very large monorepos where most clients are AI agents and CI jobs rather than people on laptops. It follows the design Anthropic described for its internal system, Scion, in *Redesigning source control*. ## Benchmarks `opnscn` against git on synthetic repositories of 4 KiB files, measured with `openscion-bench` (`cargo run -p openscion-benchmarks --release`): OpenScion imports and clones several times faster than git at both sizes. The one-directory clone shows the design at work: `opnscn` fetches only the trees on the path to the directory and the files beneath it, so its cost tracks the slice you ask for rather than the size of the repository. Setup, methodology, and raw numbers are in `benchmarks/README.md`. ## Why Git assumes every client is offline and keeps a full copy of history. An agent-heavy monorepo breaks that assumption. Thousands of short-lived, always-online jobs each want a small slice of a huge tree, and each one pays for the whole repository anyway. Anthropic reports going from about 2,500 to over 30,000 merged changes a day in four months. At that point the main-branch history was almost 100 GB, CI ran about 25 million checkouts a day, and they needed several hundred git mir",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源版本控制系統，面向 AI agent 與 CI 的開發工具"
+  },
+  "scores": [
+   38,
+   39
+  ],
+  "score": 38,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Namecheap just seized and disabled all my domains",
+  "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T16:56:56.000Z",
+  "body": "Article URL: https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/ Comments URL: https://news.ycombinator.com/item?id=50142866 Points: 422 # Comments: 199",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "域名商糾紛的資安/行政新聞,與AI開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "llm-echo 0.5",
+  "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T23:16:16.000Z",
+  "body": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say. { \"prompt\": \"hi there\", \"system\": \"\", \"attachments\": [], \"stream\": true, \"previous\": [] } Token usage: 2 input, 24 output Tags: llm",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "LLM 除錯外掛 llm-echo 發布更新，屬開發工具"
+  },
+  "scores": [
+   43,
+   49
+  ],
+  "score": 46,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Gathin23/tv-vibehack",
+  "url": "https://github.com/Gathin23/tv-vibehack",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2047,
+  "language": "Java",
+  "topics": [
+   "adb",
+   "android-tv",
+   "claude-code",
+   "debloat",
+   "launcher",
+   "xiaomi"
+  ],
+  "publishedAt": "2026-10-17T08:12:35Z",
+  "body": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.\n\nREADME 節錄：# tv-vibehack **Your TV, minus the ads.** Strip the bloatware from any Android TV or Google TV over Wi-Fi, and replace the ad-filled home screen with a clean launcher that looks like an Apple TV. No root, no cable, nothing uninstalled, and a one-line restore if you change your mind. It started as an afternoon fixing my parents' Mi TV, which showed them an advert before they could reach Netflix. The whole thing was done with Claude Code talking to the real TV, and the prompt that did it is in this repo so you can do the same with yours. --- ## Table of contents - How it works - Quick start - What you get - Supported TVs - Doing it by hand - The launcher - Troubleshooting - Questions people ask - Contributing - Licence --- ## How it works Android TVs have the same debug bridge as Android phones. Once you switch on USB debugging in the TV's developer options, the TV listens on your Wi-Fi and asks you once to allow your computer. After that, everything is standard Android tooling: 1. **Back up** the list of installed packages and settings. 2. **Disable** the manufacturer's telemetry, ad services, content rows and preloaded junk with `pm disable-user`. Nothing is uninstalled, so a restore script can undo every step. 3. **Install** a small native launcher and make it the default home screen. The bloat differs by brand, which is why ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "用 Claude Code 做的 Android TV 去廣告工具，屬開發工具與 agent 應用"
+  },
+  "scores": [
+   47,
+   62
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "savinglighting/dsh-sd-bridge-guard",
+  "url": "https://github.com/savinglighting/dsh-sd-bridge-guard",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 203,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-10-11T16:42:57Z",
+  "body": "dsh-sd-bridge-guard插件已发布，可以帮你完善提示词，提高图片质量，并做到dsh无限制生图\n\nREADME 節錄：# dsh-sd-bridge-guard **DeepSeek Harness 插件 · 本机 Stable Diffusion 生图九件套 + 违规分流协议（A 档 / C 档）· 跨机器零适配** 让 DeepSeek Harness 直接调用你电脑里的 Stable Diffusion WebUI 生图：不用提前打开 SD（首次调用自动以纯 API 模式拉起）、不用改任何路径——装上插件就能用。 --- ## 🆕 版本更新内容（v1.0.1 · 2026-10-16） **本轮三件事：下载后能自查缺什么、蒙版可以鼠标手绘、C 档违禁词能注入表单。** ### ① 文件完整性检测（新功能） 别人拿到插件后不再只能靠「跑一下看看报不报错」判断包是否完整——现在有**基线清单 + 反向比对**： ```bash node verify-integrity.mjs # 本机 vs 随包清单，终端彩色表格 node verify-integrity.mjs --remote # 再比对仓库最新版（列出新增/更新/移除） node verify-integrity.mjs --md # Markdown 表格（贴 issue / 回复用） node verify-integrity.mjs --json # 机器可读 ``` 或在 DSH 里直接说「**检查一下 SD 插件少了什么文件**」→ 模型调 `sd_integrity` 工具，回你一张排好版的表： | 状态 | 文件 | 分类 | 大小 | 影响 | |------|------|------|------|------| | ✗ 必需 | `sd-mask-qa.py` | runtime | 6737B | 插件无法运行 | | △ 辅助 | `test-vram-release.ps1` | tool | 3441B | 该功能不可用 | | · 可选 | `CHANGELOG.md` | doc | 123626B | 不影响运行 | 分类决定严重度（`runtime` / `tool` / `doc`·`dev`·`ci`），不搞一刀切——npm 包装不上 dev/doc 是正常的，只有 `runtime` 缺失才是真告警。 **自动触发点**：插件启动时跑一次（缺必需文件记醒目告警）；退出时再跑一次并落盘 `~/.dsh-sd-bridge/integrity-report.{json,md}`。 **发布者侧**：`node gen-manifest.mjs` 生成基线，`--check` 校验是否过期（CI 用）；`prepublishOnly` 已挂自动生成 + 校验。 ### ② 手绘蒙版（新功能） C 档参数表「蒙版」下拉新增 **`手动绘制（鼠标涂抹）`**（紧跟「自动」之后）——选中即弹出参考图，鼠标涂出要重绘的区域： | 操作 | 效果 | |------|------| | 左键拖动 | 涂抹要重绘的区域（笔迹显示为半透明红） | | 右键拖动 | 擦除 | | 滚轮 | 调笔刷大小（6–200 px，标题栏实时显示） | | `C` 键 / 清空 | 清空全部笔迹 | | `Enter` / 确定 | 保存蒙版并出图 | | `Esc` / 取消 | 放弃，**回退自动蒙版**（不静默重画整张） | 画布最长边压到 900 px",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "主打無限制生圖與違禁詞注入，涉 NSFW 規避"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Someone behind the software",
+  "url": "https://karrisaarinen.com/posts/someone-behind-the-software",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T16:32:00.000Z",
+  "body": "Article URL: https://karrisaarinen.com/posts/someone-behind-the-software/ Comments URL: https://news.ycombinator.com/item?id=50142573 Points: 308 # Comments: 124",
+  "prefilter": {
+   "label": "UNKNOWN",
+   "reason": "僅有標題與分數，無內文可判斷主題"
+  },
+  "scores": [
+   24,
+   18
+  ],
+  "score": 21,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Inline rendering with document​.currentScript",
+  "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-17T21:11:12.000Z",
+  "body": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline &lt;script&gt; element that replaces itself when the page loads: The year is &lt;script&gt; document.currentScript.replaceWith( new Date().getFullYear())&lt;/script&gt; If you define a shortcut function like this: $=(...n)=&gt;document.currentScript.replaceWith(...n) You get a tiny template language: The year is &lt;script&gt;$(new Date().getFullYear())&lt;/script&gt; Tags: javascript",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "JavaScript 前端 inline script 渲染技巧，與網頁開發相關"
+  },
+  "scores": [
+   62,
+   75
+  ],
+  "score": 68,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ahwootech/BRUTAL",
+  "url": "https://github.com/ahwootech/BRUTAL",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1900,
+  "language": "C#",
+  "topics": [
+   "csharp",
+   "dotnet",
+   "game-engine",
+   "gamedev",
+   "vulkan"
+  ],
+  "publishedAt": "2026-10-14T19:33:56Z",
+  "body": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine.\n\nREADME 節錄： # BRUTAL Framework **A free, open source C# framework for making games, or your own game engine.** BRUTAL is a framework. You can make a game directly with it, or use it as the foundation for a separate engine. We made Kitten Space Agency directly on BRUTAL. Ludeon built their Waylith engine on it to move RimWorld off Unity. At its core is a custom interop layer giving C# direct access to native APIs and libraries. Around that we've built mathematics, memory management, strings, collections, job scheduling, logging, localization, and bindings for Vulkan, GLFW, Dear ImGui, FMOD, RakNet, Jolt and Box2D. BRUTAL doesn't make the architectural decisions for you. You write your own stack. You can use whatever NuGet packages you want, including third-party ones. It's called BRUTAL for a reason. In some ways it's much harder to use than Unity, Unreal or Godot. In other ways, particularly if you're doing something unusual, it's considerably easier. You actually have to know what you want to do first. ## Why You are only as independent as your tools are. Developers have surrendered an extraordinary amount of control over their work to companies whose interests are not necessarily aligned with their own. We're not suggesting everyone should make th",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 C# 遊戲引擎框架，與遊戲開發相關"
+  },
+  "scores": [
+   58,
+   56
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "honwee/mynah",
+  "url": "https://github.com/honwee/mynah",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 195,
+  "language": "Go",
+  "topics": [
+   "asr",
+   "avatar",
+   "digital-human",
+   "golang",
+   "lip-sync",
+   "musetalk",
+   "realtime",
+   "self-hosted",
+   "tts",
+   "webrtc"
+  ],
+  "publishedAt": "2026-10-07T09:27:35Z",
+  "body": "Mynah — self-hosted realtime digital human. One GPU, full admin console, Apache-2.0. 自己服务器上的实时数字人系统\n\nREADME 節錄： **Open-source digital humans, ready to deploy.** Realtime voice conversation on a published channel: ask, it answers with lip-synced video; interrupt it any time. FlashHead with the built-in Luna half-body preset: one portrait, the whole head is rendered by the engine and pasted back onto a head-to-waist canvas; idle breathing and gesture clips (shy, laugh, shake, wink) are baked from the same canvas, and the instinct layer picks a gesture while the brain is still composing. Ships as a built-in preset; publish it as a channel from the console. A self-hosted digital human you can actually hand to a customer: realtime voice conversation, admin console, knowledge base, channel publishing — all open source. One GPU, or none. Stream a talking avatar over WebRTC — voice in, lip-synced video out — with swappable avatar / TTS / ASR / LLM engines, avatar training from a video, voice cloning, and a one-command setup wizard. -green) &nbsp;·&nbsp; Quickstart &nbsp;·&nbsp; Architecture &nbsp;·&nbsp; Integration API &nbsp;·&nbsp; Licensing &nbsp;·&nbsp; Commercial support > **Hardware, up front:** the default FlashHead avatar engine needs an > **NVIDIA GPU (4090-class)**; the lighter wav2lipLS profile runs on more > modest GPUs. **One avatar worker serves one live session at a time** — see > Capacity & scaling before planning a deployment. > No GPU at all? Every component can be ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源數位人與語音對話自架專案，屬AI開發工具"
+  },
+  "scores": [
+   49,
+   48
+  ],
+  "score": 48,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "RepRapMicron",
+  "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T13:48:48.000Z",
+  "body": "Article URL: https://github.com/VikOlliver/RepRapMicron/wiki Comments URL: https://news.ycombinator.com/item?id=50141076 Points: 329 # Comments: 54",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源硬體專案,微型3D列印機,可啟發開發"
+  },
+  "scores": [
+   34,
+   38
+  ],
+  "score": 36,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "chenglou/handwired",
+  "url": "https://github.com/chenglou/handwired",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1730,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-15T02:15:09Z",
+  "body": "Turn your regular JavaScript code into a neural net.\n\nREADME 節錄：# Handwired Turn your regular JavaScript code into a neural net; no training, exact, yet also fully differentiable! ## How It Works A program's made of if-else, loops, and state. Handwired transforms them into matrix multiplication + reglu over floats. For example: ```ts const a = 5 const result = (a > 4) ? 10 : 12 ``` The above can be expressed as basic arithmetic: ```ts const a = 5 // Math.max(0, x) is ReLU. For an integer a, above4 is 1 if a > 4, and 0 otherwise const above4 = Math.max(0, a - 4) - Math.max(0, a - 5) // Both branches compute, and above4 picks one const result = above4 * 10 + (1 - above4) * 12 ``` You can calculate that by hand and see that both arrive at the same result. We then collect the + and * and relu into a giant matmul, and either run it on JS or WebGPU, for fun. Because we basically only use these 2 primitives: - the full program stays differentiable - the weights don't need training since they're written manually - existing gpu techniques, such as fusion, sparsity, reordering, have a great time optimizing such minimal primitives This unlocks lots of funny use-cases, like: - unfreezing the weights and train them (what does that even do? Let's find out!) - attaching a specific frozen program to a generic neural net and train end-to-end (now a nanoGPT can do both Shakespeare and your particular UI?) - achieving GPU-level of parallelism with JS code that was written in a traditional singl",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "JS轉可微分神經網路開源專案，與AI及開發工具相關"
+  },
+  "scores": [
+   68,
+   53
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "openbin-ai/binny",
+  "url": "https://github.com/openbin-ai/binny",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 160,
+  "language": "Go",
+  "topics": [
+   "ghidra",
+   "llm-agent",
+   "malware-analysis",
+   "ollama",
+   "reverse-engineering",
+   "security-research"
+  ],
+  "publishedAt": "2026-10-10T05:03:07Z",
+  "body": "BINNY: an open source agent harness for reverse engineering. Plug in any model, or a local one.\n\nREADME 節錄： BINNY An open source agent harness for reverse engineering. Plug in any model, point it at a binary, and it works through the code with real tools and hands you a report to review. BINNY is the harness, not the model. It brings the tools (decompiled functions, strings, imports, data, a sealed sandbox, local Ghidra), the playbooks, the triage, investigate, draft loop, the budgets, the checkpoints and the report format. The model is whatever you plug in: Claude, GPT, DeepSeek, Qwen, Kimi, Gemini, Bedrock, or a local model through Ollama or LM Studio. BINNY opens one of your OpenBin or OpenAPK projects, or decompiles a file on your disk, and runs that loop against the decompiled code. Every step is a tool call you can watch: it lists functions, reads decompilations, pulls strings, imports and data, runs scripts in a sealed sandbox, and records findings as it goes. The draft lands on the project report for you to check before anything is published. It runs on your own model key, or on a local model. Nothing about your sample goes to us unless you put it in a project. ## Install macOS and Linux: ```sh curl -fsSL https://openbin.ai/install-binny.sh | sh ``` Windows (PowerShell): ```powershell irm https://openbin.ai/install-binny.ps1 | iex ``` Then: ```sh openbin login # once; BINNY reuses the openbin CLI's sign-in binny # pick a project, set a key, go ``` Prebuilt binaries fo",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源逆向工程 agent harness，可接任意模型與本地模型"
+  },
+  "scores": [
+   49,
+   48
+  ],
+  "score": 48,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+  "url": "https://legendofhyrule.com",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T13:06:54.000Z",
+  "body": "I made this ahead of the Ocarina of Time remake which comes out in 17 days. I remember the feeling of playing it as a kid but I hadn’t kept up with the story so I built a timeline to catch up before the Door of Time reopens. Nintendo’s own timeline is the authority here (Hyrule Historia and their chronicle page). The fun part was rethinking how to visualize it. It branches at the end of Ocarina into three eras depending on whether Link wins or loses, so each era is its own thread on the cloth. The threads meet again much later with Breath of the Wild. I had a lot of help from Claude. I’d often thought about building things like this but never found the time between the day job and the rest of life. Comments URL: https://news.ycombinator.com/item?id=50140769 Points: 160 # Comments: 99",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "薩爾達傳說時間軸粉絲網站，非開發工具或AI技術"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Supermedo/uncharted_pc",
+  "url": "https://github.com/Supermedo/uncharted_pc",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1452,
+  "language": "C++",
+  "topics": [],
+  "publishedAt": "2026-10-15T00:17:23Z",
+  "body": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo\n\nREADME 節錄：# Uncharted: The Nathan Drake Collection for Windows **Uncharted 1, 2 and 3 from the PS4 collection running natively on Windows 10 and 11, by SuperMedo.** Mohammed Albarghouthi Same idea as my Bloodborne port: the original PS4 game code runs directly on your PC and the graphics are translated to Vulkan. Unpack the zip, start `Uncharted.exe`, pick your game folder, choose a game and press **PLAY**. **Download the latest version** · **Join the Discord** > **No game files are included.** You need your own decrypted dump of the collection > (CUSA02343, CUSA02320, ...: the folder with eboot.bin, big2-ps4_Shipping.elf, > big3-ps4_Shipping.elf, sce_sys, u1data, u2data and u3data). > This project is not affiliated with Sony Interactive Entertainment or Naughty Dog. ## Features - All three games from one launcher: Drake's Fortune, Among Thieves and Drake's Deception. - 60 FPS like on PS4, or 120 FPS (higher rates are experimental). - Anti-aliasing with TAA, AMD FSR 3.1, AMD FSR 4 or NVIDIA DLSS (DLAA). - Frame generation: AMD FSR 3 (any GPU) or NVIDIA DLSS (RTX 40 2x, RTX 50 up to 4x). - Keyboard, mouse and controller together, all remappable. Mouse look in U3. - Add to Steam and desktop shortcuts from the launcher, automatic updates. ## Requirements - Windows 10 (1903 or later) or Windows 11, 64-bit. - An Intel Core 4th generation (Haswell) or newer, an AMD Ryzen, or an AMD FX. - A graphics c",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 C++ 遊戲移植專案，技術類"
+  },
+  "scores": [
+   52,
+   55
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "jtydhr88/ComfyArt",
+  "url": "https://github.com/jtydhr88/ComfyArt",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 140,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-13T20:55:49Z",
+  "body": "The open-source, fully local design canvas\n\nREADME 節錄：# ComfyArt English | 中文 Watch the full promo (38s) A free, open-source AI design canvas that runs fully on your own ComfyUI: an infinite canvas (tldraw + React), a design agent that works on it with tools, and every image, video, audio and 3D model running locally. No account, no credits, no cloud. Documentation with screenshots for every feature: **comfyart.org**. ## Features - **Home and projects**: start a design from one sentence or a skill, browse and manage projects, switch language (中文 / English), theme and chat side at any time. - **Canvas**: pages, artboards with size presets, fill, stroke and corner radius, auto layout, a layers panel with drag, rename and range select, comments that can be run as edits or sent to the Agent with the marked area, snapshot history, export to PNG, JPG, PDF and editable PPTX. - **Text and vectors**: rich text (mixed fonts, sizes, colors, bold, italic, underline in one text box), a font picker with brand, common and local fonts, solid, linear, radial and image fills with transparent color stops and blend modes, a pen tool with node editing, and boolean union, subtract, intersect and exclude. - **Generate**: image generators sized in real pixels with five local image models, references and structure modes, color palettes and base images; video from text, first and last frames, up to 9 reference images, or a storyboard, 5 to 15 seconds at 768p or 1080p. - **Image tools**: quick edit, up",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源本地 AI 設計畫布與 ComfyUI Agent 工具"
+  },
+  "scores": [
+   61,
+   71
+  ],
+  "score": 66,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
+  "url": "https://github.com/0x23/MicroManipulatorStepper",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T11:16:22.000Z",
+  "body": "Article URL: https://github.com/0x23/MicroManipulatorStepper Comments URL: https://news.ycombinator.com/item?id=50140001 Points: 173 # Comments: 13",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "硬體/機械微控平台，與AI或開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "outcrawlai/scout",
+  "url": "https://github.com/outcrawlai/scout",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 945,
+  "language": "TypeScript",
+  "topics": [
+   "ai-agent",
+   "browser-agent",
+   "browser-automation",
+   "cdp",
+   "llm",
+   "typescript",
+   "web-automation"
+  ],
+  "publishedAt": "2026-10-13T09:18:55Z",
+  "body": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.\n\nREADME 節錄： Quickstart &nbsp;·&nbsp; Examples &nbsp;·&nbsp; Models &nbsp;·&nbsp; Cloud &nbsp;·&nbsp; Docs # Tell it the task. It opens a browser and gets it done. Scout is an open-source agent that uses a real browser to finish a task for you. Describe what you need in plain words. Scout reads the page, clicks, types and scrolls until the job is done, then hands back the answer. If it cannot finish, it tells you what is missing and returns what it found. **Scout runs best on Outcrawl's cloud.** One line gives it a browser that sites treat like anyone at home, with captcha solving and a replay of every run. It also runs on your own machine. A recorded run on Outcrawl's cloud, 13 October 2026, shown at 6x speed with nothing cut. ## Start in three steps **1. Install Scout.** You need Node 22 or later. On the cloud there is no browser to install. ```sh npm i @outcrawl/scout ``` **2. Add your keys.** An Outcrawl key for the browser (get one free at outcrawl.ai: 1,000 credits every month, no card needed) and a key for your model. Scout works with any AI model service that speaks the standard chat completions API, including a model running on your own computer: ```sh export OUTCRAWL_API_KEY=your-outcrawl-key export SCOUT_BASE_URL=https://your-endpoint/v1 export SCOUT_API_KEY=your-model-key export SCOUT_HANDS_MODEL=your-model-id ``` **3. Give it a task.** Save this as `task.ts` a",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源瀏覽器 AI agent，符合開發工具"
+  },
+  "scores": [
+   67,
+   60
+  ],
+  "score": 63,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "dieqiyun/uni-switch",
+  "url": "https://github.com/dieqiyun/uni-switch",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 123,
+  "language": "Rust",
+  "topics": [
+   "agpl",
+   "claude-code",
+   "codex",
+   "tauri"
+  ],
+  "publishedAt": "2026-10-07T11:20:31Z",
+  "body": "Open-source Codex and Claude API configuration manager for Windows, Linux and macOS. AGPL-3.0-only.\n\nREADME 節錄：# uni-switch 简洁的 Codex / Claude Code API 配置工具。填写 **API 地址、API Key**，点击 **添加并使用**；日常切换只需一次点击。 **当前版本：0.5.25 · Windows / Linux / macOS · AGPL-3.0-only** 下载安装包 · 使用教程 · 供应商赞助 · 更新记录 · 问题反馈 · 参与开发 · 开源许可 本版修复 Claude 模型被无差别改成 `claude-sonnet-4-6-uni-…` 别名、档位请求误选默认模型的问题，补齐 Fable 档位与 `[1m]` 上下文标记处理。旧 Claude 配置请点击「更新配置」后完全退出并重开对应客户端。详见 更新记录 和 Claude 模型路由说明。 ## 供应商赞助名单 感谢 **蝶祈云 API** 对 uni-switch 的支持。目前供应商赞助名单仅列出蝶祈云。 蝶祈云 API 蝶祈云为个人开发者、科研探索者及团队提供 AI API 渠道接入，官网展示 GPT、Claude、Gemini 与国内模型生态。其渠道建设涵盖 GPT 真官 Key 科研探索、国外机构合作定制、高质量渠道聚合 ，让不同模型与渠道在同一入口更方便地选择。 除个人使用外，也面向项目开发与长期使用需求提供机构定制渠道；官网提供用户社区和联系支持入口，并支持开具发票，团队采购或报销可向支持确认开票资料与办理方式。接入时，从控制台复制对应渠道的 API 地址与 API Key ，在 uni-switch 点击「添加并使用」，即可继续自动检测协议、同步模型和应用客户端配置。 访问蝶祈云官网 ↗ · 详细介绍与接入说明 · 首次配置教程 介绍依据蝶祈云官网公开内容整理；模型权限、API 接入地址、价格和服务安排以实际控制台及服务方说明为准。 ## 功能 - 管理 Codex 桌面端 / CLI、Claude Code 桌面端及 Claude CLI 的 API 配置，同一供应商可在客户端之间复用。 - 新增 ZCode、DSH（DeepSeek Harness）、WorkBuddy 一键配置；所有客户端可查看实际配置文件、手动编辑保存，校验与备份后提示重启。详见 多客户端配置与编辑说明。 - 自动检测协议、认证方式、上游模型和余额，无需选择站点类型或手填模型 ID。 - 模型详情展示上游、内置和手动能力资料，可调整思考模式；仅在明确确认后发送受限合成请求验证能力。签名资料更新基础设施已加入，当前生产签名源尚未配置。 - 默认启用全部适用模型。每个模型可设置上下文长度，默认 256k。 - 同步成功后移除上游已下架的模型，并为失效默认模型选择有效替代项；同步失败保留原列表。 - 双向协议转换：Codex 使用 Claude Messages 模型；Claude Code 使用 OpenAI 模型。 - ZCode、DSH、WorkBuddy 使用官网原始图标，可一键写入原生配置和手动编辑配置文件；写入后提示重启。详见 多客户端配置与兼容边界。 - 供应商列表直接切换默认模型、上下文、Fast 加速模式和协议转换；完整模型配置在弹窗中确认。 - Codex 配置写入时自动检查思考强度显示并保留有效用户选择。实际修改后提示重启",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Codex/Claude Code API 配置開源工具，相關"
+  },
+  "scores": [
+   50,
+   58
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Parser Combinators",
+  "url": "https://t3.at/blog/2026-10-17-parser-combinators",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T08:19:53.000Z",
+  "body": "Article URL: https://t3.at/blog/2026-10-17-parser-combinators/ Comments URL: https://news.ycombinator.com/item?id=50139067 Points: 221 # Comments: 79",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "程式設計技術文章，與開發有實質關係"
+  },
+  "scores": [
+   35,
+   45
+  ],
+  "score": 40,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "xscreensaver-official/xscreensaver",
+  "url": "https://github.com/xscreensaver-official/xscreensaver",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 863,
+  "language": null,
+  "topics": [],
+  "publishedAt": "2026-10-16T16:24:44Z",
+  "body": "There is no official XScreenSaver GitHub repository.\n\nREADME 節錄：# There is no official XScreenSaver GitHub repository. I am jwz, the author of XScreenSaver, and I do not publish a public source code repository. I publish releases as tar files on the official web site and only there. If you see any other XScreenSaver repository (on GitHub or elsewhere) that has nothing to do with me and you should not trust it. I welcome submissions and change requests via email. It's fine. You'll get over it. ",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "名稱搶註的假 repo,無程式碼與開發實質內容"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "YOU-SHOULD-KNOW-ME/antigrative-dashboard",
+  "url": "https://github.com/YOU-SHOULD-KNOW-ME/antigrative-dashboard",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 121,
+  "language": "JavaScript",
+  "topics": [
+   "antigravity",
+   "dashboard",
+   "developer-tools",
+   "plugin",
+   "quota",
+   "tokens",
+   "windows"
+  ],
+  "publishedAt": "2026-10-06T11:30:17Z",
+  "body": "Inline Antigravity dashboard: tok/s, DSH-style cache hit rate, five-hour and weekly quotas. English by default, Chinese switching, reversible Windows installation.\n\nREADME 節錄： # Antigrative Dashboard Token throughput, cache hits and context usage in the model selector row. Hover over context for five-hour and weekly quotas too. Keep the summary visible. Hover for the details. Preview · IDE · CLI · Install · Enable or remove · Compatibility · FAQ · 中文 **v0.8.7 patch:** Add measured App update progress and faster usage startup; refreshed packages keep the same version and require manual reinstall for existing v0.8.7 users. **v0.8.7:** Recover readable historical Token usage with complete pagination and retry checkpoints, remove long-chat usage-window stalls, and add hardened manual App updates. Annual heatmaps and current charts stay in place. Release notes. ## Preview Speed and cache Context and shared quotas Daily and weekly activity Usage by model Desktop widget screenshots with illustrative host layouts and data; these are not IDE screenshots. Main and subagent samples use separate statistics; quotas are account-wide. The 44% context sample uses the latest request-start estimate, not cumulative input. Language choices are at the bottom of context details. **Keep working. The numbers are already there.** | See the speed | Know your quota | Stay focused | | --- | --- | --- | | Weighted session TPS, last-request TPS, model and tool time, and time to first token. | Separate Gem",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "IDE開發工具插件，追蹤token用量與配額"
+  },
+  "scores": [
+   40,
+   47
+  ],
+  "score": 43,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+  "url": "https://api-docs.deepseek.com/guides/search",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T06:50:36.000Z",
+  "body": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 544 # Comments: 257",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DeepSeek API 搜尋定價,與模型可用性價格相關"
+  },
+  "scores": [
+   71,
+   78
+  ],
+  "score": 74,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "CoolkHz/gptibo",
+  "url": "https://github.com/CoolkHz/gptibo",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 827,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-13T15:57:19Z",
+  "body": "Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source\n\nREADME 節錄：# GPTibo **可自托管的数字商品商城，包含用户前台、管理后台与代理工作台。** MIT License · 快速开始 · 后端文档 · 安全说明 GPTibo 将商品展示、下单支付、订单交付、售后处理和代理商店管理整合在同一套系统中。前端使用 React 与 TypeScript，后端提供 Go + PostgreSQL 和 Cloudflare Workers + D1 两种实现，便于按部署环境选择和二次开发。 原站点已停止运营，项目现以 MIT 许可证开放源码。支付与供应商接入使用匿名适配器，需要配置自己的服务后使用。 ## 功能 | 模块 | 能力 | | --- | --- | | 用户商城 | 商品与套餐展示、下单、支付状态、订单查询、售后申请、中英文界面、深浅色主题 | | 管理后台 | 商品定价、订单与客户管理、退款处理、代理管理、结算与通知配置 | | 代理工作台 | 独立商店、品牌设置、自定义域名、商品管理、订单统计与下级代理管理 | | 业务后端 | 身份验证、支付回调、采购适配、异步任务、邮件通知与交易状态管理 | | 开发与部署 | 数据库迁移、Docker Compose、自动化测试、GitHub Actions 与源码安全扫描 | ## 技术栈 | 层级 | 技术 | | --- | --- | | 前端 | React 19、TypeScript、Vite、Tailwind CSS | | Go 后端 | Go、Gin、PostgreSQL，API 与业务 Worker 分进程运行 | | Cloudflare 后端 | Workers、D1、Wrangler | | 邮件 | React Email | | 验证 | Node.js Test Runner、Go Test、Gitleaks | 两套后端均服务于商城。当前公开版本包含商城侧供应商适配器，**不包含独立供货平台及供应商执行系统**。 ## 快速开始 ### 环境准备 - Node.js 24、npm、Git、Python 3。 - 使用 Go 后端时，准备 Docker Compose；原生开发需要 Go 1.26+ 和 PostgreSQL。 - 使用 Cloudflare 后端时，通过项目内的 Wrangler 运行本地环境。 ```sh git clone https://github.com/CoolkHz/gptibo.git cd gptibo npm ci ``` 选择下面一种后端方式运行。 ### 方式一：Go + PostgreSQL 在仓库根目录执行以下命令，初始化本地秘密、数据库和运行角色： ```sh cd services/storefront python3 scripts/init-secrets.py cp .env.example .env docker compose config --quiet docker compose build api docker compose up -d --wait postgres docker compose --profile maintenance run --rm maintenance migrate docker compose --profile maintenance run --rm ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "自托管商城開源專案，前後端可自建二次開發"
+  },
+  "scores": [
+   58,
+   44
+  ],
+  "score": 51,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Tongyi-MAI/OpenGCUA",
+  "url": "https://github.com/Tongyi-MAI/OpenGCUA",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 115,
+  "language": "HTML",
+  "topics": [],
+  "publishedAt": "2026-10-15T09:03:56Z",
+  "body": "An open-source stack for generalist computer-use agents, combining code execution, GUI interaction, and cross-device control.\n\nREADME 節錄： ### GPT-6 made computer use the frontier. We make it open. News · Results · Demos · **Quick start** · SDK · Open stack · How it works · Contributing · Contact **Computer use has reached a turning point.** GPT-6 Astra's demos offered an exciting vision of what computer-use agents could make possible, and the focus is expanding from GUI-only interaction to both visual and programmatic interfaces. The question has changed, from how well a model operates a GUI to how well a system completes work on a real computer by whatever means works. **We call such a system a generalist computer-use agent (GCUA).** It uses a computer in more ways than you do. It reads the accessibility tree and calls app APIs, runs shell commands, and operates the GUI when it needs to. With **code execution**, it writes GUI operations as code and combines them with all of these in one program, with loops and conditions. It can also share the computer with you, working in background windows without interrupting what you are doing. **Yet frontier systems remain largely closed.** We therefore introduce **Open Generalist CUA (OpenGCUA)**, an ongoing project to develop and open the full stack for GCUAs with the community, including model, system, trajectories, efficiency optimization, and evaluation. **What we open in this version:** - 🧠 **OSWorld integration example** with re",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源電腦操作Agent框架，AI代理相關"
+  },
+  "scores": [
+   56,
+   66
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "The Elizabeth Holmes documentary “You Can See Everything” is deceiving",
+  "url": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-18T03:19:49.000Z",
+  "body": "Article URL: https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything Comments URL: https://news.ycombinator.com/item?id=50137620 Points: 363 # Comments: 514",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "Elizabeth Holmes 紀錄片屬商業八卦，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ly05010419/MacNativeGames",
+  "url": "https://github.com/ly05010419/MacNativeGames",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 818,
+  "language": "C",
+  "topics": [],
+  "publishedAt": "2026-10-17T19:52:00Z",
+  "body": "\n\nREADME 節錄：# MacNativeGames # English > **Use your AI assistant to help you build the Mac app. We recommend Claude Code, Codex, or any other AI assistant you prefer.** English | 中文 Play your own copy of **The Legend of Zelda: Tears of the Kingdom** natively on an Apple silicon Mac. Bring your game file (XCI or NSP) and your `prod.keys`; one script turns them into a Mac app. This project currently supports **Mac only**. It is not an emulator: the game's own ARM64 code runs directly on the Apple chip (rewritten only where macOS requires it), the Switch system services are answered by a small host, and the game's NVN graphics are rebuilt on Metal 4. Nothing from the game is in this repository, and the project is not affiliated with Nintendo. Update history: October 18: Added 1.4.3 support and shader prewarming before the first play session (about 10 minutes). October 17: Added 1.0.0 and 1.1.2 support. First-launch shader prewarming was not available yet, so new scenes could stutter. **Stuttering when you first start playing or enter a new scene is expected while new shaders compile—don't be surprised.** Performance typically improves as the cache warms up. ## Audio fix Streamed music and dialogue lookup for `content://Sound/...` paths has been fixed. Opening dialogue and music were verified locally on version 1.0.0; other versions and scenes still need validation. Rebuild your app with the original game inputs to apply the fix. See audio troubleshooting and validation for detai",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源遊戲專案,提及用Claude Code/Codex建置"
+  },
+  "scores": [
+   45,
+   66
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+  "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-17T23:26:35.000Z",
+  "body": "Article URL: https://www.youtube.com/watch?v=LKrwhjOI8Nc Comments URL: https://news.ycombinator.com/item?id=50136150 Points: 153 # Comments: 103",
+  "prefilter": {
+   "label": "UNKNOWN",
+   "reason": "3blue1brown數學影片，與AI/開發無明確關聯"
+  },
+  "scores": [
+   38,
+   35
+  ],
+  "score": 36,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Tencent-Hunyuan/Hy-Memory",
+  "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 795,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-10-15T13:06:56Z",
+  "body": "\n\nREADME 節錄： Hy Memory Production-grade dual-system cognitive memory for LLM agents. English | 中文 **Hy Memory** (Official Website) is a production-grade dual-system cognitive memory engine and Python SDK (`hy-memory`) for self-evolving LLM agents, providing specialized memory pipelines across three task scenes: hierarchical long-term cognitive memory for **Chat**, two-layer fact and reusable-experience memory for **Working**, and version-evolution diff-chain tracking for **Coding**. Built on top of Hy Memory, **MemHub** is a local-first desktop and CLI product that unifies conversation history and coding traces from user-authorized AI applications (such as Claude Code, Cursor, Codex, OpenCode, and Qwen Code) into a single managed runtime and local data directory, enabling governed cross-application memory recall. MemHub Demo Video --- ## Latest News * * [new] * 🔥🔥🔥 **[2026-10]**: 📦 **Released MemHub v1.0.4** and **memhub-cli 1.0.5**, with a signed macOS desktop app and verified macOS/Linux Runtimes! * * [new] * 🔥🔥🔥 **[2026-10]**: 🚀 **Released** **Hy Memory 2.0 (`hy-memory==2.0.4`)** on PyPI and open-sourced the **Hy-Memory** monorepo together with **MemHub**! * * [new] * 🔥🔥🔥 **[2026-10]**: 🚀 **Open-sourced** **Hy-Memory-30B-A3B** on Hugging Face along with its technical report on attributed reinforcement learning for long-term memory writing! * * [new] * 🔥🔥 **[2026-09]**: 📊 **Released** **CMB: A Coding Memory Benchmark for Long-Horizon and Interleaved Coding Ag",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "騰訊開源LLM Agent記憶引擎與SDK，與coding agent開發實質相關"
+  },
+  "scores": [
+   62,
+   59
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "MyLuxy/overdrive",
+  "url": "https://github.com/MyLuxy/overdrive",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 790,
+  "language": "C++",
+  "topics": [
+   "exfat",
+   "game-store",
+   "homebrew",
+   "jailbreak",
+   "ps5",
+   "ps5-homebrew",
+   "reverse-engineering",
+   "shadowmountplus"
+  ],
+  "publishedAt": "2026-10-14T00:07:08Z",
+  "body": "Overdrive, a PS5 homebrew game store with 1,800+ games.\n\nREADME 節錄： English · Русский Your PS5 game store. Back from the dead, rebuilt from its own binary, with every line of source in the open. Install · Features · Updates · Troubleshooting · Build it yourself > [!NOTE] > The original Overdrive project has been shut down so I decompiled the last released build, > recovered the complete source and rebuilt it. ## Features - **1,800+ games** to discover, with **Top rated**, **New releases** and a featured spotlight - **Browse the whole library** with filters, sorting, scores and download sizes at a glance - **Downloads straight to the console**, to internal storage or any USB drive, with live speed and storage stats - **Favorites**, **search** with an on-screen keyboard, and a **Files** page to see and clean up what's on your drives - **13 languages**: English, Deutsch, Español, Français, Português (Brasil), Русский, Bahasa Indonesia, 日本語, 简体中文, العربية, اردو, हिन्दी, বাংলা - **Updates itself**: a new version installs from the console, no PC needed - Made for the controller: L1 R1 to switch sections, ✕ to select, ○ to go back ## Install in four steps ### Before you start You need a **jailbroken PS5** running two payloads: **ShadowMount+**, which installs `.exfat` images by itself, and **kstuff**. If ShadowMount+ shows its notification when the console starts, you are ready. You also need a **USB drive** and a **PC**. **Download `Overdrive.exfat`** with the button above, or from",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "PS5 homebrew 開源專案，屬遊戲開發工具"
+  },
+  "scores": [
+   37,
+   40
+  ],
+  "score": 38,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "LiCinCan/blender-ai-mcp-addon",
+  "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 787,
+  "language": "Python",
+  "topics": [
+   "ai-assistant",
+   "blender",
+   "blender-addon",
+   "blender-ai",
+   "blender-automation",
+   "blender-extension",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-python",
+   "blender-scripting",
+   "bpy",
+   "chatgpt",
+   "gpt",
+   "llm",
+   "mcp",
+   "mcp-for-blender",
+   "mcp-server",
+   "model-context-protocol",
+   "opencode",
+   "python"
+  ],
+  "publishedAt": "2026-10-15T22:30:47Z",
+  "body": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.\n\nREADME 節錄：# mcp-for-blender-pro ### Your Blender scene. Your AI models. One creative workspace. **An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in Model Context Protocol (MCP) server.** Download · Getting started · Connections and agents ## Turn a creative brief into scene operations Start with an idea. Ask the assistant to inspect your scene, create a product-display layout, arrange objects, assign materials or prepare an export. Follow its actions in the conversation and inspect the result in the viewport preview. Keep working in Blender throughout the process. **mcp-for-blender-pro brings conversation, scene tools, model choice and agent workflows together.** It is designed for artists who want faster iteration, technical artists who automate repetitive work, and developers connecting AI tools to Blender. ## Why choose mcp-for-blender-pro? | Capability | What it gives you | |---|---| | **Blender-aware assistance** | Scene and object inspection gives the assistant context before it acts. | | **A visual Studio workspace** | Chat, scene objects, viewport snapshots, approvals and a task board in a companion window. |",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender AI 助理與 MCP server 開發工具，符合 Agent/MCP 範疇"
+  },
+  "scores": [
+   49,
+   56
+  ],
+  "score": 52,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Zfinix/eleven",
+  "url": "https://github.com/Zfinix/eleven",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 759,
+  "language": "TypeScript",
+  "topics": [
+   "acp",
+   "ai-agents",
+   "android",
+   "decompiler",
+   "disassembler",
+   "ghidra",
+   "hopper",
+   "macos",
+   "rea",
+   "reverse-engineering"
+  ],
+  "publishedAt": "2026-10-13T13:47:31Z",
+  "body": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you.\n\nREADME 節錄： Eleven An agent-first reverse-engineering app for macOS, Windows and Linux. **English** · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano Eleven is a reverse-engineering app built around agents. Drop in an app, a binary, an Android APK, a GPU kernel, a shader or a model and ask what it does. Any agent that speaks the Agent Client Protocol can read the code, follow references, rename functions, leave notes and suggest patches, while you watch and approve in the same window. Native code is read by Ghidra through REA, or by Rizin when you want files to open in seconds. Android apps are read by jadx. The UI is React rendered natively on GPUI by GPUIX. ## Features - **Bring your own agent.** Aster, Claude, Codex, Gemini, Cursor, Copilot, OpenCode and any other ACP agent. Run several on the same project, each in its own chat. - **Agents drive the window.** Eleven serves its own MCP tools so an agent can open a function, switch views, rename, add notes, change types and propose patches. - **Ask about any code.** Select lines in pseudocode, assembly or a source file and ask, explain or copy them. The answer opens under the lines, and a suggested rename arrives as a card you accept or de",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "agent+MCP 開源逆向工具，開發相關"
+  },
+  "scores": [
+   58,
+   47
+  ],
+  "score": 52,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "OpenMOSS/MOSS-Image",
+  "url": "https://github.com/OpenMOSS/MOSS-Image",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 705,
+  "language": "Python",
+  "topics": [
+   "controllable-generation",
+   "foundation-models",
+   "image-generation",
+   "text-rendering",
+   "text-to-image"
+  ],
+  "publishedAt": "2026-10-16T01:18:13Z",
+  "body": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.\n\nREADME 節錄： &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; English &nbsp; | &nbsp; 简体中文 ## News - **[2026-10-16]** 🎉 We are introducing **MOSS-Image-Base** and **MOSS-Image-SFT**! Code and model weights are publicly available. **Our key highlights:** - 📐 **Layout control:** Control the placement of text and visual elements. - ✍️ **Strong text rendering:** Generate clear, accurate text within images. - 📜 **Long-prompt support:** Accept text prompts of up to 4K tokens. - 🎨 **Versatile visual styles:** Create high-quality anime and photorealistic images. - 🛠️ **Easy to fine-tune:** Adapt the base model to custom tasks and domains. - ⚡ **Compact and efficient:** Efficient image generation with a 5B backbone. - 🖥️ **Heterogeneous GPU training**: Trained on alternative GPU platforms. ## User guide Start with the **English user guide** or **中文用户指南** for recommended inference settings, prompt examples, layout input formats, and LoRA training guidance. ## ComfyUI This repository provides a native MOSS-Image plugin for ComfyUI. Search for **MOSS-Image** in **ComfyUI Manager** to install the plugin. We are actively working toward integration into the official ComfyUI repository. Installation and usage · Example workflow ## Prompt enhancer skill The MOSS-Image Prompt Enhancer turns image ideas into detailed captions",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源AI繪圖模型與ComfyUI外掛,與AI繪圖開發相關"
+  },
+  "scores": [
+   74,
+   75
+  ],
+  "score": 74,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Noniv/web-ocean",
+  "url": "https://github.com/Noniv/web-ocean",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 679,
+  "language": "HTML",
+  "topics": [],
+  "publishedAt": "2026-10-16T23:49:53Z",
+  "body": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.\n\nREADME 節錄：# web-ocean A real-time ocean renderer written from scratch on WebGPU, with no engine or rendering library. It draws a sunset sea with simulated waves, whitecaps, sun glitter, and a physically based sky with clouds. You fly around it with a free camera. | 75 degrees off the sun, 2.4 m up | Looking toward the sun from 30 m up | |---|---| | | | ## Run it You need a recent Chrome with WebGPU and a reasonably capable GPU. On a laptop, force Chrome onto the dedicated GPU in the Windows graphics settings, or it will fall back to the integrated one. Open `ocean.html` directly in the browser. `ocean.min.html` is the same page minified (61 KB instead of 102 KB). Both are self-contained and work from `file://`. To run from source: ``` npm install npm start # serves http://localhost:8080/ ``` After editing anything under `js/`, run `npm run build` to regenerate both bundles. The minified build strips WGSL comments and whitespace and minifies the JavaScript with esbuild. ## Controls | Input | Action | |---|---| | Click the canvas | Capture the mouse (Esc releases it). Holding the right mouse button also works. | | Mouse | Look around | | W A S D | Move | | Space or E / Q or C | Up / down | | Shift | 5x speed | | Mouse wheel | Change base speed |",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "WebGPU 海洋渲染開源專案，用 Claude Code 開發，屬前端圖形與 AI coding 工具"
+  },
+  "scores": [
+   86,
+   79
+  ],
+  "score": 82,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "aicodeking/leanrea",
+  "url": "https://github.com/aicodeking/leanrea",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 642,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-10-17T02:53:24Z",
+  "body": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.\n\nREADME 節錄：# leanrea **One 8 KB skill file that does what REA does: no MCP server, no 207 tools, no setup.** REA (Reverse Engineer Anything) puts an MCP layer between your agent and tools it can already use: asar, otool, nm, `go version -m`, jadx, apktool, Ghidra, tshark, binwalk, sqlite3. leanrea drops that layer. It tells the agent which command is fastest for each kind of target, gives it ready-to-paste recon commands, and lists the traps that REA's code handles for you. The agent then runs the real tools itself. | | REA 6.5.0 | leanrea | |---|---|---| | What gets installed | 25 MB npm package + MCP server | one `SKILL.md` | | Instructions | 23.5 KB skill + 48.8 KB references | 8 KB | | Tools added to the agent | 207 (3.35 MB of definitions) | 0 (uses Bash) | | Context for \"Reply OK\", all tools loaded | 400.7k tokens, $1.60 | 34.5k tokens, $0.09 | ## Benchmark Claude Code headless (`claude -p`), Sonnet 5.5, macOS arm64. 4 reverse-engineering tasks × 3 reps × 3 arms, with the arms run side by side. Answers are graded against hand-made keys. | arm | total wall time | cost | turns | tokens | score | |---|---|---|---|---|---| | **leanrea** | **388 s** | **$2.17** | **55** | **2.40 M** | 74/75 | | no skill | 479 s | $2.21 | 81 | 3.11 M | 67/75 (one refusal) | | REA (MCP + its skill) | 627 s | $3.36 | 124 | 5.93 M | 75/75 | Against REA, leanrea had **38% l",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Agent skill 取代 MCP，屬 coding agent 開發工具"
+  },
+  "scores": [
+   56,
+   45
+  ],
+  "score": 50,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datalab-to/indra",
+  "url": "https://github.com/datalab-to/indra",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 629,
+  "language": "Python",
+  "topics": [
+   "ai",
+   "cpu",
+   "document-parsing",
+   "ocr",
+   "onnx",
+   "pdf"
+  ],
+  "publishedAt": "2026-10-13T11:07:11Z",
+  "body": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown\n\nREADME 節錄： Datalab State of the Art models for Document Intelligence # Indra OCR Indra OCR is a 1M-parameter OCR model that reads up to 49 pages per second on CPU. It turns PDFs and images into markdown, plain text, or JSON with boxes, and it has these features: - Throughput - 49 pages/s, 11-17x faster than Tesseract and PaddleOCR on the same machine and pages (table) - Latency - ~230 ms per page on 4 x86 vCPUs, 12-24x faster than Tesseract and PaddleOCR - Accuracy - scores 41.3 on OmniParseBench text, ahead of PaddleOCR's PP-OCR text models (35.8) and Tesseract (19.3). Its headline score (62.1) beats PaddleOCR's full PP-StructureV3 pipeline (58.4). - Layout and boxes - a bounding box for every line and every layout block, with block labels (headings, lists, tables, captions, footnotes, page headers) and reading order - Digital PDFs - reads the PDF's own text layer in any script, and OCRs only what is missing - Small - about 18 MB of models on ONNX Runtime, no PyTorch The main recognizer, `rec.onnx`, has about 1M parameters. See benchmarks for the full results and limitations for what it does not do yet. Indra OCR is named for Indra. ## Try Datalab's Managed Platform Indra OCR is built for speed on CPUs. When you need the highest accuracy, on handwriting, math, complex tables and degraded scans, our managed platform runs Chandra, our state of the art OCR model, with zero data retention by default, SOC 2 T",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "CPU OCR 開源模型，文件解析與 PDF 轉 Markdown 工具"
+  },
+  "scores": [
+   66,
+   70
+  ],
+  "score": 68,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "0xProbabillity/house-control",
+  "url": "https://github.com/0xProbabillity/house-control",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 626,
+  "language": "Swift",
+  "topics": [
+   "home-assistant",
+   "home-automation",
+   "homekit",
+   "ios",
+   "macos",
+   "menu-bar-app",
+   "philips-hue",
+   "smart-home",
+   "swift",
+   "threejs"
+  ],
+  "publishedAt": "2026-10-14T12:32:21Z",
+  "body": "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home.\n\nREADME 節錄： House Control Your home as a live 3D model — in the Mac's menu bar, around its notch and on your iPhone — controlling its lights and air conditioners through Smart Life, Home Assistant, Philips Hue and Apple Home. Download &nbsp;·&nbsp; Build it yourself &nbsp;·&nbsp; Support the project ## What it does - **Lives in the menu bar.** Click the house icon and a panel drops down; click anywhere else and it is gone. - **Your floor plan in 3D.** Rooms, walls, doors, windows and furniture are built from one JSON file. Lamps light the scene the way they light the room; an AC that is running blows visible air. - **Lights.** Tap to toggle, drag across a tile to dim, open a light for brightness, white temperature and colour. - **Air conditioners.** Power, target temperature, mode and fan speed, with the room temperature from a real sensor if you have one. - **Scenes.** One tap sets every light and AC — \"Cozy\", \"Movie\", \"Night\", or your own. - **A visual editor.** Draw the rooms, drop in furniture, place lamps and ACs, and link each one to a real device. - **Your devices, wherever they live.** Smart Life / Tuya, Home Assistant (and the thousands of brands it runs), Philips Hue and Apple Home — mixed freely in one home. See Connect real devices. - **An island around the notch.** Rest the pointer on the MacBook's notch and a small live mode",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Mac/iOS 專案，支援 MCP 與 AI 操控，屬開發工具"
+  },
+  "scores": [
+   38,
+   47
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "HayatoG/iss_pc",
+  "url": "https://github.com/HayatoG/iss_pc",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 597,
+  "language": "C++",
+  "topics": [
+   "game-preservation",
+   "homebrew",
+   "infamous-second-son",
+   "linux",
+   "native-port",
+   "pc-port",
+   "playstation-4",
+   "ps4",
+   "shadps4",
+   "sucker-punch-productions",
+   "vulkan",
+   "windows"
+  ],
+  "publishedAt": "2026-10-13T21:48:17Z",
+  "body": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.\n\nREADME 節錄： inFAMOUS Second Son — port nativo para PC English below · Download · YouTube · Discord > **Jogável, em desenvolvimento.** O jogo inicia, chega ao gameplay e passa pelos primeiros capítulos, mas o desempenho ainda é instável (20–30 FPS típicos numa RTX 2060) e há falhas de imagem conhecidas. Veja o Status. **inFAMOUS Second Son** (PS4, CUSA00223, jogo base 1.00 + update 1.07) rodando no PC sem emulador de CPU: o código original do jogo roda nativo no processador, o sistema do PS4 é reimplementado e a GPU é traduzida para Vulkan. Usa o mesmo núcleo dos ports de The Last Guardian e Gravity Rush 2. > **Nenhum arquivo do jogo vem com este projeto.** Para jogar, você precisa da sua própria cópia, tirada do seu PS4. Por **HayatoG** · YouTube @hayatog-dev · Discord discord.gg/UMkdMYZh9g | | | |---|---| | | | | | | Capturas na resolução nativa (1920×1080, reduzidas para 1280), direto da GPU, no Linux com uma RTX 2060. ## Novidades - **Launcher novo (Qt Quick), agora o padrão:** com 8 telas (Jogar, Gráficos, Controles, Correções, Saves e dados, Guias de controle, Suporte, Atualizações), interface em português e inglês e o idioma do jogo seguindo o do sistema por padrão. O launcher antigo (Tk) continua ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源原生移植專案，屬遊戲開發技術"
+  },
+  "scores": [
+   49,
+   48
+  ],
+  "score": 48,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "solana-classic/solana-classic",
+  "url": "https://github.com/solana-classic/solana-classic",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 557,
+  "language": "Rust",
+  "topics": [
+   "agave",
+   "blockchain",
+   "memecoins",
+   "nft",
+   "open-source",
+   "solana",
+   "svm",
+   "testnet"
+  ],
+  "publishedAt": "2026-10-13T19:35:48Z",
+  "body": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live.\n\nREADME 節錄： Solana Classic is an open-source blockchain putting meme and NFT communities at the centre of its products and roadmap. We are bringing together developers, artists and communities who care about this category, so its future gets sustained attention and focused development. **Our goal: build an open development community focused on how far art, NFTs and memes can go.** Website · Our story · Try devnet · Live roadmap · Whitepaper · Build on Classic ## SOC on Solana **Official token contract address (Solana mainnet):** ``` Nuhksmxq3AZ6ZrzVHshKnQd8QTTRSXCb7a6AU7oMsoc ``` View SOC on Solscan · Token details Solana Classic mainnet and the proposed 1:1 bridge are not live. tSOC on devnet is a separate test asset with no monetary value or conversion rights. ## Why we are building this Solana Monkey Business. Okay Bears. BONK. WIF. Names that bring back a timeline, a group chat or a mint night. We came to Solana for the art, the jokes, the communities and the feeling that anyone could make something people cared about. Discovering a collection or a meme felt like joining something. We want that sense of fun and possibility to have a future. We respect the engineering, the builders and the communities that made Solana possible. Its speed and accessible transaction costs gave people room to experiment. Solana Classic builds on that open-so",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "加密貨幣迷因幣專案，與AI開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ }
+]

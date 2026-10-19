@@ -1171,5 +1171,388 @@
    "why": "想做自動追蹤影片主題的工具時，可參考它「讀字幕再判斷」的做法。"
   },
   "at": "2026-10-18T01:19:10.782Z"
+ },
+ "prefilter:d2932bff:deepseek:https://arxiv.org/abs/2610.18861": {
+  "v": {
+   "label": "PASS",
+   "reason": "LLM Agent 混合推理架構,含開源專案與論文"
+  },
+  "at": "2026-10-19T01:27:37.783Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/18/llm-tools-datasette": {
+  "v": {
+   "label": "PASS",
+   "reason": "LLM外掛工具更新,與開發工具有關"
+  },
+  "at": "2026-10-19T01:27:41.656Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/reason-machines/reason-network": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 coding agent 團隊通訊工具,含 MCP 整合"
+  },
+  "at": "2026-10-19T01:27:41.830Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/fzn0x/idx": {
+  "v": {
+   "label": "PASS",
+   "reason": "Rust CLI+MCP server 供 Agent 取股市資料,屬開發工具"
+  },
+  "at": "2026-10-19T01:27:42.634Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/18/llm-echo": {
+  "v": {
+   "label": "PASS",
+   "reason": "LLM 除錯外掛 llm-echo 發布更新，屬開發工具"
+  },
+  "at": "2026-10-19T01:27:42.726Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Gathin23/tv-vibehack": {
+  "v": {
+   "label": "PASS",
+   "reason": "用 Claude Code 做的 Android TV 去廣告工具，屬開發工具與 agent 應用"
+  },
+  "at": "2026-10-19T01:27:43.036Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "域名商糾紛的資安/行政新聞,與AI開發工具無關"
+  },
+  "at": "2026-10-19T01:27:43.463Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/17/document-currentscript": {
+  "v": {
+   "label": "PASS",
+   "reason": "JavaScript 前端 inline script 渲染技巧，與網頁開發相關"
+  },
+  "at": "2026-10-19T01:27:49.175Z"
+ },
+ "prefilter:d2932bff:deepseek:https://karrisaarinen.com/posts/someone-behind-the-software": {
+  "v": {
+   "label": "UNKNOWN",
+   "reason": "僅有標題與分數，無內文可判斷主題"
+  },
+  "at": "2026-10-19T01:27:49.204Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/jtydhr88/ComfyArt": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源本地 AI 設計畫布與 ComfyUI Agent 工具"
+  },
+  "at": "2026-10-19T01:27:49.928Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/0x23/MicroManipulatorStepper": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "硬體/機械微控平台，與AI或開發工具無關"
+  },
+  "at": "2026-10-19T01:27:50.652Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/VikOlliver/RepRapMicron/wiki": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源硬體專案,微型3D列印機,可啟發開發"
+  },
+  "at": "2026-10-19T01:27:51.211Z"
+ },
+ "prefilter:d2932bff:deepseek:https://legendofhyrule.com": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "薩爾達傳說時間軸粉絲網站，非開發工具或AI技術"
+  },
+  "at": "2026-10-19T01:27:51.744Z"
+ },
+ "prefilter:d2932bff:deepseek:https://api-docs.deepseek.com/guides/search": {
+  "v": {
+   "label": "PASS",
+   "reason": "DeepSeek API 搜尋定價,與模型可用性價格相關"
+  },
+  "at": "2026-10-19T01:27:56.085Z"
+ },
+ "prefilter:d2932bff:deepseek:https://t3.at/blog/2026-10-17-parser-combinators": {
+  "v": {
+   "label": "PASS",
+   "reason": "程式設計技術文章，與開發有實質關係"
+  },
+  "at": "2026-10-19T01:27:56.135Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "Elizabeth Holmes 紀錄片屬商業八卦，與開發無關"
+  },
+  "at": "2026-10-19T01:27:57.662Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Tongyi-MAI/OpenGCUA": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源電腦操作Agent框架，AI代理相關"
+  },
+  "at": "2026-10-19T01:27:57.859Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.youtube.com/watch?v=LKrwhjOI8Nc": {
+  "v": {
+   "label": "UNKNOWN",
+   "reason": "3blue1brown數學影片，與AI/開發無明確關聯"
+  },
+  "at": "2026-10-19T01:27:58.759Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/ly05010419/MacNativeGames": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源遊戲專案,提及用Claude Code/Codex建置"
+  },
+  "at": "2026-10-19T01:27:59.260Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/OpenMOSS/MOSS-Image": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源AI繪圖模型與ComfyUI外掛,與AI繪圖開發相關"
+  },
+  "at": "2026-10-19T01:28:03.439Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/LiCinCan/blender-ai-mcp-addon": {
+  "v": {
+   "label": "PASS",
+   "reason": "Blender AI 助理與 MCP server 開發工具，符合 Agent/MCP 範疇"
+  },
+  "at": "2026-10-19T01:28:04.002Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/aicodeking/leanrea": {
+  "v": {
+   "label": "PASS",
+   "reason": "Agent skill 取代 MCP，屬 coding agent 開發工具"
+  },
+  "at": "2026-10-19T01:28:06.430Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Noniv/web-ocean": {
+  "v": {
+   "label": "PASS",
+   "reason": "WebGPU 海洋渲染開源專案，用 Claude Code 開發，屬前端圖形與 AI coding 工具"
+  },
+  "at": "2026-10-19T01:28:07.013Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/HayatoG/iss_pc": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源原生移植專案，屬遊戲開發技術"
+  },
+  "at": "2026-10-19T01:28:07.358Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/solana-classic/solana-classic": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "加密貨幣迷因幣專案，與AI開發工具無關"
+  },
+  "at": "2026-10-19T01:28:09.206Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/reason-machines/reason-network": {
+  "v": 59,
+  "at": "2026-10-19T01:28:18.428Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/reason-machines/reason-network": {
+  "v": 58,
+  "at": "2026-10-19T01:28:18.637Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/18/llm-echo": {
+  "v": 43,
+  "at": "2026-10-19T01:28:18.686Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Oct/18/llm-echo": {
+  "v": 49,
+  "at": "2026-10-19T01:28:18.942Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/18/llm-tools-datasette": {
+  "v": 28,
+  "at": "2026-10-19T01:28:19.748Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/fzn0x/idx": {
+  "v": 48,
+  "at": "2026-10-19T01:28:19.914Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/fzn0x/idx": {
+  "v": 50,
+  "at": "2026-10-19T01:28:19.957Z"
+ },
+ "scoreB:118d0780:glm:https://arxiv.org/abs/2610.18861": {
+  "v": 48,
+  "at": "2026-10-19T01:28:21.037Z"
+ },
+ "scoreB:118d0780:glm:https://karrisaarinen.com/posts/someone-behind-the-software": {
+  "v": 18,
+  "at": "2026-10-19T01:28:22.652Z"
+ },
+ "scoreA:118d0780:deepseek:https://arxiv.org/abs/2610.18861": {
+  "v": 60,
+  "at": "2026-10-19T01:28:23.898Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Oct/18/llm-tools-datasette": {
+  "v": 12,
+  "at": "2026-10-19T01:28:26.136Z"
+ },
+ "scoreA:118d0780:deepseek:https://karrisaarinen.com/posts/someone-behind-the-software": {
+  "v": 24,
+  "at": "2026-10-19T01:28:26.986Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Oct/17/document-currentscript": {
+  "v": 75,
+  "at": "2026-10-19T01:28:27.890Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Gathin23/tv-vibehack": {
+  "v": 62,
+  "at": "2026-10-19T01:28:29.210Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Gathin23/tv-vibehack": {
+  "v": 47,
+  "at": "2026-10-19T01:28:29.271Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/17/document-currentscript": {
+  "v": 62,
+  "at": "2026-10-19T01:28:32.601Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/VikOlliver/RepRapMicron/wiki": {
+  "v": 38,
+  "at": "2026-10-19T01:28:32.613Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/jtydhr88/ComfyArt": {
+  "v": 61,
+  "at": "2026-10-19T01:28:35.171Z"
+ },
+ "scoreA:118d0780:deepseek:https://t3.at/blog/2026-10-17-parser-combinators": {
+  "v": 35,
+  "at": "2026-10-19T01:28:35.890Z"
+ },
+ "scoreA:118d0780:deepseek:https://api-docs.deepseek.com/guides/search": {
+  "v": 71,
+  "at": "2026-10-19T01:28:36.066Z"
+ },
+ "scoreB:118d0780:glm:https://t3.at/blog/2026-10-17-parser-combinators": {
+  "v": 45,
+  "at": "2026-10-19T01:28:36.111Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/jtydhr88/ComfyArt": {
+  "v": 71,
+  "at": "2026-10-19T01:28:36.819Z"
+ },
+ "scoreB:118d0780:glm:https://api-docs.deepseek.com/guides/search": {
+  "v": 78,
+  "at": "2026-10-19T01:28:37.192Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/VikOlliver/RepRapMicron/wiki": {
+  "v": 34,
+  "at": "2026-10-19T01:28:38.008Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Tongyi-MAI/OpenGCUA": {
+  "v": 66,
+  "at": "2026-10-19T01:28:41.546Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/LiCinCan/blender-ai-mcp-addon": {
+  "v": 56,
+  "at": "2026-10-19T01:28:43.389Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/OpenMOSS/MOSS-Image": {
+  "v": 74,
+  "at": "2026-10-19T01:28:43.414Z"
+ },
+ "scoreB:118d0780:glm:https://www.youtube.com/watch?v=LKrwhjOI8Nc": {
+  "v": 35,
+  "at": "2026-10-19T01:28:43.952Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/ly05010419/MacNativeGames": {
+  "v": 66,
+  "at": "2026-10-19T01:28:43.975Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Tongyi-MAI/OpenGCUA": {
+  "v": 56,
+  "at": "2026-10-19T01:28:43.990Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/LiCinCan/blender-ai-mcp-addon": {
+  "v": 49,
+  "at": "2026-10-19T01:28:44.513Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/ly05010419/MacNativeGames": {
+  "v": 45,
+  "at": "2026-10-19T01:28:46.263Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.youtube.com/watch?v=LKrwhjOI8Nc": {
+  "v": 38,
+  "at": "2026-10-19T01:28:48.082Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/aicodeking/leanrea": {
+  "v": 45,
+  "at": "2026-10-19T01:28:50.965Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Noniv/web-ocean": {
+  "v": 79,
+  "at": "2026-10-19T01:28:51.354Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Noniv/web-ocean": {
+  "v": 86,
+  "at": "2026-10-19T01:28:51.822Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/OpenMOSS/MOSS-Image": {
+  "v": 75,
+  "at": "2026-10-19T01:28:52.978Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/aicodeking/leanrea": {
+  "v": 56,
+  "at": "2026-10-19T01:28:53.529Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/HayatoG/iss_pc": {
+  "v": 49,
+  "at": "2026-10-19T01:28:53.910Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/HayatoG/iss_pc": {
+  "v": 48,
+  "at": "2026-10-19T01:29:00.655Z"
+ },
+ "write:2d964375:claude:https://github.com/OpenMOSS/MOSS-Image": {
+  "v": {
+   "title": "MOSS-Image 開源生圖模型",
+   "summary": "OpenMOSS 公開 5B 參數 DiT 生圖模型 MOSS-Image，程式碼與權重都已釋出，支援文字渲染、版面控制與 4K token 長提示詞。",
+   "why": "可在 ComfyUI 安裝外掛試跑，也能照指南用 LoRA 微調出自己的畫風。"
+  },
+  "at": "2026-10-19T01:29:09.851Z"
+ },
+ "write:2d964375:claude:https://api-docs.deepseek.com/guides/search": {
+  "v": {
+   "title": "DeepSeek 推出搜尋與抓取功能",
+   "summary": "DeepSeek 的 API 文件列出 search 與 fetch 功能，每 1000 次成功請求收費 $0.75。",
+   "why": "做 Discord 機器人時，可以評估讓 AI 查網頁、抓內容要花多少錢。"
+  },
+  "at": "2026-10-19T01:29:11.115Z"
+ },
+ "write:2d964375:claude:https://simonwillison.net/2026/Oct/17/document-currentscript": {
+  "v": {
+   "title": "script 標籤能在原地替換自己",
+   "summary": "行內 script 用 currentScript.replaceWith 載入時替換自己，再包成 $() 就像簡易模板語言。",
+   "why": "做網頁小遊戲時，不用框架也能在頁面直接塞入年份或玩家名稱等動態文字。"
+  },
+  "at": "2026-10-19T01:29:13.580Z"
+ },
+ "write:2d964375:claude:https://github.com/Noniv/web-ocean": {
+  "v": {
+   "title": "不用引擎的 WebGPU 海洋渲染",
+   "summary": "web-ocean 是不用引擎、從零寫的 WebGPU 海洋渲染器，有 FFT 波浪與日落天空，Chrome 開單一 HTML 檔就能跑。",
+   "why": "想做網頁 3D 或學 WebGPU，可以直接讀它的原始碼，看波浪和天空怎麼寫。"
+  },
+  "at": "2026-10-19T01:29:14.454Z"
+ },
+ "write:2d964375:claude:https://github.com/datalab-to/indra": {
+  "v": {
+   "title": "Indra：CPU 上的極速 OCR",
+   "summary": "約 1M 參數的 Indra OCR 在 CPU 上每秒可讀 49 頁，能輸出 markdown、純文字或帶框的 JSON。",
+   "why": "Discord 機器人想辨識圖片或 PDF 文字，不用 GPU 也能跑。"
+  },
+  "at": "2026-10-19T01:29:21.651Z"
+ },
+ "write:2d964375:claude:https://github.com/jtydhr88/ComfyArt": {
+  "v": {
+   "title": "ComfyArt：完全本機執行的開源 AI 設計畫布",
+   "summary": "ComfyArt 是開源的 AI 設計畫布，跑在你自己的 ComfyUI 上，圖像、影片、音訊、3D 都在本機生成，不需帳號或點數。內建設計 Agent，可匯出 PNG、PDF、PPTX。",
+   "why": "已經在用 ComfyUI 的人，可以直接拿它當海報或遊戲美術的免費設計工作台。"
+  },
+  "at": "2026-10-19T01:29:32.975Z"
  }
 }
