@@ -1554,5 +1554,409 @@
    "why": "已經在用 ComfyUI 的人，可以直接拿它當海報或遊戲美術的免費設計工作台。"
   },
   "at": "2026-10-19T01:29:32.975Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/19/my-obituary-for-programming": {
+  "v": {
+   "label": "PASS",
+   "reason": "討論 coding agent 對程式開發職涯的影響"
+  },
+  "at": "2026-10-20T01:57:49.106Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/hf-torchneuron": {
+  "v": {
+   "label": "PASS",
+   "reason": "Hugging Face 工具，於 AWS 晶片跑模型，屬 AI 開發工具"
+  },
+  "at": "2026-10-20T01:57:49.178Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/finereli/whatsapp-mcp": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 MCP server,讓 AI agent 讀取 WhatsApp,與 MCP/Agent 開發相關"
+  },
+  "at": "2026-10-20T01:57:50.574Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/low-resource-programming-languages": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI改善ChatGPT於低資源程式語言的coding能力"
+  },
+  "at": "2026-10-20T01:57:52.134Z"
+ },
+ "prefilter:d2932bff:deepseek:https://josie.lol/blog/linux-rtx-spark": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "Linux筆電安裝經驗，與AI/Agent/開發工具無關"
+  },
+  "at": "2026-10-20T01:57:53.336Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Gathin23/cleanyourtv": {
+  "v": {
+   "label": "PASS",
+   "reason": "用 Claude Code 與 adb 清理 Android TV 廣告的開源工具"
+  },
+  "at": "2026-10-20T01:57:53.346Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 模型下架,與 coding agent 模型可用性相關"
+  },
+  "at": "2026-10-20T01:57:55.590Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/AndreSzymanski15/ai-jailbreaks": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI越獄提示詞集,涉LLM/Agent與AGENTS.md規格"
+  },
+  "at": "2026-10-20T01:57:57.662Z"
+ },
+ "prefilter:d2932bff:deepseek:http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源專案開發流程/程式碼 revert 議題"
+  },
+  "at": "2026-10-20T01:57:58.312Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub 官方公告，Git over HTTPS 驗證變更，與開發者工作流相關"
+  },
+  "at": "2026-10-20T01:57:59.093Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/kksimp/Mac.apk": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源專案，讓 Android 應用在 macOS 原生執行，屬開發工具"
+  },
+  "at": "2026-10-20T01:57:59.903Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub CodeQL 與 Xcode/Swift 開發工具更新"
+  },
+  "at": "2026-10-20T01:58:00.257Z"
+ },
+ "prefilter:d2932bff:deepseek:https://marc.info/?l=openbsd-ports&m=179236125692175": {
+  "v": {
+   "label": "PASS",
+   "reason": "Wine 開源相容層專案,屬開發工具範疇"
+  },
+  "at": "2026-10-20T01:58:04.420Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.minimax.io/blog/minimax-m31f": {
+  "v": {
+   "label": "PASS",
+   "reason": "MiniMax 新模型發布，與 AI 模型可用性相關"
+  },
+  "at": "2026-10-20T01:58:04.765Z"
+ },
+ "prefilter:d2932bff:deepseek:https://news.ycombinator.com/item?id=50151036": {
+  "v": {
+   "label": "PASS",
+   "reason": "討論 AI 生成程式碼的理解與驗證,與 coding agent 開發實務相關"
+  },
+  "at": "2026-10-20T01:58:05.328Z"
+ },
+ "prefilter:d2932bff:deepseek:https://spectrum.ieee.org/alternatives-to-animal-testing": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "動物實驗替代方案，屬生醫科技新聞，與開發無關"
+  },
+  "at": "2026-10-20T01:58:05.590Z"
+ },
+ "prefilter:d2932bff:deepseek:https://mistral.ai/news/timestral": {
+  "v": {
+   "label": "PASS",
+   "reason": "Mistral 新 AI 基礎模型,與模型動態相關"
+  },
+  "at": "2026-10-20T01:58:07.751Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 模型政策 API，與模型可用性及開發工具相關"
+  },
+  "at": "2026-10-20T01:58:07.851Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/alchaincyf/huashu-motion": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude Code/Codex 的動畫技能，與 agent 開發相關"
+  },
+  "at": "2026-10-20T01:58:09.228Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.youtube.com/watch?v=Ndftcft6XhU": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "單馬達無人機硬體DIY，與AI/開發工具無關"
+  },
+  "at": "2026-10-20T01:58:09.701Z"
+ },
+ "prefilter:d2932bff:deepseek:https://starcraft-shooter-2026.pages.dev": {
+  "v": {
+   "label": "PASS",
+   "reason": "Hacker News 熱門開源小遊戲專案，與遊戲開發相關"
+  },
+  "at": "2026-10-20T01:58:10.314Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/xiaoyang111222/cn-math-taxonomy": {
+  "v": {
+   "label": "PASS",
+   "reason": "开源知识图谱数据项目，含AI生成与Web诊断工具"
+  },
+  "at": "2026-10-20T01:58:10.474Z"
+ },
+ "prefilter:d2932bff:deepseek:https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166": {
+  "v": {
+   "label": "PASS",
+   "reason": "憑證驗證機制變更,關乎網站開發部署"
+  },
+  "at": "2026-10-20T01:58:10.610Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Ansub/tv-detox": {
+  "v": {
+   "label": "PASS",
+   "reason": "用Claude Code/Codex清理Android TV的指令技能專案，與coding agent實質相關"
+  },
+  "at": "2026-10-20T01:58:12.991Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/humblemuzzu/dumbtv": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源ADB腳本工具,屬開發工具與開源專案"
+  },
+  "at": "2026-10-20T01:58:13.352Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/zcbacxc/mcd-party-planner": {
+  "v": {
+   "label": "PASS",
+   "reason": "麥當勞 MCP Skill 專案,與 MCP 及技能開發實質相關"
+  },
+  "at": "2026-10-20T01:58:15.171Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/dipa-studio/ios-sweet": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源專案，XNU 核心移植實作，屬開發技術"
+  },
+  "at": "2026-10-20T01:58:15.747Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/mistralai/timestral": {
+  "v": {
+   "label": "PASS",
+   "reason": "Mistral 開源時序基礎模型與推論程式庫，屬 AI 模型開源專案"
+  },
+  "at": "2026-10-20T01:58:16.994Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/finereli/whatsapp-mcp": {
+  "v": 71,
+  "at": "2026-10-20T01:58:22.907Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/finereli/whatsapp-mcp": {
+  "v": 53,
+  "at": "2026-10-20T01:58:23.168Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/19/my-obituary-for-programming": {
+  "v": 24,
+  "at": "2026-10-20T01:58:23.290Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/low-resource-programming-languages": {
+  "v": 30,
+  "at": "2026-10-20T01:58:23.875Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Gathin23/cleanyourtv": {
+  "v": 56,
+  "at": "2026-10-20T01:58:24.970Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/hf-torchneuron": {
+  "v": 27,
+  "at": "2026-10-20T01:58:25.181Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/hf-torchneuron": {
+  "v": 19,
+  "at": "2026-10-20T01:58:25.935Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Gathin23/cleanyourtv": {
+  "v": 61,
+  "at": "2026-10-20T01:58:26.347Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Oct/19/my-obituary-for-programming": {
+  "v": 48,
+  "at": "2026-10-20T01:58:27.436Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams": {
+  "v": 19,
+  "at": "2026-10-20T01:58:29.458Z"
+ },
+ "scoreB:118d0780:glm:http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves": {
+  "v": 23,
+  "at": "2026-10-20T01:58:29.866Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams": {
+  "v": 24,
+  "at": "2026-10-20T01:58:31.567Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026": {
+  "v": 23,
+  "at": "2026-10-20T01:58:33.118Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026": {
+  "v": 35,
+  "at": "2026-10-20T01:58:33.337Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/AndreSzymanski15/ai-jailbreaks": {
+  "v": 45,
+  "at": "2026-10-20T01:58:33.556Z"
+ },
+ "scoreA:118d0780:deepseek:http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves": {
+  "v": 20,
+  "at": "2026-10-20T01:58:33.572Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/AndreSzymanski15/ai-jailbreaks": {
+  "v": 13,
+  "at": "2026-10-20T01:58:34.454Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/low-resource-programming-languages": {
+  "v": 3,
+  "at": "2026-10-20T01:58:35.421Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication": {
+  "v": 22,
+  "at": "2026-10-20T01:58:36.135Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4": {
+  "v": 8,
+  "at": "2026-10-20T01:58:38.078Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/kksimp/Mac.apk": {
+  "v": 63,
+  "at": "2026-10-20T01:58:38.938Z"
+ },
+ "scoreB:118d0780:glm:https://www.minimax.io/blog/minimax-m31f": {
+  "v": 64,
+  "at": "2026-10-20T01:58:42.295Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication": {
+  "v": 36,
+  "at": "2026-10-20T01:58:42.597Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/kksimp/Mac.apk": {
+  "v": 40,
+  "at": "2026-10-20T01:58:42.842Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.minimax.io/blog/minimax-m31f": {
+  "v": 58,
+  "at": "2026-10-20T01:58:43.094Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4": {
+  "v": 20,
+  "at": "2026-10-20T01:58:44.407Z"
+ },
+ "scoreA:118d0780:deepseek:https://marc.info/?l=openbsd-ports&m=179236125692175": {
+  "v": 22,
+  "at": "2026-10-20T01:58:45.343Z"
+ },
+ "scoreB:118d0780:glm:https://marc.info/?l=openbsd-ports&m=179236125692175": {
+  "v": 31,
+  "at": "2026-10-20T01:58:45.866Z"
+ },
+ "scoreA:118d0780:deepseek:https://news.ycombinator.com/item?id=50151036": {
+  "v": 40,
+  "at": "2026-10-20T01:58:48.245Z"
+ },
+ "scoreB:118d0780:glm:https://news.ycombinator.com/item?id=50151036": {
+  "v": 40,
+  "at": "2026-10-20T01:58:48.248Z"
+ },
+ "scoreB:118d0780:glm:https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166": {
+  "v": 40,
+  "at": "2026-10-20T01:58:50.433Z"
+ },
+ "scoreA:118d0780:deepseek:https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166": {
+  "v": 38,
+  "at": "2026-10-20T01:58:52.060Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/xiaoyang111222/cn-math-taxonomy": {
+  "v": 25,
+  "at": "2026-10-20T01:58:52.079Z"
+ },
+ "scoreA:118d0780:deepseek:https://mistral.ai/news/timestral": {
+  "v": 42,
+  "at": "2026-10-20T01:58:52.143Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/alchaincyf/huashu-motion": {
+  "v": 77,
+  "at": "2026-10-20T01:58:52.547Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/xiaoyang111222/cn-math-taxonomy": {
+  "v": 32,
+  "at": "2026-10-20T01:58:53.629Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/alchaincyf/huashu-motion": {
+  "v": 83,
+  "at": "2026-10-20T01:58:53.681Z"
+ },
+ "scoreA:118d0780:deepseek:https://starcraft-shooter-2026.pages.dev": {
+  "v": 65,
+  "at": "2026-10-20T01:58:55.677Z"
+ },
+ "scoreB:118d0780:glm:https://mistral.ai/news/timestral": {
+  "v": 50,
+  "at": "2026-10-20T01:58:56.516Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/mistralai/timestral": {
+  "v": 67,
+  "at": "2026-10-20T01:58:57.922Z"
+ },
+ "scoreB:118d0780:glm:https://starcraft-shooter-2026.pages.dev": {
+  "v": 62,
+  "at": "2026-10-20T01:58:58.234Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Ansub/tv-detox": {
+  "v": 64,
+  "at": "2026-10-20T01:58:58.954Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/humblemuzzu/dumbtv": {
+  "v": 55,
+  "at": "2026-10-20T01:58:59.691Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/humblemuzzu/dumbtv": {
+  "v": 48,
+  "at": "2026-10-20T01:59:00.955Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/dipa-studio/ios-sweet": {
+  "v": 48,
+  "at": "2026-10-20T01:59:01.341Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/mistralai/timestral": {
+  "v": 60,
+  "at": "2026-10-20T01:59:01.988Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/zcbacxc/mcd-party-planner": {
+  "v": 57,
+  "at": "2026-10-20T01:59:03.030Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/dipa-studio/ios-sweet": {
+  "v": 54,
+  "at": "2026-10-20T01:59:03.689Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/zcbacxc/mcd-party-planner": {
+  "v": 53,
+  "at": "2026-10-20T01:59:04.309Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Ansub/tv-detox": {
+  "v": 55,
+  "at": "2026-10-20T01:59:06.609Z"
+ },
+ "write:2d964375:claude:https://github.com/alchaincyf/huashu-motion": {
+  "v": {
+   "title": "用 agent 一鍵做產品宣傳片",
+   "summary": "huashu-motion 是可裝進 Claude Code、Codex 等 agent 的 skill，說一句話就能做出產品發布片，自己寫譜配樂，還能在畫面上點一下指定修改處。",
+   "why": "可以幫你的 Discord 機器人或網頁小遊戲做宣傳短片，不用學剪輯。"
+  },
+  "at": "2026-10-20T01:59:13.850Z"
  }
 }

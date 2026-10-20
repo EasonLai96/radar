@@ -1,6 +1,6 @@
 {
- "date": "2026-10-19",
- "generatedAt": "2026-10-19T01:29:32.975Z",
+ "date": "2026-10-20",
+ "generatedAt": "2026-10-20T01:59:13.850Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,110 +11,40 @@
  },
  "items": [
   {
-   "title": "不用引擎的 WebGPU 海洋渲染",
-   "summary": "web-ocean 是不用引擎、從零寫的 WebGPU 海洋渲染器，有 FFT 波浪與日落天空，Chrome 開單一 HTML 檔就能跑。",
-   "why": "想做網頁 3D 或學 WebGPU，可以直接讀它的原始碼，看波浪和天空怎麼寫。",
-   "url": "https://github.com/Noniv/web-ocean",
+   "title": "用 agent 一鍵做產品宣傳片",
+   "summary": "huashu-motion 是可裝進 Claude Code、Codex 等 agent 的 skill，說一句話就能做出產品發布片，自己寫譜配樂，還能在畫面上點一下指定修改處。",
+   "why": "可以幫你的 Discord 機器人或網頁小遊戲做宣傳短片，不用學剪輯。",
+   "url": "https://github.com/alchaincyf/huashu-motion",
    "source": "GitHub 新專案",
    "alsoFrom": [],
-   "stars": 679,
-   "score": 82,
+   "stars": 941,
+   "score": 80,
    "scores": [
-    86,
-    79
+    77,
+    83
    ],
-   "originalTitle": "Noniv/web-ocean",
-   "related": []
-  },
-  {
-   "title": "DeepSeek 推出搜尋與抓取功能",
-   "summary": "DeepSeek 的 API 文件列出 search 與 fetch 功能，每 1000 次成功請求收費 $0.75。",
-   "why": "做 Discord 機器人時，可以評估讓 AI 查網頁、抓內容要花多少錢。",
-   "url": "https://api-docs.deepseek.com/guides/search",
-   "comments": "https://news.ycombinator.com/item?id=50138531",
-   "source": "Hacker News",
-   "alsoFrom": [],
-   "stars": null,
-   "score": 74,
-   "scores": [
-    71,
-    78
-   ],
-   "originalTitle": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-   "related": []
-  },
-  {
-   "title": "MOSS-Image 開源生圖模型",
-   "summary": "OpenMOSS 公開 5B 參數 DiT 生圖模型 MOSS-Image，程式碼與權重都已釋出，支援文字渲染、版面控制與 4K token 長提示詞。",
-   "why": "可在 ComfyUI 安裝外掛試跑，也能照指南用 LoRA 微調出自己的畫風。",
-   "url": "https://github.com/OpenMOSS/MOSS-Image",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 705,
-   "score": 74,
-   "scores": [
-    74,
-    75
-   ],
-   "originalTitle": "OpenMOSS/MOSS-Image",
-   "related": []
-  },
-  {
-   "title": "script 標籤能在原地替換自己",
-   "summary": "行內 script 用 currentScript.replaceWith 載入時替換自己，再包成 $() 就像簡易模板語言。",
-   "why": "做網頁小遊戲時，不用框架也能在頁面直接塞入年份或玩家名稱等動態文字。",
-   "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
-   "comments": null,
-   "source": "Simon Willison",
-   "alsoFrom": [],
-   "stars": null,
-   "score": 68,
-   "scores": [
-    62,
-    75
-   ],
-   "originalTitle": "Inline rendering with document​.currentScript",
-   "related": []
-  },
-  {
-   "title": "Indra：CPU 上的極速 OCR",
-   "summary": "約 1M 參數的 Indra OCR 在 CPU 上每秒可讀 49 頁，能輸出 markdown、純文字或帶框的 JSON。",
-   "why": "Discord 機器人想辨識圖片或 PDF 文字，不用 GPU 也能跑。",
-   "url": "https://github.com/datalab-to/indra",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 629,
-   "score": 68,
-   "scores": [
-    66,
-    70
-   ],
-   "originalTitle": "datalab-to/indra",
-   "related": []
-  },
-  {
-   "title": "ComfyArt：完全本機執行的開源 AI 設計畫布",
-   "summary": "ComfyArt 是開源的 AI 設計畫布，跑在你自己的 ComfyUI 上，圖像、影片、音訊、3D 都在本機生成，不需帳號或點數。內建設計 Agent，可匯出 PNG、PDF、PPTX。",
-   "why": "已經在用 ComfyUI 的人，可以直接拿它當海報或遊戲美術的免費設計工作台。",
-   "url": "https://github.com/jtydhr88/ComfyArt",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 140,
-   "score": 66,
-   "scores": [
-    61,
-    71
-   ],
-   "originalTitle": "jtydhr88/ComfyArt",
+   "originalTitle": "alchaincyf/huashu-motion",
    "related": []
   }
  ],
  "nearMiss": [
   {
-   "title": "outcrawlai/scout",
-   "url": "https://github.com/outcrawlai/scout",
+   "title": "Starcraft: Ashfall",
+   "url": "https://starcraft-shooter-2026.pages.dev",
+   "score": 63,
+   "source": "Hacker News"
+  },
+  {
+   "title": "mistralai/timestral",
+   "url": "https://github.com/mistralai/timestral",
    "score": 63,
    "source": "GitHub 新專案"
+  },
+  {
+   "title": "finereli/whatsapp-mcp",
+   "url": "https://github.com/finereli/whatsapp-mcp",
+   "score": 62,
+   "source": "GitHub Agent 技能"
   },
   {
    "title": "Tongyi-MAI/OpenGCUA",
@@ -123,22 +53,10 @@
    "source": "GitHub DSH 生態"
   },
   {
-   "title": "chenglou/handwired",
-   "url": "https://github.com/chenglou/handwired",
-   "score": 60,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "Tencent-Hunyuan/Hy-Memory",
-   "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
-   "score": 60,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "reason-machines/reason-network",
-   "url": "https://github.com/reason-machines/reason-network",
-   "score": 58,
-   "source": "GitHub DSH 生態"
+   "title": "MiniMax M3.1 Flash",
+   "url": "https://www.minimax.io/blog/minimax-m31f",
+   "score": 61,
+   "source": "Hacker News"
   }
  ],
  "stats": {
@@ -146,7 +64,7 @@
    {
     "id": "gh-new",
     "name": "GitHub 新專案",
-    "count": 24,
+    "count": 25,
     "error": null
    },
    {
@@ -164,7 +82,7 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 10,
+    "count": 11,
     "error": null
    },
    {
@@ -176,13 +94,13 @@
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 0,
+    "count": 1,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 0,
+    "count": 1,
     "error": null
    },
    {
@@ -194,7 +112,7 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 0,
+    "count": 4,
     "error": null
    },
    {
@@ -204,20 +122,20 @@
     "error": null
    }
   ],
-  "candidates": 45,
-  "prefilterPass": 38,
-  "scored": 38,
-  "picked": 6,
+  "candidates": 49,
+  "prefilterPass": 44,
+  "scored": 44,
+  "picked": 1,
   "llm": {
-   "calls": 80,
+   "calls": 87,
    "failures": 8,
    "byRoute": {
-    "owob:deepseek-free": 47,
-    "owob:glm-5.3-flash": 18,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 6,
-    "owob:claude-sonnet-5-5": 1
+    "owob:deepseek-free": 53,
+    "owob:deepseek-v4.1-flash": 1,
+    "owob:glm-5.3-flash": 24,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
    },
-   "tokens": 105003
+   "tokens": 116069
   }
  }
 }
