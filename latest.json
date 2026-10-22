@@ -1,6 +1,6 @@
 {
- "date": "2026-10-21",
- "generatedAt": "2026-10-21T01:48:43.647Z",
+ "date": "2026-10-22",
+ "generatedAt": "2026-10-22T01:44:05.717Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -9,42 +9,14 @@
   "write": "2d964375",
   "group": "2dabeeef"
  },
- "items": [
-  {
-   "title": "Battle Drones 靠聲音連線的網頁 RTS",
-   "summary": "Simon Willison 的瀏覽器 RTS《Battle Drones》手機與桌機可玩，兩台鄰近裝置能用聲音同步多人遊戲狀態。",
-   "why": "可參考它的音訊同步做法，替手機小遊戲加上近距離多人連線。",
-   "url": "https://simonwillison.net/2026/Oct/20/battledrones",
-   "comments": null,
-   "source": "Simon Willison",
-   "alsoFrom": [],
-   "stars": null,
-   "score": 73,
-   "scores": [
-    68,
-    79
-   ],
-   "originalTitle": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-   "related": []
-  },
-  {
-   "title": "DSH 外掛讓AI自己刷B站",
-   "summary": "dsh-bili-whale 是 JavaScript 寫的 DSH 外掛，會依作息自己刷 B 站、抽幀看懂影片、寫兩本日記，每天最多 @ 你 3 次。",
-   "why": "想做會自己行動的 AI 角色或機器人，可參考它的作息、限額與遇風控停手設計。",
-   "url": "https://github.com/Alterssss/dsh-bili-whale",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 116,
-   "score": 71,
-   "scores": [
-    72,
-    70
-   ],
-   "originalTitle": "Alterssss/dsh-bili-whale",
-   "related": []
-  }
- ],
+ "items": [],
  "nearMiss": [
+  {
+   "title": "aicodeking/pandacode",
+   "url": "https://github.com/aicodeking/pandacode",
+   "score": 63,
+   "source": "GitHub DSH 生態"
+  },
   {
    "title": "finereli/whatsapp-mcp",
    "url": "https://github.com/finereli/whatsapp-mcp",
@@ -64,15 +36,9 @@
    "source": "GitHub DSH 生態"
   },
   {
-   "title": "chenglou/handwired",
-   "url": "https://github.com/chenglou/handwired",
-   "score": 60,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "Tencent-Hunyuan/Hy-Memory",
-   "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
-   "score": 60,
+   "title": "Ansub/tv-detox",
+   "url": "https://github.com/Ansub/tv-detox",
+   "score": 59,
    "source": "GitHub 新專案"
   }
  ],
@@ -93,13 +59,13 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 7,
+    "count": 5,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 15,
+    "count": 14,
     "error": null
    },
    {
@@ -111,13 +77,13 @@
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 6,
+    "count": 4,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 3,
+    "count": 9,
     "error": null
    },
    {
@@ -129,29 +95,27 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 7,
+    "count": 1,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 2,
+    "count": 3,
     "error": null
    }
   ],
   "candidates": 60,
-  "prefilterPass": 51,
-  "scored": 51,
-  "picked": 2,
+  "prefilterPass": 52,
+  "scored": 52,
+  "picked": 0,
   "llm": {
-   "calls": 125,
-   "failures": 13,
+   "calls": 89,
+   "failures": 17,
    "byRoute": {
-    "owob:deepseek-free": 109,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 2,
-    "owob:deepseek-v4.1-flash": 1
+    "owob:deepseek-v4.1-flash": 72
    },
-   "tokens": 154972
+   "tokens": 79389
   }
  }
 }

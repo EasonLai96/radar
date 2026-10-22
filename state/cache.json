@@ -2533,5 +2533,410 @@
    "why": "可參考它的音訊同步做法，替手機小遊戲加上近距離多人連線。"
   },
   "at": "2026-10-21T01:48:43.647Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/nvidia/kumo-relational": {
+  "v": {
+   "label": "PASS",
+   "reason": "NVIDIA 新關聯式 ML 模型技術發布"
+  },
+  "at": "2026-10-22T01:41:55.388Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.latent.space/p/claude-mods": {
+  "v": {
+   "label": "PASS",
+   "reason": "探討 Claude 的 agent harness 與人機介面，屬 coding agent 開發工具"
+  },
+  "at": "2026-10-22T01:41:56.439Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b": {
+  "v": {
+   "label": "PASS",
+   "reason": "mitmproxy 是開發者常用網路除錯代理工具"
+  },
+  "at": "2026-10-22T01:41:58.254Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/att-legal": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "企業法務導入 OpenAI 的商業案例，與開發工具無關"
+  },
+  "at": "2026-10-22T01:41:59.212Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub CLI 開發工具 OAuth 憑證更新"
+  },
+  "at": "2026-10-22T01:42:00.277Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/21/panache": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源遊戲 French fork，涉及遊戲設計與前端，與開發實質相關"
+  },
+  "at": "2026-10-22T01:42:01.915Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization": {
+  "v": {
+   "label": "PASS",
+   "reason": "SLM詞彙特化降推論成本，與AI模型開發相關"
+  },
+  "at": "2026-10-22T01:42:03.818Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/broad-access-through-consistent-standards": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 分發夥伴與使用政策，涉及模型可得性"
+  },
+  "at": "2026-10-22T01:42:04.211Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.latent.space/p/ainews-deepseek-deepinfer-open-source": {
+  "v": {
+   "label": "PASS",
+   "reason": "DeepSeek 開源推論系統與模型部署，與開發工具相關"
+  },
+  "at": "2026-10-22T01:42:07.478Z"
+ },
+ "prefilter:d2932bff:deepseek:https://claude.com/product/claude-duet": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude 新產品，與 AI 模型及開發工具相關"
+  },
+  "at": "2026-10-22T01:42:07.625Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/aicodeking/pandacode": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源桌面 coding agent 工作區，支援多種 CLI 與機器人"
+  },
+  "at": "2026-10-22T01:42:07.955Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/amazon/profiling-torchneuron-part-1": {
+  "v": {
+   "label": "PASS",
+   "reason": "TorchNeuron 模型訓練剖析工具，屬 AI 開發工具"
+  },
+  "at": "2026-10-22T01:42:09.473Z"
+ },
+ "prefilter:d2932bff:deepseek:https://blog.railway.com/p/security-disclosure-wednesday-october-21st": {
+  "v": {
+   "label": "PASS",
+   "reason": "Railway 開發部署平台的資安披露，與開發工具相關"
+  },
+  "at": "2026-10-22T01:42:09.875Z"
+ },
+ "prefilter:d2932bff:deepseek:https://google.github.io/styleguide/rustguide.html": {
+  "v": {
+   "label": "PASS",
+   "reason": "Google 的 Rust 官方風格指南，屬程式開發規範"
+  },
+  "at": "2026-10-22T01:42:10.839Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/chatgpt-ads-expands-26-new-countries": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "ChatGPT 廣告商業新聞，與開發工具無關"
+  },
+  "at": "2026-10-22T01:42:10.933Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.latent.space/p/tenex": {
+  "v": {
+   "label": "PASS",
+   "reason": "談企業AI代理與AI原生開發流程，與Agent開發相關"
+  },
+  "at": "2026-10-22T01:42:11.558Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/ibm-granite/granite-speech-5": {
+  "v": {
+   "label": "PASS",
+   "reason": "IBM 新語音 AI 模型發布，屬 AI 模型範疇"
+  },
+  "at": "2026-10-22T01:42:12.875Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/21/php-security-release": {
+  "v": {
+   "label": "PASS",
+   "reason": "PHP 重大 RCE 漏洞修補，與網站開發安全相關"
+  },
+  "at": "2026-10-22T01:42:14.017Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/scaling-ai-research-for-complex-biological-data": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 用大量 AI agent 做生物資料研究，與 Agent 應用相關"
+  },
+  "at": "2026-10-22T01:42:14.941Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/cloudflare-cyber": {
+  "v": {
+   "label": "PASS",
+   "reason": "Cloudflare 用 OpenAI／Codex 做漏洞調查與寫程式，屬開發工具。"
+  },
+  "at": "2026-10-22T01:42:15.488Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "Meta 法律裁罰新聞，與開發工具無關"
+  },
+  "at": "2026-10-22T01:42:16.939Z"
+ },
+ "prefilter:d2932bff:deepseek:https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitLab 修補版本發布，屬開發工具與版本控制安全更新"
+  },
+  "at": "2026-10-22T01:42:17.052Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/JeffKeeping/dsh-purge-plus": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 外掛非官方分支，屬 harness 開發工具"
+  },
+  "at": "2026-10-22T01:42:19.182Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/pengchujin/aerial-tv": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 Android TV 桌面專案，含 Agent 安裝指引"
+  },
+  "at": "2026-10-22T01:42:19.459Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/building-chatgpt-ad-stack": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "ChatGPT 廣告投放系統，屬商業消息與開發無關"
+  },
+  "at": "2026-10-22T01:42:21.384Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/WoYun520/dsh-purge": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 破甲外掛，屬 DSH 工具鏈相關"
+  },
+  "at": "2026-10-22T01:42:22.823Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/empowering-cyber-defenders": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 前沿 AI 治理與網路安全政策，與 AI 開發相關"
+  },
+  "at": "2026-10-22T01:42:23.092Z"
+ },
+ "prefilter:d2932bff:deepseek:https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security": {
+  "v": {
+   "label": "PASS",
+   "reason": "PHP 語言安全更新，屬開發工具與程式語言相關"
+  },
+  "at": "2026-10-22T01:42:23.966Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "遊戲公司關閉為商業新聞，與開發工具無關"
+  },
+  "at": "2026-10-22T01:42:24.244Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 協同揭露漏洞與 agent 相關"
+  },
+  "at": "2026-10-22T01:42:25.505Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Alejandros17487/ai-jailbreaks": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI越獄提示集，涉模型與agent提示工程"
+  },
+  "at": "2026-10-22T01:42:26.075Z"
+ },
+ "prefilter:d2932bff:deepseek:https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "地方政治收購瀑布，與AI開發無關"
+  },
+  "at": "2026-10-22T01:42:26.465Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/NineAbyss/OR-License": {
+  "v": {
+   "label": "PASS",
+   "reason": "LLM Agent 作業研究評測基準，與 Agent 開發相關"
+  },
+  "at": "2026-10-22T01:42:27.038Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/ikow/php2shell-poc": {
+  "v": {
+   "label": "PASS",
+   "reason": "PHP 遠端執行漏洞 PoC 與偵測工具，與網頁開發及開源專案相關"
+  },
+  "at": "2026-10-22T01:42:28.568Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/eagle-hq/EAGLE-4": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 LLM 推測解碼加速專案"
+  },
+  "at": "2026-10-22T01:42:30.368Z"
+ },
+ "prefilter:d2932bff:deepseek:https://duckdb.org/2026/10/21/announcing-duckdb-200": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源分析資料庫 DuckDB 發布 2.0，屬開發工具"
+  },
+  "at": "2026-10-22T01:42:31.186Z"
+ },
+ "prefilter:d2932bff:deepseek:https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor": {
+  "v": {
+   "label": "PASS",
+   "reason": "LiteLLM 為 AI 模型工具，供應鏈惡意套件與開發者相關"
+  },
+  "at": "2026-10-22T01:42:31.350Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/php/php-src/releases/tag/php-8.2.35": {
+  "v": {
+   "label": "PASS",
+   "reason": "PHP 語言版本與安全更新，屬開發工具"
+  },
+  "at": "2026-10-22T01:42:31.496Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/openai-models-google-cloud": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 模型登上 Google Cloud，關乎模型可用性與取用管道"
+  },
+  "at": "2026-10-22T01:42:32.232Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b": {
+  "v": 22,
+  "at": "2026-10-22T01:42:36.507Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.latent.space/p/claude-mods": {
+  "v": 22,
+  "at": "2026-10-22T01:42:36.583Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/nvidia/kumo-relational": {
+  "v": 30,
+  "at": "2026-10-22T01:42:37.544Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens": {
+  "v": 27,
+  "at": "2026-10-22T01:42:40.418Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/21/php-security-release": {
+  "v": 35,
+  "at": "2026-10-22T01:42:40.980Z"
+ },
+ "scoreA:118d0780:deepseek:https://blog.railway.com/p/security-disclosure-wednesday-october-21st": {
+  "v": 42,
+  "at": "2026-10-22T01:42:41.649Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization": {
+  "v": 34,
+  "at": "2026-10-22T01:42:43.395Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/21/panache": {
+  "v": 53,
+  "at": "2026-10-22T01:42:46.562Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.latent.space/p/ainews-deepseek-deepinfer-open-source": {
+  "v": 53,
+  "at": "2026-10-22T01:42:47.581Z"
+ },
+ "scoreA:118d0780:deepseek:https://claude.com/product/claude-duet": {
+  "v": 52,
+  "at": "2026-10-22T01:42:48.884Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.latent.space/p/tenex": {
+  "v": 20,
+  "at": "2026-10-22T01:42:50.008Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/ibm-granite/granite-speech-5": {
+  "v": 40,
+  "at": "2026-10-22T01:42:56.479Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/broad-access-through-consistent-standards": {
+  "v": 12,
+  "at": "2026-10-22T01:42:57.713Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/scaling-ai-research-for-complex-biological-data": {
+  "v": 24,
+  "at": "2026-10-22T01:43:00.148Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/aicodeking/pandacode": {
+  "v": 68,
+  "at": "2026-10-22T01:43:01.702Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/pengchujin/aerial-tv": {
+  "v": 50,
+  "at": "2026-10-22T01:43:04.194Z"
+ },
+ "scoreA:118d0780:deepseek:https://google.github.io/styleguide/rustguide.html": {
+  "v": 26,
+  "at": "2026-10-22T01:43:05.146Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/cloudflare-cyber": {
+  "v": 21,
+  "at": "2026-10-22T01:43:12.602Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/WoYun520/dsh-purge": {
+  "v": 53,
+  "at": "2026-10-22T01:43:14.322Z"
+ },
+ "scoreA:118d0780:deepseek:https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released": {
+  "v": 22,
+  "at": "2026-10-22T01:43:17.444Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/amazon/profiling-torchneuron-part-1": {
+  "v": 12,
+  "at": "2026-10-22T01:43:19.218Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Alejandros17487/ai-jailbreaks": {
+  "v": 46,
+  "at": "2026-10-22T01:43:29.355Z"
+ },
+ "scoreA:118d0780:deepseek:https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security": {
+  "v": 23,
+  "at": "2026-10-22T01:43:30.301Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/empowering-cyber-defenders": {
+  "v": 16,
+  "at": "2026-10-22T01:43:31.450Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/JeffKeeping/dsh-purge-plus": {
+  "v": 59,
+  "at": "2026-10-22T01:43:34.965Z"
+ },
+ "scoreA:118d0780:deepseek:https://duckdb.org/2026/10/21/announcing-duckdb-200": {
+  "v": 48,
+  "at": "2026-10-22T01:43:35.808Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
+  "v": 43,
+  "at": "2026-10-22T01:43:36.356Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/ikow/php2shell-poc": {
+  "v": 60,
+  "at": "2026-10-22T01:43:42.596Z"
+ },
+ "scoreA:118d0780:deepseek:https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor": {
+  "v": 51,
+  "at": "2026-10-22T01:43:42.599Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/php/php-src/releases/tag/php-8.2.35": {
+  "v": 21,
+  "at": "2026-10-22T01:43:45.359Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/openai-models-google-cloud": {
+  "v": 31,
+  "at": "2026-10-22T01:43:47.149Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/NineAbyss/OR-License": {
+  "v": 35,
+  "at": "2026-10-22T01:43:47.367Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/eagle-hq/EAGLE-4": {
+  "v": 40,
+  "at": "2026-10-22T01:44:05.717Z"
  }
 }
