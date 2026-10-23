@@ -2938,5 +2938,532 @@
  "scoreA:118d0780:deepseek:https://github.com/eagle-hq/EAGLE-4": {
   "v": 40,
   "at": "2026-10-22T01:44:05.717Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/decisions-api": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 新 API,與開發者打造應用程式相關"
+  },
+  "at": "2026-10-23T01:42:43.343Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/NVIDIA/OpenShell": {
+  "v": {
+   "label": "PASS",
+   "reason": "NVIDIA 開源 AI agent 執行環境，與 Agent 開發工具相關"
+  },
+  "at": "2026-10-23T01:42:44.002Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/microsoft/thinkingbox-training": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI代理訓練與強化學習獎勵，屬開發工具"
+  },
+  "at": "2026-10-23T01:42:44.089Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/22/de-staat-freedom": {
+  "v": {
+   "label": "PASS",
+   "reason": "生成式AI視覺特效音樂錄影帶，與AI繪圖影像工具相關"
+  },
+  "at": "2026-10-23T01:42:44.991Z"
+ },
+ "prefilter:d2932bff:deepseek:https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "DeepMind森林測繪研究，與開發工具無關"
+  },
+  "at": "2026-10-23T01:42:45.002Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 開發工具更新"
+  },
+  "at": "2026-10-23T01:42:46.274Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/22/donating-agent-skills": {
+  "v": {
+   "label": "PASS",
+   "reason": "Agent Skills 標準與 MCP 捐贈,與 coding agent 技能高度相關"
+  },
+  "at": "2026-10-23T01:42:47.348Z"
+ },
+ "prefilter:d2932bff:deepseek:https://arc.net": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "浏览器停運屬一般科技新聞，與開發無實質關係"
+  },
+  "at": "2026-10-23T01:42:49.367Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/allenai/olmoearth-v1-3": {
+  "v": {
+   "label": "PASS",
+   "reason": "Hugging Face 新 AI 嵌模模型發布"
+  },
+  "at": "2026-10-23T01:42:49.427Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/forward-deployed-engineering-means": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 前線部署工程，與 AI 落地及 Agent 開發相關"
+  },
+  "at": "2026-10-23T01:42:50.217Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.latent.space/p/modal-d": {
+  "v": {
+   "label": "PASS",
+   "reason": "涉及AI计算与agent云基础设施，与Agent开发相关"
+  },
+  "at": "2026-10-23T01:42:50.432Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.latent.space/p/moshi": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "金融交易 AI 產品介紹，與開發工具無關"
+  },
+  "at": "2026-10-23T01:42:52.453Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 用量 API 支援技能、Agent、MCP 統計"
+  },
+  "at": "2026-10-23T01:42:53.313Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.taler.net/en/news/2026-13.html": {
+  "v": {
+   "label": "PASS",
+   "reason": "GNU Taler 開源支付系統專案，屬開源開發工具"
+  },
+  "at": "2026-10-23T01:42:53.945Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/22/armin-ronacher": {
+  "v": {
+   "label": "PASS",
+   "reason": "Simon Willison 引用 Armin Ronacher 談 AI 與軟體，與 LLM 開發相關"
+  },
+  "at": "2026-10-23T01:42:54.928Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 功能政策更新，與 coding agent 開發工具相關"
+  },
+  "at": "2026-10-23T01:42:55.805Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/uber-chatgpt-work-rollout": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 產品 ChatGPT 企業部署，與 AI 模型應用相關"
+  },
+  "at": "2026-10-23T01:42:56.362Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1": {
+  "v": {
+   "label": "PASS",
+   "reason": "IBM Granite AI模型，时间序列预测相关"
+  },
+  "at": "2026-10-23T01:42:56.953Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.latent.space/p/ainews-openais-patch-the-planet-program": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI模型參與PHP漏洞修補，與開發相關"
+  },
+  "at": "2026-10-23T01:42:57.695Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-22-meta-api-endpoints-updated-for-actions-blob-storage": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Actions API 更新，屬開發工具"
+  },
+  "at": "2026-10-23T01:42:58.464Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub 開發工具安全功能更新"
+  },
+  "at": "2026-10-23T01:43:01.273Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 模型行為與輸出比較,與模型議題相關"
+  },
+  "at": "2026-10-23T01:43:01.782Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-22-pull-requests-saved-whitespace-preferences-and-improved-split-view": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub PR 審查功能更新,與開發工具相關"
+  },
+  "at": "2026-10-23T01:43:02.699Z"
+ },
+ "prefilter:d2932bff:deepseek:https://quad9.net/news/blog/au-revoir-france": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "DNS服務退出法國屬一般科技政策新聞，與開發無關"
+  },
+  "at": "2026-10-23T01:43:04.186Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/tek-sys-hub/Rubix-lang": {
+  "v": {
+   "label": "PASS",
+   "reason": "純組合語言自製編譯器與程式語言，屬開發工具與開源專案"
+  },
+  "at": "2026-10-23T01:43:05.862Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 儀表板新功能，與 AI 編碼代理相關"
+  },
+  "at": "2026-10-23T01:43:06.492Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/sit-in/awesome-grokbot-playbooks": {
+  "v": {
+   "label": "PASS",
+   "reason": "Grok Bot/多agent配方與skill生態清單，與開發者實質相關"
+  },
+  "at": "2026-10-23T01:43:07.813Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/oosexgang/hackios-xnu-kernel": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源專案，屬開發工具/技術範疇"
+  },
+  "at": "2026-10-23T01:43:09.418Z"
+ },
+ "prefilter:d2932bff:deepseek:https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "SSL憑證商退出市場，屬一般科技商業新聞"
+  },
+  "at": "2026-10-23T01:43:11.745Z"
+ },
+ "prefilter:d2932bff:deepseek:https://pwn.watch": {
+  "v": {
+   "label": "UNKNOWN",
+   "reason": "僅知是漏洞追蹤網站，難判定與開發工具相關"
+  },
+  "at": "2026-10-23T01:43:11.978Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/reacher-z/Awesome-REA": {
+  "v": {
+   "label": "PASS",
+   "reason": "逆向工程+agent/MCP 開發工具彙整清單"
+  },
+  "at": "2026-10-23T01:43:12.692Z"
+ },
+ "prefilter:d2932bff:deepseek:https://news.ycombinator.com/item?id=50193416": {
+  "v": {
+   "label": "PASS",
+   "reason": "PHP RCE 漏洞與協調披露，屬開發工具安全議題"
+  },
+  "at": "2026-10-23T01:43:13.204Z"
+ },
+ "prefilter:d2932bff:deepseek:https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "Xbox 雲端遊戲收費,屬消費產品商業新聞,與開發無關"
+  },
+  "at": "2026-10-23T01:43:13.747Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "金融詐騙司法新聞，與AI或開發無關"
+  },
+  "at": "2026-10-23T01:43:15.272Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/9bie/php2shell-bypass-aslr-exp": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源資安漏洞利用專案，屬開發技術範疇"
+  },
+  "at": "2026-10-23T01:43:17.856Z"
+ },
+ "prefilter:d2932bff:deepseek:https://globus.software/blog/2026/10/16/cutting-map-polygons": {
+  "v": {
+   "label": "PASS",
+   "reason": "三角化演算法，與網頁繪圖/遊戲開發相關"
+  },
+  "at": "2026-10-23T01:43:18.280Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
+  "v": {
+   "label": "PASS",
+   "reason": "PHP RCE 漏洞 PoC 開源專案，與開發及伺服器安全相關。"
+  },
+  "at": "2026-10-23T01:43:19.046Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2": {
+  "v": 20,
+  "at": "2026-10-23T01:43:25.091Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2": {
+  "v": 20,
+  "at": "2026-10-23T01:43:25.287Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/microsoft/thinkingbox-training": {
+  "v": 27,
+  "at": "2026-10-23T01:43:26.976Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Oct/22/de-staat-freedom": {
+  "v": 15,
+  "at": "2026-10-23T01:43:27.196Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/microsoft/thinkingbox-training": {
+  "v": 30,
+  "at": "2026-10-23T01:43:27.264Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/22/de-staat-freedom": {
+  "v": 28,
+  "at": "2026-10-23T01:43:28.595Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Oct/22/donating-agent-skills": {
+  "v": 45,
+  "at": "2026-10-23T01:43:29.795Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/decisions-api": {
+  "v": 36,
+  "at": "2026-10-23T01:43:29.866Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/decisions-api": {
+  "v": 36,
+  "at": "2026-10-23T01:43:30.860Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/NVIDIA/OpenShell": {
+  "v": 45,
+  "at": "2026-10-23T01:43:31.143Z"
+ },
+ "scoreB:118d0780:glm:https://www.latent.space/p/modal-d": {
+  "v": 25,
+  "at": "2026-10-23T01:43:32.260Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.latent.space/p/modal-d": {
+  "v": 24,
+  "at": "2026-10-23T01:43:33.857Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/forward-deployed-engineering-means": {
+  "v": 12,
+  "at": "2026-10-23T01:43:34.854Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/allenai/olmoearth-v1-3": {
+  "v": 34,
+  "at": "2026-10-23T01:43:35.385Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/22/donating-agent-skills": {
+  "v": 36,
+  "at": "2026-10-23T01:43:35.759Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/allenai/olmoearth-v1-3": {
+  "v": 27,
+  "at": "2026-10-23T01:43:36.690Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/NVIDIA/OpenShell": {
+  "v": 30,
+  "at": "2026-10-23T01:43:36.713Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/forward-deployed-engineering-means": {
+  "v": 13,
+  "at": "2026-10-23T01:43:38.185Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Oct/22/armin-ronacher": {
+  "v": 8,
+  "at": "2026-10-23T01:43:38.832Z"
+ },
+ "scoreB:118d0780:glm:https://www.taler.net/en/news/2026-13.html": {
+  "v": 37,
+  "at": "2026-10-23T01:43:41.446Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1": {
+  "v": 18,
+  "at": "2026-10-23T01:43:42.037Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api": {
+  "v": 20,
+  "at": "2026-10-23T01:43:42.164Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api": {
+  "v": 20,
+  "at": "2026-10-23T01:43:42.256Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1": {
+  "v": 14,
+  "at": "2026-10-23T01:43:42.800Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/uber-chatgpt-work-rollout": {
+  "v": 22,
+  "at": "2026-10-23T01:43:43.789Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.taler.net/en/news/2026-13.html": {
+  "v": 36,
+  "at": "2026-10-23T01:43:45.476Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/22/armin-ronacher": {
+  "v": 18,
+  "at": "2026-10-23T01:43:46.227Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available": {
+  "v": 18,
+  "at": "2026-10-23T01:43:47.106Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/uber-chatgpt-work-rollout": {
+  "v": 28,
+  "at": "2026-10-23T01:43:47.244Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available": {
+  "v": 22,
+  "at": "2026-10-23T01:43:47.995Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/pengchujin/aerial-tv": {
+  "v": 53,
+  "at": "2026-10-23T01:43:49.635Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/aicodeking/pandacode": {
+  "v": 66,
+  "at": "2026-10-23T01:43:50.223Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans": {
+  "v": 30,
+  "at": "2026-10-23T01:43:50.613Z"
+ },
+ "scoreB:118d0780:glm:https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans": {
+  "v": 25,
+  "at": "2026-10-23T01:43:54.149Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/broad-access-through-consistent-standards": {
+  "v": 16,
+  "at": "2026-10-23T01:43:54.482Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-22-meta-api-endpoints-updated-for-actions-blob-storage": {
+  "v": 12,
+  "at": "2026-10-23T01:43:56.434Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-22-meta-api-endpoints-updated-for-actions-blob-storage": {
+  "v": 15,
+  "at": "2026-10-23T01:43:56.625Z"
+ },
+ "scoreB:118d0780:glm:https://www.latent.space/p/ainews-openais-patch-the-planet-program": {
+  "v": 50,
+  "at": "2026-10-23T01:43:56.943Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency": {
+  "v": 18,
+  "at": "2026-10-23T01:43:57.906Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/WoYun520/dsh-purge": {
+  "v": 18,
+  "at": "2026-10-23T01:43:58.287Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-22-pull-requests-saved-whitespace-preferences-and-improved-split-view": {
+  "v": 15,
+  "at": "2026-10-23T01:44:00.483Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency": {
+  "v": 24,
+  "at": "2026-10-23T01:44:00.552Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/tek-sys-hub/Rubix-lang": {
+  "v": 28,
+  "at": "2026-10-23T01:44:01.437Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-22-pull-requests-saved-whitespace-preferences-and-improved-split-view": {
+  "v": 25,
+  "at": "2026-10-23T01:44:06.557Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/oosexgang/hackios-xnu-kernel": {
+  "v": 35,
+  "at": "2026-10-23T01:44:09.496Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.latent.space/p/ainews-openais-patch-the-planet-program": {
+  "v": 42,
+  "at": "2026-10-23T01:44:10.972Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/tek-sys-hub/Rubix-lang": {
+  "v": 30,
+  "at": "2026-10-23T01:44:11.033Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/oosexgang/hackios-xnu-kernel": {
+  "v": 22,
+  "at": "2026-10-23T01:44:11.317Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/sit-in/awesome-grokbot-playbooks": {
+  "v": 45,
+  "at": "2026-10-23T01:44:12.303Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/sit-in/awesome-grokbot-playbooks": {
+  "v": 41,
+  "at": "2026-10-23T01:44:13.835Z"
+ },
+ "scoreB:118d0780:glm:https://pwn.watch": {
+  "v": 30,
+  "at": "2026-10-23T01:44:15.949Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard": {
+  "v": 20,
+  "at": "2026-10-23T01:44:16.554Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Alejandros17487/ai-jailbreaks": {
+  "v": 63,
+  "at": "2026-10-23T01:44:16.855Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard": {
+  "v": 18,
+  "at": "2026-10-23T01:44:17.609Z"
+ },
+ "scoreA:118d0780:deepseek:https://pwn.watch": {
+  "v": 28,
+  "at": "2026-10-23T01:44:18.839Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/reacher-z/Awesome-REA": {
+  "v": 38,
+  "at": "2026-10-23T01:44:19.885Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/JeffKeeping/dsh-purge-plus": {
+  "v": 55,
+  "at": "2026-10-23T01:44:20.585Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/9bie/php2shell-bypass-aslr-exp": {
+  "v": 55,
+  "at": "2026-10-23T01:44:22.780Z"
+ },
+ "scoreB:118d0780:glm:https://news.ycombinator.com/item?id=50193416": {
+  "v": 30,
+  "at": "2026-10-23T01:44:23.028Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/reacher-z/Awesome-REA": {
+  "v": 22,
+  "at": "2026-10-23T01:44:24.422Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/9bie/php2shell-bypass-aslr-exp": {
+  "v": 48,
+  "at": "2026-10-23T01:44:24.461Z"
+ },
+ "scoreA:118d0780:deepseek:https://news.ycombinator.com/item?id=50193416": {
+  "v": 30,
+  "at": "2026-10-23T01:44:29.010Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
+  "v": 35,
+  "at": "2026-10-23T01:44:36.502Z"
+ },
+ "scoreB:118d0780:glm:https://globus.software/blog/2026/10/16/cutting-map-polygons": {
+  "v": 55,
+  "at": "2026-10-23T01:44:42.658Z"
+ },
+ "scoreA:118d0780:deepseek:https://globus.software/blog/2026/10/16/cutting-map-polygons": {
+  "v": 58,
+  "at": "2026-10-23T01:44:43.973Z"
+ },
+ "write:2d964375:claude:https://github.com/aicodeking/pandacode": {
+  "v": {
+   "title": "PandaCode 整合多款程式代理",
+   "summary": "開源桌面工作區 PandaCode，可並排執行 Claude Code、Codex 等 coding CLI，內含 Git、終端機與瀏覽器。",
+   "why": "想比較不同 AI 寫程式工具時，一個視窗就能切換試用，不用來回開好幾個程式。"
+  },
+  "at": "2026-10-23T01:44:55.081Z"
  }
 }

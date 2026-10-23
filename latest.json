@@ -1,6 +1,6 @@
 {
- "date": "2026-10-22",
- "generatedAt": "2026-10-22T01:44:05.717Z",
+ "date": "2026-10-23",
+ "generatedAt": "2026-10-23T01:44:55.081Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -9,25 +9,30 @@
   "write": "2d964375",
   "group": "2dabeeef"
  },
- "items": [],
- "nearMiss": [
+ "items": [
   {
-   "title": "aicodeking/pandacode",
+   "title": "PandaCode 整合多款程式代理",
+   "summary": "開源桌面工作區 PandaCode，可並排執行 Claude Code、Codex 等 coding CLI，內含 Git、終端機與瀏覽器。",
+   "why": "想比較不同 AI 寫程式工具時，一個視窗就能切換試用，不用來回開好幾個程式。",
    "url": "https://github.com/aicodeking/pandacode",
-   "score": 63,
-   "source": "GitHub DSH 生態"
-  },
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 506,
+   "score": 67,
+   "scores": [
+    68,
+    66
+   ],
+   "originalTitle": "aicodeking/pandacode",
+   "related": []
+  }
+ ],
+ "nearMiss": [
   {
    "title": "finereli/whatsapp-mcp",
    "url": "https://github.com/finereli/whatsapp-mcp",
    "score": 62,
    "source": "GitHub Agent 技能"
-  },
-  {
-   "title": "eMudhra Intermediate CA Compromise",
-   "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates",
-   "score": 62,
-   "source": "Simon Willison"
   },
   {
    "title": "Tongyi-MAI/OpenGCUA",
@@ -40,6 +45,18 @@
    "url": "https://github.com/Ansub/tv-detox",
    "score": 59,
    "source": "GitHub 新專案"
+  },
+  {
+   "title": "Gathin23/cleanyourtv",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "score": 58,
+   "source": "GitHub 新專案"
+  },
+  {
+   "title": "reason-machines/reason-network",
+   "url": "https://github.com/reason-machines/reason-network",
+   "score": 58,
+   "source": "GitHub DSH 生態"
   }
  ],
  "stats": {
@@ -59,13 +76,13 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 5,
+    "count": 3,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 14,
+    "count": 13,
     "error": null
    },
    {
@@ -77,25 +94,25 @@
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 4,
+    "count": 3,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 9,
+    "count": 4,
     "error": null
    },
    {
     "id": "deepmind",
     "name": "Google DeepMind",
-    "count": 0,
+    "count": 1,
     "error": null
    },
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 1,
+    "count": 7,
     "error": null
    },
    {
@@ -108,14 +125,15 @@
   "candidates": 60,
   "prefilterPass": 52,
   "scored": 52,
-  "picked": 0,
+  "picked": 1,
   "llm": {
-   "calls": 89,
-   "failures": 17,
+   "calls": 116,
+   "failures": 13,
    "byRoute": {
-    "owob:deepseek-v4.1-flash": 72
+    "owob:deepseek-free": 102,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
    },
-   "tokens": 79389
+   "tokens": 142302
   }
  }
 }
