@@ -1,1 +1,1265 @@
-{}
+{
+ "https://github.com/Noniv/web-ocean": {
+  "url": "https://github.com/Noniv/web-ocean",
+  "title": "Noniv/web-ocean",
+  "source": "GitHub 新專案",
+  "date": "2026-10-19",
+  "score": 82,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://api-docs.deepseek.com/guides/search": {
+  "url": "https://api-docs.deepseek.com/guides/search",
+  "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+  "source": "Hacker News",
+  "date": "2026-10-19",
+  "score": 74,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/OpenMOSS/MOSS-Image": {
+  "url": "https://github.com/OpenMOSS/MOSS-Image",
+  "title": "OpenMOSS/MOSS-Image",
+  "source": "GitHub 新專案",
+  "date": "2026-10-19",
+  "score": 74,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://simonwillison.net/2026/Oct/17/document-currentscript": {
+  "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+  "title": "Inline rendering with document​.currentScript",
+  "source": "Simon Willison",
+  "date": "2026-10-19",
+  "score": 68,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/datalab-to/indra": {
+  "url": "https://github.com/datalab-to/indra",
+  "title": "datalab-to/indra",
+  "source": "GitHub 新專案",
+  "date": "2026-10-19",
+  "score": 68,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1074,
+   "starsPerDay": 88,
+   "checkedAt": "2026-10-25T16:59:21.629Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/jtydhr88/ComfyArt": {
+  "url": "https://github.com/jtydhr88/ComfyArt",
+  "title": "jtydhr88/ComfyArt",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-19",
+  "score": 66,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/alchaincyf/huashu-motion": {
+  "url": "https://github.com/alchaincyf/huashu-motion",
+  "title": "alchaincyf/huashu-motion",
+  "source": "GitHub 新專案",
+  "date": "2026-10-20",
+  "score": 80,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/Alterssss/dsh-bili-whale": {
+  "url": "https://github.com/Alterssss/dsh-bili-whale",
+  "title": "Alterssss/dsh-bili-whale",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-21",
+  "score": 71,
+  "picked": true,
+  "thumbs": {
+   "up": 1,
+   "down": 0
+  },
+  "verdict": "good",
+  "verdictBy": "thumbs"
+ },
+ "https://github.com/aicodeking/pandacode": {
+  "url": "https://github.com/aicodeking/pandacode",
+  "title": "aicodeking/pandacode",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-23",
+  "score": 67,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://simonwillison.net/2026/Oct/23/kimi-k31-pro": {
+  "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro",
+  "title": "Introducing Kimi K3.1 Pro",
+  "source": "Simon Willison",
+  "date": "2026-10-24",
+  "score": 87,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/Hugo-Dz/spritefusion-sprite-normals": {
+  "url": "https://github.com/Hugo-Dz/spritefusion-sprite-normals",
+  "title": "Hugo-Dz/spritefusion-sprite-normals",
+  "source": "GitHub 新專案",
+  "date": "2026-10-24",
+  "score": 72,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/wesbos/3d-model-anything": {
+  "url": "https://github.com/wesbos/3d-model-anything",
+  "title": "wesbos/3d-model-anything",
+  "source": "GitHub 新專案",
+  "date": "2026-10-24",
+  "score": 70,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/jhaizhou-ops/d2r-mobile": {
+  "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+  "title": "jhaizhou-ops/d2r-mobile",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 61,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 4619,
+   "starsPerDay": 346,
+   "checkedAt": "2026-10-25T16:58:57.277Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/T-Auto/dsh-ops": {
+  "url": "https://github.com/T-Auto/dsh-ops",
+  "title": "T-Auto/dsh-ops",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 73,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 4259,
+   "starsPerDay": 245,
+   "checkedAt": "2026-10-25T16:58:57.624Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/anujasid/blender-ai-mcp-addon": {
+  "url": "https://github.com/anujasid/blender-ai-mcp-addon",
+  "title": "anujasid/blender-ai-mcp-addon",
+  "source": "GitHub Agent 技能",
+  "date": "2026-10-17",
+  "score": 56,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017": {
+  "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+  "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 79,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 520,
+   "comments": 5,
+   "checkedAt": "2026-10-25T16:58:58.596Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Oct/16/code-review": {
+  "url": "https://simonwillison.net/2026/Oct/16/code-review",
+  "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+  "source": "Simon Willison",
+  "date": "2026-10-17",
+  "score": 51,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/itau-generative-ai": {
+  "url": "https://openai.com/index/itau-generative-ai",
+  "title": "How Itaú is building generative AI for its entire customer base",
+  "source": "OpenAI News",
+  "date": "2026-10-17",
+  "score": 15,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available": {
+  "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
+  "title": "Open source license compliance generally available",
+  "source": "GitHub Changelog",
+  "date": "2026-10-17",
+  "score": 16,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://www.latent.space/p/ainews-high-taste-testers-ep-1": {
+  "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+  "title": "[AINews] High Taste Testers Ep. 1",
+  "source": "Latent Space",
+  "date": "2026-10-17",
+  "score": 16,
+  "picked": false,
+  "prefilter": "UNKNOWN"
+ },
+ "https://github.com/liseami/CCBaga": {
+  "url": "https://github.com/liseami/CCBaga",
+  "title": "liseami/CCBaga",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 26,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 3024,
+   "starsPerDay": 208,
+   "checkedAt": "2026-10-25T16:58:58.944Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/Fei2411/DeepSeek-Bot": {
+  "url": "https://github.com/Fei2411/DeepSeek-Bot",
+  "title": "Fei2411/DeepSeek-Bot",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 80,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 3857,
+   "starsPerDay": 214,
+   "checkedAt": "2026-10-25T16:58:59.723Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/sepehr071/awesome-iran-mcp": {
+  "url": "https://github.com/sepehr071/awesome-iran-mcp",
+  "title": "sepehr071/awesome-iran-mcp",
+  "source": "GitHub Agent 技能",
+  "date": "2026-10-17",
+  "score": 30,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 155,
+   "starsPerDay": 11,
+   "checkedAt": "2026-10-25T16:59:00.308Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "title": "DeepSeek-v4.1-Flash-1017",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 79,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 959,
+   "comments": 725,
+   "checkedAt": "2026-10-25T16:59:00.520Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/HeyPuter/everything": {
+  "url": "https://github.com/HeyPuter/everything",
+  "title": "HeyPuter/everything",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 56,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 3865,
+   "starsPerDay": 321,
+   "checkedAt": "2026-10-25T16:59:00.907Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/yeyuxin777/baoyan-agent-benchmark": {
+  "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark",
+  "title": "yeyuxin777/baoyan-agent-benchmark",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 33,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 699,
+   "starsPerDay": 52,
+   "checkedAt": "2026-10-25T16:59:01.211Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/christos-antono/NPCTalk": {
+  "url": "https://github.com/christos-antono/NPCTalk",
+  "title": "christos-antono/NPCTalk",
+  "source": "GitHub Agent 技能",
+  "date": "2026-10-17",
+  "score": 70,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 209,
+   "starsPerDay": 21,
+   "checkedAt": "2026-10-25T16:59:01.522Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://llmspeed.dev": {
+  "url": "https://llmspeed.dev",
+  "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 55,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 331,
+   "comments": 86,
+   "checkedAt": "2026-10-25T16:59:01.891Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/ahwootech/BRUTAL": {
+  "url": "https://github.com/ahwootech/BRUTAL",
+  "title": "ahwootech/BRUTAL",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 57,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2224,
+   "starsPerDay": 204,
+   "checkedAt": "2026-10-25T16:59:02.264Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/NB-Corp/gpt-with-taste": {
+  "url": "https://github.com/NB-Corp/gpt-with-taste",
+  "title": "NB-Corp/gpt-with-taste",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 69,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 458,
+   "starsPerDay": 35,
+   "checkedAt": "2026-10-25T16:59:02.588Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/cranebeaker/coop-anything": {
+  "url": "https://github.com/cranebeaker/coop-anything",
+  "title": "cranebeaker/coop-anything",
+  "source": "GitHub Agent 技能",
+  "date": "2026-10-17",
+  "score": 70,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1332,
+   "starsPerDay": 144,
+   "checkedAt": "2026-10-25T16:59:02.926Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://bfl.ai/blog/flux-3-image-klein": {
+  "url": "https://bfl.ai/blog/flux-3-image-klein",
+  "title": "FLUX 3 Image Klein",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 71,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 213,
+   "comments": 59,
+   "checkedAt": "2026-10-25T16:59:03.186Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/deeplethe/solid-glass": {
+  "url": "https://github.com/deeplethe/solid-glass",
+  "title": "deeplethe/solid-glass",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 60,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2219,
+   "starsPerDay": 167,
+   "checkedAt": "2026-10-25T16:59:03.515Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/xcisxc29/dsh-wechat": {
+  "url": "https://github.com/xcisxc29/dsh-wechat",
+  "title": "xcisxc29/dsh-wechat",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 80,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 323,
+   "starsPerDay": 18,
+   "checkedAt": "2026-10-25T16:59:03.824Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/tinyhumansai/openscion": {
+  "url": "https://github.com/tinyhumansai/openscion",
+  "title": "tinyhumansai/openscion",
+  "source": "GitHub Agent 技能",
+  "date": "2026-10-17",
+  "score": 38,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 118,
+   "starsPerDay": 10,
+   "checkedAt": "2026-10-25T16:59:05.746Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://alexwang.ai/posts/associative-memory": {
+  "url": "https://alexwang.ai/posts/associative-memory",
+  "title": "You could have invented transformers from memory",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 48,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 667,
+   "comments": 151,
+   "checkedAt": "2026-10-25T16:59:06.419Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/chenglou/handwired": {
+  "url": "https://github.com/chenglou/handwired",
+  "title": "chenglou/handwired",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 60,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1995,
+   "starsPerDay": 188,
+   "checkedAt": "2026-10-25T16:59:06.895Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/savinglighting/dsh-sd-bridge-guard": {
+  "url": "https://github.com/savinglighting/dsh-sd-bridge-guard",
+  "title": "savinglighting/dsh-sd-bridge-guard",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "github",
+   "stars": 236,
+   "starsPerDay": 17,
+   "checkedAt": "2026-10-25T16:59:07.260Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.anthropic.com/research/ecdsa-curve-origins": {
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "title": "Claude reveals ECDSA curve origins",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 49,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 1065,
+   "comments": 391,
+   "checkedAt": "2026-10-25T16:59:07.484Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/Supermedo/uncharted_pc": {
+  "url": "https://github.com/Supermedo/uncharted_pc",
+  "title": "Supermedo/uncharted_pc",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 53,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1956,
+   "starsPerDay": 183,
+   "checkedAt": "2026-10-25T16:59:07.802Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/honwee/mynah": {
+  "url": "https://github.com/honwee/mynah",
+  "title": "honwee/mynah",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 48,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 214,
+   "starsPerDay": 12,
+   "checkedAt": "2026-10-25T16:59:08.196Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://github.com/cobanov/PS5LM": {
+  "url": "https://github.com/cobanov/PS5LM",
+  "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 42,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 701,
+   "starsPerDay": 29,
+   "checkedAt": "2026-10-25T16:59:08.475Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/feder-cr/git-ai": {
+  "url": "https://github.com/feder-cr/git-ai",
+  "title": "feder-cr/git-ai",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 53,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1002,
+   "starsPerDay": 99,
+   "checkedAt": "2026-10-25T16:59:08.829Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/LAGcomcom/zen-gate": {
+  "url": "https://github.com/LAGcomcom/zen-gate",
+  "title": "LAGcomcom/zen-gate",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 78,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 233,
+   "starsPerDay": 11,
+   "checkedAt": "2026-10-25T16:59:09.132Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://www.arrl.org/arrlletterissue?issue=2026-10-15": {
+  "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15",
+  "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 281,
+   "comments": 265,
+   "checkedAt": "2026-10-25T16:59:09.459Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/zhuyansen/new-term-radar": {
+  "url": "https://github.com/zhuyansen/new-term-radar",
+  "title": "zhuyansen/new-term-radar",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 54,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1787,
+   "starsPerDay": 133,
+   "checkedAt": "2026-10-25T16:59:09.812Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/openbin-ai/binny": {
+  "url": "https://github.com/openbin-ai/binny",
+  "title": "openbin-ai/binny",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 48,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 199,
+   "starsPerDay": 13,
+   "checkedAt": "2026-10-25T16:59:10.146Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://www.anthropic.com/research/designing-efficient-quantum-circuits": {
+  "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+  "title": "Designing more efficient quantum circuits with Claude",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 27,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 174,
+   "comments": 39,
+   "checkedAt": "2026-10-25T16:59:10.446Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction": {
+  "url": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
+  "title": "chenwei810/Semiconductor_Manufacturing_Introduction",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "github",
+   "stars": 1318,
+   "starsPerDay": 90,
+   "checkedAt": "2026-10-25T16:59:10.855Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Shyboy0499/antibody": {
+  "url": "https://github.com/Shyboy0499/antibody",
+  "title": "Shyboy0499/antibody",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 53,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://jakearchibald.com/2026/jpeg-xl-vs-avif": {
+  "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif",
+  "title": "JPEG XL vs. AVIF for web use-cases",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 53,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 332,
+   "comments": 216,
+   "checkedAt": "2026-10-25T16:59:11.455Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/AjncSystem/ShadowOfTheColossus-PC": {
+  "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+  "title": "AjncSystem/ShadowOfTheColossus-PC",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 50,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1484,
+   "starsPerDay": 113,
+   "checkedAt": "2026-10-25T16:59:11.787Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/sv3nbeast/agent-manager-lite": {
+  "url": "https://github.com/sv3nbeast/agent-manager-lite",
+  "title": "sv3nbeast/agent-manager-lite",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 32,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 557,
+   "starsPerDay": 26,
+   "checkedAt": "2026-10-25T16:59:12.128Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://machinelearning.apple.com/research/mlx-distributed-inference": {
+  "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+  "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+  "source": "Hacker News",
+  "date": "2026-10-17",
+  "score": 42,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 365,
+   "comments": 213,
+   "checkedAt": "2026-10-25T16:59:12.410Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/outcrawlai/scout": {
+  "url": "https://github.com/outcrawlai/scout",
+  "title": "outcrawlai/scout",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 63,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 938,
+   "starsPerDay": 76,
+   "checkedAt": "2026-10-25T16:59:12.755Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/dieqiyun/uni-switch": {
+  "url": "https://github.com/dieqiyun/uni-switch",
+  "title": "dieqiyun/uni-switch",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 54,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 118,
+   "starsPerDay": 6,
+   "checkedAt": "2026-10-25T16:59:13.080Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://github.com/jwuthri-cloud/Tracely-ai": {
+  "url": "https://github.com/jwuthri-cloud/Tracely-ai",
+  "title": "jwuthri-cloud/Tracely-ai",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 47,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1172,
+   "starsPerDay": 83,
+   "checkedAt": "2026-10-25T16:59:13.409Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/YOU-SHOULD-KNOW-ME/antigrative-dashboard": {
+  "url": "https://github.com/YOU-SHOULD-KNOW-ME/antigrative-dashboard",
+  "title": "YOU-SHOULD-KNOW-ME/antigrative-dashboard",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-17",
+  "score": 43,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 142,
+   "starsPerDay": 7,
+   "checkedAt": "2026-10-25T16:59:13.686Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://github.com/h0m3us3r/w1700k-sdr": {
+  "url": "https://github.com/h0m3us3r/w1700k-sdr",
+  "title": "h0m3us3r/w1700k-sdr",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 52,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 893,
+   "starsPerDay": 65,
+   "checkedAt": "2026-10-25T16:59:14.015Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/CoolkHz/gptibo": {
+  "url": "https://github.com/CoolkHz/gptibo",
+  "title": "CoolkHz/gptibo",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 51,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 857,
+   "starsPerDay": 71,
+   "checkedAt": "2026-10-25T16:59:14.360Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/threerocks/sweety-handdraw-video": {
+  "url": "https://github.com/threerocks/sweety-handdraw-video",
+  "title": "threerocks/sweety-handdraw-video",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 63,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 852,
+   "starsPerDay": 65,
+   "checkedAt": "2026-10-25T16:59:14.696Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Zfinix/eleven": {
+  "url": "https://github.com/Zfinix/eleven",
+  "title": "Zfinix/eleven",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 52,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 872,
+   "starsPerDay": 72,
+   "checkedAt": "2026-10-25T16:59:15.040Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/overdriveps5/overdrive-releases": {
+  "url": "https://github.com/overdriveps5/overdrive-releases",
+  "title": "overdriveps5/overdrive-releases",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "github",
+   "stars": 684,
+   "starsPerDay": 53,
+   "checkedAt": "2026-10-25T16:59:15.394Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/rohit267/net-merge": {
+  "url": "https://github.com/rohit267/net-merge",
+  "title": "rohit267/net-merge",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 56,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2213,
+   "starsPerDay": 172,
+   "checkedAt": "2026-10-25T16:59:15.828Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/Leonxlnx/earshot": {
+  "url": "https://github.com/Leonxlnx/earshot",
+  "title": "Leonxlnx/earshot",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 70,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2757,
+   "starsPerDay": 265,
+   "checkedAt": "2026-10-25T16:59:16.138Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/MyLuxy/overdrive": {
+  "url": "https://github.com/MyLuxy/overdrive",
+  "title": "MyLuxy/overdrive",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 38,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1319,
+   "starsPerDay": 113,
+   "checkedAt": "2026-10-25T16:59:16.445Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/0xProbabillity/house-control": {
+  "url": "https://github.com/0xProbabillity/house-control",
+  "title": "0xProbabillity/house-control",
+  "source": "GitHub 新專案",
+  "date": "2026-10-17",
+  "score": 42,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 759,
+   "starsPerDay": 68,
+   "checkedAt": "2026-10-25T16:59:16.753Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://twitter.com/opencode/status/2111516673953935833": {
+  "url": "https://twitter.com/opencode/status/2111516673953935833",
+  "title": "OpenCode Hacked: User credentials leaked",
+  "source": "Hacker News",
+  "date": "2026-10-18",
+  "score": 48,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 976,
+   "comments": 185,
+   "checkedAt": "2026-10-25T16:59:17.057Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://www.numismaticnews.net/gold-now-top-u-s-export": {
+  "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+  "title": "Gold is now the top U.S. export",
+  "source": "Hacker News",
+  "date": "2026-10-18",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 427,
+   "comments": 238,
+   "checkedAt": "2026-10-25T16:59:17.399Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://pele.run": {
+  "url": "https://pele.run",
+  "title": "Pele – Mermaid diagrams as themeable SVG",
+  "source": "Hacker News",
+  "date": "2026-10-18",
+  "score": 46,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 597,
+   "comments": 63,
+   "checkedAt": "2026-10-25T16:59:17.664Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time": {
+  "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time",
+  "title": "Solar surpasses nuclear power globally for first time",
+  "source": "Hacker News",
+  "date": "2026-10-18",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 697,
+   "comments": 453,
+   "checkedAt": "2026-10-25T16:59:17.902Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using": {
+  "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+  "title": "Making chicken transparent using Dorito dust",
+  "source": "Hacker News",
+  "date": "2026-10-18",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 353,
+   "comments": 87,
+   "checkedAt": "2026-10-25T16:59:18.142Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/valimised/ivxv": {
+  "url": "https://github.com/valimised/ivxv",
+  "title": "Source code of the Estonian online voting system",
+  "source": "Hacker News",
+  "date": "2026-10-18",
+  "score": 34,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 512,
+   "starsPerDay": 0,
+   "checkedAt": "2026-10-25T16:59:18.725Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679": {
+  "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679",
+  "title": "Dam removals are bringing fish back across the northeastern United States",
+  "source": "Hacker News",
+  "date": "2026-10-18",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 357,
+   "comments": 92,
+   "checkedAt": "2026-10-25T16:59:18.985Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.nature.com/articles/d41586-026-03266-x": {
+  "url": "https://www.nature.com/articles/d41586-026-03266-x",
+  "title": "Bleached corals thrive within days when touching healthy neighbour",
+  "source": "Hacker News",
+  "date": "2026-10-18",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 559,
+   "comments": 119,
+   "checkedAt": "2026-10-25T16:59:19.287Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/evolvent-ai/RSIGym": {
+  "url": "https://github.com/evolvent-ai/RSIGym",
+  "title": "evolvent-ai/RSIGym",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-18",
+  "score": 33,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 133,
+   "starsPerDay": 7,
+   "checkedAt": "2026-10-25T16:59:19.683Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://github.com/yi-yezhiqiu/dsh-prompt-market": {
+  "url": "https://github.com/yi-yezhiqiu/dsh-prompt-market",
+  "title": "yi-yezhiqiu/dsh-prompt-market",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-18",
+  "score": 71,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 106,
+   "starsPerDay": 5,
+   "checkedAt": "2026-10-25T16:59:20.011Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://github.com/xscreensaver-official/xscreensaver": {
+  "url": "https://github.com/xscreensaver-official/xscreensaver",
+  "title": "xscreensaver-official/xscreensaver",
+  "source": "GitHub 新專案",
+  "date": "2026-10-18",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "github",
+   "stars": 1171,
+   "starsPerDay": 130,
+   "checkedAt": "2026-10-25T16:59:20.316Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/c1overzz/dsh-bili-scroll": {
+  "url": "https://github.com/c1overzz/dsh-bili-scroll",
+  "title": "c1overzz/dsh-bili-scroll",
+  "source": "GitHub DSH 生態",
+  "date": "2026-10-18",
+  "score": 68,
+  "picked": true,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 802,
+   "starsPerDay": 71,
+   "checkedAt": "2026-10-25T16:59:20.628Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Tencent-Hunyuan/Hy-Memory": {
+  "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+  "title": "Tencent-Hunyuan/Hy-Memory",
+  "source": "GitHub 新專案",
+  "date": "2026-10-18",
+  "score": 60,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1275,
+   "starsPerDay": 125,
+   "checkedAt": "2026-10-25T16:59:21.918Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ }
+}

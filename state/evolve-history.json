@@ -10,5 +10,11 @@
   "result": "skip",
   "reason": "回饋不足",
   "evidence": 0
+ },
+ {
+  "date": "2026-10-25",
+  "result": "skip",
+  "reason": "模型判斷不需要改",
+  "summary": "這週讀者回饋只有 1 個 👍（dsh-bili-whale，71 分），沒有任何 👎，不足以判斷方向。漏選清單主要靠星數或 HN 分數，而熱度不等於讀者在意。像 gold、solar、corals 被預篩擋掉是對的。多數漏選的 GitHub 專案（d2r-mobile、BRUTAL、solid-glass、net-merge 等）從名稱看與讀者的開發場景關係不明確，分數 53–61 也沒有貼著"
  }
 ]
