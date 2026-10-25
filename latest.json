@@ -1,6 +1,6 @@
 {
- "date": "2026-10-24",
- "generatedAt": "2026-10-24T01:50:04.788Z",
+ "date": "2026-10-25",
+ "generatedAt": "2026-10-25T01:24:02.111Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,52 +11,20 @@
  },
  "items": [
   {
-   "title": "Kimi K3.1 Pro 上線",
-   "summary": "Kimi K3.1 Pro 已上線 API，評分 55，僅次於 Claude Opus 5.5 的 58；權重承諾 11 月 4 日前釋出。",
-   "why": "輸入 $2、輸出 $10／百萬 token，可試著接進 Discord 機器人。",
-   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro",
+   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+   "summary": "We have Fable at home... or so we are being told by paid shills",
+   "why": "",
+   "url": "https://latent.space/p/ainews-kimi-31",
    "comments": null,
-   "source": "Simon Willison",
+   "source": "Latent Space",
    "alsoFrom": [],
    "stars": null,
-   "score": 87,
+   "score": 67,
    "scores": [
-    85,
-    90
+    70,
+    65
    ],
-   "originalTitle": "Introducing Kimi K3.1 Pro",
-   "related": []
-  },
-  {
-   "title": "替像素圖自動生成法線貼圖的工具",
-   "summary": "Hugo-Dz 開源的 spritefusion-sprite-normals 用 Rust 寫成，可從 sprite 與動畫產生法線貼圖，提供 CLI 與 WebAssembly 版本，保留原解析度與透明度。",
-   "why": "做網頁小遊戲時，可讓像素角色隨動態光源產生立體光影，不必手繪法線圖。",
-   "url": "https://github.com/Hugo-Dz/spritefusion-sprite-normals",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 642,
-   "score": 72,
-   "scores": [
-    67,
-    77
-   ],
-   "originalTitle": "Hugo-Dz/spritefusion-sprite-normals",
-   "related": []
-  },
-  {
-   "title": "iPhone 掃房間變 3D 場景",
-   "summary": "用 iPhone LiDAR 與照片，搭配 AI 代理重建可編輯的 Three.js 房間，可在瀏覽器逛。掃描需 LiDAR 機型。",
-   "why": "執行 npm run dev 就能看範例辦公室，學 Three.js 怎麼組出房間場景。",
-   "url": "https://github.com/wesbos/3d-model-anything",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 1124,
-   "score": 70,
-   "scores": [
-    71,
-    70
-   ],
-   "originalTitle": "wesbos/3d-model-anything",
+   "originalTitle": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
    "related": []
   }
  ],
@@ -80,16 +48,16 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "finereli/whatsapp-mcp",
-   "url": "https://github.com/finereli/whatsapp-mcp",
-   "score": 62,
-   "source": "GitHub Agent 技能"
-  },
-  {
    "title": "Tongyi-MAI/OpenGCUA",
    "url": "https://github.com/Tongyi-MAI/OpenGCUA",
    "score": 61,
    "source": "GitHub DSH 生態"
+  },
+  {
+   "title": "colinhacks/reylo",
+   "url": "https://github.com/colinhacks/reylo",
+   "score": 61,
+   "source": "GitHub 新專案"
   }
  ],
  "stats": {
@@ -109,31 +77,31 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 2,
+    "count": 0,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 0,
-    "error": "fetch failed"
+    "count": 10,
+    "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 2,
+    "count": 3,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 3,
+    "count": 0,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 3,
+    "count": 0,
     "error": null
    },
    {
@@ -145,29 +113,27 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 8,
+    "count": 2,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 2,
+    "count": 1,
     "error": null
    }
   ],
-  "candidates": 54,
-  "prefilterPass": 51,
-  "scored": 51,
-  "picked": 3,
+  "candidates": 49,
+  "prefilterPass": 46,
+  "scored": 43,
+  "picked": 1,
   "llm": {
-   "calls": 90,
-   "failures": 6,
+   "calls": 56,
+   "failures": 17,
    "byRoute": {
-    "owob:deepseek-free": 52,
-    "owob:glm-5.3-flash": 28,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 4
+    "owob:deepseek-free": 39
    },
-   "tokens": 135413
+   "tokens": 51287
   }
  }
 }

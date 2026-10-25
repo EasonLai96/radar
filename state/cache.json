@@ -3890,5 +3890,215 @@
    "why": "輸入 $2、輸出 $10／百萬 token，可試著接進 Discord 機器人。"
   },
   "at": "2026-10-24T01:50:04.788Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "AI產業經濟效益的商業新聞，非開發工具或技術"
+  },
+  "at": "2026-10-25T01:22:33.316Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/24/battledrones": {
+  "v": {
+   "label": "PASS",
+   "reason": "用Claude開發多人網頁遊戲地圖與WebSocket程式"
+  },
+  "at": "2026-10-25T01:22:33.808Z"
+ },
+ "prefilter:d2932bff:deepseek:https://latent.space/p/ainews-kimi-31": {
+  "v": {
+   "label": "PASS",
+   "reason": "Kimi 開源權重模型與 API 速度，屬 AI 模型與可用性"
+  },
+  "at": "2026-10-25T01:22:33.827Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/amosblomqvist/learnharness": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI agent harness 開源專案，與開發工具相關"
+  },
+  "at": "2026-10-25T01:22:34.998Z"
+ },
+ "prefilter:d2932bff:deepseek:https://aardappel.github.io/goose": {
+  "v": {
+   "label": "PASS",
+   "reason": "程式語言與開源開發工具相關"
+  },
+  "at": "2026-10-25T01:22:35.467Z"
+ },
+ "prefilter:d2932bff:deepseek:https://freedns.afraid.org": {
+  "v": {
+   "label": "PASS",
+   "reason": "免費DNS服務,與網頁部署開發相關"
+  },
+  "at": "2026-10-25T01:22:37.155Z"
+ },
+ "prefilter:d2932bff:deepseek:https://stealmybitcoin.com": {
+  "v": {
+   "label": "PASS",
+   "reason": "Show HN 網頁 PHP RCE 挑戰，與 Web 開發資安相關"
+  },
+  "at": "2026-10-25T01:22:37.318Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.southampton.ac.uk/~doug/quantum_physics/index.html": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "量子物理科普文章，與AI、開發工具或程式開發無關"
+  },
+  "at": "2026-10-25T01:22:38.011Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
+  "v": {
+   "label": "PASS",
+   "reason": "HTTP函式庫安全漏洞，與開發者相關"
+  },
+  "at": "2026-10-25T01:22:38.689Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Zagitta/gpu-unlock": {
+  "v": {
+   "label": "PASS",
+   "reason": "GPU FP/BF16 運算吞吐解鎖，與本地 AI 推論效能相關"
+  },
+  "at": "2026-10-25T01:22:39.099Z"
+ },
+ "prefilter:d2932bff:deepseek:https://rtfeldman.com/fp-vs-c": {
+  "v": {
+   "label": "PASS",
+   "reason": "程式語言效能比較，與開發工具實質相關"
+  },
+  "at": "2026-10-25T01:22:39.833Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-1017-2x-DGX-Sparks": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 模型本地部署與推論工具，與開發者實質相關"
+  },
+  "at": "2026-10-25T01:22:41.196Z"
+ },
+ "prefilter:d2932bff:deepseek:https://philipotoole.com/twelve-years-of-distributed-sqlite": {
+  "v": {
+   "label": "PASS",
+   "reason": "分散式SQLite開發經驗，屬開發工具/開源資料庫"
+  },
+  "at": "2026-10-25T01:22:41.561Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/assetnote/php2shell-scanner": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源漏洞掃描工具，屬開發/資安工具"
+  },
+  "at": "2026-10-25T01:22:42.566Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/nthnclrk/CleanFrame": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源前端專案，可用 coding agent 改作 TV 首頁介面"
+  },
+  "at": "2026-10-25T01:22:43.737Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/VictorTaelin/uniichat": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI agent 專案，含記憶樹、工具呼叫與開源原始碼"
+  },
+  "at": "2026-10-25T01:22:47.404Z"
+ },
+ "prefilter:d2932bff:deepseek:https://blog.roku.com/developer/gitlab-move": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub轉GitLab屬開發工具平台動態"
+  },
+  "at": "2026-10-25T01:22:47.852Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/JustAResearcher/gpu-unlock-ada": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "GPU 韌體解鎖與跑分數據，屬硬體改造非開發工具"
+  },
+  "at": "2026-10-25T01:22:49.628Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/amosblomqvist/learnharness": {
+  "v": 36,
+  "at": "2026-10-25T01:22:56.114Z"
+ },
+ "scoreA:118d0780:deepseek:https://latent.space/p/ainews-kimi-31": {
+  "v": 70,
+  "at": "2026-10-25T01:22:57.344Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/24/battledrones": {
+  "v": 59,
+  "at": "2026-10-25T01:22:57.751Z"
+ },
+ "scoreA:118d0780:deepseek:https://aardappel.github.io/goose": {
+  "v": 38,
+  "at": "2026-10-25T01:22:57.923Z"
+ },
+ "scoreA:118d0780:deepseek:https://stealmybitcoin.com": {
+  "v": 54,
+  "at": "2026-10-25T01:22:58.219Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/amosblomqvist/learnharness": {
+  "v": 38,
+  "at": "2026-10-25T01:22:58.908Z"
+ },
+ "scoreB:118d0780:glm:https://stealmybitcoin.com": {
+  "v": 52,
+  "at": "2026-10-25T01:23:01.082Z"
+ },
+ "scoreA:118d0780:deepseek:https://blog.roku.com/developer/gitlab-move": {
+  "v": 25,
+  "at": "2026-10-25T01:23:04.837Z"
+ },
+ "scoreB:118d0780:glm:https://latent.space/p/ainews-kimi-31": {
+  "v": 65,
+  "at": "2026-10-25T01:23:05.444Z"
+ },
+ "scoreB:118d0780:glm:https://blog.roku.com/developer/gitlab-move": {
+  "v": 8,
+  "at": "2026-10-25T01:23:07.454Z"
+ },
+ "scoreA:118d0780:deepseek:https://freedns.afraid.org": {
+  "v": 50,
+  "at": "2026-10-25T01:23:08.546Z"
+ },
+ "scoreB:118d0780:glm:https://freedns.afraid.org": {
+  "v": 40,
+  "at": "2026-10-25T01:23:10.500Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Zagitta/gpu-unlock": {
+  "v": 26,
+  "at": "2026-10-25T01:23:10.999Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Zagitta/gpu-unlock": {
+  "v": 28,
+  "at": "2026-10-25T01:23:16.281Z"
+ },
+ "scoreB:118d0780:glm:https://rtfeldman.com/fp-vs-c": {
+  "v": 32,
+  "at": "2026-10-25T01:23:16.856Z"
+ },
+ "scoreB:118d0780:glm:https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
+  "v": 56,
+  "at": "2026-10-25T01:23:18.438Z"
+ },
+ "scoreA:118d0780:deepseek:https://rtfeldman.com/fp-vs-c": {
+  "v": 35,
+  "at": "2026-10-25T01:23:18.808Z"
+ },
+ "scoreB:118d0780:glm:https://philipotoole.com/twelve-years-of-distributed-sqlite": {
+  "v": 26,
+  "at": "2026-10-25T01:23:22.524Z"
+ },
+ "scoreA:118d0780:deepseek:https://philipotoole.com/twelve-years-of-distributed-sqlite": {
+  "v": 35,
+  "at": "2026-10-25T01:23:23.116Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
+  "v": 49,
+  "at": "2026-10-25T01:23:28.797Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-1017-2x-DGX-Sparks": {
+  "v": 24,
+  "at": "2026-10-25T01:23:36.223Z"
  }
 }
