@@ -4100,5 +4100,211 @@
  "scoreA:118d0780:deepseek:https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-1017-2x-DGX-Sparks": {
   "v": 24,
   "at": "2026-10-25T01:23:36.223Z"
+ },
+ "prefilter:d2932bff:deepseek:https://lynchlab.net/llm-skin-cancer": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI模型能力比較，與模型評測實質相關"
+  },
+  "at": "2026-10-26T01:26:40.380Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "塞爾維亞政治選舉新聞,與開發無關"
+  },
+  "at": "2026-10-26T01:26:40.814Z"
+ },
+ "prefilter:d2932bff:deepseek:https://talkweb.eu/openweb/4558": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "網路審查政策話題，與開發工具無實質關聯"
+  },
+  "at": "2026-10-26T01:26:41.750Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/lucianodiisouza/flecha-browser": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源開發者瀏覽器，內建MCP伺服器供coding agent使用"
+  },
+  "at": "2026-10-26T01:26:43.378Z"
+ },
+ "prefilter:d2932bff:deepseek:https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "警察與新聞機構的公共紀錄費用爭議，屬一般新聞非開發相關"
+  },
+  "at": "2026-10-26T01:26:43.500Z"
+ },
+ "prefilter:d2932bff:deepseek:https://imaginationlibrary.com": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "兒童贈書公益計畫，與AI及開發無關"
+  },
+  "at": "2026-10-26T01:26:45.203Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "AI教育政策新聞，與開發工具無實質關係"
+  },
+  "at": "2026-10-26T01:26:47.515Z"
+ },
+ "prefilter:d2932bff:deepseek:https://danluu.com/ambitious": {
+  "v": {
+   "label": "PASS",
+   "reason": "軟體開發實務與野心反思,開發者相關"
+  },
+  "at": "2026-10-26T01:26:48.726Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/JetBrains/thinkrail": {
+  "v": {
+   "label": "PASS",
+   "reason": "JetBrains 開源專案，likely 開發工具/agent 相關"
+  },
+  "at": "2026-10-26T01:26:51.389Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/morganlinton/BeautifulRust": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude Code 技能外掛，教 agent 寫 Rust，屬 coding agent 技能"
+  },
+  "at": "2026-10-26T01:26:52.092Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/rddmwmddr/android-ad-cleaner": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 adb 工具，含 AI 智能體執行支援"
+  },
+  "at": "2026-10-26T01:26:52.757Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/lyramakesmusic/neuron-explorer": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源模型可解釋性與神經元steering工具,含MCP整合"
+  },
+  "at": "2026-10-26T01:26:55.474Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/routerhubSI/glm-5.3-abliterated": {
+  "v": {
+   "label": "PASS",
+   "reason": "模型API、價格與coding工具設定相關,非成人內容"
+  },
+  "at": "2026-10-26T01:26:58.039Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/udhaykumarbala/cleanyourtv-app": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源Android工具專案，含ADB與coding agent操作對比"
+  },
+  "at": "2026-10-26T01:26:58.426Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/designfuchen/word-atlas": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 TypeScript 網頁專案,含 AI 插畫與 FSRS 學習系統"
+  },
+  "at": "2026-10-26T01:26:58.590Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/torrentplayer/torrentplayer": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源Rust種子串流播放器,屬開發專案"
+  },
+  "at": "2026-10-26T01:26:59.047Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/DenisSergeevitch/ex-ussr-kinship-research": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI agent 技能（Claude Code/Codex）開源專案，與開發工具有關"
+  },
+  "at": "2026-10-26T01:26:59.446Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/mizorewww/gdirect": {
+  "v": {
+   "label": "PASS",
+   "reason": "Rust 開源命令列工具，Google Drive 下載器，屬開發工具"
+  },
+  "at": "2026-10-26T01:26:59.476Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/JetBrains/thinkrail": {
+  "v": 35,
+  "at": "2026-10-26T01:27:07.338Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/lucianodiisouza/flecha-browser": {
+  "v": 47,
+  "at": "2026-10-26T01:27:07.433Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/lucianodiisouza/flecha-browser": {
+  "v": 55,
+  "at": "2026-10-26T01:27:07.579Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/routerhubSI/glm-5.3-abliterated": {
+  "v": 25,
+  "at": "2026-10-26T01:27:08.175Z"
+ },
+ "scoreB:118d0780:glm:https://danluu.com/ambitious": {
+  "v": 30,
+  "at": "2026-10-26T01:27:09.121Z"
+ },
+ "scoreB:118d0780:glm:https://lynchlab.net/llm-skin-cancer": {
+  "v": 45,
+  "at": "2026-10-26T01:27:09.226Z"
+ },
+ "scoreA:118d0780:deepseek:https://danluu.com/ambitious": {
+  "v": 34,
+  "at": "2026-10-26T01:27:10.431Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/routerhubSI/glm-5.3-abliterated": {
+  "v": 34,
+  "at": "2026-10-26T01:27:11.575Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/JetBrains/thinkrail": {
+  "v": 30,
+  "at": "2026-10-26T01:27:11.623Z"
+ },
+ "scoreA:118d0780:deepseek:https://lynchlab.net/llm-skin-cancer": {
+  "v": 37,
+  "at": "2026-10-26T01:27:11.714Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/assetnote/php2shell-scanner": {
+  "v": 48,
+  "at": "2026-10-26T01:27:18.258Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/assetnote/php2shell-scanner": {
+  "v": 32,
+  "at": "2026-10-26T01:27:19.229Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/rddmwmddr/android-ad-cleaner": {
+  "v": 57,
+  "at": "2026-10-26T01:27:19.538Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/lyramakesmusic/neuron-explorer": {
+  "v": 54,
+  "at": "2026-10-26T01:27:20.275Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/rddmwmddr/android-ad-cleaner": {
+  "v": 51,
+  "at": "2026-10-26T01:27:20.425Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/morganlinton/BeautifulRust": {
+  "v": 55,
+  "at": "2026-10-26T01:27:21.549Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/morganlinton/BeautifulRust": {
+  "v": 55,
+  "at": "2026-10-26T01:27:24.250Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/nthnclrk/CleanFrame": {
+  "v": 51,
+  "at": "2026-10-26T01:27:26.610Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/nthnclrk/CleanFrame": {
+  "v": 40,
+  "at": "2026-10-26T01:27:28.338Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/torrentplayer/torrentplayer": {
+  "v": 38,
+  "at": "2026-10-26T01:27:31.429Z"
  }
 }

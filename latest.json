@@ -1,6 +1,6 @@
 {
- "date": "2026-10-25",
- "generatedAt": "2026-10-25T01:24:02.111Z",
+ "date": "2026-10-26",
+ "generatedAt": "2026-10-26T01:27:35.189Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -9,41 +9,11 @@
   "write": "2d964375",
   "group": "2dabeeef"
  },
- "items": [
-  {
-   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-   "summary": "We have Fable at home... or so we are being told by paid shills",
-   "why": "",
-   "url": "https://latent.space/p/ainews-kimi-31",
-   "comments": null,
-   "source": "Latent Space",
-   "alsoFrom": [],
-   "stars": null,
-   "score": 67,
-   "scores": [
-    70,
-    65
-   ],
-   "originalTitle": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-   "related": []
-  }
- ],
+ "items": [],
  "nearMiss": [
-  {
-   "title": "Quick Study",
-   "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter",
-   "score": 64,
-   "source": "Simon Willison"
-  },
   {
    "title": "xevrion/hatchzip",
    "url": "https://github.com/xevrion/hatchzip",
-   "score": 64,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "stackedlol/ascii-sharks",
-   "url": "https://github.com/stackedlol/ascii-sharks",
    "score": 64,
    "source": "GitHub 新專案"
   },
@@ -54,10 +24,22 @@
    "source": "GitHub DSH 生態"
   },
   {
+   "title": "Jakeschincariol/day-trader-skill",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "score": 61,
+   "source": "GitHub 新專案"
+  },
+  {
    "title": "colinhacks/reylo",
    "url": "https://github.com/colinhacks/reylo",
    "score": 61,
    "source": "GitHub 新專案"
+  },
+  {
+   "title": "reason-machines/reason-network",
+   "url": "https://github.com/reason-machines/reason-network",
+   "score": 58,
+   "source": "GitHub DSH 生態"
   }
  ],
  "stats": {
@@ -77,19 +59,19 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 0,
+    "count": 1,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 10,
+    "count": 8,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 3,
+    "count": 0,
     "error": null
    },
    {
@@ -113,27 +95,27 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 2,
+    "count": 0,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 1,
-    "error": null
+    "count": 0,
+    "error": "fetch failed"
    }
   ],
-  "candidates": 49,
-  "prefilterPass": 46,
-  "scored": 43,
-  "picked": 1,
+  "candidates": 45,
+  "prefilterPass": 39,
+  "scored": 35,
+  "picked": 0,
   "llm": {
-   "calls": 56,
-   "failures": 17,
+   "calls": 53,
+   "failures": 15,
    "byRoute": {
-    "owob:deepseek-free": 39
+    "owob:deepseek-free": 38
    },
-   "tokens": 51287
+   "tokens": 62611
   }
  }
 }
