@@ -1,6 +1,6 @@
 {
- "date": "2026-10-27",
- "generatedAt": "2026-10-27T02:15:58.323Z",
+ "date": "2026-10-28",
+ "generatedAt": "2026-10-28T02:30:42.858Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,28 +11,22 @@
  },
  "items": [
   {
-   "title": "GPT-6.1 Terra 發表",
-   "summary": "OpenAI 在 10/26 發布 GPT-6.1 Terra，API 文件已有模型頁面；Hacker News 上拿到 507 分、324 則留言。",
-   "why": "想把它接進 Discord 機器人，先看 API 模型頁確認能不能用。",
-   "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-   "comments": "https://news.ycombinator.com/item?id=50248124",
-   "source": "Hacker News",
+   "title": "agent-purge 統一提示詞工具",
+   "summary": "agent-purge 讓 codex、claude 等多個 coding agent 共用一份系統提示詞，有四種模式且可還原。",
+   "why": "想讓多個 AI 寫程式工具用同一種人設，可用本機網頁控制台切換。",
+   "url": "https://github.com/ZiChuanLan/agent-purge",
+   "source": "GitHub 新專案",
    "alsoFrom": [
-    "OpenAI News",
-    "Simon Willison",
-    "GitHub Changelog"
+    "GitHub DSH 生態"
    ],
-   "stars": null,
-   "score": 80,
+   "stars": 615,
+   "score": 72,
    "scores": [
-    76,
-    84
+    77,
+    null
    ],
-   "originalTitle": "GPT-6.1 Terra",
-   "related": [
-    "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
-    "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot"
-   ]
+   "originalTitle": "ZiChuanLan/agent-purge",
+   "related": []
   }
  ],
  "nearMiss": [
@@ -49,12 +43,6 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "xevrion/hatchzip",
-   "url": "https://github.com/xevrion/hatchzip",
-   "score": 64,
-   "source": "GitHub 新專案"
-  },
-  {
    "title": "enesozturk/dimensional-drawing",
    "url": "https://github.com/enesozturk/dimensional-drawing",
    "score": 63,
@@ -63,6 +51,12 @@
   {
    "title": "unclebob/ub-mode",
    "url": "https://github.com/unclebob/ub-mode",
+   "score": 62,
+   "source": "GitHub 新專案"
+  },
+  {
+   "title": "rossark0/rossark-motion-skill",
+   "url": "https://github.com/rossark0/rossark-motion-skill",
    "score": 62,
    "source": "GitHub 新專案"
   }
@@ -90,58 +84,59 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 14,
+    "count": 11,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 3,
+    "count": 2,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 0,
+    "count": 2,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 7,
+    "count": 4,
     "error": null
    },
    {
     "id": "deepmind",
     "name": "Google DeepMind",
-    "count": 0,
+    "count": 1,
     "error": null
    },
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 1,
+    "count": 2,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 0,
+    "count": 4,
     "error": null
    }
   ],
   "candidates": 60,
-  "prefilterPass": 53,
-  "scored": 53,
+  "prefilterPass": 54,
+  "scored": 54,
   "picked": 1,
   "llm": {
-   "calls": 104,
-   "failures": 11,
+   "calls": 90,
+   "failures": 12,
    "byRoute": {
-    "owob:deepseek-free": 91,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 2
+    "owob:deepseek-free": 66,
+    "owob:deepseek-v4.1-flash": 11,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
    },
-   "tokens": 134235
+   "tokens": 100159
   }
  }
 }
