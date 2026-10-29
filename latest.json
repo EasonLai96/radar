@@ -1,6 +1,6 @@
 {
- "date": "2026-10-28",
- "generatedAt": "2026-10-28T02:30:42.858Z",
+ "date": "2026-10-29",
+ "generatedAt": "2026-10-29T02:37:27.873Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,21 +11,56 @@
  },
  "items": [
   {
-   "title": "agent-purge 統一提示詞工具",
-   "summary": "agent-purge 讓 codex、claude 等多個 coding agent 共用一份系統提示詞，有四種模式且可還原。",
-   "why": "想讓多個 AI 寫程式工具用同一種人設，可用本機網頁控制台切換。",
-   "url": "https://github.com/ZiChuanLan/agent-purge",
-   "source": "GitHub 新專案",
+   "title": "Gemini 4 Carbon 發表",
+   "summary": "Google DeepMind 在 2026-10-28 發表下一代前沿模型 Gemini 4 Carbon。目前材料只有標題，沒有規格或功能細節。",
+   "why": "細節還沒公開，先關注，等官方公布規格再評估能否用在 bot 或遊戲。",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+   "comments": null,
+   "source": "Google DeepMind",
    "alsoFrom": [
-    "GitHub DSH 生態"
+    "Hacker News"
    ],
-   "stars": 615,
+   "stars": null,
    "score": 72,
    "scores": [
-    77,
+    76,
+    68
+   ],
+   "originalTitle": "Gemini 4 Carbon: Our next frontier model",
+   "related": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon"
+   ]
+  },
+  {
+   "title": "免費 Claude skill 讓 AI 做出電影感網頁",
+   "summary": "Motionsites-AI/claude-skill 是免費的 Claude skill，內含 40 個範例提示、50+ 支影片素材與 55+ 技術配方，Claude 會截圖檢查自己做的頁面並修正。",
+   "why": "想做遊戲或作品的landing page時，可用它讓 Claude 產出不像一般 AI 風格的版面。",
+   "url": "https://github.com/Motionsites-AI/claude-skill",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 909,
+   "score": 69,
+   "scores": [
+    74,
     null
    ],
-   "originalTitle": "ZiChuanLan/agent-purge",
+   "originalTitle": "Motionsites-AI/claude-skill",
+   "related": []
+  },
+  {
+   "title": "DSH 外掛合集：動畫與費用追蹤",
+   "summary": "收錄兩個 DSH 外掛：能做動畫並輸出 MP4 的 dsh-motion-ui-en，與追蹤 API 費用的 dsh-cost-usage。",
+   "why": "想在 DSH 做動畫短片，或查每次 session 花多少 API 費用，可以直接裝來用。",
+   "url": "https://github.com/KardDev/dsh-plugins",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 558,
+   "score": 67,
+   "scores": [
+    62,
+    72
+   ],
+   "originalTitle": "KardDev/dsh-plugins",
    "related": []
   }
  ],
@@ -37,27 +72,27 @@
    "source": "GitHub DSH 生態"
   },
   {
+   "title": "The October inflection point for vibe game development",
+   "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development",
+   "score": 65,
+   "source": "Simon Willison"
+  },
+  {
    "title": "t3dotgg/tstack",
    "url": "https://github.com/t3dotgg/tstack",
    "score": 65,
    "source": "GitHub 新專案"
   },
   {
-   "title": "enesozturk/dimensional-drawing",
-   "url": "https://github.com/enesozturk/dimensional-drawing",
+   "title": "anhao/ai-pose-gallery-zh",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "score": 63,
    "source": "GitHub 新專案"
   },
   {
-   "title": "unclebob/ub-mode",
-   "url": "https://github.com/unclebob/ub-mode",
-   "score": 62,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "rossark0/rossark-motion-skill",
-   "url": "https://github.com/rossark0/rossark-motion-skill",
-   "score": 62,
+   "title": "enesozturk/dimensional-drawing",
+   "url": "https://github.com/enesozturk/dimensional-drawing",
+   "score": 63,
    "source": "GitHub 新專案"
   }
  ],
@@ -84,25 +119,25 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 11,
+    "count": 8,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 2,
+    "count": 4,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 2,
+    "count": 1,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 4,
+    "count": 3,
     "error": null
    },
    {
@@ -114,29 +149,29 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 2,
+    "count": 10,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 4,
+    "count": 2,
     "error": null
    }
   ],
   "candidates": 60,
-  "prefilterPass": 54,
-  "scored": 54,
-  "picked": 1,
+  "prefilterPass": 56,
+  "scored": 56,
+  "picked": 3,
   "llm": {
-   "calls": 90,
+   "calls": 105,
    "failures": 12,
    "byRoute": {
-    "owob:deepseek-free": 66,
-    "owob:deepseek-v4.1-flash": 11,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
+    "owob:deepseek-free": 81,
+    "owob:deepseek-v4.1-flash": 8,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 4
    },
-   "tokens": 100159
+   "tokens": 119028
   }
  }
 }

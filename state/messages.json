@@ -142,5 +142,32 @@
   "title": "ZiChuanLan/agent-purge",
   "source": "GitHub 新專案",
   "score": 72
+ },
+ "1565192823312089139": {
+  "messageId": "1565192823312089139",
+  "channelId": "1519910211995959336",
+  "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+  "date": "2026-10-29",
+  "title": "Gemini 4 Carbon: Our next frontier model",
+  "source": "Google DeepMind",
+  "score": 72
+ },
+ "1565192826751422595": {
+  "messageId": "1565192826751422595",
+  "channelId": "1519910211995959336",
+  "url": "https://github.com/Motionsites-AI/claude-skill",
+  "date": "2026-10-29",
+  "title": "Motionsites-AI/claude-skill",
+  "source": "GitHub 新專案",
+  "score": 69
+ },
+ "1565192830551466127": {
+  "messageId": "1565192830551466127",
+  "channelId": "1519910211995959336",
+  "url": "https://github.com/KardDev/dsh-plugins",
+  "date": "2026-10-29",
+  "title": "KardDev/dsh-plugins",
+  "source": "GitHub DSH 生態",
+  "score": 67
  }
 }
