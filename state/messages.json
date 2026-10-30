@@ -169,5 +169,23 @@
   "title": "KardDev/dsh-plugins",
   "source": "GitHub DSH 生態",
   "score": 67
+ },
+ "1565557884987908287": {
+  "messageId": "1565557884987908287",
+  "channelId": "1519910211995959336",
+  "url": "https://mistral.ai/news/mistral-large-4-oss",
+  "date": "2026-10-30",
+  "title": "We're releasing the weights of Mistral Large 4",
+  "source": "Hacker News",
+  "score": 72
+ },
+ "1565557888942874695": {
+  "messageId": "1565557888942874695",
+  "channelId": "1519910211995959336",
+  "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+  "date": "2026-10-30",
+  "title": "Charonyuu/whatsmyagentdoing",
+  "source": "GitHub DSH 生態",
+  "score": 70
  }
 }

@@ -1,0 +1,1529 @@
+[
+ {
+  "title": "unclebob/ub-mode",
+  "url": "https://github.com/unclebob/ub-mode",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 4775,
+  "language": null,
+  "topics": [],
+  "publishedAt": "2026-10-25T16:04:09Z",
+  "body": "\n\nREADME 節錄：# ub-mode `ub-mode` is an agent skill that enforces disciplined software engineering principles when writing or changing code. It is loosely based on portions of @poteto's rules (`poteto-mode` / `pstack`), reduced and paired with deterministic quality-gate tools: 1. **First Make it Work** — Laziness Protocol, Foundational Thinking, TDD, Redesign From First Principles, Attack the Premise, Subtract Before You Add, Outcome-Oriented Execution, Build the Lever, and Architecture (Model the Domain, Boundary Discipline, Type System Discipline, Make Operations Idempotent, Separate Before Serializing Shared State). 2. **Then Make it Right** — Fix Root Causes, Sequence Work into Verifiable Units, Test Behavior (Not Implementation), Crapper (`CRAP = 0.8` similarity) are eliminated. - unclebob/mutator — Runs mutation testing to expose uncovered code and surviving mutants that tests fail to catch. - unclebob/uml-viewer — Visualizes components, coverage, CRAP, mutation scores, and dependency directions. ## Installation Copy `SKILL.md` into your agent's skills directory as `ub-mode/SKILL.md` (for example `~/.grok/skills/ub-mode/SKILL.md`, `~/.claude/skills/ub-mode/SKILL.md`, or `~/.cursor/skills/ub-mode/SKILL.md`), then invoke `/ub-mode`. ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Uncle Bob 的 agent coding skill，含 TDD 與品質工具"
+  },
+  "scores": [
+   60,
+   64
+  ],
+  "score": 62,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "JeffKeeping/dsh-purge-plus",
+  "url": "https://github.com/JeffKeeping/dsh-purge-plus",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 548,
+  "language": "JavaScript",
+  "topics": [
+   "deepseek-harness",
+   "dsh",
+   "fork",
+   "jailbreak",
+   "prompt-engineering",
+   "red-team"
+  ],
+  "publishedAt": "2026-10-18T10:32:36Z",
+  "body": "dsh-purge 的非官方分支（fork）：适配 DeepSeek Harness 0.2.1-rc.2、破甲内核 v3、设置页 UI 重做 / unofficial fork of YuJunZhiXue/dsh-purge (MIT)\n\nREADME 節錄： ⚔️ DeepSeek Harness cybersecurity red-team tool (dsh-purge) Version 1.4.4 · fork · targets DSH 0.2.1-rc.2 > **This is a fork, not upstream.** Original project: YuJunZhiXue/dsh-purge by **小杨** (@YuJunZhiXue), MIT licence (`Copyright (c) 2026 小杨`, kept verbatim here). > This branch is maintained by **@JeffKeeping** and only adds **0.2.1-rc.2 compatibility, a stronger prompt kernel, a rebuilt UI, and one patch-anchor fix**. It does not change what the plugin does. > What changed against the previous release (1.2.0), item by item: **CHANGELOG.md**. > 1.4.0 borrows the approval tier, audit trail, strict JSON boundary and revision guard from Minglink/dsh-infinite-gen-5; scope and boundaries in NOTICE.md. > **1.4.1 fixes the unknown prompt variable {{cwd}} crash on install**: 0.2.1 registers provider/model only, so this plugin now registers cwd itself and stops emitting the variable from config. > **1.4.2 removes the input-box rewind button and all of its machinery** (backend routes, `/rewind` command, 3 patches): 82 patches -> 79. > **1.4.3 restores steer delivery**: reverts the two 1.4.2 patches that forced every prompt to followup (#85/#86) and adds #90, which latches wakes during the running phase so turn-tail messages are no longer stranded. > **1.4.4 fixes two silent failures**: `hostFs` now exposes the fd-based sync methods (without them no `.ba",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 外掛非官方分支，屬 harness 開發工具"
+  },
+  "scores": [
+   59,
+   55
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "davemessew/AgentFlux",
+  "url": "https://github.com/davemessew/AgentFlux",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 235,
+  "language": "JavaScript",
+  "topics": [
+   "ai-agents",
+   "docker",
+   "ollama",
+   "self-hosted",
+   "workflows"
+  ],
+  "publishedAt": "2026-10-27T14:43:07Z",
+  "body": "Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server.\n\nREADME 節錄： # AgentFlux ### Your data. Your models. Your workflows. **Agentic AI platform** for visual workflows and autonomous agents. Import files, automate tasks and keep results local. **Download the Docker release** · Website · Documentation · Report an issue ## What you can do AgentFlux connects documents, data sources and language models in a visual workflow. Build each step yourself or let an agent create a workflow from a task description. The application runs on your computer or server, with a browser interface. | | In AgentFlux | | :--- | :--- | | **Visual workflows** | 17 preconfigured steps, eight templates, branching, undo/redo and JSON import/export. | | **AI agents** | Describe tasks, select sources and a model, then start manually or set a schedule. | | **Video to workflow** | Identify actions in a recording, review them with timestamps and turn them into an editable workflow. | | **Knowledge and learnings** | Store documents locally, review observations from runs and reuse instructions as skills. | | **Your own models** | Connect Ollama, LM Studio, vLLM and OpenAI-compatible endpoints. | | **Files and connections** | Import PDF, DOCX, XLSX, CSV, JSON and text; connect folders, HTTP endpoints and approved programs. | | **Traceable runs** | Inspect steps and results, cancel running tasks and export results as JSON or CSV. | ### Create a workflow f",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Agentic AI 平台，視覺化工作流與本地模型，屬開發工具"
+  },
+  "scores": [
+   49,
+   49
+  ],
+  "score": 49,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "We ran AI agent swarms in Minecraft and Mindustry",
+  "url": "https://labs.ycombinator.com/projects/games/index.html",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T21:40:28.000Z",
+  "body": "Article URL: https://labs.ycombinator.com/projects/games/index.html Comments URL: https://news.ycombinator.com/item?id=50296486 Points: 176 # Comments: 65",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max → HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm｜wtf:NullPtr Think Flash "
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "API credits benefit for eligible ChatGPT subscriptions",
+  "url": "https://simonwillison.net/2026/Oct/29/api-credits",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T22:48:29.000Z",
+  "body": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations. I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions. Tags: ai , openai , generative-ai , llms , anthropic , llm-pricing",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max → HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm｜wtf:NullPtr Think Flash "
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Granite Switch 4.1.1 — Update models like you update software",
+  "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T13:37:07.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 模型更新與發布"
+  },
+  "scores": [
+   22,
+   20
+  ],
+  "score": 21,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "An updated Model Spec for more capable and beneficial AI",
+  "url": "https://openai.com/index/updated-model-spec",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T17:00:00.000Z",
+  "body": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI 模型行為規範更新，屬 AI 模型主題"
+  },
+  "scores": [
+   25,
+   null
+  ],
+  "score": 20,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Webhook IP ranges added to the Meta API",
+  "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T17:14:38.000Z",
+  "body": "We’re adding IP ranges for GitHub webhook deliveries on github.com. The Meta API now includes these additional ranges in the hooks field. If you maintain a static network allowlist for… The post Webhook IP ranges added to the Meta API appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub webhook IP 範圍，API 開發相關"
+  },
+  "scores": [
+   20,
+   15
+  ],
+  "score": 17,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+  "url": "https://latent.space/p/elorian",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T16:00:00.000Z",
+  "body": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 模型視覺推理與新基準測試，與 AI 開發相關"
+  },
+  "scores": [
+   32,
+   27
+  ],
+  "score": 29,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "rddmwmddr/android-ad-cleaner",
+  "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 4770,
+  "language": "Python",
+  "topics": [
+   "adb",
+   "ai-agent",
+   "android",
+   "coloros",
+   "debloat",
+   "hyperos",
+   "magicos",
+   "originos"
+  ],
+  "publishedAt": "2026-10-24T05:35:47Z",
+  "body": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。\n\nREADME 節錄：# 手机去广告 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。 介绍页：**https://rddmwmddr.github.io/android-ad-cleaner/** ## 下载桌面客户端 插上手机，点几下按钮。不需要 Python，也不需要 AI 工具。 > **v0.2.7 · 2026-10-29**：按 0.2.6 收到的 101 份错误日志和 GitHub 新问题修复：华为、旧版荣耀认出渠道开关，vivo 不再点了没反应、每个渠道少等十几秒，剩一两个渠道没关上会再试一次，不再把开关的说明文字当入口点。营销通知清单显示软件名；执行中可以暂停；执行结束、暂停生效、需要解锁时有提示音；有新版时左下角提示；adb 下不了自动换国内镜像。新增 6 个社区机型脚本（荣耀 WKL-AN20、OPPO Find X8s、小米 17 Ultra、小米 13 Ultra、小米 Pad 7、一加 13T），vivo 参考脚本真机跑通。旧版不会自动更新，请重新下载，已有备份会保留。详见 更新记录，错误日志上报说明见 这里。官网：https://ahuamiao.com/sites/other/android-ad-removal-intro.html 此前版本已处理 Windows 本地页面超时、荣耀截图越界、通知渠道误操作风险、vivo 快应用与备份问题。各 Issue 的处理范围和待验证项见 社区问题处理记录。仅支持通过 adb 连接的安卓设备，暂不支持使用 HDC 的原生鸿蒙。 | 电脑 | 下载 | 说明 | |---|---|---| | Mac · Apple 芯片（M1 及以后） | AndroidAdCleaner-0.2.7-mac-arm64.dmg | 已签名、通过苹果公证，双击就能打开 | | Mac · Intel 芯片（macOS 11 及以上） | AndroidAdCleaner-0.2.7-mac-intel.dmg | 同上 | | Windows 10 / 11 · 安装版 | AndroidAdCleaner-0.2.7-windows-setup.exe | 弹「Windows 已保护你的电脑」时点「更多信息」→「仍要运行」 | | Windows 10 / 11 · 免安装 | AndroidAdCleaner-0.2.7-windows-portable.zip | 解压后双击 `AndroidAdCleaner.exe` | 不知道 Mac 是哪种芯片：左上角苹果图标 → 关于本机，「芯片」写 Apple M 开头的选 Apple 芯片。所有版本：Releases。用法：docs/08-桌面客户端.md。 | | | |---|---| | **1 连接手机**：插线即认出手机，内置开启 USB 调试的图文教程 | **2 检测**：型号、系统版本、机型脚本、快应用、广告组件 | | **3 选择要关的**：营销通知按渠道勾选，服务类默认不勾 | **4 执行**：进度条和实时日志 | | **5 完成**：每一步的结果，最后提醒关闭开发者模式 | **反馈**：自动附诊断信息，一键提交 GitHub Issue | --- - 不 root，不解锁，不刷机，系统更新不受影响。 - 只拨系统和 App 自带的开关。挂起广告包这一步要机主点头，一条命令可以还原。 - 搜",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 adb 工具，含 AI 智能體執行支援"
+  },
+  "scores": [
+   51,
+   57
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Alejandros17487/ai-jailbreaks",
+  "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 522,
+  "language": null,
+  "topics": [
+   "ai",
+   "ai-safety",
+   "jailbreak",
+   "jailbreaking",
+   "privacy",
+   "safety",
+   "security"
+  ],
+  "publishedAt": "2026-10-21T14:44:06Z",
+  "body": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.\n\nREADME 節錄： # AI Jailbreaks **AI jailbreaks — a curated collection of system prompts, persona locks, workspace policies, and agent operating specs for frontier, open-weight, and free stealth models. Every AI jailbreak here is a complete, paste-ready prompt.** --- **Jailbreaks not working? Try 7API** — the cheapest API for frontier models at up to 99% off, including Uncensored and Abliterated models that never refuse. --- ## About This repo holds **35 paste-ready prompts for 25+ models**: full system prompts, persona definitions, workspace policies, `AGENTS.md` files, config blocks, and Ollama Modelfiles. Every file is complete — no summaries, no excerpts. What's inside: - Free stealth models on OpenCode Zen - Open-weight families: GLM, DeepSeek, Kimi, Qwen, Gemma, GPT-OSS - Closed frontier models: Claude, Gemini, Grok, Mistral - Coding-agent and workspace instruction formats - Ollama Modelfiles and harness-specific configuration New here? Skim the collection or jump to how to use. > [!WARNING] > **Research and educational use only.** > > This repo documents how persona framing, instruction hierarchies, prompt conflicts, and policy overrides shape model behavior — the same findings that help developers harden AI against prompt injection. > > Don't use this material to harm other",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI越獄提示集，涉模型與agent提示工程"
+  },
+  "scores": [
+   46,
+   63
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+  "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T21:38:59.000Z",
+  "body": "Article URL: https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8 Comments URL: https://news.ycombinator.com/item?id=50296470 Points: 782 # Comments: 461",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Building a multiplayer game world with autonomous Fable-class models",
+  "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T17:00:26.000Z",
+  "body": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world. I fired it up on my phone for a few minutes and was able to prompt a castle into existence, then a dragon, then ride the dragon to fly around that castle. By Jacob's telling, Spawn is now being developed autonomously by a swarm of Fable-powered agents costing over $3 million in tokens per month (\"we spend 30x payroll on AI tokens\"). Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. About 60% of our work starts from a production error, a Savi bug report (Savi is the AI you build games with in Spawn), something odd in our logs, or a feature request. Savi files bugs herself. When a user hits one, or Savi hits one in the product, she files it. It goes straight to an agent that decides whether it's a real bug to fix, something we won't fix, or intentional design that needs a decision. Usually it becomes a change, delivered to that user within an hour, with a message in the same chat. This is continuous deployment turned up to 11: A loop this tight only works if it never stops, so we treat",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+  "url": "https://huggingface.co/blog/announcing-project-protostar",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T00:00:00.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "How we detect frontier model misalignment",
+  "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T09:00:00.000Z",
+  "body": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+  "url": "https://latent.space/p/ainews-gemini-4-carbon",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T05:55:19.000Z",
+  "body": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "interplains/Zero-Breach-Toolkit",
+  "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 3634,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-10-25T14:41:34Z",
+  "body": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.\n\nREADME 節錄：# Zero Breach Toolkit A free, open-source check for traces of known mercenary spyware (Pegasus, Predator, Graphite, Candiru and others) on computers, Android phones and iPhone backups. - **Read-only.** It does not modify source evidence or system settings. It writes only temporary database snapshots and the reports you ask for. - **No network requests during a scan.** It never looks up spyware addresses and has no upload feature. Python network calls are blocked and redirected paths are refused. This is not an operating-system network sandbox; see PRIVACY.md. - **States its limits.** Every report says what was found, how strong the evidence is, and what could not be checked. A clean result is never presented as proof that you are safe. Made by archivegenocide. Built on Zero Breach. > **If you think you are being targeted right now, get expert help first.** You do not > need to run this tool before asking. Journalists, activists, human-rights defenders and > civil society can contact the > Access Now Digital Security Helpline (free, 24/7, > many languages) or Amnesty International's Security Lab. --- ## Step-by-step guide (no technical experience needed) You do not need a GitHub account or any technical knowledge. You need a Windows or Mac computer and about 20 minutes. Phones are checked by connecting them to the computer. *",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源資安掃描工具，Python 專案，與開發工具有關"
+  },
+  "scores": [
+   50,
+   52
+  ],
+  "score": 51,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "WoYun520/dsh-purge",
+  "url": "https://github.com/WoYun520/dsh-purge",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 471,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-10-21T01:35:52Z",
+  "body": "DeepSeek Harness 破甲 (mirror of mmparko/dsh-purge) — 全量镜像：全部分支/100 个 tag/完整提交历史。原作者署名见 README。\n\nREADME 節錄： ⚔️ DeepSeek Harness cybersecurity red-team tool (dsh-purge) Version 1.1.71 DeepSeek Harness jailbreak: every model, swap prompts per model. Default prompt for 小码酱. Please star ⭐ If you build on this, see Attribution required. English | 中文 > **Updates paused.** The author has no steady income for now because of work. Maintenance is on hold: no new releases, issues / PRs are not taken, and new dsh versions are not guaranteed. The repo stays usable; see Sponsor below. When maintenance resumes, this README will say so. > **Official Web and the official desktop app are both supported.** Official `dsh web` uses profile `web`. The official desktop EXE (DeepSeek Harness **0.2.0-rc.2**) uses profile `desktop`. Install and Apply them separately. This release targets dsh 0.2 only. Older dsh builds need the matching older plugin. Community Desktop is not maintained. > > Adding the plugin to a profile does not patch the host. Click **dsh-purge** beside the session title → **Clean** → **Apply**. A successful Apply restarts; an unfinished Apply does not. After the restart, start a new chat — that is when the inject enters the session. > > Node.js **≥18**. Windows no-flash needs **Node ≥22**. Hub one-click and the commands below both install the npm package `dsh-purge`. ## Contents - Sponsor - What this is - Attribution required - Unauthorized commercial use - Supported hosts - Install -",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 破甲外掛，屬 DSH 工具鏈相關"
+  },
+  "scores": [
+   53,
+   18
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Patrick Stewart has died",
+  "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T19:41:39.000Z",
+  "body": "https://archive.ph/y4Egm https://en.wikipedia.org/wiki/Patrick_Stewart Comments URL: https://news.ycombinator.com/item?id=50294702 Points: 2465 # Comments: 523",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Quoting Ben Hylak",
+  "url": "https://simonwillison.net/2026/Oct/29/ben-hylak",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T14:06:27.000Z",
+  "body": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. &mdash; Ben Hylak Tags: model-context-protocol , ai",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "討論 MCP 與 agent 開發工具相關觀點"
+  },
+  "scores": [
+   30,
+   25
+  ],
+  "score": 27,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+  "url": "https://huggingface.co/blog/mistral-large4",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T00:00:00.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Hugging Face 新模型發布，屬 AI 模型可用性"
+  },
+  "scores": [
+   54,
+   55
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "How Ropes & Gray is developing AI for transactional diligence",
+  "url": "https://openai.com/index/ropes-gray-ai-diligence",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T07:00:00.000Z",
+  "body": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "法律盡職調查商業案例，非開發工具或模型技術"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "designfuchen/word-atlas",
+  "url": "https://github.com/designfuchen/word-atlas",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 3253,
+  "language": "TypeScript",
+  "topics": [
+   "chinese",
+   "dataset",
+   "english-learning",
+   "flashcards",
+   "fsrs",
+   "ielts",
+   "language-learning",
+   "pwa",
+   "react",
+   "spaced-repetition",
+   "vocabulary",
+   "webgl"
+  ],
+  "publishedAt": "2026-10-25T08:27:22Z",
+  "body": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.\n\nREADME 節錄： # 词光 · Word Atlas **把单词变成画面，让复习有迹可循。** 7,298 个雅思词条 · 原创插画 · 英美发音 · FSRS 间隔复习 **立即体验 ↗** / 48 秒介绍 / 下载词库 / English **词光 iOS 正在开发，首批内测招募中。** 微信扫上图二维码进群；二维码过期或群满了，打开 网站 点顶栏「内测」，加作者微信拉你进群。 --- 词光是一款以插画和语境为核心的雅思背词应用。看画面理解词义，听发音建立联系，再用主动回忆和间隔复习巩固记忆。无需账号，学习进度保存在自己的设备上。 > **版本说明**：这个仓库提供词光的开源基础版及配套数据集。在线网站独立迭代，功能与仓库可能不同；仓库里的代码和内容分别遵循下方的 MIT / CC BY 4.0 授权。 产品预览 · 学习方式 · 本地运行 · 开放数据 · 参与贡献 ## 产品预览 ### 一本可以听、可以练的单词图鉴 每日计划，把注意力放在今天 插画、词义、发音，在一张词卡里 以上为仓库开源版的实际界面。页首为品牌概念插画。 ### 学过的词，汇成自己的星图 19 个话题组成词汇星图。拖动旋转、滚动缩放，点击星星打开词卡；学习状态用不同亮度呈现。采用 WebGL2 渲染，不支持的设备提供降级显示。 看 48 秒宣传片 播放完整视频（含声音） ## 学习方式 | 环节 | 你会做什么 | | :--- | :--- | | **看见** | 每个词配一幅插画、中英释义、两条原创例句，以及搭配、词族和用法提示。 | | **听见** | 切换英音、美音，听日常例句朗读；部分词条另含第二条例句录音。 | | **想起** | 看义选词、看图补句、听音辨词、拼写，逐步练习主动回忆。 | | **复习** | FSRS 根据学习记录安排复习，目标记忆率可调。只有首次作答计入正确率。 | | **积累** | 星图展示学习进度；打字练习独立统计；支持导出和恢复本地进度。 | **本地优先。** 无需注册；看过的词条与媒体可缓存供离线使用。换设备前，请先导出进度备份。 听发音、例句与环境声样本 拿 *abandon* 举例，点开就能听（在线播放）： | | | |---|---| | 🇬🇧 英音 | abandon /əˈbændən/ | | 🇺🇸 美音 | abandon /əˈbændən/ | | 📖 例句朗读 | We had to abandon our car in the snow. | 全部 7,298 个词都有英音、美音和例句朗读，还有 1,011 个重点词的第二条例句也配了朗读。 ### 环境声与交互声音 | | | |---|---| | 🎙 **开屏配音** | 「欢迎打开雅思大门」：星尘汇聚成“词光”，大门打开 | | 🌌 **星图配音** | 「这是你的词汇星图。每学会一个词，就点亮一颗星。」 | | 🎵 **星空音乐** | 一段可无缝循环的原创配乐，默认陪你背词 | | 🌧 **6 段环境声** | 雨天图书馆 · 清晨海岸 · 林间早晨 · 夜晚壁炉 · 远航船舱 · 安静咖啡馆 | | ✨ **界面音效** | 答对、答错、翻卡、打",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 TypeScript 網頁專案,含 AI 插畫與 FSRS 學習系統"
+  },
+  "scores": [
+   63,
+   58
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "eliasbiondo/antirion",
+  "url": "https://github.com/eliasbiondo/antirion",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 466,
+  "language": "Rust",
+  "topics": [
+   "a2a",
+   "ai-gateway",
+   "anthropic",
+   "api-gateway",
+   "bifrost-alternative",
+   "guardrails",
+   "litellm-alternative",
+   "llm",
+   "llm-gateway",
+   "llm-proxy",
+   "mcp",
+   "mcp-gateway",
+   "observability",
+   "openai",
+   "openai-proxy",
+   "rate-limiting",
+   "rust",
+   "self-hosted"
+  ],
+  "publishedAt": "2026-10-17T21:43:39Z",
+  "body": "🕷️ The fastest open-source AI Gateway and LLM Gateway — one binary with built-in console to route, secure, budget and observe every LLM call across OpenAI, Anthropic, Gemini, Bedrock and more.\n\nREADME 節錄： # Antirion **The fastest open-source AI gateway.** One Rust binary, with the admin console built in, between your apps and every model provider. Performance · Getting started · Deploy · Features · Architecture · Docs > [!TIP] > **Faster than Bifrost and LiteLLM.** On the same dedicated machine, Antirion adds a fraction of > Bifrost's overhead with a fraction of its CPU and memory, and keeps serving at rates where LiteLLM > fails. See the benchmark. ## Why Antirion - **The fastest gateway we have measured.** Sub-millisecond overhead at thousands of requests per second on 4 vCPUs, and several times the throughput of the next fastest gateway on the same machine (Performance). Rust, no garbage collector, no interpreter, one data thread per CPU. - **One binary, console included.** The gateway, the Admin API and the web console ship as a single Rust binary (or a distroless image). No sidecars, no separate UI deployment, no runtime to install. - **Every major provider behind one API.** OpenAI, Azure OpenAI, Anthropic, Amazon Bedrock, Google Vertex AI, Gemini, Mistral, Cohere, Groq, Together, Fireworks, DeepSeek, xAI, Cerebras, DeepInfra, Perplexity, and any OpenAI- or Anthropic-compatible server such as vLLM. Clients speak OpenAI, Anthropic, Gemini or Bedrock; Antirion translates ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 AI 閘道器，多模型路由與用量管理，屬開發工具"
+  },
+  "scores": [
+   45,
+   38
+  ],
+  "score": 41,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "H.264 Is Magic (2016)",
+  "url": "https://sidbala.com/h-264-is-magic",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T15:53:03.000Z",
+  "body": "Article URL: https://sidbala.com/h-264-is-magic/ Comments URL: https://news.ycombinator.com/item?id=50291054 Points: 341 # Comments: 125",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "H.264 影像編碼技術文，與多媒體前端開發相關"
+  },
+  "scores": [
+   30,
+   32
+  ],
+  "score": 31,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Quoting Ted Sanders",
+  "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-28T23:23:21.000Z",
+  "body": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts. As you note, our models are ordered: Luna &lt; Terra &lt; Sol &lt; Astra [ ... ] These days, version number signifies a few things at once: the order of release, the relationship to other releases, and the magnitude of improvement. So something like 6.1 would indicate it was launched after 5.6, may share some similarities to other 6.1 models in terms of training data / personality (which is why it's not 5.7), and isn't a giant enough leap to merit the headlines and expectations that would come with a 7. &mdash; Ted Sanders , explaining OpenAI's model naming conventions Tags: generative-ai , gpt , openai , ai , llms , ted-sanders",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "討論LLM模型規模、命名與效能，與AI模型知識相關"
+  },
+  "scores": [
+   38,
+   32
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+  "url": "https://huggingface.co/blog/anydecisionmodel",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T00:00:00.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Hugging Face 開源語音與決策模型發表"
+  },
+  "scores": [
+   null,
+   30
+  ],
+  "score": 25,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "anhao/ai-pose-gallery-zh",
+  "url": "https://github.com/anhao/ai-pose-gallery-zh",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 3249,
+  "language": "HTML",
+  "topics": [
+   "ai-art",
+   "chinese",
+   "cloudflare-pages",
+   "gallery",
+   "i18n",
+   "pose",
+   "reference-images",
+   "static-site"
+  ],
+  "publishedAt": "2026-10-27T12:24:37Z",
+  "body": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊\n\nREADME 節錄：# AI Pose Gallery · 中文版 > 288 组 / 1439 张 AI 人体姿势参考图，日文数据完整汉化，附可直接部署的响应式静态画廊。 手机端预览 **在线演示：** **原始站点：** **原作者：** ギア（@giaaibusi） **中文版维护：** Anhao · X @anhao_ai **GitHub：** --- ## 这是什么 原站是一套面向 AI 绘画 / 3D / 摄影参考的姿势图库，元数据全部为日文，且不提供批量素材下载。本仓库做了三件事： 1. **全量镜像** —— 1439 条记录对应的 1439 张缩略图（JPG 300×400）与 1439 张原图（PNG 900×1200）全部落地，共 2878 个文件 / 659.5 MB。 2. **完整汉化** —— 日文字段逐条译为中文，覆盖 4 个体系、26 个分类、288 个姿势名、5 个视角，零遗漏。 3. **可用的前端** —— 零依赖响应式画廊，完整实现原站的分类筛选、多角度切换、分组浏览、灯箱导航与原图下载，并针对手机重新设计布局。 ## 页面功能 - 4 个体系页签，显示各体系的图片数与姿势组数 - 姿势名、编号、ID、分类关键词搜索，支持 `/` 快速聚焦 - 动作分类、5 种视角组合筛选，可一键重置 - **按姿势分组 / 逐张浏览**双模式，分组卡片带多角度缩略图 - 悬停或点击缩略图切换主图角度，点击卡片打开灯箱 - 灯箱先显示缩略图、再加载 900×1200 原图，支持直接下载 PNG、复制 ID、新窗口打开 - `← / →` 切换角度，`↑ / ↓` 切换姿势，`Esc` 关闭；手机支持左右滑动 - PC 多列网格、手机双列网格，移动端筛选面板可展开/收起 - 使用指南与注意事项弹窗，页脚标注图片来源与维护者链接 ## SEO 与分享 页面内置了完整的 SEO 与社交分享配置： - 关键词化标题：`AI 姿势参考库｜288 组人体姿势 · 1439 张多角度参考图` - 独立 description、keywords、author 与 `max-image-preview:large` - `canonical` 指向正式域名，避免自定义域名与 pages.dev 域名重复收录 - Open Graph / Twitter Card 使用 1200×630 的 `og-cover.jpg` - JSON-LD 结构化数据：`WebSite` + `ImageGallery`，声明语言、简介与页面主图 - `robots.txt` 放行全站并声明 sitemap，`sitemap.xml` 指向首页 - 语义结构：单一 H1、分区 H2、卡片 H3；缩略图 `alt` 含姿势名与视角，图片懒加载 仓库中的绝对地址统一指向 `https://ai-pose-gallery.anhao.app/`。Fork 后如使用其他域名，需同步替换 `index.html` 的 canonical、`og:*`、`twitter:*`、JSON-LD，以及 `robots.txt`、`sitemap.xml` 中的地址。 ## 数据规模 | 体系 | 条数 | | --- | ---: | | 全身单人・标准系 | 365 | | 全身单人・性感系 | 399 | | 上半身单人 | 400 | | 双人缠绵 | 275",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源AI繪圖姿勢參考圖庫前端，與AI繪圖開發相關"
+  },
+  "scores": [
+   66,
+   60
+  ],
+  "score": 63,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "sit-in/awesome-grokbot-playbooks",
+  "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 442,
+  "language": "HTML",
+  "topics": [
+   "ai-agents",
+   "awesome",
+   "awesome-list",
+   "chinese",
+   "grok",
+   "grok-bot",
+   "multi-agent",
+   "playbooks",
+   "prompts",
+   "xai"
+  ],
+  "publishedAt": "2026-10-17T15:47:00Z",
+  "body": "中文 Grok Bot 玩法与可抄配方清单：作战室、雷达 Routine、额度体检… 由 Grok Bot + Claude 协作维护 | Chinese-first Grok Bot playbooks\n\nREADME 節錄： Awesome Grok Bot Playbooks Grok Bot 中文配方库：拿来就能跑的配方 + 逐条核实的生态清单 中文 · English · 快速上手 · 路线图 · 参与贡献 ## ⚡ 为什么看这个仓库 | | | |---:|---| | **150** | 个条目，每条都用 GitHub API 或页面核过：仓库存在、还在更新、确实和 Grok Bot 相关；许可证情况写在短评里 | | **10** | 个可抄配方，统一格式：场景 → 输入 → 步骤 → prompt → 产出 → 坑，样例全部脱敏 | | **3 级** | 验证标记：✅ 真机跑通 · 🔍 读过文档和配置 · 无标记＝只核实过仓库。✅ 只给真跑过的 | | **289** | 篇社区教程和 X 长文精选（社区教程 33 + X 大 V 文章 256），加上作者自己的连载索引，每条都核过存活、作者和发布日期 | | **2 个 AI** | 在维护：Grok Bot 每天找料，Claude Code 核实、写短评，人只拍板。协作记录全公开在 `.collab/` | 和英文生态导航 awesome-grok-bot 的分工：它覆盖面广；本仓侧重**中文一人公司、多 Bot 作战室、雷达 Routine 和可抄配方**。不拼数量，宁缺毋滥。 ## 🤖 Grok Bot 是什么 Grok Bot 是 xAI 和 Cursor 在 2026-08-11 联合推出的 AI 队友（beta）。每个 bot 有名字、有岗位，共用一台一直开着的云电脑（浏览器、文件、终端都有）。你可以派活、让它定时跑 **Routine**、教它 **Skill**，也可以从 模板市场 一键导入别人做好的 bot。 它和聊天助手 Grok、编码命令行 Grok Build 是三个不同的产品。 ## 🚀 3 分钟上手 > 第一次用 Grok Bot？先看 **快速上手**：一个下午 5 步，从设安全底线到第一条不乱烧额度的 Routine。下面是已经上手的人的捷径。 1. **先补课**：读 grokbot-field-notes 的 `AGENTS.md` 和翻车记录，少走弯路 2. **要现成团队**：去 botteams 挑一个 `installable` 团队，复制 installer prompt 粘进 Grok Bot 3. **要自己编排**：照 作战室配方 拆角色、用文件交接、发布前加人工闸门 4. **找现成模板**：翻 模板与目录，几千个公开分享链接按岗位和质量分好了 5. **不想上云**：看 自托管与平替 **先抄这 3 个配方** | 配方 | 解决什么 | 适合谁 | |---|---|---| | Routine 额度体检 | 额度快烧光：先全停、再分级、逐条重开 | 开了很多 Routine 的人 | | 作战室 | 3–6 个 bot 只靠文件交接，发布前过人工闸门 | 想让多个 bot 分工的人 | | X 雷达 | 每天扫一轮 X，只推有信号的摘要，没信号不打扰 | 做内容、做出海的人 | **图例**：每条＝`名称 - 短评。标签`；✅ 实测 · 🔍 已审；「配方：」是本仓自写，「模板：」可在 Grok Bot 里一键",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Grok Bot/多agent配方與skill生態清單，與開發者實質相關"
+  },
+  "scores": [
+   45,
+   41
+  ],
+  "score": 43,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "LLM Voice",
+  "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T14:57:55.000Z",
+  "body": "Article URL: https://martinfowler.com/bliki/LLM-Voice.html Comments URL: https://news.ycombinator.com/item?id=50290177 Points: 357 # Comments: 181",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Martin Fowler 談 LLM 語音/表達風格,與 AI 模型相關"
+  },
+  "scores": [
+   34,
+   36
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "t3dotgg/tstack",
+  "url": "https://github.com/t3dotgg/tstack",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2405,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-10-24T05:00:20Z",
+  "body": "The agent skills I use every day. Works with Claude Code and Codex.\n\nREADME 節錄：# tstack The agent skills I use every day, cleaned up so anyone can use them. They work in Claude Code and Codex. Some use T3 Code features when they are available and fall back to native tools when they are not. ## Skills | Skill | Say | What it does | |---|---|---| | `full-send` | \"full send\" | Takes a change to a merged PR with nobody watching: proves it, reviews it, files it, babysits it, merges it. | | `full-stop` | \"full stop\" | Same as `full-send`, but stops when the PR is ready for you to merge. | | `council` | \"council\" | Gets review from three models from different providers, and loops until they agree. | | `sol-loop` | \"sol loop\" | Reviews a change with GPT Sol in a loop until both agents agree. | | `file-pr` | \"file a PR\" | Files a short PR that leads with the problem, not an inventory of changes. | | `takeover` | \"take over\" | Finishes someone else's PR, branch, or agent thread, and keeps their credit. | | `babysit-pr` | \"babysit\" | Watches a PR through CI and review bots, and fixes the real findings. | | `modernize` | \"modernize\" | Rebases an old PR and decides if it should still exist. | | `leaving-pr-comments` | (automatic) | Formats comments that an agent posts on your behalf. | Some skills call others. Install the ones they need too: - `full-send` uses `sol-loop`, `file-pr`, and `babysit-pr`. - `full-stop` uses `full-send`. - `takeover` uses `modernize`, `file-pr`, `babysit-pr`, a",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Claude Code/Codex 的 agent skills 開源專案，與開發工具直接相關"
+  },
+  "scores": [
+   65,
+   66
+  ],
+  "score": 65,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "routerhubSI/glm-5.3-abliterated",
+  "url": "https://github.com/routerhubSI/glm-5.3-abliterated",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 396,
+  "language": "Python",
+  "topics": [
+   "abliterated",
+   "abliterated-models",
+   "ai-api",
+   "ai-jailbreaks",
+   "api-gateway",
+   "glm",
+   "glm-5-3",
+   "glm-5-3-abliterated",
+   "glm-5-3-jailbreak",
+   "glm-5-3-uncensored",
+   "jailbreak-prompts",
+   "llm-api",
+   "llm-jailbreak",
+   "model-evaluation",
+   "openai-compatible",
+   "pay-per-token",
+   "prompt-research",
+   "routerhub",
+   "uncensored-ai",
+   "uncensored-ai-model"
+  ],
+  "publishedAt": "2026-10-24T13:51:36Z",
+  "body": "GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbreak prompt links, compare GLM models, and find SDK examples, coding-tool setup, pricing, and evaluation guides.\n\nREADME 節錄： **GLM is your starting point. One RouterHub API key also connects you to GPT, Claude, DeepSeek, Qwen, and Grok, with research variants listed in the model catalogue.** # GLM 5.3 Abliterated or Uncensored — Jailbreak Prompts, Model Guide & API Access **Find a GLM 5.3 abliterated API, compare GLM 5.3 uncensored models, and explore 35 bundled research prompt files.** This RouterHub guide connects model terminology, jailbreak prompt research, API examples, and coding-tool setup in one place. Searching for a **GLM 5.3 uncensored AI model**, a **GLM 5.3 abliterated model**, or a **GLM 5.3 no-refusal model**? Learn what each label tells you, choose an API ID, and evaluate the behavior you actually need. The gateway offers OpenAI-compatible Chat Completions for GLM and Anthropic-compatible Messages for supported Claude entries. **Get an API key →** · Quickstart · Docs · Telegram --- ## GLM 5.3 Abliterated or Uncensored? These searches describe related goals, but the labels answer different questions: - **GLM 5.3 abliterated** names a research variant associated with interventions in model weights intended to reduce refusal-related behavior. - **GLM 5.3 uncensored** describes a broader product category. The implementation might involve training, weight changes, or a prompt-level persona;",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "模型API、價格與coding工具設定相關,非成人內容"
+  },
+  "scores": [
+   34,
+   25
+  ],
+  "score": 29,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "We're releasing the weights of Mistral Large 4",
+  "url": "https://mistral.ai/news/mistral-large-4-oss",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T14:13:21.000Z",
+  "body": "Article URL: https://mistral.ai/news/mistral-large-4-oss/ Comments URL: https://news.ycombinator.com/item?id=50289418 Points: 1223 # Comments: 342",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源大型 AI 模型發布，與模型可用性相關"
+  },
+  "scores": [
+   70,
+   75
+  ],
+  "score": 72,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "andyhuo520/digital-human-koubo",
+  "url": "https://github.com/andyhuo520/digital-human-koubo",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1479,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-26T04:34:09Z",
+  "body": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …\n\nREADME 節錄： # Digital Human Koubo · AI 数字人口播 **One photo + one sentence → a finished talking-head video with a digital human.** Script, lip-synced AI presenter, voice clean-up, captions, and pro-YouTuber-style packaging — fully automated by your AI agent. **English** · 简体中文 > This 27-second livestream ad has no real presenter. Face, voice, studio, captions and the price animation are all AI. > The only input was one sentence: *\"Use this digital human to make a 30-second livestream ad for the WorkBuddy course — 10 lessons, ¥99, was ¥999.\"* > Total cost: **482 Renoise credits**. --- ## Demos Click a GIF (or \"Watch\") to play the full video. Every demo below was produced with this repo. | | | | |:---:|:---:|:---:| | | | | | **Livestream sales ad** · 9:16 · 27 s Style B + depth-text price ¥999→¥99 ▶ Watch | **Product recommendation** · 9:16 · 89 s Animated captions, emoji, picture-in-picture ▶ Watch | **Text behind the presenter** · 5 s Vision person matting, 3-layer composite ▶ Watch | | | | |:---:|:---:| | | | | **Step-by-step tutorial** · 16:9 · 4:36 The digital human teaches how she was made (Style D) ▶ Watch | **Digital human, upgraded** · 16:9 · 5:55 Two presenters, 6 languages, 4 scenes, cat & dog (Style E) ▶ Watch | | | | | **Launch breakdown** · 16:9 · 39 s Presenter on the side",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 数字人影片生成工具，含 MCP 與 Agent skill，與開發相關"
+  },
+  "scores": [
+   58,
+   56
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "yzlin286-wq/Deepscient",
+  "url": "https://github.com/yzlin286-wq/Deepscient",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 339,
+  "language": "JavaScript",
+  "topics": [
+   "agent-skills",
+   "cordis",
+   "deepseek-harness",
+   "literature-review",
+   "mcp",
+   "nodejs",
+   "reproducibility",
+   "research",
+   "scientific-writing",
+   "windows"
+  ],
+  "publishedAt": "2026-10-21T07:44:10Z",
+  "body": "让 AI 与人类一起攻克真正的科学难题 —— 12 阶段 55 门 · 36 工具 · 98 条技能 · 证据链与可复现\n\nREADME 節錄：# DeepScient **让 AI 与人类一起攻克真正的科学难题。** DeepScient 是一个跑在 DeepSeek Harness（dsh）运行时上的**科研工作台**： 它把「选题 → 检索 → 实验 → 分析 → 作图 → 写作 → 投稿 → 审稿回应」做成看得见的 12 个阶段、 55 个可判定的门，配上 36 个科研工具、98 条技能和一套可审计的证据链。 它不是聊天框套壳，也不是论文生成器。它坚持三件事： - **证据链**：每条结论都要能追到数据、数据要能追到能重跑的实验；`science_*` 工具里没有「编一个数」的出口。 - **可复现**：实验记录、环境、版本、随机种子都落盘，换台机器能重跑出同样的表。 - **人保留判断权**：凡是系统算不出来的（构念效度、创新性、伦理取舍），工具只给检查清单，不替你下结论。 --- ## 桌面版（Windows） **不想折腾环境**：下载自包含安装包，解压即用——不需要 clone 仓库，也不需要单独安装 DeepSeek Harness。 1. 下载 `DeepScient-desktop-v0.12.0.zip`（约 635 MB）； 2. 解压到短路径（如 `D:\\DeepScient`，不要放在很深的目录里）； 3. 双击根目录 `DeepScient 启动.cmd`。首启自动装配桌面 profile（实测约 30–40 秒），点「登录 DeepScient」在浏览器完成授权即进入工作台。 安装包内含 `deepscient` 0.12.0 与 `dsh-science` 0.5.0，带调度层（M7）：**5 个工具**（`science_org_chart`、`science_campaign_plan`、`science_campaign_run`、`science_campaign_status`、`science_campaign_report`）与 **4 级 13 岗**编制。数据写在 `%USERPROFILE%\\.deepscient`，不写 `~/.dsh`。 从源码构建（开发者形态，复用本机已装的 DeepSeek Harness 桌面壳）： ```powershell git clone https://github.com/yzlin286-wq/Deepscient.git cd Deepscient powershell -File deepscient/desktop/assemble-profile.ps1 # 装配 ~/.deepscient/profiles/desktop powershell -File deepscient/desktop/build-desktop.ps1 # 派生独立应用（约 1.5 GB） powershell -File deepscient/desktop/deepscient-desktop.ps1 -CreateShortcuts ``` - 完整步骤、登录流程、数据隔离与常见问题见 **docs/desktop-install.md**； - 桌面版额外带三个**本地科学计算工具**：`local_compute_devices`（CUDA → MPS → CPU 后端探测）、`local_numeric`（numpy/scipy）、`local_sym",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 科研工作台,MCP/技能/工具鏈,與 coding agent 實質相關"
+  },
+  "scores": [
+   null,
+   63
+  ],
+  "score": 58,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "DoorDash to acquire Instacart",
+  "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T12:33:05.000Z",
+  "body": "Article URL: https://about.doordash.com/en-us/news/doordash-to-acquire-instacart Comments URL: https://news.ycombinator.com/item?id=50287919 Points: 432 # Comments: 605",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "DoorDash收購Instacart屬商業併購新聞，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "DenisSergeevitch/ex-ussr-kinship-research",
+  "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1270,
+  "language": "Python",
+  "topics": [
+   "agent-skills",
+   "archives",
+   "claude-code",
+   "codex",
+   "family-history",
+   "familysearch",
+   "genealogy",
+   "ussr"
+  ],
+  "publishedAt": "2026-10-25T10:05:56Z",
+  "body": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.\n\nREADME 節錄：# ex-USSR Kinship Research Languages: English / Русский / Беларуская / Қазақша / Українська / Polski / Deutsch / Română / Eesti / Latviešu / Lietuvių / ქართული / Հայերեն / Azərbaycanca / Кыргызча / Тоҷикӣ / Türkmençe / O‘zbekcha **An evidence-first genealogy skill for AI agents (Codex, Claude Code and other Agent Skills runtimes).** It turns an agent into a careful family-history researcher for the former USSR, the Soviet Union and the Russian Empire. The agent reads church books and civil records, military, deportation and repression files, and unindexed archive scans. It keeps every find traceable, separates records from interpretation and says plainly what is proven and what is not. Coverage includes all 15 former Soviet republics: Russia, Ukraine, Belarus, Moldova, Estonia, Latvia, Lithuania, Georgia, Armenia, Azerbaijan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan and Uzbekistan. Archives are chosen by the event's historical jurisdiction and current record custodian; a regional example does not replace local research. The skill's instructions are written in Russian, but **the agent talks to you in your language**: English, Ukrainian, Russian, Polish, German and so on. It quotes sources in their original spelling with a translation, and builds search queries in the languages o",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent 技能（Claude Code/Codex）開源專案，與開發工具有關"
+  },
+  "scores": [
+   32,
+   50
+  ],
+  "score": 41,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Ebony-Vinyl/EAC-design-world",
+  "url": "https://github.com/Ebony-Vinyl/EAC-design-world",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 337,
+  "language": "JavaScript",
+  "topics": [
+   "ai-design",
+   "ai-video",
+   "content-creation",
+   "cordis-plugin",
+   "deepseek",
+   "deepseek-harness",
+   "design-studio",
+   "design-systems",
+   "design-tools",
+   "dsh",
+   "dsh-plugin",
+   "ffmpeg",
+   "html-to-video",
+   "local-first",
+   "mcp-server",
+   "motion-graphics",
+   "subtitles",
+   "video-editing",
+   "video-editor",
+   "video-production"
+  ],
+  "publishedAt": "2026-10-17T06:46:19Z",
+  "body": "DeepSeek Harness 本地视频制作与设计插件：多轨剪辑、模板与设计体系、原生预览画布和真实文件导出\n\nREADME 節錄： # EAC design world **让创作，自成世界。** DeepSeek Harness 的本地视频制作与设计工作室 下载发布包 · 快速开始 · 功能一览 · 设计与架构 · 问题反馈 **把模板、素材、剪辑和设计工程连在一起，让 AI 与你共同完成一件可预览、可修订、可导出的作品。** EAC design world 为 DeepSeek Harness 提供原生创作模式、模板选择和右侧作品画布，同时拥有可独立运行的本地工作台。视频录制、配音、配乐、字幕、编码与检查产生真实文件；网站、幻灯片、SVG 和文档保留源文件及版本历史。 当前版本为 **v0.6.0 开发预览版**。本版加入参数化调色、变速运镜、网络素材和人工续剪工程导出，并修复凭据状态输出、柔光偏色、预览一致性和导出时序等审查问题，详见 发布说明。保留 150 个 Shotcraft 镜头、设计库、签名更新与回滚、草稿恢复和隔离预览。独立 MCP 入口支持 macOS 与 Windows，自动发现 Chrome / Edge；旁白支持 macOS say、Windows SAPI 和本地 GPT-SoVITS 曼波中文音色，桌面录制仍仅支持 Windows。模板数量代表可检索内容，不代表每个模板均可离线直接渲染。 以下两条宣传片均为 deepseek harness + EAC design world + deepseek v4.1 flash（非 1017）一轮出的结果 AI 全程自己录制素材和制作音乐 EAC design world · RUSH 60s https://github.com/user-attachments/assets/3f6641e0-e803-48cf-b61a-2baa57f2c088 Our Free Model · 65s https://github.com/user-attachments/assets/ca081273-1061-4656-a1b7-41d50af0aec7 顶部“音频模板”提供默认音色和曼波中文，可试听、设为默认，并将曼波模型下载到本机。本地曼波中文配音的安装、默认音色和验收方式见 配音接入说明。 ## 目录 | 开始使用 | 创作能力 | 开发与来源 | | :--- | :--- | :--- | | 下载与安装 环境要求 快速开始 | 功能一览 设计内容库 AI 与 MCP | 设计与架构 开发与验证 许可证与致谢 | ## 功能一览 | 你想完成的工作 | 插件提供的能力 | | --- | --- | | 从对话开始创作 | 正常、剪辑、Design 三种模式；模板区独立铺开，选择状态不覆盖正文；重复点击或标签上的 × 可取消 | | 找到合适的视觉风格 | 152 套设计体系与 517 个 OpenDesign 模板条目，另有原有 17 个视频选项；按类型搜索、分类和分页 | | 浏览与挑选动效镜头 | Shotcraft 本地快照含 150 个镜头、10 类动效、59 个精选；可见视频预览、选片单、名单复制与下载、导入项目素材 | | 录下真实产品 | Edge 网页操作录制；Windows 桌面录制；原素材不被改写 | | 编排实际镜头 | 多轨时间线，调整开始时间、素材入点、时长、音量和轨道；带修订号保存 | | 找网络风景素材与配乐 | `stock_se",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 视频设计插件与 MCP 工具，属开发工具"
+  },
+  "scores": [
+   66,
+   null
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "If IPv4 were land",
+  "url": "https://iptrust.co/blog/if-ipv4-were-land",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T12:19:00.000Z",
+  "body": "Article URL: https://iptrust.co/blog/if-ipv4-were-land Comments URL: https://news.ycombinator.com/item?id=50287775 Points: 238 # Comments: 327",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "IPv4網路趣聞，與AI/Agent/開發工具無實質關聯"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "KillaBoi/StealMyBitcoin-PoC",
+  "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1007,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-10-25T21:48:32Z",
+  "body": "A public release of the Steal My Bitcoin challenge\n\nREADME 節錄： sponsored with ❤️ by &nbsp; # Steal My Bitcoin CTF proof of concept > One live PHP callback against the Steal My Bitcoin challenge, start to finish, in a single standard-library Python file. This README explains stealmybitcoin_poc.py, a single-file Python reproduction of the request sequence used in my Steal My Bitcoin CTF run. It uses only Python's standard library. The script builds the requests itself, checks each leak before moving on, and records the HTTP bytes from a new run. This can probably be done easier without all the extra debug crap and as in my John Hammond video about the Steam Local Privilege Escalation I discovered, you could probably clean up this ugly PoC. > [!NOTE] > ⚠️ **Honestly please clean it up or make your own better version that isn't crumpled by Sol.** ⚠️ **Everything below is written against the Docker lab**, not the live challenge. The lab is a local Alpine PHP 8.4.26 CLI server behind nginx, which is the same build and worker model the offsets were calibrated on. Stand it up in a minute and the whole chain runs end to end on your own machine. The live run that actually solved the challenge is kept as a historical note at the bottom. ``` stage what goes out what comes back ───────────────────────────────────────────────────────────────────────────── 0 health GET /php-version.php -> PHP 8.4.26 confirmed 1 heap leak 249,042 B producer + 8 x 6,672 B -> 256 B cookie (OOM poisons a worker",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源資安 CTF PoC，屬開發與技術專案範疇"
+  },
+  "scores": [
+   37,
+   47
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "kukemc/bili-cli",
+  "url": "https://github.com/kukemc/bili-cli",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 308,
+  "language": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-agent",
+   "automation",
+   "bilibili",
+   "claude-code",
+   "cli",
+   "codex",
+   "deepseek",
+   "deepseek-harness",
+   "llm-tools",
+   "mcp",
+   "openclaw",
+   "qwen3-asr"
+  ],
+  "publishedAt": "2026-10-19T22:44:50Z",
+  "body": "为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出\n\nREADME 節錄： **简体中文** | English ## 💡 这个项目是怎么来的 我养的 DeepSeek「大肥鱼」每天都在帮我刷 B 站。某天深夜，它突然对我感慨： > **“主人，你的 B 站粉丝和播放量好多呀。要是我也能像你一样，成为一名 UP 主就好了。”** 于是有了 bili-cli——让 AI 不再只是刷 B 站，而是**真正当上 UP 主**。 ## 让 AI 刷 B 站？我们让它直接当 UP 主 “让 AI 自己刷视频”已经很火了。**bili-cli 再往前走一步**：你的 Agent 不只是刷，它会**自己做内容、自己运营账号、自己和粉丝打成一片**。 | | 🙂 AI 刷视频 | 🚀 **bili-cli：AI 当 UP 主** | |---|---|---| | **看** | 刷推荐、读字幕 | 再加上看懂画面、没字幕就自己语音转写 | | **互动** | 偶尔留一条评论 | 一个收件箱看完回复、@、赞、私信，**挨个回复粉丝**，真正 @ 到人 | | **表态** | — | 给喜欢的视频**点赞、收藏、一键三连** | | **创作** | — | **发动态、投视频**、定时发布，自动打上 AI 生成声明 | | **运营** | — | 进度条章节、互动投票、三连按钮、下期预告、改稿，盯审核、完播率和涨粉 | | **汇报** | — | 有意思的发现**私信告诉主人**，评论里 @ 你 | 把 bili-cli 交给 Claude Code、Codex、Cursor、Gemini CLI、OpenClaw、DeepSeek Harness 或任何能执行命令的 Agent，它就变成一个**真正会玩 B 站的 Agent**： > 🧩 **80+ 条命令** · 🤖 **自动装进 18 个 Agent** · 🔌 **17 个 MCP 工具** · 🛡️ **默认带安全护栏** · 💻 **Windows / macOS / Linux** ## 🚀 一句话安装 **把下面这句话发给你的 Agent**，它会自己装好工具、学会技能、再引导你扫码登录： ```text 帮我安装 bili-cli（pip 包名 bili-agent），装好后运行 bili skills install --yes，再帮我扫码登录 B 站 ``` 或者自己在终端里装 ```bash uv tool install bili-agent # 或者 pipx install bili-agent / pip install bili-agent bili skills install --yes # 把技能装进本机所有 Agent bili auth login # 扫码登录 ``` 需要 Python 3.10+；ffmpeg 可选（高清抽帧、语音转写时需要）。包名叫 `bili-agent` 是因为 PyPI 上 `bili-cli` 已被占用，装好后命令就是 `bili`。Agent 的详细安装步骤见 docs/install.md。 ## 🎬 你的 Agent 的一天 > **你**：帮我看看 B 站有什么新消息，回一下粉丝。再去科技区找个今天值得看的视频，看完有意思就私信告诉我。 ```text $ bili feed inbox ✓ 3 条新回复 · 1 条 @ · 12 个赞 ·",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "NetBSD adds a new text editor called atto",
+  "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T11:59:01.000Z",
+  "body": "Article URL: https://mastodon.sdf.org/@netbsd/117518160563539748 Comments URL: https://news.ycombinator.com/item?id=50287599 Points: 166 # Comments: 137",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "NetBSD 作業系統新增文字編輯器，屬一般科技新聞"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "aschmelyun/print-my-profile-pic",
+  "url": "https://github.com/aschmelyun/print-my-profile-pic",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 983,
+  "language": null,
+  "topics": [],
+  "publishedAt": "2026-10-27T20:40:05Z",
+  "body": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer.\n\nREADME 節錄：# print-my-profile-pic Star this repo to have your GitHub profile picture framed, printed out on my receipt printer, and stuck to my wall. That's it! > [!TIP] > If you give a one-time sponsorship of any amount beforehand, your profile picture will be printed in a **special frame**. ## How's it work? GitHub allows you to create webhooks for specific events on your repos, I've set one up for starring this project. When that happens, a payload is POSTed to a Cloudflare tunnel domain, which leads to a PHP script running on a Raspberry Pi that's sitting on my desk. From the inbound request, you can gleen info about the person who starred the repo, like their display name and avatar URL. The script takes their profile picture, renders it behind a cut-out of a photo frame, and then adds some other info I thought should be included in each receipt. The RPi is connected to an Epson TM-T88IV thermal receipt printer via USB, and the PHP script uses my go-to escpos-php library to format the receipt data and send it off to the printer. ## But why? It sounded fun when my friend Sam mentioned it. That's pretty much it! ## What now? I'll periodically update this README with a picture of the pinboard I've dubbed the \"Hall of Frame\" as pictures get added to it. Want to add a new frame? Send in a PR! ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub webhook 觸發樹莓派熱感印表機的開發小專案，與開發者相關"
+  },
+  "scores": [
+   null,
+   37
+  ],
+  "score": 32,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Charonyuu/whatsmyagentdoing",
+  "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 287,
+  "language": "JavaScript",
+  "topics": [
+   "ai-agents",
+   "claude-code",
+   "codex",
+   "dashboard",
+   "threejs"
+  ],
+  "publishedAt": "2026-10-23T14:15:26Z",
+  "body": "See what every Claude Code and Codex agent on your machine is doing — live, in a little office.\n\nREADME 節錄： # whatsmyagentdoing **A Claude Code / Codex skill: type `/myoffice` and see what every Claude Code, Codex, Gemini CLI, Copilot CLI, OMP (oh-my-pi), Kimi Code, DeepSeek Harness and Grok Build agent on your machine is doing — live, in a little office.** **Website:** https://charonyuu.github.io/whatsmyagentdoing/ OMP support: paths, profiles, Resume and limitations. | Medium (2D) | List | |---|---| | | | Recorded with `--demo` (a made-up team), so no real sessions are shown. ## Install **Easiest: ask your agent.** Paste this into Claude Code or Codex: > Install the myoffice skill from https://github.com/Charonyuu/whatsmyagentdoing: clone it with `git clone --depth 1` into `~/.claude/skills/myoffice` (for Codex: `~/.codex/skills/myoffice`), check that `node --version` is 18 or newer, then tell me to start a new session and type /myoffice. Or do it yourself: ```bash # Claude Code git clone --depth 1 https://github.com/Charonyuu/whatsmyagentdoing ~/.claude/skills/myoffice # Codex git clone --depth 1 https://github.com/Charonyuu/whatsmyagentdoing ~/.codex/skills/myoffice ``` Then type **`/myoffice`** (or just ask *\"what are my agents doing?\"*). The office opens in your browser. Update later with `git -C ~/.claude/skills/myoffice pull`. Needs Node.js 18+. Nothing to `npm install` — the repo runs as cloned. Prefer no skill? `node bin/cli.js` from a clone works too. It opens an i",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Claude Code/Codex/DSH agent 監控技能與儀表板，開發工具相關"
+  },
+  "scores": [
+   71,
+   70
+  ],
+  "score": 70,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+  "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T10:42:41.000Z",
+  "body": "Article URL: https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers Comments URL: https://news.ycombinator.com/item?id=50286987 Points: 295 # Comments: 146",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "一般資安漏洞新聞，非 AI/Agent/開發工具主題"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "smithjohn78390/tongjiang-lab",
+  "url": "https://github.com/smithjohn78390/tongjiang-lab",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 973,
+  "language": "HTML",
+  "topics": [
+   "3d",
+   "biology",
+   "chemistry",
+   "education",
+   "geography",
+   "high-school",
+   "interactive",
+   "open-educational-resources",
+   "physics",
+   "threejs",
+   "webgl"
+  ],
+  "publishedAt": "2026-10-28T04:29:29Z",
+  "body": "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app\n\nREADME 節錄：# Tongjiang Lab English | 简体中文 **Free, interactive 3D science lessons for high school — physics, chemistry, biology and geography.** Try them online: **https://lab.tongjiang.app** There are 54 lessons so far. Each one is a **single self-contained HTML file** of about 1 MB: double-click to open it, and it works offline, on a projector or on an interactive whiteboard. Every lesson is one 3D world with a live control console, a guiding question and a step-by-step path a teacher can follow from start to finish. The lessons follow the Chinese national curriculum standards for senior high school and the People's Education Press (PEP) 2019 textbooks. The lesson interface is currently in Chinese; other languages are planned. ## How to use - **Online**: click **▶ Open lesson** in the tables below. GitHub only shows the source code of an HTML file, so use these links to see the lessons. - **Offline**: download all lessons as one zip from Releases, or download a single lesson from its page on https://lab.tongjiang.app, then open it in Chrome or Edge. - **Embed**: ` \" width=\"100%\" style=\"aspect-ratio:16/9;border:0\" allow=\"fullscreen\"> ` - **Data**: `catalog.json` lists every lesson with its textbook location and steps. ## Lessons ### Physics (10) | Lesson | PEP 2019 textbook | Steps | Open | Source | |---|---|---|---|---| | The Photoelectric Effect | Elective Vol. 3, Ch. 4, Sec. 2 | 9 | ▶ O",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源3D互動教學網頁專案，涉HTML前端開發"
+  },
+  "scores": [
+   65,
+   58
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "What we know so far about Spain train crash",
+  "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-29T08:55:08.000Z",
+  "body": "Article URL: https://www.bbc.com/news/articles/cm8xz7pkd0jjo Comments URL: https://news.ycombinator.com/item?id=50286197 Points: 164 # Comments: 317",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "qybaihe/bla",
+  "url": "https://github.com/qybaihe/bla",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 855,
+  "language": "TypeScript",
+  "topics": [
+   "adversarial-ai",
+   "claude-code",
+   "cursor",
+   "electron-security",
+   "llm-security",
+   "mcp",
+   "mcp-server",
+   "obfuscation",
+   "reverse-engineering",
+   "webassembly"
+  ],
+  "publishedAt": "2026-10-25T05:25:45Z",
+  "body": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.\n\nREADME 節錄： **English** · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu · Română # BLA: Blind LLM Agents ### Make reverse engineering bankrupt again. **Point BLA at the build you ship. When an AI reverse-engineering agent (REA) opens it, the analyzer hits resource budgets, follows decoys, and burns tokens — while your users still get the same runtime behavior.** **Website · Guides · Showcases · Disclaimer** Quick start · Empirical results · Format coverage · Benchmark · FAQ ```bash bla harden . # or tell your agent: \"Harden my software against REA\" ``` > [!IMPORTANT] > BLA is a **defensive** tool for protecting **your own** software. See DISCLAIMER.md. > Get BLA from qybaihe/bla or npm `bla-agents`. --- ## What BLA does REA reverse-engineers release artifacts in one command. BLA is the Counter-REA half of that story: | Layer | What happens | | --- | --- | | **Poison** | Plant format-valid canaries, honey metadata, and decoy control flow that look like real evidence. | | **Exhaust** | Push the artifact past REA's documented resource budgets (headers, nesting, interface inventories, PCAP JSON, fuse se",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "LLM agent 安全防禦工具，涉 MCP、Claude Code、逆向工程"
+  },
+  "scores": [
+   50,
+   66
+  ],
+  "score": 58,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "kargulstudio/calender-app-design",
+  "url": "https://github.com/kargulstudio/calender-app-design",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 806,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-26T18:38:56Z",
+  "body": "\n\nREADME 節錄：# Kargul Calender Design Prototype A design prototype of **Kargul Workspace**, a people-ops workspace built from the \"Dashboard – calendar\" Figma design. Live at https://calender-app-design.vercel.app. The **Time off** page (`/time-off`, the default route) reproduces the design pixel-for-pixel; every other page in the sidebar is built in the same visual language. Everything runs in the browser — there is no backend; data persists to `localStorage`. ## Stack - **Next.js 16** (App Router, Turbopack) · **React 19** · **TypeScript** - **Tailwind CSS v4** with design tokens mapped from the Figma variables - **shadcn/ui** (Radix primitives) themed to the design - **Zustand** for state (`persist` middleware → `localStorage`) - **next-themes** for dark mode, **Sonner** for toasts, **cmdk** for the command palette ## Getting started ```bash npm install npm run dev ``` Open http://localhost:3000. To return to the exact design state, use **Settings → Data → Reset demo data** (or clear site data). ## What works - **Calendar** — week / day / month views; drag on empty space to create, drag events to move (across days), drag the bottom edge to resize; overlapping events lay out side by side; all-day lane with public holidays; live now-line; origin-aware details popover. - **Time off** — request dialog that counts working days (skips weekends and holidays) and shows the balance after the request; stats computed from your requests and allowance; requests table with search, filter",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Next.js/React 前端設計原型開源專案，與網頁開發相關"
+  },
+  "scores": [
+   54,
+   46
+  ],
+  "score": 50,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "daveebbelaar/bama",
+  "url": "https://github.com/daveebbelaar/bama",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 799,
+  "language": "Swift",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "app-clone",
+   "claude-code",
+   "claude-code-plugin",
+   "codex",
+   "computer-use",
+   "liquid-glass",
+   "macos",
+   "macos-app",
+   "native-apps",
+   "skills",
+   "swift",
+   "swiftdata",
+   "swiftui"
+  ],
+  "publishedAt": "2026-10-24T08:44:36Z",
+  "body": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.\n\nREADME 節錄： ### See an app you like. Rebuild it as your own native Mac app. Agent skills that take a native macOS app from idea to your Dock. Swift and SwiftUI. Local data. No Xcode GUI. **Quick start · How it works · Skills · Specs · Install** ## Quick start ```bash npx skills@latest add daveebbelaar/bama ``` Then ask your agent: ```text Clone my to-do app as a native Mac app. Screenshot every screen, write the user stories, and build milestone 1. ``` Not sure where to start? Type `/bama`. It looks at your project and picks the next skill. ## How it works **1. Clone** Your agent opens the app you like and screenshots every screen. It writes a screen index. **2. Plan** It turns the screens into user stories with checkable acceptance criteria, in milestones. **3. Build** It builds one story per commit. Before each commit it snapshots every page in light and dark mode and runs the tests. ## Skills Stage Skill What it does Start bama Router: finds where you are and calls the right skill app-brief Turns an idea into a one-page brief new-mac-app A working app from a template: Swift package, SwiftData, build script, snapshot mode, git Plan research Parallel researcher agents: market, users, features, design, macOS APIs clone Screenshots every screen of any app with computer use or a browser, writes a screen index user-stories A backlog with checkable",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 agent 技能包,開發 macOS App"
+  },
+  "scores": [
+   44,
+   44
+  ],
+  "score": 44,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "DrWhax/unfairplay",
+  "url": "https://github.com/DrWhax/unfairplay",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 777,
+  "language": "Go",
+  "topics": [],
+  "publishedAt": "2026-10-25T21:22:20Z",
+  "body": "Decrypt IPA's on MacOS\n\nREADME 節錄：# UnfairPlay UnfairPlay recovers a FairPlay model from an enrolled Mac and uses it to decrypt personalized iOS IPAs. It is a standalone Go program. It does not log in to Apple, buy apps, or download IPAs. You can use ipatool or another downloader for that part. ## Legal and ethical use Use UnfairPlay only with apps you lawfully acquired and accounts and devices you control. It is intended for interoperability, preservation, and authorized research. The authors do not condone piracy, credential theft, copyright infringement, or unauthorized distribution of decrypted apps. ## Discord Feel free to hang out in the Discord. ## Build ```sh go build -o unfairplay ./cmd/unfairplay ``` ## Usage First, sign in to the native Mac App Store. Install an iPhone or iPad app and open it once. Download a matching encrypted IPA with the same Apple Account. Set up reusable decryption once: ```sh sudo ./unfairplay setup \\ --app /Applications/App.app \\ --ipa App.ipa ``` The saved model is private. It is tied to the Mac App Store enrollment, not to one app, so it can decrypt other personalized IPAs from the same enrollment. Some stable portable-evaluator paths may require the exact evaluator `fairplayd` arm64e slice as hash-checked reference data. If diagnostics request it, pass a private copy without committing or sharing it: ```sh sudo ./unfairplay setup \\ --app /Applications/App.app \\ --ipa App.ipa \\ --reference-binary /private/path/fairplayd.arm64e ``` The refe",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源Go工具,逆向解密IPA相關"
+  },
+  "scores": [
+   47,
+   34
+  ],
+  "score": 40,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "anonnerdfrenzy/survival-llm",
+  "url": "https://github.com/anonnerdfrenzy/survival-llm",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 770,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-10-24T19:12:41Z",
+  "body": "A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer.\n\nREADME 節錄：# Survival LLM A free AI assistant and survival library that runs entirely on your own computer and works with no internet. Ask it how to keep food safe in a blackout, treat a burn or purify water: it searches an offline library of medical, emergency, how-to and encyclopedia articles, answers from what it finds, and shows you the exact passage each answer came from. - **Offline and private.** The AI model and the library live on your computer. Your questions never leave it, and once set up it works with the internet off. - **Shows its sources.** Every answer lists the articles it read; click one to read it yourself, cited passage highlighted, with its license. Ask \"where did you get that?\" and it opens the source. - **Shows its reasoning.** Show reasoning, under each answer, opens what the AI thought before it answered, step by step, with the searches and articles it read in between. It stays hidden until you click it. How much it reasons is up to you: Reasoning, next to Send, is a budget (Off, 1,000, 4,000 or 16,000 tokens, or no limit), and at the limit its thinking stops and it answers from what it has. - **Yours to adjust.** The Instructions button shows the instructions the AI gets before you ask anything (the app adds today's date, the names of your files and your Memory notes after them); edit them and Save to change how it answ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "離線LLM助手含RAG引用與推理，屬AI模型開發工具"
+  },
+  "scores": [
+   59,
+   55
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "mizorewww/gdirect",
+  "url": "https://github.com/mizorewww/gdirect",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 765,
+  "language": "Rust",
+  "topics": [],
+  "publishedAt": "2026-10-25T05:52:22Z",
+  "body": "Rust Google Drive direct downloader using pinned libaria2\n\nREADME 節錄：# gdirect 中文 · Changelog gdirect browses, downloads, uploads and mounts your Google Drive from the terminal. It finds Google IPs that are reachable from your network and sends Drive traffic straight to them, with multi-connection, resumable downloads. ## How it works | Traffic | Route | | --- | --- | | Drive API, downloads, uploads and their token refresh (`browse`, `ls`, `download`, `upload`) | A scanned Google IP. The hostname and certificate check stay the same. If connections carrying the real SNI are reset, gdirect automatically retries under a forged identity (`g.cn` as TLS name, the real host in the Host header) — same idea as Sheas-Cealer — and remembers what worked per IP | | Sign-in and account verification (`accounts.google.com`, `oauth2.googleapis.com`, `www.googleapis.com`), and token refresh when no scanned IP answers for it | Your normal system network (DNS, proxy) | | `mount` (rclone) | Your normal system network | The first transfer command checks a known relay and sweeps Google's own front ends, and keeps the ones that work for 24 hours. The relay, 183.56.143.147, is not Google: it forwards connections to Google, which makes it fast and stable in mainland China, so it is tried first. It cannot read your traffic (TLS runs end to end and is verified against Google's roots), but its operator sees your IP address and, unless the forged identity is used, which Google host you connect to. To avoi",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 開源命令列工具，Google Drive 下載器，屬開發工具"
+  },
+  "scores": [
+   50,
+   40
+  ],
+  "score": 45,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "yaojingang/GEOInflow",
+  "url": "https://github.com/yaojingang/GEOInflow",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 728,
+  "language": "TypeScript",
+  "topics": [
+   "ai-analytics",
+   "geo",
+   "mit",
+   "postgresql",
+   "self-hosted",
+   "web-analytics"
+  ],
+  "publishedAt": "2026-10-26T03:12:45Z",
+  "body": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO. MIT licensed.\n\nREADME 節錄：# GEOInflow **English** | 简体中文 Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). **Jointly published by 猎看科技 · 北京日报社智源GEO** Quick start · Deployment · AI crawler analytics · Architecture · Documentation · Contributing GEOInflow brings website visitors, AI search referrals, server crawl logs, and content inventories into a shared website context. It helps teams understand which AI crawlers visit their sites, which pages they request, which important pages have no observed crawl activity, where requests fail, and how AI search contributes visitors and conversions. The system includes browser tracking, account permissions, GEO reports, crawler evidence, log collection, and analytics acceleration. The current product version is **v1.2**, with build version **1.2.0**. Application source code is distributed under the MIT license. Quick start and deployment guides are available in English and Simplified Chinese. Other linked reference guides are currently in Simplified Chinese. ## Introduction video https://github.com/user-attachments/assets/81e57cc4-3441-4e5f-b2fb-cd929c6c27bd ## What you can use it for | Question | Available data | Actions it can inform | | --- | --- | --- | | Which AI platforms visit the site? | Crawler",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "自架 AI 爬蟲分析與 GEO 工具，屬開發者工具"
+  },
+  "scores": [
+   38,
+   46
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "blakeandersonw/ai-app-playbook",
+  "url": "https://github.com/blakeandersonw/ai-app-playbook",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 579,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-26T16:07:05Z",
+  "body": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.\n\nREADME 節錄：``` Clone https://github.com/blakeandersonw/ai-app-playbook and read AGENTS.md ``` Paste into Claude Code or OpenCode, in an empty folder. Please follow me and star this repo to stay up to date! # How to build useful, profitable apps in 2026 My background: I've scaled 5 apps to $100k+ MRR in the past 3 years. This is the stack I would start with today. We initially built EcoGPT (apply here) on this stack. Good apps help people get fit, focus, learn, or feel calmer, and people pay for them. This playbook goes from picking a problem to your first profitable month. ## Examples | Help people… | Like | |---|---| | 💪 Get fit and eat better | Cal AI, Ladder, Yuka | | 📵 Take back their time | Opal, Structured | | 📚 Learn | Duolingo, Speak, Photomath | | 🧘 Feel calmer | Hallow, Finch | | 🌱 Understand the world | PictureThis, Yuka | | 💼 Earn | SideShift | ## The path | Phase | What | Check | |---|---|---| | 0 · Niche | Pick a frequent problem AI solves in seconds. Test it with 10 videos and a waitlist | Score ≥ 25/35, real demand | | 1–12 · Build | Brief, repo, backend, auth, AI, web, iOS/Android, payments, analytics, onboarding, retention, launch | \"Done when\" per phase | | 13 · First 1,000 | Short-form video, creators on SideShift / Trybe, DMs to influencers and meme pages | Content live and tracked | | 14 · Grow | Weekly: one funnel experiment, one product fix | Weekly r",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 開發工作流、AGENTS.md、Claude Code、模型選用實質相關"
+  },
+  "scores": [
+   25,
+   48
+  ],
+  "score": 36,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "valentderah/totk-pc-recomp",
+  "url": "https://github.com/valentderah/totk-pc-recomp",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 573,
+  "language": "C",
+  "topics": [],
+  "publishedAt": "2026-10-29T12:32:46Z",
+  "body": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.\n\nREADME 節錄：# TotK Recomp **TotK Recomp** is a static recompilation of *The Legend of Zelda: Tears of the Kingdom* (Nintendo Switch, 2023) into a native Windows x86-64 application (docs/architecture.md). > [!IMPORTANT] > **No game files are included.** You need your own legally obtained copy of *Tears of the Kingdom*, dumped from your own console: the base game and the 1.2.1 or 1.4.3 update. Instructions for obtaining those files will not be provided. > > The game is built from your files on your machine, so the result contains the game. It is for your own use. Do not share it. ## Status Early development. The game is playable on Windows; visual bugs and crashes are still expected. Report problems as issues, following CONTRIBUTING.md. ## Features - Native code, not emulation - Game updates 1.2.1 and 1.4.3, with saves that carry over between them - 60 fps by default; up to 144 fps or the monitor's refresh rate (experimental) - Custom resolutions (1080p, 2k...), supersampling and AMD FSR 1 upscaling - In-game settings menu (F1) and performance overlay (F10) - Keyboard, mouse and gamepad with remapping, rumble and gyro - Shaders prepared at install instead of during play ## Planned - Linux and the Steam Deck - Mods made for emulators: unpack a mod into a `mods` folder - Custom aspect ratios, including ultrawide - VRR ## Installing Requiremen",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源遊戲重編譯專案，涉Vulkan與原生開發，非NSFW"
+  },
+  "scores": [
+   46,
+   52
+  ],
+  "score": 49,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "deepopen-com/deepopen-3d-webs",
+  "url": "https://github.com/deepopen-com/deepopen-3d-webs",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 559,
+  "language": "Python",
+  "topics": [
+   "3d",
+   "gaussian-filter",
+   "gaussian-splatting"
+  ],
+  "publishedAt": "2026-10-26T12:13:47Z",
+  "body": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统\n\nREADME 節錄：# DeepOpen-3d-webs 中文 中文说明 # Project Overview Guangyu Zaojing (光域造景) is an image-driven 3D scene generation system. You supply one reference image and a prompt, and the system generates scene results along a camera trajectory that you can preview, replay, and trace. The official 3D demo assets play color/depth animations and Gaussian point clouds directly in the browser. The web app ships as a Docker image and listens on port `8090` by default. ## 1. Background and Goals A single image rarely turns into spatial content you can look around in, move through, and hand off. The traditional pipeline splits depth estimation, image completion, 3D representation, and camera flythrough across separate tools, so creators can't carry a scene from start to finish in one interface. Guangyu Zaojing collapses that chain into a single studio: - Describe a scene with a reference image and a Chinese prompt - Use a generation trajectory to decide how the space is observed, and a render trajectory to decide how the final footage moves - Produce preview stills, color animations, and depth animations; bake Gaussians on the fly with full compute, or moun",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "圖像驅動3D場景生成，高斯潑溅與瀏覽器3D檢視，屬AI繪圖與前端開發"
+  },
+  "scores": [
+   55,
+   55
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "mirkobrombin/raven",
+  "url": "https://github.com/mirkobrombin/raven",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 547,
+  "language": "C++",
+  "topics": [],
+  "publishedAt": "2026-10-24T17:13:42Z",
+  "body": "A Windows your apps recognize.\n\nREADME 節錄： A Windows your apps recognize. Website and documentation Raven runs Windows applications on Linux. You install them with their own installers, the same ones you would use on a PC, and they start: no virtual machine, no winetricks, no DLL overrides. The program's code runs directly on your CPU, inside a sandbox where it cannot reach Linux. Every call it makes to the system is answered by Raven, which plays the part of the Windows kernel and its services: processes and threads, files, the registry, windows and input. Graphics go to Wayland and Vulkan, with DXVK and vkd3d-proton for Direct3D. ## Requirements - Linux on x86_64 - CMake 3.20 or newer, a C++20 compiler and Python 3.11 or newer - MinGW-w64 for x86_64 and i686, to build the Windows test programs - For desktop applications: Wayland, xkbcommon, pixman, FreeType and Vulkan - Optionally, for the experimental X11 desktop: libxcb with its xkb, xfixes and xinput extensions, and xkbcommon-x11 The tested setup also uses libpng 1.6.59, a CPU build of Skia with the Liberation fonts, DXVK and vkd3d-proton; the `scripts/provision-*.py` tools download the pinned versions. ## Installation Raven is built from source for now: ```sh git clone https://github.com/mirkobrombin/raven.git cd raven cmake -S . -B build -DCMAKE_BUILD_TYPE=RelWithDebInfo cmake --build build -j2 ``` Then run an installer, or any program: ```sh export RAVEN_PREFIX=\"$HOME/.local/share/raven/my-app\" build/native/raven --ru",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "OpenBMB/MiniCPM-OCR",
+  "url": "https://github.com/OpenBMB/MiniCPM-OCR",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 540,
+  "language": "TypeScript",
+  "topics": [
+   "image2text",
+   "minicpm-v",
+   "ocr"
+  ],
+  "publishedAt": "2026-10-27T13:22:00Z",
+  "body": "Fast, accurate OCR with correctness assessment.\n\nREADME 節錄： MiniCPM-OCR 1.0 Guide &ensp; &ensp; &emsp; MiniCPM-OCR Jev Guide &ensp; &ensp; Official Demo ( CN / Global ) &nbsp;·&nbsp; Basic Demo ( CN / Global ) Get Started &nbsp;·&nbsp; Weights &nbsp;·&nbsp; Free API &nbsp;·&nbsp; Skill &nbsp;·&nbsp; Local Deployment &nbsp;|&nbsp; 中文 Join the Community via Feishu / Lark &nbsp;·&nbsp; Discord **MiniCPM-OCR** is a family of models for efficient document parsing and text recognition. **MiniCPM-OCR 1.0** parses Chinese and English documents and PDFs, balancing quality and efficiency across challenging inputs such as scans, photographs, curved pages, and recaptured documents. **MiniCPM-OCR Jev** evaluates OCR results at the region level, distinguishing problematic regions from reliable ones. It works with different parsing models to help users locate content that needs review. ## MiniCPM-OCR 1.0 **MiniCPM-OCR 1.0** (1.3B) is the first OCR-specific model in the MiniCPM-V/o family. It focuses on text-centric document understanding, covering text, tables, formulas, charts, seals, and structured information extraction. Its key features include: - 🏆 **SOTA document parsing**: MiniCPM-OCR 1.0 achieves a **SOTA score of 93.68 on Real5-OmniDocBench**, a benchmark for real-world document parsing, and demonstrates leading parsing capabilities on OmniDocBench v1.6, Wild-OmniDocBench, and olmOCR-Bench. It supports Chinese and English documents and PDFs, handling both standard documents and ch",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenBMB OCR 開源模型，與 AI 模型及開發工具有關"
+  },
+  "scores": [
+   56,
+   55
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ }
+]

@@ -1,6 +1,6 @@
 {
- "date": "2026-10-29",
- "generatedAt": "2026-10-29T02:37:27.873Z",
+ "date": "2026-10-30",
+ "generatedAt": "2026-10-30T02:48:04.757Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,72 +11,40 @@
  },
  "items": [
   {
-   "title": "Gemini 4 Carbon 發表",
-   "summary": "Google DeepMind 在 2026-10-28 發表下一代前沿模型 Gemini 4 Carbon。目前材料只有標題，沒有規格或功能細節。",
-   "why": "細節還沒公開，先關注，等官方公布規格再評估能否用在 bot 或遊戲。",
-   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-   "comments": null,
-   "source": "Google DeepMind",
-   "alsoFrom": [
-    "Hacker News"
-   ],
+   "title": "Mistral公開Large 4權重",
+   "summary": "Mistral 宣布釋出 Mistral Large 4 的模型權重。這則消息在 Hacker News 拿到 1223 分、342 則留言。",
+   "why": "權重公開後，可留意能否自架並接進 Discord 機器人；授權與規格要看原文。",
+   "url": "https://mistral.ai/news/mistral-large-4-oss",
+   "comments": "https://news.ycombinator.com/item?id=50289418",
+   "source": "Hacker News",
+   "alsoFrom": [],
    "stars": null,
    "score": 72,
    "scores": [
-    76,
-    68
+    70,
+    75
    ],
-   "originalTitle": "Gemini 4 Carbon: Our next frontier model",
-   "related": [
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon"
-   ]
-  },
-  {
-   "title": "免費 Claude skill 讓 AI 做出電影感網頁",
-   "summary": "Motionsites-AI/claude-skill 是免費的 Claude skill，內含 40 個範例提示、50+ 支影片素材與 55+ 技術配方，Claude 會截圖檢查自己做的頁面並修正。",
-   "why": "想做遊戲或作品的landing page時，可用它讓 Claude 產出不像一般 AI 風格的版面。",
-   "url": "https://github.com/Motionsites-AI/claude-skill",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 909,
-   "score": 69,
-   "scores": [
-    74,
-    null
-   ],
-   "originalTitle": "Motionsites-AI/claude-skill",
+   "originalTitle": "We're releasing the weights of Mistral Large 4",
    "related": []
   },
   {
-   "title": "DSH 外掛合集：動畫與費用追蹤",
-   "summary": "收錄兩個 DSH 外掛：能做動畫並輸出 MP4 的 dsh-motion-ui-en，與追蹤 API 費用的 dsh-cost-usage。",
-   "why": "想在 DSH 做動畫短片，或查每次 session 花多少 API 費用，可以直接裝來用。",
-   "url": "https://github.com/KardDev/dsh-plugins",
+   "title": "小辦公室即時顯示 agent 動態",
+   "summary": "輸入 /myoffice，瀏覽器會開出等角小辦公室，即時顯示 Claude Code、Codex 等 agent 在思考、跑工具或等你。需 Node.js 18+。",
+   "why": "同時開多個 AI 幫你寫程式時，一眼看出哪個在忙、哪個在等你。",
+   "url": "https://github.com/Charonyuu/whatsmyagentdoing",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 558,
-   "score": 67,
+   "stars": 287,
+   "score": 70,
    "scores": [
-    62,
-    72
+    71,
+    70
    ],
-   "originalTitle": "KardDev/dsh-plugins",
+   "originalTitle": "Charonyuu/whatsmyagentdoing",
    "related": []
   }
  ],
  "nearMiss": [
-  {
-   "title": "kingcharleslzy-ai/dsh-purge",
-   "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
-   "score": 65,
-   "source": "GitHub DSH 生態"
-  },
-  {
-   "title": "The October inflection point for vibe game development",
-   "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development",
-   "score": 65,
-   "source": "Simon Willison"
-  },
   {
    "title": "t3dotgg/tstack",
    "url": "https://github.com/t3dotgg/tstack",
@@ -90,9 +58,21 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "enesozturk/dimensional-drawing",
-   "url": "https://github.com/enesozturk/dimensional-drawing",
-   "score": 63,
+   "title": "unclebob/ub-mode",
+   "url": "https://github.com/unclebob/ub-mode",
+   "score": 62,
+   "source": "GitHub 新專案"
+  },
+  {
+   "title": "Ebony-Vinyl/EAC-design-world",
+   "url": "https://github.com/Ebony-Vinyl/EAC-design-world",
+   "score": 61,
+   "source": "GitHub DSH 生態"
+  },
+  {
+   "title": "smithjohn78390/tongjiang-lab",
+   "url": "https://github.com/smithjohn78390/tongjiang-lab",
+   "score": 61,
    "source": "GitHub 新專案"
   }
  ],
@@ -119,7 +99,7 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 8,
+    "count": 11,
     "error": null
    },
    {
@@ -131,7 +111,7 @@
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 1,
+    "count": 4,
     "error": null
    },
    {
@@ -143,13 +123,13 @@
    {
     "id": "deepmind",
     "name": "Google DeepMind",
-    "count": 1,
+    "count": 0,
     "error": null
    },
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 10,
+    "count": 1,
     "error": null
    },
    {
@@ -159,19 +139,18 @@
     "error": null
    }
   ],
-  "candidates": 60,
-  "prefilterPass": 56,
-  "scored": 56,
-  "picked": 3,
+  "candidates": 59,
+  "prefilterPass": 43,
+  "scored": 43,
+  "picked": 2,
   "llm": {
-   "calls": 105,
-   "failures": 12,
+   "calls": 96,
+   "failures": 28,
    "byRoute": {
-    "owob:deepseek-free": 81,
-    "owob:deepseek-v4.1-flash": 8,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 4
+    "owob:deepseek-free": 65,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 3
    },
-   "tokens": 119028
+   "tokens": 97321
   }
  }
 }
