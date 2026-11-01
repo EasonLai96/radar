@@ -1,18 +1,4 @@
 {
- "https://github.com/onehumanbeing/esp32-iphone-agent": "2026-10-17T15:05:13.209Z",
- "https://github.com/Microqian2th/dsh-codex-effort-slider": "2026-10-17T15:05:13.209Z",
- "https://github.com/mu-zi-lee/magpie-our-free-model": "2026-10-17T15:05:13.209Z",
- "https://github.com/Caho1/open-claude-ui": "2026-10-17T15:05:13.209Z",
- "https://github.com/Fei2411/DeepSeek-Bot": "2026-10-18T01:19:12.960Z",
- "https://github.com/xcisxc29/dsh-wechat": "2026-10-18T01:19:12.960Z",
- "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": "2026-10-18T01:19:12.960Z",
- "https://github.com/T-Auto/dsh-ops": "2026-10-18T01:19:12.960Z",
- "https://github.com/yi-yezhiqiu/dsh-prompt-market": "2026-10-18T01:19:12.960Z",
- "https://github.com/cranebeaker/coop-anything": "2026-10-18T01:19:12.960Z",
- "https://github.com/christos-antono/NPCTalk": "2026-10-18T01:19:12.960Z",
- "https://github.com/Leonxlnx/earshot": "2026-10-18T01:19:12.960Z",
- "https://github.com/NB-Corp/gpt-with-taste": "2026-10-18T01:19:12.960Z",
- "https://github.com/c1overzz/dsh-bili-scroll": "2026-10-18T01:19:12.960Z",
  "https://github.com/Noniv/web-ocean": "2026-10-19T01:29:38.860Z",
  "https://api-docs.deepseek.com/guides/search": "2026-10-19T01:29:38.860Z",
  "https://github.com/OpenMOSS/MOSS-Image": "2026-10-19T01:29:38.860Z",
@@ -36,5 +22,10 @@
  "https://github.com/Motionsites-AI/claude-skill": "2026-10-29T02:37:31.496Z",
  "https://github.com/KardDev/dsh-plugins": "2026-10-29T02:37:31.496Z",
  "https://mistral.ai/news/mistral-large-4-oss": "2026-10-30T02:48:08.057Z",
- "https://github.com/Charonyuu/whatsmyagentdoing": "2026-10-30T02:48:08.057Z"
+ "https://github.com/Charonyuu/whatsmyagentdoing": "2026-10-30T02:48:08.057Z",
+ "https://github.com/ccch1mneyyy/dsh-Go": "2026-11-01T02:27:14.882Z",
+ "https://github.com/heydamir/unslop": "2026-11-01T02:27:14.882Z",
+ "https://github.com/kukemc/bili-cli": "2026-11-01T02:27:14.882Z",
+ "https://github.com/patch-gg/pixelfx": "2026-11-01T02:27:14.882Z",
+ "https://github.com/SAOS-3624/dsh-video-storyboard": "2026-11-01T02:27:14.882Z"
 }

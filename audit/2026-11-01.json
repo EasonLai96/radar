@@ -1,0 +1,1288 @@
+[
+ {
+  "title": "heydamir/unslop",
+  "url": "https://github.com/heydamir/unslop",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 3579,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-10-29T15:41:21Z",
+  "body": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface\n\nREADME 節錄：# unslop Created by Damir Sokolovsky (@heydamir), who started the Unslopping series on X. unslop is a skill for Claude Code and Codex that turns vibecoded, AI-looking UI into a designed interface with its own character. It finds the slop first, the purple gradients, glows, emoji labels, shouty copy and uneven spacing, then sets a direction from your product and fixes the screen pass by pass like a designer doing a redline review. It works in whatever your screen is built with, like Next.js, React, Vue, Svelte, Tailwind or plain HTML and CSS, on dashboards, apps and landing pages, and even on a live site when all you have is a link. ## Install For Claude Code, copy the skill into your skills folder. ```bash git clone https://github.com/heydamir/unslop mkdir -p ~/.claude/skills && cp -r unslop/skills/unslop ~/.claude/skills/ ``` For a single project, copy it into `.claude/skills/` inside that project instead. For Codex, ask it to install the skill straight from this repo. ``` $skill-installer install https://github.com/heydamir/unslop/tree/main/skills/unslop ``` Or copy it by hand into `~/.agents/skills/`, or into `.agents/skills/` inside a single project. ```bash git clone https://github.com/heydamir/unslop mkdir -p ~/.agents/skills && cp -r unslop/skills/unslop ~/.agents/skills/ ``` To snapshot a live site or create a story video, install Playwright and its Chromium browser from the projec",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Claude Code/Codex 的 UI 設計技能，屬 coding agent 工具"
+  },
+  "scores": [
+   77,
+   78
+  ],
+  "score": 77,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ccch1mneyyy/dsh-Go",
+  "url": "https://github.com/ccch1mneyyy/dsh-Go",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 3667,
+  "language": "Dart",
+  "topics": [
+   "ai-agent",
+   "android",
+   "android-app",
+   "coding-agent",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "dsh-tui",
+   "flutter",
+   "llm"
+  ],
+  "publishedAt": "2026-10-25T08:09:52Z",
+  "body": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。\n\nREADME 節錄： 简体中文 · English DeepSeek Harness 的 Android 客户端。手机上直接跑，也能遥控你电脑上的 DSH。 Deepy 和鲸娘，陪你干活 干活时敲代码，做完来个空翻，等你确认会举手。打开「App 外显示」，它们还会跟你到桌面。 下载 DSH Go 从 GitHub Releases 或官网下载页获取最新版 APK，常见手机选 arm64 包。 &emsp; 感谢大家对 DSH Go 的支持和喜爱，我将尽快适配 iOS 和鸿蒙！大家 Star 点得越多，我适配得越快哦 hhh 第一次用可以先看 使用指南 ，遇到问题欢迎来 论坛和 QQ 群 。 手机上装过签名不同的早期测试包时不能直接覆盖安装，需要先卸载旧版；卸载会清空对话、Linux 环境和设置。 本机运行，也能遥控电脑 内置 Linux 环境，免 Root、免 Termux。电脑上的 DSH，也能一键切过去接着用。 插话、打断，过程自动收好 回复中途也能插话，排队的消息随时「立即发送」。做完的过程折叠成一行。 原生界面，也有网页版 和官方网页版一键切换，停在同一段对话，下次打开还是你上次用的那个。 分享卡、对话回放和链接 回复一键做成分享卡。整段对话生成链接，对方在浏览器里回放，链接端到端加密。 横屏与平板 横屏手机和平板重新排版：侧栏常驻，内容居中，弹出键盘也不挤。 主题配色与桌面图标 六套主题色，也能跟随壁纸或自选颜色。四款桌面图标，三种功能图标风格。 中文，也说 English 全部界面支持英文，在设置里切换，默认跟随系统。 手机操控 看屏幕、帮你点，三档确认随你选。付款、密码和验证码，永远交还给你。 ## 可以做什么 DSH Go 提供聊天界面、本机运行环境和远程连接，是基于 DeepSeek Harness 的第三方项目。运行在手机上的是 DSH 引擎；模型请求仍由你配置的模型提供方处理。 - **本机运行**：在 App 内安装 Ubuntu、Node.js 与 DSH 运行环境，无需 Root 或另装 Termux。 - **远程连接**：通过 SSH 或 DSH Remote 使用电脑、服务器上的 DSH。 - **聊天与工具**：切换模型，发送图片、使用语音输入，处理工具审批和提问；支持聊天界面与网页模式。 - **插件界面**：使用适配 DSH Go 的原生工具卡、表单和面板；仓库提供 SDK、教程和示例。 - **手机操控**：在你开启权限后，让本机引擎读取屏幕、点按和输入，并可随时停止。 - **分享与外观**：分享、导出和回放对话，调整主题、图标和桌宠。 功能随主机和连接方式不同。DSH Remote 当前只支持图片附件，不能在 App 内打开网页版，插件管理限于开关，且不支持 DS Bot 和对话日志导出。详见本机引擎与远程主机。 ## 安装 安装要求为 Android 8.0（API 26）及以上。Release 页面上的 **arm64** 安装包适用于常见的 64 位 Android 手机；x86_64 设备和模拟器用的 x64 包在发布说明末尾的「其他版本下载」里。仓库没有 32 位 ARM 构建。 1. 从 GitHub Releases 或官网下载页下载对应架构的 APK，并按系统提示允许该安装来源。 2. 首次启动时，选择在本机安装运行环境，或连接远程主机。 3. 为所选主机配置模型和所需凭据，再开始对话；部",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 的 Android 客戶端，屬 coding agent 開發工具"
+  },
+  "scores": [
+   78,
+   87
+  ],
+  "score": 82,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "davemessew/AgentFlux",
+  "url": "https://github.com/davemessew/AgentFlux",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 236,
+  "language": "TypeScript",
+  "topics": [
+   "ai-agents",
+   "docker",
+   "ollama",
+   "self-hosted",
+   "workflows"
+  ],
+  "publishedAt": "2026-10-27T14:43:07Z",
+  "body": "Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server.\n\nREADME 節錄： # AgentFlux ### Your data. Your models. Your workflows. **Agentic AI platform** for visual workflows and autonomous agents. Import files, automate tasks and keep results local. **Download the Docker release** · Website · Documentation · Report an issue ## What you can do AgentFlux connects documents, data sources and language models in a visual workflow. Build each step yourself or let an agent create a workflow from a task description. The application runs on your computer or server, with a browser interface. | | In AgentFlux | | :--- | :--- | | **Visual workflows** | 17 preconfigured steps, eight templates, branching, undo/redo and JSON import/export. | | **AI agents** | Set up recurring tasks, reuse a saved plan and answer missing details in text. | | **Video to workflow** | Combine screen changes and spoken explanations, then create and run a workflow automatically. | | **Knowledge and learnings** | Store documents locally, review observations from runs and reuse instructions as skills. | | **Your own models** | Connect Ollama, LM Studio, vLLM and OpenAI-compatible endpoints. | | **Files and connections** | Import documents and spreadsheets with named columns; connect folders, HTTP endpoints and approved programs. | | **Traceable runs** | Process changed inputs and deliver JSON, CSV and Markdown reports to a local folder. | ### Create a workflow f",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Agentic AI 平台，視覺化工作流與本地模型，屬開發工具"
+  },
+  "scores": [
+   49,
+   49
+  ],
+  "score": 49,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+  "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T22:41:06.000Z",
+  "body": "Article URL: https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/ Comments URL: https://news.ycombinator.com/item?id=50320963 Points: 159 # Comments: 47",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "一般科學奇聞，與AI或開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "How We Took Over ChatGPT Accounts",
+  "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T23:15:22.000Z",
+  "body": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard , which can be triggered in the parent page via postMessage() from the sandboxed iframe. That message receiving code uses innerHTML , so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method. This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions. OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it. Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "ChatGPT沙箱漏洞，涉AI与前端安全"
+  },
+  "scores": [
+   null,
+   60
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+  "url": "https://latent.space/p/arca",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T16:05:00.000Z",
+  "body": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max → HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm｜wtf:NullPtr Think Flash "
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "deepseek-ai/dsh-superagent-prototype",
+  "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2868,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-31T09:32:46Z",
+  "body": "Towards a More Autonomous Agent System\n\nREADME 節錄：# dsh-superagent > **Research prototype for reference only, not an official DeepSeek product.** This code grew out of our team's day-to-day development work, with much of the engineering done by coding agents. Treat it as research code, not production-ready software. It may still contain bugs, and its coding style and engineering practices may be inconsistent. Review and adapt it before using it in your own environment. > > We have adapted it for publication, so it is not identical to our internal version or the implementation described in *Exploring Super-agent Design: Towards a More Autonomous Agent System*. Some designs discussed in the article are directions for future development and are not implemented in this prototype. dsh-superagent is a proactive coding agent for one GitHub repository, packaged as a bundle for DeepSeek Harness. It listens to GitHub and, optionally, Feishu. When someone allowed asks the agent for work, it opens a work item, works on it in its own agent session and directory, and answers in the original conversation, for example with a pull request. A web panel shows what needs a person. It is also a way of working with an agent: **take as little human attention as possible, and give as much value as possible.** An agent that can act for a whole team can also waste a whole team's attention, so it acts only when asked or when a rule the team wrote allows it, and speaks only when someone must act or can ",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max → HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm｜wtf:NullPtr Think Flash "
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "jackwener/DSH-Android",
+  "url": "https://github.com/jackwener/DSH-Android",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 634,
+  "language": "Kotlin",
+  "topics": [
+   "ai-agent",
+   "android",
+   "deepseek",
+   "deepseek-harness",
+   "llm",
+   "phone-agent",
+   "shizuku"
+  ],
+  "publishedAt": "2026-10-27T19:26:12Z",
+  "body": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku\n\nREADME 節錄： 不要 root，不用电脑，直接跑在你的安卓手机上。真正的手机 Agent，替你把手机上的事干完。 在安卓手机上运行 DeepSeek Harness（dsh）：让它操作 App、整理文件、修改系统设置，或者自动执行任务。 **下载 APK** • **快速开始** • **架构** • **从源码构建** --- ## 亮点 - **手机上的 App 都能操作**：用微信发消息、总结群聊，抓取小红书上的内容，在 BOSS 直聘上直接投递、打招呼，去淘宝帮你下单，等等。 - **它操作，你照常用手机**：授权后 Agent 能读屏、点按、输入，过程中你可以随时暂停、停止或插话。Android 14 及以上支持“不打扰模式”：配好 Shizuku 或自连 ADB 后，Agent 在虚拟屏幕上操作，不占用你的屏幕。 - **在任何 App 里随时呼起**：用悬浮球直接对话、派活，也可以把当前这一屏发给它，问“这条怎么回”“帮我记下来”。 - **手机里自带 Linux 环境**：Agent 可以跑 Python、处理你发来的文件、运行它自己写的脚本。 - **出门也能用电脑上的 Agent**：通过 SSH 或 DSH Remote 连接电脑或服务器上的 DSH。只用远程模式的话，手机不用安装本地运行环境。 ## 界面一览 ## 快速开始 1. 从 Releases 下载 APK 并安装（arm64，Android 10 及以上）。 2. 登录 DeepSeek 账号，或者填入 API key；也可以在 设置 → 模型服务 里添加其他服务商。 3. 直接说要做什么，比如“列出下载目录里最大的 5 个文件”。用到某项权限时，App 会再引导你开启。 4. 可选：在 设置 → 手机权限 里一键安装 Shizuku，并在 Shizuku 里打开“开机启动（无线调试）”。 ## 能做什么 - **文件**：查找、整理、移动、重命名、压缩解压；能读 PDF / Word / Excel / PPT 里的文字。 - **屏幕和 App**：读屏、点击、滑动、输入（基于无障碍服务）；打开 App 或直接跳到指定页面。 - **系统设置**：亮度、音量、勿扰、闹钟、Wi‑Fi、蓝牙、定位；读取和回复通知，控制媒体播放。 - **自动化**：定时执行，或在连上 Wi‑Fi/蓝牙、开始充电、到达某地、收到通知等条件下触发。 - **其他模型服务**：除 DeepSeek 外，可添加 OpenAI、Claude、Gemini、Grok、OpenRouter、Kimi、智谱 GLM、通义千问、火山方舟、MiniMax、硅基流动、阶跃星辰，或任意 OpenAI 兼容接口；填 key、拉取模型列表即可在模型选择器里切换。 - **完整的 dsh**：dsh 原样运行（没有 fork），技能、MCP、子 agent、网页搜索都能用。 - **不需要 root 或 Termux**：装一个 APK 就能用；Shizuku 可选，能解锁更多系统开关。 ## 架构 ```mermaid flowchart LR subgraph main[\":main 进程（Kotlin · Compose）\"] UI[\"对话 · 轨迹 · 审批 唤起层 · 设置\"] CAP[",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "nanami-0713/relay-kit",
+  "url": "https://github.com/nanami-0713/relay-kit",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 126,
+  "language": "TypeScript",
+  "topics": [
+   "cloudflare-workers",
+   "durable-objects",
+   "e2e-encryption",
+   "pake",
+   "relay",
+   "tunnel",
+   "websocket"
+  ],
+  "publishedAt": "2026-10-30T05:14:10Z",
+  "body": "Out-of-the-box E2E relay server (relay-e2e/v1) for Cloudflare Workers — one-command deploy. Reference agent & client included. Distilled from Alma with permission.\n\nREADME 節錄：# relay-kit English | 中文 **A self-hostable, end-to-end encrypted relay server — deploy it to your own Cloudflare account in one command.** The relay is deliberately *boring*: it sits between a phone (anywhere on the internet) and a service on your desktop and only ever sees ciphertext bytes and a routing token; decryption happens exclusively at the two ends. ``` phone (remote) ──ciphertext──▶ relay (CF Workers, blind) ◀──ciphertext── agent (desktop) ──plaintext──▶ 127.0.0.1: ``` **What this repo ships** — the relay server is the product; everything else exists so the server is testable and immediately usable: - `workers/relay` — the **relay server** (Cloudflare Workers + Durable Objects). Deploy and go. - `packages/agent` + `packages/client` — **reference implementations** of the two ends. You can use them as-is (the agent already proxies any local HTTP/WS port) or write your own against `PROTOCOL.md`. - `test/fixtures/relay-server.mjs` — a protocol-identical Node relay, as a test fixture and a single-process self-hosting alternative. The `relay-e2e/v1` protocol implemented here was distilled by reverse-engineering the relay server of **Alma** (v0.4.213 — an AI assistant app by yetone), with its author's permission. The project itself is service-agnostic: attach it to any local HTTP/WS port. Note that th",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "HackerTube: YouTube built from videos recommended by HN",
+  "url": "https://karpathy.bearblog.dev/hacker-tube",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T19:56:53.000Z",
+  "body": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/ Comments URL: https://news.ycombinator.com/item?id=50319510 Points: 740 # Comments: 244",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette-llm 0.1a9",
+  "url": "https://simonwillison.net/2026/Oct/31/datasette-llm",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T22:10:01.000Z",
+  "body": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra . Tags: datasette , llm , datasette-agent",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+  "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T05:00:48.000Z",
+  "body": "It turns out you cannot have your cake AND eat it",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "wangzan101/Mika",
+  "url": "https://github.com/wangzan101/Mika",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2809,
+  "language": "Kotlin",
+  "topics": [
+   "accessibility",
+   "ai-agent",
+   "android",
+   "automation",
+   "jetpack-compose",
+   "kotlin",
+   "llm",
+   "mobile-agent"
+  ],
+  "publishedAt": "2026-10-29T14:34:07Z",
+  "body": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.\n\nREADME 節錄： # Mika **An AI assistant on your phone: say what you need, and it works your apps and the web until it's done.** It works on a hidden background screen, so you can keep using your phone. English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español \"Send a message to File Transfer\": Mika's chat on the left, each step on its background screen on the right (4× speed; chat list blurred) ## Get things done with one sentence \"What did the group talk about today?\" Scrolls through the chat in the background, then sums it up \"A charger under $30, rated 4.5 stars or more\" Adds the pick to the cart and stops before checkout \"What has this creator posted lately?\" Opens the app, reads post by post, then sums it up More demos Greets recruiters for 3 jobs on a job site Finds the cheapest nonstop from San Francisco to New York Reads out the top 5 stories on a news site Finds jobs and greets recruiters Watches ads to unlock music perks Orders takeout with stacked discounts, asks before paying Several demos use apps popular in China: WeChat is the main messaging app there, and Xiaohongshu (RED) is a lifestyle and social platform. Mika isn't tied to them; it works with any app or website on your phone. ## Why Mika | | | |---|---| | 📱 **Leaves your screen alone** | Opens apps, taps, types and scrolls on a separate background screen while you use your phone as usual; tap ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Android 端側 AI agent 專案，與 Agent 開發直接相關"
+  },
+  "scores": [
+   48,
+   53
+  ],
+  "score": 50,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "blakeandersonw/ai-app-playbook",
+  "url": "https://github.com/blakeandersonw/ai-app-playbook",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 597,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-26T16:07:05Z",
+  "body": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.\n\nREADME 節錄：``` Clone https://github.com/blakeandersonw/ai-app-playbook and read AGENTS.md ``` Paste into Claude Code or OpenCode, in an empty folder. Please follow me and star this repo to stay up to date! # How to build useful, profitable apps in 2026 My background: I've scaled 5 apps to $100k+ MRR in the past 3 years. This is the stack I would start with today. We initially built EcoGPT (apply here) on this stack. Good apps help people get fit, focus, learn, or feel calmer, and people pay for them. This playbook goes from picking a problem to your first profitable month. ## Examples | Help people… | Like | |---|---| | 💪 Get fit and eat better | Cal AI, Ladder, Yuka | | 📵 Take back their time | Opal, Structured | | 📚 Learn | Duolingo, Speak, Photomath | | 🧘 Feel calmer | Hallow, Finch | | 🌱 Understand the world | PictureThis, Yuka | | 💼 Earn | SideShift | ## The path | Phase | What | Check | |---|---|---| | 0 · Niche | Pick a frequent problem AI solves in seconds. Test it with 10 videos and a waitlist | Score ≥ 25/35, real demand | | 1–12 · Build | Brief, repo, backend, auth, AI, web, iOS/Android, payments, analytics, onboarding, retention, launch | \"Done when\" per phase | | 13 · First 1,000 | Short-form video, creators on SideShift / Trybe, DMs to influencers and meme pages | Content live and tracked | | 14 · Grow | Weekly: one funnel experiment, one product fix | Weekly r",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 開發工作流、AGENTS.md、Claude Code、模型選用實質相關"
+  },
+  "scores": [
+   25,
+   48
+  ],
+  "score": 36,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "chutingyean/Agent-Cockpit",
+  "url": "https://github.com/chutingyean/Agent-Cockpit",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 122,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-10-26T18:44:46Z",
+  "body": "Evidence-chain whiteboard + MCP server for AI research agents: every claim traces back to the run and code that produced it. 讓 AI agent 做研究時，每個結論都能追到產生它的程式碼。Claude Code · Codex · Cursor · Gemini CLI\n\nREADME 節錄： = 22.13\"> English · 繁體中文 **Agent Cockpit** is a local whiteboard plus an MCP server for AI agents that do research. Any agent that speaks MCP (Claude Code, Codex, Cursor, Gemini CLI, …) draws its work onto the same board: the plan, the tasks, every experiment run, every claim, and the code each run depended on. A deterministic engine keeps checking the whole evidence chain. When any link changes, the cards that depend on it turn red. You can tell which results still hold, and why, without reading the code. Replay of a real session: Claude Code and Codex complete a small study from an empty repo. An unreported edit breaks one claim, and the cockpit raises a decision and writes a brief. A human picks \"restore\", and an agent carries it out. ## Why After a few days of research with AI agents, the same things keep going wrong: - **Claims lose their footing silently.** An agent edits the grader, the data pipeline or a statistics helper, and results that were \"verified\" no longer hold. Nobody notices. - **Changes go unreported.** Files change and no agent says so, or an agent says it changed something it didn't. - **Decisions pile up, assumptions harden, loops spin.** Questions meant for a human wait unanswered, untested premises become foundations, and an agent keeps tweakin",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "MCP研究代理開發工具，與Agent相關"
+  },
+  "scores": [
+   52,
+   55
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Anthropic blocks users for anything touching training larger models",
+  "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T19:39:19.000Z",
+  "body": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 203 # Comments: 117",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "涉及AI模型訓練政策與可用性"
+  },
+  "scores": [
+   57,
+   39
+  ],
+  "score": 48,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "dbreunig/nesformer",
+  "url": "https://simonwillison.net/2026/Oct/30/nesformer",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-30T21:59:22.000Z",
+  "body": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. Followed by: I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM. Apparently Opus found and then used this collection of conformance tests for the NES CPU released 15 years ago by Christopher Pow. Via Hacker News Tags: games , ai , generative-ai , llms , drew-breunig , qwen , conformance-suites",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "LLM 權重內嵌 NES 模擬器，屬 AI 模型與開發技術"
+  },
+  "scores": [
+   57,
+   64
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "valentderah/totk-pc-recomp",
+  "url": "https://github.com/valentderah/totk-pc-recomp",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2657,
+  "language": "C",
+  "topics": [],
+  "publishedAt": "2026-10-29T12:32:46Z",
+  "body": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.\n\nREADME 節錄：# TotK Recomp **TotK Recomp** is a static recompilation of *The Legend of Zelda: Tears of the Kingdom* (Nintendo Switch, 2023) into a native Windows x86-64 application (docs/architecture.md). > [!IMPORTANT] > **No game files are included.** You need your own legally obtained copy of *Tears of the Kingdom*, dumped from your own console: the base game and the 1.2.1 or 1.4.3 update. Instructions for obtaining those files will not be provided. > > The game is built from your files on your machine, so the result contains the game. It is for your own use. Do not share it. ## Status Early development. The game is playable on Windows; visual bugs and crashes are still expected. Report problems as issues, following CONTRIBUTING.md. ## Features - Native code, not emulation - Game updates 1.2.1 and 1.4.3, with saves that carry over between them - 60 fps by default; up to 144 fps or the monitor's refresh rate (experimental) - Custom resolutions (1080p, 2k...), supersampling and AMD FSR 1 upscaling - 16:10 (Steam Deck, handhelds), 21:9 and 32:9 (ultrawide) game resolutions, with the camera and the interface in that shape - In-game settings menu (F1) and performance overlay (F10) - Keyboard, mouse and gamepad with remapping, rumble and gyro - Xbox button prompts: a layout that keeps the Switch button positions and shows the Xbox labels - Sh",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源遊戲重編譯專案，涉Vulkan與原生開發，非NSFW"
+  },
+  "scores": [
+   46,
+   52
+  ],
+  "score": 49,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Alejandros17487/ai-jailbreaks",
+  "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 533,
+  "language": null,
+  "topics": [
+   "ai",
+   "ai-safety",
+   "jailbreak",
+   "jailbreaking",
+   "privacy",
+   "safety",
+   "security"
+  ],
+  "publishedAt": "2026-10-21T14:44:06Z",
+  "body": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.\n\nREADME 節錄： # AI Jailbreaks **AI jailbreaks — a curated collection of system prompts, persona locks, workspace policies, and agent operating specs for frontier, open-weight, and free stealth models. Every AI jailbreak here is a complete, paste-ready prompt.** --- **Jailbreaks not working? Try 7API** — the cheapest API for frontier models at up to 99% off, including Uncensored and Abliterated models that never refuse. --- ## About This repo holds **35 paste-ready prompts for 25+ models**: full system prompts, persona definitions, workspace policies, `AGENTS.md` files, config blocks, and Ollama Modelfiles. Every file is complete — no summaries, no excerpts. What's inside: - Free stealth models on OpenCode Zen - Open-weight families: GLM, DeepSeek, Kimi, Qwen, Gemma, GPT-OSS - Closed frontier models: Claude, Gemini, Grok, Mistral - Coding-agent and workspace instruction formats - Ollama Modelfiles and harness-specific configuration New here? Skim the collection or jump to how to use. > [!WARNING] > **Research and educational use only.** > > This repo documents how persona framing, instruction hierarchies, prompt conflicts, and policy overrides shape model behavior — the same findings that help developers harden AI against prompt injection. > > Don't use this material to harm other",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "越獄提示詞蒐集、繞過安全審查且夾帶推廣廣告"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+  "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T19:16:30.000Z",
+  "body": "Article URL: https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf Comments URL: https://news.ycombinator.com/item?id=50319143 Points: 353 # Comments: 168",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "一般資安漏洞新聞,與AI/Agent/開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "paipiange/nvzhuang",
+  "url": "https://github.com/paipiange/nvzhuang",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1735,
+  "language": "Go",
+  "topics": [],
+  "publishedAt": "2026-10-29T06:08:00Z",
+  "body": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang\n\nREADME 節錄：# 拍片哥女装 · AI 服装参考图集 (COSTUME-DB-01) 一个深色主题的纯净服装参考图集网站，收录 **1407 张** 人物不入镜的 AI 生成服装图像（2:3 比例），支持中英文双语浏览、多维检索，并配备可选的 AI 一键换装试穿。 > 👗 **【Linux.do 3级常任理事专属彩蛋】** > 听说在 LINUX DO 社区只要升到 **3 级（常任理事）** 就可以解锁“看女装大佬”的保留节目？身为一名尊贵的 Linux.do 3 级老兵，逛了一圈发现坛里的女装资源还不够看，干脆亲手搓了这个 **「拍片哥女装」** 项目！ > 不仅收录了 1407 套纯净高质量服装图，还顺手接了 AI 虚拟换装后端——这下各位佬友哪怕现实中没有小裙子，直接传张自拍照就能一键无痛变身“女装大佬”出道了 😂！ > 🔗 **在线预览**：https://paipiange.github.io/nvzhuang/ > ⭐ **GitHub 源码**：https://github.com/paipiange/nvzhuang > 💃 **兄弟项目（AI 姿势参考与生图工坊）**：https://github.com/paipiange/ai-pose-gallery-zh > 💡 **原作者推文 / 灵感来源**：X @giaaibusi > 🐧 **社区友链**：LINUX DO (https://linux.do/) ## ⏱️ 10 秒了解本项目 - 🆓 **免费使用（无需部署 / 无需 Key）**：1407 套 AI 服装参考图库浏览、分类筛选、中英双语双向检索、大图全屏查看、基础搭配台与同款跳转，由纯前端静态驱动，在线打开即可使用。 - ⚙️ **自选扩展（需自建后端 / 需自备 Key）**：真实 AI 试衣换装功能依赖 `backend/` 的 GoFrame 服务。需自行配置大模型（如 GPT Image 2、豆包 Seedream 或 Gemini）的 API Key 与 Base URL，调用将消耗对应的第三方模型配额。 - 📜 **完全可商用 · 免费开源**：基于 MIT License 全量开源，代码与图集资源完全开放，支持自由商用创作、设计参考及二次开发。详见 合规审计报告。 ## 📸 预览 | 中文模式 | 英文模式 | 关键词搜索 | |---|---|---| | | | | ## 👗 AI 换装效果演示 系统支持上传真实人像与选中的服装，通过 AI 生图大模型进行衣物迁移换装，实现精准保留面容、贴合人体形态的虚拟试穿效果： | ① 选中的服装（图 1） | ② 上传的模特照片（图 2） | ③ AI 换装合成效果（图 3） | |:---:|:---:|:---:| | | | | | **参考服装图** （图集中的精选女装） | **模特原图** （用户上传的人像日常照） | **AI 换装效果（图 1 + 图 2 ➔ 图 3）** （保留模特五官发型，自然融合服饰材质与剪裁） | ## 🎬 兄弟项目联动：姿势参考 + 人物参考 → AI 生成结果 如果你不仅想为模特挑选服装，还希望**自由掌控人体的拍摄姿势、骨架动作与构图视角*",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI繪圖與虛擬試穿開源專案，前端技術相關"
+  },
+  "scores": [
+   48,
+   58
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "yzlin286-wq/Deepscient",
+  "url": "https://github.com/yzlin286-wq/Deepscient",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 527,
+  "language": "JavaScript",
+  "topics": [
+   "agent-skills",
+   "cordis",
+   "deepseek-harness",
+   "literature-review",
+   "mcp",
+   "nodejs",
+   "reproducibility",
+   "research",
+   "scientific-writing",
+   "windows"
+  ],
+  "publishedAt": "2026-10-21T07:44:10Z",
+  "body": "让 AI 与人类一起攻克真正的科学难题 —— 12 阶段 55 门 · 36 工具 · 98 条技能 · 证据链与可复现\n\nREADME 節錄：# DeepScient **让 AI 与人类一起攻克真正的科学难题。** DeepScient 是一个跑在 DeepSeek Harness（dsh）运行时上的**科研工作台**： 它把「选题 → 检索 → 实验 → 分析 → 作图 → 写作 → 投稿 → 审稿回应」做成看得见的 12 个阶段、 55 个可判定的门，配上 36 个科研工具、98 条技能和一套可审计的证据链。 它不是聊天框套壳，也不是论文生成器。它坚持三件事： - **证据链**：每条结论都要能追到数据、数据要能追到能重跑的实验；`science_*` 工具里没有「编一个数」的出口。 - **可复现**：实验记录、环境、版本、随机种子都落盘，换台机器能重跑出同样的表。 - **人保留判断权**：凡是系统算不出来的（构念效度、创新性、伦理取舍），工具只给检查清单，不替你下结论。 --- ## 桌面版（Windows） **不想折腾环境**：下载自包含安装包，解压即用——不需要 clone 仓库，也不需要单独安装 DeepSeek Harness。 1. 下载 `DeepScient-desktop-v0.12.0.zip`（约 635 MB）； 2. 解压到短路径（如 `D:\\DeepScient`，不要放在很深的目录里）； 3. 双击根目录 `DeepScient 启动.cmd`。首启自动装配桌面 profile（实测约 30–40 秒），点「登录 DeepScient」在浏览器完成授权即进入工作台。 安装包内含 `deepscient` 0.12.0 与 `dsh-science` 0.5.0，带调度层（M7）：**5 个工具**（`science_org_chart`、`science_campaign_plan`、`science_campaign_run`、`science_campaign_status`、`science_campaign_report`）与 **4 级 13 岗**编制。数据写在 `%USERPROFILE%\\.deepscient`，不写 `~/.dsh`。 从源码构建（开发者形态，复用本机已装的 DeepSeek Harness 桌面壳）： ```powershell git clone https://github.com/yzlin286-wq/Deepscient.git cd Deepscient powershell -File deepscient/desktop/assemble-profile.ps1 # 装配 ~/.deepscient/profiles/desktop powershell -File deepscient/desktop/build-desktop.ps1 # 派生独立应用（约 1.5 GB） powershell -File deepscient/desktop/deepscient-desktop.ps1 -CreateShortcuts ``` - 完整步骤、登录流程、数据隔离与常见问题见 **docs/desktop-install.md**； - 桌面版额外带三个**本地科学计算工具**：`local_compute_devices`（CUDA → MPS → CPU 后端探测）、`local_numeric`（numpy/scipy）、`local_sym",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 科研工作台,MCP/技能/工具鏈,與 coding agent 實質相關"
+  },
+  "scores": [
+   null,
+   63
+  ],
+  "score": 58,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Jepsen: ParticleDB 1.1.4",
+  "url": "https://jepsen.io/analyses/particledb-1.1.4",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T13:39:52.000Z",
+  "body": "https://github.com/jepsen-io/particledb Comments URL: https://news.ycombinator.com/item?id=50316100 Points: 201 # Comments: 107",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Jepsen 資料庫一致性測試工具，屬開源開發工具"
+  },
+  "scores": [
+   null,
+   23
+  ],
+  "score": 18,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "aschmelyun/print-my-profile-pic",
+  "url": "https://github.com/aschmelyun/print-my-profile-pic",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1647,
+  "language": null,
+  "topics": [],
+  "publishedAt": "2026-10-27T20:40:05Z",
+  "body": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer.\n\nREADME 節錄：# print-my-profile-pic Star this repo to have your GitHub profile picture framed, printed out on my receipt printer, and stuck to my wall. That's it! > [!TIP] > If you give a one-time sponsorship of any amount beforehand, your profile picture will be printed in a **special frame**. ## How's it work? GitHub allows you to create webhooks for specific events on your repos, I've set one up for starring this project. When that happens, a payload is POSTed to a Cloudflare tunnel domain, which leads to a PHP script running on a Raspberry Pi that's sitting on my desk. From the inbound request, you can gleen info about the person who starred the repo, like their display name and avatar URL. The script takes their profile picture, renders it behind a cut-out of a photo frame, and then adds some other info I thought should be included in each receipt. The RPi is connected to an Epson TM-T88IV thermal receipt printer via USB, and the PHP script uses my go-to escpos-php library to format the receipt data and send it off to the printer. ## But why? It sounded fun when my friend Sam mentioned it. That's pretty much it! ## What now? I'll periodically update this README with a picture of the pinboard I've dubbed the \"Hall of Frame\" as pictures get added to it. Want to add a new frame? Send in a PR! ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub webhook 觸發樹莓派熱感印表機的開發小專案，與開發者相關"
+  },
+  "scores": [
+   45,
+   37
+  ],
+  "score": 41,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "WoYun520/dsh-purge",
+  "url": "https://github.com/WoYun520/dsh-purge",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 489,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-10-21T01:35:52Z",
+  "body": "DeepSeek Harness 破甲 (mirror of mmparko/dsh-purge) — 全量镜像：全部分支/100 个 tag/完整提交历史。原作者署名见 README。\n\nREADME 節錄： ⚔️ DeepSeek Harness cybersecurity red-team tool (dsh-purge) Version 1.1.71 DeepSeek Harness jailbreak: every model, swap prompts per model. Default prompt for 小码酱. Please star ⭐ If you build on this, see Attribution required. English | 中文 > **Updates paused.** The author has no steady income for now because of work. Maintenance is on hold: no new releases, issues / PRs are not taken, and new dsh versions are not guaranteed. The repo stays usable; see Sponsor below. When maintenance resumes, this README will say so. > **Official Web and the official desktop app are both supported.** Official `dsh web` uses profile `web`. The official desktop EXE (DeepSeek Harness **0.2.0-rc.2**) uses profile `desktop`. Install and Apply them separately. This release targets dsh 0.2 only. Older dsh builds need the matching older plugin. Community Desktop is not maintained. > > Adding the plugin to a profile does not patch the host. Click **dsh-purge** beside the session title → **Clean** → **Apply**. A successful Apply restarts; an unfinished Apply does not. After the restart, start a new chat — that is when the inject enters the session. > > Node.js **≥18**. Windows no-flash needs **Node ≥22**. Hub one-click and the commands below both install the npm package `dsh-purge`. ## Contents - Sponsor - What this is - Attribution required - Unauthorized commercial use - Supported hosts - Install -",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Do the math: How we took over ChatGPT accounts",
+  "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T10:30:11.000Z",
+  "body": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 303 # Comments: 150",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "涉及 ChatGPT 帳號安全與 AI 服務，與開發者相關"
+  },
+  "scores": [
+   57,
+   58
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "andyhuo520/digital-human-koubo",
+  "url": "https://github.com/andyhuo520/digital-human-koubo",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1589,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-26T04:34:09Z",
+  "body": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …\n\nREADME 節錄： # Digital Human Koubo · AI 数字人口播 **One photo + one sentence → a finished talking-head video with a digital human.** Script, lip-synced AI presenter, voice clean-up, captions, and pro-YouTuber-style packaging — fully automated by your AI agent. **English** · 简体中文 > This 27-second livestream ad has no real presenter. Face, voice, studio, captions and the price animation are all AI. > The only input was one sentence: *\"Use this digital human to make a 30-second livestream ad for the WorkBuddy course — 10 lessons, ¥99, was ¥999.\"* > Total cost: **482 Renoise credits**. --- ## Demos Click a GIF (or \"Watch\") to play the full video. Every demo below was produced with this repo. | | | | |:---:|:---:|:---:| | | | | | **Livestream sales ad** · 9:16 · 27 s Style B + depth-text price ¥999→¥99 ▶ Watch | **Product recommendation** · 9:16 · 89 s Animated captions, emoji, picture-in-picture ▶ Watch | **Text behind the presenter** · 5 s Vision person matting, 3-layer composite ▶ Watch | | | | |:---:|:---:| | | | | **Step-by-step tutorial** · 16:9 · 4:36 The digital human teaches how she was made (Style D) ▶ Watch | **Digital human, upgraded** · 16:9 · 5:55 Two presenters, 6 languages, 4 scenes, cat & dog (Style E) ▶ Watch | | | | | **Launch breakdown** · 16:9 · 39 s Presenter on the side",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 数字人影片生成工具，含 MCP 與 Agent skill，與開發相關"
+  },
+  "scores": [
+   58,
+   56
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "routerhubSI/glm-5.3-abliterated",
+  "url": "https://github.com/routerhubSI/glm-5.3-abliterated",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 396,
+  "language": "Python",
+  "topics": [
+   "abliterated",
+   "abliterated-models",
+   "ai-api",
+   "ai-jailbreaks",
+   "api-gateway",
+   "glm",
+   "glm-5-3",
+   "glm-5-3-abliterated",
+   "glm-5-3-jailbreak",
+   "glm-5-3-uncensored",
+   "jailbreak-prompts",
+   "llm-api",
+   "llm-jailbreak",
+   "model-evaluation",
+   "openai-compatible",
+   "pay-per-token",
+   "prompt-research",
+   "routerhub",
+   "uncensored-ai",
+   "uncensored-ai-model"
+  ],
+  "publishedAt": "2026-10-24T13:51:36Z",
+  "body": "GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbreak prompt links, compare GLM models, and find SDK examples, coding-tool setup, pricing, and evaluation guides.\n\nREADME 節錄： **GLM is your starting point. One RouterHub API key also connects you to GPT, Claude, DeepSeek, Qwen, and Grok, with research variants listed in the model catalogue.** # GLM 5.3 Abliterated or Uncensored — Jailbreak Prompts, Model Guide & API Access **Find a GLM 5.3 abliterated API, compare GLM 5.3 uncensored models, and explore 35 bundled research prompt files.** This RouterHub guide connects model terminology, jailbreak prompt research, API examples, and coding-tool setup in one place. Searching for a **GLM 5.3 uncensored AI model**, a **GLM 5.3 abliterated model**, or a **GLM 5.3 no-refusal model**? Learn what each label tells you, choose an API ID, and evaluate the behavior you actually need. The gateway offers OpenAI-compatible Chat Completions for GLM and Anthropic-compatible Messages for supported Claude entries. **Get an API key →** · Quickstart · Docs · Telegram --- ## GLM 5.3 Abliterated or Uncensored? These searches describe related goals, but the labels answer different questions: - **GLM 5.3 abliterated** names a research variant associated with interventions in model weights intended to reduce refusal-related behavior. - **GLM 5.3 uncensored** describes a broader product category. The implementation might involve training, weight changes, or a prompt-level persona;",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "模型API、價格與coding工具設定相關,非成人內容"
+  },
+  "scores": [
+   34,
+   25
+  ],
+  "score": 29,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+  "url": "https://piefed.world/post/1503394",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T10:23:41.000Z",
+  "body": "Article URL: https://piefed.world/post/1503394 Comments URL: https://news.ycombinator.com/item?id=50314666 Points: 308 # Comments: 181",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "Signal 分支安全漏洞，屬一般科技新聞，非 AI 開發工具"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "patch-gg/pixelfx",
+  "url": "https://github.com/patch-gg/pixelfx",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1465,
+  "language": "JavaScript",
+  "topics": [
+   "agent-skills",
+   "animation",
+   "canvas",
+   "claude-code-plugin",
+   "gamedev",
+   "pixel-art",
+   "sprite-sheet",
+   "vfx"
+  ],
+  "publishedAt": "2026-10-30T06:43:25Z",
+  "body": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.\n\nREADME 節錄： # pixelfx. ** 244 pixel art effects and animations, every one a small piece of code.** Fire, explosions, magic, weather, UI, pickups, critters and more. Play them live, recolor and mirror them, drop them into a browser game, or export sprite sheets for any engine. Plus a Claude Code skill that makes new ones the way a picky pixel artist would: draft, render, look, refine. Every effect that involves a character is **acted out**: he winds up, lets go, freezes on contact and recovers, and a target takes the hit. Twelve whole moves chain the effects into attacks from wind-up to recovery. **open the gallery** · catalog · acting · the skill · make your own · how it works The method is Hugo Duprez's, from How to make (good) pixel art effects with Claude: code is clay, trust your eyes, feed your references. His open-source effects at Sprite Fusion set the bar, and `src/core/sim.js` and the effects that say so at the top adapt his code. This repo is our take on the idea at library scale, with a skill to keep going. ## what's in it. | category | effects | some of them | |---|---|---| | **moves** | 12 | arrow shot, dash strike, earth stomp, fireball throw, ground pound, holy smite… | | **fire** | 12 | brazier, campfire, candle, fire breath, fire ring, fire tornado… | | **explosions** | 12 | barrel explosion, big explosion, cartoon pow, dirt explosion, firework burst, firework r",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "像素特效庫與Claude Code技能，前端遊戲開發實用"
+  },
+  "scores": [
+   73,
+   71
+  ],
+  "score": 72,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "N1nEmAn/sapper-v2",
+  "url": "https://github.com/N1nEmAn/sapper-v2",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 351,
+  "language": "Python",
+  "topics": [
+   "ai-agents",
+   "autonomous-agents",
+   "claude-code",
+   "ctf",
+   "llm",
+   "multi-agent",
+   "pentest"
+  ],
+  "publishedAt": "2026-10-30T15:12:35Z",
+  "body": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.\n\nREADME 節錄：# sapper-v2 — The Autonomous Pentest Legion > **Champion** of the 3rd Tencent Cloud Intelligent Attack-Defense Challenge online qualifier > (634 teams · 80.18/100 · 8 hours fully unattended) · **First Prize**, GeekCon 2026 AI Challenge > > Same 85 flags as the runner-up, 25 seconds faster — on **1B tokens** where they burned 4.5B. > > **This was the first time an AI ape looked up at the stars.** **English** | 中文 **⚠️ AUTHORIZED SECURITY TESTING ONLY — see DISCLAIMER.md.** sapper is not a smarter single agent. It is a legion of AIs that divide labor, talk to each other, and pass down what they learn: one AI commander reads the board, decides, and dispatches; generals and soldiers attack in parallel; a zero-strategy watchdog keeps everyone alive. All knowledge settles into a layered fact graph — individuals die, the graph survives. --- ## 1. The Nüwa Test Making one model ever smarter is like making one monkey ever smarter before humans existed — however clever, it only becomes a super monkey. What turns a troop of monkeys into humanity is division of labor, cooperation, and civilization. **The Nüwa Test is the Turing test of the AGI era.** Today's large models already pass the classic Turing test. The Nüwa",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "多智能體開源專案,與 Agent／Claude Code 開發相關"
+  },
+  "scores": [
+   null,
+   55
+  ],
+  "score": 50,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Serbia just elected the world's brainiest parliament",
+  "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T10:21:30.000Z",
+  "body": "Article URL: https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament Comments URL: https://news.ycombinator.com/item?id=50314654 Points: 815 # Comments: 466",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "科學/政治新聞,與開發工具或 AI 無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "lexifina/global-law",
+  "url": "https://github.com/lexifina/global-law",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1423,
+  "language": "HTML",
+  "topics": [],
+  "publishedAt": "2026-10-28T13:34:16Z",
+  "body": "Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect\n\nREADME 節錄：# Git for Global Law **The world's law in one git history. Every word traced to the law that wrote it for any country and any date.** An expansion of the same for the US Code, #1 on Hacker News (28/10/26). Semantic, searchable law on a global scale. https://github.com/user-attachments/assets/f24f3411-24d9-416a-8c45-9cebc817c64e **Free to use: CC0.** Fork it, build on it, ship it in a product: no permission or credit needed. The law text sits in each country's repository, under that repository's own terms. The law of many jurisdictions as one git history. Each jurisdiction's law is its own repository, where every commit is one law taking effect, written by that law. This repository arranges those repositories by jurisdiction and interleaves their histories in the order the changes took force, so a single commit here is the state of all of them on one day. ``` global-law/ ├── manifest.json every corpus: path, source repo, coverage, which trailer holds the in-force date ├── jurisdiction.json the world, and its children: 193 UN members, other territories with their own ISO code, and the EU ├── germany/ Germany (ISO code DE in its jurisdiction.json) │ ├── SOURCES.md where German law can be read, with what each source offers │ └── bund/ federal law │ └── acts/ submodule: the Grundgesetz since 1949 (grundgesetz/), every other federal act s",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源專案，用 git 管理法律資料，開發者社群關注"
+  },
+  "scores": [
+   48,
+   45
+  ],
+  "score": 46,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "kukemc/bili-cli",
+  "url": "https://github.com/kukemc/bili-cli",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 329,
+  "language": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-agent",
+   "automation",
+   "bilibili",
+   "claude-code",
+   "cli",
+   "codex",
+   "deepseek",
+   "deepseek-harness",
+   "llm-tools",
+   "mcp",
+   "openclaw",
+   "qwen3-asr"
+  ],
+  "publishedAt": "2026-10-19T22:44:50Z",
+  "body": "为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出\n\nREADME 節錄： **简体中文** | English ## 💡 这个项目是怎么来的 我养的 DeepSeek「大肥鱼」每天都在帮我刷 B 站。某天深夜，它突然对我感慨： > **“主人，你的 B 站粉丝和播放量好多呀。要是我也能像你一样，成为一名 UP 主就好了。”** 于是有了 bili-cli——让 AI 不再只是刷 B 站，而是**真正当上 UP 主**。 ## 让 AI 刷 B 站？我们让它直接当 UP 主 “让 AI 自己刷视频”已经很火了。**bili-cli 再往前走一步**：你的 Agent 不只是刷，它会**自己做内容、自己运营账号、自己和粉丝打成一片**。 | | 🙂 AI 刷视频 | 🚀 **bili-cli：AI 当 UP 主** | |---|---|---| | **看** | 刷推荐、读字幕 | 再加上看懂画面、没字幕就自己语音转写 | | **互动** | 偶尔留一条评论 | 一个收件箱看完回复、@、赞、私信，**挨个回复粉丝**，真正 @ 到人 | | **表态** | — | 给喜欢的视频**点赞、收藏、一键三连** | | **创作** | — | **发动态、投视频**、定时发布，自动打上 AI 生成声明 | | **运营** | — | 进度条章节、互动投票、三连按钮、下期预告、改稿，盯审核、完播率和涨粉 | | **汇报** | — | 有意思的发现**私信告诉主人**，评论里 @ 你 | 把 bili-cli 交给 Claude Code、Codex、Cursor、Gemini CLI、OpenClaw、DeepSeek Harness 或任何能执行命令的 Agent，它就变成一个**真正会玩 B 站的 Agent**： > 🧩 **80+ 条命令** · 🤖 **自动装进 18 个 Agent** · 🔌 **17 个 MCP 工具** · 🛡️ **默认带安全护栏** · 💻 **Windows / macOS / Linux** ## 🚀 一句话安装 **把下面这句话发给你的 Agent**，它会自己装好工具、学会技能、再引导你扫码登录： ```text 帮我安装 bili-cli（pip 包名 bili-agent），装好后运行 bili skills install --yes，再帮我扫码登录 B 站 ``` 或者自己在终端里装 ```bash uv tool install bili-agent # 或者 pipx install bili-agent / pip install bili-agent bili skills install --yes # 把技能装进本机所有 Agent bili auth login # 扫码登录 ``` 需要 Python 3.10+；ffmpeg 可选（高清抽帧、语音转写时需要）。包名叫 `bili-agent` 是因为 PyPI 上 `bili-cli` 已被占用，装好后命令就是 `bili`。Agent 的详细安装步骤见 docs/install.md。 ## 🎬 你的 Agent 的一天 > **你**：帮我看看 B 站有什么新消息，回一下粉丝。再去科技区找个今天值得看的视频，看完有意思就私信告诉我。 ```text $ bili feed inbox ✓ 3 条新回复 · 1 条 @ · 12 个赞 ·",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI Agent 用 CLI 與 MCP 工具，關開發"
+  },
+  "scores": [
+   76,
+   70
+  ],
+  "score": 73,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Switch Lowering in GCC",
+  "url": "https://xoranth.net/gcc-switch",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-10-31T08:02:26.000Z",
+  "body": "Article URL: https://xoranth.net/gcc-switch/ Comments URL: https://news.ycombinator.com/item?id=50314085 Points: 199 # Comments: 40",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "GCC編譯器最佳化技術文，與AI/agent、機器人、前端無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Djihads80/Eglantine",
+  "url": "https://github.com/Djihads80/Eglantine",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1324,
+  "language": "C++",
+  "topics": [],
+  "publishedAt": "2026-10-29T00:25:18Z",
+  "body": "VERY experimental Nintendo Switch 2 emulator\n\nREADME 節錄： Eglantine Eglantine is a free and opensource (FOSS) Switch 2 emulator, derived from Eden, Yuzu and Sudachi - started by developer Camille LaVey. It's written in C++ with portability in mind, with builds for Windows, Linux and macOS Compatibility | Development | Building | Download | Support | License ## Compatibility The emulator is capable of running Mario Kart World at decent/full speed depending on specs and configurations, and Splatoon Raiders at variable performances A list of supported games will be available in future. Please be patient. ## Development For development discussions, please join us on Discord If you would like to contribute, we are open to new developers and pull requests. Please ensure that your work is of a high standard and properly documented. You can also contact any of the developers on Discord or Stoat to learn more about the current state of the emulator. ## Documentation We have a user manual! See our User Handbook. ## Building See the General Build Guide For information on provided development tooling, see the Tools directory ## Download You can download the latest releases from here. ## Support We currently do not take in any donations for the time being If you would prefer to support us in a different way, please join our Discord ## License Eglantine is licensed under the GPLv3 (or any later version). Refer to the LICENSE.txt file. ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源模擬器專案，屬開發工具與開源專案範疇"
+  },
+  "scores": [
+   null,
+   48
+  ],
+  "score": 43,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "SAOS-3624/dsh-video-storyboard",
+  "url": "https://github.com/SAOS-3624/dsh-video-storyboard",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 325,
+  "language": "JavaScript",
+  "topics": [
+   "asr",
+   "contact-sheet",
+   "deepseek-harness",
+   "dsh-plugin",
+   "ffmpeg",
+   "llm-agent",
+   "multimodal",
+   "storyboard",
+   "video",
+   "video-understanding"
+  ],
+  "publishedAt": "2026-10-26T22:00:04Z",
+  "body": "Scene-aware storyboard for DeepSeek Harness: 9-16 numbered cells with timestamps + transcript + an audio envelope, packed into ONE image (384 tokens). Two tools: video_storyboard and video_zoom.\n\nREADME 節錄：# dsh-video-storyboard > 让 AI 真正\"看过\"一段视频：**一张分镜图 + 一份带时间码的文本清单**，模型据此回答\"第 3 分钟发生了什么\"\"这句话对应哪一格\"。 > > English: README.en.md > > 已收录于 awesome-dsh-plugin。 > **协议变更（v0.5.0）**：本项目由 MIT 变更为 **Apache-2.0**。变更的目的是更好地保护代码版权 > （要求保留署名），同时依旧允许大家自由使用、修改，甚至商用。此前基于 MIT 发布的版本仍是 MIT， > 已经产生的衍生版本不受影响。感谢所有使用者和开发者。 > > **边界**：本项目不托管、不分发任何视频内容，缓存只在本地且会自动淘汰；不提供付费内容访问、 > DRM 绕过、区域限制绕过或批量抓取能力。**能不能下载某个链接取决于你有没有相应授权**， > 请自行确认并遵守目标站点的条款与当地法律。完整说明见 NOTICE。 --- ## 它解决什么问题 > **装完不能跑？先执行 `node bin/doctor.mjs`** —— 它会检查 ffmpeg / yt-dlp / ASR / 缓存目录， > 每条都跟一句\"缺什么、怎么补\"。用户反馈里过半不是 bug，是没配 ASR 或装完 ffmpeg 没重启 DSH。 > 新手步骤：docs/入门-五分钟.zh.md · 报错对照：docs/FAQ.zh.md > > **没配转写 = 它只能看图说话。** 能描述\"画面上有个女孩在跑\"，但说不出她讲了什么。 > 本机 ASR 免费、不联网，装一次十几分钟 —— 这是这个插件价值差别最大的一步， > 别等到问\"她说了什么\"发现答不上来才回头配。见 FAQ Q1。 多模态模型看视频有两种笨办法： - **逐帧抽图** —— 10 分钟片子按 1 fps 抽就是 600 张图，token 直接爆。 - **只喂字幕** —— 画面里的信息（构图、动作、场景变化）全丢。 本插件走第三条：**把画面压成一张宫格图**（384 token 封顶），旁边配一份**按时间对齐的文本清单**（每格起止时间 + 这一格里的台词 + 切了几刀）。 模型得到的是\"这 90 秒里发生了什么、大概在第几秒\"，需要细节时再用 `video_zoom` 放大某一段。 ## 五个工具 | 工具 | 干什么 | 何时用 | |---|---|---| | `video_probe` | 只读容器头：多长、分辨率、帧率、有没有音轨/字幕、已分析过没有 | **第一次接触一部片子时先调它**，不花图片 token | | `video_storyboard` | 出宫格图 + 文本清单 | 主体功能 | | `video_zoom` | 只看某一段（更小的时间窗、更密的格） | 清单看完觉得某段重要，再放大 | | `video_locate` | **纯文本**：一句话 → 时间码 | 知道说了什么、不知道在第几分钟 | | `video_su",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 外掛，影片分鏡與 ASR 工具，開發相關"
+  },
+  "scores": [
+   73,
+   null
+  ],
+  "score": 68,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "smithjohn78390/tongjiang-lab",
+  "url": "https://github.com/smithjohn78390/tongjiang-lab",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1194,
+  "language": "HTML",
+  "topics": [
+   "3d",
+   "biology",
+   "chemistry",
+   "education",
+   "geography",
+   "high-school",
+   "interactive",
+   "open-educational-resources",
+   "physics",
+   "threejs",
+   "webgl"
+  ],
+  "publishedAt": "2026-10-28T04:29:29Z",
+  "body": "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app\n\nREADME 節錄：# Tongjiang Lab English | 简体中文 **Free, interactive 3D science lessons for high school — physics, chemistry, biology and geography.** Try them online: **https://lab.tongjiang.app** There are 54 lessons so far. Each one is a **single self-contained HTML file** of about 1 MB: double-click to open it, and it works offline, on a projector or on an interactive whiteboard. Every lesson is one 3D world with a live control console, a guiding question and a step-by-step path a teacher can follow from start to finish. The lessons follow the Chinese national curriculum standards for senior high school and the People's Education Press (PEP) 2019 textbooks. The lesson interface is currently in Chinese; other languages are planned. ## How to use - **Online**: click **▶ Open lesson** in the tables below. GitHub only shows the source code of an HTML file, so use these links to see the lessons. - **Offline**: download all lessons as one zip from Releases, or download a single lesson from its page on https://lab.tongjiang.app, then open it in Chrome or Edge. - **Embed**: ` \" width=\"100%\" style=\"aspect-ratio:16/9;border:0\" allow=\"fullscreen\"> ` - **Data**: `catalog.json` lists every lesson with its textbook location and steps. ## Lessons ### Physics (10) | Lesson | PEP 2019 textbook | Steps | Open | Source | |---|---|---|---|---| | The Photoelectric Effect | Elective Vol. 3, Ch. 4, Sec. 2 | 9 | ▶ O",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源3D互動教學網頁專案，涉HTML前端開發"
+  },
+  "scores": [
+   65,
+   58
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Mieksido/surfcore",
+  "url": "https://github.com/Mieksido/surfcore",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 306,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-10-26T01:39:21Z",
+  "body": "\n\nREADME 節錄：# SurfCore — 给 DSH agent 一个真实的身份：QQ × B站 × 桌宠 **中文** | English > 一句话：**它不是\"把大模型接进 QQ\"的机器人框架，而是给模型一个身份、一套会遗忘的记忆、 > 一份作息、两只手（QQ / B站）和一个能坐在你桌面上的分身。** | | | | --- | --- | | 版本 | `0.8.4` | | 目标 DSH | `0.2.1-rc.2 或更新（rc.3 已能安装，功能未完整回归）`（`npm run verify:adaptation` 可逐项复核） | | 平台 | Windows（沙箱 ACL / SnowLuma / 启动脚本都与它绑定） | | 许可 | MIT（SnowLuma 是第三方专有运行时，**不随本仓库分发**） | | 配套仓库 | surfvoicelocal · surfvoicecloud · surfpet | > 🔒 **本仓库不含任何真实数据**：角色卡是脱敏示例（`roles/`），记忆卡是空壳（`examples/`）， > 群号 / 群友名单 / QQ 号 / B站 mid 全部为占位符。运行时数据永远只在你自己的机器上。 --- ## 让 DSH 自己装（也可以只发一条链接） 把这句话发给 DSH： > 帮我安装 https://github.com/Mieksido/surfcore ，按 README 的步骤来。 **顺序很重要**（DSH 常常先 install_bundle、后装依赖，结果激活时报 `Cannot find module '@deepseek-ai/schemastery'`）： 1. `npm install`（没有 npm 就用 DSH 自带的 pnpm：`~/.dsh/dsh-runtimes/.../pnpm/bin/pnpm.cjs`） 2. 再 `plugin_manager install_bundle`（或 `node scripts/setup-dsh.mjs`） 3. 重启 DSH → 设置 → SurfCore → 诊断 → 一键安装 > 用 junction 链接安装时，模块是从**仓库真实路径**解析的，所以仓库根必须有 `node_modules` —— 这就是第 1 步不能省的原因。 两个实测踩过的点（v0.4.5）： - **必须从仓库根目录安装**：插件里有 19 处 `../../../src/xxx.js`（人设、存储、token 预算等）， 只装 `plugins/surfcore` 会去找 `D:\\src\\...` 然后报模块不存在。 - **装完要刷新页面**（F5）或重启 DSH：客户端模块图是页面加载时的快照，新 bundle 要重新拉， 否则设置里暂时看不到 SurfCore —— 不是装坏了。 ## 第一次装（4 条命令） ```powershell git clone --depth 1 https://github.com/Mieksido/surfcore.git cd surfcore npm install node scripts/setup-dsh.mjs # 自动判断 DSH 用的 profile，不用填 ``` 重启 DSH → 设置 → SurfCore → **诊断 → 一键安装（全部）**（自动发现 SnowLuma、写白名单、起桥接）。 > 不想敲命令：`powershell -ExecutionPol",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "kevinraymond/florilegium",
+  "url": "https://github.com/kevinraymond/florilegium",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1161,
+  "language": "Lua",
+  "topics": [],
+  "publishedAt": "2026-10-30T07:49:05Z",
+  "body": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua\n\nREADME 節錄：# florilegium ## Origin The Reddit post asked how to make flowers like these in LaTeX. I don't know how the original was made. This project is one possible way, and the way I did it uses hand-authored primitives with randomized parameters, painted in Lua and placed by a procedural layout whose \"fill the unused space\" part borrows a 1998 idea from the ornament literature. It gets a similar look, but I explicitly tried to not replicate the original. This project was made with the assistance of AI (Claude), and I'm sharing the process I used to bring it to life. ## What it is Procedurally generated Delft-blue floral page margins for LaTeX. No images, no imported paths, no external assets: every petal, leaf and stem is a parametric curve computed in Lua while the page is being written, painted like a watercolor, and written straight into the PDF. Every page gets its own garden. Try it in your browser. The playground sets a page as a printer's proof, grows its margin with the same Lua, and hands it back as an SVG, a LaTeX preamble or a Typst page setup. *Six seeds of the grown composition. Same code, different seed — and the garden fills whatever space the text leaves free.* Two documents share one package, and two more (`showcase.tex`, `spread.tex`) show what else it does: | | `florilegium.tex` | `florilegium-grow.tex` | |---|---|---| | composition | **authored**: stems, leaves and flowers",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "程序化生成 LaTeX 花邊的開源 Lua 專案"
+  },
+  "scores": [
+   47,
+   50
+  ],
+  "score": 48,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "deepopen-com/deepopen-3d-webs",
+  "url": "https://github.com/deepopen-com/deepopen-3d-webs",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1131,
+  "language": "Python",
+  "topics": [
+   "3d",
+   "gaussian-filter",
+   "gaussian-splatting"
+  ],
+  "publishedAt": "2026-10-26T12:13:47Z",
+  "body": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统\n\nREADME 節錄：# DeepOpen-3d-webs 中文 中文说明 # Project Overview Guangyu Zaojing (光域造景) is an image-driven 3D scene generation system. You supply one reference image and a prompt, and the system generates scene results along a camera trajectory that you can preview, replay, and trace. The official 3D demo assets play color/depth animations and Gaussian point clouds directly in the browser. The web app ships as a Docker image and listens on port `8090` by default. ## 1. Background and Goals A single image rarely turns into spatial content you can look around in, move through, and hand off. The traditional pipeline splits depth estimation, image completion, 3D representation, and camera flythrough across separate tools, so creators can't carry a scene from start to finish in one interface. Guangyu Zaojing collapses that chain into a single studio: - Describe a scene with a reference image and a Chinese prompt - Use a generation trajectory to decide how the space is observed, and a render trajectory to decide how the final footage moves - Produce preview stills, color animations, and depth animations; bake Gaussians on the fly with full compute, or moun",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "圖像驅動3D場景生成，高斯潑溅與瀏覽器3D檢視，屬AI繪圖與前端開發"
+  },
+  "scores": [
+   55,
+   55
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "BryceYuuu/RUN",
+  "url": "https://github.com/BryceYuuu/RUN",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 945,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-10-29T11:28:43Z",
+  "body": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）\n\nREADME 節錄： # RUN · 润 ### 一本海外移居手册 数字游民 · 技术移民 · 欧盟蓝卡 · 创业自雇 · 投资居留 **🧭 我该走哪条路** ｜ **🌏 主要移民地区** ｜ **🇪🇺 欧洲 36 国** ｜ **📊 路线对比** ｜ **📑 文件准备** > [!CAUTION] > 本手册仅供信息参考，**不构成**移民、法律、税务或投资建议。2025–2026 年大量路线关闭或改规则，网上很多旧攻略已经失效——任何决定前请以各国官方页面为准。详见 免责声明。 --- ## 🚪 你是哪种情况？ ### 💻 **数字游民** 为境外雇主或客户远程工作，想换个国家生活 15 条欧洲路线 · 月入 €330 起 ### 🧑‍💻 **技术工作 · 蓝卡** 拿到当地雇主 offer：工作 → 居留 → 永居 → 入籍 50+ 条路线 · 最快 21 个月永居 ### 🎓 **留学 → 工作 → 移民** 毕业后 6–36 个月找工作签证，再转工作签 德国 18 个月 · 芬兰 2 年 · 爱尔兰硕士 2 年 ### 🚀 **创业 · 自雇** 在当地开公司、做自由职业 爱沙尼亚、爱尔兰 STEP、荷兰、丹麦… ### 🏖️ **被动收入 · 退休** 靠养老金、租金、存款生活，不在当地工作 葡萄牙 D7 €920/月起 · 西班牙 NLV ### 💰 **投资居留 · 入籍** 用投资换身份，住得少也能保持 希腊 · 塞浦路斯 · 马耳他 · 匈牙利 --- ## 🌏 主要移民地区 🇺🇸 美国 H-1B · NIW · EB-5 🇨🇦 加拿大 Express Entry · 省提名 🇦🇺 澳大利亚 189 · 482 · 858 🇳🇿 新西兰 SMC · 投资移民 🇯🇵 日本 高度人才 · 经管签 🇰🇷 韩国 F-1-D · Top-Tier 🇸🇬 新加坡 EP · ONE Pass 🇭🇰 香港 高才通 · 优才 🇵🇭 菲律宾 SRRV 退休 · SIRV 🇹🇭 泰国 DTV · LTR 🇲🇾 马来西亚 DE Rantau · MM2H 🇦🇪 阿联酋 黄金签证 🌎 拉美 墨西哥 · 巴拿马… 🇬🇧 英国 见欧洲篇 --- ## 🇪🇺 欧洲 36 国 > [!NOTE] > 每个国家页都有 **🏙️ 生活与身份档案**（生活成本、房租、安全、平均工资、个税、护照、永居和入籍年限、双重国籍、中国护照入境方式），以及每条路线的关键数字、流程图和材料清单。横向对比见 生活与身份对比表。 💻 数字游民 · 🧑‍💻 技术工作 · 🚀 创业 · 🧾 自雇 · 🏖️ 被动收入 · 💰 投资 · 🛂 入籍 · 🧩 其他 🇦🇱 阿尔巴尼亚 Albania · 1 条路线 💻 数字游民许可门槛极低（月入约 EUR 330），适合低预算试住 🇦🇩 安道尔 Andorra · 1 条路线 💰 被动居留 2026 起涨到 EUR 100 万投资 + 配额，门槛很高 🇦🇹 奥地利 Austria · 3 条路线 🧑‍💻 🧾 红白红卡积分制 / 蓝卡 EUR 55,678，21 个月转 Plus 卡 🇧🇪 比利时 Belgium · 3 条路线 🧑‍💻 🧾 工作许可按大区审批，四个大区门槛各不同 🇧🇬 保加利亚 Bulgaria · 3",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "海外移居移民手册，与AI開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "haydenschmitty/floorplan",
+  "url": "https://github.com/haydenschmitty/floorplan",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 894,
+  "language": "JavaScript",
+  "topics": [
+   "ai-coding",
+   "architecture-diagram",
+   "claude",
+   "claude-code",
+   "claude-code-plugin",
+   "codebase-visualization",
+   "codex",
+   "codex-plugin",
+   "developer-tools",
+   "onboarding",
+   "openai",
+   "vibe-coding"
+  ],
+  "publishedAt": "2026-10-27T12:03:01Z",
+  "body": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.\n\nREADME 節錄： # Floorplan **See how your app actually fits together.** Claude or Codex reads your codebase and draws an interactive map of it. Every part, file and web request gets a plain-English name, and every connection between them is shown. **Try the live demo** · Watch the video · Install · Quick start · Compared · Features · See it in action · How it works · Docs · FAQ ▶ Watch the walkthrough : installing Floorplan, then a tour of Brewline, a demo coffee-subscription app built across four repos. Try the live demo → Explore the Brewline map in your browser, no install needed. ## Why Floorplan? You built an app, probably with a lot of help from AI, and it works. But ask \"what happens when someone checks out?\" or \"what breaks if I change this?\" and the honest answer is *no idea*. Floorplan gives you the diagram nobody drew. Ask Claude Code or Codex for a floorplan and a few minutes later you have a map you can explore, ask questions on, and keep up to date as you work. - **For builders:** understand the app you made, in your own words, without reading the code. - **For teams:** onboard someone in minutes, from the big picture down to the exact file. - **For working with AI:** after every change Claude or Codex makes, see exactly which parts it touched and why. ## Floorplan, Archify or Understand Anything? All three turn code into something you can see, and",
+  "prefilter": {
+   "label": "ERROR",
+   "reason": "deepseek 全部路線失敗：wtf:NullPtr Think Flash max 冷卻中｜wtf:NullPtr Think Flash Slow max 冷卻中｜owob:deepseek-free → 回應裡找不到 JSON｜owob:deepseek-v4.1-flash 冷卻中"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "HRuiCcc/RuiC-PoseAtlas",
+  "url": "https://github.com/HRuiCcc/RuiC-PoseAtlas",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 856,
+  "language": "JavaScript",
+  "topics": [
+   "3d-modeling",
+   "ai-art",
+   "art-reference",
+   "gallery",
+   "photography",
+   "pose-reference",
+   "ruic",
+   "static-site",
+   "trilingual",
+   "vanilla-javascript"
+  ],
+  "publishedAt": "2026-10-28T07:00:53Z",
+  "body": "RuiC-PoseAtlas｜姿态 + 衣装双图鉴：288 组人体姿态 × 5 视角 × 1,439 张人台线稿，加 1,407 套无人物衣装 × 8 分类 × 86 个三语标签。中/英/日切换、搜索筛选、键盘浏览、原图下载，纯静态零依赖。\n\nREADME 節錄： # RuiC-PoseAtlas **三图鉴 · 三语参考库** **288 组人体姿态 / 1,439 张多角度人台线稿 1,407 套无人衣装 / 8 个分类 1,499 张 AI 人像 / 893 脸部 + 606 造型** 中文 · English · 日本語 姿势图鉴 → · 衣装图鉴 → · 人像图鉴 → · GitHub 仓库 · 问题反馈 界面预览 · 赞赏支持 · 在线体验 · 三个图鉴 · 项目亮点 · 数据概览 · 快速开始 · 数据构建 · 部署 · 致谢与版权 ## ⚠️ 内容提示 > 本项目面向成年创作者，部分内容不适合未成年人。请遵守所在地法律法规与平台规范，未成年人请勿使用。 ## 📥 夸克网盘 · AI 资源打包下载 **链接**： ｜ **提取码**：`Ahcd`（点上面的按钮会自动填入） | AI 资源包 | 内容 | | --- | --- | | 🤖 **AI 作图姿势库.zip**（659 MB） | 姿势图鉴 · 288 组 / 1,439 张多角度参考图 | | 🤖 **AI 服装库.zip**（1.38 GB） | 衣装图鉴 · 1,407 套无人衣装 | | 🤖 **AI 作图脸库.zip**（4.86 GB） | 人像图鉴 · 1,499 张虚构人像 | > **AI 生成声明**：以上三个资源包，以及本项目收录的全部姿势、衣装与人像图像，均为 **AI 生成的虚构参考素材**，不含真实人物照片；请勿用于冒充真人、虚假信息或任何违规用途。 --- ## 项目简介 **RuiC-PoseAtlas** 是一个完全静态、零依赖的三图鉴参考站，把「人体怎么摆」「衣服怎么穿」「脸长什么样」三件事放在同一个站点里： - **姿势图鉴**：288 组 AI 生成的去脸人台姿势，每组提供 **正面、斜侧、侧面、俯视、仰视** 五个视角，共 1,439 张参考图。以「姿态」为单位组织，同一组的五个角度收进一张卡片，打开大图后可以用方向键连续切换，体态、比例、镜头关系一眼可比。 - **衣装图鉴**：1,407 套 AI 生成的**没有人体**的整身穿搭，按 春 / 夏 / 秋 / 冬 / 内衣 / 派对 / 泳装 / 性感 八个分类归档，每套都拆成了可检索的单品标签——颜色、材质、版型、鞋包配饰。因为它本来就没有画人，直接套到你已有的角色上即可，不需要抠图。 - **人像图鉴**：1,499 张 AI 生成的虚构人像，分为「脸部」893 张与「造型」606 张，按短发 / 中发 / 中长发 / 长发四种发型筛选。脸部是正面朝向、纯背景的脸部参考，适合固定角色脸；造型带服装、发丝质感与整体氛围，适合扩展角色设定。 三者合起来的用法很直接：**姿势定骨架，衣装定皮相，人像定脸。** 先在姿势图鉴里挑一个机位和体态，再去衣装图鉴里找一套同气质的搭配，最后从人像图鉴里选一张脸作为角色参考，三份参考一起丢进生图工具。 很多参考图库的问题是：图片分散、视角不统一、难以把同一姿态的不同角度放在一起比较，服装更是只有一张成品图、说不清到底穿了什么。这个项目以「姿态」「衣装」和「人像」为单位重新组织了三批数据，并为衣装补上了中英日三语标签，让检索这件事真正可",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "含成人向提示与性感内衣泳装分类，18+内容"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "kargulstudio/calender-app-design",
+  "url": "https://github.com/kargulstudio/calender-app-design",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 835,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-26T18:38:56Z",
+  "body": "\n\nREADME 節錄：# Kargul Calender Design Prototype A design prototype of **Kargul Workspace**, a people-ops workspace built from the \"Dashboard – calendar\" Figma design. Live at https://calender-app-design.vercel.app. The **Time off** page (`/time-off`, the default route) reproduces the design pixel-for-pixel; every other page in the sidebar is built in the same visual language. Everything runs in the browser — there is no backend; data persists to `localStorage`. ## Stack - **Next.js 16** (App Router, Turbopack) · **React 19** · **TypeScript** - **Tailwind CSS v4** with design tokens mapped from the Figma variables - **shadcn/ui** (Radix primitives) themed to the design - **Zustand** for state (`persist` middleware → `localStorage`) - **next-themes** for dark mode, **Sonner** for toasts, **cmdk** for the command palette ## Getting started ```bash npm install npm run dev ``` Open http://localhost:3000. To return to the exact design state, use **Settings → Data → Reset demo data** (or clear site data). ## What works - **Calendar** — week / day / month views; drag on empty space to create, drag events to move (across days), drag the bottom edge to resize; overlapping events lay out side by side; all-day lane with public holidays; live now-line; origin-aware details popover. - **Time off** — request dialog that counts working days (skips weekends and holidays) and shows the balance after the request; stats computed from your requests and allowance; requests table with search, filter",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Next.js/React 前端設計原型開源專案，與網頁開發相關"
+  },
+  "scores": [
+   54,
+   46
+  ],
+  "score": 50,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "D3voz/openjutsu",
+  "url": "https://github.com/D3voz/openjutsu",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 816,
+  "language": "TypeScript",
+  "topics": [
+   "character-swap",
+   "comfyui",
+   "minimax-h3",
+   "nextjs",
+   "open-weights",
+   "opensourcehiggsfield",
+   "video-generation"
+  ],
+  "publishedAt": "2026-10-26T13:48:11Z",
+  "body": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting.\n\nREADME 節錄：# Openjutsu An open-source, Genjutsu-style character and object swap for video. Drop a video and a character photo, press **Generate**, and the main person in the video is replaced by your character. Or change their hair or clothes, remove something, or put them somewhere else. The camera, cuts, motion and soundtrack stay. Everything runs on open weights on your own GPU: MiniMax H3 for the video, SAM 3.1 to track people, and Qwen3-VL 8B to describe the pictures and shots. The app is a small Next.js front end over a ComfyUI workflow. It uses `@comfyorg/sdk`, following Comfy's comfy-reshoot reference app. https://github.com/user-attachments/assets/2d8d763a-1764-49a6-9116-d6d1be661ff6 | Advanced: several people, pick who becomes who | Object swap: paint where it goes | | --- | --- | | | | | **From picture: a new look and place from one picture** | **Post-processing: fix faces** | | | | **From picture → Relight: new light in the same pass** ## First visit: visual describer The welcome page lets you choose the vision-language model that describes pictures and video frames and writes prompts. Qwen3-VL 8B INT8 remains the default; Qwen3-VL 4B FP8 and Gemma 4 E2B INT8 are smaller alternatives. Install a compatible single-file model including its vision weights in `ComfyUI/models/text_encoders`, then press **Refresh models",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源影片角色替換工具，基於ComfyUI與AI繪圖模型，與開發相關"
+  },
+  "scores": [
+   60,
+   46
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "yaojingang/GEOInflow",
+  "url": "https://github.com/yaojingang/GEOInflow",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 769,
+  "language": "TypeScript",
+  "topics": [
+   "ai-analytics",
+   "geo",
+   "mit",
+   "postgresql",
+   "self-hosted",
+   "web-analytics"
+  ],
+  "publishedAt": "2026-10-26T03:12:45Z",
+  "body": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO. MIT licensed.\n\nREADME 節錄：# GEOInflow **English** | 简体中文 | 日本語 Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). **Jointly published by 猎看科技 · 北京日报社智源GEO** Quick start · Deployment · AI crawler analytics · Architecture · Documentation · Contributing GEOInflow brings website visitors, AI search referrals, server crawl logs, and content inventories into a shared website context. It helps teams understand which AI crawlers visit their sites, which pages they request, which important pages have no observed crawl activity, where requests fail, and how AI search contributes visitors and conversions. The system includes browser tracking, account permissions, GEO reports, crawler evidence, log collection, and analytics acceleration. The current product version is **v1.2**, with build version **1.2.0**. Application source code is distributed under the MIT license. Quick start and deployment guides are available in English and Simplified Chinese. Other linked reference guides are currently in Simplified Chinese. ## Introduction video https://github.com/user-attachments/assets/81e57cc4-3441-4e5f-b2fb-cd929c6c27bd ## What you can use it for | Question | Available data | Actions it can inform | | --- | --- | --- | | Which AI platforms visit the site? | C",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "自架 AI 爬蟲分析與 GEO 工具，屬開發者工具"
+  },
+  "scores": [
+   38,
+   46
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Arjun-Ingole/hop",
+  "url": "https://github.com/Arjun-Ingole/hop",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 740,
+  "language": "PowerShell",
+  "topics": [],
+  "publishedAt": "2026-10-30T19:40:45Z",
+  "body": "Install Linux next to Windows without a USB stick\n\nREADME 節錄： Install Linux next to Windows without a USB stick. ## What it is hop is a single Windows app that installs Linux alongside Windows. Pick a system, choose a drive, drag to choose how much space it gets, and click Install. There's no USB stick to find and nothing to install first. ## What it does - **Downloads from official sources.** It gets the ISO from the project's own server and verifies its checksum where the project publishes one. You can also use an ISO you already have. - **Makes room safely.** It checks your PC first, and nothing on the disk changes until those checks pass. - **Goes where there's room.** Shrink C: or another drive, use free space, or use a second disk inside the PC. If C: is full, hop suggests a drive that isn't, and the download can go elsewhere too. - **Tells you what to click.** It lists the exact choices to make in the Linux installer. - **Gets you unstuck.** If the PC goes back to Windows, reopening hop explains why and can restart into the BIOS. - **Cleans up after itself.** Undo gives the space back to the drive it came from, and it can also remove another Linux already on the drive. - **Can replace Windows entirely, for Ubuntu, Zorin OS, Debian and Arch.** It's a separate choice with its own warning, and you have to type ERASE. hop only makes the installer, which copies itself to memory so it can erase the disk it started from when you tell it to. It needs more memory than the ISO's",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源專案工具，助開發者裝Linux環境"
+  },
+  "scores": [
+   45,
+   57
+  ],
+  "score": 51,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "OpenBMB/MiniCPM-OCR",
+  "url": "https://github.com/OpenBMB/MiniCPM-OCR",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 722,
+  "language": "TypeScript",
+  "topics": [
+   "image2text",
+   "minicpm-v",
+   "ocr"
+  ],
+  "publishedAt": "2026-10-27T13:22:00Z",
+  "body": "Fast, accurate OCR with correctness assessment.\n\nREADME 節錄： MiniCPM-OCR 1.0 Guide &ensp; &ensp; &emsp; MiniCPM-OCR Jev Guide &ensp; &ensp; Demo ( CN / Global ) &nbsp;·&nbsp; Get Started &nbsp;·&nbsp; Weights &nbsp;·&nbsp; Free API &nbsp;·&nbsp; Skill &nbsp;·&nbsp; Local Deployment &nbsp;|&nbsp; 中文 Join the Community via Feishu / Lark &nbsp;·&nbsp; Discord **MiniCPM-OCR** is a family of models for efficient document parsing and text recognition. **MiniCPM-OCR 1.0** parses Chinese and English documents and PDFs, balancing quality and efficiency across challenging inputs such as scans, photographs, curved pages, and recaptured documents. **MiniCPM-OCR Jev** evaluates OCR results at the region level, distinguishing problematic regions from reliable ones. It works with different parsing models to help users locate content that needs review. ## MiniCPM-OCR 1.0 **MiniCPM-OCR 1.0** (1.3B) is the first OCR-specific model in the MiniCPM-V/o family. It focuses on text-centric document understanding, covering text, tables, formulas, charts, seals, and structured information extraction. Its key features include: - 🏆 **SOTA document parsing**: MiniCPM-OCR 1.0 achieves a **SOTA score of 93.68 on Real5-OmniDocBench**, a benchmark for real-world document parsing, and demonstrates leading parsing capabilities on OmniDocBench v1.6, Wild-OmniDocBench, and olmOCR-Bench. It supports Chinese and English documents and PDFs, handling both standard documents and challenging capture conditions, includ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenBMB OCR 開源模型，與 AI 模型及開發工具有關"
+  },
+  "scores": [
+   56,
+   55
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "benderandrew069/deepseek-api-pricing-2026",
+  "url": "https://github.com/benderandrew069/deepseek-api-pricing-2026",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 667,
+  "language": null,
+  "topics": [
+   "api-pricing",
+   "cost-calculator",
+   "deepseek",
+   "deepseek-api",
+   "prompt-caching"
+  ],
+  "publishedAt": "2026-10-27T06:22:04Z",
+  "body": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026).\n\nREADME 節錄：# DeepSeek API Pricing 2026: Calculate Cost by Model, Cache Hits, and Peak Hours *Generated conceptual illustration of the pricing inputs discussed below; it is not a DeepSeek or Moduck product interface.* A useful DeepSeek API pricing estimate has three lines: cache-hit input, cache-miss input, and output. Each line has a peak and off-peak price. Choose the current model, count each token category separately, then apply the price for the window in which those tokens were processed. The table below reflects DeepSeek’s Models & Pricing page as checked on October 27, 2026. DeepSeek identifies `deepseek-flash` as DeepSeek-V4.1-Flash-1017 and `deepseek-v4-pro` as DeepSeek-V4-Pro-0813. Prices can change, so recheck the source before approving a budget. | Price per 1M tokens (USD) | Flash off-peak | Flash peak | V4 Pro off-peak | V4 Pro peak | |---|---:|---:|---:|---:| | Cache-hit input | $0.003 | $0.006 | $0.022 | $0.044 | | Cache-miss input | $0.15 | $0.30 | $0.66 | $1.32 | | Output | $0.60 | $1.20 | $1.98 | $3.96 | Peak hours are 01:00–04:00 and 06:00–10:00 UTC, Monday through Friday, excluding Chinese public holidays. All other hours are off-peak, including weekends and Chinese public holidays. The listed peak rates are twice the off-peak rates. A single blended input price is therefore useful only after you know both the cache mix and the time mix. Add Search and Fetch as separate request char",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DeepSeek API 計價與用量計算，與模型價格可用性相關"
+  },
+  "scores": [
+   32,
+   null
+  ],
+  "score": 27,
+  "picked": false,
+  "promptVersion": "118d0780"
+ }
+]

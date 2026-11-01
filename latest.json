@@ -1,6 +1,6 @@
 {
- "date": "2026-10-31",
- "generatedAt": "2026-10-31T02:36:51.162Z",
+ "date": "2026-11-01",
+ "generatedAt": "2026-11-01T02:27:10.111Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -9,20 +9,89 @@
   "write": "2d964375",
   "group": "2dabeeef"
  },
- "items": [],
+ "items": [
+  {
+   "title": "dsh-Go 讓手機本機跑 DSH",
+   "summary": "DeepSeek Harness 的 Android 客戶端，免 Root、免 Termux 就能在手機本機跑，也能遙控電腦上的 DSH。",
+   "why": "在外面用手機就能開 DSH 寫程式，回家再切到電腦接著做。",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 3667,
+   "score": 82,
+   "scores": [
+    78,
+    87
+   ],
+   "originalTitle": "ccch1mneyyy/dsh-Go",
+   "related": []
+  },
+  {
+   "title": "unslop 修掉 AI 味的介面",
+   "summary": "unslop 是給 Claude Code 與 Codex 用的 skill，會先找出紫色漸層、發光、emoji 標籤等 AI 味問題，再逐步修成有個性的介面。",
+   "why": "做網頁小遊戲或後台頁面時，輸入 /unslop 就能把畫面修得不像 AI 生成的。",
+   "url": "https://github.com/heydamir/unslop",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 3579,
+   "score": 77,
+   "scores": [
+    77,
+    78
+   ],
+   "originalTitle": "heydamir/unslop",
+   "related": []
+  },
+  {
+   "title": "bili-cli 讓 AI 玩 B 站",
+   "summary": "bili-cli 是給 AI Agent 用的 B 站命令列工具，支援掃碼登入、看影片、評論、私訊、發動態與投稿，全部以 JSON 輸出。",
+   "why": "想讓自己的 AI 助理或機器人操作 B 站，可參考它的指令與 JSON 輸出設計。",
+   "url": "https://github.com/kukemc/bili-cli",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 329,
+   "score": 73,
+   "scores": [
+    76,
+    70
+   ],
+   "originalTitle": "kukemc/bili-cli",
+   "related": []
+  },
+  {
+   "title": "pixelfx：244 款像素特效程式庫",
+   "summary": "patch-gg/pixelfx 收錄 244 款像素風特效與動畫，每款都是一小段程式碼，可預覽、換色、鏡像，也能匯出 sprite sheet。另附 Claude Code skill 協助製作新特效。",
+   "why": "做網頁小遊戲時，可直接套用火焰、爆炸、天氣等特效，或匯出到其他引擎。",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 1465,
+   "score": 72,
+   "scores": [
+    73,
+    71
+   ],
+   "originalTitle": "patch-gg/pixelfx",
+   "related": []
+  },
+  {
+   "title": "DSH 外掛讓 AI 用一張圖看影片",
+   "summary": "dsh-video-storyboard 把影片壓成一張 9–16 格分鏡圖（384 token），附時間碼與台詞，video_zoom 可放大。",
+   "why": "想讓機器人或小工具看懂影片，不用逐幀餵圖，能省下大量 token。",
+   "url": "https://github.com/SAOS-3624/dsh-video-storyboard",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 325,
+   "score": 68,
+   "scores": [
+    73,
+    null
+   ],
+   "originalTitle": "SAOS-3624/dsh-video-storyboard",
+   "related": []
+  }
+ ],
  "nearMiss": [
-  {
-   "title": "anhao/ai-pose-gallery-zh",
-   "url": "https://github.com/anhao/ai-pose-gallery-zh",
-   "score": 63,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "unclebob/ub-mode",
-   "url": "https://github.com/unclebob/ub-mode",
-   "score": 62,
-   "source": "GitHub 新專案"
-  },
   {
    "title": "smithjohn78390/tongjiang-lab",
    "url": "https://github.com/smithjohn78390/tongjiang-lab",
@@ -30,10 +99,10 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "designfuchen/word-atlas",
-   "url": "https://github.com/designfuchen/word-atlas",
+   "title": "dbreunig/nesformer",
+   "url": "https://simonwillison.net/2026/Oct/30/nesformer",
    "score": 60,
-   "source": "GitHub 新專案"
+   "source": "Simon Willison"
   },
   {
    "title": "yzlin286-wq/Deepscient",
@@ -59,31 +128,31 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 2,
+    "count": 3,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 12,
+    "count": 9,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 2,
+    "count": 3,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 1,
+    "count": 0,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 3,
+    "count": 0,
     "error": null
    },
    {
@@ -101,21 +170,22 @@
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 1,
+    "count": 2,
     "error": null
    }
   ],
-  "candidates": 54,
-  "prefilterPass": 25,
-  "scored": 23,
-  "picked": 0,
+  "candidates": 50,
+  "prefilterPass": 32,
+  "scored": 32,
+  "picked": 5,
   "llm": {
-   "calls": 20,
-   "failures": 18,
+   "calls": 98,
+   "failures": 29,
    "byRoute": {
-    "owob:deepseek-free": 2
+    "owob:deepseek-free": 63,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 6
    },
-   "tokens": 1006
+   "tokens": 120170
   }
  }
 }
