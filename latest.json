@@ -1,6 +1,6 @@
 {
- "date": "2026-11-02",
- "generatedAt": "2026-11-02T02:40:57.010Z",
+ "date": "2026-11-03",
+ "generatedAt": "2026-11-03T04:01:40.443Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -9,19 +9,70 @@
   "write": "2d964375",
   "group": "2dabeeef"
  },
- "items": [],
+ "items": [
+  {
+   "title": "安卓手機裝 APK 免 root 跑 dsh",
+   "summary": "一個 APK 就能在 Android 10 以上手機跑 DeepSeek Harness，免 root、免 Termux，可讀屏操作 App、定時自動化。",
+   "why": "不用電腦，就能讓手機 Agent 幫你操作 App、整理檔案。",
+   "url": "https://github.com/jackwener/DSH-Android",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 759,
+   "score": 72,
+   "scores": [
+    77,
+    null
+   ],
+   "originalTitle": "jackwener/DSH-Android",
+   "related": []
+  },
+  {
+   "title": "Claude 動畫短片技能開源",
+   "summary": "免費 Claude skill，用 three.js 搭 Remotion 在自己電腦渲染 55–70 秒直式動畫短片，不用 AI 影片生成器，repo 附完整範例。",
+   "why": "照 SKILL.md 流程做出自己的直式動畫短片，範例原始碼可直接改。",
+   "url": "https://github.com/mromidev/claude-animated-shorts",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 703,
+   "score": 66,
+   "scores": [
+    71,
+    null
+   ],
+   "originalTitle": "mromidev/claude-animated-shorts",
+   "related": []
+  }
+ ],
  "nearMiss": [
   {
-   "title": "smithjohn78390/tongjiang-lab",
-   "url": "https://github.com/smithjohn78390/tongjiang-lab",
-   "score": 61,
+   "title": "speridlabs/idol-sdk",
+   "url": "https://github.com/speridlabs/idol-sdk",
+   "score": 64,
    "source": "GitHub 新專案"
   },
   {
    "title": "yzlin286-wq/Deepscient",
    "url": "https://github.com/yzlin286-wq/Deepscient",
-   "score": 58,
+   "score": 63,
    "source": "GitHub DSH 生態"
+  },
+  {
+   "title": "elvarofficial/teardown",
+   "url": "https://github.com/elvarofficial/teardown",
+   "score": 63,
+   "source": "GitHub 新專案"
+  },
+  {
+   "title": "Mieksido/surfcore",
+   "url": "https://github.com/Mieksido/surfcore",
+   "score": 62,
+   "source": "GitHub DSH 生態"
+  },
+  {
+   "title": "NiazMorshed2007/reanimate",
+   "url": "https://github.com/NiazMorshed2007/reanimate",
+   "score": 62,
+   "source": "GitHub 新專案"
   }
  ],
  "stats": {
@@ -47,13 +98,13 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 7,
+    "count": 10,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 4,
+    "count": 3,
     "error": null
    },
    {
@@ -65,7 +116,7 @@
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 0,
+    "count": 7,
     "error": null
    },
    {
@@ -77,27 +128,28 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 0,
+    "count": 2,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 0,
+    "count": 2,
     "error": null
    }
   ],
-  "candidates": 44,
-  "prefilterPass": 21,
-  "scored": 17,
-  "picked": 0,
+  "candidates": 59,
+  "prefilterPass": 45,
+  "scored": 45,
+  "picked": 2,
   "llm": {
-   "calls": 25,
+   "calls": 100,
    "failures": 19,
    "byRoute": {
-    "owob:deepseek-free": 6
+    "owob:deepseek-free": 2,
+    "owob:deepseek-v4.1-flash": 79
    },
-   "tokens": 4100
+   "tokens": 105725
   }
  }
 }
