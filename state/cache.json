@@ -1,214 +1,4 @@
 {
- "prefilter:d2932bff:deepseek:https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector": {
-  "v": {
-   "label": "BLOCK",
-   "reason": "AI產業經濟效益的商業新聞，非開發工具或技術"
-  },
-  "at": "2026-10-25T01:22:33.316Z"
- },
- "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/24/battledrones": {
-  "v": {
-   "label": "PASS",
-   "reason": "用Claude開發多人網頁遊戲地圖與WebSocket程式"
-  },
-  "at": "2026-10-25T01:22:33.808Z"
- },
- "prefilter:d2932bff:deepseek:https://latent.space/p/ainews-kimi-31": {
-  "v": {
-   "label": "PASS",
-   "reason": "Kimi 開源權重模型與 API 速度，屬 AI 模型與可用性"
-  },
-  "at": "2026-10-25T01:22:33.827Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/amosblomqvist/learnharness": {
-  "v": {
-   "label": "PASS",
-   "reason": "AI agent harness 開源專案，與開發工具相關"
-  },
-  "at": "2026-10-25T01:22:34.998Z"
- },
- "prefilter:d2932bff:deepseek:https://aardappel.github.io/goose": {
-  "v": {
-   "label": "PASS",
-   "reason": "程式語言與開源開發工具相關"
-  },
-  "at": "2026-10-25T01:22:35.467Z"
- },
- "prefilter:d2932bff:deepseek:https://freedns.afraid.org": {
-  "v": {
-   "label": "PASS",
-   "reason": "免費DNS服務,與網頁部署開發相關"
-  },
-  "at": "2026-10-25T01:22:37.155Z"
- },
- "prefilter:d2932bff:deepseek:https://stealmybitcoin.com": {
-  "v": {
-   "label": "PASS",
-   "reason": "Show HN 網頁 PHP RCE 挑戰，與 Web 開發資安相關"
-  },
-  "at": "2026-10-25T01:22:37.318Z"
- },
- "prefilter:d2932bff:deepseek:https://www.southampton.ac.uk/~doug/quantum_physics/index.html": {
-  "v": {
-   "label": "BLOCK",
-   "reason": "量子物理科普文章，與AI、開發工具或程式開發無關"
-  },
-  "at": "2026-10-25T01:22:38.011Z"
- },
- "prefilter:d2932bff:deepseek:https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
-  "v": {
-   "label": "PASS",
-   "reason": "HTTP函式庫安全漏洞，與開發者相關"
-  },
-  "at": "2026-10-25T01:22:38.689Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/Zagitta/gpu-unlock": {
-  "v": {
-   "label": "PASS",
-   "reason": "GPU FP/BF16 運算吞吐解鎖，與本地 AI 推論效能相關"
-  },
-  "at": "2026-10-25T01:22:39.099Z"
- },
- "prefilter:d2932bff:deepseek:https://rtfeldman.com/fp-vs-c": {
-  "v": {
-   "label": "PASS",
-   "reason": "程式語言效能比較，與開發工具實質相關"
-  },
-  "at": "2026-10-25T01:22:39.833Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-1017-2x-DGX-Sparks": {
-  "v": {
-   "label": "PASS",
-   "reason": "AI 模型本地部署與推論工具，與開發者實質相關"
-  },
-  "at": "2026-10-25T01:22:41.196Z"
- },
- "prefilter:d2932bff:deepseek:https://philipotoole.com/twelve-years-of-distributed-sqlite": {
-  "v": {
-   "label": "PASS",
-   "reason": "分散式SQLite開發經驗，屬開發工具/開源資料庫"
-  },
-  "at": "2026-10-25T01:22:41.561Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/assetnote/php2shell-scanner": {
-  "v": {
-   "label": "PASS",
-   "reason": "開源漏洞掃描工具，屬開發/資安工具"
-  },
-  "at": "2026-10-25T01:22:42.566Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/nthnclrk/CleanFrame": {
-  "v": {
-   "label": "PASS",
-   "reason": "開源前端專案，可用 coding agent 改作 TV 首頁介面"
-  },
-  "at": "2026-10-25T01:22:43.737Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/VictorTaelin/uniichat": {
-  "v": {
-   "label": "PASS",
-   "reason": "AI agent 專案，含記憶樹、工具呼叫與開源原始碼"
-  },
-  "at": "2026-10-25T01:22:47.404Z"
- },
- "prefilter:d2932bff:deepseek:https://blog.roku.com/developer/gitlab-move": {
-  "v": {
-   "label": "PASS",
-   "reason": "GitHub轉GitLab屬開發工具平台動態"
-  },
-  "at": "2026-10-25T01:22:47.852Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/JustAResearcher/gpu-unlock-ada": {
-  "v": {
-   "label": "BLOCK",
-   "reason": "GPU 韌體解鎖與跑分數據，屬硬體改造非開發工具"
-  },
-  "at": "2026-10-25T01:22:49.628Z"
- },
- "scoreB:118d0780:glm:https://github.com/amosblomqvist/learnharness": {
-  "v": 36,
-  "at": "2026-10-25T01:22:56.114Z"
- },
- "scoreA:118d0780:deepseek:https://latent.space/p/ainews-kimi-31": {
-  "v": 70,
-  "at": "2026-10-25T01:22:57.344Z"
- },
- "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Oct/24/battledrones": {
-  "v": 59,
-  "at": "2026-10-25T01:22:57.751Z"
- },
- "scoreA:118d0780:deepseek:https://aardappel.github.io/goose": {
-  "v": 38,
-  "at": "2026-10-25T01:22:57.923Z"
- },
- "scoreA:118d0780:deepseek:https://stealmybitcoin.com": {
-  "v": 54,
-  "at": "2026-10-25T01:22:58.219Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/amosblomqvist/learnharness": {
-  "v": 38,
-  "at": "2026-10-25T01:22:58.908Z"
- },
- "scoreB:118d0780:glm:https://stealmybitcoin.com": {
-  "v": 52,
-  "at": "2026-10-25T01:23:01.082Z"
- },
- "scoreA:118d0780:deepseek:https://blog.roku.com/developer/gitlab-move": {
-  "v": 25,
-  "at": "2026-10-25T01:23:04.837Z"
- },
- "scoreB:118d0780:glm:https://latent.space/p/ainews-kimi-31": {
-  "v": 65,
-  "at": "2026-10-25T01:23:05.444Z"
- },
- "scoreB:118d0780:glm:https://blog.roku.com/developer/gitlab-move": {
-  "v": 8,
-  "at": "2026-10-25T01:23:07.454Z"
- },
- "scoreA:118d0780:deepseek:https://freedns.afraid.org": {
-  "v": 50,
-  "at": "2026-10-25T01:23:08.546Z"
- },
- "scoreB:118d0780:glm:https://freedns.afraid.org": {
-  "v": 40,
-  "at": "2026-10-25T01:23:10.500Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/Zagitta/gpu-unlock": {
-  "v": 26,
-  "at": "2026-10-25T01:23:10.999Z"
- },
- "scoreB:118d0780:glm:https://github.com/Zagitta/gpu-unlock": {
-  "v": 28,
-  "at": "2026-10-25T01:23:16.281Z"
- },
- "scoreB:118d0780:glm:https://rtfeldman.com/fp-vs-c": {
-  "v": 32,
-  "at": "2026-10-25T01:23:16.856Z"
- },
- "scoreB:118d0780:glm:https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
-  "v": 56,
-  "at": "2026-10-25T01:23:18.438Z"
- },
- "scoreA:118d0780:deepseek:https://rtfeldman.com/fp-vs-c": {
-  "v": 35,
-  "at": "2026-10-25T01:23:18.808Z"
- },
- "scoreB:118d0780:glm:https://philipotoole.com/twelve-years-of-distributed-sqlite": {
-  "v": 26,
-  "at": "2026-10-25T01:23:22.524Z"
- },
- "scoreA:118d0780:deepseek:https://philipotoole.com/twelve-years-of-distributed-sqlite": {
-  "v": 35,
-  "at": "2026-10-25T01:23:23.116Z"
- },
- "scoreA:118d0780:deepseek:https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
-  "v": 49,
-  "at": "2026-10-25T01:23:28.797Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-1017-2x-DGX-Sparks": {
-  "v": 24,
-  "at": "2026-10-25T01:23:36.223Z"
- },
  "prefilter:d2932bff:deepseek:https://lynchlab.net/llm-skin-cancer": {
   "v": {
    "label": "PASS",
@@ -3010,5 +2800,307 @@
    "why": "照 SKILL.md 流程做出自己的直式動畫短片，範例原始碼可直接改。"
   },
   "at": "2026-11-03T04:01:40.443Z"
+ },
+ "prefilter:d2932bff:deepseek:https://arxiv.org/abs/2605.29713": {
+  "v": {
+   "label": "PASS",
+   "reason": "生成式AI數學基礎教材，與AI模型實質相關"
+  },
+  "at": "2026-11-04T03:04:44.592Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/allenai/statebench": {
+  "v": {
+   "label": "PASS",
+   "reason": "語言模型長文本狀態追蹤評測，屬AI模型研究"
+  },
+  "at": "2026-11-04T03:04:44.966Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/accelerating-engineering-for-the-physical-world": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI Codex 應用於工程設計工作流，與 coding agent 相關"
+  },
+  "at": "2026-11-04T03:04:47.305Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 用量 API 與 BYOK 自帶金鑰模型，屬 coding agent 開發生態"
+  },
+  "at": "2026-11-04T03:04:47.334Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/cwe-bench": {
+  "v": {
+   "label": "PASS",
+   "reason": "CWE-bench 是程式碼評測基準，與 AI 模型開發相關"
+  },
+  "at": "2026-11-04T03:05:28.915Z"
+ },
+ "prefilter:d2932bff:deepseek:https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "AI 產業財務債務新聞,與開發工具無實質關係"
+  },
+  "at": "2026-11-04T03:05:32.541Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/heimstaden": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI企業用ChatGPT/Codex案例，與AI工具生態相關"
+  },
+  "at": "2026-11-04T03:05:46.807Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/transformers-mic": {
+  "v": {
+   "label": "PASS",
+   "reason": "Hugging Face 模型整合技術文，與 AI 開發相關"
+  },
+  "at": "2026-11-04T03:05:58.796Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "OpenAI人事任命企業事務，與開發工具無關"
+  },
+  "at": "2026-11-04T03:05:59.025Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 整合 JetBrains Air 的 coding agent 工具消息"
+  },
+  "at": "2026-11-04T03:06:13.821Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/postmanlabs/postman-app-support/issues/14370": {
+  "v": {
+   "label": "PASS",
+   "reason": "Postman 開發工具自動安裝 AI 外掛與 API 資料外洩的資安爭議"
+  },
+  "at": "2026-11-04T03:06:20.409Z"
+ },
+ "prefilter:d2932bff:deepseek:https://neufangled.com": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源機器人專案,屬開源/機器人範疇"
+  },
+  "at": "2026-11-04T03:06:25.091Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15": {
+  "v": {
+   "label": "PASS",
+   "reason": "Dependabot 開發工具支援新 Python 版本"
+  },
+  "at": "2026-11-04T03:06:25.230Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub開發工具認證更新"
+  },
+  "at": "2026-11-04T03:06:27.329Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Minglink/dsh-jailbreak-workflow": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 工作流插件與 Skill，屬 coding agent 工具"
+  },
+  "at": "2026-11-04T03:06:28.153Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/aureth-labs/dsh-aurabot-qq": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 的 QQ 機器人外掛，含模組系統與工具呼叫，與開發直接相關"
+  },
+  "at": "2026-11-04T03:06:30.328Z"
+ },
+ "prefilter:d2932bff:deepseek:https://hackertv.org": {
+  "v": {
+   "label": "PASS",
+   "reason": "Show HN 開源專案,用 Claude Code 打造的 Web 應用"
+  },
+  "at": "2026-11-04T03:06:31.507Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Pika-Labs/Pika-H3-Flex": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 影片音訊生成模型與開源權重，屬 AI 繪圖影像工具"
+  },
+  "at": "2026-11-04T03:06:34.509Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/nanami-0713/relay-kit": {
+  "v": 63,
+  "at": "2026-11-04T03:06:59.680Z"
+ },
+ "scoreA:118d0780:deepseek:https://arxiv.org/abs/2605.29713": {
+  "v": 35,
+  "at": "2026-11-04T03:07:00.321Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/deepseek-ai/dsh-superagent-prototype": {
+  "v": 66,
+  "at": "2026-11-04T03:07:01.122Z"
+ },
+ "scoreB:118d0780:glm:https://arxiv.org/abs/2605.29713": {
+  "v": 33,
+  "at": "2026-11-04T03:07:01.214Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/modelflare-ai/AnyModelBot": {
+  "v": 62,
+  "at": "2026-11-04T03:07:01.632Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/accelerating-engineering-for-the-physical-world": {
+  "v": 20,
+  "at": "2026-11-04T03:07:05.595Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/glincker/awesome-selfhosted-ai": {
+  "v": 60,
+  "at": "2026-11-04T03:07:08.019Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api": {
+  "v": 20,
+  "at": "2026-11-04T03:07:08.092Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/storytold/craft-anything": {
+  "v": 72,
+  "at": "2026-11-04T03:07:09.944Z"
+ },
+ "scoreB:118d0780:glm:https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora": {
+  "v": 16,
+  "at": "2026-11-04T03:07:11.055Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/heimstaden": {
+  "v": 15,
+  "at": "2026-11-04T03:07:15.037Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/heimstaden": {
+  "v": 18,
+  "at": "2026-11-04T03:07:15.372Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/cwe-bench": {
+  "v": 32,
+  "at": "2026-11-04T03:07:15.930Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/2/llm": {
+  "v": 46,
+  "at": "2026-11-04T03:07:16.164Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/cwe-bench": {
+  "v": 26,
+  "at": "2026-11-04T03:07:17.232Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air": {
+  "v": 20,
+  "at": "2026-11-04T03:07:22.055Z"
+ },
+ "scoreB:118d0780:glm:https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora": {
+  "v": 22,
+  "at": "2026-11-04T03:07:23.213Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air": {
+  "v": 24,
+  "at": "2026-11-04T03:07:24.428Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Mieksido/surfcore": {
+  "v": 67,
+  "at": "2026-11-04T03:07:25.722Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15": {
+  "v": 20,
+  "at": "2026-11-04T03:07:31.058Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15": {
+  "v": 16,
+  "at": "2026-11-04T03:07:31.979Z"
+ },
+ "scoreB:118d0780:glm:https://neufangled.com": {
+  "v": 42,
+  "at": "2026-11-04T03:07:32.892Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/transformers-mic": {
+  "v": 20,
+  "at": "2026-11-04T03:07:33.583Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/postmanlabs/postman-app-support/issues/14370": {
+  "v": 58,
+  "at": "2026-11-04T03:07:33.950Z"
+ },
+ "scoreA:118d0780:deepseek:https://neufangled.com": {
+  "v": 40,
+  "at": "2026-11-04T03:07:34.124Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Minglink/dsh-jailbreak-workflow": {
+  "v": 68,
+  "at": "2026-11-04T03:07:36.365Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/aureth-labs/dsh-aurabot-qq": {
+  "v": 74,
+  "at": "2026-11-04T03:07:41.306Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Minglink/dsh-jailbreak-workflow": {
+  "v": 74,
+  "at": "2026-11-04T03:07:41.778Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Verlintas/NOIR": {
+  "v": 54,
+  "at": "2026-11-04T03:07:42.654Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/postmanlabs/postman-app-support/issues/14370": {
+  "v": 50,
+  "at": "2026-11-04T03:07:43.183Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/aureth-labs/dsh-aurabot-qq": {
+  "v": 74,
+  "at": "2026-11-04T03:07:43.726Z"
+ },
+ "scoreA:118d0780:deepseek:https://hackertv.org": {
+  "v": 42,
+  "at": "2026-11-04T03:07:51.828Z"
+ },
+ "scoreB:118d0780:glm:https://hackertv.org": {
+  "v": 52,
+  "at": "2026-11-04T03:07:52.129Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/elvarofficial/teardown": {
+  "v": 74,
+  "at": "2026-11-04T03:07:53.039Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Pika-Labs/Pika-H3-Flex": {
+  "v": 54,
+  "at": "2026-11-04T03:07:55.126Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/caru-ini/stack-diagram": {
+  "v": 60,
+  "at": "2026-11-04T03:07:56.113Z"
+ },
+ "write:2d964375:claude:https://github.com/elvarofficial/teardown": {
+  "v": {
+   "title": "teardown：機器變3D模擬器",
+   "summary": "elvarofficial/teardown 是 Claude Code 技能，問機器怎麼運作，它會生成單一離線 HTML 頁面，能拆開零件看運作，閒置時還會自動導覽。",
+   "why": "想做機械原理的網頁小遊戲或互動教具，可參考它把 3D 模擬打包成單一 HTML 的做法。"
+  },
+  "at": "2026-11-04T03:08:15.726Z"
+ },
+ "write:2d964375:claude:https://github.com/storytold/craft-anything": {
+  "v": {
+   "title": "開源工具讓AI研究並重做軟體",
+   "summary": "Craft Anything 是 Rust 寫的開源引擎，能檢視網站、App 或遊戲，再讓 coding agent 做出新版本，並和原版比對修正。",
+   "why": "可拿來拆解喜歡的網頁小遊戲怎麼運作，再請 AI 照你要的技術重做一版。"
+  },
+  "at": "2026-11-04T03:08:16.523Z"
+ },
+ "write:2d964375:claude:https://github.com/Minglink/dsh-jailbreak-workflow": {
+  "v": {
+   "title": "DSH 工作流插件可在畫布設計流程",
+   "summary": "dsh-jailbreak-workflow 是 DSH 工作流插件：在畫布設計流程，編譯成計劃提示詞讓模型執行，支援分支與循環。",
+   "why": "可用一句話請模型建出「寫程式→審查→不過就回頭修」的循環流程。"
+  },
+  "at": "2026-11-04T03:08:16.678Z"
+ },
+ "write:2d964375:claude:https://github.com/Mieksido/surfcore": {
+  "v": {
+   "title": "SurfCore 給 DSH 加身份",
+   "summary": "SurfCore 是 DSH 的 agent 外掛，給模型身份、會遺忘的記憶與作息，並能操作 QQ、B站和桌寵。MIT 授權，僅支援 Windows。",
+   "why": "想讓自己的 DSH agent 有人設和記憶可參考，但需要 Windows 電腦才能裝。"
+  },
+  "at": "2026-11-04T03:08:25.264Z"
  }
 }
