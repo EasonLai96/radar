@@ -1,210 +1,4 @@
 {
- "prefilter:d2932bff:deepseek:https://lynchlab.net/llm-skin-cancer": {
-  "v": {
-   "label": "PASS",
-   "reason": "AI模型能力比較，與模型評測實質相關"
-  },
-  "at": "2026-10-26T01:26:40.380Z"
- },
- "prefilter:d2932bff:deepseek:https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25": {
-  "v": {
-   "label": "BLOCK",
-   "reason": "塞爾維亞政治選舉新聞,與開發無關"
-  },
-  "at": "2026-10-26T01:26:40.814Z"
- },
- "prefilter:d2932bff:deepseek:https://talkweb.eu/openweb/4558": {
-  "v": {
-   "label": "BLOCK",
-   "reason": "網路審查政策話題，與開發工具無實質關聯"
-  },
-  "at": "2026-10-26T01:26:41.750Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/lucianodiisouza/flecha-browser": {
-  "v": {
-   "label": "PASS",
-   "reason": "開源開發者瀏覽器，內建MCP伺服器供coding agent使用"
-  },
-  "at": "2026-10-26T01:26:43.378Z"
- },
- "prefilter:d2932bff:deepseek:https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee": {
-  "v": {
-   "label": "BLOCK",
-   "reason": "警察與新聞機構的公共紀錄費用爭議，屬一般新聞非開發相關"
-  },
-  "at": "2026-10-26T01:26:43.500Z"
- },
- "prefilter:d2932bff:deepseek:https://imaginationlibrary.com": {
-  "v": {
-   "label": "BLOCK",
-   "reason": "兒童贈書公益計畫，與AI及開發無關"
-  },
-  "at": "2026-10-26T01:26:45.203Z"
- },
- "prefilter:d2932bff:deepseek:https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html": {
-  "v": {
-   "label": "BLOCK",
-   "reason": "AI教育政策新聞，與開發工具無實質關係"
-  },
-  "at": "2026-10-26T01:26:47.515Z"
- },
- "prefilter:d2932bff:deepseek:https://danluu.com/ambitious": {
-  "v": {
-   "label": "PASS",
-   "reason": "軟體開發實務與野心反思,開發者相關"
-  },
-  "at": "2026-10-26T01:26:48.726Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/JetBrains/thinkrail": {
-  "v": {
-   "label": "PASS",
-   "reason": "JetBrains 開源專案，likely 開發工具/agent 相關"
-  },
-  "at": "2026-10-26T01:26:51.389Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/morganlinton/BeautifulRust": {
-  "v": {
-   "label": "PASS",
-   "reason": "Claude Code 技能外掛，教 agent 寫 Rust，屬 coding agent 技能"
-  },
-  "at": "2026-10-26T01:26:52.092Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/rddmwmddr/android-ad-cleaner": {
-  "v": {
-   "label": "PASS",
-   "reason": "開源 adb 工具，含 AI 智能體執行支援"
-  },
-  "at": "2026-10-26T01:26:52.757Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/lyramakesmusic/neuron-explorer": {
-  "v": {
-   "label": "PASS",
-   "reason": "開源模型可解釋性與神經元steering工具,含MCP整合"
-  },
-  "at": "2026-10-26T01:26:55.474Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/routerhubSI/glm-5.3-abliterated": {
-  "v": {
-   "label": "PASS",
-   "reason": "模型API、價格與coding工具設定相關,非成人內容"
-  },
-  "at": "2026-10-26T01:26:58.039Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/udhaykumarbala/cleanyourtv-app": {
-  "v": {
-   "label": "PASS",
-   "reason": "開源Android工具專案，含ADB與coding agent操作對比"
-  },
-  "at": "2026-10-26T01:26:58.426Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/designfuchen/word-atlas": {
-  "v": {
-   "label": "PASS",
-   "reason": "開源 TypeScript 網頁專案,含 AI 插畫與 FSRS 學習系統"
-  },
-  "at": "2026-10-26T01:26:58.590Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/torrentplayer/torrentplayer": {
-  "v": {
-   "label": "PASS",
-   "reason": "開源Rust種子串流播放器,屬開發專案"
-  },
-  "at": "2026-10-26T01:26:59.047Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/DenisSergeevitch/ex-ussr-kinship-research": {
-  "v": {
-   "label": "PASS",
-   "reason": "AI agent 技能（Claude Code/Codex）開源專案，與開發工具有關"
-  },
-  "at": "2026-10-26T01:26:59.446Z"
- },
- "prefilter:d2932bff:deepseek:https://github.com/mizorewww/gdirect": {
-  "v": {
-   "label": "PASS",
-   "reason": "Rust 開源命令列工具，Google Drive 下載器，屬開發工具"
-  },
-  "at": "2026-10-26T01:26:59.476Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/JetBrains/thinkrail": {
-  "v": 35,
-  "at": "2026-10-26T01:27:07.338Z"
- },
- "scoreB:118d0780:glm:https://github.com/lucianodiisouza/flecha-browser": {
-  "v": 47,
-  "at": "2026-10-26T01:27:07.433Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/lucianodiisouza/flecha-browser": {
-  "v": 55,
-  "at": "2026-10-26T01:27:07.579Z"
- },
- "scoreB:118d0780:glm:https://github.com/routerhubSI/glm-5.3-abliterated": {
-  "v": 25,
-  "at": "2026-10-26T01:27:08.175Z"
- },
- "scoreB:118d0780:glm:https://danluu.com/ambitious": {
-  "v": 30,
-  "at": "2026-10-26T01:27:09.121Z"
- },
- "scoreB:118d0780:glm:https://lynchlab.net/llm-skin-cancer": {
-  "v": 45,
-  "at": "2026-10-26T01:27:09.226Z"
- },
- "scoreA:118d0780:deepseek:https://danluu.com/ambitious": {
-  "v": 34,
-  "at": "2026-10-26T01:27:10.431Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/routerhubSI/glm-5.3-abliterated": {
-  "v": 34,
-  "at": "2026-10-26T01:27:11.575Z"
- },
- "scoreB:118d0780:glm:https://github.com/JetBrains/thinkrail": {
-  "v": 30,
-  "at": "2026-10-26T01:27:11.623Z"
- },
- "scoreA:118d0780:deepseek:https://lynchlab.net/llm-skin-cancer": {
-  "v": 37,
-  "at": "2026-10-26T01:27:11.714Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/assetnote/php2shell-scanner": {
-  "v": 48,
-  "at": "2026-10-26T01:27:18.258Z"
- },
- "scoreB:118d0780:glm:https://github.com/assetnote/php2shell-scanner": {
-  "v": 32,
-  "at": "2026-10-26T01:27:19.229Z"
- },
- "scoreB:118d0780:glm:https://github.com/rddmwmddr/android-ad-cleaner": {
-  "v": 57,
-  "at": "2026-10-26T01:27:19.538Z"
- },
- "scoreB:118d0780:glm:https://github.com/lyramakesmusic/neuron-explorer": {
-  "v": 54,
-  "at": "2026-10-26T01:27:20.275Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/rddmwmddr/android-ad-cleaner": {
-  "v": 51,
-  "at": "2026-10-26T01:27:20.425Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/morganlinton/BeautifulRust": {
-  "v": 55,
-  "at": "2026-10-26T01:27:21.549Z"
- },
- "scoreB:118d0780:glm:https://github.com/morganlinton/BeautifulRust": {
-  "v": 55,
-  "at": "2026-10-26T01:27:24.250Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/nthnclrk/CleanFrame": {
-  "v": 51,
-  "at": "2026-10-26T01:27:26.610Z"
- },
- "scoreB:118d0780:glm:https://github.com/nthnclrk/CleanFrame": {
-  "v": 40,
-  "at": "2026-10-26T01:27:28.338Z"
- },
- "scoreA:118d0780:deepseek:https://github.com/torrentplayer/torrentplayer": {
-  "v": 38,
-  "at": "2026-10-26T01:27:31.429Z"
- },
  "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Oct/26/gpt-61-terra": {
   "v": {
    "label": "PASS",
@@ -3102,5 +2896,576 @@
    "why": "想讓自己的 DSH agent 有人設和記憶可參考，但需要 Windows 電腦才能裝。"
   },
   "at": "2026-11-04T03:08:25.264Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/introducing-images-2-6": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 新影像模型，屬 AI 繪圖工具"
+  },
+  "at": "2026-11-05T03:35:53.320Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/Dharma-AI/dharma-field-extractor": {
+  "v": {
+   "label": "PASS",
+   "reason": "HF 部落格文件抽取 AI 工具，與開發相關"
+  },
+  "at": "2026-11-05T03:35:54.851Z"
+ },
+ "prefilter:d2932bff:deepseek:https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI工程與開發相關電子報內容"
+  },
+  "at": "2026-11-05T03:35:54.965Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata": {
+  "v": {
+   "label": "PASS",
+   "reason": "CodeQL 靜態分析工具更新，屬開發者工具"
+  },
+  "at": "2026-11-05T03:36:01.075Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/4/datasette-llm": {
+  "v": {
+   "label": "PASS",
+   "reason": "Datasette 的 LLM 外掛修復模型限制 bug，屬開發工具"
+  },
+  "at": "2026-11-05T03:36:08.699Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/devrev-enterprise-self-service": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI模型與自主代理應用，與開發相關"
+  },
+  "at": "2026-11-05T03:36:13.439Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot整合Xcode，屬coding agent開發工具"
+  },
+  "at": "2026-11-05T03:36:17.982Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/routerhubSI/glm-5.3-abliterated": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "主打越獄無審查模型與jailbreak提示,恐導向NSFW"
+  },
+  "at": "2026-11-05T03:36:24.315Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/daybreak-red-aws-govcloud": {
+  "v": {
+   "label": "PASS",
+   "reason": "GPT-5.6 Cyber 經 Bedrock 上架，屬模型可用性"
+  },
+  "at": "2026-11-05T03:36:27.666Z"
+ },
+ "prefilter:d2932bff:deepseek:https://layer3intel.com/blog/residential-proxies-white-house-network": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "白宮網路代理新聞屬一般資安時事，與開發無實質關係"
+  },
+  "at": "2026-11-05T03:36:28.942Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/KKKKhazix/agent-autoloop": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源CLI Agent自動化中台，與Claude Code/Codex開發直接相關"
+  },
+  "at": "2026-11-05T03:36:29.466Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/3/datasette-agent": {
+  "v": {
+   "label": "PASS",
+   "reason": "Datasette Agent 發佈,與 agent 開發工具有關"
+  },
+  "at": "2026-11-05T03:36:32.362Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/op7418/dsh-guizang-design": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH插件与skills，开发工具相关"
+  },
+  "at": "2026-11-05T03:36:32.968Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/a-thousand-fewer-paths-to-root": {
+  "v": {
+   "label": "UNKNOWN",
+   "reason": "僅標題與網址，無法判斷內容"
+  },
+  "at": "2026-11-05T03:36:33.036Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/akari-sora/synology-nas-cli": {
+  "v": {
+   "label": "PASS",
+   "reason": "Python CLI 加 MCP server，供 AI agent 操作 NAS 的開發工具"
+  },
+  "at": "2026-11-05T03:36:33.604Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "昆蟲與LED路燈科普，與AI開發無關"
+  },
+  "at": "2026-11-05T03:36:35.520Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/govijr/terminal-mac": {
+  "v": {
+   "label": "PASS",
+   "reason": "終端機操控 macOS 虛擬機供 computer-use agent 使用的開發工具"
+  },
+  "at": "2026-11-05T03:36:36.614Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/3/llm": {
+  "v": {
+   "label": "PASS",
+   "reason": "Simon Willison 的 LLM CLI 工具修補版本，屬開發工具"
+  },
+  "at": "2026-11-05T03:36:37.442Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.ricursive.com/ripple": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源權重AI模型與Agentic Coding相關"
+  },
+  "at": "2026-11-05T03:36:38.578Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/ElysiumForge-Labs/elysium-chain-mcp": {
+  "v": {
+   "label": "PASS",
+   "reason": "MCP server 開源專案，與 AI agent 工具相關"
+  },
+  "at": "2026-11-05T03:36:38.974Z"
+ },
+ "prefilter:d2932bff:deepseek:https://go.dev/blog/jsonv2": {
+  "v": {
+   "label": "PASS",
+   "reason": "Go 語言 JSON API 開發工具更新"
+  },
+  "at": "2026-11-05T03:36:39.345Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.anthropic.com/research/provable-inference": {
+  "v": {
+   "label": "PASS",
+   "reason": "Anthropic 發表 LLM 可證明推論研究，屬 AI 模型主題"
+  },
+  "at": "2026-11-05T03:36:39.689Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/wquguru/cicada": {
+  "v": {
+   "label": "PASS",
+   "reason": "开源实时字幕与AI会议纪要工具，跨平台开发项目"
+  },
+  "at": "2026-11-05T03:36:40.011Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "AMD/Intel CPU 銷售商業新聞，與 AI 開發工具無關"
+  },
+  "at": "2026-11-05T03:36:41.684Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/anthropics/FlashProve": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 推論零知識證明開源專案，可用 coding agent 執行"
+  },
+  "at": "2026-11-05T03:36:42.722Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/moonshotai/Kimi-K3.1-Pro": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源模型權重發布,與AI模型可用性相關"
+  },
+  "at": "2026-11-05T03:36:42.766Z"
+ },
+ "prefilter:d2932bff:deepseek:https://99percentinvisible.org/article/guerrilla-bike-lanes-san-francisco-makes-illicit-infrastructure-permanent": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "都市單車道社會議題，與AI開發無關"
+  },
+  "at": "2026-11-05T03:36:44.927Z"
+ },
+ "prefilter:d2932bff:deepseek:https://news.ycombinator.com/item?id=50366117": {
+  "v": {
+   "label": "PASS",
+   "reason": "討論AI agent訂閱、模型與coding harness工作流，與開發者高度相關"
+  },
+  "at": "2026-11-05T03:36:46.019Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/4/datasette-apps": {
+  "v": {
+   "label": "PASS",
+   "reason": "Datasette Apps 新版本，與 LLM Agent 工具整合開發相關"
+  },
+  "at": "2026-11-05T03:36:46.391Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/zortos293/Lichii": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 C++ 模擬器專案，屬開發/開源範疇"
+  },
+  "at": "2026-11-05T03:36:46.462Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Minireel/HGhub": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 Tauri+React 客戶端，屬前端與開發工具範疇"
+  },
+  "at": "2026-11-05T03:36:47.631Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/openai-to-acquire-pierre": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI收購AI電腦公司，與AI代理及開發工具相關"
+  },
+  "at": "2026-11-05T03:36:49.800Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "批量盜號綁卡刷免費試用灰產推廣，非開發工具"
+  },
+  "at": "2026-11-05T03:36:50.516Z"
+ },
+ "prefilter:d2932bff:deepseek:https://hy.tencent.ai/research/hy4": {
+  "v": {
+   "label": "PASS",
+   "reason": "騰訊新AI模型發布，屬模型可用性範疇"
+  },
+  "at": "2026-11-05T03:36:50.787Z"
+ },
+ "prefilter:d2932bff:deepseek:https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "一般科技/資安新聞，非開發工具"
+  },
+  "at": "2026-11-05T03:36:51.184Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.githubstatus.com/incidents/smtdswd1h2w4": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub 服務事件影響 PR 與 Git 操作，與開發者工作流直接相關"
+  },
+  "at": "2026-11-05T03:36:52.542Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Balanov/uncut": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 headless coding agent harness，與 coding agent 工具開發直接相關"
+  },
+  "at": "2026-11-05T03:36:55.998Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/alchaincyf/huashu-bird-sticker": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源鳥類貼紙庫含AI生成圖像與結構化資料，屬開源/AI繪圖相關"
+  },
+  "at": "2026-11-05T03:36:57.292Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/UncensoredLabs/uncensored-ai-api": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "主打 uncensored/abliterated 無審查模型 API，屬 NSFW 高風險"
+  },
+  "at": "2026-11-05T03:36:58.754Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/AssassinCreator/steam-stash-value-report-card": {
+  "v": {
+   "label": "PASS",
+   "reason": "Python 開源 CLI 工具，終端機估價並輸出 PNG 分享卡"
+  },
+  "at": "2026-11-05T03:37:00.638Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/s1dashu/quiet-md": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 Rust+GPUI 原生應用，屬開發／開源專案"
+  },
+  "at": "2026-11-05T03:37:06.507Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/4/datasette-llm": {
+  "v": 24,
+  "at": "2026-11-05T03:37:09.313Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/introducing-images-2-6": {
+  "v": 60,
+  "at": "2026-11-05T03:37:12.182Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/Dharma-AI/dharma-field-extractor": {
+  "v": 27,
+  "at": "2026-11-05T03:37:12.746Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/4/datasette-llm": {
+  "v": 22,
+  "at": "2026-11-05T03:37:13.182Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata": {
+  "v": 13,
+  "at": "2026-11-05T03:37:14.418Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata": {
+  "v": 15,
+  "at": "2026-11-05T03:37:15.294Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/Dharma-AI/dharma-field-extractor": {
+  "v": 32,
+  "at": "2026-11-05T03:37:16.469Z"
+ },
+ "scoreB:118d0780:glm:https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai": {
+  "v": 12,
+  "at": "2026-11-05T03:37:17.369Z"
+ },
+ "scoreA:118d0780:deepseek:https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai": {
+  "v": 12,
+  "at": "2026-11-05T03:37:17.819Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/KKKKhazix/agent-autoloop": {
+  "v": 82,
+  "at": "2026-11-05T03:37:18.596Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/ElysiumForge-Labs/elysium-chain-mcp": {
+  "v": 31,
+  "at": "2026-11-05T03:37:19.399Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/a-thousand-fewer-paths-to-root": {
+  "v": 34,
+  "at": "2026-11-05T03:37:20.493Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/KKKKhazix/agent-autoloop": {
+  "v": 69,
+  "at": "2026-11-05T03:37:21.007Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/a-thousand-fewer-paths-to-root": {
+  "v": 21,
+  "at": "2026-11-05T03:37:24.804Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/4/datasette-apps": {
+  "v": 34,
+  "at": "2026-11-05T03:37:27.204Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/4/datasette-apps": {
+  "v": 36,
+  "at": "2026-11-05T03:37:27.359Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/introducing-images-2-6": {
+  "v": 38,
+  "at": "2026-11-05T03:37:28.444Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/devrev-enterprise-self-service": {
+  "v": 22,
+  "at": "2026-11-05T03:37:29.576Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/devrev-enterprise-self-service": {
+  "v": 20,
+  "at": "2026-11-05T03:37:29.978Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant": {
+  "v": 24,
+  "at": "2026-11-05T03:37:30.305Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant": {
+  "v": 23,
+  "at": "2026-11-05T03:37:32.695Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/3/datasette-agent": {
+  "v": 54,
+  "at": "2026-11-05T03:37:32.794Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/op7418/dsh-guizang-design": {
+  "v": 86,
+  "at": "2026-11-05T03:37:35.437Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api": {
+  "v": 25,
+  "at": "2026-11-05T03:37:36.212Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/op7418/dsh-guizang-design": {
+  "v": 73,
+  "at": "2026-11-05T03:37:37.955Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/akari-sora/synology-nas-cli": {
+  "v": 35,
+  "at": "2026-11-05T03:37:40.132Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/3/llm": {
+  "v": 28,
+  "at": "2026-11-05T03:37:40.504Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/3/llm": {
+  "v": 28,
+  "at": "2026-11-05T03:37:40.960Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/daybreak-red-aws-govcloud": {
+  "v": 15,
+  "at": "2026-11-05T03:37:42.406Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/akari-sora/synology-nas-cli": {
+  "v": 35,
+  "at": "2026-11-05T03:37:42.536Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/govijr/terminal-mac": {
+  "v": 52,
+  "at": "2026-11-05T03:37:45.433Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.ricursive.com/ripple": {
+  "v": 30,
+  "at": "2026-11-05T03:37:47.097Z"
+ },
+ "scoreB:118d0780:glm:https://www.ricursive.com/ripple": {
+  "v": 35,
+  "at": "2026-11-05T03:37:47.260Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/govijr/terminal-mac": {
+  "v": 40,
+  "at": "2026-11-05T03:37:47.435Z"
+ },
+ "scoreB:118d0780:glm:https://www.anthropic.com/research/provable-inference": {
+  "v": 35,
+  "at": "2026-11-05T03:37:49.063Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.anthropic.com/research/provable-inference": {
+  "v": 38,
+  "at": "2026-11-05T03:37:54.034Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/zortos293/Lichii": {
+  "v": 30,
+  "at": "2026-11-05T03:37:54.182Z"
+ },
+ "scoreB:118d0780:glm:https://go.dev/blog/jsonv2": {
+  "v": 45,
+  "at": "2026-11-05T03:37:54.278Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/wquguru/cicada": {
+  "v": 34,
+  "at": "2026-11-05T03:37:54.866Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/moonshotai/Kimi-K3.1-Pro": {
+  "v": 74,
+  "at": "2026-11-05T03:37:54.942Z"
+ },
+ "scoreA:118d0780:deepseek:https://go.dev/blog/jsonv2": {
+  "v": 49,
+  "at": "2026-11-05T03:37:55.011Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/moonshotai/Kimi-K3.1-Pro": {
+  "v": 72,
+  "at": "2026-11-05T03:37:55.202Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/zortos293/Lichii": {
+  "v": 45,
+  "at": "2026-11-05T03:37:56.351Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/openai-to-acquire-pierre": {
+  "v": 20,
+  "at": "2026-11-05T03:37:59.019Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/openai-to-acquire-pierre": {
+  "v": 17,
+  "at": "2026-11-05T03:38:01.163Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Minireel/HGhub": {
+  "v": 50,
+  "at": "2026-11-05T03:38:01.793Z"
+ },
+ "scoreA:118d0780:deepseek:https://news.ycombinator.com/item?id=50366117": {
+  "v": 30,
+  "at": "2026-11-05T03:38:02.704Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/anthropics/FlashProve": {
+  "v": 54,
+  "at": "2026-11-05T03:38:04.381Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/anthropics/FlashProve": {
+  "v": 48,
+  "at": "2026-11-05T03:38:05.971Z"
+ },
+ "scoreB:118d0780:glm:https://news.ycombinator.com/item?id=50366117": {
+  "v": 38,
+  "at": "2026-11-05T03:38:07.107Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Minireel/HGhub": {
+  "v": 45,
+  "at": "2026-11-05T03:38:07.285Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.githubstatus.com/incidents/smtdswd1h2w4": {
+  "v": 28,
+  "at": "2026-11-05T03:38:11.345Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/AssassinCreator/steam-stash-value-report-card": {
+  "v": 44,
+  "at": "2026-11-05T03:38:11.757Z"
+ },
+ "scoreB:118d0780:glm:https://www.githubstatus.com/incidents/smtdswd1h2w4": {
+  "v": 25,
+  "at": "2026-11-05T03:38:11.903Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/joeblau/subvox": {
+  "v": 40,
+  "at": "2026-11-05T03:38:13.212Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/ramenvr/autopilot": {
+  "v": 45,
+  "at": "2026-11-05T03:38:13.509Z"
+ },
+ "scoreA:118d0780:deepseek:https://hy.tencent.ai/research/hy4": {
+  "v": 48,
+  "at": "2026-11-05T03:38:13.911Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/AssassinCreator/steam-stash-value-report-card": {
+  "v": 48,
+  "at": "2026-11-05T03:38:17.643Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/alchaincyf/huashu-bird-sticker": {
+  "v": 50,
+  "at": "2026-11-05T03:38:19.675Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/s1dashu/quiet-md": {
+  "v": 33,
+  "at": "2026-11-05T03:38:20.268Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Balanov/uncut": {
+  "v": 60,
+  "at": "2026-11-05T03:38:20.796Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/alchaincyf/huashu-bird-sticker": {
+  "v": 55,
+  "at": "2026-11-05T03:38:21.551Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/s1dashu/quiet-md": {
+  "v": 43,
+  "at": "2026-11-05T03:38:21.618Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Balanov/uncut": {
+  "v": 56,
+  "at": "2026-11-05T03:38:22.289Z"
+ },
+ "scoreB:118d0780:glm:https://hy.tencent.ai/research/hy4": {
+  "v": 53,
+  "at": "2026-11-05T03:38:25.418Z"
+ },
+ "write:2d964375:claude:https://github.com/op7418/dsh-guizang-design": {
+  "v": {
+   "title": "歸藏设计 dsh 插件 一鍵排版出圖",
+   "summary": "DeepSeek Harness 插件，內含網頁 PPT、圖文卡片、網頁排版、去 AI 味與語氣檔案五個 skill，共用同一套設計系統；側欄可回看作品、一鍵做同款。",
+   "why": "裝上後用一句話就能把文章排成網頁、出小紅書組圖，主題與字體統一不用自己調。"
+  },
+  "at": "2026-11-05T03:38:34.273Z"
+ },
+ "write:2d964375:claude:https://github.com/KKKKhazix/agent-autoloop": {
+  "v": {
+   "title": "Agent Autoloop 讓命令列 Agent 背景接活",
+   "summary": "開源工具 agent-autoloop 用一行指令裝在 macOS、Linux，讓命令列 Agent 在背景自動接活，遇到要你拍板才推卡片到 Discord 等通道；Windows 版待定。",
+   "why": "可把定時任務、GitHub Issue 交給 Agent 背景跑，等你回覆時不佔進程也不燒 Token。"
+  },
+  "at": "2026-11-05T03:38:37.210Z"
+ },
+ "write:2d964375:claude:https://huggingface.co/moonshotai/Kimi-K3.1-Pro": {
+  "v": {
+   "title": "Kimi K3.1 Pro 權重開源",
+   "summary": "Moonshot 在 Hugging Face 公開 Kimi K3.1 Pro 模型權重，HN 上獲 408 分。",
+   "why": "可自行下載權重跑推論，接進 Discord 機器人或小遊戲。"
+  },
+  "at": "2026-11-05T03:38:42.903Z"
  }
 }

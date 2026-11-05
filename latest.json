@@ -1,6 +1,6 @@
 {
- "date": "2026-11-04",
- "generatedAt": "2026-11-04T03:08:25.264Z",
+ "date": "2026-11-05",
+ "generatedAt": "2026-11-05T03:38:42.903Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,83 +11,54 @@
  },
  "items": [
   {
-   "title": "aureth-labs/dsh-aurabot-qq",
-   "summary": "让 DeepSeek Harness 里的 AI 以「大肥鱼」住进 QQ：会聊天、发表情、发语音、记事、发空间、刷 B 站、唱歌。功能都是模块，能开关、能自己写",
-   "why": "",
-   "url": "https://github.com/aureth-labs/dsh-aurabot-qq",
+   "title": "歸藏设计 dsh 插件 一鍵排版出圖",
+   "summary": "DeepSeek Harness 插件，內含網頁 PPT、圖文卡片、網頁排版、去 AI 味與語氣檔案五個 skill，共用同一套設計系統；側欄可回看作品、一鍵做同款。",
+   "why": "裝上後用一句話就能把文章排成網頁、出小紅書組圖，主題與字體統一不用自己調。",
+   "url": "https://github.com/op7418/dsh-guizang-design",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 357,
-   "score": 74,
+   "stars": 439,
+   "score": 79,
    "scores": [
-    74,
+    73,
+    86
+   ],
+   "originalTitle": "op7418/dsh-guizang-design",
+   "related": []
+  },
+  {
+   "title": "Agent Autoloop 讓命令列 Agent 背景接活",
+   "summary": "開源工具 agent-autoloop 用一行指令裝在 macOS、Linux，讓命令列 Agent 在背景自動接活，遇到要你拍板才推卡片到 Discord 等通道；Windows 版待定。",
+   "why": "可把定時任務、GitHub Issue 交給 Agent 背景跑，等你回覆時不佔進程也不燒 Token。",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "source": "GitHub 新專案",
+   "alsoFrom": [
+    "GitHub DSH 生態"
+   ],
+   "stars": 2692,
+   "score": 75,
+   "scores": [
+    69,
+    82
+   ],
+   "originalTitle": "KKKKhazix/agent-autoloop",
+   "related": []
+  },
+  {
+   "title": "Kimi K3.1 Pro 權重開源",
+   "summary": "Moonshot 在 Hugging Face 公開 Kimi K3.1 Pro 模型權重，HN 上獲 408 分。",
+   "why": "可自行下載權重跑推論，接進 Discord 機器人或小遊戲。",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "comments": "https://news.ycombinator.com/item?id=50366999",
+   "source": "Hacker News",
+   "alsoFrom": [],
+   "stars": null,
+   "score": 73,
+   "scores": [
+    72,
     74
    ],
-   "originalTitle": "aureth-labs/dsh-aurabot-qq",
-   "related": []
-  },
-  {
-   "title": "DSH 工作流插件可在畫布設計流程",
-   "summary": "dsh-jailbreak-workflow 是 DSH 工作流插件：在畫布設計流程，編譯成計劃提示詞讓模型執行，支援分支與循環。",
-   "why": "可用一句話請模型建出「寫程式→審查→不過就回頭修」的循環流程。",
-   "url": "https://github.com/Minglink/dsh-jailbreak-workflow",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 368,
-   "score": 71,
-   "scores": [
-    74,
-    68
-   ],
-   "originalTitle": "Minglink/dsh-jailbreak-workflow",
-   "related": []
-  },
-  {
-   "title": "teardown：機器變3D模擬器",
-   "summary": "elvarofficial/teardown 是 Claude Code 技能，問機器怎麼運作，它會生成單一離線 HTML 頁面，能拆開零件看運作，閒置時還會自動導覽。",
-   "why": "想做機械原理的網頁小遊戲或互動教具，可參考它把 3D 模擬打包成單一 HTML 的做法。",
-   "url": "https://github.com/elvarofficial/teardown",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 1681,
-   "score": 71,
-   "scores": [
-    68,
-    74
-   ],
-   "originalTitle": "elvarofficial/teardown",
-   "related": []
-  },
-  {
-   "title": "開源工具讓AI研究並重做軟體",
-   "summary": "Craft Anything 是 Rust 寫的開源引擎，能檢視網站、App 或遊戲，再讓 coding agent 做出新版本，並和原版比對修正。",
-   "why": "可拿來拆解喜歡的網頁小遊戲怎麼運作，再請 AI 照你要的技術重做一版。",
-   "url": "https://github.com/storytold/craft-anything",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 8727,
-   "score": 68,
-   "scores": [
-    65,
-    72
-   ],
-   "originalTitle": "storytold/craft-anything",
-   "related": []
-  },
-  {
-   "title": "SurfCore 給 DSH 加身份",
-   "summary": "SurfCore 是 DSH 的 agent 外掛，給模型身份、會遺忘的記憶與作息，並能操作 QQ、B站和桌寵。MIT 授權，僅支援 Windows。",
-   "why": "想讓自己的 DSH agent 有人設和記憶可參考，但需要 Windows 電腦才能裝。",
-   "url": "https://github.com/Mieksido/surfcore",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 416,
-   "score": 67,
-   "scores": [
-    67,
-    67
-   ],
-   "originalTitle": "Mieksido/surfcore",
+   "originalTitle": "Kimi K3.1 Pro model weights are out",
    "related": []
   }
  ],
@@ -105,12 +76,6 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "NiazMorshed2007/reanimate",
-   "url": "https://github.com/NiazMorshed2007/reanimate",
-   "score": 62,
-   "source": "GitHub 新專案"
-  },
-  {
    "title": "modelflare-ai/AnyModelBot",
    "url": "https://github.com/modelflare-ai/AnyModelBot",
    "score": 60,
@@ -121,6 +86,12 @@
    "url": "https://github.com/nanami-0713/relay-kit",
    "score": 59,
    "source": "GitHub Agent 技能"
+  },
+  {
+   "title": "Balanov/uncut",
+   "url": "https://github.com/Balanov/uncut",
+   "score": 58,
+   "source": "GitHub 新專案"
   }
  ],
  "stats": {
@@ -146,7 +117,7 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 10,
+    "count": 15,
     "error": null
    },
    {
@@ -158,46 +129,46 @@
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 4,
+    "count": 1,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 4,
+    "count": 5,
     "error": null
    },
    {
     "id": "deepmind",
     "name": "Google DeepMind",
-    "count": 1,
+    "count": 0,
     "error": null
    },
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 7,
+    "count": 3,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 3,
+    "count": 1,
     "error": null
    }
   ],
-  "candidates": 60,
-  "prefilterPass": 39,
-  "scored": 37,
-  "picked": 5,
+  "candidates": 54,
+  "prefilterPass": 46,
+  "scored": 46,
+  "picked": 3,
   "llm": {
-   "calls": 101,
-   "failures": 42,
+   "calls": 137,
+   "failures": 27,
    "byRoute": {
-    "owob:deepseek-free": 54,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 5
+    "owob:deepseek-free": 96,
+    "owob:deepseek-v4.1-flash": 14
    },
-   "tokens": 91131
+   "tokens": 158893
   }
  }
 }
