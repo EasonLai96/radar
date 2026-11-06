@@ -1,6 +1,6 @@
 {
- "date": "2026-11-05",
- "generatedAt": "2026-11-05T03:38:42.903Z",
+ "date": "2026-11-06",
+ "generatedAt": "2026-11-06T03:33:28.861Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -9,59 +9,7 @@
   "write": "2d964375",
   "group": "2dabeeef"
  },
- "items": [
-  {
-   "title": "歸藏设计 dsh 插件 一鍵排版出圖",
-   "summary": "DeepSeek Harness 插件，內含網頁 PPT、圖文卡片、網頁排版、去 AI 味與語氣檔案五個 skill，共用同一套設計系統；側欄可回看作品、一鍵做同款。",
-   "why": "裝上後用一句話就能把文章排成網頁、出小紅書組圖，主題與字體統一不用自己調。",
-   "url": "https://github.com/op7418/dsh-guizang-design",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 439,
-   "score": 79,
-   "scores": [
-    73,
-    86
-   ],
-   "originalTitle": "op7418/dsh-guizang-design",
-   "related": []
-  },
-  {
-   "title": "Agent Autoloop 讓命令列 Agent 背景接活",
-   "summary": "開源工具 agent-autoloop 用一行指令裝在 macOS、Linux，讓命令列 Agent 在背景自動接活，遇到要你拍板才推卡片到 Discord 等通道；Windows 版待定。",
-   "why": "可把定時任務、GitHub Issue 交給 Agent 背景跑，等你回覆時不佔進程也不燒 Token。",
-   "url": "https://github.com/KKKKhazix/agent-autoloop",
-   "source": "GitHub 新專案",
-   "alsoFrom": [
-    "GitHub DSH 生態"
-   ],
-   "stars": 2692,
-   "score": 75,
-   "scores": [
-    69,
-    82
-   ],
-   "originalTitle": "KKKKhazix/agent-autoloop",
-   "related": []
-  },
-  {
-   "title": "Kimi K3.1 Pro 權重開源",
-   "summary": "Moonshot 在 Hugging Face 公開 Kimi K3.1 Pro 模型權重，HN 上獲 408 分。",
-   "why": "可自行下載權重跑推論，接進 Discord 機器人或小遊戲。",
-   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-   "comments": "https://news.ycombinator.com/item?id=50366999",
-   "source": "Hacker News",
-   "alsoFrom": [],
-   "stars": null,
-   "score": 73,
-   "scores": [
-    72,
-    74
-   ],
-   "originalTitle": "Kimi K3.1 Pro model weights are out",
-   "related": []
-  }
- ],
+ "items": [],
  "nearMiss": [
   {
    "title": "deepseek-ai/dsh-superagent-prototype",
@@ -82,10 +30,10 @@
    "source": "GitHub DSH 生態"
   },
   {
-   "title": "nanami-0713/relay-kit",
-   "url": "https://github.com/nanami-0713/relay-kit",
-   "score": 59,
-   "source": "GitHub Agent 技能"
+   "title": "wzc520pyfm/gen-ai-pose-image",
+   "url": "https://github.com/wzc520pyfm/gen-ai-pose-image",
+   "score": 58,
+   "source": "GitHub DSH 生態"
   },
   {
    "title": "Balanov/uncut",
@@ -111,43 +59,43 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 4,
+    "count": 3,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 15,
+    "count": 20,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 4,
+    "count": 1,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 1,
+    "count": 2,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 5,
+    "count": 7,
     "error": null
    },
    {
     "id": "deepmind",
     "name": "Google DeepMind",
-    "count": 0,
+    "count": 1,
     "error": null
    },
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 3,
+    "count": 4,
     "error": null
    },
    {
@@ -157,18 +105,18 @@
     "error": null
    }
   ],
-  "candidates": 54,
-  "prefilterPass": 46,
-  "scored": 46,
-  "picked": 3,
+  "candidates": 60,
+  "prefilterPass": 45,
+  "scored": 45,
+  "picked": 0,
   "llm": {
-   "calls": 137,
-   "failures": 27,
+   "calls": 90,
+   "failures": 18,
    "byRoute": {
-    "owob:deepseek-free": 96,
-    "owob:deepseek-v4.1-flash": 14
+    "owob:deepseek-free": 20,
+    "owob:deepseek-v4.1-flash": 52
    },
-   "tokens": 158893
+   "tokens": 76574
   }
  }
 }
