@@ -1,7 +1,4 @@
 {
- "https://simonwillison.net/2026/Oct/23/kimi-k31-pro": "2026-10-24T01:50:08.329Z",
- "https://github.com/Hugo-Dz/spritefusion-sprite-normals": "2026-10-24T01:50:08.329Z",
- "https://github.com/wesbos/3d-model-anything": "2026-10-24T01:50:08.329Z",
  "https://latent.space/p/ainews-kimi-31": "2026-10-25T01:24:03.878Z",
  "https://openai.com/index/introducing-gpt-6-1-terra": "2026-10-27T02:16:00.170Z",
  "https://simonwillison.net/2026/Oct/26/gpt-61-terra": "2026-10-27T02:16:00.170Z",
@@ -27,5 +24,10 @@
  "https://github.com/Mieksido/surfcore": "2026-11-04T03:08:31.671Z",
  "https://github.com/op7418/dsh-guizang-design": "2026-11-05T03:38:46.554Z",
  "https://github.com/KKKKhazix/agent-autoloop": "2026-11-05T03:38:46.554Z",
- "https://huggingface.co/moonshotai/Kimi-K3.1-Pro": "2026-11-05T03:38:46.554Z"
+ "https://huggingface.co/moonshotai/Kimi-K3.1-Pro": "2026-11-05T03:38:46.554Z",
+ "https://github.com/aa1143/NamiAgent": "2026-11-07T03:02:56.079Z",
+ "https://github.com/SAOS-3624/dsh-see-now": "2026-11-07T03:02:56.079Z",
+ "https://github.com/livliv-dev/player": "2026-11-07T03:02:56.079Z",
+ "https://github.com/wzc520pyfm/gen-ai-pose-image": "2026-11-07T03:02:56.079Z",
+ "https://github.com/Sandflow-ai/sand3d": "2026-11-07T03:02:56.079Z"
 }
