@@ -1,6 +1,6 @@
 {
- "date": "2026-11-07",
- "generatedAt": "2026-11-07T03:02:50.963Z",
+ "date": "2026-11-08",
+ "generatedAt": "2026-11-08T02:37:50.315Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -9,99 +9,12 @@
   "write": "2d964375",
   "group": "2dabeeef"
  },
- "items": [
-  {
-   "title": "NamiAgent：11 課從零手寫 AI Agent",
-   "summary": "Python 教學 repo，從 100 行最小循環開始，11 課各附可運行快照，做出能讀寫檔案、執行命令、接 MCP、有長期記憶的本地 Agent，預設用 DeepSeek。",
-   "why": "想搞懂 Agent 內部怎麼跑，可照課逐步跑起來，再對照它拆解 Claude Code、Codex。",
-   "url": "https://github.com/aa1143/NamiAgent",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 395,
-   "score": 81,
-   "scores": [
-    82,
-    80
-   ],
-   "originalTitle": "aa1143/NamiAgent",
-   "related": []
-  },
-  {
-   "title": "See Now 只送有變化的螢幕幀",
-   "summary": "給 DSH 用的即時視覺外掛：螢幕畫面先算 0–255 變化分，只留變化大的幀，再把 4~8 幀拼成一張圖交給模型，靜止畫面幾乎不出圖。",
-   "why": "可以拿它做會「陪看」你螢幕的小工具，靜止畫面幾乎不燒 token。",
-   "url": "https://github.com/SAOS-3624/dsh-see-now",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 423,
-   "score": 73,
-   "scores": [
-    73,
-    73
-   ],
-   "originalTitle": "SAOS-3624/dsh-see-now",
-   "related": []
-  },
-  {
-   "title": "livliv-dev/player",
-   "summary": "A lightweight 2.5D character player for the web, with lip sync and webcam face t",
-   "why": "",
-   "url": "https://github.com/livliv-dev/player",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 975,
-   "score": 73,
-   "scores": [
-    74,
-    73
-   ],
-   "originalTitle": "livliv-dev/player",
-   "related": []
-  },
-  {
-   "title": "姿勢線稿加衣裝生圖，可裝進 Harness",
-   "summary": "瀾姿讓你從 288 組姿勢線稿與 1407 套服裝挑選，生成同一位模特兒的圖，也能裝進 DeepSeek Harness 當工作室。",
-   "why": "不必在顯卡電腦上啟動網站，選好姿勢與服裝就能出圖，適合做角色立繪。",
-   "url": "https://github.com/wzc520pyfm/gen-ai-pose-image",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 670,
-   "score": 68,
-   "scores": [
-    63,
-    73
-   ],
-   "originalTitle": "wzc520pyfm/gen-ai-pose-image",
-   "related": []
-  },
-  {
-   "title": "sand3d：LLM 導向的 3D 建模庫",
-   "summary": "Sandflow-ai 的 sand3d 用 Python 短程式描述 3D 物件，整個 API 約 3,600 tokens 可放進 prompt，並能匯出 GLB、URDF、STL 等格式。",
-   "why": "你可以請 LLM 寫幾行 Python 生出 3D 模型，再匯出 GLB 放進網頁小遊戲。",
-   "url": "https://github.com/Sandflow-ai/sand3d",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 813,
-   "score": 66,
-   "scores": [
-    65,
-    68
-   ],
-   "originalTitle": "Sandflow-ai/sand3d",
-   "related": []
-  }
- ],
+ "items": [],
  "nearMiss": [
   {
    "title": "sarpstar/cinecode",
    "url": "https://github.com/sarpstar/cinecode",
    "score": 64,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "artemnovitckii/claude-animation-skills",
-   "url": "https://github.com/artemnovitckii/claude-animation-skills",
-   "score": 63,
    "source": "GitHub 新專案"
   },
   {
@@ -111,16 +24,22 @@
    "source": "GitHub DSH 生態"
   },
   {
-   "title": "caru-ini/stack-diagram",
-   "url": "https://github.com/caru-ini/stack-diagram",
-   "score": 62,
-   "source": "GitHub 新專案"
-  },
-  {
    "title": "modelflare-ai/AnyModelBot",
    "url": "https://github.com/modelflare-ai/AnyModelBot",
    "score": 60,
    "source": "GitHub DSH 生態"
+  },
+  {
+   "title": "phuryn/mini-harness",
+   "url": "https://github.com/phuryn/mini-harness",
+   "score": 59,
+   "source": "GitHub Agent 技能"
+  },
+  {
+   "title": "JosssphZhou/poki",
+   "url": "https://github.com/JosssphZhou/poki",
+   "score": 58,
+   "source": "GitHub 新專案"
   }
  ],
  "stats": {
@@ -146,7 +65,7 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 9,
+    "count": 13,
     "error": null
    },
    {
@@ -158,13 +77,13 @@
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 2,
+    "count": 0,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 2,
+    "count": 0,
     "error": null
    },
    {
@@ -176,28 +95,27 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 6,
+    "count": 3,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 2,
+    "count": 1,
     "error": null
    }
   ],
-  "candidates": 54,
-  "prefilterPass": 47,
-  "scored": 47,
-  "picked": 5,
+  "candidates": 48,
+  "prefilterPass": 21,
+  "scored": 18,
+  "picked": 0,
   "llm": {
-   "calls": 145,
-   "failures": 34,
+   "calls": 22,
+   "failures": 19,
    "byRoute": {
-    "owob:deepseek-free": 89,
-    "owob:deepseek-v4.1-flash": 22
+    "owob:deepseek-free": 3
    },
-   "tokens": 169334
+   "tokens": 1814
   }
  }
 }
