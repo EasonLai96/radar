@@ -22,5 +22,10 @@
   "result": "skip",
   "reason": "模型判斷不需要改",
   "summary": "這週讀者回饋只有 2 個 👍（dsh-bili-whale 71 分、dsh-video-storyboard 68 分），沒有任何 👎，而 👍/👎 是最可靠的訊號，目前不足以判斷方向。「選了但沒人在意」的 NPCTalk、zen-gate、dsh-prompt-market 只是一週後星數低（109–280），沒有讀者負評。星數代表別人關注，不代表對這位讀者沒用，所以不能據此壓低 DSH"
+ },
+ {
+  "date": "2026-11-08",
+  "result": "error",
+  "reason": "叫不到模型"
  }
 ]
