@@ -81,7 +81,7 @@
   "reminders": [
     {
       "name": "GitHub 個人權杖（只影響從手機修改 repo，不影響早報）",
-      "expires": "2026-11-16",
+      "expires": "2026-12-09",
       "renew": "https://github.com/settings/tokens/new?scopes=public_repo,workflow&description=radar"
     }
   ]
