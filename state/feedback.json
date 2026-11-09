@@ -4434,7 +4434,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "github",
+   "stars": 2738,
+   "starsPerDay": 269,
+   "checkedAt": "2026-11-09T13:51:14.507Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
  },
  "https://github.com/storytold/craft-anything": {
   "url": "https://github.com/storytold/craft-anything",
@@ -4446,7 +4455,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "github",
+   "stars": 23870,
+   "starsPerDay": 2664,
+   "checkedAt": "2026-11-09T13:51:14.168Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
  },
  "https://github.com/op7418/dsh-guizang-design": {
   "url": "https://github.com/op7418/dsh-guizang-design",
@@ -6934,7 +6952,7 @@
   "date": "2026-11-01",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
    "stars": 195,
@@ -6968,7 +6986,7 @@
   "date": "2026-11-01",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR"
+  "prefilter": "PASS"
  },
  "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c": {
   "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c",
@@ -7139,7 +7157,7 @@
   "date": "2026-11-01",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
    "stars": 3228,
@@ -7213,6 +7231,293 @@
    "stars": 299,
    "starsPerDay": 24,
    "checkedAt": "2026-11-08T18:17:01.895Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/livliv-dev/player": {
+  "url": "https://github.com/livliv-dev/player",
+  "title": "livliv-dev/player",
+  "source": "GitHub 新專案",
+  "date": "2026-11-07",
+  "score": 73,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/DIYgod/pinky": {
+  "url": "https://github.com/DIYgod/pinky",
+  "title": "DIYgod/pinky",
+  "source": "GitHub 新專案",
+  "date": "2026-11-09",
+  "score": 70,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/jamesondh/chimera-vocal-synth": {
+  "url": "https://github.com/jamesondh/chimera-vocal-synth",
+  "title": "jamesondh/chimera-vocal-synth",
+  "source": "GitHub 新專案",
+  "date": "2026-11-09",
+  "score": 69,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/WoYun520/gif-factory": {
+  "url": "https://github.com/WoYun520/gif-factory",
+  "title": "WoYun520/gif-factory",
+  "source": "GitHub 新專案",
+  "date": "2026-11-09",
+  "score": 66,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist": {
+  "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+  "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+  "source": "Hacker News",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 247,
+   "comments": 255,
+   "checkedAt": "2026-11-09T13:51:11.240Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first": {
+  "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+  "title": "If in doubt, delete the uv.lock file",
+  "source": "Simon Willison",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://news.ycombinator.com/item?id=50328896": {
+  "url": "https://news.ycombinator.com/item?id=50328896",
+  "title": "Ask HN: Which TV do you recommend for privacy?",
+  "source": "Hacker News",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 731,
+   "comments": 885,
+   "checkedAt": "2026-11-09T13:51:11.550Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/1/kyle-kingsbury": {
+  "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+  "title": "Quoting Kyle Kingsbury",
+  "source": "Simon Willison",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR"
+ },
+ "https://github.com/modelflare-ai/AnyModelBot": {
+  "url": "https://github.com/modelflare-ai/AnyModelBot",
+  "title": "modelflare-ai/AnyModelBot",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "github",
+   "stars": 2742,
+   "starsPerDay": 208,
+   "checkedAt": "2026-11-09T13:51:11.959Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it": {
+  "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it",
+  "title": "Mathematics has changed. Let's act like it",
+  "source": "Hacker News",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "hn",
+   "points": 392,
+   "comments": 522,
+   "checkedAt": "2026-11-09T13:51:12.207Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://hackerbooks.org": {
+  "url": "https://hackerbooks.org",
+  "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+  "source": "Hacker News",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "hn",
+   "points": 1868,
+   "comments": 308,
+   "checkedAt": "2026-11-09T13:51:12.436Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just": {
+  "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just",
+  "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+  "source": "Hacker News",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "hn",
+   "points": 582,
+   "comments": 182,
+   "checkedAt": "2026-11-09T13:51:12.686Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/ivankovic/omnidiff": {
+  "url": "https://github.com/ivankovic/omnidiff",
+  "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+  "source": "Hacker News",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "github",
+   "stars": 1292,
+   "starsPerDay": 3,
+   "checkedAt": "2026-11-09T13:51:13.038Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks": {
+  "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+  "title": "The AI cost of JavaScript frameworks",
+  "source": "Hacker News",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "hn",
+   "points": 477,
+   "comments": 399,
+   "checkedAt": "2026-11-09T13:51:13.289Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/Ryder191/haloflux": {
+  "url": "https://github.com/Ryder191/haloflux",
+  "title": "Ryder191/haloflux",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "github",
+   "stars": 587,
+   "starsPerDay": 31,
+   "checkedAt": "2026-11-09T13:51:13.586Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/NiazMorshed2007/reanimate": {
+  "url": "https://github.com/NiazMorshed2007/reanimate",
+  "title": "NiazMorshed2007/reanimate",
+  "source": "GitHub 新專案",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "github",
+   "stars": 1470,
+   "starsPerDay": 130,
+   "checkedAt": "2026-11-09T13:51:14.862Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/jacke-pp/open-yoki": {
+  "url": "https://github.com/jacke-pp/open-yoki",
+  "title": "jacke-pp/open-yoki",
+  "source": "GitHub 新專案",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "github",
+   "stars": 1698,
+   "starsPerDay": 139,
+   "checkedAt": "2026-11-09T13:51:15.170Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/ramenvr/autopilot": {
+  "url": "https://github.com/ramenvr/autopilot",
+  "title": "ramenvr/autopilot",
+  "source": "GitHub 新專案",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "github",
+   "stars": 825,
+   "starsPerDay": 79,
+   "checkedAt": "2026-11-09T13:51:15.665Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/hyz317/HairDeck": {
+  "url": "https://github.com/hyz317/HairDeck",
+  "title": "hyz317/HairDeck",
+  "source": "GitHub 新專案",
+  "date": "2026-11-02",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "github",
+   "stars": 1023,
+   "starsPerDay": 94,
+   "checkedAt": "2026-11-09T13:51:15.980Z"
   },
   "verdict": null,
   "verdictBy": "heat"

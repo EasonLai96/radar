@@ -27,5 +27,13 @@
   "date": "2026-11-08",
   "result": "error",
   "reason": "叫不到模型"
+ },
+ {
+  "date": "2026-11-09",
+  "result": "pr",
+  "summary": "在評分提示詞「必須正常給分」加一條：讀者可能正在用的 coding agent、MCP、技能發生安全事件（憑證外洩、供應鏈投毒），要給正常的高分。",
+  "before": 55,
+  "after": 64,
+  "pr": "https://github.com/EasonLai96/radar/pull/1"
  }
 ]
