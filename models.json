@@ -19,7 +19,8 @@
     ],
     "claude": [
       { "relay": "avianjay", "model": "mrtoasterrr/claude-sonnet-5-5" },
-      { "relay": "owob",     "model": "claude-sonnet-5-5" },
+      { "relay": "avianjay", "model": "mrtoasterrr/claude-sonnet-5" },
+      { "relay": "owob",     "model": "claude-haiku-5-5" },
       { "relay": "owob",     "model": "deepseek-v4.1-flash" }
     ]
   }
