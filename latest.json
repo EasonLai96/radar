@@ -1,6 +1,6 @@
 {
- "date": "2026-11-08",
- "generatedAt": "2026-11-08T02:37:50.315Z",
+ "date": "2026-11-09",
+ "generatedAt": "2026-11-09T02:53:14.508Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -9,7 +9,72 @@
   "write": "2d964375",
   "group": "2dabeeef"
  },
- "items": [],
+ "items": [
+  {
+   "title": "ZSeven-W/dsh-game-studio",
+   "summary": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, ",
+   "why": "",
+   "url": "https://github.com/ZSeven-W/dsh-game-studio",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 420,
+   "score": 71,
+   "scores": [
+    73,
+    70
+   ],
+   "originalTitle": "ZSeven-W/dsh-game-studio",
+   "related": []
+  },
+  {
+   "title": "DIYgod/pinky",
+   "summary": "Let AI agents use your phone, with you in the loop.\n\nREADME 節錄： Pinky Let any AI",
+   "why": "",
+   "url": "https://github.com/DIYgod/pinky",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 899,
+   "score": 70,
+   "scores": [
+    72,
+    68
+   ],
+   "originalTitle": "DIYgod/pinky",
+   "related": []
+  },
+  {
+   "title": "jamesondh/chimera-vocal-synth",
+   "summary": "the ultimate vocal synthesizer - sing, speak, beatbox, and more\n\nREADME 節錄：# CHI",
+   "why": "",
+   "url": "https://github.com/jamesondh/chimera-vocal-synth",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 692,
+   "score": 69,
+   "scores": [
+    72,
+    67
+   ],
+   "originalTitle": "jamesondh/chimera-vocal-synth",
+   "related": []
+  },
+  {
+   "title": "WoYun520/gif-factory",
+   "summary": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。\n\nREADME 節錄：# GIF 工厂 像素与游戏 · 插画与二",
+   "why": "",
+   "url": "https://github.com/WoYun520/gif-factory",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 869,
+   "score": 66,
+   "scores": [
+    68,
+    65
+   ],
+   "originalTitle": "WoYun520/gif-factory",
+   "related": []
+  }
+ ],
  "nearMiss": [
   {
    "title": "sarpstar/cinecode",
@@ -24,22 +89,22 @@
    "source": "GitHub DSH 生態"
   },
   {
+   "title": "woniuniuniu/dsh-media-desk",
+   "url": "https://github.com/woniuniuniu/dsh-media-desk",
+   "score": 62,
+   "source": "GitHub DSH 生態"
+  },
+  {
+   "title": "shanselman/gputaskman",
+   "url": "https://github.com/shanselman/gputaskman",
+   "score": 61,
+   "source": "GitHub 新專案"
+  },
+  {
    "title": "modelflare-ai/AnyModelBot",
    "url": "https://github.com/modelflare-ai/AnyModelBot",
    "score": 60,
    "source": "GitHub DSH 生態"
-  },
-  {
-   "title": "phuryn/mini-harness",
-   "url": "https://github.com/phuryn/mini-harness",
-   "score": 59,
-   "source": "GitHub Agent 技能"
-  },
-  {
-   "title": "JosssphZhou/poki",
-   "url": "https://github.com/JosssphZhou/poki",
-   "score": 58,
-   "source": "GitHub 新專案"
   }
  ],
  "stats": {
@@ -65,13 +130,13 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 13,
+    "count": 10,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 1,
+    "count": 2,
     "error": null
    },
    {
@@ -95,27 +160,27 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 3,
+    "count": 0,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 1,
+    "count": 2,
     "error": null
    }
   ],
-  "candidates": 48,
-  "prefilterPass": 21,
-  "scored": 18,
-  "picked": 0,
+  "candidates": 46,
+  "prefilterPass": 33,
+  "scored": 33,
+  "picked": 4,
   "llm": {
-   "calls": 22,
-   "failures": 19,
+   "calls": 99,
+   "failures": 26,
    "byRoute": {
-    "owob:deepseek-free": 3
+    "owob:deepseek-free": 73
    },
-   "tokens": 1814
+   "tokens": 115484
   }
  }
 }
