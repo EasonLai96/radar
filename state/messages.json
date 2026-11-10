@@ -403,5 +403,68 @@
   "title": "WoYun520/gif-factory",
   "source": "GitHub 新專案",
   "score": 66
+ },
+ "1569573810657689672": {
+  "messageId": "1569573810657689672",
+  "channelId": "1519910211995959336",
+  "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic",
+  "date": "2026-11-10",
+  "title": "llm-anthropic 0.31",
+  "source": "Simon Willison",
+  "score": 77
+ },
+ "1569573813882982561": {
+  "messageId": "1569573813882982561",
+  "channelId": "1519910211995959336",
+  "url": "https://github.com/Roland0511/dsh-marktext",
+  "date": "2026-11-10",
+  "title": "Roland0511/dsh-marktext",
+  "source": "GitHub DSH 生態",
+  "score": 76
+ },
+ "1569573816877977657": {
+  "messageId": "1569573816877977657",
+  "channelId": "1519910211995959336",
+  "url": "https://github.com/woniuniuniu/dsh-media-desk",
+  "date": "2026-11-10",
+  "title": "woniuniuniu/dsh-media-desk",
+  "source": "GitHub DSH 生態",
+  "score": 71
+ },
+ "1569573820593999884": {
+  "messageId": "1569573820593999884",
+  "channelId": "1519910211995959336",
+  "url": "https://github.com/CityPulso/PulsoIcon",
+  "date": "2026-11-10",
+  "title": "CityPulso/PulsoIcon",
+  "source": "GitHub 新專案",
+  "score": 71
+ },
+ "1569573823857172491": {
+  "messageId": "1569573823857172491",
+  "channelId": "1519910211995959336",
+  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "date": "2026-11-10",
+  "title": "Claude Fable 5.2 and Mythos 5.2",
+  "source": "Hacker News",
+  "score": 70
+ },
+ "1569573826583330930": {
+  "messageId": "1569573826583330930",
+  "channelId": "1519910211995959336",
+  "url": "https://simonwillison.net/2026/Nov/9/hn-50421091",
+  "date": "2026-11-10",
+  "title": "The Web Is More Than Enough, by Paul Ford",
+  "source": "Simon Willison",
+  "score": 69
+ },
+ "1569573830307872799": {
+  "messageId": "1569573830307872799",
+  "channelId": "1519910211995959336",
+  "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+  "date": "2026-11-10",
+  "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+  "source": "Hacker News",
+  "score": 68
  }
 }

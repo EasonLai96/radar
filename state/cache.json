@@ -1,18 +1,4 @@
 {
- "prefilter:d2932bff:deepseek:https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference": {
-  "v": {
-   "label": "PASS",
-   "reason": "AI 程式代理與模型發布相關"
-  },
-  "at": "2026-10-31T02:35:19.799Z"
- },
- "prefilter:d2932bff:deepseek:https://status.linode.com/incidents/nt58zhx3pmgm": {
-  "v": {
-   "label": "PASS",
-   "reason": "Linode 是開發者常用主機服務，安全事件影響部署環境"
-  },
-  "at": "2026-10-31T02:35:20.367Z"
- },
  "prefilter:d2932bff:deepseek:https://github.com/ccch1mneyyy/dsh-Go": {
   "v": {
    "label": "PASS",
@@ -3141,5 +3127,625 @@
  "scoreB:118d0780:glm:https://github.com/AtomIllusionistDwell/watson-username-footprint-finder": {
   "v": 27,
   "at": "2026-11-09T02:53:13.831Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/9/llm-anthropic": {
+  "v": {
+   "label": "PASS",
+   "reason": "LLM 命令列工具外掛更新，與 AI 模型及開發工具有關"
+  },
+  "at": "2026-11-10T04:42:39.254Z"
+ },
+ "prefilter:d2932bff:deepseek:https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI模型一擊完成遊戲開發，與主題相關"
+  },
+  "at": "2026-11-10T04:42:39.916Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/NotRexed/Hookshot": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源靜態重編譯專案，C++/Vulkan 工程與開發工具相關"
+  },
+  "at": "2026-11-10T04:42:40.463Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
+  "v": {
+   "label": "PASS",
+   "reason": "ChatGPT Enterprise上架AWS，與AI模型可用性相關"
+  },
+  "at": "2026-11-10T04:42:43.157Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 合成資料集與模型開發相關"
+  },
+  "at": "2026-11-10T04:42:53.979Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/9/mysterious-beeps": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude Code 開發聲源定位工具，屬 coding agent 應用"
+  },
+  "at": "2026-11-10T04:42:57.626Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 新模型上架，與 coding agent 直接相關"
+  },
+  "at": "2026-11-10T04:43:01.207Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/amazon/higher-order-pruning-experts": {
+  "v": {
+   "label": "PASS",
+   "reason": "HuggingFace技術文,MoE專家剪枝與模型壓縮"
+  },
+  "at": "2026-11-10T04:43:02.674Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/control-room": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 模型工作負載監控系統，與 AI 模型維運相關"
+  },
+  "at": "2026-11-10T04:43:03.761Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Actions 密鑰掃描,開發工具相關"
+  },
+  "at": "2026-11-10T04:43:05.182Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/9/hn-50421091": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude 以 Vanilla JS/WebGL 做 3D 建模，前端開發相關"
+  },
+  "at": "2026-11-10T04:43:08.443Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/coderabbit-codex-daybreak": {
+  "v": {
+   "label": "PASS",
+   "reason": "CodeRabbit以OpenAI模型與Codex做AI程式碼審查與代理開發，屬coding agent工具"
+  },
+  "at": "2026-11-10T04:43:11.282Z"
+ },
+ "prefilter:d2932bff:deepseek:https://latent.space/p/handshake": {
+  "v": {
+   "label": "PASS",
+   "reason": "探討前沿 AI 實驗室訓練資料與資料產業"
+  },
+  "at": "2026-11-10T04:43:11.327Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/dabingfy-dot/solo-to-team-skills": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI agent 協作技能包，含 DSH/Codex 等宿主支援說明"
+  },
+  "at": "2026-11-10T04:43:14.043Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/jhaizhou-ops/S2Arm": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源專案，Apple 平台遊戲移植與 ARM64/Metal 開發工具"
+  },
+  "at": "2026-11-10T04:43:18.553Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/9/details-summary": {
+  "v": {
+   "label": "PASS",
+   "reason": "討論 Claude Code/Codex 的 PR 描述與開發流程"
+  },
+  "at": "2026-11-10T04:43:21.308Z"
+ },
+ "prefilter:d2932bff:deepseek:https://postalpro.usps.com/zcb": {
+  "v": {
+   "label": "PASS",
+   "reason": "地理資料集，可開發地圖應用"
+  },
+  "at": "2026-11-10T04:43:24.201Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/kuken": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI API 應用案例，與 AI 模型實作相關"
+  },
+  "at": "2026-11-10T04:43:24.714Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Roland0511/dsh-marktext": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 側欄 Markdown 編輯器外掛，與 DSH 開發工具直接相關"
+  },
+  "at": "2026-11-10T04:43:27.069Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/huamidev/GestaltX": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源iOS工具，涉Apple Intelligence可用性"
+  },
+  "at": "2026-11-10T04:43:27.763Z"
+ },
+ "prefilter:d2932bff:deepseek:https://yappologistic.github.io/CUI": {
+  "v": {
+   "label": "PASS",
+   "reason": "C 語言原生 UI 元件開源專案，屬開發工具"
+  },
+  "at": "2026-11-10T04:43:28.530Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/FJNB5/fujiang-pojia": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 插件與技能庫、漏洞知識庫，與 coding agent 開發實質相關"
+  },
+  "at": "2026-11-10T04:43:30.736Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+  "v": {
+   "label": "PASS",
+   "reason": "Anthropic 新 AI 模型發布，與模型可用性相關"
+  },
+  "at": "2026-11-10T04:43:34.208Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/thisisme6598/gemini_files": {
+  "v": {
+   "label": "PASS",
+   "reason": "涉及 Gemini AI 模型隱私與資料處理,與開發者使用 AI 相關"
+  },
+  "at": "2026-11-10T04:43:35.237Z"
+ },
+ "prefilter:d2932bff:deepseek:https://e-means.github.io": {
+  "v": {
+   "label": "PASS",
+   "reason": "機器學習聚類演算法，與AI開源專案相關"
+  },
+  "at": "2026-11-10T04:43:35.848Z"
+ },
+ "prefilter:d2932bff:deepseek:https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "TPU硬體發布，與開發無直接關係"
+  },
+  "at": "2026-11-10T04:43:35.919Z"
+ },
+ "prefilter:d2932bff:deepseek:https://research.meta.ai/blog/muse-ember": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI模型發布，與開發相關"
+  },
+  "at": "2026-11-10T04:43:36.523Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.watched.earth": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源衛星追蹤網頁工具，含GPU計算與前端開發技術"
+  },
+  "at": "2026-11-10T04:43:38.744Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "加拿大即時支付系統，屬金融政策與一般科技新聞，非開發工具"
+  },
+  "at": "2026-11-10T04:43:39.247Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.foldableflight.com": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "摺紙飛機教學網站,與AI或程式開發無關"
+  },
+  "at": "2026-11-10T04:43:40.889Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/yappologistic/CUI": {
+  "v": {
+   "label": "PASS",
+   "reason": "C 語言開源原生 UI 元件庫，與開發工具有關"
+  },
+  "at": "2026-11-10T04:43:42.853Z"
+ },
+ "prefilter:d2932bff:deepseek:https://benmandrew.com/articles/what-is-malloc-doing-anyway": {
+  "v": {
+   "label": "PASS",
+   "reason": "程式開發底層記憶體配置技術文章"
+  },
+  "at": "2026-11-10T04:43:43.072Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/reason-machines/aspen": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 Git 伺服器，針對 agent 大量推送流量"
+  },
+  "at": "2026-11-10T04:43:43.535Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/CityPulso/PulsoIcon": {
+  "v": {
+   "label": "PASS",
+   "reason": "前端 React 動畫圖示庫，開發工具與開源專案"
+  },
+  "at": "2026-11-10T04:43:45.459Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/lxe/phoneuse": {
+  "v": {
+   "label": "PASS",
+   "reason": "用 MCP/CLI 讓 agent 操作 iPhone 的開源工具，與開發相關"
+  },
+  "at": "2026-11-10T04:43:45.964Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/devvmhq/devvm": {
+  "v": {
+   "label": "PASS",
+   "reason": "為 coding agent 提供隔離 VM 沙箱的開發工具"
+  },
+  "at": "2026-11-10T04:43:46.576Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/riyadhHDA/wichforks": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub 開源專案:Switch 2 模擬器分支選擇指南,屬開發者社群技術內容"
+  },
+  "at": "2026-11-10T04:43:47.503Z"
+ },
+ "prefilter:d2932bff:deepseek:https://artificialanalysis.ai/models/claude-fable-5-2": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 模型評測與可用性，與開發者相關"
+  },
+  "at": "2026-11-10T04:43:48.785Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/mahmoudtawfik1998/secure-pdf-document-processor": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "盜版Adobe軟體散布，非開發相關"
+  },
+  "at": "2026-11-10T04:43:49.305Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "太陽能農業光電材料科學，與開發無關"
+  },
+  "at": "2026-11-10T04:44:00.211Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan": {
+  "v": 8,
+  "at": "2026-11-10T04:44:05.466Z"
+ },
+ "scoreB:118d0780:glm:https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game": {
+  "v": 59,
+  "at": "2026-11-10T04:44:05.783Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/9/llm-anthropic": {
+  "v": 78,
+  "at": "2026-11-10T04:44:06.413Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
+  "v": 8,
+  "at": "2026-11-10T04:44:06.822Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
+  "v": 15,
+  "at": "2026-11-10T04:44:07.073Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/NotRexed/Hookshot": {
+  "v": 56,
+  "at": "2026-11-10T04:44:07.318Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/NotRexed/Hookshot": {
+  "v": 63,
+  "at": "2026-11-10T04:44:07.954Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan": {
+  "v": 30,
+  "at": "2026-11-10T04:44:08.741Z"
+ },
+ "scoreB:118d0780:glm:https://latent.space/p/handshake": {
+  "v": 14,
+  "at": "2026-11-10T04:44:10.502Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot": {
+  "v": 58,
+  "at": "2026-11-10T04:44:11.656Z"
+ },
+ "scoreA:118d0780:deepseek:https://latent.space/p/handshake": {
+  "v": 28,
+  "at": "2026-11-10T04:44:14.290Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/9/llm-anthropic": {
+  "v": 76,
+  "at": "2026-11-10T04:44:15.149Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/huamidev/GestaltX": {
+  "v": 28,
+  "at": "2026-11-10T04:44:15.647Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/9/mysterious-beeps": {
+  "v": 55,
+  "at": "2026-11-10T04:44:18.429Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot": {
+  "v": 28,
+  "at": "2026-11-10T04:44:18.684Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/reason-machines/aspen": {
+  "v": 38,
+  "at": "2026-11-10T04:44:19.695Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/reason-machines/aspen": {
+  "v": 38,
+  "at": "2026-11-10T04:44:21.528Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/amazon/higher-order-pruning-experts": {
+  "v": 26,
+  "at": "2026-11-10T04:44:22.326Z"
+ },
+ "scoreA:118d0780:deepseek:https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game": {
+  "v": 45,
+  "at": "2026-11-10T04:44:26.284Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/control-room": {
+  "v": 30,
+  "at": "2026-11-10T04:44:26.461Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/control-room": {
+  "v": 29,
+  "at": "2026-11-10T04:44:26.743Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs": {
+  "v": 35,
+  "at": "2026-11-10T04:44:28.840Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/woniuniuniu/dsh-media-desk": {
+  "v": 76,
+  "at": "2026-11-10T04:44:29.911Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/huamidev/GestaltX": {
+  "v": 33,
+  "at": "2026-11-10T04:44:31.143Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs": {
+  "v": 35,
+  "at": "2026-11-10T04:44:32.728Z"
+ },
+ "scoreB:118d0780:glm:https://artificialanalysis.ai/models/claude-fable-5-2": {
+  "v": 72,
+  "at": "2026-11-10T04:44:33.616Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/coderabbit-codex-daybreak": {
+  "v": 18,
+  "at": "2026-11-10T04:44:36.190Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/coderabbit-codex-daybreak": {
+  "v": 15,
+  "at": "2026-11-10T04:44:37.441Z"
+ },
+ "scoreA:118d0780:deepseek:https://artificialanalysis.ai/models/claude-fable-5-2": {
+  "v": 65,
+  "at": "2026-11-10T04:44:37.760Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/9/hn-50421091": {
+  "v": 76,
+  "at": "2026-11-10T04:44:39.517Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/9/hn-50421091": {
+  "v": 63,
+  "at": "2026-11-10T04:44:40.045Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/9/mysterious-beeps": {
+  "v": 56,
+  "at": "2026-11-10T04:44:40.630Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/jhaizhou-ops/S2Arm": {
+  "v": 63,
+  "at": "2026-11-10T04:44:42.471Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/dabingfy-dot/solo-to-team-skills": {
+  "v": 60,
+  "at": "2026-11-10T04:44:43.398Z"
+ },
+ "scoreB:118d0780:glm:https://postalpro.usps.com/zcb": {
+  "v": 45,
+  "at": "2026-11-10T04:44:44.109Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/dabingfy-dot/solo-to-team-skills": {
+  "v": 55,
+  "at": "2026-11-10T04:44:45.301Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/jhaizhou-ops/S2Arm": {
+  "v": 42,
+  "at": "2026-11-10T04:44:46.399Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/9/details-summary": {
+  "v": 50,
+  "at": "2026-11-10T04:44:46.552Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/kuken": {
+  "v": 21,
+  "at": "2026-11-10T04:44:48.034Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/9/details-summary": {
+  "v": 58,
+  "at": "2026-11-10T04:44:48.767Z"
+ },
+ "scoreA:118d0780:deepseek:https://postalpro.usps.com/zcb": {
+  "v": 60,
+  "at": "2026-11-10T04:44:49.826Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Roland0511/dsh-marktext": {
+  "v": 74,
+  "at": "2026-11-10T04:44:50.684Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/kuken": {
+  "v": 20,
+  "at": "2026-11-10T04:44:52.062Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/amazon/higher-order-pruning-experts": {
+  "v": 19,
+  "at": "2026-11-10T04:44:52.808Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Roland0511/dsh-marktext": {
+  "v": 78,
+  "at": "2026-11-10T04:44:53.405Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/FJNB5/fujiang-pojia": {
+  "v": 61,
+  "at": "2026-11-10T04:44:55.301Z"
+ },
+ "scoreA:118d0780:deepseek:https://yappologistic.github.io/CUI": {
+  "v": 28,
+  "at": "2026-11-10T04:44:56.747Z"
+ },
+ "scoreA:118d0780:deepseek:https://e-means.github.io": {
+  "v": 42,
+  "at": "2026-11-10T04:44:57.530Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/FJNB5/fujiang-pojia": {
+  "v": 47,
+  "at": "2026-11-10T04:44:58.090Z"
+ },
+ "scoreB:118d0780:glm:https://e-means.github.io": {
+  "v": 31,
+  "at": "2026-11-10T04:44:58.541Z"
+ },
+ "scoreB:118d0780:glm:https://yappologistic.github.io/CUI": {
+  "v": 32,
+  "at": "2026-11-10T04:44:59.258Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/thisisme6598/gemini_files": {
+  "v": 54,
+  "at": "2026-11-10T04:45:00.239Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+  "v": 72,
+  "at": "2026-11-10T04:45:00.626Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/thisisme6598/gemini_files": {
+  "v": 52,
+  "at": "2026-11-10T04:45:00.707Z"
+ },
+ "scoreB:118d0780:glm:https://research.meta.ai/blog/muse-ember": {
+  "v": 38,
+  "at": "2026-11-10T04:45:01.141Z"
+ },
+ "scoreB:118d0780:glm:https://www.watched.earth": {
+  "v": 61,
+  "at": "2026-11-10T04:45:01.607Z"
+ },
+ "scoreB:118d0780:glm:https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+  "v": 68,
+  "at": "2026-11-10T04:45:03.425Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.watched.earth": {
+  "v": 62,
+  "at": "2026-11-10T04:45:03.880Z"
+ },
+ "scoreA:118d0780:deepseek:https://research.meta.ai/blog/muse-ember": {
+  "v": 45,
+  "at": "2026-11-10T04:45:06.948Z"
+ },
+ "scoreA:118d0780:deepseek:https://benmandrew.com/articles/what-is-malloc-doing-anyway": {
+  "v": 35,
+  "at": "2026-11-10T04:45:07.193Z"
+ },
+ "scoreB:118d0780:glm:https://benmandrew.com/articles/what-is-malloc-doing-anyway": {
+  "v": 40,
+  "at": "2026-11-10T04:45:07.469Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/CityPulso/PulsoIcon": {
+  "v": 78,
+  "at": "2026-11-10T04:45:07.503Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/yappologistic/CUI": {
+  "v": 59,
+  "at": "2026-11-10T04:45:07.654Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/yappologistic/CUI": {
+  "v": 63,
+  "at": "2026-11-10T04:45:07.661Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/riyadhHDA/wichforks": {
+  "v": 55,
+  "at": "2026-11-10T04:45:07.912Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/lxe/phoneuse": {
+  "v": 58,
+  "at": "2026-11-10T04:45:09.898Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/CityPulso/PulsoIcon": {
+  "v": 64,
+  "at": "2026-11-10T04:45:10.650Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/devvmhq/devvm": {
+  "v": 52,
+  "at": "2026-11-10T04:45:11.159Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/riyadhHDA/wichforks": {
+  "v": 35,
+  "at": "2026-11-10T04:45:11.708Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/devvmhq/devvm": {
+  "v": 47,
+  "at": "2026-11-10T04:45:13.483Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/lxe/phoneuse": {
+  "v": 54,
+  "at": "2026-11-10T04:45:13.813Z"
+ },
+ "write:2d964375:claude:https://github.com/CityPulso/PulsoIcon": {
+  "v": {
+   "title": "PulsoIcon：會動的圖示庫",
+   "summary": "PulsoIcon 收錄 9955 個動態圖示，每個都有專屬動作，hover 或 focus 時播放。React 版可直接取代 lucide-react，也支援 Vue、Svelte 等。",
+   "why": "做網頁或小遊戲介面時，改一行 import 就能讓圖示 hover 有動畫。"
+  },
+  "at": "2026-11-10T04:45:27.732Z"
+ },
+ "write:2d964375:claude:https://github.com/Roland0511/dsh-marktext": {
+  "v": {
+   "title": "DSH 側欄能所見即所得寫 .md",
+   "summary": "dsh-marktext 是 DSH 右側欄外掛，用 MarkText 的 muya 引擎讓 .md 檔直接所見即所得編輯，還能把選取文字引用到聊天，並匯出 PDF。",
+   "why": "寫專案 README 或筆記時不用看原始碼，選一段就能一鍵引用給 AI 討論。"
+  },
+  "at": "2026-11-10T04:45:28.219Z"
+ },
+ "write:2d964375:claude:https://github.com/woniuniuniu/dsh-media-desk": {
+  "v": {
+   "title": "DSH 出現自媒體工作台插件",
+   "summary": "dsh-media-desk 是 DeepSeek Harness 的免費開源插件，記一句靈感就能生成腳本、標題、封面、配圖和分鏡。",
+   "why": "網頁版在手機瀏覽器也能開，想經營社群帳號，或研究 DSH 插件怎麼寫，都可以拿來參考。"
+  },
+  "at": "2026-11-10T04:45:28.870Z"
+ },
+ "write:2d964375:claude:https://artificialanalysis.ai/models/claude-fable-5-2": {
+  "v": {
+   "title": "Fable 5.2 得 65 分居冠",
+   "summary": "Claude Fable 5.2 在 Artificial Analysis 拿到 65 分，標題稱為目前最高。這則在 Hacker News 有 313 分、230 則留言。",
+   "why": "想幫 Discord 機器人挑模型時，可以先看這個榜的分數，再用自己的需求實測。"
+  },
+  "at": "2026-11-10T04:45:38.601Z"
+ },
+ "write:2d964375:claude:https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+  "v": {
+   "title": "Fable、Mythos 5.2發布",
+   "summary": "Anthropic 發表 Claude Fable 5.2 與 Mythos 5.2，但材料沒有內文，功能與規格不明。HN 上有 328 分、670 則留言。",
+   "why": "留言多達 670 則，可先看社群評價，再決定要不要拿來試做機器人。"
+  },
+  "at": "2026-11-10T04:45:39.044Z"
+ },
+ "write:2d964375:claude:https://simonwillison.net/2026/Nov/9/hn-50421091": {
+  "v": {
+   "title": "Claude 用純JS寫出3D彩蛋",
+   "summary": "Simon Willison 用 Three.js 做海蛞蝓主題彩蛋，請 Claude Opus 5.5 改寫成純 Vanilla JS+WebGL，成功但程式碼不完全相同。",
+   "why": "證明 LLM 能跳過 Three.js 直接寫 WebGL，寫 3D 小遊戲可少裝一個函式庫。"
+  },
+  "at": "2026-11-10T04:45:51.228Z"
+ },
+ "write:2d964375:claude:https://simonwillison.net/2026/Nov/9/llm-anthropic": {
+  "v": {
+   "title": "llm 外掛支援 Fable 5.2",
+   "summary": "llm-anthropic 0.31 支援 Fable 5.2 與 Mythos 5.2。實測 max 推理等級耗盡 12.8 萬思考 token 而無法產出圖片，Fable 5、5.1 則正常。",
+   "why": "可用 llm 指令比較各推理等級的產出；max 等級需留意失敗。"
+  },
+  "at": "2026-11-10T04:45:56.771Z"
  }
 }
