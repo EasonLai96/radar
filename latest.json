@@ -1,6 +1,6 @@
 {
- "date": "2026-11-10",
- "generatedAt": "2026-11-10T04:45:56.771Z",
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T02:56:32.925Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,123 +11,84 @@
  },
  "items": [
   {
-   "title": "llm 外掛支援 Fable 5.2",
-   "summary": "llm-anthropic 0.31 支援 Fable 5.2 與 Mythos 5.2。實測 max 推理等級耗盡 12.8 萬思考 token 而無法產出圖片，Fable 5、5.1 則正常。",
-   "why": "可用 llm 指令比較各推理等級的產出；max 等級需留意失敗。",
-   "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic",
+   "title": "Gemini 4 Carbon 開放給所有人",
+   "summary": "Gemini 4 Carbon 原本只給網路防禦人員，今日開放給一般使用者。起始價每百萬輸入 $2、輸出 $10，12 月 1 日將漲至 $4/$20。",
+   "why": "12 月 1 日前單價較低，適合趁機用 llm-gemini 測試它的程式與繪圖表現。",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
    "comments": null,
    "source": "Simon Willison",
+   "alsoFrom": [
+    "Google DeepMind"
+   ],
+   "stars": null,
+   "score": 79,
+   "scores": [
+    79,
+    80
+   ],
+   "originalTitle": "llm-gemini 0.36",
+   "related": [
+    "https://deepmind.google/blog/gemini-4-carbon-is-now-available"
+   ]
+  },
+  {
+   "title": "Chrome 開源現代 Web 指南 供 AI 代理使用",
+   "summary": "Chrome 與 Firefox、MDN、Edge 合作開源 200+ 篇現代 Web 實作指南，打包成 agent skill 與 CLI，約 7MB、搜尋約 10ms。",
+   "why": "讓 coding agent 改用 showModal()、field-sizing 等原生寫法，少寫 JS 與相依套件。",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "comments": "https://news.ycombinator.com/item?id=50443812",
+   "source": "Hacker News",
    "alsoFrom": [],
    "stars": null,
-   "score": 77,
+   "score": 75,
    "scores": [
-    76,
+    72,
     78
    ],
-   "originalTitle": "llm-anthropic 0.31",
+   "originalTitle": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
    "related": []
   },
   {
-   "title": "DSH 側欄能所見即所得寫 .md",
-   "summary": "dsh-marktext 是 DSH 右側欄外掛，用 MarkText 的 muya 引擎讓 .md 檔直接所見即所得編輯，還能把選取文字引用到聊天，並匯出 PDF。",
-   "why": "寫專案 README 或筆記時不用看原始碼，選一段就能一鍵引用給 AI 討論。",
-   "url": "https://github.com/Roland0511/dsh-marktext",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 410,
-   "score": 76,
-   "scores": [
-    78,
-    74
-   ],
-   "originalTitle": "Roland0511/dsh-marktext",
-   "related": []
-  },
-  {
-   "title": "DSH 出現自媒體工作台插件",
-   "summary": "dsh-media-desk 是 DeepSeek Harness 的免費開源插件，記一句靈感就能生成腳本、標題、封面、配圖和分鏡。",
-   "why": "網頁版在手機瀏覽器也能開，想經營社群帳號，或研究 DSH 插件怎麼寫，都可以拿來參考。",
-   "url": "https://github.com/woniuniuniu/dsh-media-desk",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 667,
-   "score": 71,
-   "scores": [
-    67,
-    76
-   ],
-   "originalTitle": "woniuniuniu/dsh-media-desk",
-   "related": []
-  },
-  {
-   "title": "PulsoIcon：會動的圖示庫",
-   "summary": "PulsoIcon 收錄 9955 個動態圖示，每個都有專屬動作，hover 或 focus 時播放。React 版可直接取代 lucide-react，也支援 Vue、Svelte 等。",
-   "why": "做網頁或小遊戲介面時，改一行 import 就能讓圖示 hover 有動畫。",
-   "url": "https://github.com/CityPulso/PulsoIcon",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 545,
-   "score": 71,
-   "scores": [
-    64,
-    78
-   ],
-   "originalTitle": "CityPulso/PulsoIcon",
-   "related": []
-  },
-  {
-   "title": "Fable、Mythos 5.2發布",
-   "summary": "Anthropic 發表 Claude Fable 5.2 與 Mythos 5.2，但材料沒有內文，功能與規格不明。HN 上有 328 分、670 則留言。",
-   "why": "留言多達 670 則，可先看社群評價，再決定要不要拿來試做機器人。",
-   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-   "comments": "https://news.ycombinator.com/item?id=50429068",
-   "source": "Hacker News",
+   "title": "提示說程式碼是它的，更會合併重複",
+   "summary": "Anthropic 在小型寫程式任務測試中發現，提示若寫明「這個程式庫是你的」，Claude Fable 5.2 合併重複程式碼的比例約一半，沒有這句話則不到一成。",
+   "why": "寫 Prompt 時可直接加上這句話，讓 AI 在開發中順手整理重複邏輯。",
+   "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+   "comments": null,
+   "source": "Simon Willison",
    "alsoFrom": [],
    "stars": null,
    "score": 70,
    "scores": [
-    72,
-    68
+    64,
+    77
    ],
-   "originalTitle": "Claude Fable 5.2 and Mythos 5.2",
+   "originalTitle": "Quoting Prompting Claude Fable 5.2",
    "related": []
   },
   {
-   "title": "Claude 用純JS寫出3D彩蛋",
-   "summary": "Simon Willison 用 Three.js 做海蛞蝓主題彩蛋，請 Claude Opus 5.5 改寫成純 Vanilla JS+WebGL，成功但程式碼不完全相同。",
-   "why": "證明 LLM 能跳過 Three.js 直接寫 WebGL，寫 3D 小遊戲可少裝一個函式庫。",
-   "url": "https://simonwillison.net/2026/Nov/9/hn-50421091",
-   "comments": null,
-   "source": "Simon Willison",
+   "title": "DSH 技能：中文文案轉程式碼動畫",
+   "summary": "開源 DSH 技能 fy-code-animation，把中文文案、畫風與聲音做成前後連貫的程式碼動畫，支援 Remotion、Canvas 與 HTML。",
+   "why": "中文動畫不想淪為逐句貼圖的投影片，可參考它的語義分鏡流程。",
+   "url": "https://github.com/Akillll-DuoHe/fy-code-animation",
+   "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": null,
-   "score": 69,
-   "scores": [
-    63,
-    76
-   ],
-   "originalTitle": "The Web Is More Than Enough, by Paul Ford",
-   "related": []
-  },
-  {
-   "title": "Fable 5.2 得 65 分居冠",
-   "summary": "Claude Fable 5.2 在 Artificial Analysis 拿到 65 分，標題稱為目前最高。這則在 Hacker News 有 313 分、230 則留言。",
-   "why": "想幫 Discord 機器人挑模型時，可以先看這個榜的分數，再用自己的需求實測。",
-   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-   "comments": "https://news.ycombinator.com/item?id=50431144",
-   "source": "Hacker News",
-   "alsoFrom": [],
-   "stars": null,
+   "stars": 308,
    "score": 68,
    "scores": [
     65,
     72
    ],
-   "originalTitle": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+   "originalTitle": "Akillll-DuoHe/fy-code-animation",
    "related": []
   }
  ],
  "nearMiss": [
+  {
+   "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+   "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+   "score": 64,
+   "source": "Simon Willison"
+  },
   {
    "title": "deepseek-ai/dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
@@ -135,10 +96,10 @@
    "source": "GitHub DSH 生態"
   },
   {
-   "title": "Show HN: Every satellite that passed over any place this week, and its photos",
-   "url": "https://www.watched.earth",
-   "score": 61,
-   "source": "Hacker News"
+   "title": "Yonkers Rises",
+   "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises",
+   "score": 62,
+   "source": "Simon Willison"
   },
   {
    "title": "yappologistic/CUI",
@@ -147,16 +108,10 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "NotRexed/Hookshot",
-   "url": "https://github.com/NotRexed/Hookshot",
-   "score": 59,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "voyager-so/vork",
-   "url": "https://github.com/voyager-so/vork",
-   "score": 59,
-   "source": "GitHub 新專案"
+   "title": "pktq/lasik",
+   "url": "https://github.com/pktq/lasik",
+   "score": 60,
+   "source": "GitHub Agent 技能"
   }
  ],
  "stats": {
@@ -176,7 +131,7 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 3,
+    "count": 4,
     "error": null
    },
    {
@@ -188,7 +143,7 @@
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 4,
+    "count": 6,
     "error": null
    },
    {
@@ -200,44 +155,42 @@
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 4,
+    "count": 5,
     "error": null
    },
    {
     "id": "deepmind",
     "name": "Google DeepMind",
-    "count": 0,
+    "count": 2,
     "error": null
    },
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 2,
+    "count": 5,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 1,
+    "count": 3,
     "error": null
    }
   ],
-  "candidates": 58,
-  "prefilterPass": 50,
-  "scored": 50,
-  "picked": 7,
+  "candidates": 60,
+  "prefilterPass": 43,
+  "scored": 43,
+  "picked": 4,
   "llm": {
-   "calls": 139,
-   "failures": 20,
+   "calls": 112,
+   "failures": 16,
    "byRoute": {
-    "owob:deepseek-free": 64,
-    "owob:deepseek-v4.1-flash": 11,
-    "owob:glm-5.3-flash": 36,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 6,
-    "avianjay:mrtoasterrr/claude-sonnet-5": 1,
-    "owob:claude-haiku-5-5": 1
+    "owob:deepseek-free": 58,
+    "owob:deepseek-v4.1-flash": 8,
+    "owob:glm-5.3-flash": 26,
+    "owob:claude-haiku-5-5": 4
    },
-   "tokens": 163602
+   "tokens": 113326
   }
  }
 }

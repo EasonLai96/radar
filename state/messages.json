@@ -466,5 +466,41 @@
   "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
   "source": "Hacker News",
   "score": 68
+ },
+ "1569908668441428081": {
+  "messageId": "1569908668441428081",
+  "channelId": "1519910211995959336",
+  "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
+  "date": "2026-11-11",
+  "title": "llm-gemini 0.36",
+  "source": "Simon Willison",
+  "score": 79
+ },
+ "1569908672178430004": {
+  "messageId": "1569908672178430004",
+  "channelId": "1519910211995959336",
+  "url": "https://github.com/GoogleChrome/modern-web-guidance",
+  "date": "2026-11-11",
+  "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+  "source": "Hacker News",
+  "score": 75
+ },
+ "1569908676028801128": {
+  "messageId": "1569908676028801128",
+  "channelId": "1519910211995959336",
+  "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+  "date": "2026-11-11",
+  "title": "Quoting Prompting Claude Fable 5.2",
+  "source": "Simon Willison",
+  "score": 70
+ },
+ "1569908679455805602": {
+  "messageId": "1569908679455805602",
+  "channelId": "1519910211995959336",
+  "url": "https://github.com/Akillll-DuoHe/fy-code-animation",
+  "date": "2026-11-11",
+  "title": "Akillll-DuoHe/fy-code-animation",
+  "source": "GitHub DSH 生態",
+  "score": 68
  }
 }
