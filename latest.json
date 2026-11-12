@@ -1,6 +1,6 @@
 {
- "date": "2026-11-11",
- "generatedAt": "2026-11-11T02:56:32.925Z",
+ "date": "2026-11-12",
+ "generatedAt": "2026-11-12T04:01:15.671Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,82 +11,44 @@
  },
  "items": [
   {
-   "title": "Gemini 4 Carbon 開放給所有人",
-   "summary": "Gemini 4 Carbon 原本只給網路防禦人員，今日開放給一般使用者。起始價每百萬輸入 $2、輸出 $10，12 月 1 日將漲至 $4/$20。",
-   "why": "12 月 1 日前單價較低，適合趁機用 llm-gemini 測試它的程式與繪圖表現。",
-   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
-   "comments": null,
-   "source": "Simon Willison",
-   "alsoFrom": [
-    "Google DeepMind"
-   ],
-   "stars": null,
-   "score": 79,
+   "title": "DSH 外掛：同一需求比較 2–4 版",
+   "summary": "AgentCompare 是 DSH 外掛，讓同一需求跑出 2–4 版回答、文件或網頁，可盲選或公開對比，選後記錄理由並寫回主對話。",
+   "why": "你可以拿它並排比較網頁小遊戲或機器人的不同寫法，選完理由會留在對話裡。",
+   "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 326,
+   "score": 71,
    "scores": [
-    79,
-    80
+    70,
+    72
    ],
-   "originalTitle": "llm-gemini 0.36",
-   "related": [
-    "https://deepmind.google/blog/gemini-4-carbon-is-now-available"
-   ]
+   "originalTitle": "lijiaqi-AI-Product-Manager/dsh-agent-compare",
+   "related": []
   },
   {
-   "title": "Chrome 開源現代 Web 指南 供 AI 代理使用",
-   "summary": "Chrome 與 Firefox、MDN、Edge 合作開源 200+ 篇現代 Web 實作指南，打包成 agent skill 與 CLI，約 7MB、搜尋約 10ms。",
-   "why": "讓 coding agent 改用 showModal()、field-sizing 等原生寫法，少寫 JS 與相依套件。",
-   "url": "https://github.com/GoogleChrome/modern-web-guidance",
-   "comments": "https://news.ycombinator.com/item?id=50443812",
+   "title": "WebGL2 打造超擬真沙子效果",
+   "summary": "Hacker News 熱門文章（329 分、66 則留言）介紹一個用 WebGL2 實作的超擬真沙子網頁效果。",
+   "why": "想學粒子或物理效果的話，可以先打開網頁看成果，再參考留言區的討論。",
+   "url": "https://av.github.io/safe-sand",
+   "comments": "https://news.ycombinator.com/item?id=50453288",
    "source": "Hacker News",
    "alsoFrom": [],
    "stars": null,
-   "score": 75,
+   "score": 67,
    "scores": [
-    72,
-    78
+    60,
+    75
    ],
-   "originalTitle": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-   "related": []
-  },
-  {
-   "title": "提示說程式碼是它的，更會合併重複",
-   "summary": "Anthropic 在小型寫程式任務測試中發現，提示若寫明「這個程式庫是你的」，Claude Fable 5.2 合併重複程式碼的比例約一半，沒有這句話則不到一成。",
-   "why": "寫 Prompt 時可直接加上這句話，讓 AI 在開發中順手整理重複邏輯。",
-   "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
-   "comments": null,
-   "source": "Simon Willison",
-   "alsoFrom": [],
-   "stars": null,
-   "score": 70,
-   "scores": [
-    64,
-    77
-   ],
-   "originalTitle": "Quoting Prompting Claude Fable 5.2",
-   "related": []
-  },
-  {
-   "title": "DSH 技能：中文文案轉程式碼動畫",
-   "summary": "開源 DSH 技能 fy-code-animation，把中文文案、畫風與聲音做成前後連貫的程式碼動畫，支援 Remotion、Canvas 與 HTML。",
-   "why": "中文動畫不想淪為逐句貼圖的投影片，可參考它的語義分鏡流程。",
-   "url": "https://github.com/Akillll-DuoHe/fy-code-animation",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 308,
-   "score": 68,
-   "scores": [
-    65,
-    72
-   ],
-   "originalTitle": "Akillll-DuoHe/fy-code-animation",
+   "originalTitle": "Hyper-Realistic Sand with WebGL2",
    "related": []
   }
  ],
  "nearMiss": [
   {
-   "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-   "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
-   "score": 64,
+   "title": "Gemini Decisions API",
+   "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
+   "score": 65,
    "source": "Simon Willison"
   },
   {
@@ -96,22 +58,16 @@
    "source": "GitHub DSH 生態"
   },
   {
-   "title": "Yonkers Rises",
-   "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises",
-   "score": 62,
-   "source": "Simon Willison"
-  },
-  {
-   "title": "yappologistic/CUI",
-   "url": "https://github.com/yappologistic/CUI",
-   "score": 61,
-   "source": "GitHub 新專案"
-  },
-  {
    "title": "pktq/lasik",
    "url": "https://github.com/pktq/lasik",
    "score": 60,
    "source": "GitHub Agent 技能"
+  },
+  {
+   "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+   "url": "https://termsheetplease.com",
+   "score": 58,
+   "source": "Hacker News"
   }
  ],
  "stats": {
@@ -131,19 +87,19 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 4,
+    "count": 2,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 14,
+    "count": 18,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 6,
+    "count": 5,
     "error": null
    },
    {
@@ -155,42 +111,42 @@
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 5,
+    "count": 3,
     "error": null
    },
    {
     "id": "deepmind",
     "name": "Google DeepMind",
-    "count": 2,
+    "count": 1,
     "error": null
    },
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 5,
+    "count": 2,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 3,
+    "count": 2,
     "error": null
    }
   ],
   "candidates": 60,
-  "prefilterPass": 43,
-  "scored": 43,
-  "picked": 4,
+  "prefilterPass": 38,
+  "scored": 38,
+  "picked": 2,
   "llm": {
-   "calls": 112,
+   "calls": 119,
    "failures": 16,
    "byRoute": {
-    "owob:deepseek-free": 58,
-    "owob:deepseek-v4.1-flash": 8,
-    "owob:glm-5.3-flash": 26,
-    "owob:claude-haiku-5-5": 4
+    "owob:deepseek-free": 32,
+    "owob:deepseek-v4.1-flash": 42,
+    "owob:glm-5.3-flash": 27,
+    "owob:claude-haiku-5-5": 2
    },
-   "tokens": 113326
+   "tokens": 113211
   }
  }
 }

