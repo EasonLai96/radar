@@ -4399,5 +4399,694 @@
    "why": "你可以拿它並排比較網頁小遊戲或機器人的不同寫法，選完理由會留在對話裡。"
   },
   "at": "2026-11-12T04:01:15.671Z"
+ },
+ "prefilter:d2932bff:deepseek:https://deepmind.google/blog/introducing-gemini-4-hydrogen": {
+  "v": {
+   "label": "PASS",
+   "reason": "Google DeepMind 新 AI 模型發表，與 AI 模型相關"
+  },
+  "at": "2026-11-13T03:29:12.411Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/business/customer-stories/amplitude": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI客戶案例，涉及產品agent與coding agent開發應用"
+  },
+  "at": "2026-11-13T03:29:12.592Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/12/llm-gemini": {
+  "v": {
+   "label": "PASS",
+   "reason": "Gemini 4模型發布與定價比較，屬AI模型價格與可用性"
+  },
+  "at": "2026-11-13T03:29:12.688Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": {
+  "v": {
+   "label": "PASS",
+   "reason": "LLM原生标记语言与Granite模型，属AI模型开发"
+  },
+  "at": "2026-11-13T03:29:12.707Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "天文新聞，與開發及AI工具無關"
+  },
+  "at": "2026-11-13T03:29:15.107Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/permitzip/mutinybim": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源BIM引擎含MCP與AI agent協作，屬開發工具"
+  },
+  "at": "2026-11-13T03:29:16.300Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/lili-luo/dsh-plugin-bundle": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 插件組合包，與 coding agent 開發直接相關"
+  },
+  "at": "2026-11-13T03:29:16.896Z"
+ },
+ "prefilter:d2932bff:deepseek:https://unemploymentlabs.com/checkpoint-forensics": {
+  "v": {
+   "label": "PASS",
+   "reason": "分析 AI 模型檢查點與訓練用 GPU 來源"
+  },
+  "at": "2026-11-13T03:29:36.805Z"
+ },
+ "prefilter:d2932bff:deepseek:https://latent.space/p/jev-revolution": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI工程師大會與Jev模型開發應用，與coding agent相關"
+  },
+  "at": "2026-11-13T03:29:39.908Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Fanqi89/dsh-craft-anything": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 的 MCP 橋接插件，屬 coding agent 開發工具"
+  },
+  "at": "2026-11-13T03:29:43.954Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Actions 停止 ARM32 支援，屬開發工具變動"
+  },
+  "at": "2026-11-13T03:29:45.650Z"
+ },
+ "prefilter:d2932bff:deepseek:https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI模型與Agent工具發布"
+  },
+  "at": "2026-11-13T03:29:47.462Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/business/customer-stories/holidays-extras-codex": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI官方Codex企業應用案例，與coding agent相關"
+  },
+  "at": "2026-11-13T03:29:49.659Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "GitHub 企業監控告警功能，與 AI/開發實作無實質關聯"
+  },
+  "at": "2026-11-13T03:29:52.495Z"
+ },
+ "prefilter:d2932bff:deepseek:https://latent.space/p/ainews-d-day-decision-models-day": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 決策模型與開發工具新聞"
+  },
+  "at": "2026-11-13T03:29:54.738Z"
+ },
+ "prefilter:d2932bff:deepseek:https://blog.rust-lang.org/2026/11/12/Rust-1.100.0": {
+  "v": {
+   "label": "PASS",
+   "reason": "Rust 1.100 程式語言版本發布，與開發工具相關"
+  },
+  "at": "2026-11-13T03:29:55.121Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Minglink/dsh-workflows": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 工作流與 Skill 插件合集，屬 agent 開發生態"
+  },
+  "at": "2026-11-13T03:29:55.944Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Tranquillitatis-Lab/dsh-live-compact": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 上下文壓縮外掛,與 coding agent 開發工具直接相關"
+  },
+  "at": "2026-11-13T03:29:58.026Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/children-first-declaration": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "企業公益與政策新聞，與開發工具無實質關係"
+  },
+  "at": "2026-11-13T03:29:59.978Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/HybridRobotics/supermimic": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI世界模型開源專案含訓練程式碼"
+  },
+  "at": "2026-11-13T03:30:00.219Z"
+ },
+ "prefilter:d2932bff:deepseek:https://huggingface.co/blog/3d-lora-finetuning": {
+  "v": {
+   "label": "PASS",
+   "reason": "Hugging Face 3D生成模型微调指南，属AI绘图与模型技术"
+  },
+  "at": "2026-11-13T03:30:01.934Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/agentes-chat/agentes-chat": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源自架 AI agent 協作平台,含 MCP、Claude Code 整合"
+  },
+  "at": "2026-11-13T03:30:03.088Z"
+ },
+ "prefilter:d2932bff:deepseek:https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460": {
+  "v": {
+   "label": "PASS",
+   "reason": "資料庫漏洞與RCE技術研究,屬開發技術範疇"
+  },
+  "at": "2026-11-13T03:30:04.423Z"
+ },
+ "prefilter:d2932bff:deepseek:https://status.cloud.microsoft": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "微軟365服務中斷，屬一般科技新聞非開發工具"
+  },
+  "at": "2026-11-13T03:30:05.491Z"
+ },
+ "prefilter:d2932bff:deepseek:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen": {
+  "v": {
+   "label": "PASS",
+   "reason": "Google 發表 Gemini 4 新模型,與 AI 模型可用性相關"
+  },
+  "at": "2026-11-13T03:30:05.880Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/apex-compute/ANR": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 神經渲染/畫格生成開源專案，與繪圖與遊戲開發相關"
+  },
+  "at": "2026-11-13T03:30:07.942Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/HolyArrs/HolyArrs": {
+  "v": {
+   "label": "PASS",
+   "reason": "自架媒體伺服器開源專案"
+  },
+  "at": "2026-11-13T03:30:09.934Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/business/customer-stories/gondola": {
+  "v": {
+   "label": "PASS",
+   "reason": "Codex 提升開發效率的客戶案例"
+  },
+  "at": "2026-11-13T03:30:11.466Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/hyperionaidev/smolmaxxing": {
+  "v": {
+   "label": "PASS",
+   "reason": "與小裝置跑 LLM 及本地推論開發相關"
+  },
+  "at": "2026-11-13T03:30:11.473Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源遊戲模組專案，屬遊戲開發範疇"
+  },
+  "at": "2026-11-13T03:30:15.421Z"
+ },
+ "prefilter:d2932bff:deepseek:https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "AMD Zen 6 處理器架構訪談,屬硬體新聞與開發無關"
+  },
+  "at": "2026-11-13T03:30:15.751Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/simpsoka/zigzag": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源專案，自建App反訂閱，開發相關"
+  },
+  "at": "2026-11-13T03:30:15.772Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Goblinmine/homelab-diagram": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude Code 輔助開發的開源 Python 專案，與 AI 寫程式相關"
+  },
+  "at": "2026-11-13T03:30:17.305Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub 密鑰掃描新增偵測器，屬開發工具安全功能"
+  },
+  "at": "2026-11-13T03:30:19.614Z"
+ },
+ "prefilter:d2932bff:deepseek:https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "輝達CEO辭職屬商業新聞，與開發無關"
+  },
+  "at": "2026-11-13T03:30:21.098Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/Goldoire/fefw-recomp": {
+  "v": {
+   "label": "PASS",
+   "reason": "靜態重編譯開源專案，遊戲開發工具"
+  },
+  "at": "2026-11-13T03:30:21.480Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/kolbicz/WQFiles": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源iOS檔案/app資料管理工具，屬開發者工具範疇"
+  },
+  "at": "2026-11-13T03:30:21.767Z"
+ },
+ "prefilter:d2932bff:deepseek:https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little": {
+  "v": {
+   "label": "UNKNOWN",
+   "reason": "僅標題與連結，未見內容，難判斷是否涉AI或開發工具"
+  },
+  "at": "2026-11-13T03:30:22.683Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/JDhruv14/line-art-animation": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude skill 與 SVG 動畫前端函式庫，與技能及網頁開發相關"
+  },
+  "at": "2026-11-13T03:30:24.133Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/alexeyw/lot-map": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude Code 外掛，即時視覺化 agent 工具呼叫與技能"
+  },
+  "at": "2026-11-13T03:30:25.132Z"
+ },
+ "prefilter:d2932bff:deepseek:https://ipo.anthropic.com/us": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "Anthropic IPO 屬商業財經新聞，非開發技術"
+  },
+  "at": "2026-11-13T03:30:25.659Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/forcequitOS/worse_query": {
+  "v": {
+   "label": "PASS",
+   "reason": "iOS 沙箱逃逸 PoC 開源專案，屬開發與安全研究工具"
+  },
+  "at": "2026-11-13T03:30:26.196Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/serveroshq/panel": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源伺服器管理面板，內建 MCP server 與 API，與開發工具相關"
+  },
+  "at": "2026-11-13T03:30:26.971Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/adriadam10/mkw-recomp": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源遊戲重編譯專案，涉Vulkan與圖形開發"
+  },
+  "at": "2026-11-13T03:30:27.163Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/luobinger/PerkRadar": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源TypeScript自架專案，與開發工具相關"
+  },
+  "at": "2026-11-13T03:30:27.540Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/dbcaskml183-dotcom/dsh-prelude": {
+  "v": {
+   "label": "PASS",
+   "reason": "DSH 提示詞工程外掛，屬 coding agent 開發工具"
+  },
+  "at": "2026-11-13T03:30:29.181Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/TooonyChen/finallyshell": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 Go 語言 SSH 客戶端，屬開發工具"
+  },
+  "at": "2026-11-13T03:30:48.774Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/12/llm-gemini": {
+  "v": 53,
+  "at": "2026-11-13T03:30:54.023Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/business/customer-stories/amplitude": {
+  "v": 10,
+  "at": "2026-11-13T03:30:54.675Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": {
+  "v": 43,
+  "at": "2026-11-13T03:30:55.175Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/12/llm-gemini": {
+  "v": 66,
+  "at": "2026-11-13T03:30:55.212Z"
+ },
+ "scoreB:118d0780:glm:https://unemploymentlabs.com/checkpoint-forensics": {
+  "v": 45,
+  "at": "2026-11-13T03:30:55.346Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/business/customer-stories/amplitude": {
+  "v": 18,
+  "at": "2026-11-13T03:30:55.439Z"
+ },
+ "scoreB:118d0780:glm:https://deepmind.google/blog/introducing-gemini-4-hydrogen": {
+  "v": 75,
+  "at": "2026-11-13T03:30:58.220Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement": {
+  "v": 18,
+  "at": "2026-11-13T03:30:58.283Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": {
+  "v": 33,
+  "at": "2026-11-13T03:30:58.883Z"
+ },
+ "scoreB:118d0780:glm:https://latent.space/p/ainews-d-day-decision-models-day": {
+  "v": 28,
+  "at": "2026-11-13T03:30:59.726Z"
+ },
+ "scoreA:118d0780:deepseek:https://unemploymentlabs.com/checkpoint-forensics": {
+  "v": 50,
+  "at": "2026-11-13T03:30:59.763Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement": {
+  "v": 18,
+  "at": "2026-11-13T03:30:59.942Z"
+ },
+ "scoreA:118d0780:deepseek:https://deepmind.google/blog/introducing-gemini-4-hydrogen": {
+  "v": 74,
+  "at": "2026-11-13T03:31:00.114Z"
+ },
+ "scoreA:118d0780:deepseek:https://latent.space/p/ainews-d-day-decision-models-day": {
+  "v": 23,
+  "at": "2026-11-13T03:31:01.896Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/permitzip/mutinybim": {
+  "v": 33,
+  "at": "2026-11-13T03:31:03.758Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/lili-luo/dsh-plugin-bundle": {
+  "v": 58,
+  "at": "2026-11-13T03:31:04.379Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare": {
+  "v": 12,
+  "at": "2026-11-13T03:31:04.688Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/business/customer-stories/gondola": {
+  "v": 12,
+  "at": "2026-11-13T03:31:05.062Z"
+ },
+ "scoreA:118d0780:deepseek:https://huggingface.co/blog/3d-lora-finetuning": {
+  "v": 38,
+  "at": "2026-11-13T03:31:06.111Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare": {
+  "v": 18,
+  "at": "2026-11-13T03:31:06.902Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/lili-luo/dsh-plugin-bundle": {
+  "v": 62,
+  "at": "2026-11-13T03:31:07.999Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/permitzip/mutinybim": {
+  "v": 42,
+  "at": "2026-11-13T03:31:08.066Z"
+ },
+ "scoreB:118d0780:glm:https://huggingface.co/blog/3d-lora-finetuning": {
+  "v": 41,
+  "at": "2026-11-13T03:31:09.693Z"
+ },
+ "scoreA:118d0780:deepseek:https://latent.space/p/jev-revolution": {
+  "v": 26,
+  "at": "2026-11-13T03:31:10.673Z"
+ },
+ "scoreB:118d0780:glm:https://latent.space/p/jev-revolution": {
+  "v": 18,
+  "at": "2026-11-13T03:31:11.041Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Fanqi89/dsh-craft-anything": {
+  "v": 69,
+  "at": "2026-11-13T03:31:12.289Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/business/customer-stories/holidays-extras-codex": {
+  "v": 8,
+  "at": "2026-11-13T03:31:13.237Z"
+ },
+ "scoreA:118d0780:deepseek:https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity": {
+  "v": 65,
+  "at": "2026-11-13T03:31:13.257Z"
+ },
+ "scoreB:118d0780:glm:https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity": {
+  "v": 75,
+  "at": "2026-11-13T03:31:14.079Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/business/customer-stories/holidays-extras-codex": {
+  "v": 14,
+  "at": "2026-11-13T03:31:14.284Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Fanqi89/dsh-craft-anything": {
+  "v": 65,
+  "at": "2026-11-13T03:31:16.889Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/HybridRobotics/supermimic": {
+  "v": 14,
+  "at": "2026-11-13T03:31:17.721Z"
+ },
+ "scoreB:118d0780:glm:https://blog.rust-lang.org/2026/11/12/Rust-1.100.0": {
+  "v": 42,
+  "at": "2026-11-13T03:31:19.018Z"
+ },
+ "scoreA:118d0780:deepseek:https://blog.rust-lang.org/2026/11/12/Rust-1.100.0": {
+  "v": 27,
+  "at": "2026-11-13T03:31:19.473Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Minglink/dsh-workflows": {
+  "v": 34,
+  "at": "2026-11-13T03:31:19.474Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Tranquillitatis-Lab/dsh-live-compact": {
+  "v": 79,
+  "at": "2026-11-13T03:31:21.442Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/business/customer-stories/gondola": {
+  "v": 14,
+  "at": "2026-11-13T03:31:23.596Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Tranquillitatis-Lab/dsh-live-compact": {
+  "v": 70,
+  "at": "2026-11-13T03:31:23.839Z"
+ },
+ "scoreB:118d0780:glm:https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460": {
+  "v": 33,
+  "at": "2026-11-13T03:31:26.010Z"
+ },
+ "scoreA:118d0780:deepseek:https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460": {
+  "v": 38,
+  "at": "2026-11-13T03:31:26.758Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/dbcaskml183-dotcom/dsh-prelude": {
+  "v": 81,
+  "at": "2026-11-13T03:31:28.791Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/agentes-chat/agentes-chat": {
+  "v": 59,
+  "at": "2026-11-13T03:31:28.868Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/agentes-chat/agentes-chat": {
+  "v": 61,
+  "at": "2026-11-13T03:31:29.175Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/dbcaskml183-dotcom/dsh-prelude": {
+  "v": 76,
+  "at": "2026-11-13T03:31:30.330Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/apex-compute/ANR": {
+  "v": 57,
+  "at": "2026-11-13T03:31:33.366Z"
+ },
+ "scoreB:118d0780:glm:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen": {
+  "v": 64,
+  "at": "2026-11-13T03:31:34.482Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/simpsoka/zigzag": {
+  "v": 24,
+  "at": "2026-11-13T03:31:34.525Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/apex-compute/ANR": {
+  "v": 32,
+  "at": "2026-11-13T03:31:36.039Z"
+ },
+ "scoreA:118d0780:deepseek:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen": {
+  "v": 70,
+  "at": "2026-11-13T03:31:37.195Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/hyperionaidev/smolmaxxing": {
+  "v": 49,
+  "at": "2026-11-13T03:31:41.294Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/HolyArrs/HolyArrs": {
+  "v": 47,
+  "at": "2026-11-13T03:31:42.111Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/simpsoka/zigzag": {
+  "v": 47,
+  "at": "2026-11-13T03:31:43.813Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/HolyArrs/HolyArrs": {
+  "v": 42,
+  "at": "2026-11-13T03:31:45.115Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Minglink/dsh-workflows": {
+  "v": 48,
+  "at": "2026-11-13T03:31:46.360Z"
+ },
+ "scoreB:118d0780:glm:https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64": {
+  "v": 48,
+  "at": "2026-11-13T03:31:48.952Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64": {
+  "v": 41,
+  "at": "2026-11-13T03:31:49.962Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/HybridRobotics/supermimic": {
+  "v": 41,
+  "at": "2026-11-13T03:31:49.976Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Goblinmine/homelab-diagram": {
+  "v": 37,
+  "at": "2026-11-13T03:31:50.802Z"
+ },
+ "scoreB:118d0780:glm:https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little": {
+  "v": 24,
+  "at": "2026-11-13T03:31:50.896Z"
+ },
+ "scoreA:118d0780:deepseek:https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little": {
+  "v": 22,
+  "at": "2026-11-13T03:31:51.847Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Goblinmine/homelab-diagram": {
+  "v": 28,
+  "at": "2026-11-13T03:31:51.996Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/hyperionaidev/smolmaxxing": {
+  "v": 36,
+  "at": "2026-11-13T03:31:55.850Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Goldoire/fefw-recomp": {
+  "v": 55,
+  "at": "2026-11-13T03:31:56.016Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/kolbicz/WQFiles": {
+  "v": 44,
+  "at": "2026-11-13T03:31:56.028Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/alexeyw/lot-map": {
+  "v": 52,
+  "at": "2026-11-13T03:31:57.169Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/JDhruv14/line-art-animation": {
+  "v": 64,
+  "at": "2026-11-13T03:31:57.409Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/kolbicz/WQFiles": {
+  "v": 42,
+  "at": "2026-11-13T03:31:58.018Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/JDhruv14/line-art-animation": {
+  "v": 74,
+  "at": "2026-11-13T03:31:58.030Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/alexeyw/lot-map": {
+  "v": 57,
+  "at": "2026-11-13T03:31:58.207Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/forcequitOS/worse_query": {
+  "v": 29,
+  "at": "2026-11-13T03:32:00.408Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/serveroshq/panel": {
+  "v": 40,
+  "at": "2026-11-13T03:32:02.981Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/serveroshq/panel": {
+  "v": 52,
+  "at": "2026-11-13T03:32:03.701Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/luobinger/PerkRadar": {
+  "v": 51,
+  "at": "2026-11-13T03:32:03.873Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/adriadam10/mkw-recomp": {
+  "v": 64,
+  "at": "2026-11-13T03:32:04.133Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/adriadam10/mkw-recomp": {
+  "v": 58,
+  "at": "2026-11-13T03:32:06.083Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/luobinger/PerkRadar": {
+  "v": 55,
+  "at": "2026-11-13T03:32:08.868Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/TooonyChen/finallyshell": {
+  "v": 49,
+  "at": "2026-11-13T03:32:09.169Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/TooonyChen/finallyshell": {
+  "v": 62,
+  "at": "2026-11-13T03:32:10.400Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/forcequitOS/worse_query": {
+  "v": 40,
+  "at": "2026-11-13T03:32:17.439Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/Goldoire/fefw-recomp": {
+  "v": 46,
+  "at": "2026-11-13T03:32:19.297Z"
+ },
+ "write:2d964375:claude:https://github.com/JDhruv14/line-art-animation": {
+  "v": {
+   "title": "線稿動畫 Claude Skill 與 TS 函式庫",
+   "summary": "JDhruv14 釋出 line-art-animation：可當 Claude skill 安裝的 TypeScript 函式庫，用 SVG 即時繪製會走動、會對指標反應的線稿人物與晝夜場景。",
+   "why": "可照 examples/walker 學習線稿角色製作，或請 Claude 生成線稿元件，適合拿來做網頁小遊戲的動態背景。"
+  },
+  "at": "2026-11-13T03:32:27.720Z"
+ },
+ "write:2d964375:claude:https://github.com/Tranquillitatis-Lab/dsh-live-compact": {
+  "v": {
+   "title": "DSH 外掛：長對話輸出就地壓縮",
+   "summary": "Live Compact 每輪結束時檢查長輸出，能安全收短就在本機整理，不再請模型；只替換選中段，整理前會備份原文。",
+   "why": "裝 dsh-live-compact@1.1.6 後，可自己比對長對話的 token 用量與答案正確度。"
+  },
+  "at": "2026-11-13T03:32:31.879Z"
+ },
+ "write:2d964375:claude:https://deepmind.google/blog/introducing-gemini-4-hydrogen": {
+  "v": {
+   "title": "Gemini 4 Hydrogen 發布",
+   "summary": "Google DeepMind 於 2026-11-12 發布介紹 Gemini 4 Hydrogen 的文章。材料未附內文，具體功能與適用範圍目前無法確認。",
+   "why": "內文缺漏，請先看原文確認功能與 API，再評估是否適用於你的專案。"
+  },
+  "at": "2026-11-13T03:32:32.322Z"
+ },
+ "write:2d964375:claude:https://github.com/dbcaskml183-dotcom/dsh-prelude": {
+  "v": {
+   "title": "提示詞插件 dsh-prelude",
+   "summary": "DSH 提示詞插件 dsh-prelude，可從 90 張方法卡選句補入草稿，或對照原稿改寫整段，目前為 0.4.29 預覽版。",
+   "why": "可直接試用，或參考其 90 張方法卡整理自己的常用補句。"
+  },
+  "at": "2026-11-13T03:32:34.477Z"
+ },
+ "write:2d964375:claude:https://github.com/Fanqi89/dsh-craft-anything": {
+  "v": {
+   "title": "Craft Anything 推出 DSH 接入插件",
+   "summary": "dsh-craft-anything（★269，JavaScript）用 MCP 橋把本地 craft-anything CLI 接進 DSH，工具以 mcp__craft__* 出現，另附淨室與深度模式切換、狀態頁、命令運行器與 SHA256 校驗安裝器。",
+   "why": "想在 DSH 裡研究網站、遊戲或檔案格式怎麼運作，再交給 AI 重做，可以裝這個插件試試。"
+  },
+  "at": "2026-11-13T03:32:51.879Z"
  }
 }

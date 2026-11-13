@@ -1,6 +1,6 @@
 {
- "date": "2026-11-12",
- "generatedAt": "2026-11-12T04:01:15.671Z",
+ "date": "2026-11-13",
+ "generatedAt": "2026-11-13T03:32:51.879Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,36 +11,89 @@
  },
  "items": [
   {
-   "title": "DSH 外掛：同一需求比較 2–4 版",
-   "summary": "AgentCompare 是 DSH 外掛，讓同一需求跑出 2–4 版回答、文件或網頁，可盲選或公開對比，選後記錄理由並寫回主對話。",
-   "why": "你可以拿它並排比較網頁小遊戲或機器人的不同寫法，選完理由會留在對話裡。",
-   "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare",
+   "title": "提示詞插件 dsh-prelude",
+   "summary": "DSH 提示詞插件 dsh-prelude，可從 90 張方法卡選句補入草稿，或對照原稿改寫整段，目前為 0.4.29 預覽版。",
+   "why": "可直接試用，或參考其 90 張方法卡整理自己的常用補句。",
+   "url": "https://github.com/dbcaskml183-dotcom/dsh-prelude",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 326,
-   "score": 71,
+   "stars": 242,
+   "score": 78,
    "scores": [
-    70,
-    72
+    76,
+    81
    ],
-   "originalTitle": "lijiaqi-AI-Product-Manager/dsh-agent-compare",
+   "originalTitle": "dbcaskml183-dotcom/dsh-prelude",
    "related": []
   },
   {
-   "title": "WebGL2 打造超擬真沙子效果",
-   "summary": "Hacker News 熱門文章（329 分、66 則留言）介紹一個用 WebGL2 實作的超擬真沙子網頁效果。",
-   "why": "想學粒子或物理效果的話，可以先打開網頁看成果，再參考留言區的討論。",
-   "url": "https://av.github.io/safe-sand",
-   "comments": "https://news.ycombinator.com/item?id=50453288",
-   "source": "Hacker News",
-   "alsoFrom": [],
+   "title": "Gemini 4 Hydrogen 發布",
+   "summary": "Google DeepMind 於 2026-11-12 發布介紹 Gemini 4 Hydrogen 的文章。材料未附內文，具體功能與適用範圍目前無法確認。",
+   "why": "內文缺漏，請先看原文確認功能與 API，再評估是否適用於你的專案。",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+   "comments": null,
+   "source": "Google DeepMind",
+   "alsoFrom": [
+    "Hacker News"
+   ],
    "stars": null,
-   "score": 67,
+   "score": 74,
    "scores": [
-    60,
+    74,
     75
    ],
-   "originalTitle": "Hyper-Realistic Sand with WebGL2",
+   "originalTitle": "Introducing Gemini 4 Hydrogen",
+   "related": [
+    "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen"
+   ]
+  },
+  {
+   "title": "DSH 外掛：長對話輸出就地壓縮",
+   "summary": "Live Compact 每輪結束時檢查長輸出，能安全收短就在本機整理，不再請模型；只替換選中段，整理前會備份原文。",
+   "why": "裝 dsh-live-compact@1.1.6 後，可自己比對長對話的 token 用量與答案正確度。",
+   "url": "https://github.com/Tranquillitatis-Lab/dsh-live-compact",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 249,
+   "score": 74,
+   "scores": [
+    70,
+    79
+   ],
+   "originalTitle": "Tranquillitatis-Lab/dsh-live-compact",
+   "related": []
+  },
+  {
+   "title": "線稿動畫 Claude Skill 與 TS 函式庫",
+   "summary": "JDhruv14 釋出 line-art-animation：可當 Claude skill 安裝的 TypeScript 函式庫，用 SVG 即時繪製會走動、會對指標反應的線稿人物與晝夜場景。",
+   "why": "可照 examples/walker 學習線稿角色製作，或請 Claude 生成線稿元件，適合拿來做網頁小遊戲的動態背景。",
+   "url": "https://github.com/JDhruv14/line-art-animation",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 597,
+   "score": 69,
+   "scores": [
+    64,
+    74
+   ],
+   "originalTitle": "JDhruv14/line-art-animation",
+   "related": []
+  },
+  {
+   "title": "Craft Anything 推出 DSH 接入插件",
+   "summary": "dsh-craft-anything（★269，JavaScript）用 MCP 橋把本地 craft-anything CLI 接進 DSH，工具以 mcp__craft__* 出現，另附淨室與深度模式切換、狀態頁、命令運行器與 SHA256 校驗安裝器。",
+   "why": "想在 DSH 裡研究網站、遊戲或檔案格式怎麼運作，再交給 AI 重做，可以裝這個插件試試。",
+   "url": "https://github.com/Fanqi89/dsh-craft-anything",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 269,
+   "score": 67,
+   "scores": [
+    65,
+    69
+   ],
+   "originalTitle": "Fanqi89/dsh-craft-anything",
    "related": []
   }
  ],
@@ -58,16 +111,22 @@
    "source": "GitHub DSH 生態"
   },
   {
+   "title": "adriadam10/mkw-recomp",
+   "url": "https://github.com/adriadam10/mkw-recomp",
+   "score": 61,
+   "source": "GitHub 新專案"
+  },
+  {
    "title": "pktq/lasik",
    "url": "https://github.com/pktq/lasik",
    "score": 60,
    "source": "GitHub Agent 技能"
   },
   {
-   "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
-   "url": "https://termsheetplease.com",
-   "score": 58,
-   "source": "Hacker News"
+   "title": "lili-luo/dsh-plugin-bundle",
+   "url": "https://github.com/lili-luo/dsh-plugin-bundle",
+   "score": 60,
+   "source": "GitHub DSH 生態"
   }
  ],
  "stats": {
@@ -93,13 +152,13 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 18,
+    "count": 14,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 5,
+    "count": 2,
     "error": null
    },
    {
@@ -111,7 +170,7 @@
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 3,
+    "count": 5,
     "error": null
    },
    {
@@ -123,7 +182,7 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 2,
+    "count": 3,
     "error": null
    },
    {
@@ -134,19 +193,19 @@
    }
   ],
   "candidates": 60,
-  "prefilterPass": 38,
-  "scored": 38,
-  "picked": 2,
+  "prefilterPass": 51,
+  "scored": 51,
+  "picked": 5,
   "llm": {
-   "calls": 119,
-   "failures": 16,
+   "calls": 154,
+   "failures": 21,
    "byRoute": {
-    "owob:deepseek-free": 32,
-    "owob:deepseek-v4.1-flash": 42,
-    "owob:glm-5.3-flash": 27,
-    "owob:claude-haiku-5-5": 2
+    "owob:deepseek-free": 75,
+    "owob:deepseek-v4.1-flash": 13,
+    "owob:glm-5.3-flash": 40,
+    "owob:claude-haiku-5-5": 5
    },
-   "tokens": 113211
+   "tokens": 185999
   }
  }
 }
