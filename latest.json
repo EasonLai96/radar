@@ -1,6 +1,6 @@
 {
- "date": "2026-11-13",
- "generatedAt": "2026-11-13T03:32:51.879Z",
+ "date": "2026-11-14",
+ "generatedAt": "2026-11-14T03:27:32.800Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,104 +11,77 @@
  },
  "items": [
   {
-   "title": "提示詞插件 dsh-prelude",
-   "summary": "DSH 提示詞插件 dsh-prelude，可從 90 張方法卡選句補入草稿，或對照原稿改寫整段，目前為 0.4.29 預覽版。",
-   "why": "可直接試用，或參考其 90 張方法卡整理自己的常用補句。",
-   "url": "https://github.com/dbcaskml183-dotcom/dsh-prelude",
+   "title": "Fish Pocket：iPhone 原生跑 DSH",
+   "summary": "Fish Pocket 讓 DSH 在 iPhone 與 iPad 本機運行，不需電腦或伺服器，介面以 SwiftUI 重寫。內建 bash、Python、Git 與 FFmpeg。",
+   "why": "可在手機上跑 Python、Git 與 FFmpeg，智能體還能查日曆、建提醒。",
+   "url": "https://github.com/imsai-sh/fish-pocket",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 242,
-   "score": 78,
+   "stars": 247,
+   "score": 81,
    "scores": [
-    76,
-    81
+    78,
+    84
    ],
-   "originalTitle": "dbcaskml183-dotcom/dsh-prelude",
+   "originalTitle": "imsai-sh/fish-pocket",
    "related": []
   },
   {
-   "title": "Gemini 4 Hydrogen 發布",
-   "summary": "Google DeepMind 於 2026-11-12 發布介紹 Gemini 4 Hydrogen 的文章。材料未附內文，具體功能與適用範圍目前無法確認。",
-   "why": "內文缺漏，請先看原文確認功能與 API，再評估是否適用於你的專案。",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
-   "comments": null,
-   "source": "Google DeepMind",
-   "alsoFrom": [
-    "Hacker News"
-   ],
-   "stars": null,
-   "score": 74,
-   "scores": [
-    74,
-    75
-   ],
-   "originalTitle": "Introducing Gemini 4 Hydrogen",
-   "related": [
-    "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen"
-   ]
-  },
-  {
-   "title": "DSH 外掛：長對話輸出就地壓縮",
-   "summary": "Live Compact 每輪結束時檢查長輸出，能安全收短就在本機整理，不再請模型；只替換選中段，整理前會備份原文。",
-   "why": "裝 dsh-live-compact@1.1.6 後，可自己比對長對話的 token 用量與答案正確度。",
-   "url": "https://github.com/Tranquillitatis-Lab/dsh-live-compact",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 249,
-   "score": 74,
-   "scores": [
-    70,
-    79
-   ],
-   "originalTitle": "Tranquillitatis-Lab/dsh-live-compact",
-   "related": []
-  },
-  {
-   "title": "線稿動畫 Claude Skill 與 TS 函式庫",
-   "summary": "JDhruv14 釋出 line-art-animation：可當 Claude skill 安裝的 TypeScript 函式庫，用 SVG 即時繪製會走動、會對指標反應的線稿人物與晝夜場景。",
-   "why": "可照 examples/walker 學習線稿角色製作，或請 Claude 生成線稿元件，適合拿來做網頁小遊戲的動態背景。",
-   "url": "https://github.com/JDhruv14/line-art-animation",
+   "title": "DeepSeek 無後端聊天網頁 Demo",
+   "summary": "GitHub 上的靜態聊天 Demo，瀏覽器直接連 DeepSeek API，無需後端。從 Releases 下載解壓後，雙擊 index.html 即可在本機使用。",
+   "why": "可參考它的串流回覆與 API 串接寫法，練習做自己的 AI 聊天網頁。",
+   "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub 新專案",
    "alsoFrom": [],
-   "stars": 597,
-   "score": 69,
+   "stars": 917,
+   "score": 72,
    "scores": [
-    64,
-    74
+    65,
+    79
    ],
-   "originalTitle": "JDhruv14/line-art-animation",
+   "originalTitle": "deepseek-ai/chat-demo",
    "related": []
   },
   {
-   "title": "Craft Anything 推出 DSH 接入插件",
-   "summary": "dsh-craft-anything（★269，JavaScript）用 MCP 橋把本地 craft-anything CLI 接進 DSH，工具以 mcp__craft__* 出現，另附淨室與深度模式切換、狀態頁、命令運行器與 SHA256 校驗安裝器。",
-   "why": "想在 DSH 裡研究網站、遊戲或檔案格式怎麼運作，再交給 AI 重做，可以裝這個插件試試。",
-   "url": "https://github.com/Fanqi89/dsh-craft-anything",
-   "source": "GitHub DSH 生態",
+   "title": "用 LoRA 微調生成舊金山灣區像素地圖",
+   "summary": "以 Google Photorealistic 3D Tiles 的 1300 平方英里灣區影像，微調 Qwen 小模型生成像素等角地圖，成本約為 Nano Banana 2 的 1/4。",
+   "why": "想練習微調小型開源模型的人，可以參考這個實例和作者的技術文章。",
+   "url": "https://isometricsf.com",
+   "comments": "https://news.ycombinator.com/item?id=50487228",
+   "source": "Hacker News",
    "alsoFrom": [],
-   "stars": 269,
-   "score": 67,
+   "stars": null,
+   "score": 69,
    "scores": [
-    65,
-    69
+    62,
+    76
    ],
-   "originalTitle": "Fanqi89/dsh-craft-anything",
+   "originalTitle": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+   "related": []
+  },
+  {
+   "title": "chrome-capture：用 Chrome 原生錄製分頁影片",
+   "summary": "paulirish 的 chrome-capture 用 Chrome 153+ 新增的 Page.startScreenRecording，把分頁以 60–120fps、最高 2160p 直接錄成 AV1 mp4，可含分頁音訊，不需 ffmpeg。",
+   "why": "如果你要做網頁小遊戲或 Bot 操作的錄影展示，可用 npx 指令直接錄製，或參考 src/index.ts 的實作。",
+   "url": "https://github.com/paulirish/chrome-capture",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 439,
+   "score": 68,
+   "scores": [
+    74,
+    62
+   ],
+   "originalTitle": "paulirish/chrome-capture",
    "related": []
   }
  ],
  "nearMiss": [
   {
-   "title": "Gemini Decisions API",
-   "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
-   "score": 65,
-   "source": "Simon Willison"
-  },
-  {
-   "title": "deepseek-ai/dsh-superagent-prototype",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "title": "Dodaios/ste80-humanizer",
+   "url": "https://github.com/Dodaios/ste80-humanizer",
    "score": 62,
-   "source": "GitHub DSH 生態"
+   "source": "GitHub 新專案"
   },
   {
    "title": "adriadam10/mkw-recomp",
@@ -117,16 +90,22 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "pktq/lasik",
-   "url": "https://github.com/pktq/lasik",
-   "score": 60,
-   "source": "GitHub Agent 技能"
-  },
-  {
    "title": "lili-luo/dsh-plugin-bundle",
    "url": "https://github.com/lili-luo/dsh-plugin-bundle",
    "score": 60,
    "source": "GitHub DSH 生態"
+  },
+  {
+   "title": "agentes-chat/agentes-chat",
+   "url": "https://github.com/agentes-chat/agentes-chat",
+   "score": 60,
+   "source": "GitHub 新專案"
+  },
+  {
+   "title": "pktq/lasik",
+   "url": "https://github.com/pktq/lasik",
+   "score": 60,
+   "source": "GitHub Agent 技能"
   }
  ],
  "stats": {
@@ -146,43 +125,43 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 2,
+    "count": 7,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 14,
+    "count": 12,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 2,
+    "count": 3,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 2,
+    "count": 3,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 5,
+    "count": 2,
     "error": null
    },
    {
     "id": "deepmind",
     "name": "Google DeepMind",
-    "count": 1,
+    "count": 0,
     "error": null
    },
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 3,
+    "count": 4,
     "error": null
    },
    {
@@ -193,19 +172,19 @@
    }
   ],
   "candidates": 60,
-  "prefilterPass": 51,
-  "scored": 51,
-  "picked": 5,
+  "prefilterPass": 50,
+  "scored": 50,
+  "picked": 4,
   "llm": {
-   "calls": 154,
-   "failures": 21,
+   "calls": 121,
+   "failures": 16,
    "byRoute": {
-    "owob:deepseek-free": 75,
-    "owob:deepseek-v4.1-flash": 13,
-    "owob:glm-5.3-flash": 40,
+    "owob:deepseek-free": 62,
+    "owob:deepseek-v4.1-flash": 8,
+    "owob:glm-5.3-flash": 30,
     "owob:claude-haiku-5-5": 5
    },
-   "tokens": 185999
+   "tokens": 135035
   }
  }
 }
