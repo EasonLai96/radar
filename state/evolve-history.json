@@ -35,5 +35,11 @@
   "before": 55,
   "after": 64,
   "pr": "https://github.com/EasonLai96/radar/pull/1"
+ },
+ {
+  "date": "2026-11-15",
+  "result": "skip",
+  "reason": "模型判斷不需要改",
+  "summary": "本週讀者回饋只有 6 個 👍，沒有任何 👎，而 👍 與 👎 是最可靠的訊號，目前無法判斷往哪個方向調。6 個 👍 的分數是 66–74，全部在門檻 66 以上，其中 claude-animated-shorts 剛好 66 分，所以不能降低 DSH 生態或 Agent 類的權重，也不宜調高門檻。漏選清單主要靠星數或 HN 分數，熱度不等於讀者在意。gold、solar、corals、Na"
  }
 ]
