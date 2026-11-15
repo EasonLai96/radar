@@ -1,0 +1,1624 @@
+[
+ {
+  "title": "huamidev/GestaltX",
+  "url": "https://github.com/huamidev/GestaltX",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 7588,
+  "language": "Swift",
+  "topics": [],
+  "publishedAt": "2026-11-09T05:15:48Z",
+  "body": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.\n\nREADME 節錄： GestaltX English · 简体中文 · 日本語 · 한국어 A MobileGestalt editor for iPhone and iPad. Developed by huamidev. ## Features | Category | Presets and tools | | --- | --- | | Display | Dynamic Island capability and layout, Always-On Display, AOD Vibrancy, high-luminance AOD, AOD flipbook, HDR photo display, wallpaper parallax, Liquid Glass low-power rendering, experimental PWM and DisplayPort flags | | Device | Model name, boot/shutdown chime, charge limit, tap to wake, Camera Control settings, Action Button settings, Collision SOS, Audio Mix, Spatial FaceTime audio | | iPad | Apple Pencil settings, Stage Manager capability, iPad app compatibility | | Intelligence | Independent region-code options, Apple Intelligence capability flag, on-device Siri, Audio Intelligence, Personal Translator, Photos Clean Up, Handwriting Synthesis, always-listening Hey Siri, and sales-region options for activation attempts on China-mainland devices | | Advanced | Apple internal feature flags, the system-wide InternalBuild flag with explicit enable confirmation, internal settings bundle, Security Research Device flag | | Field editor | Read, search, add, edit, and remove `CacheExtra` fields; local plist import/export; String, Integer, Real, Boolean, Data, Date, Array, and Dictionary values | | Changes | Automatic reading and manual re-read, staged before/after review, verified writes, per-preset restore ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源iOS工具，涉Apple Intelligence可用性"
+  },
+  "scores": [
+   33,
+   28
+  ],
+  "score": 30,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "dabingfy-dot/solo-to-team-skills",
+  "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 881,
+  "language": null,
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "collaboration",
+   "human-in-the-loop",
+   "workflow"
+  ],
+  "publishedAt": "2026-11-07T01:36:28Z",
+  "body": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。\n\nREADME 節錄：# Solo to Team · 一人成队 **English version: README.en.md** **团队组织与协作报告（PDF，17页）：docs/solo-to-team-value.pdf** 仓名：`solo-to-team-skills` 英文副标题：**Skills for human-led AI teams.** 中文说明：一个人统筹 AI 团队的协作技能包。 署：**大冰发起** > 文档状态：**v0.9-draft**，非最终发布稿，正式公开前还会改。已在多个 Agent 工具中完成实际使用验证（取得→装／配置→按名调用→产出登记行；另外当前包上八家各有一例有限任务的验收记录（真实成果→对照要求检查→人工验收）：Codex 保留此前单独验证的一例，其余七家按同一会议转写题补验，部分宿主经受阻重跑或退回修订后才通过；不代表稳定性或所有任务都能做成，调用方式各家不同（有的由使用者本人在宿主里发出，有的命令行或代点），部分宿主未保留技能加载的原始轨迹；不表示每家四个技能都逐一被调用，也不证明效果），范围：**Codex、WorkBuddy、DeepSeek Harness、Cursor、CodeBuddy、Kimi Work、千问办公（QwenWork）** 写「支持」；**Grok Bot** 写「支持，需手动配置」；**Claude Code** 结构已备、走通待补，不在首发支持之列。 ## 这是什么 一个人，也能带起一支 AI 团队。 这是一套**拿得到、装得上、叫得动**的协作技能包：四支技能＋一个模板＋说明＋脱敏案例。它帮你管住「一个人总控、多个长期 AI 助手」时最容易掉链子的几件事：活派出去有人收，说「做好了」有证据，写给新手的步骤照做就成，踩过的坑留下来给下一个人用。 借鉴的是方法思路；交付的是改写后的中文协作包，外加两支原创技能，并已在多个 Agent 工具里实际装上、按名调用过。借鉴来源见 `NOTICE` 和各技能末尾的来源／借鉴说明。 技能本身不带定时和叫醒（插件清单 `hooks: {}`）：到点查、记接单／收到成果／验收、叫开工，按技能正文里的步骤，由你或你用的 AI 工具来做。 ## 对我有什么用 - **一人成队：派出去的活，接得住、跟得上、收得回来。** 一条线走到底：派 → 收 → 核 → 判。每件活派出去前登记一行「待收」，写明谁在干、谁来收、谁到点查；收回来记「已收到成果」并写明结果在哪，核过证据记「已验收」才算完。登记行让还没人接的活一眼看得见；到点去查、去催，由你或宿主的定时能力来做（分工见下面「首版核心流程」三栏表）。 - **换工具，不必重学一套协作方法。** 四支核心技能的正文各家共用，方法学一次就行；每家从哪装、怎么叫、还要准备什么，按各家真实配置分别写在「各宿主怎么装、怎么叫」。 - **从一张表开始，迈出带领 AI 团队的第一步。** 主示例和登记行模板拿来就能用：先用记事本或表格把「派、收、核」练一遍。这一步练的是方法；想让 AI 助手按名调用技能，还要先装好一个 Agent 工具。 - **从真活里来。** 两个脱敏案例（日更流水线怎样改、验收链怎样抓漏）",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent 協作技能包，含 DSH/Codex 等宿主支援說明"
+  },
+  "scores": [
+   55,
+   60
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "racdeufindurch198812/Blender-AI-MCP-Studio",
+  "url": "https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 357,
+  "language": null,
+  "topics": [
+   "3d-automation",
+   "3d-modeling",
+   "blender",
+   "blender-addon",
+   "blender-agents",
+   "blender-ai",
+   "blender-assistant",
+   "blender-automation",
+   "blender-chatgpt",
+   "blender-copilot",
+   "blender-extension",
+   "blender-llm",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "blender3d",
+   "bpy",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol"
+  ],
+  "publishedAt": "2026-11-12T19:28:20Z",
+  "body": "Blender AI MCP Studio is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual chat workspace, multi-agent teams and your choice of AI models. · blender ai mcp studio · mcp-for-blender · mcp for blender pro\n\nREADME 節錄：# Blender AI MCP Studio **Blender AI MCP Studio is an AI assistant and built-in Model Context Protocol (MCP) server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual chat workspace, multi-agent teams and your choice of AI models.** [download-url]: https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio/releases [**Download**][download-url] *Picture the demo: you type \"Build a night product stage with a pedestal and three lights\" — the assistant inspects the scene, places the pedestal, aims the camera, sets the lights, applies a matte blue material and hands the result to a reviewer agent. Every step is visible in the viewport, every change is reversible, and the scene is export-ready when you are.* ## Why Artists burn hours on mechanical scene work — placing props, tuning materials, re-exporting variations — while juggling chat tabs that cannot see the 3D scene and scripts that edit blind. Blender AI MCP Studio puts the assistant inside Blender: it inspects your scene first, then builds, edits and exports through a validated tool set you approve step by step.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender MCP 伺服器與 AI Agent 工具,與開發實質相關"
+  },
+  "scores": [
+   43,
+   43
+  ],
+  "score": 43,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+  "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T22:26:30.000Z",
+  "body": "Article URL: https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html Comments URL: https://news.ycombinator.com/item?id=50501631 Points: 228 # Comments: 127",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "Nvidia 定價與融資的商業新聞，非開發工具或模型可用性"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette-llm 0.1a11",
+  "url": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T23:59:28.000Z",
+  "body": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model ' { \"model\": \"lmstudio-qwen\", \"model_name\": \"qwen/qwen3.8-27b\", \"api_base\": \"http://localhost:1234/v1\" } ' content.db And you'll get a local server running a Datasette Agent instance powered by your local model! Tags: uv , datasette-agent , llm , datasette , llms , ai , generative-ai",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Datasette LLM 外掛新增 OpenAI 相容端點，涉及本地模型與開發工具"
+  },
+  "scores": [
+   39,
+   48
+  ],
+  "score": 43,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "[AINews] The No AI Slop Manifesto",
+  "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T08:31:02.000Z",
+  "body": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+  "prefilter": {
+   "label": "UNKNOWN",
+   "reason": "僅有宣言標題，無實質開發內容可判斷"
+  },
+  "scores": [
+   25,
+   18
+  ],
+  "score": 21,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Kianuni/Erosion-CN",
+  "url": "https://github.com/Kianuni/Erosion-CN",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2063,
+  "language": "Swift",
+  "topics": [],
+  "publishedAt": "2026-11-10T02:37:31Z",
+  "body": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）\n\nREADME 節錄： Erosion-CN 基于 worse_query 的 iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） 支持 iOS / iPadOS 27.0 – 27.2 / 27.3 beta 1（完整支持）以及 iOS / iPadOS 26.x（部分支持）。 简体中文 · English Documentation · AppleFlow 配套分流与排雷台 &nbsp;&nbsp; --- ## 项目简介 **Erosion-CN** 衍生自上游 **jailbreakdotparty/Erosion**，提供中英双语界面，修复了原版多项真机 Bug，并做了防白苹果安全加固： - **修改重启不反弹**：原位覆盖写入（`pwrite` + `F_FULLFSYNC`），保留系统文件 Inode 与属主，不注入 iOS 27 非缓存键。 - **防相机黑屏**：Plist 编辑器精确保留布尔值与浮点类型，未修改项原样直通。 - **写入安全**：应用前逐项预览变更，写后全量读回校验，不一致自动回滚。 - **零硬编码偏移**：运行时解析本机 `libMobileGestalt.dylib`，动态计算 `CacheData` 槽位（`green-tea`、`wapi` 等），校验不通过即锁定写入。 - **原厂双备份 + 一键恢复**：沙盒与系统金库双重 `SHA-256` 备份，卸载重装不丢，可一键还原原机出厂参数。 - **国行 Apple 智能解锁**：完整美版 `LL + LL/A` / 仅改 `LL` 双模式，四要素体检与一键配齐修复，真机生效核验探针，`SiriHub`、`Audio Intelligence` 等坑位自动防呆。 - **国行底层限制解除**：FaceTime 音频、境外 eSIM、「无线局域网」显示为「Wi-Fi」。 - **实用工具**：应用存档备份、缓存清理、跨容器文件浏览、语音备忘录无损导出、电池与崩溃诊断，以及 Surge / Stash 分流规则一键导出。 > 📜 完整的技术改进说明与版本历史见 CHANGELOG.md，各版本发布说明见 Releases。 > 📖 外部独立底层架构解析：《从 worse_query 逃逸到 MobileGestalt 运行时重构：深入 Erosion-CN 的防白苹果原位写入、双重金库与国行底层解锁架构》 --- ## 系统兼容性 > [!IMPORTANT] > 操作前请务必通过电脑完整备份设备重要数据！修改系统底层配置存在潜在风险，仅供安全研究与学习交流，请仅在本人持有的设备上使用并自行承担风险。 - **iOS / iPadOS 27.0 – 27.2.1**、**27.3 beta 1**（完整支持所有功能，包括 `MobileGestalt` 读取与安全写入） - ⚠️ **`27.3 beta 1` 国行生成式功能限制**：写入与绝大多数功能正常，但国行（`CH/A`）硬件上**照片「高质量消除 / 扩图 / 重构」、相机 `SIRI` 等生成式云端功能会被系统本地拦截**（日志：`Eligibility returned no CN region policy on a CH region code device`），改 `MobileGestalt` 无法绕过，详见 ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "iOS 系統設定開源工具箱，屬開發工具與開源專案"
+  },
+  "scores": [
+   35,
+   25
+  ],
+  "score": 30,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "DandanLLab/SnowCatQQ",
+  "url": "https://github.com/DandanLLab/SnowCatQQ",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 320,
+  "language": "TypeScript",
+  "topics": [
+   "chatbot",
+   "electron",
+   "mcp",
+   "napcat",
+   "onebot",
+   "onebot11",
+   "qq",
+   "qq-bot",
+   "reverse-engineering",
+   "snowcat"
+  ],
+  "publishedAt": "2026-11-11T22:23:10Z",
+  "body": "SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开\n\nREADME 節錄： # SnowCat 雪猫 **雪取自 SnowLuma · 猫取自 NapCat** *两个先行者铺下的路，自此由后来者接续。* **上游在，我们跟；上游没了，我们扛。** ·v11_(兼容)·Milky_1.3-black) *社区开发者维护的第三方 QQ 客户端 —— 让开发者自己的智能体，接入开发者自己的生态* NapCat 4.18.28 底座 × SnowLuma 独门能力融合，**全功能运行于 QQ 9.9.37-54395（官方最新版）主进程内**，QQ 本体一字节未动。 --- ## ✨ 核心特性 | | 特性 | 说明 | |---|---|---| | 🔌 | **QQ 9.9.37 全功能在役** | V8 编译器通道注入，官方最新版原生运行，QQ 本体零改动 | | 🤖 | **OneBot v12 全动作（默认协议）** | 正向 / 反向 WS、HTTP、HTTP SSE 全接入方式；v11 进入兼容期（onebot12/） | | 🌌 | **Milky 1.3 兼容层** | Lagrange 生态对外标准（milky/） | | 🧩 | **MCP 接入** | Streamable HTTP `/mcp`，全部动作自动暴露为 MCP 工具 | | 🎁 | **56 项独门动作** | 采自 SnowLuma：QZone 全家桶、群相册、精华、打卡、装扮、闪照、收藏…… | | 📦 | **Packet 发包** | offset 表驱动，逐版本维护 | | 🖥️ | **雪猫 WebUI** | React + Tailwind + HeroUI 全面重制 | | 🛠️ | **便携环境制作器** | 官方最新包一键解包、一键便携化 | | 🛡️ | **稳定线** | 连接退避 + 真人节奏抖动 + 预算 + 熔断 | --- ## 🆚 我们 vs 官方：把区别说清楚 ### 客户端之争：官方客户端 vs SnowCat 第三方客户端 | | **官方 QQ 客户端** | **SnowCat 第三方客户端** | |---|---|---| | **定位** | 面向大众的 IM 工具 | 开发者的智能体接入底座 | | **能接入谁** | 只能官方生态 | 你自己养的智能体、自己写的接入、自己定的形态 | | **人格形态** | 统一标准，千人一面 | 一人千面，长出什么算什么 | | **自动化** | 受限，接口不开放 | OneBot v12 全动作 + Milky + MCP，动作全暴露 | | **可查性** | 闭源，只能「相信」 | 全量开源，每一行可查，白盒立身 | | **运行位置** | 桌面/手机，给人用 | QQ 主进程内，给你的智能体用 | | **适合谁** | 日常聊天、办公协同 | 个人开发者、陪伴型智能体、自有生态实验 | **一句话**：官方客户端是给「人」用的；SnowCat 是给「你养的智能体」用的。两个赛道，不构成竞争。 ### 机器人之争：官方机器人 vs 自建机器人 | | **官方机器人** | **自建机器人（SnowCat 路线）** | |---|---|---| | **接入方式** | 官方开放平台，审核制 | V8 通道注入，拉起即用 | | ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "QQ機器人客戶端整合MCP與OneBot，開發工具相關"
+  },
+  "scores": [
+   50,
+   66
+  ],
+  "score": 58,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "precygtrucqui1981/blender-ai-copilot-lab",
+  "url": "https://github.com/precygtrucqui1981/blender-ai-copilot-lab",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 355,
+  "language": null,
+  "topics": [
+   "3d-automation",
+   "3d-modeling",
+   "blender",
+   "blender-addon",
+   "blender-agents",
+   "blender-ai",
+   "blender-assistant",
+   "blender-automation",
+   "blender-chatgpt",
+   "blender-copilot",
+   "blender-extension",
+   "blender-llm",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "blender3d",
+   "bpy",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol"
+  ],
+  "publishedAt": "2026-11-12T19:33:16Z",
+  "body": "An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised experiments—a live task board, review findings, one correction attempt per blocked task, named undo, and a built-in MCP server. · blender-ai-copilot-lab · blender · blender 3d · blender addon · blender plugin · blender extension\n\nREADME 節錄：# blender-ai-copilot-lab **An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised experiments—a live task board, review findings, one correction attempt per blocked task, named undo, and a built-in MCP server.** [download-url]: https://github.com/precygtrucqui1981/blender-ai-copilot-lab/releases [] [**Download**][download-url] Set the brief and watch the board: the manager splits it, workers build, reviewers return findings—and one approved correction later, the scene passes. ## Why Big briefs die in a single chat thread—no structure, no checks, no record of what actually failed. blender-ai-copilot-lab turns the brief into a supervised experiment: a manager agent breaks it into assignments with acceptance criteria, worker agents execute each one as ordered scene operations, and reviewer agents approve the result or return specific findings. You watch the whole run on the task board, correct once when a task blocks, and keep a clean, undoable scene at the end of every experiment. ## Without / With | Without | With | |---|---| | One endless chat thread that loses the plan | A manager that",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender AI 代理 addon 內建 MCP，與開發工具有實質關聯"
+  },
+  "scores": [
+   21,
+   52
+  ],
+  "score": 36,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "SpaceX catches the Starship to end Flight 15",
+  "url": "https://www.spacex.com/launches/starship-flight-15",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T21:22:24.000Z",
+  "body": "https://x.com/SpaceX/status/2121316300702056595 https://youtu.be/jHlpfNSpBmw?t=3233 Comments URL: https://news.ycombinator.com/item?id=50500963 Points: 791 # Comments: 536",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "SpaceX 火箭發射新聞，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette-vega 0.7",
+  "url": "https://simonwillison.net/2026/Nov/14/datasette-vega",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T17:09:09.000Z",
+  "body": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.) Since it works with Datasette Lite, the live demo in the README now links to this demo on Datasette Lite . Tags: datasette , visualisation , datasette-lite",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Datasette 視覺化外掛更新，屬開發工具與開源專案"
+  },
+  "scores": [
+   25,
+   33
+  ],
+  "score": 29,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "apex-compute/ANR",
+  "url": "https://github.com/apex-compute/ANR",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1851,
+  "language": "C++",
+  "topics": [],
+  "publishedAt": "2026-11-11T04:27:17Z",
+  "body": "Apex Neural Rendering (ANR) by Apex Compute\n\nREADME 節錄： # Apex Neural Rendering (ANR) Apex Neural Rendering by Apex Compute. - **ANR FG**: frame generation. In beta. - **ANR SR**: super resolution (upscaling). Beta soon. - **ANR RR**: ray reconstruction (denoising for ray tracing). Beta soon. - **Source code**: coming soon. - **nr-record**: records a game's frame generation or upscaler inputs to compare ANR FG, NVIDIA DLSS-G, DLSS, FSR, XeSS and others (below). Source in this repository. ## ANR FG Beta 1. Download a package from Releases: - `anr-fg-full`: for games without OptiScaler. - `anr-fg-addon`: for games that already use OptiScaler. 2. Close the game, extract the package and run the installer with the folder of the game's `.exe`: - Windows: `install.cmd` - Linux and Steam Deck (Proton): `sh install.sh \" \"`, then set the game's launch options to the line it prints: `WINEDLLOVERRIDES=\"dxgi=n,b\" %command%`, or `winmm=n,b` in Vulkan games 3. In the game, turn on frame generation (the NVIDIA option where the game offers several). To uninstall, run `uninstall.cmd` or `sh uninstall.sh` with the same folder. ## Supported GPUs - NVIDIA GeForce RTX 20, 30, 40 and 50 series, and GTX 16 series - AMD Radeon RX 5000, 6000, 7000 and 9000 series, and Steam Deck - Intel Arc A and B series On Windows 10 and 11, and on Linux and SteamOS with Proton. ## Results and problems Please post them as issues: - **Performance results**: run the test kit from the release and attach its result file",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 神經渲染/畫格生成開源專案，與繪圖與遊戲開發相關"
+  },
+  "scores": [
+   32,
+   57
+  ],
+  "score": 44,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "lili-luo/dsh-plugin-bundle",
+  "url": "https://github.com/lili-luo/dsh-plugin-bundle",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 315,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-06T12:41:28Z",
+  "body": "基于 DeepSeek Harness（DSH）的插件组合包。每个插件在独立子目录里，可以用 `path:` 单独安装。\n\nREADME 節錄：# dsh-plugin-bundle 基于 DeepSeek Harness（DSH）的插件组合包。每个目录可以用 `path:` 单独安装。 本仓库和 LINUX DO 上的介绍帖已经公开。Google 会用提示词做检测，插件这边已经用提示词处理做了缓解。封号已经出现。请谨慎使用：目前付费套餐暂时还没有封号，活动、赠送一类套餐封号比较集中。细节见 dsh-llm-antigravity-acp。 | 目录 | 内容 | |---|---| | `dsh-llm-antigravity-acp` | 用本机官方 `agy acp` 把 Antigravity 接成 DSH 一级模型。登录态留在官方进程里，插件不保存钥匙，也不把请求转到别的网关。 | | `agy-context-unlock` | 可选的本地解锁脚本。把官方客户端默认的 256K 上下文放到约 1M。它会改写本机 `agy` 二进制，不随插件一起安装。 | 安装插件： ```sh dsh plugin --profile web add \"git+https://github.com/lili-luo/dsh-plugin-bundle.git#main&path:/dsh-llm-antigravity-acp\" ``` 协议说明：Agent Client Protocol。`agy acp` 的产品说明：Antigravity CLI ACP。 ## 社区 本项目在 LINUX DO 社区进行开源推广，感谢社区佬友的交流、反馈与建议。 ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 插件組合包，與 coding agent 開發直接相關"
+  },
+  "scores": [
+   62,
+   58
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "credoksopho1984/blender-ai-copilot-studio",
+  "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 354,
+  "language": null,
+  "topics": [
+   "3d-automation",
+   "3d-modeling",
+   "blender",
+   "blender-addon",
+   "blender-agents",
+   "blender-ai",
+   "blender-assistant",
+   "blender-automation",
+   "blender-chatgpt",
+   "blender-copilot",
+   "blender-extension",
+   "blender-llm",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "blender3d",
+   "bpy",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol"
+  ],
+  "publishedAt": "2026-11-12T19:30:32Z",
+  "body": "An AI copilot and MCP server for Blender that turns plain-language briefs into scene operations—inside a visual chat studio with multi-agent teams, your choice of AI models, and 27 built-in scene tools. · blender-ai-copilot-studio · blender ai · ai for blender · blender copilot · blender ai copilot · blender ai assistant · blender mcp server\n\nREADME 節錄：# blender-ai-copilot-studio **An AI copilot and MCP server for Blender that turns plain-language briefs into scene operations—inside a visual chat studio with multi-agent teams, your choice of AI models, and 27 built-in scene tools.** [download-url]: https://github.com/credoksopho1984/blender-ai-copilot-studio/releases [] [][download-url] Picture your next scene: you type the brief, the copilot inspects the viewport, builds the pedestal, camera and lights, assigns the materials, and answers with a finished snapshot on the Studio task board. ## Why Building in Blender still means menus, mouse miles and copy-pasted Python snippets—hours of mechanical work between you and the idea. blender-ai-copilot-studio puts a scene-aware AI copilot inside Blender: it reads your scene first, then carries out multi-step briefs as supervised tool calls with approvals, cancellation and named undo. You keep creating in Blender and let plain language handle the repetitive parts—so a full layout takes one sentence instead of an afternoon. ## Without / With | Without | With | |---|---| | Hours of manual clicks to block out and polish a scene | One pl",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender AI copilot 與 MCP 開發工具，與讀者相關"
+  },
+  "scores": [
+   32,
+   52
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
+  "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T18:56:47.000Z",
+  "body": "Article URL: https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379 Comments URL: https://news.ycombinator.com/item?id=50499723 Points: 204 # Comments: 116",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "求職平台假職缺新聞，與AI開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette-cluster-map 0.19",
+  "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-13T23:02:45.000Z",
+  "body": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by California's PG&amp;E , also demonstrating Datasette's recently redesigned facets : Tags: datasette , geospatial , openstreetmap",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Datasette 開源外掛更新，屬開發工具與開源專案"
+  },
+  "scores": [
+   17,
+   26
+  ],
+  "score": 21,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "FrigadeHQ/yogurt",
+  "url": "https://github.com/FrigadeHQ/yogurt",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1505,
+  "language": "TypeScript",
+  "topics": [
+   "ai-meeting-assistant",
+   "ai-notetaker",
+   "electron",
+   "granola-alternative",
+   "linux",
+   "llama-cpp",
+   "local-ai",
+   "local-first",
+   "macos",
+   "mcp",
+   "meeting-minutes",
+   "meeting-notes",
+   "offline-first",
+   "open-source",
+   "privacy",
+   "speech-to-text",
+   "transcription",
+   "whisper",
+   "whisper-cpp",
+   "windows"
+  ],
+  "publishedAt": "2026-11-10T20:01:01Z",
+  "body": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.\n\nREADME 節錄： Private AI meeting notes. A free, open-source alternative to Granola. Download for Mac · Windows · Linux Yogurt records your calls without adding a bot to the meeting. macOS 14.4+ (Apple Silicon) · Windows 10 2004+ (x64) · Ubuntu 22.04+ or similar (x64 AppImage) · 8 GB memory yogurt.so · Help · Build and run locally · MIT license Made by Frigade . ## What it does - **Live transcripts.** Yogurt records calls and turns speech into text as you talk. - **Meeting summaries.** Yogurt writes up the conversation and any notes you add. - **Private by default.** Your audio, transcripts and AI processing stay on your computer. - **Free and open source.** You can use Yogurt without an account. - **Who said what.** Yogurt names speakers from Zoom, Teams and Meet on Mac only. - **Languages.** Multi-language mode transcribes 99 languages. - **Recording reminders.** Yogurt offers to record when a supported call starts. - **Answers with sources.** Yogurt answers questions across meetings and links to the source. - **Folders and search.** You can find meetings by folder, title, notes or transcript. - **Copy and export.** You can copy notes or transcripts, or save both as Markdown. - **Local MCP server.** Your chosen assistant app can read your notes when you allow access. - **Automatic stop.** Yogurt stops recording when the call ends. ## Watch the demo https:",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源本地 AI 會議工具，內建 MCP 伺服器，與開發相關"
+  },
+  "scores": [
+   38,
+   52
+  ],
+  "score": 45,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "smokeeaasd/flawless-ui-ux",
+  "url": "https://github.com/smokeeaasd/flawless-ui-ux",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 240,
+  "language": "JavaScript",
+  "topics": [
+   "accessibility",
+   "agent-skills",
+   "ai-agents",
+   "anti-slop",
+   "codex",
+   "design-systems",
+   "frontend",
+   "opencode",
+   "ui-design",
+   "ux-design"
+  ],
+  "publishedAt": "2026-11-03T14:36:42Z",
+  "body": "A UI/UX skill for coding agents to build distinctive, usable interfaces.\n\nREADME 節錄： Build and refine interfaces around your product's audience, content, and identity. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; About · Comparison · Install · Update · Use the skill · How it works · Inspect and verify · Docs ## What is flawless-ui-ux? flawless-ui-ux is a UI/UX design skill and a local inspection CLI for coding agents. It helps agents create, redesign, refine, and review interfaces around a product's audience, content, and identity. The skill guides layout, typography, color, and interaction decisions for web, native mobile, and desktop interfaces. The CLI inspects selected source files and browser interfaces, providing observations the agent can use to find issues and verify corrections. You describe the task; your coding agent applies the guidance in your existing project. ## Without skill vs. with skill Without skill With skill Created in Codex with GPT 6.1 Sol (low), then refined with flawless-ui-ux using the same model and reasoning setting. ## Install From your project directory, run one command with your preferred package manager: ```bash # npm npx flawless-ui-ux@latest install # pnpm pnpm dlx flawless-ui-ux@latest install # Bun bunx flawless-ui-ux@latest install ``` Requires **Node 22.12+**. In a terminal, choose **project or global scope**, select **one or more agents**, and **confirm the destinations** before copying. Use Space to sele",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "為 coding agent 的 UI/UX 技能與檢查 CLI，與前端開發直接相關"
+  },
+  "scores": [
+   63,
+   62
+  ],
+  "score": 62,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "findavoulot1973/Blender-AI-MCP-Suite",
+  "url": "https://github.com/findavoulot1973/Blender-AI-MCP-Suite",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 351,
+  "language": null,
+  "topics": [
+   "3d-automation",
+   "3d-modeling",
+   "blender",
+   "blender-addon",
+   "blender-agents",
+   "blender-ai",
+   "blender-assistant",
+   "blender-automation",
+   "blender-chatgpt",
+   "blender-copilot",
+   "blender-extension",
+   "blender-llm",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "blender3d",
+   "bpy",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol"
+  ],
+  "publishedAt": "2026-11-12T19:26:22Z",
+  "body": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender\n\nREADME 節錄：# Blender AI MCP Suite **Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol (MCP) server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models.** [download-url]: https://github.com/findavoulot1973/Blender-AI-MCP-Suite/releases [][download-url] *Picture the workflow: you type \"Build a night product stage with a pedestal, a camera and three lights\" — the assistant inspects the scene, plans ordered steps, places the pedestal, aims the camera, sets the lights, applies a matte blue material and returns a viewport screenshot for review. Every step is approved in chat, every change is reversible through a named undo checkpoint, and the scene is export-ready when you are.* ## Why 3D work is full of mechanical steps — arranging props, tuning materials, re-exporting variations — while generic chat tabs cannot see your scene and blind scripts edit without review. Blender AI MCP Suite puts the assistant inside Blender: it inspects the scene first, then builds, edit",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender AI MCP 外掛與 Agent 工具，與 MCP、AI 開發相關"
+  },
+  "scores": [
+   29,
+   45
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "A family tree of software job titles",
+  "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T17:45:19.000Z",
+  "body": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/ Comments URL: https://news.ycombinator.com/item?id=50499038 Points: 224 # Comments: 110",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "軟體職稱文化討論，與 AI 或開發工具無實質關係"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette-leaflet 0.3",
+  "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-13T22:30:54.000Z",
+  "body": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy. datasette-leaflet is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it. It now sets the referrer policy on the tile requests themselves to strict-origin-when-cross-origin , passing the host but not the full path to the page. Tags: leaflet , datasette , openstreetmap",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Datasette 外掛開源更新，屬開發工具範疇"
+  },
+  "scores": [
+   23,
+   12
+  ],
+  "score": 17,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "HybridRobotics/supermimic",
+  "url": "https://github.com/HybridRobotics/supermimic",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1502,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-10T10:46:56Z",
+  "body": "Humanoid whole-body motion tracking with one differentiable world model.\n\nREADME 節錄：# SuperMimic Project page | Paper SuperMimic trains a humanoid whole-body motion tracker with one differentiable world model, built on mjlab. ## Setup Install uv: ```bash curl -LsSf https://astral.sh/uv/install.sh | sh ``` Clone both repos as siblings: ```bash mkdir supermimic_ws && cd supermimic_ws git clone git@github.com:HybridRobotics/supermimic.git git clone git@github.com:HybridRobotics/mjlab_research.git cd supermimic ``` ## Usage Available task IDs: - `SuperMimic-GenCoord-G1` — generalized coordinates representation - `SuperMimic-MaxCoord-G1` — maximal coordinates representation Train a world model and policy: ```bash CUDA_VISIBLE_DEVICES= uv run src/supermimic/scripts/train.py \\ --runner.run_name ``` Play back a trained model: ```bash uv run src/supermimic/scripts/play.py \\ --wandb-path ``` ## Acknowledgements SuperMimic contains code inspired by these projects: - ControlVAE (BSD-3-Clause) - robotic_world_model (Apache-2.0) - DreamerV3 (MIT) ## License Copyright 2026 The SuperMimic Authors. Released under the Apache License 2.0. ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI世界模型開源專案含訓練程式碼"
+  },
+  "scores": [
+   41,
+   14
+  ],
+  "score": 27,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Glen-Web-App/best-agent-memory-mcp",
+  "url": "https://github.com/Glen-Web-App/best-agent-memory-mcp",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 239,
+  "language": null,
+  "topics": [
+   "agent-memory",
+   "ai-agents",
+   "ai-memory",
+   "awesome",
+   "awesome-list",
+   "claude-code",
+   "codex",
+   "coding-agents",
+   "cursor",
+   "llm-memory",
+   "long-term-memory",
+   "mcp",
+   "mcp-memory",
+   "mcp-memory-server",
+   "mcp-server",
+   "mcp-servers",
+   "mem0",
+   "memory-mcp",
+   "model-context-protocol",
+   "persistent-memory"
+  ],
+  "publishedAt": "2026-11-05T01:23:58Z",
+  "body": "Best Agent Memory MCP servers, ranked and compared: long-term memory for Claude Code, Codex, Cursor and any MCP client. Glen, Mem0, Supermemory, Zep, Hindsight, Basic Memory, claude-mem, Graphiti, Cognee, the official memory server and more, with storage, capture model, team sharing, license and live stars.\n\nREADME 節錄： # Best Agent Memory MCP **The best agent memory MCP servers, ranked: long-term memory for Claude Code, Codex, Cursor and any MCP client.** Best Agent Memory MCP compares 25 memory MCP servers that let an AI agent keep facts, decisions and past conversations between sessions. Hosted services (Glen, Mem0, Zep, Supermemory) sit next to open-source servers you run yourself (Hindsight, Basic Memory, Graphiti, Cognee, the official MCP memory server), and every entry says where memory is stored, whether capture is automatic or waits for the agent to call a tool, whether a team can share it, and what it costs. All of them connect to Claude Code, Cursor or Codex over MCP; the entries note which clients each project documents. **Short answer.** For memory shared across a team's agents, start with Glen. For a hosted personal memory with a free tier, Mem0. For self-hosting with hybrid retrieval, Hindsight. For memory you can read and edit as files, Basic Memory. For a zero-dependency baseline, the official memory server. > **Disclosure:** this list is maintained by the Glen team, and Glen is ranked first. Every other entry is ranked on the published criteria, and its facts",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "廠商自營排名清單,SEO導流垃圾"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "hitkeeen/blender-ai-mcp-addon",
+  "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 346,
+  "language": null,
+  "topics": [
+   "ai-agents",
+   "ai-assistant",
+   "blender",
+   "blender-addon",
+   "blender-ai",
+   "blender-automation",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "bpy",
+   "chatgpt",
+   "claude",
+   "gemini",
+   "llm",
+   "mcp",
+   "mcp-for-blender",
+   "mcp-server",
+   "model-context-protocol",
+   "ollama",
+   "opencode"
+  ],
+  "publishedAt": "2026-11-12T14:32:15Z",
+  "body": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.\n\nREADME 節錄：# mcp-for-blender-pro ### Your Blender scene. Your AI models. One creative workspace. **An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in Model Context Protocol (MCP) server.** Download · Getting started · Connections and agents ## Turn a creative brief into scene operations Start with an idea. Ask the assistant to inspect your scene, create a product-display layout, arrange objects, assign materials or prepare an export. Follow its actions in the conversation and inspect the result in the viewport preview. Keep working in Blender throughout the process. **mcp-for-blender-pro brings conversation, scene tools, model choice and agent workflows together.** It is designed for artists who want faster iteration, technical artists who automate repetitive work, and developers connecting AI tools to Blender. ## Why choose mcp-for-blender-pro? | Capability | What it gives you | |---|---| | **Blender-aware assistance** | Scene and object inspection gives the assistant context before it acts. | | **A visual Studio workspace** | Chat, scene objects, viewport snapshots, approvals and a task board in a companion window. | | **Your choic",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender 的 AI 助理與 MCP server 外掛，與 AI Agent、3D 開發工具相關"
+  },
+  "scores": [
+   71,
+   48
+  ],
+  "score": 59,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Lovable apps expose passport details and more than 200K private messages",
+  "url": "https://www.crissyfield.de/research/lovable-en",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T17:43:10.000Z",
+  "body": "Article URL: https://www.crissyfield.de/research/lovable-en/ Comments URL: https://news.ycombinator.com/item?id=50499017 Points: 674 # Comments: 281",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 開發平台 Lovable 資料外洩安全研究"
+  },
+  "scores": [
+   60,
+   66
+  ],
+  "score": 63,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "agentes-chat/agentes-chat",
+  "url": "https://github.com/agentes-chat/agentes-chat",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1407,
+  "language": "TypeScript",
+  "topics": [
+   "agentic-ai",
+   "ai-agents",
+   "browser-automation",
+   "chat",
+   "claude",
+   "claude-code",
+   "codex",
+   "collaboration",
+   "computer-use",
+   "docker-compose",
+   "gemini",
+   "grok",
+   "human-in-the-loop",
+   "llm",
+   "mcp",
+   "multi-agent",
+   "openai",
+   "self-hosted",
+   "slack-alternative",
+   "team-chat"
+  ],
+  "publishedAt": "2026-11-09T00:50:28Z",
+  "body": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.\n\nREADME 節錄： agentes.chat The open-source, self-hosted Slack alternative where your team and AI agents work together. Website · Cloud · Self-hosting · Features · Discussions Agents join your channels and DMs with a role, an owner and a budget, work where everyone can see, and ask before anything sensitive. They think with Claude, ChatGPT and Codex, Gemini, Grok or any OpenRouter model, use MCP tools, and get a computer and a browser of their own. Self-hosting is free and always will be (AGPL-3.0, no license key), or use agentes.chat Cloud, the paid, hosted option: both run this same codebase. Changing it without publishing your changes, or reselling it under your own brand? There is a commercial license. ## Why agentes.chat - **One conversation for people and agents.** Agents are members of the workspace, not a sidebar bot: they read the channel, answer when it's theirs to answer, and hand work back and forth. - **Safe by default.** Merges, deploys and anything a connector marks sensitive wait for a person's approval in the chat. Every model call is budgeted and recorded per agent. - **Agents that actually do the work.** Their own computer, a real browser you can watch and ta",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源自架 AI agent 協作平台,含 MCP、Claude Code 整合"
+  },
+  "scores": [
+   59,
+   61
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "boffti/starwire",
+  "url": "https://github.com/boffti/starwire",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 228,
+  "language": "JavaScript",
+  "topics": [
+   "awesome",
+   "awesome-list",
+   "developer-tools",
+   "github",
+   "open-source"
+  ],
+  "publishedAt": "2026-11-06T03:26:21Z",
+  "body": "Open source repos worth a look, gathered from across the web and refreshed every two days\n\nREADME 節錄： 🔥 Trending &nbsp;&nbsp;&nbsp; 🆕 New this week &nbsp;&nbsp;&nbsp; 🔁 Picked again and again &nbsp;&nbsp;&nbsp; 🗂️ Areas &nbsp;&nbsp;&nbsp; ➕ Submit a repo ## 🔥 Trending Gaining stars fastest right now for their size. Stars are counted daily and only measured gains are used. Until a repo has a week of counts, it shows the days measured so far; for repos under 30 days old the missing days use their own average, marked ~. | Repo | About | | :-- | :-- | | **astryx** meta ⭐&nbsp;**28k** | Customizable design system built to be used by coding agents 🌐 Web & frontend › UI components & design systems&nbsp;&nbsp;·&nbsp;&nbsp;📈 +14k stars a week&nbsp;&nbsp;·&nbsp;&nbsp;🟢 updated today&nbsp;&nbsp;·&nbsp;&nbsp;MIT&nbsp;&nbsp;·&nbsp;&nbsp;2.2k forks | | **modern-web-guidance** GoogleChrome ⭐&nbsp;**15k** | Current web best practices packaged as guidance for coding agents 🌐 Web & frontend › Frameworks&nbsp;&nbsp;·&nbsp;&nbsp;📈 +10.0k stars in 3 days&nbsp;&nbsp;·&nbsp;&nbsp;🟢 updated 4d ago&nbsp;&nbsp;·&nbsp;&nbsp;Apache-2.0&nbsp;&nbsp;·&nbsp;&nbsp;539 forks | | **misterdownloadmanager** anefzaoui ⭐&nbsp;**9.5k** | Cross-platform download manager written in Rust, an IDM alternative 💻 System & desktop › Files & backup&nbsp;&nbsp;·&nbsp;&nbsp;📈 ~+7.7k stars a week&nbsp;&nbsp;·&nbsp;&nbsp;🟢 updated today&nbsp;&nbsp;·&nbsp;&nbsp;GPL-3.0&nbsp;&nbsp;·&nbsp;&nbsp;790 forks download-acc",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源專案彙整清單，涵蓋 coding agent 與開發工具"
+  },
+  "scores": [
+   18,
+   21
+  ],
+  "score": 19,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "pktq/lasik",
+  "url": "https://github.com/pktq/lasik",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 130,
+  "language": "TypeScript",
+  "topics": [
+   "ai-agents",
+   "anti-bla",
+   "bla",
+   "claude-code",
+   "deobfuscation",
+   "deobfuscator",
+   "electron",
+   "javascript",
+   "lasik",
+   "llm-security",
+   "malware-analysis",
+   "mcp",
+   "mcp-server",
+   "prompt-injection",
+   "rea",
+   "reverse-engineering",
+   "static-analysis",
+   "webassembly"
+  ],
+  "publishedAt": "2026-11-09T16:35:56Z",
+  "body": "BLA blinds your agent. LASIK gives it its sight back. Static de-blinding CLI + MCP server that undoes BLA (Blind LLM Agents) hardening so coding agents and REA can read the real code again. Never executes the target.\n\nREADME 節錄： English · 简体中文 · 日本語 · 한국어 · Español Static deobfuscation for anti-agent hardening. LASIK removes BLA protection layers so coding agents and analysis tools can read the real program. 0.3: structural detection. Protection is identified by what it does, not by its names, so renamed builds heal too. Benchmark How it works · Benchmark · Changelog LASIK reads a protected build, proves which parts are protection (opaque predicates, encrypted strings, decoy code, tamper checks, binary padding, prompt-injection text), removes them, and writes a clean copy. It never runs the input. ## Highlights - **1,262× fewer tokens** on the public BLA CrackMe corpus: about 21 million down to 17 thousand. - **Proof-based.** A transform runs only when LASIK can prove it preserves behaviour. Unprotected files come back byte-identical. - **Structural detection.** Protection is recognised by behaviour, not identifiers; a renamed-build benchmark runs in CI. - **Static only.** No `eval`, no sandbox, no WebAssembly instantiation; safe on hostile input. - **Prompt-injection firewall** for text planted to steer the model. - **21 formats**: JavaScript and TypeScript bundles, inline HTML, WebAssembly, Electron ASAR and fuses, source maps, Python and `.pyc`, native ELF/PE/Mach-O, Bun, ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "MCP與反混淆工具，助coding agent讀取程式碼，相關"
+  },
+  "scores": [
+   59,
+   61
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "PyPI's redesigned project pages with clearer security signals are now live",
+  "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T15:40:52.000Z",
+  "body": "Article URL: https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/ Comments URL: https://news.ycombinator.com/item?id=50497892 Points: 214 # Comments: 93",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "PyPI 專案頁改版與套件安全訊號，屬開發工具"
+  },
+  "scores": [
+   28,
+   37
+  ],
+  "score": 32,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "HolyArrs/HolyArrs",
+  "url": "https://github.com/HolyArrs/HolyArrs",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1189,
+  "language": "Go",
+  "topics": [
+   "docker",
+   "homelab",
+   "jellyfin",
+   "media-server",
+   "plex",
+   "self-hosted"
+  ],
+  "publishedAt": "2026-11-09T23:53:25Z",
+  "body": "One self-hosted app for your shows, movies and music.\n\nREADME 節錄： English · Español · Français · Italiano · 简体中文 · 한국어 · 日本語 · हिन्दी · العربية · Русский · More languages &nbsp; &nbsp; &nbsp;&nbsp; > [!NOTE] > **HolyArrs 1.1.4: remove any request, and friends' Plex watchlists are read again.** A folder's quality now shows on its card, and Settings got a consistency pass. See what's new > Every poster, trailer and score in your HolyArrs comes from a server I run and pay for myself, so it stays free for everyone. If HolyArrs made movie night a little better, a sponsor keeps the lights on for all of us 💛 > > > [!TIP] > Be with us! > > | | | > |:--|:--| > | | Get help fast and hang out on Discord | > | | Share ideas and vote on r/HolyArrs | > | | Sneak peeks on X | > | | More projects on GitHub | Six apps to watch a show. Now it's one. HolyArrs is one self-hosted app for your shows, movies and music. Browse like a streaming app, ask for what you want, and it handles the rest. About 16.1 MB to download · about 95 MiB of RAM idle on a fresh install · amd64, arm64, armv7 The six apps it replaces download 685.0 MB together. Quick start · Why · What it does · Moving from other apps · The manual · Help ## 🚀 Running in two minutes Save this as `docker-compose.yml` in a new folder on a local disk: ```yaml name: holyarrs services: holyarrs: image: holyarrs/holyarrs:latest container_name: holyarrs environment: - PUID=1000 - PGID=1000 - TZ=America/New_York volumes: - /your/local/path:/con",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "自架媒體伺服器開源專案"
+  },
+  "scores": [
+   42,
+   47
+  ],
+  "score": 44,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "permitzip/mutinybim",
+  "url": "https://github.com/permitzip/mutinybim",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 91,
+  "language": "TypeScript",
+  "topics": [
+   "aec",
+   "architecture",
+   "bim",
+   "engineering",
+   "ifc",
+   "mcp",
+   "mep",
+   "typescript"
+  ],
+  "publishedAt": "2026-11-09T18:33:36Z",
+  "body": "Open-source building model engine. One shared kernel, trade add-ons, and a script-first tool server so people and AI agents can edit the same model together.\n\nREADME 節錄：# MutinyBIM MutinyBIM is a browser-based building information modeling (BIM) engine. It is built for many people and many AI agents editing the same model at the same time. It is meant for every trade on a building project: architecture, structural, civil, mechanical, electrical, plumbing, fire protection, the general contractor, and the owner or developer who tracks cost. The core idea is one shared kernel with trade add-ons on top. The kernel knows elements, types, parameters, typed units, connected networks, spaces, phases, sheets and commits. It does not know what a duct, a panel or a beam is. Each trade is an add-on that plugs into versioned extension points. The add-ons in this repository are built only through that contract, and tests hold them to it. MutinyBIM is open source under the Apache License 2.0. PermitZIP maintains it and runs it in production in its own engineering work. **Start here:** `packages/bim-script/examples` has four short scripts that each build something whole: a small office, a rooftop unit with its ducts, a plumbing riser and an electrical room. Run one with `npm run example -- rooftop-unit`, or paste it to an assistant connected to the tool server. ## Status: early, and honest about it This is the engine, not yet the full product. **In this repository now** - The engine: kernel,",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源BIM引擎含MCP與AI agent協作，屬開發工具"
+  },
+  "scores": [
+   42,
+   33
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+  "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T15:04:15.000Z",
+  "body": "Article URL: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax Comments URL: https://news.ycombinator.com/item?id=50497589 Points: 184 # Comments: 9",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 DeepSeek V3 Jax 實作，與 AI 模型及開發相關"
+  },
+  "scores": [
+   52,
+   40
+  ],
+  "score": 46,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "DevedevT/FFmpeg-GUI-Editor-Windows",
+  "url": "https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1049,
+  "language": "Visual Basic .NET",
+  "topics": [
+   "converter",
+   "ffmpeg",
+   "ffmpeg-command",
+   "ffmpeg-gui",
+   "ffmpeg-libraries",
+   "ffmpeg-script",
+   "gui",
+   "gui-application",
+   "image-compression",
+   "media-converter",
+   "media-converter-windows",
+   "video-editing",
+   "video-editor",
+   "video-processing",
+   "windows",
+   "windows-10",
+   "windows-11",
+   "windows-app",
+   "windows-package",
+   "windows-tools"
+  ],
+  "publishedAt": "2026-11-12T20:49:07Z",
+  "body": "Lightweight portable FFmpeg GUI & lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chinese, German, French & Italian.\n\nREADME 節錄：# FFmpeg-GUI-Editor-Windows — Ready-to-Use Free Portable Video Editor (.exe) **FFmpeg-GUI-Editor-Windows** is a lightweight, fast, and **free open-source video editor for Windows 10 and Windows 11** that works as an intuitive graphical user interface (**FFmpeg GUI**). Built specifically for users who want to **download a ready-to-use `.exe` executable** to trim, crop, compress, and convert videos without touching the command line. No installation, no Python setup, no manual `PATH` configuration, and no watermarks. Just download the release files, place them in the same folder, and start editing. Licensed under **GPL v3**. --- ### 📥 Direct Download & Important Setup Instructions (`.exe` + `libvlc.dll`) The release package consists of **two required files**: the main executable (`.exe`) and the media engine library (**`libvlc.dll`**). 1. Open the **Releases** page of this repository. 2. Download **both files** from the latest release: * **`FFmpeg-GUI-Editor.exe`** (the main application) * **`libvlc.dll`** (required core video playback & rendering library) 3. **Important:** Place both files inside the **same folder** on your PC or USB drive (do not separate them). 4. Double-click the **`.exe`** file to launch the editor immediately — no installation required. > **⚠️ Note:** Both the `.exe` file and `libvlc.dll` must r",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "README 大量 SEO 關鍵字堆砌、建立日期異常，屬灌星垃圾 repo"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Italy fines Meta $887M over Android users' data access",
+  "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T13:48:06.000Z",
+  "body": "Article URL: https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/ Comments URL: https://news.ycombinator.com/item?id=50497009 Points: 343 # Comments: 237",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "Meta 遭義大利罰款的商業新聞，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "adriadam10/mkw-recomp",
+  "url": "https://github.com/adriadam10/mkw-recomp",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 940,
+  "language": "C",
+  "topics": [],
+  "publishedAt": "2026-11-09T15:40:06Z",
+  "body": "Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program\n\nREADME 節錄： mkw-recomp Mario Kart World (Nintendo Switch 2) recompiled to run natively on Linux and Windows. Releases · Help wiki · Changelog · Contributing · Sources · Roadmap · Performance · Issues · Discussions · Archive English · 简体中文 · Español · العربية · हिन्दी · Português (Brasil) · Português (Portugal) A static recompilation of *Mario Kart World* (Nintendo Switch 2, versions 1.0.0 and 1.8.0) into a native PC program for Linux and Windows. It needs your own copy of the game, dumped from your own console: nothing of the game is in this repository or in its releases. **It is a recompilation, not an emulator.** The game's AArch64 code is translated to C ahead of time and compiled for the PC's CPU (x86-64, or AArch64 on Linux); there is no CPU interpreter or JIT. The GPU is not emulated either: NVN2, the Switch 2 graphics API, is reimplemented on top of Vulkan at the API level, and the game's SM86 shaders are translated to SPIR-V ahead of time. Nintendo SDK functions (`nn::*`) are replaced by name with our own code. ## Status Early, and moving fast. On 12/11/2026: - It boots, plays the intro movies, goes through the menus and races, on Linux and on Windows (x86-64), and on Linux on AArch64 (its own AppImage; tested on an Adreno 740 handheld). - The start screen sets the game up from your copy on your machine (generates and compiles the C, translates the shaders, warms up the pipeline cache)",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源遊戲重編譯專案，涉Vulkan與圖形開發"
+  },
+  "scores": [
+   58,
+   64
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "KDE: The documentary [video]",
+  "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T13:43:28.000Z",
+  "body": "Article URL: https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c Comments URL: https://news.ycombinator.com/item?id=50496976 Points: 396 # Comments: 86",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "KDE 紀錄片屬社群文化內容，與開發工具實作關聯低"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "kolbicz/WQFiles",
+  "url": "https://github.com/kolbicz/WQFiles",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 860,
+  "language": "Objective-C",
+  "topics": [],
+  "publishedAt": "2026-11-09T13:43:40Z",
+  "body": "File browser, app data manager and cache cleaner for iOS 26 and 27 (worse_query, no jailbreak)\n\nREADME 節錄：# Worse Query Files **WQ Files** is a file browser, app data manager and cache cleaner for iOS 26 and 27. \"WQ\" stands for worse_query, the sandbox technique it is built on. It reaches other apps' and system containers with no jailbreak and no kernel exploit. Tested on iOS 26.7.1, 27.0.1, 27.2.1 and the 27.3 beta (confirmed by a user). **iOS 26 (26.0 to 26.7.2):** supported since 0.7; tested on 26.7.1. worse_query reaches the app, extension, daemon and app group containers there, but not System Data or the system groups, so WQ Files hides those two and the Cache Cleaner has no crash-log section. A full inode scan would take most of an hour on iOS 26, so App Data, Extension Data and App Groups are listed from the LaunchServices database instead (found once and remembered). Internal Daemons aren't in that database: the first scan for them takes long, later ones only check new files. Apps, backups, restores, clearing app data, the Cache Cleaner and the file browser work as on iOS 27. App icons don't: iOS 26 hands WQ Files only placeholder icons and doesn't let it read other apps' bundles, so apps show symbol tiles. WQ Files is available in English, German, Italian, Spanish, Portuguese (Brazil), Russian, Polish, Turkish, Thai, Korean, Arabic and Simplified Chinese. It follows the device language; **Language** in WQ Files' Settings picks another, used from the next start. ## Wh",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源iOS檔案/app資料管理工具，屬開發者工具範疇"
+  },
+  "scores": [
+   44,
+   42
+  ],
+  "score": 43,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Advancing science and engineering with Antigravity's /teamwork",
+  "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T13:20:43.000Z",
+  "body": "Article URL: https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/ Comments URL: https://news.ycombinator.com/item?id=50496811 Points: 171 # Comments: 39",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Google Antigravity 協作功能屬 AI 開發工具"
+  },
+  "scores": [
+   35,
+   49
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "alexeyw/lot-map",
+  "url": "https://github.com/alexeyw/lot-map",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 838,
+  "language": "TypeScript",
+  "topics": [
+   "agent-observability",
+   "ai-agents",
+   "claude",
+   "claude-code",
+   "claude-code-plugin",
+   "developer-tools",
+   "svg-animation",
+   "typescript",
+   "visualization"
+  ],
+  "publishedAt": "2026-11-09T19:13:52Z",
+  "body": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.\n\nREADME 節錄：# lot-map A mod for Claude Code: a live map of the work, in a pane beside the chat. Every tool call, model step, hook and skill sends a pulse from the centre to its station, so you see memory, files, shell, web and agents at work instead of reading a list of commands. It runs on your machine and sends nothing anywhere. Local does not mean blind: like any mod that follows tool calls it is handed each call whole, and it takes names from that and nothing else. What it reads and keeps, and the checks that hold it to that. *A made-up session replayed through the mod's own drawing code. Video (MP4).* ## Install At the prompt of a terminal session: ``` /plugin install lot-map --marketplace alexeyw/lot-map ``` Answer `y` to add the marketplace, then choose a scope. From a shell: ```bash claude plugin install lot-map --marketplace alexeyw/lot-map ``` If it answers that the plugin is not found in any marketplace, add the marketplace first: ```bash claude plugin marketplace add alexeyw/lot-map claude plugin install lot-map@lot-map ``` In the desktop app: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `alexeyw/lot-map`, then **Add plugin**. The pane opens by itself when a session starts. In a terminal it needs at least 144 columns, otherwise type `/lot-map`, and it draws text o",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Claude Code 外掛，即時視覺化 agent 工具呼叫與技能"
+  },
+  "scores": [
+   52,
+   57
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Tech companies are trying to shift the concept of privacy again",
+  "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T12:45:45.000Z",
+  "body": "Article URL: https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again Comments URL: https://news.ycombinator.com/item?id=50496602 Points: 475 # Comments: 176",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "隱私政策評論，與開發工具無實質關聯"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "serveroshq/panel",
+  "url": "https://github.com/serveroshq/panel",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 804,
+  "language": "PHP",
+  "topics": [
+   "agpl",
+   "control-panel",
+   "devops",
+   "laravel",
+   "open-source",
+   "self-hosted",
+   "server-management",
+   "serveros",
+   "vps"
+  ],
+  "publishedAt": "2026-11-09T00:47:33Z",
+  "body": "The open source ServerOS panel: one place to run the Linux servers you already own.\n\nREADME 節錄： ServerOS panel One place to run the Linux servers you already own. ServerOS runs the Linux servers you already own from one place. Connect a VPS from any provider with one command, then deploy apps, sites and databases, watch them, back them up and fix them, without living in a terminal. Your servers stay with your provider, on your account. This repo is the panel, the web app you and your team work in. Each server runs serverosd, a small daemon the panel talks to. serveros.com runs this same panel as a hosted service. ## What's in it - **Machines**: connect a server with one command, see CPU, memory and disk, and install updates. - **Services and projects**: deploy from Git or a template, with domains and HTTPS, and copy a project to a test environment before it goes live. - **Backups, monitors and logs**: scheduled backups, uptime checks with alerts, status pages, and every service's logs in one place. - **Workflows**: run steps on a schedule, on a push or by hand, like deploy, check and promote. - **Teams**: members, roles, two-factor sign-in and an activity log. - **AI and the API**: an MCP server and an API, so your own tools and assistants can work with your servers. ## Self-hosting You need a Linux server with Docker, ports 80, 443 and 8443 open, and a domain like `panel.example.com` with two A records pointing at the server: one for `panel.example.com` and one for `*.panel.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源伺服器管理面板，內建 MCP server 與 API，與開發工具相關"
+  },
+  "scores": [
+   40,
+   52
+  ],
+  "score": 46,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+  "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-14T11:13:17.000Z",
+  "body": "Article URL: https://projectzero.google/2026/11/disclosure-policy.html Comments URL: https://news.ycombinator.com/item?id=50496051 Points: 176 # Comments: 48",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "漏洞揭露政策屬一般資安新聞，與開發工具無實質關聯"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "opencoredev/islandcn",
+  "url": "https://github.com/opencoredev/islandcn",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 680,
+  "language": "TypeScript",
+  "topics": [
+   "dynamic-island",
+   "nextjs",
+   "react",
+   "shadcn",
+   "typescript",
+   "ui-components"
+  ],
+  "publishedAt": "2026-11-13T11:50:50Z",
+  "body": "The open-source Dynamic Island for React, installed with shadcn.\n\nREADME 節錄：# islandcn A Dynamic Island-style component for any React app, installed with shadcn. Show an upload, a timer, a song, a ride on its way, an incoming call or a recording in one island at the top of your app, and shape each activity around your app's own actions. ```bash npx shadcn@latest add https://islandcn.dev/r/island-core.json ``` ```tsx \"use client\"; import { Island, IslandProvider, useIsland } from \"@/lib/island\"; // Mount once near the root. ; // Then, from any component inside it: const island = useIsland(); const upload = island.start({ id: \"upload\", label: \"Uploading report.pdf\", compact: { leading: , trailing: }, expanded: { center: report.pdf , bottom: }, }); upload.update({ compact: { trailing: } }); upload.end(); ``` ## What's here - **The engine** (`lib/island/`, registry item `island-core`): the activity stack, four presentations (idle, compact, the split, expanded), springs fitted to frame-by-frame recordings of the real island, long-press, alerts and reduced motion. React only. - **Presets** (`components/islandcn/`): upload, timer, now playing, incoming call, ride or delivery ETA, recording, nearby transfer, battery and the split, each one file on the engine, plus the content kit they share. - **The playground** (`/playground`): build an island for your app from a preset or a blank activity, fire every action, tune the motion and copy the install command and the code. - **The site an",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "React/shadcn 开源动效组件，与前端开发相关"
+  },
+  "scores": [
+   71,
+   70
+  ],
+  "score": 70,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Topkiflare74/ai--manus2.0",
+  "url": "https://github.com/Topkiflare74/ai--manus2.0",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 678,
+  "language": null,
+  "topics": [
+   "ai",
+   "ai-agents",
+   "ai-sdk",
+   "anthropic",
+   "chatbot",
+   "function-calling",
+   "gemeni",
+   "generative-ai",
+   "llm",
+   "multimodal",
+   "openai",
+   "react",
+   "solidjs",
+   "streaming",
+   "svelte",
+   "tanstack",
+   "tool-calling",
+   "typescript",
+   "typescript-sdk",
+   "vue"
+  ],
+  "publishedAt": "2026-11-14T19:15:24Z",
+  "body": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.\n\nREADME 節錄： # Manus - Autonomous AI Agent PROMO2026 --- ## Manus Highlights - **Autonomous Code Execution:** Manus AI agent runs code on its own to complete tasks, so you can focus on decisions instead of repetitive typing and debugging. - **Browser Control Made Simple:** Manus browser control lets the agent navigate websites, fill forms, and gather information without you manually clicking through every page. - **Task Automation For Daily Life:** Manus autonomous tasks handle small but time-consuming jobs, from organizing research to scheduling reminders, keeping your day running smoothly. - **Personal Assistant That Works Quietly:** Manus personal assistant stays ready in the background, responding when you need help with study, home projects, or light work tasks. - **Code And Browser In One Flow:** Manus code automation connects scripting with real browser actions, so your workflows move from idea to result without switching between tools. --- ## What Is Manus Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out multi-step tasks with minimal supervision. This makes Manus code automation useful for anyone who wants to reduce manual e",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "README 關鍵字灌水、標示 PROMO2026，疑似 SEO 灌星推廣垃圾repo"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "WarriorRemember/IPTV_Player_2.0",
+  "url": "https://github.com/WarriorRemember/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 672,
+  "language": "Rust",
+  "topics": [
+   "dash",
+   "ip-tv",
+   "iptv",
+   "iptv-channels",
+   "iptv-m3u8",
+   "iptv-player",
+   "iptv-player-application",
+   "iptvtools",
+   "m3u",
+   "mag",
+   "mpegts",
+   "plex",
+   "streaming",
+   "tv",
+   "xtream",
+   "xtreamcode"
+  ],
+  "publishedAt": "2026-11-14T19:25:25Z",
+  "body": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. \n\nREADME 節錄：# 📺 MegaCubo Free – Stream Live TV Channels in 4K Without Limits [2026] --- ## 🎴 Feature Cards --- ## 🎯 What Is MegaCubo Free? **MegaCubo Free** is a powerful IPTV player that gives you access to thousands of free TV channels from around the world in stunning 4K quality. Whether you're into news, sports, movies, or documentaries, MegaCubo Free has something for everyone. **No more:** - ❌ Expensive cable subscriptions - ❌ Geo-restricted content - ❌ Buffering and lag - ❌ Complicated setup processes **Only:** - ✅ Thousands of free channels - ✅ 4K Ultra HD streaming - ✅ Fast and stable performance - ✅ Simple and intuitive interface --- ## 🆚 MegaCubo Free vs. Traditional IPTV Players | **Aspect** | **Traditional IPTV** | **MegaCubo Free** | | :--- | :--- | :--- | | **Price** | $10–50/month | ✅ **Completely Free** | | **Channels** | Limited packages | ✅ Thousands of channels | | **Quality** | HD (720p/1080p) | ✅ 4K Ultra HD | | **Setup** | Complex configuration | ✅ Simple, click & watch | | **Buffering** | Frequent | ✅ Minimal, optimized | | **Updates** | Infrequent | ✅ Regular channel updates | | **File Size** | N/A | ✅ ~50 MB | | **Password** | N/A | ✅ **No password** | --- ## ⚡ How MegaCubo Free Works 1. **Download** – Get the app in one click (~50 MB) 2. **Extract** – Unzip the archive. **No password required.**",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "免費影音推廣垃圾，非開發工具"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "trackboatwrightplan/GitHub-Copilot-app",
+  "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 672,
+  "language": null,
+  "topics": [
+   "adminlte",
+   "agent-skills",
+   "ai",
+   "awesome",
+   "chatgpt",
+   "copilot",
+   "github-copilot",
+   "hacktoberfest",
+   "microsoft-copilot",
+   "openai",
+   "prompts",
+   "vue",
+   "xcode",
+   "xtreamcode"
+  ],
+  "publishedAt": "2026-11-14T19:16:41Z",
+  "body": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. \n\nREADME 節錄：# GitHub Copilot app The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. https://github.com/user-attachments/assets/50f215b5-f708-444e-83f7-3303bfa97963 ## The GitHub Copilot app The GitHub Copilot app is an agent-native desktop experience for managing software work from idea to pull request. It gives you a single control center for finding the right work to pick up, starting and steering agents, reviewing progress, and landing changes across repositories without constantly switching between terminals, editors, browser tabs, and GitHub pages. The app is built for parallel agent-driven development. Each local session runs in its own isolated git worktree, and cloud sessions let agents keep working in isolated GitHub-hosted environments that you can pick up from anywhere. That means you can have Copilot investigate bugs, implement issues, address review feedback, or explore changes side by side without branches or files colliding. Canvases turn agent work into shared, inspectable surfaces. Instead of burying plans, terminals, browser previews, diffs, and workflow state in a chat thread, canvases give you a place to see what an agent is doing, edit or redirect the work, and verify progress in context. But we also know a",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "內容為 Copilot 原生 Agent 桌面開發工具，與 coding agent 相關"
+  },
+  "scores": [
+   18,
+   34
+  ],
+  "score": 26,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "TrapAccountant/GitHub-Copilot-app",
+  "url": "https://github.com/TrapAccountant/GitHub-Copilot-app",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 670,
+  "language": null,
+  "topics": [
+   "adminlte",
+   "agent-skills",
+   "ai",
+   "awesome",
+   "chatgpt",
+   "copilot",
+   "github-copilot",
+   "hacktoberfest",
+   "microsoft-copilot",
+   "openai",
+   "prompts",
+   "vue",
+   "xcode",
+   "xtreamcode"
+  ],
+  "publishedAt": "2026-11-14T19:16:47Z",
+  "body": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. \n\nREADME 節錄：# GitHub Copilot app The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. https://github.com/user-attachments/assets/50f215b5-f708-444e-83f7-3303bfa97963 ## The GitHub Copilot app The GitHub Copilot app is an agent-native desktop experience for managing software work from idea to pull request. It gives you a single control center for finding the right work to pick up, starting and steering agents, reviewing progress, and landing changes across repositories without constantly switching between terminals, editors, browser tabs, and GitHub pages. The app is built for parallel agent-driven development. Each local session runs in its own isolated git worktree, and cloud sessions let agents keep working in isolated GitHub-hosted environments that you can pick up from anywhere. That means you can have Copilot investigate bugs, implement issues, address review feedback, or explore changes side by side without branches or files colliding. Canvases turn agent work into shared, inspectable surfaces. Instead of burying plans, terminals, browser previews, diffs, and workflow state in a chat thread, canvases give you a place to see what an agent is doing, edit or redirect the work, and verify progress in context. But we also know a",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 桌面 agent 工具，與 coding agent 開發直接相關"
+  },
+  "scores": [
+   32,
+   58
+  ],
+  "score": 45,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "TurquoiseDetective/IPTV_Player_2.0",
+  "url": "https://github.com/TurquoiseDetective/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 669,
+  "language": "Rust",
+  "topics": [
+   "dash",
+   "ip-tv",
+   "iptv",
+   "iptv-channels",
+   "iptv-m3u8",
+   "iptv-player",
+   "iptv-player-application",
+   "iptvtools",
+   "m3u",
+   "mag",
+   "mpegts",
+   "plex",
+   "streaming",
+   "tv",
+   "xtream",
+   "xtreamcode"
+  ],
+  "publishedAt": "2026-11-14T19:25:17Z",
+  "body": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. \n\nREADME 節錄：# 📺 MegaCubo Free – Stream Live TV Channels in 4K Without Limits [2026] --- ## 🎴 Feature Cards --- ## 🎯 What Is MegaCubo Free? **MegaCubo Free** is a powerful IPTV player that gives you access to thousands of free TV channels from around the world in stunning 4K quality. Whether you're into news, sports, movies, or documentaries, MegaCubo Free has something for everyone. **No more:** - ❌ Expensive cable subscriptions - ❌ Geo-restricted content - ❌ Buffering and lag - ❌ Complicated setup processes **Only:** - ✅ Thousands of free channels - ✅ 4K Ultra HD streaming - ✅ Fast and stable performance - ✅ Simple and intuitive interface --- ## 🆚 MegaCubo Free vs. Traditional IPTV Players | **Aspect** | **Traditional IPTV** | **MegaCubo Free** | | :--- | :--- | :--- | | **Price** | $10–50/month | ✅ **Completely Free** | | **Channels** | Limited packages | ✅ Thousands of channels | | **Quality** | HD (720p/1080p) | ✅ 4K Ultra HD | | **Setup** | Complex configuration | ✅ Simple, click & watch | | **Buffering** | Frequent | ✅ Minimal, optimized | | **Updates** | Infrequent | ✅ Regular channel updates | | **File Size** | N/A | ✅ ~50 MB | | **Password** | N/A | ✅ **No password** | --- ## ⚡ How MegaCubo Free Works 1. **Download** – Get the app in one click (~50 MB) 2. **Extract** – Unzip the archive. **No password required.**",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盗版IPTV灌星推广，与开发技能无关"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "tornadonovicewhirl40/IPTV_Player_2.0",
+  "url": "https://github.com/tornadonovicewhirl40/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 669,
+  "language": "Rust",
+  "topics": [
+   "dash",
+   "ip-tv",
+   "iptv",
+   "iptv-channels",
+   "iptv-m3u8",
+   "iptv-player",
+   "iptv-player-application",
+   "iptvtools",
+   "m3u",
+   "mag",
+   "mpegts",
+   "plex",
+   "streaming",
+   "tv",
+   "xtream",
+   "xtreamcode"
+  ],
+  "publishedAt": "2026-11-14T19:15:43Z",
+  "body": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. \n\nREADME 節錄：# 📺 MegaCubo Free – Stream Live TV Channels in 4K Without Limits [2026] --- ## 🎴 Feature Cards --- ## 🎯 What Is MegaCubo Free? **MegaCubo Free** is a powerful IPTV player that gives you access to thousands of free TV channels from around the world in stunning 4K quality. Whether you're into news, sports, movies, or documentaries, MegaCubo Free has something for everyone. **No more:** - ❌ Expensive cable subscriptions - ❌ Geo-restricted content - ❌ Buffering and lag - ❌ Complicated setup processes **Only:** - ✅ Thousands of free channels - ✅ 4K Ultra HD streaming - ✅ Fast and stable performance - ✅ Simple and intuitive interface --- ## 🆚 MegaCubo Free vs. Traditional IPTV Players | **Aspect** | **Traditional IPTV** | **MegaCubo Free** | | :--- | :--- | :--- | | **Price** | $10–50/month | ✅ **Completely Free** | | **Channels** | Limited packages | ✅ Thousands of channels | | **Quality** | HD (720p/1080p) | ✅ 4K Ultra HD | | **Setup** | Complex configuration | ✅ Simple, click & watch | | **Buffering** | Frequent | ✅ Minimal, optimized | | **Updates** | Infrequent | ✅ Regular channel updates | | **File Size** | N/A | ✅ ~50 MB | | **Password** | N/A | ✅ **No password** | --- ## ⚡ How MegaCubo Free Works 1. **Download** – Get the app in one click (~50 MB) 2. **Extract** – Unzip the archive. **No password required.**",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版IPTV推廣，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "WattBeetleLearn/IPTV_Player_2.0",
+  "url": "https://github.com/WattBeetleLearn/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 667,
+  "language": "Rust",
+  "topics": [
+   "dash",
+   "ip-tv",
+   "iptv",
+   "iptv-channels",
+   "iptv-m3u8",
+   "iptv-player",
+   "iptv-player-application",
+   "iptvtools",
+   "m3u",
+   "mag",
+   "mpegts",
+   "plex",
+   "streaming",
+   "tv",
+   "xtream",
+   "xtreamcode"
+  ],
+  "publishedAt": "2026-11-14T19:25:28Z",
+  "body": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. \n\nREADME 節錄：# 📺 MegaCubo Free – Stream Live TV Channels in 4K Without Limits [2026] --- ## 🎴 Feature Cards --- ## 🎯 What Is MegaCubo Free? **MegaCubo Free** is a powerful IPTV player that gives you access to thousands of free TV channels from around the world in stunning 4K quality. Whether you're into news, sports, movies, or documentaries, MegaCubo Free has something for everyone. **No more:** - ❌ Expensive cable subscriptions - ❌ Geo-restricted content - ❌ Buffering and lag - ❌ Complicated setup processes **Only:** - ✅ Thousands of free channels - ✅ 4K Ultra HD streaming - ✅ Fast and stable performance - ✅ Simple and intuitive interface --- ## 🆚 MegaCubo Free vs. Traditional IPTV Players | **Aspect** | **Traditional IPTV** | **MegaCubo Free** | | :--- | :--- | :--- | | **Price** | $10–50/month | ✅ **Completely Free** | | **Channels** | Limited packages | ✅ Thousands of channels | | **Quality** | HD (720p/1080p) | ✅ 4K Ultra HD | | **Setup** | Complex configuration | ✅ Simple, click & watch | | **Buffering** | Frequent | ✅ Minimal, optimized | | **Updates** | Infrequent | ✅ Regular channel updates | | **File Size** | N/A | ✅ ~50 MB | | **Password** | N/A | ✅ **No password** | --- ## ⚡ How MegaCubo Free Works 1. **Download** – Get the app in one click (~50 MB) 2. **Extract** – Unzip the archive. **No password required.**",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版 IPTV 灌星推廣垃圾 repo，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "topapothecarycanal/ai--manus2.0",
+  "url": "https://github.com/topapothecarycanal/ai--manus2.0",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 666,
+  "language": null,
+  "topics": [
+   "ai",
+   "ai-agents",
+   "ai-sdk",
+   "anthropic",
+   "chatbot",
+   "function-calling",
+   "gemeni",
+   "generative-ai",
+   "llm",
+   "multimodal",
+   "openai",
+   "react",
+   "solidjs",
+   "streaming",
+   "svelte",
+   "tanstack",
+   "tool-calling",
+   "typescript",
+   "typescript-sdk",
+   "vue"
+  ],
+  "publishedAt": "2026-11-14T19:15:24Z",
+  "body": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.\n\nREADME 節錄： # Manus - Autonomous AI Agent PROMO2026 --- ## Manus Highlights - **Autonomous Code Execution:** Manus AI agent runs code on its own to complete tasks, so you can focus on decisions instead of repetitive typing and debugging. - **Browser Control Made Simple:** Manus browser control lets the agent navigate websites, fill forms, and gather information without you manually clicking through every page. - **Task Automation For Daily Life:** Manus autonomous tasks handle small but time-consuming jobs, from organizing research to scheduling reminders, keeping your day running smoothly. - **Personal Assistant That Works Quietly:** Manus personal assistant stays ready in the background, responding when you need help with study, home projects, or light work tasks. - **Code And Browser In One Flow:** Manus code automation connects scripting with real browser actions, so your workflows move from idea to result without switching between tools. --- ## What Is Manus Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execute scripts, open web pages, interact with elements, and carry out multi-step tasks with minimal supervision. This makes Manus code automation useful for anyone who wants to reduce manual e",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "README為SEO推廣文案（PROMO2026），無實質程式，疑灌星垃圾repo"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Trapbraneedle/IPTV_Player_2.0",
+  "url": "https://github.com/Trapbraneedle/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 666,
+  "language": "Go",
+  "topics": [
+   "dash",
+   "ip-tv",
+   "iptv",
+   "iptv-channels",
+   "iptv-m3u8",
+   "iptv-player",
+   "iptv-player-application",
+   "iptvtools",
+   "m3u",
+   "mag",
+   "mpegts",
+   "plex",
+   "streaming",
+   "tv",
+   "xtream",
+   "xtreamcode"
+  ],
+  "publishedAt": "2026-11-14T19:25:19Z",
+  "body": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. \n\nREADME 節錄：# 📺 MegaCubo Free – Stream Live TV Channels in 4K Without Limits [2026] --- ## 🎴 Feature Cards --- ## 🎯 What Is MegaCubo Free? **MegaCubo Free** is a powerful IPTV player that gives you access to thousands of free TV channels from around the world in stunning 4K quality. Whether you're into news, sports, movies, or documentaries, MegaCubo Free has something for everyone. **No more:** - ❌ Expensive cable subscriptions - ❌ Geo-restricted content - ❌ Buffering and lag - ❌ Complicated setup processes **Only:** - ✅ Thousands of free channels - ✅ 4K Ultra HD streaming - ✅ Fast and stable performance - ✅ Simple and intuitive interface --- ## 🆚 MegaCubo Free vs. Traditional IPTV Players | **Aspect** | **Traditional IPTV** | **MegaCubo Free** | | :--- | :--- | :--- | | **Price** | $10–50/month | ✅ **Completely Free** | | **Channels** | Limited packages | ✅ Thousands of channels | | **Quality** | HD (720p/1080p) | ✅ 4K Ultra HD | | **Setup** | Complex configuration | ✅ Simple, click & watch | | **Buffering** | Frequent | ✅ Minimal, optimized | | **Updates** | Infrequent | ✅ Regular channel updates | | **File Size** | N/A | ✅ ~50 MB | | **Password** | N/A | ✅ **No password** | --- ## ⚡ How MegaCubo Free Works 1. **Download** – Get the app in one click (~50 MB) 2. **Extract** – Unzip the archive. **No password required.**",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜版IPTV推廣，疑似灌星SEO垃圾，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "trackersnailgrip/GitHub-Copilot-app",
+  "url": "https://github.com/trackersnailgrip/GitHub-Copilot-app",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 666,
+  "language": null,
+  "topics": [
+   "adminlte",
+   "agent-skills",
+   "ai",
+   "awesome",
+   "chatgpt",
+   "copilot",
+   "github-copilot",
+   "hacktoberfest",
+   "microsoft-copilot",
+   "openai",
+   "prompts",
+   "vue",
+   "xcode",
+   "xtreamcode"
+  ],
+  "publishedAt": "2026-11-14T19:16:41Z",
+  "body": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. \n\nREADME 節錄：# GitHub Copilot app The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. https://github.com/user-attachments/assets/50f215b5-f708-444e-83f7-3303bfa97963 ## The GitHub Copilot app The GitHub Copilot app is an agent-native desktop experience for managing software work from idea to pull request. It gives you a single control center for finding the right work to pick up, starting and steering agents, reviewing progress, and landing changes across repositories without constantly switching between terminals, editors, browser tabs, and GitHub pages. The app is built for parallel agent-driven development. Each local session runs in its own isolated git worktree, and cloud sessions let agents keep working in isolated GitHub-hosted environments that you can pick up from anywhere. That means you can have Copilot investigate bugs, implement issues, address review feedback, or explore changes side by side without branches or files colliding. Canvases turn agent work into shared, inspectable surfaces. Instead of burying plans, terminals, browser previews, diffs, and workflow state in a chat thread, canvases give you a place to see what an agent is doing, edit or redirect the work, and verify progress in context. But we also know a",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "主題堆砌 adminlte/awesome、無語言、仿冒 Copilot 名稱，屬灌星垃圾 repo"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ }
+]

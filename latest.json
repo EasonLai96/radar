@@ -1,6 +1,6 @@
 {
- "date": "2026-11-14",
- "generatedAt": "2026-11-14T03:27:32.800Z",
+ "date": "2026-11-15",
+ "generatedAt": "2026-11-15T03:01:47.904Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,77 +11,34 @@
  },
  "items": [
   {
-   "title": "Fish Pocket：iPhone 原生跑 DSH",
-   "summary": "Fish Pocket 讓 DSH 在 iPhone 與 iPad 本機運行，不需電腦或伺服器，介面以 SwiftUI 重寫。內建 bash、Python、Git 與 FFmpeg。",
-   "why": "可在手機上跑 Python、Git 與 FFmpeg，智能體還能查日曆、建提醒。",
-   "url": "https://github.com/imsai-sh/fish-pocket",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 247,
-   "score": 81,
-   "scores": [
-    78,
-    84
-   ],
-   "originalTitle": "imsai-sh/fish-pocket",
-   "related": []
-  },
-  {
-   "title": "DeepSeek 無後端聊天網頁 Demo",
-   "summary": "GitHub 上的靜態聊天 Demo，瀏覽器直接連 DeepSeek API，無需後端。從 Releases 下載解壓後，雙擊 index.html 即可在本機使用。",
-   "why": "可參考它的串流回覆與 API 串接寫法，練習做自己的 AI 聊天網頁。",
-   "url": "https://github.com/deepseek-ai/chat-demo",
+   "title": "islandcn 開源動態島元件",
+   "summary": "islandcn 是開源的 React 元件，用 shadcn 指令安裝，能在 App 頂端顯示上傳、計時、播放音樂等 Dynamic Island 風格的活動。",
+   "why": "用 React 做網頁時，可拿來顯示計時或進度，還有 playground 能先試玩。",
+   "url": "https://github.com/opencoredev/islandcn",
    "source": "GitHub 新專案",
    "alsoFrom": [],
-   "stars": 917,
-   "score": 72,
+   "stars": 680,
+   "score": 70,
    "scores": [
-    65,
-    79
+    71,
+    70
    ],
-   "originalTitle": "deepseek-ai/chat-demo",
-   "related": []
-  },
-  {
-   "title": "用 LoRA 微調生成舊金山灣區像素地圖",
-   "summary": "以 Google Photorealistic 3D Tiles 的 1300 平方英里灣區影像，微調 Qwen 小模型生成像素等角地圖，成本約為 Nano Banana 2 的 1/4。",
-   "why": "想練習微調小型開源模型的人，可以參考這個實例和作者的技術文章。",
-   "url": "https://isometricsf.com",
-   "comments": "https://news.ycombinator.com/item?id=50487228",
-   "source": "Hacker News",
-   "alsoFrom": [],
-   "stars": null,
-   "score": 69,
-   "scores": [
-    62,
-    76
-   ],
-   "originalTitle": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
-   "related": []
-  },
-  {
-   "title": "chrome-capture：用 Chrome 原生錄製分頁影片",
-   "summary": "paulirish 的 chrome-capture 用 Chrome 153+ 新增的 Page.startScreenRecording，把分頁以 60–120fps、最高 2160p 直接錄成 AV1 mp4，可含分頁音訊，不需 ffmpeg。",
-   "why": "如果你要做網頁小遊戲或 Bot 操作的錄影展示，可用 npx 指令直接錄製，或參考 src/index.ts 的實作。",
-   "url": "https://github.com/paulirish/chrome-capture",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 439,
-   "score": 68,
-   "scores": [
-    74,
-    62
-   ],
-   "originalTitle": "paulirish/chrome-capture",
+   "originalTitle": "opencoredev/islandcn",
    "related": []
   }
  ],
  "nearMiss": [
   {
-   "title": "Dodaios/ste80-humanizer",
-   "url": "https://github.com/Dodaios/ste80-humanizer",
+   "title": "Lovable apps expose passport details and more than 200K private messages",
+   "url": "https://www.crissyfield.de/research/lovable-en",
+   "score": 63,
+   "source": "Hacker News"
+  },
+  {
+   "title": "smokeeaasd/flawless-ui-ux",
+   "url": "https://github.com/smokeeaasd/flawless-ui-ux",
    "score": 62,
-   "source": "GitHub 新專案"
+   "source": "GitHub DSH 生態"
   },
   {
    "title": "adriadam10/mkw-recomp",
@@ -100,12 +57,6 @@
    "url": "https://github.com/agentes-chat/agentes-chat",
    "score": 60,
    "source": "GitHub 新專案"
-  },
-  {
-   "title": "pktq/lasik",
-   "url": "https://github.com/pktq/lasik",
-   "score": 60,
-   "source": "GitHub Agent 技能"
   }
  ],
  "stats": {
@@ -137,19 +88,19 @@
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 3,
+    "count": 4,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 3,
+    "count": 0,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 2,
+    "count": 0,
     "error": null
    },
    {
@@ -161,30 +112,29 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 4,
+    "count": 0,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 2,
+    "count": 1,
     "error": null
    }
   ],
-  "candidates": 60,
-  "prefilterPass": 50,
-  "scored": 50,
-  "picked": 4,
+  "candidates": 53,
+  "prefilterPass": 35,
+  "scored": 35,
+  "picked": 1,
   "llm": {
-   "calls": 121,
-   "failures": 16,
+   "calls": 99,
+   "failures": 46,
    "byRoute": {
-    "owob:deepseek-free": 62,
-    "owob:deepseek-v4.1-flash": 8,
-    "owob:glm-5.3-flash": 30,
-    "owob:claude-haiku-5-5": 5
+    "owob:deepseek-v4.1-flash": 40,
+    "owob:glm-5.3-flash": 12,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
    },
-   "tokens": 135035
+   "tokens": 59794
   }
  }
 }
