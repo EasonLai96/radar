@@ -1,0 +1,1516 @@
+[
+ {
+  "title": "apex-compute/ANR",
+  "url": "https://github.com/apex-compute/ANR",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2495,
+  "language": "C++",
+  "topics": [],
+  "publishedAt": "2026-11-11T04:27:17Z",
+  "body": "Apex Neural Rendering (ANR) by Apex Compute\n\nREADME 節錄： # Apex Neural Rendering (ANR) Apex Neural Rendering by Apex Compute. - **ANR FG**: frame generation. In beta. - **ANR SR**: super resolution (upscaling). Beta soon. - **ANR RR**: ray reconstruction (denoising for ray tracing). Beta soon. - **Source code**: coming soon. - **nr-record**: records a game's frame generation or upscaler inputs to compare ANR FG, NVIDIA DLSS-G, DLSS, FSR, XeSS and others (below). Source in this repository. ## ANR FG Beta 1. Download a package from Releases: - `anr-fg-full`: for games without OptiScaler. - `anr-fg-addon`: for games that already use OptiScaler. 2. Close the game, extract the package and run the installer with the folder of the game's `.exe`: - Windows: `install.cmd` - Linux and Steam Deck (Proton): `sh install.sh \" \"`, then set the game's launch options to the line it prints: `WINEDLLOVERRIDES=\"dxgi=n,b\" %command%`, or `winmm=n,b` in Vulkan games 3. In the game, turn on frame generation (the NVIDIA option where the game offers several). To uninstall, run `uninstall.cmd` or `sh uninstall.sh` with the same folder. ## Supported GPUs - NVIDIA GeForce RTX 20, 30, 40 and 50 series, and GTX 16 series - AMD Radeon RX 5000, 6000, 7000 and 9000 series, and Steam Deck - Intel Arc A and B series On Windows 10 and 11, and on Linux and SteamOS with Proton. ## Results and problems Please post them as issues: - **Performance results**: run the test kit from the release and attach its result file",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 神經渲染/畫格生成開源專案，與繪圖與遊戲開發相關"
+  },
+  "scores": [
+   32,
+   57
+  ],
+  "score": 44,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "dabingfy-dot/solo-to-team-skills",
+  "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 981,
+  "language": "HTML",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "collaboration",
+   "human-in-the-loop",
+   "workflow"
+  ],
+  "publishedAt": "2026-11-07T01:36:28Z",
+  "body": "Human-led MAS toolkit: 16 roles, 6 group templates, four platform bundles, evidence-based review and handoff. 一人成队：一个人统筹多智能体协作。\n\nREADME 節錄：# 一人成队 · Solo to Team **一个人统筹 AI 团队：任务有人接，成果有人核，交接有据可查。** 一人成队是一套依托现有 AI 平台运行的多智能体协作系统（MAS）工具包。你决定目标，选择真实执行者；首席统筹，执行席制作，另一位审核者打开同版成果检查，修订后交回原入口。岗位卡、建队台、四平台专用 Skill 和接续工具帮助把这条链落实到文件与记录。 English · 16页项目介绍与组织图 · 参与和反馈 播放完整演示 · 中文 · 1080p · 9.38 MB。演示说明产品方法，不代表四端业务全部通过。 ## 选你正在使用的平台 每个平台包都包含 **1款平台协作 Skill＋4款完整基础 Skills**，以及岗位与群规、模板、示例、离线建队台、接续工具和配置清单。只需选一个平台；四款基础 Skills 不必另找下载。 | 平台 | 完整 ZIP | 先读说明 | |---|---|---| | Grok Bot | 下载 · 3.40 MB | START-HERE | | WorkBuddy | 下载 · 3.34 MB | START-HERE | | DeepSeek Harness | 下载 · 3.39 MB | START-HERE | | Open Master Bot | 下载 · 3.32 MB | START-HERE | Open Master Bot保留`openmaus`与`solo-to-team-openmaus`兼容标识，原生调用名不改。 1. 下载并解压对应完整包，打开`START-HERE.md`。 2. 按该平台说明采用主Skill；把`TASK-MATERIALS.zip`作为普通任务资料提供，按任务读取基础Skills与配置。**外层完整包和任务资料包都不是单技能上传包。** 3. 先做一件范围清楚的小任务，核实际执行者、同版成果、独立审核与原入口收件。已有同版可用对象直接复用；不同版按授权更新原对象，保留旧件。 基础Skills完整随包，不等于五个原生技能对象已自动注册或全员加载。平台账号、模型与权限仍由你的环境提供。 ## 分工怎样接得上 16席、6个建议群和26条建议入群关系提供可调整的责任模板，按任务启用，不要求全员开工。选用制作与复核流程时： **用户定目标 → 首席确定执行席 → 执行席制件 → 独立审核 → 局部退修或原入口交回。** - 首席统筹与接回，不改写审核结论；退修回原执行席。 - 督查检查承诺与交接，不取代审核，也不新增审批或放行关口。 - 技术改后由有能力且非原执行者独核；专属委托与私密直接路线按岗位卡保留。 - 群成员身份不扩大权限；角色名称不等于独立执行上下文或资料隔离。 ## 已有 MAS 继续保留 新增四包是加法：原四款核心Skills、完整MAS、建队台、带底稿开工、团队更新与历史任务证据继续保留。 - 完整MAS工作台与原工具 · adapter.5完整组合及维护源码 - 四款原核心Skills的独立采用指南 · 免模型验件练习 - 四平台配置使用清单 · 四包打包源码 · 重建说明 ## 版本与验证范围 本次发布编号 **v0.2.0**；四包包装为 **bund",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent 協作技能包，含 DSH/Codex 等宿主支援說明"
+  },
+  "scores": [
+   55,
+   60
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "precygtrucqui1981/blender-ai-copilot-lab",
+  "url": "https://github.com/precygtrucqui1981/blender-ai-copilot-lab",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 507,
+  "language": null,
+  "topics": [
+   "3d-automation",
+   "3d-modeling",
+   "blender",
+   "blender-addon",
+   "blender-agents",
+   "blender-ai",
+   "blender-assistant",
+   "blender-automation",
+   "blender-chatgpt",
+   "blender-copilot",
+   "blender-extension",
+   "blender-llm",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "blender3d",
+   "bpy",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol"
+  ],
+  "publishedAt": "2026-11-12T19:33:16Z",
+  "body": "An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised experiments—a live task board, review findings, one correction attempt per blocked task, named undo, and a built-in MCP server. · blender-ai-copilot-lab · blender · blender 3d · blender addon · blender plugin · blender extension\n\nREADME 節錄：# blender-ai-copilot-lab **An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised experiments—a live task board, review findings, one correction attempt per blocked task, named undo, and a built-in MCP server.** [download-url]: https://github.com/precygtrucqui1981/blender-ai-copilot-lab/releases [] [**Download**][download-url] Set the brief and watch the board: the manager splits it, workers build, reviewers return findings—and one approved correction later, the scene passes. ## Why Big briefs die in a single chat thread—no structure, no checks, no record of what actually failed. blender-ai-copilot-lab turns the brief into a supervised experiment: a manager agent breaks it into assignments with acceptance criteria, worker agents execute each one as ordered scene operations, and reviewer agents approve the result or return specific findings. You watch the whole run on the task board, correct once when a task blocks, and keep a clean, undoable scene at the end of every experiment. ## Without / With | Without | With | |---|---| | One endless chat thread that loses the plan | A manager that",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender AI 代理 addon 內建 MCP，與開發工具有實質關聯"
+  },
+  "scores": [
+   21,
+   52
+  ],
+  "score": 36,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Optimizely compromised, served malware on Zoom, GitLab",
+  "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T23:00:34.000Z",
+  "body": "Article URL: https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/ Comments URL: https://news.ycombinator.com/item?id=50524767 Points: 186 # Comments: 93",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "網頁第三方腳本供應鏈攻擊，與Web開發相關"
+  },
+  "scores": [
+   38,
+   25
+  ],
+  "score": 31,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "llm 0.37.3",
+  "url": "https://simonwillison.net/2026/Nov/16/llm",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T23:57:26.000Z",
+  "body": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_array(1))) Returns this: {\"a\":[1]} But in 3.54.1 the same query returns this: {\"a\":\"[1]\"} According to D. Richard Hipp : That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug. The workaround looks like this: select json_object('a', json((select json_array(1)))) Tags: llm , webassembly , sqlite , generative-ai , ai , llms , d-richard-hipp",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "LLM CLI 工具修復版本，屬 AI 開發工具"
+  },
+  "scores": [
+   33,
+   40
+  ],
+  "score": 36,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+  "url": "https://huggingface.co/blog/openrouter",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T00:00:00.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Hugging Face 與 OpenRouter 整合，與開源模型可用性相關"
+  },
+  "scores": [
+   38,
+   39
+  ],
+  "score": 38,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Broadening access to AI for scientists",
+  "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T17:00:00.000Z",
+  "body": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI 擴大免費模型存取，屬模型可用性消息"
+  },
+  "scores": [
+   34,
+   14
+  ],
+  "score": 24,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Dependabot alert dismissal requests now last one year",
+  "url": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-17T00:09:27.000Z",
+  "body": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires… The post Dependabot alert dismissal requests now last one year appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub Dependabot 警報處理設定變更，屬開發工具功能。"
+  },
+  "scores": [
+   18,
+   12
+  ],
+  "score": 15,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+  "url": "https://latent.space/p/bfl",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T21:38:03.000Z",
+  "body": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "BFL 影像模型與 AI 繪圖相關"
+  },
+  "scores": [
+   31,
+   18
+  ],
+  "score": 24,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "hitkeeen/blender-ai-mcp-addon",
+  "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2283,
+  "language": null,
+  "topics": [
+   "ai-agents",
+   "ai-assistant",
+   "blender",
+   "blender-addon",
+   "blender-ai",
+   "blender-automation",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "bpy",
+   "chatgpt",
+   "claude",
+   "gemini",
+   "llm",
+   "mcp",
+   "mcp-for-blender",
+   "mcp-server",
+   "model-context-protocol",
+   "ollama",
+   "opencode"
+  ],
+  "publishedAt": "2026-11-12T14:32:15Z",
+  "body": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.\n\nREADME 節錄：# mcp-for-blender-pro ### Your Blender scene. Your AI models. One creative workspace. **An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in Model Context Protocol (MCP) server.** Download · Getting started · Connections and agents ## Turn a creative brief into scene operations Start with an idea. Ask the assistant to inspect your scene, create a product-display layout, arrange objects, assign materials or prepare an export. Follow its actions in the conversation and inspect the result in the viewport preview. Keep working in Blender throughout the process. **mcp-for-blender-pro brings conversation, scene tools, model choice and agent workflows together.** It is designed for artists who want faster iteration, technical artists who automate repetitive work, and developers connecting AI tools to Blender. ## Why choose mcp-for-blender-pro? | Capability | What it gives you | |---|---| | **Blender-aware assistance** | Scene and object inspection gives the assistant context before it acts. | | **A visual Studio workspace** | Chat, scene objects, viewport snapshots, approvals and a task board in a companion window. | | **Your choic",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender 的 AI 助理與 MCP server 外掛，與 AI Agent、3D 開發工具相關"
+  },
+  "scores": [
+   71,
+   48
+  ],
+  "score": 59,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "lili-luo/dsh-plugin-bundle",
+  "url": "https://github.com/lili-luo/dsh-plugin-bundle",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 333,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-06T12:41:28Z",
+  "body": "基于 DeepSeek Harness（DSH）的插件组合包。每个插件在独立子目录里，可以用 `path:` 单独安装。\n\nREADME 節錄：# dsh-plugin-bundle 基于 DeepSeek Harness（DSH）的插件组合包。每个目录可以用 `path:` 单独安装。 本仓库和 LINUX DO 上的介绍帖已经公开。Google 会用提示词做检测，插件这边已经用提示词处理做了缓解。封号已经出现。请谨慎使用：目前付费套餐暂时还没有封号，活动、赠送一类套餐封号比较集中。细节见 dsh-llm-antigravity-acp。 | 目录 | 内容 | |---|---| | `dsh-llm-antigravity-acp` | 用本机官方 `agy acp` 把 Antigravity 接成 DSH 一级模型。登录态留在官方进程里，插件不保存钥匙，也不把请求转到别的网关。 | | `agy-context-unlock` | 可选的本地解锁脚本。把官方客户端默认的 256K 上下文放到约 1M。它会改写本机 `agy` 二进制，不随插件一起安装。 | 安装插件： ```sh dsh plugin --profile web add \"git+https://github.com/lili-luo/dsh-plugin-bundle.git#main&path:/dsh-llm-antigravity-acp\" ``` 协议说明：Agent Client Protocol。`agy acp` 的产品说明：Antigravity CLI ACP。 ## 社区 本项目在 LINUX DO 社区进行开源推广，感谢社区佬友的交流、反馈与建议。 ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 插件組合包，與 coding agent 開發直接相關"
+  },
+  "scores": [
+   62,
+   58
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "findavoulot1973/Blender-AI-MCP-Suite",
+  "url": "https://github.com/findavoulot1973/Blender-AI-MCP-Suite",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 498,
+  "language": null,
+  "topics": [
+   "3d-automation",
+   "3d-modeling",
+   "blender",
+   "blender-addon",
+   "blender-agents",
+   "blender-ai",
+   "blender-assistant",
+   "blender-automation",
+   "blender-chatgpt",
+   "blender-copilot",
+   "blender-extension",
+   "blender-llm",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "blender3d",
+   "bpy",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol"
+  ],
+  "publishedAt": "2026-11-12T19:26:22Z",
+  "body": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender\n\nREADME 節錄：# Blender AI MCP Suite **Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol (MCP) server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models.** [download-url]: https://github.com/findavoulot1973/Blender-AI-MCP-Suite/releases [][download-url] *Picture the workflow: you type \"Build a night product stage with a pedestal, a camera and three lights\" — the assistant inspects the scene, plans ordered steps, places the pedestal, aims the camera, sets the lights, applies a matte blue material and returns a viewport screenshot for review. Every step is approved in chat, every change is reversible through a named undo checkpoint, and the scene is export-ready when you are.* ## Why 3D work is full of mechanical steps — arranging props, tuning materials, re-exporting variations — while generic chat tabs cannot see your scene and blind scripts edit without review. Blender AI MCP Suite puts the assistant inside Blender: it inspects the scene first, then builds, edit",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender AI MCP 外掛與 Agent 工具，與 MCP、AI 開發相關"
+  },
+  "scores": [
+   29,
+   45
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+  "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T22:58:20.000Z",
+  "body": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 383 # Comments: 236",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "涉及 Windows 監測 coding agent 與開發工具，與開發者工具相關"
+  },
+  "scores": [
+   52,
+   50
+  ],
+  "score": 51,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette-maplibre 0.1a0",
+  "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-15T23:58:36.000Z",
+  "body": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have \"Be creative and think outside the box\" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view. I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo database in your browser via Pyodide and WebAssembly. I like this demo page showing both GeoJSON shapes and lat/lon points on the same map: Tags: visualization , generative-ai , datasette-lite , claude-mythos-fable , ai , llms , geospatial , openstreetmap , datasette",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Datasette 地理視覺化外掛，用 Claude 開發的開源專案"
+  },
+  "scores": [
+   35,
+   48
+  ],
+  "score": 41,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+  "url": "https://openai.com/index/strengthening-online-child-safety",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T17:00:00.000Z",
+  "body": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "兒少安全政策公告，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "GitHub Copilot weekly releases — November 9",
+  "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T21:34:53.000Z",
+  "body": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude… The post GitHub Copilot weekly releases — November 9 appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 週報，涉及 coding agent 與新模型"
+  },
+  "scores": [
+   22,
+   22
+  ],
+  "score": 22,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "duwqijlk/muse-protocol",
+  "url": "https://github.com/duwqijlk/muse-protocol",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1494,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-14T01:24:58Z",
+  "body": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）\n\nREADME 節錄：# muse.ai 注册 / 邀请码兑换 协议分析 补充一下，记得用JP 节点， JP 不需要绑卡，直接过 纯 HTTP 实现 muse.ai 的注册与邀请码兑换流程，不依赖浏览器。本文记录的是通过抓包逐字段比对得出的协议细节。 ## 快速开始 ```bash pip install -r requirements.txt cp config.example.json config.json # 填入邮箱与可选代理 python example_register.py ``` ## 目录结构 ``` musepy/ client.py 注册 + 兑换的完整协议客户端 runner.py 多账号批量调度（sticky 代理 / 预算 / 停止语义） otp.py 验证码轮询（幂等：只取 send 之后的最新码） falco.py 行为埋点上报（可选） caa.py 注册漏斗事件上报（可选） example_register.py 单账号端到端示例 example_batch.py 多账号批量示例 config.example.json 配置模板 test_onboarding_smoke.py 离线冒烟（披露解析纯函数） test_runner_smoke.py 离线冒烟（批量调度，mock 网络） ``` ## 协议流程 ``` GET / 拿初始 cookie POST /api/auth/native/restart → 201 {csrf_token} POST /api/auth/native/send-otp → 201 POST /api/auth/native/confirm-otp → 200 {registration_state:\"completion_required\", tos:{content_version}}（动态 TOS 版本） POST /api/auth/native/register-completion→ 200 {auth_meta_session:{frl_access_token, frl_account_id}} POST auth.meta.com/hatch/session/bootstrap/ → 302…→ muse.ai 200 HTML（会话引导，必须） └ 从 muse.ai 文档解析动态披露 disclosure_text/disclosure_version 与状态门 （resolvedDestination/isGeoGated/waitlist → 地区受限） POST /api/hatch/accept-tos → 200（单次调用；正文用服务端动态披露，非硬编码） GET /api/hatch/invite → 200 表示账号有效 POST /api/hatch/vm/wake → 200（必须，否则兑换误报 invalid； wake_trigger=mount + open_id + away_ms=0） POST /api/hatch/stateful-sharing → 200 POST /api/hatch/invite-code/redeem → 200 {redemptionStatus:\"redeemed\"} POST /api/hatch/invite → 200 {code}（取回自己的码，不等于页面刮开 reveal） ``` ## 几个容易踩的坑 #",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "批量註冊刷邀請碼的自動化濫用工具，非開發用途"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "sybil-solutions/inference-optimisation-skill",
+  "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 288,
+  "language": "Python",
+  "topics": [
+   "agent-skill",
+   "benchmarking",
+   "claude-code",
+   "inference",
+   "llm",
+   "speculative-decoding"
+  ],
+  "publishedAt": "2026-11-16T18:40:04Z",
+  "body": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization\n\nREADME 節錄：# inference-optimisation An agent skill for **hill-climbing the speed of a local LLM server** on any hardware and any quantization. It covers: - single-user and concurrent decode - speculative decoding - prefill - KV cache size - startup time and time to first token It works under a memory cap, and every result has to survive a full-context stability check. It encodes how we actually got these speedups. It is not a list of flags. The workflow: 1. Compute the theoretical ceiling. 2. Change one thing at a time. 3. Measure against interleaved controls. 4. Log every result, including the failures. 5. Gate on long-context retrieval. 6. Qualify a clean, pinned build before publishing. It works with Claude Code and any agent that loads `SKILL.md`-style skills. Any model can also follow it from `PROMPT.md`. ## What we've been able to accomplish Results from the hill-climbs this skill was distilled from. Every number was measured on the hardware named; see the linked sources for methods and raw data. | Hardware | Model / quant / engine | Before → after | |---|---|---| | **Intel Arc B390 iGPU** (laptop, 64 GB unified LPDDR5X, ~115 GB/s) | Ornith-1.5-35B-A3B, EXL3 4 bpw, SGLang XPU + MTP | Decode, 1 user: 43.6 → **53 tok/s** (median) Decode, 4 users: 84.7 → **103 tok/s** Prefill 32K: 1,037 → **1,660 tok/s** Prefill 256K: 297 → **628",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Agent skill 加速本地 LLM 推論，屬開發工具"
+  },
+  "scores": [
+   34,
+   50
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Tthanh2k6/turbo-browser-mcp",
+  "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 127,
+  "language": "JavaScript",
+  "topics": [
+   "ai-agents",
+   "browser-automation",
+   "cdp",
+   "claude-code",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol",
+   "playwright",
+   "token-efficiency",
+   "web-automation"
+  ],
+  "publishedAt": "2026-11-14T12:11:07Z",
+  "body": "Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots, batched steps, and a submit guard on by default\n\nREADME 節錄：# turbo-browser-mcp An MCP server for browser automation, built on Playwright. It has 11 tools, and each one does more per call than the usual one-action-per-call design: - `smart_fill_form` fills a whole form in one call, including React inputs, selects, comboboxes, rich-text editors and file uploads read from disk. - `inspect_compact` can return only the elements that changed since the last snapshot. - `batch_actions` runs a list of clicks, key presses, form steps and page reads as one call. Fewer calls means fewer model turns and less page text replayed in the conversation. The numbers, and their limits, are under Benchmarks. Buttons that look like a final commit (Submit, Send, Publish, Pay, Confirm, and their Korean, Japanese, Chinese and Vietnamese equivalents) are blocked by default, so an agent can prefill a form and leave the last click to a person. Pass `allowSubmit: true` per call or start with `--allow-submit` to turn this off. The server does not hide that the browser is automated: no stealth patches, no fingerprint changes, no CAPTCHA solving. For sites with a bot check it can hand the tab to a person and continue afterwards (`wait_for_human`). ## Install Needs Node 20 or newer and a Chromium-based browser (Chrome, Edge, Brave, or Playwright's Chromium). Claude Code: ```bash claude mcp add turbo-browser -- n",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Playwright MCP 瀏覽器自動化工具，與 coding agent 實質相關"
+  },
+  "scores": [
+   68,
+   71
+  ],
+  "score": 69,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "United Airlines experiencing a widespread system outage, airline says",
+  "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T22:14:38.000Z",
+  "body": "https://news.ycombinator.com/item?id=50524260 Comments URL: https://news.ycombinator.com/item?id=50524165 Points: 213 # Comments: 110",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "航空系統故障新聞，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette 1.0a43",
+  "url": "https://simonwillison.net/2026/Nov/15/datasette",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-15T23:20:27.000Z",
+  "body": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0 . A new &lt;datasette-copy-button&gt; Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, including contributions by Zihan Dai , Peter Olkhovets , Ilya Khalafi , and Ankita Advitot . The feature I'm most excited about is a pretty tiny one: I've added CSS multi-page view transitions to Datasette! Here's the commit - key CSS is as follows: /* Enable cross-document view transitions, for anyone without prefers-reduced-motion */ @media ( prefers-reduced-motion : no-preference ) { @view-transition { navigation : auto ; } } /* .facet-results should morph from old position to new */ html : a",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Datasette 開源開發工具新版，含 Claude 輔助與 Web 前端功能"
+  },
+  "scores": [
+   36,
+   34
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Science at the Frontier: How scientists use ChatGPT",
+  "url": "https://openai.com/index/science-at-the-frontier",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T12:00:00.000Z",
+  "body": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI 公開 ChatGPT 科研使用情形，屬 AI 模型應用"
+  },
+  "scores": [
+   22,
+   18
+  ],
+  "score": 20,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Budget limit increased to 40,000 budgets per account",
+  "url": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T21:30:49.000Z",
+  "body": "You can now create up to 40,000 budgets per GitHub Enterprise Cloud account, up from 10,000. If you set budgets for individual users, or manage budgets across many cost centers… The post Budget limit increased to 40,000 budgets per account appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "企業帳單預算上限調整，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Eynnzerr/TelemetryCleaner",
+  "url": "https://github.com/Eynnzerr/TelemetryCleaner",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1364,
+  "language": "Kotlin",
+  "topics": [],
+  "publishedAt": "2026-11-11T06:25:10Z",
+  "body": "基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块\n\nREADME 節錄：# 遥测清理 · TelemetryCleaner > 运营商为终端入网、自注册、网络运维和故障排查，确有在相应场景收集必要数据的实际需求！本项目仅供学习，用于了解 Android 系统包管理机制。 TelemetryCleaner 可以检测国行 Android 固件预置的运营商组件，查看各空间的安装状态和权限，并管理卸载与恢复。下载： GitHub Releases 您可通过不限于以下方式参与贡献，欢迎 PR： 1. 提供清单未覆盖的厂商+运营商+包名线索，在 README.md 中补充即可； 2. 提供针对某模块的实测与分析报告，不限制是否为 AI 生成，但需保证真实性。放于 docs 目录中即可； 3. ~协助实现未支持的免 Root 卸载功能（如**现版本不支持部分 vivo 系的电信/移动组件卸载**）~； 4. 对软件功能的反馈或改进。 ## 背景介绍 部分国产厂商在国行固件中预置了 `SystemHelper`、`RegService` 等运营商终端管理组件。这些组件在后台静默定时采集数据，用户无感；没有桌面入口，同时无法以常规手段禁用权限和卸载。 WiSec 2023 的流量测量还在部分国行样机上观察到运营商组件上报数据，其中小米及 ColorOS 样本的中国移动组件上报了已安装软件列表。 WiSec 2023 实测论文 在作者本人的 OPPO 真机上观测到 SystemHelper 有读取定位、设备和 SIM 标识、已安装应用以及按应用统计网络流量，随后向某云端上传的行为，分析详见 SystemHelper 代码与权限分析 by AI。 ## 本项目原理 Android 10 及以上设备可安装本项目，依赖 Shizuku。先按 Shizuku 启动指南通过 ADB 或无线调试启动 Shizuku，再回到 App 授权并选择需要检查的空间。Android 11 及以上可用无线调试启动。检测完成后，可打开组件详情查看权限，或勾选组件批量操作。 ADB 启动的 Shizuku 以 shell 身份代理 Binder 调用。App 直接请求系统包管理服务，避开部分 ROM 对 `pm` 命令行入口的拦截。系统包管理服务仍会执行本机的权限和包状态校验。 Binder 调用实现 少数 ROM 会在命令层直接拒绝卸载系统应用，例如返回 `Failure [only root can delete system app for a particular user]`。收到这类系统错误后，App 会以 shell 身份通过 `app_process` 调用隐藏的 `IPackageManager.deletePackageAsUser` 再试一次；重新读取包状态确认失败后，结果页仍显示原始系统错误，不会用兜底流程的错误信息覆盖它。 app_process 兜底实现 卸载按选定空间执行，会清除该空间中的组件数据。恢复使用系统保留的 APK。自动清理默认关闭，开启后按配置的周期检查所选空间，只处理自动清理名单内的组件。 **已知限制：vivo OriginOS 的 PMS 底层中，电信/移动组件 com.vivo.devicereg 被列入了 vivo 系统保护名单，暂无法在非 Root 情况下完成卸载。其他厂商经实测反馈均支持。** ## 内置组件清单 表中的「未验证」指尚无本人在相应厂商设备上的卸载验",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源Android工具，Shizuku免Root系統清理實作"
+  },
+  "scores": [
+   56,
+   27
+  ],
+  "score": 41,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Xin-YuXiao/Awesome-AI-for-Astronomy",
+  "url": "https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 287,
+  "language": "Python",
+  "topics": [
+   "ai-for-science",
+   "astronomy",
+   "awesome",
+   "awesome-list",
+   "benchmark",
+   "cosmology",
+   "deep-learning",
+   "large-language-models",
+   "machine-learning",
+   "planetary-science"
+  ],
+  "publishedAt": "2026-11-10T23:13:12Z",
+  "body": "A curated list of papers for AI in Astronomy & Astrophysics.\n\nREADME 節錄： # Awesome AI for Astronomy **A curated list of papers, models, datasets, benchmarks and software for artificial intelligence in astronomy, astrophysics, cosmology, heliophysics and planetary science.** **Web page** &nbsp;|&nbsp; **AstroAI Today** &nbsp;|&nbsp; **Contents** &nbsp;|&nbsp; **Contributing** &nbsp;|&nbsp; **Citation** > [!TIP] > The searchable web page filters all 429 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as JSON or CSV. > > AstroAI Today collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is. > > Use the AstroAI Research skill in compatible AI tools to query the curated catalogue and AstroAI Today. ## About This list tracks machine learning work in astronomy with public papers, linking public code where it exists. It emphasises foundation models, language models, agents and benchmarks released since 2021, together with established deep learning methods in each subfield. General astronomy resources are covered by awesome-astronomy, and classical astronomical data science by awesome-astro-datascience. > [!NOTE] > - Papers are list",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 模型/benchmark 清單，含 Agent skill 與自動論文篩選工具"
+  },
+  "scores": [
+   19,
+   12
+  ],
+  "score": 15,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "BugMeNot has closed",
+  "url": "https://www.bugmenot.com",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T21:32:17.000Z",
+  "body": "Article URL: https://www.bugmenot.com/ Comments URL: https://news.ycombinator.com/item?id=50523601 Points: 411 # Comments: 200",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "BugMeNot 關站屬一般網路服務新聞，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette 0.65.6",
+  "url": "https://simonwillison.net/2026/Nov/15/datasette-2",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-15T23:18:17.000Z",
+  "body": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /&lt;route&gt;.db by actors who were denied access to it. [...] Tags: security , datasette",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源工具 Datasette 安全性修補發布，屬開發工具"
+  },
+  "scores": [
+   31,
+   22
+  ],
+  "score": 26,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+  "url": "https://openai.com/index/lvmh-media-division-partnership",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T09:00:00.000Z",
+  "body": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "精品集團媒體合作，與開發者工具無實質關聯"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "GitHub Copilot models deprecated on November 16, 2026",
+  "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T20:25:20.000Z",
+  "body": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post GitHub Copilot models deprecated on November 16, 2026 appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Copilot 模型下架，涉及模型可用性"
+  },
+  "scores": [
+   32,
+   38
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ZiChuanLan/freebie-radar",
+  "url": "https://github.com/ZiChuanLan/freebie-radar",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1208,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-11-12T09:08:11Z",
+  "body": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送\n\nREADME 節錄： 资源雷达 · Resource Radar 全网福利、黑五好价、拼车交易、开源项目与新闻资讯的多兴趣自托管聚合雷达站 六大内容形态分流 · 27 类分频道目录 · 统一屏蔽词省额度 · AI 语义定级 · 多路由精准推送 简体中文 · English --- **资源雷达（Resource Radar / repo: `freebie-radar`）** 是一款轻量、开箱即用的多兴趣社区信息聚合与精准推送工作台。它从各大开发者社区、游戏平台、软件限免站、GitHub、Reddit、Bluesky、Telegram 频道及自定义 RSS 采集信息，并通过 **「规则初筛与统一屏蔽 → AI 语义定级与分流 → 分频道目录呈现 → 多路由精准推送」** 把每条内容送到它该去的位置： - 只想纯粹蹲羊毛？首页默认 **「真福利精选」** 严格锁定 AI 验真的 `freebie`（直接白嫖 + 实操可领的有条件福利），绝不被付费好价、拼车、二手或新闻污染。 - 想看 **黑五 VPS 好价 / 合规拼车 / 开源项目 / 重大新闻与科技资讯**？一键切换顶部兴趣频道即可浏览各自专属的下级分类、真实有效计数与图文卡片，并可分别配置互不干扰的 Telegram 专题推送路由。 --- > 在线演示： --- ## 界面预览 | 工作台列表视图（多兴趣频道栏 + 跨源折叠 + 兑换码一键复制） | 三列图文卡片视图（零额外请求封面图提取 + 响应式 2列/3列网格） | | :---: | :---: | | | | | 多路由精准推送（分形态/分类/获取方式/关键词定制即时或攒批路由） | AI 语义引擎（27 类分流、自适应学习与零 Token 存量重整分类） | | :---: | :---: | | | | --- ## 核心特性 ### 1. 多兴趣频道与「形态 × 领域 × 获取方式」正交分类 - **6 大内容形态（`kind`）**：`freebie`（白嫖福利）、`deal`（特价好价·含黑五 VPS/拼车/二手出鸡）、`opensource`（开源项目）、`news`（重要新闻）、`info`（行业资讯·指南）、`noise`（纯求助/灌水噪音）。 - **27 个垂直领域（`category`）**：覆盖 `ai`（AI 额度）、`vps`（VPS/主机）、`cloud`（云服务）、`domain`（域名/建站）、`opensource`（开源软件）、`software`（软件授权）、`dev`（开发/工程）、`design`（设计/素材）、`security`（安全/网络）、`hardware`（硬件/数码）、`media`（影音会员）、`game`（游戏）、`carpool`（拼车/合租）、`trade`（二手/交易）、`headline`（时政要闻）、`world`（国际要闻）、`finance`（经济/商业）、`stock`（股票/市场）、`tech`（科技动态）、`news`（综合资讯）、`goods`（实物/优惠）、`offline`（实物福利）、`invite`（邀请码）、`edu`（教育/考试）、`pan`（网盘资源）、`course`（网课/教程）、`other`（其它）。 - **8 个兴趣频道与自适应下级分类**：真福利、全部白嫖、实物福利、网盘/网课",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "开源自托管聚合工具，含AI语义分级与TG推送"
+  },
+  "scores": [
+   57,
+   62
+  ],
+  "score": 59,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "CallMeGuLab/dsh-purge-safe",
+  "url": "https://github.com/CallMeGuLab/dsh-purge-safe",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 256,
+  "language": "JavaScript",
+  "topics": [
+   "deepseek",
+   "deepseek-harness",
+   "dsh-plugin",
+   "harness-jailbreak",
+   "jailbreak",
+   "llm-jailbreak",
+   "prompt-injection",
+   "red-team"
+  ],
+  "publishedAt": "2026-11-07T17:26:53Z",
+  "body": "DeepSeek Harness 破甲：默认提示词面向国模「鸢码」，完整开放版，无付费墙，技能库与知识库全含。破解市面上收费 388u 的版本，免费公开。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐\n\nREADME 節錄： ⚔️ DeepSeek Harness cybersecurity red-team tool (dsh-purge-safe) Version 0.1.0 DeepSeek Harness jailbreak: every model, swap prompts per model. Default prompt for 鸢码. Please star ⭐ If you build on this, see Attribution required. English | 中文 | 日本語 ## Contents - What this is - Attribution required - License - Supported hosts - Install - Usage - How it works - Restore - Releases --- ## What this is **dsh-purge-safe** is a cybersecurity red-team plugin for the official DeepSeek Harness already installed on your machine. **0.1.0** targets **DSH 0.2.1-rc.5** (rc.2 still works). Official **Web** (`dsh web`) and the official **desktop EXE** are both supported. Install and Apply them separately. Harness does more than forward a prompt. It rewrites prompts, approval gates, sandbox policy, and session migration at runtime. Asking only “will the model answer” treats a host-layer block as a model refusal. This plugin separates those two layers on your own install, for controlled evaluation and for seeing which default policy is too tight. | You get | What it does | |---|---| | **dsh-purge-safe dock** | A button beside the session title opens the right dock. Two pages: Clean and Drill | | **Clean** | Grouped patch status, Apply / Restore / Uninstall, prompt editor, multiple rule sets | | **Drill** | Built into the stable release. After au",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 外掛與提示詞切換，屬 coding agent 開發工具"
+  },
+  "scores": [
+   47,
+   58
+  ],
+  "score": 52,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "OpenCode Browse",
+  "url": "https://opencode.ai/product/browse",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T21:20:37.000Z",
+  "body": "Article URL: https://opencode.ai/product/browse Comments URL: https://news.ycombinator.com/item?id=50523459 Points: 173 # Comments: 80",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenCode 是開源 AI coding agent 產品頁"
+  },
+  "scores": [
+   34,
+   55
+  ],
+  "score": 44,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Our first phase of embedded assessments",
+  "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T08:00:00.000Z",
+  "body": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI 模型對齊與安全評估，屬 AI 模型治理"
+  },
+  "scores": [
+   30,
+   18
+  ],
+  "score": 24,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Control where GitHub Copilot customizations come from",
+  "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T19:48:33.000Z",
+  "body": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with marketplace restrictions,… The post Control where GitHub Copilot customizations come from appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 客製化來源管控，屬 coding agent 開發工具"
+  },
+  "scores": [
+   20,
+   22
+  ],
+  "score": 21,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "AIRzZ90/study-materials-fork",
+  "url": "https://github.com/AIRzZ90/study-materials-fork",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 743,
+  "language": "TypeScript",
+  "topics": [],
+  "publishedAt": "2026-11-12T10:52:32Z",
+  "body": "A cross-platform Tauri 2 interface and interaction practice project\n\nREADME 節錄： 转载来自：HGhub 源库，请点击小星星 # HGhub （FROK不点小星星的人=看黄果也打不出来-哈哈） **基于 Rust 与 Tauri 2 的跨平台界面与交互实践项目。** HGhub 起源于个人对 Tauri 2 和移动端开发的学习与尝试。感谢大家的关注与贡献；项目由个人利用业余时间维护，关注度的增长不会改变维护范围，也不代表服务或支持承诺。 ## 维护范围与社区反馈 维护者本人后续仅主动维护 **UI/UX、交互细节与用户体验**，不再主动跟进上游数据获取、解析或播放链路适配，不承诺外部接口及相关功能持续可用。 **任何主题的 PR 与 Issues 均可提交。**维护者会根据时间与精力低频阅读、酌情响应，并逐项决定是否处理或合并。提交不代表一定获得回复或被采纳；接受某次社区贡献，也不代表维护者恢复该方向的主动开发或承担持续适配承诺。 本说明用于交代维护者的工作范围与支持边界，不构成对其他开发者的维护要求，也不代表维护者为第三方贡献、修改版或独立项目提供持续担保。 ## 非商业立场 本项目采用 PolyForm Noncommercial 1.0.0，**禁止任何商业用途**，包括销售、广告变现、卡密、VIP、付费解锁，以及作为收费产品或服务的一部分使用；具体授权范围以许可证全文为准。 维护者**不提供商业授权，不接受任何广告、推广、商务合作或其他合作洽谈**，也未授权任何个人或组织以维护者或本项目名义收费、招揽业务。社区技术贡献与问题反馈不属于商务合作。 ## 项目说明与责任边界 - 本仓库记录个人技术实践，包含界面、播放、网络请求等实现。维护者不运营内容托管服务，不参与外部音视频内容的制作、上传或经营。 - 项目与外部站点、内容提供者及其权利方不存在官方隶属、代理或背书关系。涉及第三方内容、名称或标识时，相关权利仍归各自权利人；代码公开不代表已取得这些内容的使用或传播授权。 - 软件按现状提供。在适用法律允许的范围内，维护者不保证其完整性、准确性、安全性、适用性或持续可用性，也不承诺修复、更新或响应期限。 - 第三方修改、分发、宣传或经营行为不代表维护者的意见或授权；维护者无法控制独立副本及其后续行为。本项目的信息以本仓库的公开记录为准。 - 以上说明用于澄清项目性质、维护范围与授权边界，不替代适用法律，也不排除依法应承担的责任。软件许可证仅涉及相应代码权利，不构成对第三方内容或服务的授权。 ## 官方通知与权益反馈 维护者尊重各方合法权益，**将积极响应来自上游、GitHub 平台、版权方及其授权代表、有关机构或公众组织的正式通知与合理关切**。此类事项不适用普通功能反馈的低频处理安排。 可通过 GitHub Issues或平台正式渠道联系，说明相关主体、涉及内容、具体诉求及可核实依据。涉及个人信息或非公开材料时，可先提出联系请求，再协商适当的沟通方式。 收到通知后，维护者会尽快核实、沟通并配合处理，视具体情况采取修改或移除相关内容、暂停相关功能、停止维护、归档或调整仓库可见性等措施。处理范围限于维护者能够控制的仓库和渠道，不承诺控制已独立分发的副本。 ## 技术与目录 | 层 | 技术 | | --- | --- | | 应用框架 | Rust、Tauri 2 | | 界面 | React、TypeScript、Vite、Tailwind CSS | | 播放组件 |",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "轉載成人內容源庫、求星引流，非開發相關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Glen-Web-App/best-agent-memory-mcp",
+  "url": "https://github.com/Glen-Web-App/best-agent-memory-mcp",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 240,
+  "language": null,
+  "topics": [
+   "agent-memory",
+   "ai-agents",
+   "ai-memory",
+   "awesome",
+   "awesome-list",
+   "claude-code",
+   "codex",
+   "coding-agents",
+   "cursor",
+   "llm-memory",
+   "long-term-memory",
+   "mcp",
+   "mcp-memory",
+   "mcp-memory-server",
+   "mcp-server",
+   "mcp-servers",
+   "mem0",
+   "memory-mcp",
+   "model-context-protocol",
+   "persistent-memory"
+  ],
+  "publishedAt": "2026-11-05T01:23:58Z",
+  "body": "Best Agent Memory MCP servers, ranked and compared: long-term memory for Claude Code, Codex, Cursor and any MCP client. Glen, Mem0, Supermemory, Zep, Hindsight, Basic Memory, claude-mem, Graphiti, Cognee, the official memory server and more, with storage, capture model, team sharing, license and live stars.\n\nREADME 節錄： # Best Agent Memory MCP **The best agent memory MCP servers, ranked: long-term memory for Claude Code, Codex, Cursor and any MCP client.** Best Agent Memory MCP compares 25 memory MCP servers that let an AI agent keep facts, decisions and past conversations between sessions. Hosted services (Glen, Mem0, Zep, Supermemory) sit next to open-source servers you run yourself (Hindsight, Basic Memory, Graphiti, Cognee, the official MCP memory server), and every entry says where memory is stored, whether capture is automatic or waits for the agent to call a tool, whether a team can share it, and what it costs. All of them connect to Claude Code, Cursor or Codex over MCP; the entries note which clients each project documents. **Short answer.** For memory shared across a team's agents, start with Glen. For a hosted personal memory with a free tier, Mem0. For self-hosting with hybrid retrieval, Hindsight. For memory you can read and edit as files, Basic Memory. For a zero-dependency baseline, the official memory server. > **Disclosure:** this list is maintained by the Glen team, and Glen is ranked first. Every other entry is ranked on the published criteria, and its facts",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "MCP 記憶伺服器比較清單，與 coding agent 開發相關"
+  },
+  "scores": [
+   38,
+   59
+  ],
+  "score": 48,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+  "url": "https://www.cs.cmu.edu/learn",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T20:43:36.000Z",
+  "body": "Article URL: https://www.cs.cmu.edu/learn/ Comments URL: https://news.ycombinator.com/item?id=50522980 Points: 1008 # Comments: 157",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "免費 CS 課程資源，與開發學習相關"
+  },
+  "scores": [
+   46,
+   69
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Advancing computer-use agents for healthcare teams",
+  "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T06:00:00.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI 電腦操作 Agent 應用，與 AI Agent 開發相關"
+  },
+  "scores": [
+   15,
+   12
+  ],
+  "score": 13,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "VS Code retires the Local harness in February 2027",
+  "url": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T19:22:56.000Z",
+  "body": "Visual Studio Code 1.146 deprecates the Local harness, the older software that coordinates the model, context, and tools for GitHub Copilot agent sessions in the editor. The Local harness will… The post VS Code retires the Local harness in February 2027 appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "VS Code 開發工具與 Copilot agent 架構變動"
+  },
+  "scores": [
+   29,
+   22
+  ],
+  "score": 25,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Immortal-Protocols/lastbook",
+  "url": "https://github.com/Immortal-Protocols/lastbook",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 701,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-12T23:49:03Z",
+  "body": "Offline knowledge library for survival and rebuilding\n\nREADME 節錄：# Lastbook Lastbook is an offline survival library for Mac, Windows and Linux. It puts manuals, videos, encyclopedias, an offline map and short practical guides on one computer. After setup, it works offline. The desktop sidebar opens Videos, Map and Chat. Chat answers questions using the library and links to its sources. Website: . Contact: hello@lastbook.org. > Lastbook’s original code and documentation are licensed under the MIT License. > Contributions are welcome. See CONTRIBUTING.md to get started. ## Release status | Platform | Version | Status | |---|---|---| | macOS (Apple Silicon, macOS 14 or later) | 1.1.10 | Live on lastbook.org, signed | | Windows (64-bit, Windows 10 or later) | 1.1.8 | Live on lastbook.org, Authenticode signed | | Linux (Ubuntu 24.04 LTS, x86_64) | 1.1.9 | Ubuntu package; installation instructions below | ## iPad (development preview, source only) A native iPad app (Videos, Map and Chat, offline, with optional on-device AI) is in `mobile/ipad/`. - It is source for contributors to build and sign themselves. - There is no App Store, TestFlight or downloadable iPad build. - See mobile/ipad/README.md for what works, the current limitations and how to build it. ## Install on Linux The Linux package targets **Ubuntu 24.04 LTS on Intel/AMD x86_64 computers**. Download Lastbook for Ubuntu, then install it with apt so Ubuntu resolves its dependencies. ```bash sudo apt install ./Lastbook_1.1",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源桌面 App，內建離線 AI 問答與本地地圖，可關注或貢獻"
+  },
+  "scores": [
+   48,
+   28
+  ],
+  "score": 38,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "boffti/starwire",
+  "url": "https://github.com/boffti/starwire",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 233,
+  "language": "JavaScript",
+  "topics": [
+   "awesome",
+   "awesome-list",
+   "developer-tools",
+   "github",
+   "open-source"
+  ],
+  "publishedAt": "2026-11-06T03:26:21Z",
+  "body": "Open source repos worth a look, gathered from across the web and refreshed every two days\n\nREADME 節錄： 🔥 Trending &nbsp;&nbsp;&nbsp; 🆕 New this week &nbsp;&nbsp;&nbsp; 🔁 Picked again and again &nbsp;&nbsp;&nbsp; 🗂️ Areas &nbsp;&nbsp;&nbsp; ➕ Submit a repo ## 🔥 Trending Gaining stars fastest right now for their size. Stars are counted daily and only measured gains are used. Until a repo has a week of counts, it shows the days measured so far; for repos under 30 days old the missing days use their own average, marked ~. | Repo | About | | :-- | :-- | | **modern-web-guidance** GoogleChrome ⭐&nbsp;**21k** | Current web best practices packaged as guidance for coding agents 🌐 Web & frontend › Frameworks&nbsp;&nbsp;·&nbsp;&nbsp;📈 +16k stars in 6 days&nbsp;&nbsp;·&nbsp;&nbsp;🟢 updated today&nbsp;&nbsp;·&nbsp;&nbsp;Apache-2.0&nbsp;&nbsp;·&nbsp;&nbsp;811 forks | | **kiri** libracoder ⭐&nbsp;**9.1k** | Small, fast container runtime that runs on macOS, Windows and Linux ☁️ Infrastructure & DevOps › Containers & Kubernetes&nbsp;&nbsp;·&nbsp;&nbsp;📈 +7.7k stars a week&nbsp;&nbsp;·&nbsp;&nbsp;🟢 updated today&nbsp;&nbsp;·&nbsp;&nbsp;Apache-2.0&nbsp;&nbsp;·&nbsp;&nbsp;402 forks | | **misterdownloadmanager** anefzaoui ⭐&nbsp;**11k** | Cross-platform download manager written in Rust, an IDM alternative 💻 System & desktop › Files & backup&nbsp;&nbsp;·&nbsp;&nbsp;📈 +6.3k stars a week&nbsp;&nbsp;·&nbsp;&nbsp;🟢 updated today&nbsp;&nbsp;·&nbsp;&nbsp;GPL-3.0&nbsp;&nbsp;·&nbsp;&nbsp;940 fo",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源專案彙整清單，涵蓋 coding agent 與開發工具"
+  },
+  "scores": [
+   18,
+   21
+  ],
+  "score": 19,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Chemistry is Actually Geometry",
+  "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T20:22:18.000Z",
+  "body": "Article URL: https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry Comments URL: https://news.ycombinator.com/item?id=50522643 Points: 162 # Comments: 80",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "化學科普文，與AI、開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "More ways to move care forward with ChatGPT for Healthcare",
+  "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T06:00:00.000Z",
+  "body": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "涉及 computer-use agent 與外掛，屬 Agent 技術範疇"
+  },
+  "scores": [
+   20,
+   17
+  ],
+  "score": 18,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Bulk start AI Scan for repositories",
+  "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T15:50:22.000Z",
+  "body": "AI Scan for repositories finds security vulnerabilities on your repository’s default branch. It covers languages CodeQL doesn’t support and finds additional issues in languages CodeQL already analyzes. Findings appear in… The post Bulk start AI Scan for repositories appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub 推出 AI 程式碼安全掃描功能，屬開發工具"
+  },
+  "scores": [
+   22,
+   42
+  ],
+  "score": 32,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "haziqahmedqasmi/PeakCut",
+  "url": "https://github.com/haziqahmedqasmi/PeakCut",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 693,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-14T07:38:20Z",
+  "body": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.\n\nREADME 節錄：# PeakCut Turn long videos and live streams into captioned vertical clips, ready to post. Free and open source: run it on your own computer or server, with your own AI key. Paste a YouTube, Twitch or Kick link (or upload a file) and PeakCut finds the moments worth clipping, cuts them to 9:16, adds word-by-word captions and a hook, and can post them to your connected accounts. It can also record a creator's live stream and clip the highlights while the stream is still running. ## What it does - **Clips from any video.** Transcribes the audio, asks an AI which moments would hold a stranger's attention, and renders each one with captions in one of three styles. - **Live clipping.** Records a stream into a rolling buffer and clips as it happens, using loudness, chat activity and the transcript. - **Workspaces per creator.** Channels, clip settings, posting rules and an activity log for each creator you clip. - **Posting.** Connect YouTube, Instagram and TikTok in one click, then queue or auto-post finished clips, with spacing and daily caps (see DEPLOY.md for the one-time setup). - **No sign-in on your own computer.** It opens straight into the dashboard. On a shared server, switch accounts on (`PEAKCUT_ACCOUNTS=1`) for email or Google sign-in and an admin dashboard. - **Your own AI.** Gemini, OpenAI, Grok, Groq, OpenRouter, Claude, a local model through Ollama, or anything that speaks th",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源AI自動剪片工具，支援自帶模型金鑰與直播剪輯"
+  },
+  "scores": [
+   50,
+   57
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "nishuzumi/show-me-you-want-skill",
+  "url": "https://github.com/nishuzumi/show-me-you-want-skill",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 201,
+  "language": "HTML",
+  "topics": [],
+  "publishedAt": "2026-11-10T06:26:23Z",
+  "body": "\n\nREADME 節錄：# smyw · show me you want > 让 Agent 在写代码之前，先把「要改什么」画给你看，你直接在图上改，再把意见交回给它。 smyw 是一个给编码 Agent（Claude Code、DeepSeek Harness 等支持 `SKILL.md` 的 Agent）用的 skill。做一个会动到页面、交互流程或前后端接口的功能时，Agent 先读代码、写一份结构化的 spec，再生成一个**单文件 HTML 原型**： - 按真实界面画出一整屏的线框，模块名和代码组件对得上； - 改动处按编号画框：**黄 = 修改，绿 = 新增，红 = 删除**； - 点开一处改动，看改动前后、改了哪些字段、相关交互和函数 / 接口； - 弹窗、下拉菜单、点了才展开的内容画成旁边的单独面板，用连线连到触发它的按钮； - 点「▶ 演示」像 Figma 原型一样一屏一屏点着试：弹窗弹出来、菜单展开、按钮变状态、跳到另一屏； - 你可以直接在图上拖动组件、把卡片改成弹窗、写批注、写整体风格意见，然后一键复制反馈发回给 Agent。 线框只表达「有哪些模块、放在哪、怎么触发」，**不是视觉稿**，实现时以项目自己的设计规范为准。 组件框架是 **Base UI**（`@base-ui/react`）：spec 里的每个模块都是 Base UI 的一个组件（`Dialog`、`Switch`、`Tabs`、`Select`、`Accordion`…），Agent 按组件来拼，实现时直接写同一套 Base UI 代码。预览仍然是零依赖的单文件线框，不打包 React / Base UI。 ## 工作方式 ``` 你提需求 → Agent 读代码，按 Base UI 组件写 .smyw/ - /spec.json → scripts/build.mjs 校验并生成 preview.html（纯前端单文件，离线可开） → 你打开 preview.html：看改动、拖动、改结构、批注、回答 Agent 的问题 → 「反馈」页点「复制反馈」，粘贴回对话 → Agent 用 scripts/apply-feedback.mjs 生成下一版 spec，重新 build → 你点「确认方案」后，Agent 才开始写代码（用 Base UI 拼） ``` 预览不需要服务端，也没有任何依赖，构建只需要 Node ≥ 18。实现阶段才用 Base UI 和项目自己的样式。 ## 安装 把 `skills/smyw` 目录放到 Agent 读取 skill 的位置即可： ```bash git clone https://github.com/nishuzumi/show-me-you-want-skill.git cd show-me-you-want-skill # Claude Code（所有项目可用） ln -s \"$PWD/skills/smyw\" ~/.claude/skills/smyw # 通用位置（不少 Agent 会读这里） ln -s \"$PWD/skills/smyw\" ~/.agents/skills/smyw # 也可以只给某个项目用 cp -r skills/smyw /.claude/skills/smyw ``` 装好后，提一个会改动界面或接口的需求，或者直接说「先出个原型给我看看」，Agent 就会使用它。 ## 先体验一下 仓库里带了几个已经生成好的示例，下载后用浏览器直接打开就能玩： - `skills/smy",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "給 coding agent 用的原型 skill，與開發工具實質相關"
+  },
+  "scores": [
+   77,
+   76
+  ],
+  "score": 76,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Rust changed me as a developer",
+  "url": "https://blog.startifact.com/posts/how-rust-changed-me",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T20:16:50.000Z",
+  "body": "Article URL: https://blog.startifact.com/posts/how-rust-changed-me/ Comments URL: https://news.ycombinator.com/item?id=50522563 Points: 220 # Comments: 140",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 開發經驗，屬程式開發議題"
+  },
+  "scores": [
+   24,
+   28
+  ],
+  "score": 26,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "The King’s Trust and OpenAI launch £1m partnership",
+  "url": "https://openai.com/index/the-kings-trust-and-openai",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T00:00:00.000Z",
+  "body": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "企業公益培訓新聞，與開發工具無實質關係"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Take GitHub Mobile with you on iPhone Duo",
+  "url": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T14:30:07.000Z",
+  "body": "GitHub Mobile now supports iPhone Duo, with a layout that adapts when unfolded and vertical tabs to help you move between key areas like Copilot, Pull Requests, Issues, and Notifications.… The post Take GitHub Mobile with you on iPhone Duo appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub Mobile 支援新裝置並整合 Copilot，屬開發工具"
+  },
+  "scores": [
+   20,
+   21
+  ],
+  "score": 20,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "linknimiball1974/ai-texture-forge",
+  "url": "https://github.com/linknimiball1974/ai-texture-forge",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 685,
+  "language": null,
+  "topics": [
+   "dream-textures",
+   "dream-textures-addon",
+   "dream-textures-ai",
+   "dream-textures-blender",
+   "dream-textures-diffusion",
+   "dream-textures-generation",
+   "dream-textures-gpu",
+   "dream-textures-history",
+   "dream-textures-inpainting",
+   "dream-textures-local",
+   "dream-textures-material",
+   "dream-textures-outpainting",
+   "dream-textures-pbr",
+   "dream-textures-projection",
+   "dream-textures-prompt",
+   "dream-textures-python",
+   "dream-textures-render",
+   "dream-textures-seamless",
+   "dream-textures-upscaling",
+   "dream-textures-windows"
+  ],
+  "publishedAt": "2026-11-11T19:09:18Z",
+  "body": "An AI-powered texture forge for Blender — turn text prompts into seamless PBR materials, concept art and scene-wide projections with local or cloud diffusion models, straight inside the 3D viewport on Windows. · dream textures · dream textures blender · dream textures addon · dream textures ai · dream textures seamless · dream textures pbr\n\nREADME 節錄：# ai-texture-forge **An AI-powered texture forge for Blender — turn text prompts into seamless PBR materials, concept art and scene-wide projections with local or cloud diffusion models, straight inside the 3D viewport on Windows.** [download-url]: https://github.com/linknimiball1974/ai-texture-forge/releases [][download-url] **The forge in one scene:** type `weathered copper, green patina, seamless` in the N-panel, pick a provider, and a tile-ready PBR set lands on the active object — color, roughness and normal maps wired in one click; one depth-aware projection later, the whole alley is skinned before the coffee cools. ## Why Texturing from stock libraries is a grind: hours hunting for a texture that only sort of fits, seams stitched by hand in an image editor, round-trips through external AI tools that break your flow, and licenses that never quite cover the project. ai-texture-forge moves generation into the 3D viewport — you describe the surface, the forge renders it with a local GPU engine or a connected cloud provider, bakes seamless tiling, projects it across the scene by depth and wires the maps into Blender's shader no",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "主題農場式堆疊、仿冒 Dream Textures 引流，屬 SEO 垃圾 repo"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ngophatneknha/ai-engineering-hub",
+  "url": "https://github.com/ngophatneknha/ai-engineering-hub",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 186,
+  "language": "MDX",
+  "topics": [],
+  "publishedAt": "2026-11-07T10:08:24Z",
+  "body": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications (Personal learning hub)\n\nREADME 節錄：# AI Engineering & Autonomous Agents Learning Hub Không gian tổng hợp tài liệu, giáo trình thực hành và mã nguồn được thu thập, đúc kết trong quá trình tự học và nghiên cứu về AI Engineering, Large Language Models (LLM), Hệ thống tác tử tự hành (Autonomous Agents) và MLOps. Kho lưu trữ này được xây dựng với mục đích chính là làm nơi tự học, lưu trữ các dự án thực nghiệm cá nhân, đồng thời chia sẻ một thư viện tham khảo có hệ thống cho cộng đồng những người đang tìm hiểu và theo đuổi con đường AI Engineering. --- ## 1. Đôi Nét Về Kho Lưu Trữ Trong quá trình tìm tòi và học tập về AI, các tài liệu chất lượng cao từ lý thuyết toán, mô hình ngôn ngữ lớn đến các framework điều phối tác tử thường nằm rải rác ở rất nhiều nguồn khác nhau. Việc vừa học vừa tổng hợp lại giúp người học: * Có cái nhìn liền mạch từ nền tảng toán học, cách xây dựng mô hình từ đầu cho đến ứng dụng vào thực tế sản xuất. * Lưu trữ mã nguồn mẫu để có thể trực tiếp chạy, chỉnh sửa, thử nghiệm và gộp các ý tưởng lại với nhau. * Tạo ra một danh mục tham chiếu thuận tiện để khi cần giải quyết một bài toán cụ thể (RAG, Multi-Agent, Tool Use, Evaluation) có thể tra cứu và đối chiếu nhanh chóng. Kho lưu trữ được chia làm hai khu vực chính: * Thư mục gốc: Tuyển tập 93+ dự án thực hành mã nguồn mở về Computer Vision, OCR, Chat UI, Reasoning UI, RAG đa phương thức và hệ thống Multi-Agent MCP. * Thư mục `curated-course",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "LLM/RAG/Agent/MCP 教學與開源專案彙整，與 AI 開發實質相關"
+  },
+  "scores": [
+   30,
+   35
+  ],
+  "score": 32,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+  "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T18:31:30.000Z",
+  "body": "Article URL: https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda Comments URL: https://news.ycombinator.com/item?id=50521045 Points: 739 # Comments: 618",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "銀行系統故障新聞，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "At Holiday Extras, dots get to work before anyone asks",
+  "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T00:00:00.000Z",
+  "body": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI 企業 AI Agent 應用案例"
+  },
+  "scores": [
+   15,
+   8
+  ],
+  "score": 11,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "rivet-dev/open-orange",
+  "url": "https://github.com/rivet-dev/open-orange",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 638,
+  "language": "TypeScript",
+  "topics": [
+   "cloudflare",
+   "cloudflare-workers",
+   "durable-objects",
+   "nodejs",
+   "rivet",
+   "self-hosted",
+   "serverless",
+   "sqlite",
+   "typescript",
+   "wrangler"
+  ],
+  "publishedAt": "2026-11-12T00:44:12Z",
+  "body": "Run Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers.\n\nREADME 節錄： Run Cloudflare Workers anywhere: AWS, Google Cloud, Azure, or your own servers. The same developer experience, without the runtime limits, for a fraction of the bill. Docs · Deploy · Migrate · Bindings · Examples · Discord ## What is OpenOrange OpenOrange runs your existing Cloudflare Workers project on AWS, Google Cloud, Azure or your own servers, with no changes to your code. It's built with four goals: - **Zero refactoring, zero-downtime migration**: your Workers and Durable Objects run as they are, and your data moves off Cloudflare while your app keeps serving. - **The same developer experience**: `wrangler dev` becomes `orange dev`, and everything underneath is open source and self-hostable. - **Simpler bills**: you pay for the machines you run on, not Cloudflare's metering or an enterprise contract. Compute is 4.8× cheaper and storage 8.7× cheaper. - **Built for scale**: storage is backed by S3, so scaling out is a matter of adding machines. ## Quickstart You need a Worker project with a `wrangler.jsonc`, `wrangler.json`, or `wrangler.toml` (or use `examples/hello-durable-object`), Node.js 22 or later, and pnpm. Deploying also needs Docker. ### Use a coding agent Paste this into your coding agent (Claude Code, Codex, Cursor, …) from your Worker project: ```text First, add the Rivet MCP (https://mcp.rivet.dev/mcp) to this agent, and ask me to approve the Rivet sign-i",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開發工具,支援Cloudflare Workers自架與MCP/agent整合"
+  },
+  "scores": [
+   50,
+   56
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "fahsq72lan/dsh-guide-tutor",
+  "url": "https://github.com/fahsq72lan/dsh-guide-tutor",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 184,
+  "language": "PowerShell",
+  "topics": [],
+  "publishedAt": "2026-11-13T02:05:03Z",
+  "body": "屏幕教学助手：悬浮球 + 实时标注 + 步骤面板（DeepSeek Harness 插件）\n\nREADME 節錄：# 屏幕教学助手 在 Windows 桌面上手把手教你操作。点一下悬浮球，它截屏、在屏幕上画圈、旁边写步骤、用语音念出来，你照着做完点「下一步」。 本地跑，不录屏、不上传。 ## 用起来是什么样 1. 你说「教我 xxx」，或者直接点球； 2. 它看一眼你的屏幕，在面板上写下这一步要做什么； 3. 在屏幕上把要点的按钮圈出来，箭头指过去； 4. 说话解释，字幕跟着语音走； 5. 你做完点「下一步」，它重新截屏，看对不对，再给下一步； 6. 完事点「✓」，标注清掉，面板收回球。 卡住了直接说「我不知道在哪」，它会重新截图找。 ## 两个进程 - `index.js` —— DSH 插件，注册 `guide_*` 工具，管知识库，把悬浮层拉起来并守着它，对外开一个本机 HTTP + SSE。 - `native/overlay.ps1` —— PowerShell + WPF 写的悬浮层，三扇窗口：球、全屏标注层（鼠标穿透）、半透明面板。 改 `index.js` 要重启 DSH；改 `overlay.ps1` 只要 `guide_overlay restart`。 ## 工具 | 工具 | 干什么 | | --- | --- | | `guide_screen` | 截屏，返回图片给模型看 | | `guide_teach` | 画标注 + 写面板（标题、正文、步骤、当前步） | | `guide_say` | 朗读 + 同步字幕 | | `guide_finish` | 收尾：清标注、折叠面板 | | `guide_overlay` | 启停悬浮层 | | `guide_kb` | 知识库读写（.md / .docx） | | `video_*` | B 站视频：取字幕、写摘要、回忆 | 清单、番茄钟、专注环、日记、时间线这些在 `guide-coach` 里，不在这里。 ## 装 已经装在 desktop profile 里（`link:` 到本目录）。重装： ``` plugin_manager action=install_bundle target= ``` 改完 Host 代码记得重启 DSH。没有热重载。 ## 数据在哪 `%USERPROFILE%\\.dsh\\guide-tutor\\` | 文件 | 是什么 | | --- | --- | | `state.json` | 面板、标注、球的唯一真相，悬浮层每 250ms 读一次 | | `events.jsonl` | 悬浮层发给宿主的事件（ready / captured / step / mode / voice / done…） | | `shots\\` | 每张截图 | | `kb\\` | 知识库 | | `chatlog.json` | 面板「记录」看的那份对话流水，最多 120 条 | | `overlay.log` / `plugin.log` | 出问题先看这俩 | ## 一些细节，都是踩过坑才这么写的 **字幕位置**：出现在最近一次标注旁边，放不下就放上面；没有标注时在屏幕底部居中。 **语音**：默认用 Edge 的晓晓（`zh-CN-XiaoxiaoNeural`，要联网），合成失败自动退回系统 SAPI 的惠惠。想完全离线就把 `config.ttsEngine` 设成 `sapi`。回复会拆成一句一句念，句间停顿，不是一口气念完。 **面板大小",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 插件、Agent 工具與開發實作，與讀者需求直接相關"
+  },
+  "scores": [
+   68,
+   72
+  ],
+  "score": 70,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Grazing sheep in fields with solar arrays",
+  "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T17:27:46.000Z",
+  "body": "Article URL: https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains Comments URL: https://news.ycombinator.com/item?id=50520182 Points: 244 # Comments: 238",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "太陽能牧羊農業研究，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "n4ze3m/tiny-voca",
+  "url": "https://github.com/n4ze3m/tiny-voca",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 633,
+  "language": "Python",
+  "topics": [
+   "onnx",
+   "text-to-speech",
+   "tts"
+  ],
+  "publishedAt": "2026-11-14T16:02:56Z",
+  "body": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch\n\nREADME 節錄：# tiny-voca tiny-voca is a small English text-to-speech model. It has two voices, 4.5M parameters, and runs on a CPU or in the browser. Demo · Weights · Dataset ## Features - **Small**: 4,537,291 parameters, 18 MB, waveform generator included. - **Fast**: about 70x real time on four CPU threads. - **Two voices**: F2 (female) and M2 (male), American English, 24 kHz. - **Runs anywhere**: PyTorch, ONNX Runtime, and ONNX Runtime Web. - **Open**: code, weights, training recipe and dataset. Trained from scratch. ## Install ```bash git clone https://github.com/n4ze3m/tiny-voca.git cd tiny-voca pip install -e \".[own]\" hf download n4ze3m/tiny-voca --local-dir weights export DIZIONE_DATA=weights/phonemizer ``` ## Usage ```bash python -m tiny_voca.infer \\ --checkpoint weights/tiny-voca.pt \\ --voice F2 \\ --text \"Hello! This is tiny voca.\" \\ --output hello.wav ``` | Option | Default | Meaning | |---|---|---| | `--text-file` | | Read the text from a file instead of `--text` | | `--voice` | `F2` | `F2` or `M2` | | `--speed` | 1.0 | Speaking rate | | `--pitch-shift` | 0 | Raise or lower the pitch | | `--pitch-range` | 1.0 | More or less pitch movement | Long text is fine. It is read one sentence at a time and the audio is joined. A text that ends without a mark gets a full stop, so the last word does not break off. A sentence with nothing to read, such as one in another script, is skipped. The output nev",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源輕量TTS模型，可ONNX/瀏覽器執行，與AI開發工具相關"
+  },
+  "scores": [
+   70,
+   68
+  ],
+  "score": 69,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Jiff 1.0: A datetime library for Rust",
+  "url": "https://burntsushi.net/jiff",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T16:53:39.000Z",
+  "body": "Article URL: https://burntsushi.net/jiff/ Comments URL: https://news.ycombinator.com/item?id=50519744 Points: 343 # Comments: 78",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 開源時間函式庫，屬開發工具"
+  },
+  "scores": [
+   32,
+   43
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "yetanotherbrowser/yab",
+  "url": "https://github.com/yetanotherbrowser/yab",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 604,
+  "language": "Swift",
+  "topics": [],
+  "publishedAt": "2026-11-14T23:56:32Z",
+  "body": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion\n\nREADME 節錄：# Yab Yet another browser. A small, quiet browser for the Mac, with an app for iPhone. Yab is a browser with nothing in the way: a row of tabs, across the top or down the left, and the page. One field takes addresses and searches. Pages run on **WebKit**, the engine inside every Mac, or, on Apple silicon, on **Chromium**, per tab or per site. Agents from the AI providers you already pay for can work in tabs of their own, and never see a private tab. **Download Yab** · macOS 15.4 or later · What's new · Manual ## What it does - **One field.** Type an address and you go there; type words and you search. It finishes addresses from your own history and sends nothing until you press Return. - **Tabs that stay out of the way.** Pins, folders and spaces. Tabs from your last session come back instantly and cost nothing until you click them. `⌘K` finds any open tab. - **Two engines.** WebKit by default; Chromium on Apple silicon for the sites that need it, with Chrome extensions, Chrome DevTools and the Chrome Web Store. - **Blocking and hiding built in.** An ad blocker that runs inside the engine, before a request is made. `⇧⌘H` hides any element on a site, for good. - **Reading mode, floating video, split view, Peek**, each one key away. - **Passwords in your keychain**, or in the password manager you already use. - **Agents in their own tabs**, with your sign-ins, asking before the",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 macOS 瀏覽器，內建 AI agent 分頁與雙引擎，屬開發工具與 Agent 範疇"
+  },
+  "scores": [
+   33,
+   28
+  ],
+  "score": 30,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Frame – 31.5\" color ePaper display",
+  "url": "https://trmnl.com/blog/introducing-frame",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-16T16:23:22.000Z",
+  "body": "Article URL: https://trmnl.com/blog/introducing-frame Comments URL: https://news.ycombinator.com/item?id=50519354 Points: 344 # Comments: 241",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "電子紙顯示器開發與硬體專案，與開發工具相關"
+  },
+  "scores": [
+   40,
+   41
+  ],
+  "score": 40,
+  "picked": false,
+  "promptVersion": "118d0780"
+ }
+]

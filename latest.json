@@ -1,6 +1,6 @@
 {
- "date": "2026-11-16",
- "generatedAt": "2026-11-16T02:59:55.130Z",
+ "date": "2026-11-17",
+ "generatedAt": "2026-11-17T05:12:13.876Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,45 +11,71 @@
  },
  "items": [
   {
-   "title": "NamiDSH：迷你版 DeepSeek Harness 學習專案",
-   "summary": "作者用約一千行 TypeScript 縮小版重現 DSH 的插件架構，含迷你 Cordis 與網頁端 Agent，可用 npm start 開瀏覽器對話，無 API Key 也能離線跑。",
-   "why": "想看懂 DSH 插件骨架的話，可照 repo 的對照文章與程式碼逐檔讀，比直接啃百萬行源碼輕鬆。",
-   "url": "https://github.com/aa1143/NamiDSH",
+   "title": "smyw：寫程式前先畫原型給你改",
+   "summary": "smyw 是支援 SKILL.md 的 Agent 用的 skill，寫程式前先產生單檔 HTML 線框原型，你可在圖上拖動、批注，再複製回饋給 Agent。",
+   "why": "做網頁或 Discord 後台介面前，先看版面草圖並改好，再讓 Agent 動手，少走冤枉路。",
+   "url": "https://github.com/nishuzumi/show-me-you-want-skill",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 222,
-   "score": 72,
+   "stars": 201,
+   "score": 76,
    "scores": [
-    72,
-    73
+    77,
+    76
    ],
-   "originalTitle": "aa1143/NamiDSH",
+   "originalTitle": "nishuzumi/show-me-you-want-skill",
    "related": []
   },
   {
-   "title": "用 WebGPU 生成的瀏覽器水下世界",
-   "summary": "Abyssal Garden 是一個可在瀏覽器游泳的水下場景，海藻林、光束、沉船與魟魚都由程式生成，全部包在單一約 97 KB 的 HTML 檔案中，無需安裝、可離線運作。需使用支援 WebGPU 的 Chrome 或 Edge。",
-   "why": "想學 WebGPU 或程式生成美術的話，可以直接打開原始碼研究海藻與光影的寫法。",
-   "url": "https://github.com/Noniv/abyssal-garden",
+   "title": "DSH 插件：螢幕教學懸浮球助手",
+   "summary": "dsh-guide-tutor 是 DSH 的 Windows 插件：點懸浮球就截屏、圈出要點的按鈕並語音講解，按「下一步」再重新檢查。",
+   "why": "想學 DSH 插件怎麼註冊工具、做懸浮層，這是現成的完整範例。",
+   "url": "https://github.com/fahsq72lan/dsh-guide-tutor",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 184,
+   "score": 70,
+   "scores": [
+    68,
+    72
+   ],
+   "originalTitle": "fahsq72lan/dsh-guide-tutor",
+   "related": []
+  },
+  {
+   "title": "MCP 瀏覽器工具一次填完表單",
+   "summary": "turbo-browser-mcp 是 Playwright 的 MCP server，可一次填完整份表單、批次跑動作，預設擋下送出鈕。",
+   "why": "可以讓 AI 代理自動操作網頁表單，少跑幾輪、少花 token。",
+   "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+   "source": "GitHub Agent 技能",
+   "alsoFrom": [],
+   "stars": 127,
+   "score": 69,
+   "scores": [
+    68,
+    71
+   ],
+   "originalTitle": "Tthanh2k6/turbo-browser-mcp",
+   "related": []
+  },
+  {
+   "title": "tiny-voca 小型語音合成模型",
+   "summary": "從零訓練的英文 TTS 模型，4.5M 參數、18 MB，有 F2、M2 兩種聲音，CPU 或瀏覽器都能跑。",
+   "why": "能在瀏覽器執行，適合替網頁小遊戲加英文旁白或角色配音。",
+   "url": "https://github.com/n4ze3m/tiny-voca",
    "source": "GitHub 新專案",
    "alsoFrom": [],
-   "stars": 1127,
-   "score": 71,
+   "stars": 633,
+   "score": 69,
    "scores": [
-    69,
-    74
+    70,
+    68
    ],
-   "originalTitle": "Noniv/abyssal-garden",
+   "originalTitle": "n4ze3m/tiny-voca",
    "related": []
   }
  ],
  "nearMiss": [
-  {
-   "title": "smokeeaasd/flawless-ui-ux",
-   "url": "https://github.com/smokeeaasd/flawless-ui-ux",
-   "score": 62,
-   "source": "GitHub DSH 生態"
-  },
   {
    "title": "lili-luo/dsh-plugin-bundle",
    "url": "https://github.com/lili-luo/dsh-plugin-bundle",
@@ -67,12 +93,6 @@
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "score": 59,
    "source": "GitHub 新專案"
-  },
-  {
-   "title": "Doug-218/blender-ai-copilot-forge",
-   "url": "https://github.com/Doug-218/blender-ai-copilot-forge",
-   "score": 59,
-   "source": "GitHub 新專案"
   }
  ],
  "stats": {
@@ -86,37 +106,37 @@
    {
     "id": "gh-dsh",
     "name": "GitHub DSH 生態",
-    "count": 15,
+    "count": 14,
     "error": null
    },
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 5,
+    "count": 6,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 10,
+    "count": 14,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 6,
+    "count": 4,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 0,
+    "count": 1,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 2,
+    "count": 9,
     "error": null
    },
    {
@@ -128,29 +148,29 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 0,
+    "count": 8,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 0,
+    "count": 1,
     "error": null
    }
   ],
-  "candidates": 50,
-  "prefilterPass": 37,
-  "scored": 37,
-  "picked": 2,
+  "candidates": 60,
+  "prefilterPass": 48,
+  "scored": 48,
+  "picked": 4,
   "llm": {
-   "calls": 109,
-   "failures": 37,
+   "calls": 125,
+   "failures": 12,
    "byRoute": {
-    "owob:deepseek-v4.1-flash": 49,
-    "owob:glm-5.3-flash": 20,
-    "owob:claude-haiku-5-5": 3
+    "owob:deepseek-v4.1-flash": 75,
+    "owob:glm-5.3-flash": 33,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 5
    },
-   "tokens": 95394
+   "tokens": 135919
   }
  }
 }
