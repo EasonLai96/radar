@@ -1,6 +1,6 @@
 {
- "date": "2026-11-17",
- "generatedAt": "2026-11-17T05:12:13.876Z",
+ "date": "2026-11-18",
+ "generatedAt": "2026-11-18T04:41:39.489Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,71 +11,58 @@
  },
  "items": [
   {
-   "title": "smyw：寫程式前先畫原型給你改",
-   "summary": "smyw 是支援 SKILL.md 的 Agent 用的 skill，寫程式前先產生單檔 HTML 線框原型，你可在圖上拖動、批注，再複製回饋給 Agent。",
-   "why": "做網頁或 Discord 後台介面前，先看版面草圖並改好，再讓 Agent 動手，少走冤枉路。",
-   "url": "https://github.com/nishuzumi/show-me-you-want-skill",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 201,
-   "score": 76,
-   "scores": [
-    77,
-    76
+   "title": "GPT-6.2 Astra／Sol 推出",
+   "summary": "OpenAI 推出 GPT-6.2 Astra（高難專案）與 Sol（日常工作）兩款模型，已可透過 API 使用。Astra 價格為前代八成，快取價由每百萬 1 美元降到 0.40。",
+   "why": "Astra 快取價大降，適合跑較長的 agent 流程；LLM 0.38 已支援新模型。",
+   "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+   "comments": null,
+   "source": "Simon Willison",
+   "alsoFrom": [
+    "Hacker News",
+    "GitHub Changelog"
    ],
-   "originalTitle": "nishuzumi/show-me-you-want-skill",
-   "related": []
+   "stars": null,
+   "score": 84,
+   "scores": [
+    82,
+    86
+   ],
+   "originalTitle": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+   "related": [
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available"
+   ]
   },
   {
-   "title": "DSH 插件：螢幕教學懸浮球助手",
-   "summary": "dsh-guide-tutor 是 DSH 的 Windows 插件：點懸浮球就截屏、圈出要點的按鈕並語音講解，按「下一步」再重新檢查。",
-   "why": "想學 DSH 插件怎麼註冊工具、做懸浮層，這是現成的完整範例。",
-   "url": "https://github.com/fahsq72lan/dsh-guide-tutor",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 184,
-   "score": 70,
-   "scores": [
-    68,
-    72
-   ],
-   "originalTitle": "fahsq72lan/dsh-guide-tutor",
-   "related": []
-  },
-  {
-   "title": "MCP 瀏覽器工具一次填完表單",
-   "summary": "turbo-browser-mcp 是 Playwright 的 MCP server，可一次填完整份表單、批次跑動作，預設擋下送出鈕。",
-   "why": "可以讓 AI 代理自動操作網頁表單，少跑幾輪、少花 token。",
-   "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
-   "source": "GitHub Agent 技能",
-   "alsoFrom": [],
-   "stars": 127,
-   "score": 69,
-   "scores": [
-    68,
-    71
-   ],
-   "originalTitle": "Tthanh2k6/turbo-browser-mcp",
-   "related": []
-  },
-  {
-   "title": "tiny-voca 小型語音合成模型",
-   "summary": "從零訓練的英文 TTS 模型，4.5M 參數、18 MB，有 F2、M2 兩種聲音，CPU 或瀏覽器都能跑。",
-   "why": "能在瀏覽器執行，適合替網頁小遊戲加英文旁白或角色配音。",
-   "url": "https://github.com/n4ze3m/tiny-voca",
+   "title": "huggingface/pybot：純規則寫成的聊天機器人",
+   "summary": "PyBot 由千名以上代理人純用 if-else、regex 和查表寫成，不含任何模型權重，SmolTalkBench 勝率從0%衝到26%，約640k行程式碼。",
+   "why": "不用裝套件、不用下載模型，git clone後直接跑，可拿來研究純規則聊天邏輯怎麼寫。",
+   "url": "https://github.com/huggingface/pybot",
    "source": "GitHub 新專案",
    "alsoFrom": [],
-   "stars": 633,
-   "score": 69,
+   "stars": 711,
+   "score": 77,
    "scores": [
-    70,
-    68
+    76,
+    79
    ],
-   "originalTitle": "n4ze3m/tiny-voca",
+   "originalTitle": "huggingface/pybot",
    "related": []
   }
  ],
  "nearMiss": [
+  {
+   "title": "External sandboxes for coding agents",
+   "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+   "score": 64,
+   "source": "Simon Willison"
+  },
+  {
+   "title": "chuanqisun/spaceship",
+   "url": "https://github.com/chuanqisun/spaceship",
+   "score": 61,
+   "source": "GitHub 新專案"
+  },
   {
    "title": "lili-luo/dsh-plugin-bundle",
    "url": "https://github.com/lili-luo/dsh-plugin-bundle",
@@ -83,16 +70,16 @@
    "source": "GitHub DSH 生態"
   },
   {
-   "title": "hitkeeen/blender-ai-mcp-addon",
-   "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
-   "score": 59,
-   "source": "GitHub 新專案"
-  },
-  {
    "title": "ZiChuanLan/freebie-radar",
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "score": 59,
    "source": "GitHub 新專案"
+  },
+  {
+   "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+   "url": "https://simonwillison.net/2026/Nov/17/datasette-lite",
+   "score": 58,
+   "source": "Simon Willison"
   }
  ],
  "stats": {
@@ -112,31 +99,31 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 6,
+    "count": 5,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 14,
+    "count": 15,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 4,
+    "count": 5,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 1,
+    "count": 0,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 9,
+    "count": 5,
     "error": null
    },
    {
@@ -148,29 +135,31 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 8,
+    "count": 10,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 1,
+    "count": 2,
     "error": null
    }
   ],
   "candidates": 60,
-  "prefilterPass": 48,
-  "scored": 48,
-  "picked": 4,
+  "prefilterPass": 45,
+  "scored": 45,
+  "picked": 2,
   "llm": {
-   "calls": 125,
-   "failures": 12,
+   "calls": 118,
+   "failures": 16,
    "byRoute": {
-    "owob:deepseek-v4.1-flash": 75,
-    "owob:glm-5.3-flash": 33,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 5
+    "owob:deepseek-v4.1-flash": 70,
+    "owob:glm-5.3-flash": 29,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 1,
+    "avianjay:mrtoasterrr/claude-sonnet-5": 1,
+    "owob:claude-haiku-5-5": 1
    },
-   "tokens": 135919
+   "tokens": 113603
   }
  }
 }

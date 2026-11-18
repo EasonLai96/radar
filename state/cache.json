@@ -1,25 +1,4 @@
 {
- "prefilter:d2932bff:deepseek:https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
-  "v": {
-   "label": "PASS",
-   "reason": "Claude Code 權限與密鑰洩漏，與 coding agent 安全實質相關"
-  },
-  "at": "2026-11-08T02:36:52.525Z"
- },
- "prefilter:d2932bff:deepseek:https://latent.space/p/ainews-anthropic-ipo-whither-now": {
-  "v": {
-   "label": "PASS",
-   "reason": "AI新聞摘要含模型測試與guardrail研究"
-  },
-  "at": "2026-11-08T02:36:54.591Z"
- },
- "prefilter:d2932bff:deepseek:https://hunch.net/?p=13764006": {
-  "v": {
-   "label": "PASS",
-   "reason": "AI 研究組織裁撤，屬 AI 產業與模型發展動向"
-  },
-  "at": "2026-11-08T02:36:54.637Z"
- },
  "prefilter:d2932bff:deepseek:https://latent.space/p/cs146s": {
   "v": {
    "label": "PASS",
@@ -4598,5 +4577,540 @@
    "why": "能在瀏覽器執行，適合替網頁小遊戲加英文旁白或角色配音。"
   },
   "at": "2026-11-17T05:12:13.876Z"
+ },
+ "prefilter:d2932bff:deepseek:https://latent.space/p/cloudflare": {
+  "v": {
+   "label": "PASS",
+   "reason": "Cloudflare 自研 AI 模型與開發平台相關"
+  },
+  "at": "2026-11-18T04:37:31.346Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/gylive/google-ultra": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "濫用試用漏洞、批量帳號與卡號的欺詐工具，非開發技術"
+  },
+  "at": "2026-11-18T04:37:40.790Z"
+ },
+ "prefilter:d2932bff:deepseek:https://revscope.co/blog/search-seo-geo-2026": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "屬一般科技／SEO產業新聞，與開發工具無實質關聯"
+  },
+  "at": "2026-11-18T04:37:45.371Z"
+ },
+ "prefilter:d2932bff:deepseek:https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "稅務身分驗證政策新聞，與開發工具無關"
+  },
+  "at": "2026-11-18T04:37:47.476Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available": {
+  "v": {
+   "label": "PASS",
+   "reason": "GPT-6.2 新模型在 GitHub Copilot 上線，與 agentic coding 相關"
+  },
+  "at": "2026-11-18T04:37:48.959Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/krisgfx9/Wireless-Device-Battery-Monitor": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "無線周邊電量小工具，與AI及開發流程無關"
+  },
+  "at": "2026-11-18T04:37:49.826Z"
+ },
+ "prefilter:d2932bff:deepseek:https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "主體為 Perplexity 營收商業新聞，非開發工具"
+  },
+  "at": "2026-11-18T04:37:56.158Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents": {
+  "v": {
+   "label": "PASS",
+   "reason": "介紹 coding agent 外部沙箱實作，與 Claude Code、Codex 安全執行直接相關"
+  },
+  "at": "2026-11-18T04:37:59.770Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 與北約合作以 AI 找漏洞、驗修補，屬 AI 資安應用"
+  },
+  "at": "2026-11-18T04:38:01.179Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/microsoft/onnxruntime": {
+  "v": {
+   "label": "PASS",
+   "reason": "ONNX Runtime 是 AI 推論開發工具，與模型部署相關"
+  },
+  "at": "2026-11-18T04:38:01.813Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/astra-law-6-2": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "法律垂直產品新聞，與開發工具無關"
+  },
+  "at": "2026-11-18T04:38:05.397Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases": {
+  "v": {
+   "label": "PASS",
+   "reason": "Copilot 開發工具支援新平台"
+  },
+  "at": "2026-11-18T04:38:05.824Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/17/datasette-lite": {
+  "v": {
+   "label": "PASS",
+   "reason": "Pyodide在瀏覽器跑Datasette，屬開源開發工具"
+  },
+  "at": "2026-11-18T04:38:06.102Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol": {
+  "v": {
+   "label": "PASS",
+   "reason": "新模型發布、API價格與Codex基準測試，與開發直接相關"
+  },
+  "at": "2026-11-18T04:38:06.738Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 新模型與基準測試，屬 coding agent 工具"
+  },
+  "at": "2026-11-18T04:38:09.748Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 程式碼審查新功能，屬 coding agent 開發工具"
+  },
+  "at": "2026-11-18T04:38:12.747Z"
+ },
+ "prefilter:d2932bff:deepseek:https://calif.io/java4shell": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenJDK 遠端執行漏洞，與開發環境安全相關"
+  },
+  "at": "2026-11-18T04:38:17.358Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 新 coding 模型發布"
+  },
+  "at": "2026-11-18T04:38:20.129Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/jquery/jquery/releases/tag/4.1.0": {
+  "v": {
+   "label": "PASS",
+   "reason": "jQuery 前端函式庫新版發布，與網頁開發相關"
+  },
+  "at": "2026-11-18T04:38:23.205Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/erkamyaman/rust-anything": {
+  "v": {
+   "label": "PASS",
+   "reason": "Rust 重寫工具，支援 coding agent 與 claude-code 技能"
+  },
+  "at": "2026-11-18T04:38:23.918Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/introducing-chatgpt-for-sales": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI 推出 Sales 插件與 30+ 合作插件，屬 AI 工具生態"
+  },
+  "at": "2026-11-18T04:38:24.473Z"
+ },
+ "prefilter:d2932bff:deepseek:https://blog.cloudflare.com/quad9-withdrawal-from-france": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "DNS 業者退出法國，屬網路政策新聞，與開發工具無關"
+  },
+  "at": "2026-11-18T04:38:26.986Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "科学史新闻，与AI或开发无关"
+  },
+  "at": "2026-11-18T04:38:31.217Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/introducing-openai-for-chile": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "政府合作政策新聞，與開發工具無實質關係"
+  },
+  "at": "2026-11-18T04:38:34.147Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 代理活动监控，属开发工具"
+  },
+  "at": "2026-11-18T04:38:37.065Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot CLI 新增登入驗證，屬 coding agent 開發工具"
+  },
+  "at": "2026-11-18T04:38:41.738Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/17/go-proverbs": {
+  "v": {
+   "label": "PASS",
+   "reason": "程式設計格言，與開發實務相關"
+  },
+  "at": "2026-11-18T04:38:43.933Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot IDE 更新，與 coding agent 開發工具相關"
+  },
+  "at": "2026-11-18T04:38:46.320Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 程式碼審查新功能，屬開發工具"
+  },
+  "at": "2026-11-18T04:38:52.520Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/niyouqianma/workbuddy2api-hub": {
+  "v": {
+   "label": "PASS",
+   "reason": "OpenAI相容本地網關，多帳號池與API轉接，與coding agent工具相關"
+  },
+  "at": "2026-11-18T04:38:53.174Z"
+ },
+ "prefilter:d2932bff:deepseek:https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash": {
+  "v": {
+   "label": "PASS",
+   "reason": "微軟新coding模型發布，與AI開發工具直接相關"
+  },
+  "at": "2026-11-18T04:38:59.083Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.solidjs.com/blog/solid-2-0-the-long-hold": {
+  "v": {
+   "label": "PASS",
+   "reason": "Solid 2.0 是前端框架的版本发布，与 Web 开发相关"
+  },
+  "at": "2026-11-18T04:39:01.449Z"
+ },
+ "prefilter:d2932bff:deepseek:https://developer.apple.com/system-status": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "Apple 服務中斷公告，屬一般科技新聞，與開發工具無關"
+  },
+  "at": "2026-11-18T04:39:01.783Z"
+ },
+ "prefilter:d2932bff:deepseek:https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+  "v": {
+   "label": "PASS",
+   "reason": "標題為 OpenAI 新模型發布，屬 AI 模型範疇"
+  },
+  "at": "2026-11-18T04:39:07.511Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "Nvidia營收與地區揭露屬商業財報新聞，與開發無關"
+  },
+  "at": "2026-11-18T04:39:11.946Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "美國國安通訊網路新聞，屬政治一般新聞與開發無關"
+  },
+  "at": "2026-11-18T04:39:14.248Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview": {
+  "v": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 評測工具，與 coding agent 開發工具有關"
+  },
+  "at": "2026-11-18T04:39:15.014Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/joshpuckett/allo": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源字型專案，含 npm 與 Web 字型，前端可直接用"
+  },
+  "at": "2026-11-18T04:39:15.554Z"
+ },
+ "prefilter:d2932bff:deepseek:https://phrack.org/issues/73/introduction_md": {
+  "v": {
+   "label": "PASS",
+   "reason": "知名資安技術刊物，屬開發者技術圈實質內容"
+  },
+  "at": "2026-11-18T04:39:15.754Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/chuanqisun/spaceship": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 LLM 即時互動 IDE 實驗，用 Claude Code 與 Gemini/Cerebras API"
+  },
+  "at": "2026-11-18T04:39:22.821Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/huggingface/pybot": {
+  "v": {
+   "label": "PASS",
+   "reason": "HF 開源多 Agent 打造規則式聊天機器人，與 Agent 開發相關"
+  },
+  "at": "2026-11-18T04:39:35.675Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol": {
+  "v": 86,
+  "at": "2026-11-18T04:39:40.341Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": {
+  "v": 23,
+  "at": "2026-11-18T04:39:41.049Z"
+ },
+ "scoreB:118d0780:glm:https://latent.space/p/cloudflare": {
+  "v": 22,
+  "at": "2026-11-18T04:39:42.212Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available": {
+  "v": 68,
+  "at": "2026-11-18T04:39:42.910Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents": {
+  "v": 56,
+  "at": "2026-11-18T04:39:43.524Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol": {
+  "v": 82,
+  "at": "2026-11-18T04:39:51.079Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/introducing-chatgpt-for-sales": {
+  "v": 18,
+  "at": "2026-11-18T04:39:54.058Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": {
+  "v": 14,
+  "at": "2026-11-18T04:39:57.907Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models": {
+  "v": 47,
+  "at": "2026-11-18T04:40:03.758Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available": {
+  "v": 65,
+  "at": "2026-11-18T04:40:04.422Z"
+ },
+ "scoreA:118d0780:deepseek:https://latent.space/p/cloudflare": {
+  "v": 25,
+  "at": "2026-11-18T04:40:06.772Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/microsoft/onnxruntime": {
+  "v": 45,
+  "at": "2026-11-18T04:40:08.608Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/17/datasette-lite": {
+  "v": 63,
+  "at": "2026-11-18T04:40:10.787Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents": {
+  "v": 73,
+  "at": "2026-11-18T04:40:12.364Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases": {
+  "v": 38,
+  "at": "2026-11-18T04:40:14.611Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/introducing-chatgpt-for-sales": {
+  "v": 16,
+  "at": "2026-11-18T04:40:26.309Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/erkamyaman/rust-anything": {
+  "v": 44,
+  "at": "2026-11-18T04:40:31.643Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/erkamyaman/rust-anything": {
+  "v": 66,
+  "at": "2026-11-18T04:40:31.929Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models": {
+  "v": 28,
+  "at": "2026-11-18T04:40:33.097Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/17/go-proverbs": {
+  "v": 8,
+  "at": "2026-11-18T04:40:34.602Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/17/go-proverbs": {
+  "v": 18,
+  "at": "2026-11-18T04:40:35.548Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more": {
+  "v": 37,
+  "at": "2026-11-18T04:40:37.644Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more": {
+  "v": 26,
+  "at": "2026-11-18T04:40:38.312Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/microsoft/onnxruntime": {
+  "v": 28,
+  "at": "2026-11-18T04:40:39.329Z"
+ },
+ "scoreA:118d0780:deepseek:https://calif.io/java4shell": {
+  "v": 47,
+  "at": "2026-11-18T04:40:40.059Z"
+ },
+ "scoreB:118d0780:glm:https://calif.io/java4shell": {
+  "v": 54,
+  "at": "2026-11-18T04:40:40.626Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/17/datasette-lite": {
+  "v": 54,
+  "at": "2026-11-18T04:40:43.115Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot": {
+  "v": 52,
+  "at": "2026-11-18T04:40:43.796Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases": {
+  "v": 26,
+  "at": "2026-11-18T04:40:44.309Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/jquery/jquery/releases/tag/4.1.0": {
+  "v": 36,
+  "at": "2026-11-18T04:40:45.115Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot": {
+  "v": 35,
+  "at": "2026-11-18T04:40:45.535Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/jquery/jquery/releases/tag/4.1.0": {
+  "v": 25,
+  "at": "2026-11-18T04:40:46.212Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases": {
+  "v": 16,
+  "at": "2026-11-18T04:40:46.987Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases": {
+  "v": 34,
+  "at": "2026-11-18T04:40:47.444Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365": {
+  "v": 12,
+  "at": "2026-11-18T04:40:47.913Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365": {
+  "v": 20,
+  "at": "2026-11-18T04:40:49.014Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview": {
+  "v": 12,
+  "at": "2026-11-18T04:40:49.446Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/niyouqianma/workbuddy2api-hub": {
+  "v": 45,
+  "at": "2026-11-18T04:40:49.470Z"
+ },
+ "scoreB:118d0780:glm:https://www.solidjs.com/blog/solid-2-0-the-long-hold": {
+  "v": 48,
+  "at": "2026-11-18T04:40:49.790Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/niyouqianma/workbuddy2api-hub": {
+  "v": 30,
+  "at": "2026-11-18T04:40:49.995Z"
+ },
+ "scoreA:118d0780:deepseek:https://www.solidjs.com/blog/solid-2-0-the-long-hold": {
+  "v": 58,
+  "at": "2026-11-18T04:40:51.166Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights": {
+  "v": 22,
+  "at": "2026-11-18T04:40:53.556Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/joshpuckett/allo": {
+  "v": 52,
+  "at": "2026-11-18T04:40:53.904Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights": {
+  "v": 21,
+  "at": "2026-11-18T04:40:54.041Z"
+ },
+ "scoreA:118d0780:deepseek:https://phrack.org/issues/73/introduction_md": {
+  "v": 38,
+  "at": "2026-11-18T04:40:54.273Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/joshpuckett/allo": {
+  "v": 62,
+  "at": "2026-11-18T04:40:54.279Z"
+ },
+ "scoreB:118d0780:glm:https://phrack.org/issues/73/introduction_md": {
+  "v": 53,
+  "at": "2026-11-18T04:40:54.383Z"
+ },
+ "scoreB:118d0780:glm:https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash": {
+  "v": 56,
+  "at": "2026-11-18T04:40:55.241Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview": {
+  "v": 15,
+  "at": "2026-11-18T04:40:56.397Z"
+ },
+ "scoreA:118d0780:deepseek:https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash": {
+  "v": 48,
+  "at": "2026-11-18T04:40:56.962Z"
+ },
+ "scoreB:118d0780:glm:https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview": {
+  "v": 41,
+  "at": "2026-11-18T04:40:57.524Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview": {
+  "v": 24,
+  "at": "2026-11-18T04:40:58.258Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/chuanqisun/spaceship": {
+  "v": 62,
+  "at": "2026-11-18T04:40:58.871Z"
+ },
+ "scoreA:118d0780:deepseek:https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+  "v": 76,
+  "at": "2026-11-18T04:40:59.660Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/huggingface/pybot": {
+  "v": 79,
+  "at": "2026-11-18T04:40:59.843Z"
+ },
+ "scoreB:118d0780:glm:https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+  "v": 73,
+  "at": "2026-11-18T04:41:01.034Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/huggingface/pybot": {
+  "v": 76,
+  "at": "2026-11-18T04:41:01.169Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/chuanqisun/spaceship": {
+  "v": 61,
+  "at": "2026-11-18T04:41:01.262Z"
+ },
+ "write:2d964375:claude:https://github.com/huggingface/pybot": {
+  "v": {
+   "title": "huggingface/pybot：純規則寫成的聊天機器人",
+   "summary": "PyBot 由千名以上代理人純用 if-else、regex 和查表寫成，不含任何模型權重，SmolTalkBench 勝率從0%衝到26%，約640k行程式碼。",
+   "why": "不用裝套件、不用下載模型，git clone後直接跑，可拿來研究純規則聊天邏輯怎麼寫。"
+  },
+  "at": "2026-11-18T04:41:20.367Z"
+ },
+ "write:2d964375:claude:https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol": {
+  "v": {
+   "title": "GPT-6.2 Astra／Sol 推出",
+   "summary": "OpenAI 推出 GPT-6.2 Astra（高難專案）與 Sol（日常工作）兩款模型，已可透過 API 使用。Astra 價格為前代八成，快取價由每百萬 1 美元降到 0.40。",
+   "why": "Astra 快取價大降，適合跑較長的 agent 流程；LLM 0.38 已支援新模型。"
+  },
+  "at": "2026-11-18T04:41:39.489Z"
  }
 }

@@ -664,5 +664,23 @@
   "title": "n4ze3m/tiny-voca",
   "source": "GitHub 新專案",
   "score": 69
+ },
+ "1572471834711036006": {
+  "messageId": "1572471834711036006",
+  "channelId": "1519910211995959336",
+  "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+  "date": "2026-11-18",
+  "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+  "source": "Simon Willison",
+  "score": 84
+ },
+ "1572471838108418049": {
+  "messageId": "1572471838108418049",
+  "channelId": "1519910211995959336",
+  "url": "https://github.com/huggingface/pybot",
+  "date": "2026-11-18",
+  "title": "huggingface/pybot",
+  "source": "GitHub 新專案",
+  "score": 77
  }
 }
