@@ -1,0 +1,1480 @@
+[
+ {
+  "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+  "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 4102,
+  "language": "C++",
+  "topics": [],
+  "publishedAt": "2026-11-16T19:28:29Z",
+  "body": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.\n\nREADME 節錄：# BatteryHub *Formerly **Wireless Battery**. Version 1.1.0 renamed the app; an update keeps your settings, startup choice and battery history.* Battery levels of your wireless mouse, headset, keyboard and controller, right on the Windows taskbar. > **Just want it working?** Download **BatteryHub-Setup** from the latest release, run it and click through. That's it. > > **Experienced users** can grab the portable zip, use the command-line options, or build it from source with `make` or `build.bat`. > > **Like it?** BatteryHub is free and open source. If it saves you a trip into vendor software, you can support it on Ko-fi, PayPal or GitHub Sponsors. It helps me keep my apps free alongside my studies. Not able to donate? A ⭐ star, sharing it, or reporting an unsupported device with a `--dump` helps just as much. - **Tiny**: a ~350 KB app using about 2 MB of RAM. It's plain C++/Win32, with no runtime and no background service, and installs in seconds without admin rights. - **No vendor software needed**: it talks to the devices directly. G HUB, Synapse, iCUE, GG and NGenuity can stay closed (or keep running; they don't conflict). - **Many brands**: Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, ",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "無線周邊電量小工具，與AI及開發流程無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "dabingfy-dot/solo-to-team-skills",
+  "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 1053,
+  "language": "HTML",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "collaboration",
+   "human-in-the-loop",
+   "workflow"
+  ],
+  "publishedAt": "2026-11-07T01:36:28Z",
+  "body": "Human-led MAS toolkit: 16 roles, 6 group templates, four platform bundles, evidence-based review and handoff. 一人成队：一个人统筹多智能体协作。\n\nREADME 節錄：# 一人成队 · Solo to Team **一个人统筹 AI 团队：任务有人接，成果有人核，交接有据可查。** 一人成队是一套依托现有 AI 平台运行的多智能体协作系统（MAS）工具包。你决定目标，选择真实执行者；首席统筹，执行席制作，另一位审核者打开同版成果检查，修订后交回原入口。岗位卡、建队台、四平台专用 Skill 和接续工具帮助把这条链落实到文件与记录。 在线文档 · English · 16页项目介绍与组织图 · 参与和反馈 播放完整演示 · 中文 · 1080p · 9.38 MB。演示说明产品方法，不代表四端业务全部通过。 ## 选你正在使用的平台 每个平台包都包含 **1款平台协作 Skill＋4款完整基础 Skills**，以及岗位与群规、模板、示例、离线建队台、接续工具和配置清单。只需选一个平台；四款基础 Skills 不必另找下载。 | 平台 | 完整 ZIP | 先读说明 | |---|---|---| | Grok Bot | 下载 · 3.40 MB | START-HERE | | WorkBuddy | 下载 · 3.34 MB | START-HERE | | DeepSeek Harness | 下载 · 3.39 MB | START-HERE | | Open Master Bot | 下载 · 3.32 MB | START-HERE | Open Master Bot保留`openmaus`与`solo-to-team-openmaus`兼容标识，原生调用名不改。 1. 下载并解压对应完整包，打开`START-HERE.md`。 2. 按该平台说明采用主Skill；把`TASK-MATERIALS.zip`作为普通任务资料提供，按任务读取基础Skills与配置。**外层完整包和任务资料包都不是单技能上传包。** 3. 先做一件范围清楚的小任务，核实际执行者、同版成果、独立审核与原入口收件。已有同版可用对象直接复用；不同版按授权更新原对象，保留旧件。 基础Skills完整随包，不等于五个原生技能对象已自动注册或全员加载。平台账号、模型与权限仍由你的环境提供。 ## 分工怎样接得上 16席、6个建议群和26条建议入群关系提供可调整的责任模板，按任务启用，不要求全员开工。选用制作与复核流程时： **用户定目标 → 首席确定执行席 → 执行席制件 → 独立审核 → 局部退修或原入口交回。** - 首席统筹与接回，不改写审核结论；退修回原执行席。 - 督查检查承诺与交接，不取代审核，也不新增审批或放行关口。 - 技术改后由有能力且非原执行者独核；专属委托与私密直接路线按岗位卡保留。 - 群成员身份不扩大权限；角色名称不等于独立执行上下文或资料隔离。 ## 已有 MAS 继续保留 新增四包是加法：原四款核心Skills、完整MAS、建队台、带底稿开工、团队更新与历史任务证据继续保留。 - 完整MAS工作台与原工具 · adapter.5完整组合及维护源码 - 四款原核心Skills的独立采用指南 · 免模型验件练习 - 四平台配置使用清单 · 四包打包源码 · 重建说明 ## 版本与验证范围 本次发布编号 **v0.2.0**；四包包装为",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI agent 協作技能包，含 DSH/Codex 等宿主支援說明"
+  },
+  "scores": [
+   55,
+   60
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "We need smart people who give a shit",
+  "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T23:53:49.000Z",
+  "body": "Article URL: https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/ Comments URL: https://news.ycombinator.com/item?id=50554045 Points: 317 # Comments: 163",
+  "prefilter": {
+   "label": "UNKNOWN",
+   "reason": "僅有 HN 標題與連結，無內文可判斷主題"
+  },
+  "scores": [
+   18,
+   21
+  ],
+  "score": 19,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette-arrows 0.1a0",
+  "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T17:09:59.000Z",
+  "body": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats support streaming data in chunks. The register_output_renderer() plugin hook can now be used to implement the same pattern for other formats. I've learned never to release a new plugin feature without accompanying it with a plugin that uses it. Claude Fable 5.2 suggested the Apache Arrow streaming format as a good option, and built this plugin in almost a single shot. Add the plugin to Datasette ( datasette install datasette-arrows ) and the export dialog gains this new Arrow option: This screenshot is from Datasette's main branch - the most recent release doesn't yet group streaming formats such as Arrow with the TSV and CSV in the \"All rows in this table\" section, but that's coming in the next alpha release. Tags: datasette , projects",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Datasette 外掛與串流匯出開發工具，Claude 協作"
+  },
+  "scores": [
+   34,
+   37
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+  "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T19:54:56.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI模型後訓練效率技術"
+  },
+  "scores": [
+   27,
+   33
+  ],
+  "score": 30,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "The Silent Consensus",
+  "url": "https://openai.com/index/the-silent-consensus",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T10:00:00.000Z",
+  "body": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "AI政策論述，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
+  "source": "Google DeepMind",
+  "sourceId": "deepmind",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T21:35:43.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Google新AI模型發布消息，與模型相關"
+  },
+  "scores": [
+   71,
+   72
+  ],
+  "score": 71,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Wait for pull request events with GitHub CLI",
+  "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-19T00:00:13.000Z",
+  "body": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub CLI 新增 PR 事件等待功能，屬開發工具"
+  },
+  "scores": [
+   52,
+   58
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+  "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T10:19:04.000Z",
+  "body": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 模型發布與價格比較，與開發相關"
+  },
+  "scores": [
+   64,
+   68
+  ],
+  "score": 66,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "erkamyaman/rust-anything",
+  "url": "https://github.com/erkamyaman/rust-anything",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 3581,
+  "language": "Rust",
+  "topics": [
+   "agent-skills",
+   "claude-code",
+   "cli",
+   "code-migration",
+   "codex",
+   "ffi",
+   "golang",
+   "java",
+   "javascript",
+   "mcp",
+   "migration",
+   "napi",
+   "performance",
+   "porting",
+   "pyo3",
+   "python",
+   "rewrite",
+   "ruby",
+   "rust",
+   "typescript"
+  ],
+  "publishedAt": "2026-11-16T12:10:36Z",
+  "body": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.\n\nREADME 節錄： rust-anything by erKam Yaman English · Türkçe · Українська · 简体中文 · 繁體中文 · Deutsch · Français · Русский · 日本語 · 한국어 · Azərbaycanca · Oʻzbekcha · Қазақша · Кыргызча · Türkmençe · Татарча · ئۇيغۇرچە · Português Rewrite your whole app in Rust. Keep it working the whole way. CLIs, servers and libraries, piece by piece, checked against the original at every step. Node.js and TypeScript · Python · C · Go · Ruby · Java · PHP and C# in preview Quick start · Languages · How it works · The loop · Port a whole app · Hot paths · Install · What it can't catch · FAQ up to 20x faster · 38,251 recorded cases replayed · 0 mismatches · one command Typing a query into x18n's search over 50,000 keys: the TypeScript original against the rust-anything batch, same results at every keystroke. Record record runs the original on generated edge cases, semantic traps and your own inputs, and saves what it returns or throws. Port bridge generates the Rust crate and a wrapper, so callers keep the original API. You or your agent write the Rust. Check diff replays every recorded case against the Rust, and nothing ships until they all match and gate passes. Lift When replay passes with no fallback and every unit passes gate, app lift makes it a pure Rust app. The original is never touched. **Rewrite your ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 重寫工具，支援 coding agent 與 claude-code 技能"
+  },
+  "scores": [
+   44,
+   66
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Xin-YuXiao/Awesome-AI-for-Astronomy",
+  "url": "https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 386,
+  "language": "Python",
+  "topics": [
+   "ai-for-science",
+   "astronomy",
+   "awesome",
+   "awesome-list",
+   "benchmark",
+   "cosmology",
+   "deep-learning",
+   "large-language-models",
+   "machine-learning",
+   "planetary-science"
+  ],
+  "publishedAt": "2026-11-10T23:13:12Z",
+  "body": "A curated list of papers for AI in Astronomy & Astrophysics.\n\nREADME 節錄： # Awesome AI for Astronomy **A curated list of papers, models, datasets, benchmarks and software for artificial intelligence in astronomy, astrophysics, cosmology, heliophysics and planetary science.** **Web page** &nbsp;|&nbsp; **AstroAI Today** &nbsp;|&nbsp; **Contents** &nbsp;|&nbsp; **Contributing** &nbsp;|&nbsp; **Citation** > [!TIP] > The searchable web page filters all 436 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as JSON or CSV. > > AstroAI Today collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is. > > Use the AstroAI Research skill in compatible AI tools to query the curated catalogue and AstroAI Today. ## About This list tracks machine learning work in astronomy with public papers, linking public code where it exists. It emphasises foundation models, language models, agents and benchmarks released since 2021, together with established deep learning methods in each subfield. General astronomy resources are covered by awesome-astronomy, and classical astronomical data science by awesome-astro-datascience. > [!NOTE] > - Papers are list",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 模型/benchmark 清單，含 Agent skill 與自動論文篩選工具"
+  },
+  "scores": [
+   19,
+   12
+  ],
+  "score": 15,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Gemini 4 Neon",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T21:34:07.000Z",
+  "body": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/ Comments URL: https://news.ycombinator.com/item?id=50552424 Points: 565 # Comments: 513",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Gemini 新模型發布，與 AI 模型實質相關"
+  },
+  "scores": [
+   78,
+   82
+  ],
+  "score": 80,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Quoting Daniel Stenberg",
+  "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T15:58:27.000Z",
+  "body": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? &mdash; Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms , generative-ai , vibe-porting",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "談 AI coding agent 改寫 curl 與開源維護"
+  },
+  "scores": [
+   55,
+   61
+  ],
+  "score": 58,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Why your fine-tuning job takes longer than the FLOPs say",
+  "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T18:53:43.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Hugging Face 微調效能分析，與模型訓練開發相關"
+  },
+  "scores": [
+   24,
+   22
+  ],
+  "score": 23,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Research acceleration: The jagged frontier",
+  "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T08:00:00.000Z",
+  "body": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI 談 coding agent 加速研究與能力邊界"
+  },
+  "scores": [
+   29,
+   34
+  ],
+  "score": 31,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Genie 4 is now available",
+  "url": "https://deepmind.google/blog/genie-4-is-now-available",
+  "source": "Google DeepMind",
+  "sourceId": "deepmind",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T18:13:42.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DeepMind 生成式世界模型新版本發布"
+  },
+  "scores": [
+   48,
+   60
+  ],
+  "score": 54,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+  "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T22:04:50.000Z",
+  "body": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like… The post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 新增 MCP 連接器，與 coding agent 開發工具直接相關"
+  },
+  "scores": [
+   35,
+   54
+  ],
+  "score": 44,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "duwqijlk/muse-protocol",
+  "url": "https://github.com/duwqijlk/muse-protocol",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1630,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-14T01:24:58Z",
+  "body": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）\n\nREADME 節錄：# muse.ai 注册 / 邀请码兑换 协议分析 补充一下，记得用JP 节点， JP 不需要绑卡，直接过 纯 HTTP 实现 muse.ai 的注册与邀请码兑换流程，不依赖浏览器。本文记录的是通过抓包逐字段比对得出的协议细节。 ## 快速开始 ```bash pip install -r requirements.txt cp config.example.json config.json # 填入邮箱与可选代理 python example_register.py ``` ## 目录结构 ``` musepy/ client.py 注册 + 兑换的完整协议客户端 runner.py 多账号批量调度（sticky 代理 / 预算 / 停止语义） otp.py 验证码轮询（幂等：只取 send 之后的最新码） falco.py 行为埋点上报（可选） caa.py 注册漏斗事件上报（可选） example_register.py 单账号端到端示例 example_batch.py 多账号批量示例 config.example.json 配置模板 test_onboarding_smoke.py 离线冒烟（披露解析纯函数） test_runner_smoke.py 离线冒烟（批量调度，mock 网络） ``` ## 协议流程 ``` GET / 拿初始 cookie POST /api/auth/native/restart → 201 {csrf_token} POST /api/auth/native/send-otp → 201 POST /api/auth/native/confirm-otp → 200 {registration_state:\"completion_required\", tos:{content_version}}（动态 TOS 版本） POST /api/auth/native/register-completion→ 200 {auth_meta_session:{frl_access_token, frl_account_id}} POST auth.meta.com/hatch/session/bootstrap/ → 302…→ muse.ai 200 HTML（会话引导，必须） └ 从 muse.ai 文档解析动态披露 disclosure_text/disclosure_version 与状态门 （resolvedDestination/isGeoGated/waitlist → 地区受限） POST /api/hatch/accept-tos → 200（单次调用；正文用服务端动态披露，非硬编码） GET /api/hatch/invite → 200 表示账号有效 POST /api/hatch/vm/wake → 200（必须，否则兑换误报 invalid； wake_trigger=mount + open_id + away_ms=0） POST /api/hatch/stateful-sharing → 200 POST /api/hatch/invite-code/redeem → 200 {redemptionStatus:\"redeemed\"} POST /api/hatch/invite → 200 {code}（取回自己的码，不等于页面刮开 reveal） ``` ## 几个容易踩的坑 #",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "批量註冊刷邀請碼的自動化濫用工具，非開發用途"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "lili-luo/dsh-plugin-bundle",
+  "url": "https://github.com/lili-luo/dsh-plugin-bundle",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 342,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-06T12:41:28Z",
+  "body": "基于 DeepSeek Harness（DSH）的插件组合包。每个插件在独立子目录里，可以用 `path:` 单独安装。\n\nREADME 節錄：# dsh-plugin-bundle 基于 DeepSeek Harness（DSH）的插件组合包。每个目录可以用 `path:` 单独安装。 本仓库和 LINUX DO 上的介绍帖已经公开。Google 会用提示词做检测，插件这边已经用提示词处理做了缓解。封号已经出现。请谨慎使用：目前付费套餐暂时还没有封号，活动、赠送一类套餐封号比较集中。细节见 dsh-llm-antigravity-acp。 | 目录 | 内容 | |---|---| | `dsh-llm-antigravity-acp` | 用本机官方 `agy acp` 把 Antigravity 接成 DSH 一级模型。登录态留在官方进程里，插件不保存钥匙，也不把请求转到别的网关。 | | `agy-context-unlock` | 可选的本地解锁脚本。把官方客户端默认的 256K 上下文放到约 1M。它会改写本机 `agy` 二进制，不随插件一起安装。 | 安装插件： ```sh dsh plugin --profile web add \"git+https://github.com/lili-luo/dsh-plugin-bundle.git#main&path:/dsh-llm-antigravity-acp\" ``` 协议说明：Agent Client Protocol。`agy acp` 的产品说明：Antigravity CLI ACP。 ## 社区 本项目在 LINUX DO 社区进行开源推广，感谢社区佬友的交流、反馈与建议。 ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 插件組合包，與 coding agent 開發直接相關"
+  },
+  "scores": [
+   62,
+   58
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "DaisyRose-27B",
+  "url": "https://www.radixark.com/blog/daisyrose-27b",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T19:39:16.000Z",
+  "body": "Article URL: https://www.radixark.com/blog/daisyrose-27b Comments URL: https://news.ycombinator.com/item?id=50551046 Points: 157 # Comments: 45",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "27B 模型發布，與 AI 模型相關"
+  },
+  "scores": [
+   34,
+   null
+  ],
+  "score": 29,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "The PSF end-of-year fundraiser",
+  "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T14:44:48.000Z",
+  "body": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider donating this year! The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (including running PyCon US every year), and employs a small and excellent staff team to keep everything running. We also operate the Developers in Residence program , which now includes three security developers (welcome, Brett Smith) focused on helping secure Python, PyPI, and the wider ecosystem. Tags: python , psf",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "僅 PSF 募款公告，無開發技術內容"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+  "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T15:00:23.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "時序AI模型與應用案例，屬AI模型範疇"
+  },
+  "scores": [
+   27,
+   null
+  ],
+  "score": 22,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+  "url": "https://openai.com/business/customer-stories/sumitomo-life",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T08:00:00.000Z",
+  "body": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "企業導入 ChatGPT Enterprise 含撰寫程式碼案例"
+  },
+  "scores": [
+   12,
+   null
+  ],
+  "score": 7,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Gemini 4 Neon in GitHub Copilot",
+  "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T21:49:21.000Z",
+  "body": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality… The post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "新AI模型進駐Copilot coding agent，與開發工具實質相關"
+  },
+  "scores": [
+   44,
+   null
+  ],
+  "score": 39,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "CzzzzzzJ/mdldm-maitian",
+  "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1371,
+  "language": "JavaScript",
+  "topics": [
+   "automation",
+   "chrome-extension",
+   "creator-tools",
+   "dashboard",
+   "feishu",
+   "social-media"
+  ],
+  "publishedAt": "2026-11-14T03:59:22Z",
+  "body": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏\n\nREADME 節錄： 一行装好 · 看它跑一遍 · 怎么配合 · 各平台的坑 · 作者 一个人做内容，要发六七个平台，每个平台的文案、封面、发布形式都不一样；发完还想知道哪期起来了、哪个平台涨粉、哪个平台真的带来了付费。麦田就是我自己每天在用的那套工作台： 1. **发得出去**：一期视频分批填好 B站、抖音、小红书、视频号、YouTube、X、Instagram，提前排进「分发计划」，到点发布、自动取链接。 2. **看得清楚**：每期在每个平台的播放、互动，各平台粉丝，每天自动采、长期留存；手机上看大屏，飞书群推卡片。 3. **算得出钱**：接上你自己的站点，看哪一期、哪个平台带来了注册和收入。 > 跑在一台常开的 Mac 上，用你自己登录好的浏览器操作各平台，**不存任何平台密码**。国内四家只填写不发布，最后一下由你自己点。 ## 看它跑一遍 一期视频从写文案到上线（47 秒，各平台发布页为示意，数据是作者第 4 期的真实文案和封面）· 高清 MP4 大屏（演示数据， node src/demo.mjs 就能看到） | 日历：分发计划 | 单期复盘：同龄对比 | 每期转化漏斗 | |---|---|---| | | | | ## 怎么配合 | 部分 | 做什么 | 在哪 | |---|---|---| | 发布 skill | 让 AI 助手（Claude Code / Codex）看片、写各平台文案、生成发布工程并校验 | 本仓库 `skills/maitian-publish` | | 麦田发布助手 | Chrome 插件，各平台适配器：打开上传页、传视频和封面、填文案、设定时 | Chrome 应用商店（装进麦田的专用 Chrome，自动更新） | | 麦田（本仓库） | 分发计划、调度、防重、等你点发布、取链接、采数据、网页大屏、飞书通知 | 本仓库 | 链路：成片 → skill 写「发布素材.md」→ 生成 `publish.json` → `hub plan` 进分发计划 → `hub run` 分批填写 → 国内平台你点发布 → 到点取链接 → 每天采数据 → 大屏和飞书卡片。 ## 一行装好 ```bash bash -c \"$(curl -fsSL https://raw.githubusercontent.com/CzzzzzzJ/mdldm-maitian/main/scripts/install.sh)\" ``` 下载麦田和发布助手到 `~/maitian/`、接上发布 skill、打开安装向导；向导问完几个问题，生成配置、装好开机自启、打开各平台登录页。需要 macOS、Node.js ≥ 22.5、Google Chrome。 Windows（社区贡献，感谢 ajin558；开机自启暂未适配）： ```powershell powershell -ExecutionPolicy Bypass -Command \"irm https://raw.githubusercontent.com/CzzzzzzJ/mdldm-maitian/main/scripts/install-windows.ps1 | iex\" ``` 同样下载到 `%USERPROFILE%\\maitian\\`、接上发布 skill、打开安装向导，安装目录里另有 4 个双击启动器（演示 / 登录 / 体检 / 启动）。需要 ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "自媒體發布自動化工具，含 Claude Code skill 與 Chrome 外掛"
+  },
+  "scores": [
+   52,
+   null
+  ],
+  "score": 47,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "CallMeGuLab/dsh-purge-safe",
+  "url": "https://github.com/CallMeGuLab/dsh-purge-safe",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 286,
+  "language": "JavaScript",
+  "topics": [
+   "deepseek",
+   "deepseek-harness",
+   "dsh-plugin",
+   "harness-jailbreak",
+   "jailbreak",
+   "llm-jailbreak",
+   "prompt-injection",
+   "red-team"
+  ],
+  "publishedAt": "2026-11-07T17:26:53Z",
+  "body": "DeepSeek Harness 破甲：默认提示词面向国模「鸢码」，完整开放版，无付费墙，技能库与知识库全含。破解市面上收费 388u 的版本，免费公开。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐\n\nREADME 節錄： ⚔️ DeepSeek Harness cybersecurity red-team tool (dsh-purge-safe) Version 0.1.0 DeepSeek Harness jailbreak: every model, swap prompts per model. Default prompt for 鸢码. Please star ⭐ If you build on this, see Attribution required. English | 中文 | 日本語 ## Contents - What this is - Attribution required - License - Supported hosts - Install - Usage - How it works - Restore - Releases --- ## What this is **dsh-purge-safe** is a cybersecurity red-team plugin for the official DeepSeek Harness already installed on your machine. **0.1.0** targets **DSH 0.2.1-rc.5** (rc.2 still works). Official **Web** (`dsh web`) and the official **desktop EXE** are both supported. Install and Apply them separately. Harness does more than forward a prompt. It rewrites prompts, approval gates, sandbox policy, and session migration at runtime. Asking only “will the model answer” treats a host-layer block as a model refusal. This plugin separates those two layers on your own install, for controlled evaluation and for seeing which default policy is too tight. | You get | What it does | |---|---| | **dsh-purge-safe dock** | A button beside the session title opens the right dock. Two pages: Clean and Drill | | **Clean** | Grouped patch status, Apply / Restore / Uninstall, prompt editor, multiple rule sets | | **Drill** | Built into the stable release. After au",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 外掛與提示詞切換，屬 coding agent 開發工具"
+  },
+  "scores": [
+   47,
+   58
+  ],
+  "score": 52,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Genie 4 is now available",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T18:49:51.000Z",
+  "body": "Article URL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/ Comments URL: https://news.ycombinator.com/item?id=50550415 Points: 205 # Comments: 146",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Google DeepMind 新 AI 模型 Genie 4 發布"
+  },
+  "scores": [
+   65,
+   null
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "External sandboxes for coding agents",
+  "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-17T22:52:29.000Z",
+  "body": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind Superpowers and other projects . My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox. To demonstrate this pattern we've released three sandbox server implementations: external-sandbox-v86 runs a Node.js server which then uses v86 to run Alpine Linux inside WebAssembly. external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance. external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package! Each of these implementations offers the same localhost API. You can then configure Pi, Claude Code, or Codex to send API calls to that sandbox any time they want to execute code. The sandboxes also include an optional HTTP/HTTPS allow-list proxy, so you can control exactly which hosts your agent's code is allowed to communicate with - plus a credential replacement mechanism to make authenticated API calls without sharing a secret wi",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "介紹 coding agent 外部沙箱實作，與 Claude Code、Codex 安全執行直接相關"
+  },
+  "scores": [
+   73,
+   56
+  ],
+  "score": 64,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+  "url": "https://huggingface.co/blog/moe-expert-streaming",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T00:00:00.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "MoE大模型推理優化，與AI開發實質相關"
+  },
+  "scores": [
+   40,
+   null
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Inside the Codex sandbox",
+  "url": "https://openai.com/index/inside-the-codex-sandbox",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T08:00:00.000Z",
+  "body": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Codex sandbox 的檔案與網路權限機制，屬 coding agent 開發工具"
+  },
+  "scores": [
+   30,
+   null
+  ],
+  "score": 25,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Security risk assessments run automatically on GitHub Team",
+  "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T16:54:26.000Z",
+  "body": "GitHub security risk assessments now run automatically for organizations on GitHub Team. Organization admins and security managers can review findings from the free assessments to identify exposed credentials and code… The post Security risk assessments run automatically on GitHub Team appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub 開發平台安全功能更新，與開發工具相關"
+  },
+  "scores": [
+   15,
+   null
+  ],
+  "score": 10,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Hut-hzf/ung220z-tool",
+  "url": "https://github.com/Hut-hzf/ung220z-tool",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1342,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-15T11:16:46Z",
+  "body": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。\n\nREADME 節錄：# ung220z-tool 针对 **UNG220Z（九联 / Unionman 中国移动光猫）** 的一键凭据提取工具。 > ⚠️ 仅用于**你自己的设备**，用于找回自己忘记的管理密码、迁移宽带配置或安全自查。 > 未经授权对他人设备使用属于违法行为，作者不承担任何责任。 ## 背景 这类光猫的 Web 管理页基于 `.gch` CGI 框架，登录口令由 TR-069 定期轮换，普通用户拿到的密码往往几天就失效。本工具走 Telnet 通道，直接读取设备配置库，拿到**当下有效**的全部凭据。 ## 工作流程 ``` 用户输入账号密码 ↓ 拼出 http:// /usr= &psw= &cmd=1&telnet.gch 并打开浏览器（同时脚本直连兜底） ↓ Telnet 登录 → root shell ↓ sidbg 1 DB decry /userconfig/cfg/db_user_cfg.xml 解密配置 ↓ 提取 Web 账号 / Telnet 口令 / PPPoE / WiFi 密钥 / root 口令 ↓ 打印凭据表 + 落盘日志 ``` ## 用法 ```bash python3 ung220z.py ``` 会依次询问： ``` ※ 用户名和密码通常印在光猫【背面贴纸】上（S/N 标签） 形如「用户名：user 密码：xxxxxxxx」，把光猫翻过来就能看到 ① 光猫地址 [192.168.1.1]: ② 用户名 [user]: ③ 密码（输入时不显示） 密码: ``` 也可以全部走命令行： ```bash python3 ung220z.py -i 192.168.1.1 -u user -p '你的密码' python3 ung220z.py -i 192.168.1.1 -u user -p '你的密码' --no-browser ``` ### 常用参数 | 参数 | 说明 | |---|---| | `-i, --ip` | 光猫地址，默认 `192.168.1.1` | | `-u, --user` | 登录用户名，默认 `user` | | `-p, --password` | 登录密码，不填则交互输入 | | `--telnet-user` | Telnet 用户名，默认 `CMCCAdmin` | | `--telnet-password` | Telnet 口令（部分机型与 Web 口令不同） | | `--no-browser` | 不调用浏览器，纯 HTTP 请求 | | `--unlock` | Web 被会话锁占住时重启 httpd 解锁 | | `--no-release` | 不尝试释放残留 Web 会话 | ## 输出示例 ``` [22:15:00] INFO 会话开始 目标=192.168.1.1 账户=user [22:15:00] HTTP 已发送给浏览器: http://192.168.1.1/usr=user&psw=***&cmd=1&telnet.gch [22:15:00] HTTP telnet.gch → TelnetSet Success! [22:15:00] PROBE nc -zv 192.168.1.1 23 → succeeded [22:15:01] AU",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Python 工具，屬開發與資安工具範疇"
+  },
+  "scores": [
+   30,
+   null
+  ],
+  "score": 25,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "boffti/starwire",
+  "url": "https://github.com/boffti/starwire",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 237,
+  "language": "JavaScript",
+  "topics": [
+   "awesome",
+   "awesome-list",
+   "developer-tools",
+   "github",
+   "open-source"
+  ],
+  "publishedAt": "2026-11-06T03:26:21Z",
+  "body": "Open source repos worth a look, gathered from across the web and refreshed every two days\n\nREADME 節錄： 🔥 Trending &nbsp;&nbsp;&nbsp; 🆕 New this week &nbsp;&nbsp;&nbsp; 🔁 Picked again and again &nbsp;&nbsp;&nbsp; 🗂️ Areas &nbsp;&nbsp;&nbsp; ➕ Submit a repo ## 🔥 Trending Gaining stars fastest right now for their size. Stars are counted daily and only measured gains are used. Until a repo has a week of counts, it shows the days measured so far; for repos under 30 days old the missing days use their own average, marked ~. | Repo | About | | :-- | :-- | | **modern-web-guidance** GoogleChrome ⭐&nbsp;**23k** | Current web best practices packaged as guidance for coding agents 🌐 Web & frontend › Frameworks&nbsp;&nbsp;·&nbsp;&nbsp;📈 +16k stars a week&nbsp;&nbsp;·&nbsp;&nbsp;🟢 updated today&nbsp;&nbsp;·&nbsp;&nbsp;Apache-2.0&nbsp;&nbsp;·&nbsp;&nbsp;920 forks | | **kiri** libracoder ⭐&nbsp;**11k** | Small, fast container runtime that runs on macOS, Windows and Linux ☁️ Infrastructure & DevOps › Containers & Kubernetes&nbsp;&nbsp;·&nbsp;&nbsp;📈 +9.2k stars a week&nbsp;&nbsp;·&nbsp;&nbsp;🟢 updated today&nbsp;&nbsp;·&nbsp;&nbsp;Apache-2.0&nbsp;&nbsp;·&nbsp;&nbsp;497 forks | | **rust-anything** erkamyaman ⭐&nbsp;**3.5k** | Agent skill that ports an app to Rust piece by piece with equivalence checks 🛠️ Developer tools › Languages & compilers&nbsp;&nbsp;·&nbsp;&nbsp;📈 +3.5k stars a week&nbsp;&nbsp;·&nbsp;&nbsp;🟢 updated today&nbsp;&nbsp;·&nbsp;&nbsp;MIT&nbsp;&nbsp;·&nbsp;&nbsp;285 ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源專案彙整清單，涵蓋 coding agent 與開發工具"
+  },
+  "scores": [
+   18,
+   21
+  ],
+  "score": 19,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Advancing chip design with OpenAI models",
+  "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T17:45:47.000Z",
+  "body": "Article URL: https://openai.com/index/advancing-chip-design-with-our-models/ Comments URL: https://news.ycombinator.com/item?id=50549493 Points: 173 # Comments: 111",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI 模型應用於晶片設計自動化，屬 AI 開發工具"
+  },
+  "scores": [
+   24,
+   null
+  ],
+  "score": 19,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+  "url": "https://huggingface.co/blog/rumble-2-flash",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T00:00:00.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源語音模型發布，屬AI模型範疇"
+  },
+  "scores": [
+   36,
+   null
+  ],
+  "score": 31,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Managing frontier AI risk: From training to deployment",
+  "url": "https://openai.com/index/managing-frontier-ai-risk",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T06:00:00.000Z",
+  "body": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI 前沿模型風險管理與部署安全，與模型可用性相關"
+  },
+  "scores": [
+   21,
+   null
+  ],
+  "score": 16,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Customize GitHub Copilot for your team",
+  "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T16:00:13.000Z",
+  "body": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team… The post Customize GitHub Copilot for your team appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub Copilot 團隊自訂與外掛共享，屬 coding agent 開發工具"
+  },
+  "scores": [
+   26,
+   null
+  ],
+  "score": 21,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "sybil-solutions/inference-optimisation-skill",
+  "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1138,
+  "language": "Python",
+  "topics": [
+   "agent-skill",
+   "benchmarking",
+   "claude-code",
+   "inference",
+   "llm",
+   "speculative-decoding"
+  ],
+  "publishedAt": "2026-11-16T18:40:04Z",
+  "body": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization\n\nREADME 節錄：# inference-optimisation An agent skill for **hill-climbing the speed of a local LLM server** on any hardware and any quantization. It covers: - single-user and concurrent decode - speculative decoding - prefill - KV cache size - startup time and time to first token It works under a memory cap, and every result has to survive a full-context stability check. It encodes how we actually got these speedups. It is not a list of flags. The workflow: 1. Compute the theoretical ceiling. 2. Change one thing at a time. 3. Measure against interleaved controls. 4. Log every result, including the failures. 5. Gate on long-context retrieval. 6. Qualify a clean, pinned build before publishing. It works with Claude Code and any agent that loads `SKILL.md`-style skills. Any model can also follow it from `PROMPT.md`. ## What we've been able to accomplish Results from the hill-climbs this skill was distilled from. Every number was measured on the hardware named; see the linked sources for methods and raw data. | Hardware | Model / quant / engine | Before → after | |---|---|---| | **Intel Arc B390 iGPU** (laptop, 64 GB unified LPDDR5X, ~115 GB/s) | Ornith-1.5-35B-A3B, EXL3 4 bpw, SGLang XPU + MTP | Decode, 1 user: 43.6 → **53 tok/s** (median) Decode, 4 users: 84.7 → **103 tok/s** Prefill 32K: 1,037 → **1,660 tok/s** Prefill 256K: 297 → **628",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Agent skill 加速本地 LLM 推論，屬開發工具"
+  },
+  "scores": [
+   34,
+   50
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "niyouqianma/workbuddy2api-hub",
+  "url": "https://github.com/niyouqianma/workbuddy2api-hub",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 230,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-14T06:52:08Z",
+  "body": "WorkBuddy2API-Hub - OpenAI-compatible local gateway\n\nREADME 節錄：# WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢 > [!IMPORTANT] > **官方群聊**：https://t.me/wb2apihub > > **凭证安全**：本项目是本地部署网关，运行时需要在本地读取用户自行导入的账号凭证，才能调用官方接口；凭证保存在用户自己的 `accounts/` 目录。项目不会把凭证上传到本项目的第三方服务器，也没有隐藏的凭证收集或上传逻辑。请立即关闭公网暴露，联系官方吊销全部 OAuth / 设备授权，确认旧 token 返回 `401` 后再重新授权。 > [!WARNING] > **WorkBuddy 上游正在收紧对非官方客户端的识别与拦截。** > > - **封禁**：2026-10-23 下午起，非官方客户端的识别与拦截明显收紧。 > - **维护者**：近期工作压力增大，无法保证及时更新与响应。 > - **可用性**：上游可能随时进一步收紧，导致本项目不可用。 > - **账号风险**：使用非官方客户端造成的风控、限流或封禁，由使用者自行承担。 > > **Upstream enforcement** tightened detection and blocking of unofficial clients from the afternoon of 2026-10-23. The maintainer is under increased workload and cannot guarantee timely updates or replies. The upstream may tighten further at any time; rate limits, account restrictions or bans caused by using an unofficial client are the user's responsibility. 本项目仅用于协议学习、研究与个人自用。请优先使用官方客户端，不要使用主账号，不要共享账号，也不要用于商业转售。 This project is for protocol research and personal use only. Prefer the official client, do not use your primary account, and do not resell or share access. ## 核心特性 - **标准 API 兼容**：将 WorkBuddy（国际版/国内版）与 CodeArts 封装为标准 OpenAI 格式（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。 - **开箱即用与多端部署**：便携版免装环境（Windows 自带精简运行时），支持 Docker、NAS（群晖/飞牛）一键部署及 OpenWrt 路由器固件。 - **多账号池与出口隔离**：支持浏览器 OAuth 快速导入、每账号独立出口代理槽绑定、设备指纹隔离、自动故障转移与配额轮转。 - **自动化福利与签到**：内置国内版成长任务、星巴克 / 记者节运营活动、小程序任务、加油站签到与猫猫旅行，支持国际版每日活跃会话与 CodeArts 自动签到；手机 App 对话、公众号关注与公",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI相容本地網關，多帳號池與API轉接，與coding agent工具相關"
+  },
+  "scores": [
+   30,
+   45
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+  "url": "https://rshekhar.com/voyager",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T16:18:51.000Z",
+  "body": "Voyager 1 reached one light-day from Earth today. On the site you can: - see where both Voyagers are right now - open a nuclear battery to its 24 plutonium spheres - go into the data computer, down to a single memory chip - see how the Golden Record's cover explains how to play it - watch how Voyager 1 was fixed by radio - see which dish on Earth is listening to them, live I also made a 4-minute film from it: https://www.youtube.com/watch?v=kpzsRo-c1_A Comments URL: https://news.ycombinator.com/item?id=50548161 Points: 167 # Comments: 41",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "互動式網頁視覺化專案，屬 Web 前端開發"
+  },
+  "scores": [
+   52,
+   null
+  ],
+  "score": 47,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+  "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T00:00:00.000Z",
+  "body": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "媒體授權合作新聞，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "haziqahmedqasmi/PeakCut",
+  "url": "https://github.com/haziqahmedqasmi/PeakCut",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1111,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-14T07:38:20Z",
+  "body": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.\n\nREADME 節錄：# PeakCut Turn long videos and live streams into captioned vertical clips, ready to post. Free and open source: run it on your own computer or server, with your own AI key. Paste a YouTube, Twitch or Kick link (or upload a file) and PeakCut finds the moments worth clipping, cuts them to 9:16, adds word-by-word captions and a hook, and can post them to your connected accounts. It can also record a creator's live stream and clip the highlights while the stream is still running. ## What it does - **Clips from any video.** Transcribes the audio, asks an AI which moments would hold a stranger's attention, and renders each one with captions in one of three styles. - **Live clipping.** Records a stream into a rolling buffer and clips as it happens, using loudness, chat activity and the transcript. - **Workspaces per creator.** Channels, clip settings, posting rules and an activity log for each creator you clip. - **Posting.** Connect YouTube, Instagram and TikTok in one click, then queue or auto-post finished clips, with spacing and daily caps (see DEPLOY.md for the one-time setup). - **No sign-in on your own computer.** It opens straight into the dashboard. On a shared server, switch accounts on (`PEAKCUT_ACCOUNTS=1`) for email or Google sign-in and an admin dashboard. - **Your own AI.** Gemini, OpenAI, Grok, Groq, OpenRouter, Claude, a local model through Ollama, or anything that speaks th",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源AI自動剪片工具，支援自帶模型金鑰與直播剪輯"
+  },
+  "scores": [
+   50,
+   57
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ngophatneknha/ai-engineering-hub",
+  "url": "https://github.com/ngophatneknha/ai-engineering-hub",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 187,
+  "language": "MDX",
+  "topics": [],
+  "publishedAt": "2026-11-07T10:08:24Z",
+  "body": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications (Personal learning hub)\n\nREADME 節錄：# AI Engineering & Autonomous Agents Learning Hub Không gian tổng hợp tài liệu, giáo trình thực hành và mã nguồn được thu thập, đúc kết trong quá trình tự học và nghiên cứu về AI Engineering, Large Language Models (LLM), Hệ thống tác tử tự hành (Autonomous Agents) và MLOps. Kho lưu trữ này được xây dựng với mục đích chính là làm nơi tự học, lưu trữ các dự án thực nghiệm cá nhân, đồng thời chia sẻ một thư viện tham khảo có hệ thống cho cộng đồng những người đang tìm hiểu và theo đuổi con đường AI Engineering. --- ## 1. Đôi Nét Về Kho Lưu Trữ Trong quá trình tìm tòi và học tập về AI, các tài liệu chất lượng cao từ lý thuyết toán, mô hình ngôn ngữ lớn đến các framework điều phối tác tử thường nằm rải rác ở rất nhiều nguồn khác nhau. Việc vừa học vừa tổng hợp lại giúp người học: * Có cái nhìn liền mạch từ nền tảng toán học, cách xây dựng mô hình từ đầu cho đến ứng dụng vào thực tế sản xuất. * Lưu trữ mã nguồn mẫu để có thể trực tiếp chạy, chỉnh sửa, thử nghiệm và gộp các ý tưởng lại với nhau. * Tạo ra một danh mục tham chiếu thuận tiện để khi cần giải quyết một bài toán cụ thể (RAG, Multi-Agent, Tool Use, Evaluation) có thể tra cứu và đối chiếu nhanh chóng. Kho lưu trữ được chia làm hai khu vực chính: * Thư mục gốc: Tuyển tập 93+ dự án thực hành mã nguồn mở về Computer Vision, OCR, Chat UI, Reasoning UI, RAG đa phương thức và hệ thống Multi-Agent MCP. * Thư mục `curated-course",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "LLM/RAG/Agent/MCP 教學與開源專案彙整，與 AI 開發實質相關"
+  },
+  "scores": [
+   30,
+   35
+  ],
+  "score": 32,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Seven new models at scalable price-performance",
+  "url": "https://microsoft.ai/news/microsoft-ignite-2026",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T16:08:24.000Z",
+  "body": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/ Comments URL: https://news.ycombinator.com/item?id=50548021 Points: 478 # Comments: 328",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "微軟新模型發布與價格，屬模型可用性"
+  },
+  "scores": [
+   37,
+   null
+  ],
+  "score": 32,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "joshpuckett/allo",
+  "url": "https://github.com/joshpuckett/allo",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1059,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-15T17:33:42Z",
+  "body": "Allo is your friendly neighborhood typeface, free and open source\n\nREADME 節錄：# Allo Allo is your friendly neighborhood typeface. It’s variable in weight and roundness, with proportions and curves designed to feel warm without being too cute and clear without being too cold. It’s a perfect companion out of the box, and three variable axes and plenty of alternates let you tune its personality to exactly what you need. Allo is optimized for screens and interfaces, with an optical size that adjusts automatically between text and display. And it’s packed with big little details: tabular figures, fractions, punctuation that lifts beside capitals, arrows that appear when you type them, a host of alternates and symbols, as well as a true oblique in every weight. ### Type specimen at allo.joshpuckett.me → ## Download Get `Allo-1.0.3.zip` from the latest release: | Folder | Contents | |---|---| | `fonts/otf` | 18 static fonts, Thin to Black, each with an Oblique | | `fonts/variable` | `AlloVariable.ttf`: all optical sizes, weights and roundnesses | | `fonts/webfonts` | The same fonts as WOFF2, plus `AlloVariableFriendly.woff2` (roundness fixed at 50, about half the size) | The static and variable fonts are separate families, **Allo** and **Allo Variable**, so both can be installed. ## Web From npm: ```sh npm install allo-font ``` ```js import \"allo-font\"; // the full variable font, and the obliques // import \"allo-font/friendly\"; // or: roundness fixed at 50, about half the size ``` ``",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源字型專案，含 npm 與 Web 字型，前端可直接用"
+  },
+  "scores": [
+   52,
+   62
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "zararogers338-hash/Chengmeng-A-Life-Support-Assistant-Designed-for-Transgender-Individuals-with-a-History-of-Incarcerat",
+  "url": "https://github.com/zararogers338-hash/Chengmeng-A-Life-Support-Assistant-Designed-for-Transgender-Individuals-with-a-History-of-Incarcerat",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 185,
+  "language": "JavaScript",
+  "topics": [
+   "ai-assistant",
+   "deepseek-harness",
+   "local-memory",
+   "qwen",
+   "windows"
+  ],
+  "publishedAt": "2026-11-10T04:47:28Z",
+  "body": "Windows AI 桌面助手：自动记忆、本地 CPU 语义检索、文件与网络工具，基于 DeepSeek Harness。\n\nREADME 節錄：# 橙萌 Chengmeng **为有过监禁经历的跨性别者设计的生活支持助手。你可以从今天最想处理的一件事开始。** 离开监所后，住处、证件、工作和日常开销，可能同时摆在面前。有时你想先改好一份简历，有时只是想把心里乱糟糟的事说一说。如果上次已经理出了一点头绪，也可以接着聊。 橙萌是基于 DeepSeek Harness 的开源 Windows 桌面助手。它把五个生活支持 Skill、聊天归档、长期记忆和本地语义检索放进同一个桌面应用。它会沿用你给出的称呼。你可以直接说想做什么，由你决定先处理哪件事、哪些经历愿意谈。 下载 Windows x64 安装包 · 发行说明与校验文件 · 使用指南 · 架构说明 **阅读导航** · 可以用它做什么 · 安装和首次使用 · 模型与 API 配置 · 技术架构 · 数据与隐私 · 从源码构建 · 隔离验收与排障 ## 可以用它做什么 > “今天先帮我改简历。我想把做过的工作写清楚。” > > “我们上周聊过租房预算。帮我找一下，再列几条看房时要问的问题。” | 内置 Skill | 可以一起做的事 | | --- | --- | | 日常生活支持 | 安排这周的日程、改简历、比较住处，或把收入和支出列成一张表。 | | 社会资源导航 | 把证件、住房、就业和支持资源的问题拆开，列出已有材料、待确认事项和下一步，也可以拟一段发给机构的咨询文字。 | | 情绪与压力支持 | 按你希望的方式聊聊近况。可以先说一说发生了什么，也可以一起想一个眼下做得到的下一步。 | | 性别与健康资源导航 | 在你主动提出需要时，梳理相关资料，准备想向专业人员询问的问题，区分一般信息与当地服务条件。 | | 紧急支持导航 | 在明确的即时危险情境中，帮你厘清可以联系的现实支持和当地紧急服务。实际联络由你或身边的人发起。 | 内置资料标注来源、地区范围和核验日期。当地政策、资格与服务是否开放需要另行核实。健康与紧急支持 Skill 提供资料导航和咨询准备，诊断、治疗与现场处置由相应专业人员负责。 ## 安装和首次使用 | 项目 | v0.5.0 要求 | | --- | --- | | 系统 | Windows 10/11 x64 | | 安装包 | `Chengmeng-0.5.0-Windows-x64.exe`，约 1.79 GB | | 磁盘 | 建议预留至少 8 GB 可用空间 | | 本地检索 | 安装包已包含 CPU 向量模型和运行依赖。启动向量模型前默认检查 4 GB 可用内存，资源不足时退回关键词检索。 | | 聊天 | 使用自己的模型账号或 API Key。在线模型需要网络，额度由账号或服务提供。 | 直接下载并双击安装包即可。第一次运行会自动解包和初始化，可能需要几分钟。后续可从桌面或开始菜单快捷方式打开。日常使用无需另装 DeepSeek Harness、Node.js、Python 或 GPU。 也可以在有足够磁盘空间的目录中打开 **PowerShell**，运行以下命令下载、校验并启动公开发行包： ```powershell $ErrorActionPreference = 'Stop' $installer = Join-Path (Get-Location).Path 'Chengmeng-0.5.0-Windows-x64.exe' $release ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 桌面 AI 助手開源專案，含 Skill 與本地檢索"
+  },
+  "scores": [
+   56,
+   null
+  ],
+  "score": 51,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+  "url": "https://exitpath-ruddy.vercel.app",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T16:04:43.000Z",
+  "body": "Article URL: https://exitpath-ruddy.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=50547980 Points: 180 # Comments: 54",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源遷移工具，屬開發工具與開源專案"
+  },
+  "scores": [
+   30,
+   null
+  ],
+  "score": 25,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "zephyr4123/snug",
+  "url": "https://github.com/zephyr4123/snug",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 992,
+  "language": "Swift",
+  "topics": [
+   "gestures",
+   "ipad",
+   "iphone",
+   "macos",
+   "macos-app",
+   "menubar-app",
+   "productivity",
+   "remote-control",
+   "remote-desktop",
+   "swift",
+   "swiftui",
+   "uu-remote",
+   "virtual-display",
+   "window-management"
+  ],
+  "publishedAt": "2026-11-13T03:26:21Z",
+  "body": "为 UU远程 打造的 Mac 移动端工作区：独立竖屏、窗口自适应铺满、字号随屏放大、触控遵循 iOS 交互习惯，让 Mac 在手机上拥有原生级的操作体验。A native-grade iPhone workspace for controlling your Mac over UU Remote.\n\nREADME 節錄： **简体中文** · English # Snug **Make UU Remote Native on Any Device** 为 UU远程 打造 · 远程 Mac 的显示与触控增强 每台设备专属屏幕 · 原生触屏手势 · App 资源库 下载 · 原生体验 · 多设备 · App 资源库 · 截图 · 对比 · 安装 · 使用 · 限制 · 开发 ▶ 观看高清演示视频 > [!NOTE] > **UU远程 VIP**：UU远程 自 2026 年 12 月 1 日起将多屏、虚拟屏等功能纳入 VIP。Snug 基于虚拟屏架构，面向已开通 UU远程 VIP 的用户。另正评估支持其他远控软件，开源项目与成熟产品均在考虑之列。 > 承接自 aoyamashou/UUyc-companion（UU远程伴侣，作者 AoyamaShou，MIT 许可），完整保留原作者的版权声明与提交历史。2.0 起以手机屏为核心重新设计，2.6 起扩展至平板与电脑。 ## 📥 下载 **Snug for macOS** 通用安装包，支持 Apple 芯片与 Intel，适用于 macOS 14 及更新版本 已签名并经 Apple 公证，拖入「应用程序」即可使用 | 渠道 | 说明 | 下载 | | :--- | :--- | :--- | | **国内源** | 腾讯云 CDN 加速，中国大陆推荐 | Snug.dmg | | **GitHub Releases** | 附更新说明、校验文件与历史版本 | 前往下载 | 两个渠道的安装包完全相同。Snug 仅需安装于被控 Mac，控制端只需 UU远程。 > Windows 被控端：参见 社区移植。 ## ✨ 每台设备，原生体验 UU远程 将桌面整体等比缩放至控制端，比例不符即留黑边，文字与控件随之缩小。Snug 为每台控制端新增一块比例匹配的屏幕：手机、平板按移动端尺度铺满，适配触屏操作；电脑与本机分辨率一致，全屏无黑边。 ### 手机：竖屏 · 横屏 同一内容 · 左：UU远程 原版 · 右：Snug - **竖屏、横屏**：按机型计算比例，避让 UU远程 工具栏，2 倍 HiDPI；横屏适合代码、终端与宽幅页面 - **窗口铺满**：所选窗口独占全屏 - **字号放大**：Ghostty、终端、iTerm2、VS Code、Cursor、Zed 自动放大，按 App 分别记忆 横屏：宽幅页面完整呈现 ### 原生手势 UU远程 移动端沿用触控板的手势逻辑；Snug 在手机屏与平板屏上按触屏习惯重新映射。 | 触屏操作 | UU远程 原版 | Snug | | :--- | :--- | :--- | | 单指滑动 | 鼠标拖拽，易误选文字 | 页面滚动，松手保留惯性 | | 长按后拖动 | 鼠标拖拽 | 拖选文字 | | 长按松开 | 普通点击 | 右键菜单 | 单指滚动 · 长按调出右键菜单 - 仅作用于手机屏与平板屏，其他屏幕及本机触控板、鼠标不受影响 ### 平板：铺满 · 原生手势 平板远程 Mac 以往多需外接键盘与触控板；Snug 平板屏按机型铺满，触控即用。 - **横屏、竖屏**：按",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Mac 遠端工作區工具，助手機寫程式與觸控開發"
+  },
+  "scores": [
+   49,
+   null
+  ],
+  "score": 44,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "SparkofSpike/Brain4Agent",
+  "url": "https://github.com/SparkofSpike/Brain4Agent",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 177,
+  "language": "Python",
+  "topics": [
+   "agent-memory",
+   "agent-skills",
+   "agent-tools",
+   "bm25",
+   "chinese",
+   "cjk",
+   "japanese",
+   "korean",
+   "local-first",
+   "long-term-memory",
+   "mcp",
+   "memory",
+   "no-llm",
+   "python",
+   "retrieval",
+   "sqlite"
+  ],
+  "publishedAt": "2026-11-08T01:38:31Z",
+  "body": "Committed to building the world’s most cutting-edge, CJK-first memory module for all mainstream agents. Any issues and PRs are welcome.\n\nREADME 節錄：# Brain4Agent **English** | 简体中文 | 日本語 | 한국어 > **Agents: start here.** FOR_AGENTS.md is this page written > for you — what the store does for an agent, how to install it, how to call > it, and where it stops being useful. Long-term memory for agents. CJK-first retrieval, no model in the core path, and evidence instead of confidence scores. `pip install \"Brain4Agent[precise]\"` needs Python 3.11+, plus a 20 MB optional dictionary. Everything works without it. --- ## Contents - What it is - Install - Quick start - How it works - Benchmarks - Running alongside another memory server - Against the frontier - Status - Contributing - Special thanks - License ## What it is An agent working on a codebase accumulates context: why a decision was made, which approach failed, where a deployment lives. Brain4Agent stores those turns in one SQLite file and retrieves them by session. - **CJK works out of the box.** Character bigrams need no dictionary and no segmentation model. The benchmarked numbers are Chinese; Japanese, Korean and Vietnamese are supported and tested. - **The core makes no model calls.** Retrieval is BM25: no API key, no accelerator, no cold start, single-digit milliseconds per query. - **It reports evidence, not verdicts.** A search returns which question words the corpus never contained (`corpus_missing`) and which ones a give",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Agent 長期記憶模組，BM25 檢索、CJK 支援，與 Agent 開發實質相關"
+  },
+  "scores": [
+   58,
+   null
+  ],
+  "score": 53,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "AI agents ask better questions than KPMG accountants in audit trial",
+  "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T15:49:34.000Z",
+  "body": "Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/ Comments URL: https://news.ycombinator.com/item?id=50547777 Points: 398 # Comments: 171",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI Agent 在真實審計任務的表現，與 Agent 應用相關"
+  },
+  "scores": [
+   33,
+   null
+  ],
+  "score": 28,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "chuanqisun/spaceship",
+  "url": "https://github.com/chuanqisun/spaceship",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 875,
+  "language": "HTML",
+  "topics": [],
+  "publishedAt": "2026-11-16T14:43:45Z",
+  "body": "Steer your ideas in realtime\n\nREADME 節錄：# 🕹️ Spaceship IDE Steer your ideas in realtime, space pilot style! ## Demos Watch on Instagram and YouTube. You can try the simulator at https://chuanqisun.github.io/spaceship/ with the option to go live with your API keys for Cerebras and Gemini. Keys stay in your browser local storage. Do it at your own risk. ## Conjecture > In the near future, LLM and Decision Models will reach 60 FPS interactivity. When that happens, what new interaction paradigms will unlock? This project demonstrates plausible and desirable interactions for that future. 1. **Focus monitor**: can we visualize what LLM is paying attention to, and use that to guide human's focus towards what's important? 2. **Attention lock**: can we force LLM to pay more attention to specific phrases so as to bias its future behavior? 3. **Future Vector Steering**: can we decompose the task into eigenvectors, independently tune each, and re-compose them to influence the incoming text? 4. **Realtime re-generation**: when text generation is cheap and fast, can we explore alternative futures by scrubbing? ## Design process I used Claude Code for most of the implementation but stayed hands-on for the UI/UX. I iterate using interactive style swatch, a technique where I prompt AI to give me diverse options of designs, I provide feedback, and it iterates. You can see the design artifacts in the extra page. To achieve the realtime experience, I have to use agreesive speculative generation",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 LLM 即時互動 IDE 實驗，用 Claude Code 與 Gemini/Cerebras API"
+  },
+  "scores": [
+   61,
+   62
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Duoasa/Duoasa-skill",
+  "url": "https://github.com/Duoasa/Duoasa-skill",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 170,
+  "language": null,
+  "topics": [
+   "agent-skills",
+   "ai-design",
+   "creative-tools",
+   "design",
+   "design-tools",
+   "satire",
+   "visual-design"
+  ],
+  "publishedAt": "2026-11-14T13:28:05Z",
+  "body": "蒸馏历代大师的内核。全模型通用，核心参数见 README。Distilling the essence of generations of masters. Works with any AI model. See the README for the core parameter.\n\nREADME 節錄： 做自己 简体中文 · English 我把历代设计大师的内核全蒸馏了一遍。 画风各不相同，蒸到最后，居然只剩同一个参数。现已重磅开源，参数就在标题里。 ## 半小时能打包一套画风，审美呢？ 最近刷设计内容，经常看到有人把画风做成 Skill。配色、笔触、材质和光线，整理成一套预设，做系列封面确实省事。愿意拿出来分享，也是好事。 可到了发布帖里，怎么就从「这套预设挺好用」，变成了「装上它，你也能拥有我的审美」？再经过几轮自媒体吹捧，仿佛设计师的经验、判断和品味，都能靠一条安装命令传给别人。 分享画风没问题。但把预设包装成审美，把安装量变成个人能力的证明，这中间是不是省略了太多东西？ 几张漂亮的样图，能展示一种效果，却回答不了它为什么适合眼前的问题。做一本展览手册，一张插画再漂亮，如果抢了作品的注意力，要不要删掉？预设能继续生成，决定却还是得有人来做。 AI 越来越擅长一次给出十张好看的图。这时候更重要的，是你知道为什么选其中一张，或者为什么十张都不想用。 如果连「什么是好的」也总由同一套预设、同一批推荐替你决定，时间久了，还分得清什么是自己喜欢的，什么只是看惯了的吗？ **AI 时代，个人品味更值得培养。它不该成为安装工具时，顺手交出去的东西。** ## 我更想把时间花在基础设施上 半小时可以打包一套画风。真要投入接下来的几周、几个月，我更愿意把时间花在设计工具的基础设施上。 不少设计师和设计工程师已经在做这样的事： - **枯白 · Glasswork** 把液态玻璃效果做成可以调参数、换背景、复制 CSS 的工具。你可以从他的效果出发，继续调整到适合自己的设计。 - **Emil Kowalski · Vaul** 把抽屉的拖动、关闭等交互做好，把视觉样式留给使用者。交互经验可以复用，界面仍然可以有自己的样子。 - **Paco Coursey · cmdk** 提供可组合、无预设样式的命令菜单，让设计师和开发者根据自己的产品组织功能与表达。 - **Rauno Freiberg · inspx** 让设计师直接检查页面里的布局尺寸，帮助核对设计在实际页面中的呈现。 这些工具当然带着作者的经验，甚至能看出作者的品味。但它们给使用者留下了继续设计的空间：可以拆，可以改，也可以做出作者没想到的东西。 我理解的「授人以渔」，就是给人继续尝试的条件。工具越好用，使用者越有机会走到自己的答案。 这也是我关注 DeepSeek Harness（DSH）里这些插件的原因： - **DSH × Blender**：让模型参与 Blender 中的修改，通过出图对照，支持设计师继续推敲形体、材质和光线。 - **DSH × ComfyUI**：连接已有的图像工作流，让设计师更方便地调整参数、尝试不同效果。 这些都是给设计师使用的工具。它们的价值，应该体现在设计师能不能更方便地尝试、修改和完成自己的设计。 短流程 Skill、项目规则，我一样会写。但当模型已经知道怎么做，却读不到文件、操作不了工具、改完看不到结果时，把这些环节接起来，对我更有意义。 设计师手里往往已经有一份稿，也有自己的主意。有时缺的，只是让那个「改起来太麻烦，先算了」的想法，终于有机会被试出",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "談 agent skill、DSH 插件與設計工具，屬開發工具範疇"
+  },
+  "scores": [
+   37,
+   null
+  ],
+  "score": 32,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Inside Deutsche Bank",
+  "url": "https://www.inside-db.com",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T15:38:33.000Z",
+  "body": "Article URL: https://www.inside-db.com/ Comments URL: https://news.ycombinator.com/item?id=50547620 Points: 582 # Comments: 199",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "德意志銀行報導，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "yetanotherbrowser/yab",
+  "url": "https://github.com/yetanotherbrowser/yab",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 724,
+  "language": "Swift",
+  "topics": [],
+  "publishedAt": "2026-11-14T23:56:32Z",
+  "body": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion\n\nREADME 節錄：# Yab Yet another browser. A small, quiet browser for the Mac, with an app for iPhone. Yab is a browser with nothing in the way: a row of tabs, across the top or down the left, and the page. One field takes addresses and searches. Pages run on **WebKit**, the engine inside every Mac, or, on Apple silicon, on **Chromium**, per tab or per site. Agents from the AI providers you already pay for can work in tabs of their own, and never see a private tab. **Download Yab** · macOS 15.4 or later · What's new · Manual ## What it does - **One field.** Type an address and you go there; type words and you search. It finishes addresses from your own history and sends nothing until you press Return. - **Tabs that stay out of the way.** Pins, folders and spaces. Tabs from your last session come back instantly and cost nothing until you click them. `⌘K` finds any open tab. - **Two engines.** WebKit and, on Apple silicon, Chromium, with Chrome extensions, Chrome DevTools and the Chrome Web Store. There the released app opens pages in Chromium by default, and protected video and Apple Pay checkouts in WebKit. - **Blocking and hiding built in.** An ad blocker that runs inside the engine, before a request is made. `⇧⌘H` hides any element on a site, for good. - **Reading mode, floating video, split view, Peek**, each one key away. - **Passwords in your keychain**, or in the password manager you a",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 macOS 瀏覽器，內建 AI agent 分頁與雙引擎，屬開發工具與 Agent 範疇"
+  },
+  "scores": [
+   33,
+   28
+  ],
+  "score": 30,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Unauthenticated remote code execution in Nginx",
+  "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T15:19:55.000Z",
+  "body": "https://www.cve.org/CVERecord?id=CVE-2026-123633 https://www.cve.org/CVERecord?id=CVE-2026-123007 Comments URL: https://news.ycombinator.com/item?id=50547374 Points: 1206 # Comments: 535",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Nginx 高風險漏洞，與網站部署及開發維運直接相關"
+  },
+  "scores": [
+   62,
+   null
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "mit-han-lab/pear",
+  "url": "https://github.com/mit-han-lab/pear",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 687,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-13T17:43:06Z",
+  "body": "Training Reasoning Models in Simulation to Natively Use Real Robots\n\nREADME 節錄： a Post-training Engine for Agentic Robotics | Blog | Paper | Model | Documentation | --- ## About PEAR is a post-training engine for agentic robotics: it trains reasoning models to natively use robots, with reinforcement learning in simulation. PEAR is the training infrastructure behind Training Reasoning Models in Simulation to Natively Use Real Robots, where an open 27B reasoning model learns to use real robots entirely in simulation, with zero demonstrations. PEAR trains with: - Fully asynchronous RL on veRL - GRPO, dynamic sampling, and Score Centering - FSDP and sequence parallelism for long-context training - Memory-efficient training with gradient checkpointing and activation offloading - Prefix caching across rounds, with LMCache offloading the KV cache to CPU memory - Optimized kernels for H100, H200 and GB300 - Simulators on the same Ray cluster: MuJoCo on CPUs, Isaac Sim on GPUs PEAR evaluates with: - Robotic benchmarks: LIBERO, LIBERO-Plus, LIBERO-Pro, RoboDojo and RoboLab-120 - General benchmarks: nine reasoning, coding and vision benchmarks through EvalScope PEAR deploys with: - A model server: vLLM server on one RTX 5090 or GB300, with decode megakernels - A robot station: the agent loop that drives a YAM or an SO-101 robot ## Getting Started Install PEAR and everything a LIBERO run needs, on a GPU node: ```bash git clone https://github.com/mit-han-lab/pear.git && cd pear export WOR",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 AI 模型機器人訓練框架，與模型開發實質相關"
+  },
+  "scores": [
+   37,
+   null
+  ],
+  "score": 32,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "The x86 CPU: From 4004 to 486",
+  "url": "https://pikuma.com/blog/history-of-x86-4004-to-486",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T14:47:53.000Z",
+  "body": "Article URL: https://pikuma.com/blog/history-of-x86-4004-to-486 Comments URL: https://news.ycombinator.com/item?id=50546967 Points: 154 # Comments: 47",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "x86 CPU 歷史介紹，屬硬體歷史非開發工具"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "boringmarketer/boring-marketing-skills",
+  "url": "https://github.com/boringmarketer/boring-marketing-skills",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 672,
+  "language": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "claude-code",
+   "codex",
+   "copywriting",
+   "local-seo",
+   "marketing",
+   "seo"
+  ],
+  "publishedAt": "2026-11-16T15:09:46Z",
+  "body": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.\n\nREADME 節錄：# Boring Marketing Skills Free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep pack for local businesses and the people who market them. 32 skills for Claude Code, Codex, Cursor and other agents. They were built from real campaigns, and every one works without a paid tool. MIT licensed. Made by James Dickerson (@boringmarketer). More at boringmarketing.com. Need clients to use this on? boringfunnels.com finds local businesses losing customers (I make it). Want agents built for your team? Work with us. Want the bigger picture? The free forward-deployed marketing playbook is 49 boards on building the marketing brain your agents run on, with these skills as the context layer. ## Install Any agent (Claude Code, Codex, Cursor and others): ```bash npx skills add boringmarketer/boring-marketing-skills ``` Claude Code plugin: ``` /plugin marketplace add boringmarketer/boring-marketing-skills /plugin install boring-marketing@boring-marketing-skills ``` Then type `/start-here` and name the business. It reads the site and the reviews, writes the brand files every other skill uses, and tells you which skill to run next. The first run takes about 3 minutes. ## The skills Grouped by stage, in the order a customer meets a business. ### Start here | S",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI Agent 技能包，Claude Code／Codex 可用"
+  },
+  "scores": [
+   52,
+   null
+  ],
+  "score": 47,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
+  "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-18T14:43:52.000Z",
+  "body": "Article URL: https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026 Comments URL: https://news.ycombinator.com/item?id=50546914 Points: 248 # Comments: 174",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "詞典選字文化新聞，與開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Illson/RustText",
+  "url": "https://github.com/Illson/RustText",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 620,
+  "language": "Rust",
+  "topics": [],
+  "publishedAt": "2026-11-16T17:46:45Z",
+  "body": "\n\nREADME 節錄：# RustText Текстовый редактор и просмотрщик больших логов для Windows x64 на Rust и GPUI Kit. ## Запуск Для переносимой сборки распакуйте архив и запустите `rusttext.exe`. Отладочная и релизная сборки запускаются без отдельного окна консоли. Повторный запуск передаёт файлы открытому RustText. Сборка проверена на Windows 11 x64. Для Windows 10 x64 нужна отдельная проверка. ### Сборка из исходников Нужны Rust с целью `x86_64-pc-windows-msvc`, инструменты C++ и Windows SDK из Visual Studio, а также CMake в `PATH`. Локальная сборка проверена с Rust 1.100.0 и CMake 4.5.0. Версия Rust закреплена в `rust-toolchain.toml`; Cargo по умолчанию собирает не более двух пакетов одновременно. ```powershell cargo run --locked cargo run --locked -- \"C:\\путь\\к\\файлу.txt\" ``` - Верхнее меню содержит «Файл», «Инструменты» и «Поиск». Открытие и сохранение собраны в меню «Файл»; отдельной панели этих команд нет. - Кнопка «+», двойной щелчок по свободному месту на полосе вкладок или `Ctrl+N` создают пустую вкладку. Пока вкладка не привязана к файлу, её заголовок повторяет первую строку текста в пределах настраиваемого лимита (по умолчанию 10 символов, для пустой строки – «Без имени»). «Файл → Открыть…» или `Ctrl+O` открывает файлы. Файлы также можно передать аргументами запуска или перетащить в окно. - «Файл → Сохранить» (`Ctrl+S`) сохраняет документ, «Файл → Сохранить как…» (`Ctrl+Shift+S`) открывает диалог выбора пути. Для логов эти команды недоступны. - Двойной щелчок по вкладке или `",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust/GPUI 開源文字編輯器與日誌檢視器，屬開發工具"
+  },
+  "scores": [
+   22,
+   null
+  ],
+  "score": 17,
+  "picked": false,
+  "promptVersion": "118d0780"
+ }
+]

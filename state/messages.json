@@ -682,5 +682,23 @@
   "title": "huggingface/pybot",
   "source": "GitHub 新專案",
   "score": 77
+ },
+ "1572830031040880722": {
+  "messageId": "1572830031040880722",
+  "channelId": "1519910211995959336",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+  "date": "2026-11-19",
+  "title": "Gemini 4 Neon",
+  "source": "Hacker News",
+  "score": 80
+ },
+ "1572830034329215000": {
+  "messageId": "1572830034329215000",
+  "channelId": "1519910211995959336",
+  "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol",
+  "date": "2026-11-19",
+  "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+  "source": "Latent Space",
+  "score": 66
  }
 }

@@ -1,7 +1,4 @@
 {
- "https://github.com/op7418/dsh-guizang-design": "2026-11-05T03:38:46.554Z",
- "https://github.com/KKKKhazix/agent-autoloop": "2026-11-05T03:38:46.554Z",
- "https://huggingface.co/moonshotai/Kimi-K3.1-Pro": "2026-11-05T03:38:46.554Z",
  "https://github.com/aa1143/NamiAgent": "2026-11-07T03:02:56.079Z",
  "https://github.com/SAOS-3624/dsh-see-now": "2026-11-07T03:02:56.079Z",
  "https://github.com/livliv-dev/player": "2026-11-07T03:02:56.079Z",
@@ -46,5 +43,8 @@
  "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol": "2026-11-18T04:41:41.977Z",
  "https://openai.com/index/introducing-gpt-6-2-astra-sol": "2026-11-18T04:41:41.977Z",
  "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available": "2026-11-18T04:41:41.977Z",
- "https://github.com/huggingface/pybot": "2026-11-18T04:41:41.977Z"
+ "https://github.com/huggingface/pybot": "2026-11-18T04:41:41.977Z",
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon": "2026-11-19T04:25:02.874Z",
+ "https://deepmind.google/blog/introducing-gemini-4-neon": "2026-11-19T04:25:02.874Z",
+ "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol": "2026-11-19T04:25:02.874Z"
 }
