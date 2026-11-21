@@ -1,6 +1,6 @@
 {
- "date": "2026-11-20",
- "generatedAt": "2026-11-20T04:10:30.983Z",
+ "date": "2026-11-21",
+ "generatedAt": "2026-11-21T04:10:03.588Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,23 +11,29 @@
  },
  "items": [
   {
-   "title": "用火柴人動畫介紹產品的 skill",
-   "summary": "nilbuild/stick-scene 是個 skill，用 /stick-scene 指令讓 agent 畫火柴人動畫場景，無依賴，捲動到畫面、點擊或懸停時播放。",
-   "why": "想幫網頁小遊戲或作品首頁加個會動的介紹圖，可以請它生成並照你的意見修改。",
-   "url": "https://github.com/nilbuild/stick-scene",
-   "source": "GitHub 新專案",
+   "title": "DLS：DSH 持久下載佇列外掛",
+   "summary": "DLS 是 DSH 外掛，提供不綁 session 的持久下載佇列；搭配 aria2 可 16 線程分段下載。",
+   "why": "抓素材或檔案時，不用怕對話結束就中斷，手機上也能放心排隊下載。",
+   "url": "https://github.com/Jestions-dev/dsh-download-server",
+   "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 505,
+   "stars": 164,
    "score": 71,
    "scores": [
-    66,
-    76
+    74,
+    68
    ],
-   "originalTitle": "nilbuild/stick-scene",
+   "originalTitle": "Jestions-dev/dsh-download-server",
    "related": []
   }
  ],
  "nearMiss": [
+  {
+   "title": "0xkaka/homeport",
+   "url": "https://github.com/0xkaka/homeport",
+   "score": 65,
+   "source": "GitHub 新專案"
+  },
   {
    "title": "SparkofSpike/Brain4Agent",
    "url": "https://github.com/SparkofSpike/Brain4Agent",
@@ -35,27 +41,21 @@
    "source": "GitHub DSH 生態"
   },
   {
-   "title": "mankidev/antialgorithm",
-   "url": "https://github.com/mankidev/antialgorithm",
-   "score": 63,
-   "source": "GitHub 新專案"
+   "title": "oriliz/agent-crop",
+   "url": "https://github.com/oriliz/agent-crop",
+   "score": 61,
+   "source": "GitHub DSH 生態"
   },
   {
-   "title": "llm-gemini 0.38",
-   "url": "https://simonwillison.net/2026/Nov/18/llm-gemini",
-   "score": 62,
-   "source": "Simon Willison"
+   "title": "iamajmeena/neonclipping",
+   "url": "https://github.com/iamajmeena/neonclipping",
+   "score": 61,
+   "source": "GitHub 新專案"
   },
   {
    "title": "chuanqisun/spaceship",
    "url": "https://github.com/chuanqisun/spaceship",
    "score": 61,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "siliconjungle/shapeshift-labs-ink-studio",
-   "url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
-   "score": 60,
    "source": "GitHub 新專案"
   }
  ],
@@ -76,13 +76,13 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 2,
+    "count": 3,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 10,
+    "count": 12,
     "error": null
    },
    {
@@ -94,13 +94,13 @@
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 0,
+    "count": 2,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 5,
+    "count": 3,
     "error": null
    },
    {
@@ -118,23 +118,23 @@
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 2,
+    "count": 3,
     "error": null
    }
   ],
   "candidates": 60,
-  "prefilterPass": 47,
-  "scored": 47,
+  "prefilterPass": 45,
+  "scored": 45,
   "picked": 1,
   "llm": {
-   "calls": 116,
+   "calls": 99,
    "failures": 12,
    "byRoute": {
-    "owob:deepseek-v4.1-flash": 68,
-    "owob:glm-5.3-flash": 35,
+    "owob:deepseek-v4.1-flash": 61,
+    "owob:glm-5.3-flash": 25,
     "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
    },
-   "tokens": 134654
+   "tokens": 109097
   }
  }
 }
