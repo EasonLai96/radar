@@ -1,6 +1,6 @@
 {
- "date": "2026-11-21",
- "generatedAt": "2026-11-21T04:10:03.588Z",
+ "date": "2026-11-22",
+ "generatedAt": "2026-11-22T03:20:24.105Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,19 +11,51 @@
  },
  "items": [
   {
-   "title": "DLS：DSH 持久下載佇列外掛",
-   "summary": "DLS 是 DSH 外掛，提供不綁 session 的持久下載佇列；搭配 aria2 可 16 線程分段下載。",
-   "why": "抓素材或檔案時，不用怕對話結束就中斷，手機上也能放心排隊下載。",
-   "url": "https://github.com/Jestions-dev/dsh-download-server",
+   "title": "四張像素圖變可旋轉假3D",
+   "summary": "sprite-stacking 能把四視角像素圖變成可旋轉的假 3D sprite，支援 Claude Code、Cursor 等。",
+   "why": "做小遊戲想要會轉的像素車或樹，請 agent 生成就好。",
+   "url": "https://github.com/danielwh2/sprite-stacking",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 385,
+   "score": 78,
+   "scores": [
+    78,
+    79
+   ],
+   "originalTitle": "danielwh2/sprite-stacking",
+   "related": []
+  },
+  {
+   "title": "Open Artifact：讓任何 AI 寫程式助手做可編輯成品",
+   "summary": "JimLiu/open-artifact 是開源專案，讓 Claude Code、Codex 等 agent 把簡報、UI 設計、白板、試算表等存成本機檔案，可編輯、留言、匯出，並把留言送回 agent。",
+   "why": "想讓 AI 幫你做簡報或介面稿，還能自己動手改、再請它修，可以參考這個流程。",
+   "url": "https://github.com/JimLiu/open-artifact",
    "source": "GitHub DSH 生態",
    "alsoFrom": [],
-   "stars": 164,
-   "score": 71,
+   "stars": 200,
+   "score": 68,
    "scores": [
-    74,
-    68
+    63,
+    73
    ],
-   "originalTitle": "Jestions-dev/dsh-download-server",
+   "originalTitle": "JimLiu/open-artifact",
+   "related": []
+  },
+  {
+   "title": "Lean 版黎曼猜想證明公開，待驗證",
+   "summary": "Levent Alpöge 宣稱與 Claude 合作，用 Lean 完成黎曼猜想證明；目前尚無獨立編譯或審查。",
+   "why": "可看 AI 輔助寫 Lean 形式化證明的實例，但結論尚未驗證。",
+   "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 449,
+   "score": 67,
+   "scores": [
+    60,
+    74
+   ],
+   "originalTitle": "CocoSgt/riemann-hypothesis-lean",
    "related": []
   }
  ],
@@ -35,10 +67,16 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "SparkofSpike/Brain4Agent",
-   "url": "https://github.com/SparkofSpike/Brain4Agent",
-   "score": 64,
-   "source": "GitHub DSH 生態"
+   "title": "sybil-solutions/skill-distill",
+   "url": "https://github.com/sybil-solutions/skill-distill",
+   "score": 65,
+   "source": "GitHub 新專案"
+  },
+  {
+   "title": "Lean verification of the Riemann Hypothesis",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis",
+   "score": 62,
+   "source": "Hacker News"
   },
   {
    "title": "oriliz/agent-crop",
@@ -49,12 +87,6 @@
   {
    "title": "iamajmeena/neonclipping",
    "url": "https://github.com/iamajmeena/neonclipping",
-   "score": 61,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "chuanqisun/spaceship",
-   "url": "https://github.com/chuanqisun/spaceship",
    "score": 61,
    "source": "GitHub 新專案"
   }
@@ -76,31 +108,31 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 3,
+    "count": 2,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 12,
+    "count": 7,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 3,
+    "count": 1,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 2,
+    "count": 0,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 3,
+    "count": 0,
     "error": null
    },
    {
@@ -112,29 +144,29 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 5,
+    "count": 1,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 3,
+    "count": 1,
     "error": null
    }
   ],
-  "candidates": 60,
-  "prefilterPass": 45,
-  "scored": 45,
-  "picked": 1,
+  "candidates": 46,
+  "prefilterPass": 36,
+  "scored": 36,
+  "picked": 3,
   "llm": {
-   "calls": 99,
+   "calls": 66,
    "failures": 12,
    "byRoute": {
-    "owob:deepseek-v4.1-flash": 61,
-    "owob:glm-5.3-flash": 25,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
+    "owob:deepseek-v4.1-flash": 35,
+    "owob:glm-5.3-flash": 15,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 4
    },
-   "tokens": 109097
+   "tokens": 75811
   }
  }
 }

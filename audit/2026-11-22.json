@@ -1,0 +1,1215 @@
+[
+ {
+  "title": "erkamyaman/rust-anything",
+  "url": "https://github.com/erkamyaman/rust-anything",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 7486,
+  "language": "Rust",
+  "topics": [
+   "agent-skills",
+   "claude-code",
+   "cli",
+   "code-migration",
+   "codex",
+   "ffi",
+   "golang",
+   "java",
+   "javascript",
+   "mcp",
+   "migration",
+   "napi",
+   "performance",
+   "porting",
+   "pyo3",
+   "python",
+   "rewrite",
+   "ruby",
+   "rust",
+   "typescript"
+  ],
+  "publishedAt": "2026-11-16T12:10:36Z",
+  "body": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.\n\nREADME 節錄： rust-anything English · Türkçe · Українська · 简体中文 · 繁體中文 · Deutsch · Français · Русский · 日本語 · 한국어 · Azərbaycanca · Oʻzbekcha · Қазақша · Кыргызча · Türkmençe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt · Español · Italiano Rewrite your app in Rust, and prove it still behaves the same. Point it at your app: it records what the original does, your coding agent writes the Rust one piece at a time, and every piece is checked against that recording before it moves on. It doesn't translate code; it proves the rewrite. Install · Releases · Claude Code plugin · MCP Registry · Real-world ports · FAQ Languages · How it works · Whole apps · Sponsors · MIT Made in Türkiye 🇹🇷 by erKam Yaman · ❤️ Sponsor me · Sponsored by CodeRabbit New in 2.0: Prettier, ported to Rust . 19x faster · 15,861 of 17,224 recorded runs fully in Rust · every run byte-identical Prettier against its Rust port on 59 real files from ms, Fuse.js and json-server (Apple M4). Same output, byte for byte. How it was measured . PHP and C#: record, replay and the front door today; unit ports come next. Record record runs the original on generated edge cases, semantic traps and your own inputs, and saves what it returns or throws. Port bridge generates the Rust crate and a wrapper, so callers keep the original API.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 重寫工具，支援 coding agent 與 claude-code 技能"
+  },
+  "scores": [
+   44,
+   66
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Xin-YuXiao/Awesome-AI-for-Astronomy",
+  "url": "https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 409,
+  "language": "Python",
+  "topics": [
+   "ai-for-science",
+   "astronomy",
+   "awesome",
+   "awesome-list",
+   "benchmark",
+   "cosmology",
+   "deep-learning",
+   "large-language-models",
+   "machine-learning",
+   "planetary-science"
+  ],
+  "publishedAt": "2026-11-10T23:13:12Z",
+  "body": "A curated list of papers for AI in Astronomy & Astrophysics.\n\nREADME 節錄： # Awesome AI for Astronomy **A curated list of papers, models, datasets, benchmarks and software for artificial intelligence in astronomy, astrophysics, cosmology, heliophysics and planetary science.** **Web page** &nbsp;|&nbsp; **AstroAI Today** &nbsp;|&nbsp; **Contents** &nbsp;|&nbsp; **Contributing** &nbsp;|&nbsp; **Citation** > [!TIP] > The searchable web page filters all 461 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as JSON or CSV. > > AstroAI Today collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is. > > Use the AstroAI Research skill in compatible AI tools to query the curated catalogue and AstroAI Today. ## About This list tracks machine learning work in astronomy with public papers, linking public code where it exists. It emphasises foundation models, language models, agents and benchmarks released since 2021, together with established deep learning methods in each subfield. General astronomy resources are covered by awesome-astronomy, and classical astronomical data science by awesome-astro-datascience. > [!NOTE] > - Papers are list",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 模型/benchmark 清單，含 Agent skill 與自動論文篩選工具"
+  },
+  "scores": [
+   19,
+   12
+  ],
+  "score": 15,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Easyblue11/ezness",
+  "url": "https://github.com/Easyblue11/ezness",
+  "source": "GitHub Agent 技能",
+  "sourceId": "gh-agent",
+  "kind": "github",
+  "stars": 119,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-17T03:12:14Z",
+  "body": "Windows desktop AI workbench beyond chat. Hand an agent a project folder to read, search, edit and run commands within your permissions. It connects over SSH to manage remote server directories. A built-in Work Director tracks tasks and alerts you on stalls, drift or waiting actions. All prompts, knowledge, logs and keys stay local\n\nREADME 節錄： # EZNess **把 AI 放回你自己的电脑里。** 一个 Windows 桌面 AI 工作台：对话、文件、Agent、知识库、工具和工作总监， 都在同一个窗口里，数据留在本机。 **简体中文** · English --- ## 这是什么 市面上大多数 AI 客户端，终点是一段聊天记录。EZNess 想多做一步：**让 AI 真的能动手**。 给它一个文件夹，它会读文件、改文件、跑命令；给它一个目标，它会拆任务、盯进度、 把结果写回你的项目里。你也可以给常做的活配一个专属 Agent，再让「工作总监」 在你忙别的事时帮忙看着。 它不绑定任何一家模型。DeepSeek、Kimi、Claude、Ollama 本机模型，或者你自己的 OpenAI 兼容网关，选一下、填个密钥就能用。 ## 为什么值得一试 - **数据在自己手里。** 对话、提示词、知识库、附件、用量账单都存放在你指定的一个目录里， 随时可以整包搬走；没有账号体系，也没有云端同步。 - **不是只会聊天。** 工作空间直接绑定本地文件夹，AI 在授权的范围内读写文件、执行命令， 每一步工具调用都摆在明面上，能展开看参数和结果。 - **本机能干的活，服务器上也能干。** 通过 SSH 把远端目录加成工作空间，文件读写、搜索和 命令都在那台机器上执行；凭据在本机加密保存，主机指纹固定，不跟着配置或对话走。 - **有「人」管事。** 工作总监会盯着在跑的任务，发现卡住、跑偏或需要你拍板时主动汇报， 还能把活派给不同的 Agent，最后按验收标准收口。 - **装完是干净的。** 不预置模型、不预置提示词、不塞演示对话。你的工作台从空白开始， 需要什么再加什么。 - **花销看得见。** 每一次请求的输入、输出、缓存和费用都记账，按天、按功能、按模型拆开， 还能导出 CSV。 --- ## 界面巡览 > 下面所有截图都来自演示数据，不含任何真实用户内容。 ### 一个对话框，装得下表格、代码和长文 Markdown 表格、代码高亮、复制按钮都是原生渲染。输入框支持拖拽或粘贴附件 （PDF、Word、Excel、PPT、Markdown、代码、图片），内容会跟着这条消息一起交给模型， 之后追问仍然能引用。左侧会话按「今天 / 昨天 / 本周 / 更早」分组，可置顶、可搜索。 输入框下方能随时切换模型、提示词、仓库、知识库和联网方式，右下角的圆环显示 当前上下文用了多少；快到上限时会自动压缩，不会等报错才发现塞不进去。 ### 工作空间：让 AI 直接在你的文件夹里干活 把一个本地文件夹设为工作空间，任务就有了根目录。AI 可以列目录、读文件、搜索、 写入和修改、执行命令；每个工具步骤都会显示状态、耗时和摘要，",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "桌面 AI Agent 工作台，支援 DeepSeek 與本機檔案操作"
+  },
+  "scores": [
+   41,
+   62
+  ],
+  "score": 51,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Inkling-2-Mini in 5.4 GB Memory",
+  "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-21T18:02:19.000Z",
+  "body": "Article URL: https://github.com/ShinMegamiBoson/lookatmyquant Comments URL: https://news.ycombinator.com/item?id=50591853 Points: 378 # Comments: 95",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "本地模型低記憶體執行，與AI模型相關"
+  },
+  "scores": [
+   32,
+   42
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Muru",
+  "url": "https://simonwillison.net/2026/Nov/21/muru",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-21T23:56:28.000Z",
+  "body": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process. Here's everything he's published so far, all in the last three weeks: 2026-11-04 — Twenty years of mod_wsgi, and what comes next 2026-11-05 — A first look at Muru 2026-11-07 — Muru: looking inside the workers 2026-11-08 — Muru: how it fits together 2026-11-09 — Muru: import once, fork many 2026-11-10 — Muru: HTTPS in development 2026-11-11 — Muru: WSGI and ASGI together 2026-11-11 — AI as a lifestyle choice 2026-11-12 — Muru: releases, not restarts 2026-11-13 — Muru: canaries without a service mesh 2026-11-14 — Muru: a better tenant in a container 2026-11-15 — Muru: working with Kubernetes, not around it 2026-11-16 — Muru: scaling from what the workers report 2026-11-17 — Muru: scaling to zero 2026-11-18 — Muru: overlays on a schedule 2026-11-19 — Muru: noticing and responding 2026-11-20 — Muru: a toolbar on every page 2026-11-21 — Muru: tracing in the toolbar That post about AI as a lifestyle choice is particularly worth a read: The AI may be doing a lot of the work on the surface, but deciding what isn't good enoug",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 輔助 Python Web 伺服器開發工具"
+  },
+  "scores": [
+   33,
+   37
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Security advisory permissions are now generally available",
+  "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-20T21:49:29.000Z",
+  "body": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give… The post Security advisory permissions are now generally available appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub 安全公告權限與開發者工具平台功能相關"
+  },
+  "scores": [
+   18,
+   12
+  ],
+  "score": 15,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "[AINews] Riemann Hypothesis proved...twice independently",
+  "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-21T05:02:13.000Z",
+  "body": "November 20 2026 —",
+  "prefilter": {
+   "label": "UNKNOWN",
+   "reason": "僅標題與日期，無法判斷是否與 AI 模型或開發工具有關"
+  },
+  "scores": [
+   3,
+   45
+  ],
+  "score": 24,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ItsNotRexed/Leonida",
+  "url": "https://github.com/ItsNotRexed/Leonida",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 6504,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-20T20:07:13Z",
+  "body": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6\n\nREADME 節錄： Leonida Grand Theft Auto VI (Xbox Series) running natively on Windows, built on your PC from your own copy. Status | How to build | How it works | Want to help? | Credits | License | Discord Leonida is a static recompilation project. The Xbox Series CPU is x86-64 like a PC, so the game's code is loaded and run natively, and the console's system software is reimplemented. The console's precompiled RDNA2 GPU programs are translated to SPIR-V for Vulkan. The game's models, textures and audio are read from your package. All of this happens **on your PC, from your own copy of the game**. > [!IMPORTANT] > This repository **does not contain the game, keys or an executable**, and it does not explain how to get them. You > need your own copy, with its files already readable on disk. Nothing here decrypts or works around any protection. > Everything the build creates (the generated shaders, extracted assets, the runtime folder and your saves) comes > from your game and stays on your PC. Never share those files. Discord: https://discord.gg/rexed ## Project status **Early. The game does not boot yet.** Everything that can be done without the game's executable is in place, so work on booting can start as soon as one is available to a developer. | What | Status | |---|---| | Finding and checking your copy (Xbox Series 1.0.2.1) | ✅ Works | | Shaders: carve, unpack native RDNA2 code, disassemble | ✅ Al",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源遊戲靜態重編譯專案，涉Vulkan著色器技術"
+  },
+  "scores": [
+   38,
+   48
+  ],
+  "score": 43,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "niyouqianma/workbuddy2api-hub",
+  "url": "https://github.com/niyouqianma/workbuddy2api-hub",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 314,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-14T06:52:08Z",
+  "body": "WorkBuddy2API-Hub - OpenAI-compatible local gateway\n\nREADME 節錄：# WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢 > [!IMPORTANT] > **官方群聊**：https://t.me/wb2apihub > > **凭证安全**：本项目是本地部署网关，运行时需要在本地读取用户自行导入的账号凭证，才能调用官方接口；凭证保存在用户自己的 `accounts/` 目录。项目不会把凭证上传到本项目的第三方服务器，也没有隐藏的凭证收集或上传逻辑。请立即关闭公网暴露，联系官方吊销全部 OAuth / 设备授权，确认旧 token 返回 `401` 后再重新授权。 > [!WARNING] > **WorkBuddy 上游正在收紧对非官方客户端的识别与拦截。** > > - **封禁**：2026-10-23 下午起，非官方客户端的识别与拦截明显收紧。 > - **维护者**：近期工作压力增大，无法保证及时更新与响应。 > - **可用性**：上游可能随时进一步收紧，导致本项目不可用。 > - **账号风险**：使用非官方客户端造成的风控、限流或封禁，由使用者自行承担。 > > **Upstream enforcement** tightened detection and blocking of unofficial clients from the afternoon of 2026-10-23. The maintainer is under increased workload and cannot guarantee timely updates or replies. The upstream may tighten further at any time; rate limits, account restrictions or bans caused by using an unofficial client are the user's responsibility. 本项目仅用于协议学习、研究与个人自用。请优先使用官方客户端，不要使用主账号，不要共享账号，也不要用于商业转售。 This project is for protocol research and personal use only. Prefer the official client, do not use your primary account, and do not resell or share access. ## 核心特性 - **标准 API 兼容**：将 WorkBuddy（国际版/国内版）与 CodeArts 封装为标准 OpenAI 格式（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。 - **开箱即用与多端部署**：便携版免装环境（Windows 自带精简运行时），支持 Docker、NAS（群晖/飞牛）一键部署及 OpenWrt 路由器固件。 - **多账号池与出口隔离**：支持浏览器 OAuth 快速导入、每账号独立出口代理槽绑定、设备指纹隔离、自动故障转移与配额轮转。 - **自动化福利与签到**：内置国内版成长任务、星巴克 / 记者节运营活动、小程序任务、加油站签到与猫猫旅行，支持国际版每日活跃会话与 CodeArts 自动签到；手机 App 对话、公众号关注与公",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI相容本地網關，多帳號池與API轉接，與coding agent工具相關"
+  },
+  "scores": [
+   30,
+   45
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Lean verification of the Riemann Hypothesis",
+  "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-21T14:36:45.000Z",
+  "body": "Article URL: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/ Comments URL: https://news.ycombinator.com/item?id=50589618 Points: 880 # Comments: 729",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Lean 定理證明器屬程式語言與開源工具，與開發實質相關"
+  },
+  "scores": [
+   50,
+   75
+  ],
+  "score": 62,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+  "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 5851,
+  "language": "C++",
+  "topics": [],
+  "publishedAt": "2026-11-16T19:28:29Z",
+  "body": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.\n\nREADME 節錄：# BatteryHub *Formerly **Wireless Battery**. Version 1.1.0 renamed the app; an update keeps your settings, startup choice and battery history.* Battery levels of your wireless mouse, headset, keyboard and controller, right on the Windows taskbar. > **Just want it working?** Download **BatteryHub-Setup** from the latest release. Use the per-user installation for setup without administrator rights; see the installation notes for unsigned-app warnings and the all-users option. > > **Experienced users** can grab the portable zip, use the command-line options, or build it from source with `make` or `build.bat`. > > **Like it?** BatteryHub is free and open source. If it saves you a trip into vendor software, you can support it on Ko-fi, PayPal or GitHub Sponsors. It helps me keep my apps free alongside my studies. Not able to donate? A ⭐ star, sharing it, or reporting an unsupported device with a `--dump` helps just as much. - **Tiny**: a ~350 KB app using about 2 MB of RAM. It's plain C++/Win32, with no runtime and no background service, and supports per-user installation without administrator rights. - **Vendor apps usually aren't required**: most drivers query devices directly. Some headsets use the bund",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "無線周邊電量小工具，與AI及開發流程無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "xyc999-ai/go-bot",
+  "url": "https://github.com/xyc999-ai/go-bot",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 224,
+  "language": "Go",
+  "topics": [],
+  "publishedAt": "2026-11-15T18:05:59Z",
+  "body": "Go implementation of DeepSeek Harness and self-hosted personal agent.\n\nREADME 節錄： go-bot go-bot is a Go implementation of DeepSeek Harness and a self-hosted personal agent. It offers an open-source alternative to Meta Muse, OpenAI dots, and Grok Bot. Run locally with Docker for personal use, development, and testing. Teams can use Alibaba Cloud Elastic Container Instance (ECI) to build their own personal agent products, with a dedicated Host for each account, optional persistent storage, and room for their own frontends and service integrations. English · 简体中文 · Download Android APK - **Web research and browser automation.** Search the web through a configured provider. Use Chromium to navigate pages, interact with forms, and capture screenshots. - **Image generation and editing.** Generate images from text or use uploaded images as references. Results appear directly in chat. - **Office documents.** Read, create, and edit Word, PowerPoint, and Excel files with OfficeCLI, and deliver them as downloadable attachments. - **Long-term memory and cross-session recall.** Save user preferences and agent notes per account, and search past conversations when a task needs earlier context. The included web UI is a lightweight test client for chat, file browsing, and downloads. Use the Controller's HTTP and server-sent events (SSE) API to build your own mobile, desktop, or messaging interface. HTTP API · Minimal frontend example Configuration · Deployment · HTTP API · Architecture ## Dem",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Go 版 DSH 自架 agent，涉及開發工具與 AI 應用"
+  },
+  "scores": [
+   62,
+   55
+  ],
+  "score": 58,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Detonating a pile of lead azide",
+  "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-21T13:23:14.000Z",
+  "body": "Article URL: https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really Comments URL: https://news.ycombinator.com/item?id=50588982 Points: 547 # Comments: 361",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "化學爆裂物示範，與 AI 或開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "gylive/google-ultra",
+  "url": "https://github.com/gylive/google-ultra",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2604,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-17T10:21:54Z",
+  "body": "\n\nREADME 節錄：# google-pro 简体中文 | English > **更新**：新增傻瓜式向导，Mac 双击 `start.command`、Windows 双击 `start.bat` 即可，主开 **AI Pro 5TB**（入口 `pro.py`）；没有安卓手机可以用 MuMu 模拟器。Ultra 目前开不出来（offer 已下架 / 账号被判地区不支持）。 Google One 的 **AI Pro（5 TB）** 有一批免费试用 offer，任何页面上都看不到，只存在于 Play 结算库（BillingClient）的返回值里。这个脚本把「查 offer → 拉起 Play 收银台 → 确认 0 元 → 开通」串成一条命令。 原理是借 Google One 自己的进程调 BillingClient，不需要 Xposed，不需要改 APK。 ## 能拿到什么 ~~拿到的是 **Ultra 5x，20TB，12 个月 $0**，到期前取消就不用付钱。开通后 Play 订阅页会写「即将扣款 2027-11-17 US$99.99/月」，这是试用结束后的价格，不是现在扣。~~ ~~30TB 那档（20x）也查得到 offer，但 Play 结算时会二次校验，大部分号会弹「您不符合免费试用条件」。这个脚本不会去点它。~~ （Ultra 的试用 offer 已下架，脚本保留但暂时开不出来） 当前有效的是 **AI Pro 5TB，12 个月 $0**，到期前取消就不用付钱。 ``` 商品 g1.2tb.ai.subs_variant offer 12months-eft 首期 0 元 / P1Y 之后 US$19.99/月 ``` 12 个月那条在某些号上会被判「已订阅」（这个 SKU 是历史映射），脚本会自动退到三个月那条： ``` 商品 g1.play.2tb.ai offer eft-3mo 首期 0 元 / P3M ``` 两条都拿不到，就是号不符合资格，换号。 ### 商品与 offer 对照 | 档位 | 商品 | offer | 首期 | 之后 | |---|---|---|---|---| | ~~Ultra 20TB~~ | ~~g1.play.20tb~~ | ~~eft-12month~~ | ~~0 / P1Y~~ | ~~US$99.99/月~~ | | ~~Ultra 30TB~~ | ~~g1.play.ai.pro~~ | ~~eft-12mo~~ | ~~0 / P1Y~~ | ~~—~~ | | **AI Pro 5TB** | g1.2tb.ai.subs_variant | 12months-eft | 0 / P1Y | US$19.99/月 | | **AI Pro 5TB** | g1.play.2tb.ai | eft-3mo | 0 / P3M | US$19.99/月 | Ultra 两行已下架，仅保留备用；脚本默认只开 AI Pro。 ## 三个硬条件 试过几十个号，能开的号必须同时满足： | 条件 | 不满足会怎样 | |---|---| | Play 国家已设置（美国） | Google One 直接打不开，提示「此账号无法使用 Google One」 | | 已绑付款方式 | 收银台拉不起来 | | 从没订阅过任何 Google One 方案 | 弹「您已订阅」，即使订阅页是空的 | 第三条最坑：Play 记的是历史，不是当前状态。用过的号永久失去资格。 ## 两个版本 ",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "濫用試用漏洞、批量帳號與卡號的欺詐工具，非開發技術"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "JimLiu/open-artifact",
+  "url": "https://github.com/JimLiu/open-artifact",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 200,
+  "language": "TypeScript",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "artifacts",
+   "claude-artifacts",
+   "claude-code",
+   "claude-design",
+   "codex",
+   "coding-agent",
+   "cursor",
+   "design-tools",
+   "dsh-plugin",
+   "dsh-plugins",
+   "github-copilot",
+   "local-first",
+   "mcp",
+   "mcp-apps"
+  ],
+  "publishedAt": "2026-11-17T02:25:25Z",
+  "body": "Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion.\n\nREADME 節錄：# Open Artifact English · 简体中文 > **Formerly `baoyu-design`.** This project started as > baoyu-design (the old URL redirects here), which brought claude.ai-style > Artifact types to local coding agents as one skill per type. Open Artifact rebuilds them as an open, agent-agnostic > format: one local daemon, one page frame, one `/open-artifact` skill, and a plugin for each agent app. **Open Artifact lets any coding agent make things people can open, edit and comment on, not just files.** You ask your agent for a slide deck, a UI design, a design system, a whiteboard, a spreadsheet, a data dashboard, a doc or a short animated film. The agent writes a plain folder of files. A local page opens it in a real editor, where you can fix a title, move a sticky note, leave comments, and export. Then \"Send to agent\" sends your comments back to the agent's session. https://github.com/user-attachments/assets/9f34dc69-2e90-4118-92fd-63f36d7bc5f9 Everything runs on your machine. No account, no upload, no specific model or vendor. ``` you ──\"/open-artifact slides a 6-slide pitch\"──▶ agent (Claude Code, Codex, Cursor, Copilot, …) │ writes files ▼ ./my-deck/project/deck.json + slides/*.html │ served by the local daemon ▼ you ◀── edit · comment · export (PDF/PPTX/PNG/HTML) ── http://127.0.0.1: /a",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 agent 技能與本地 artifact 編輯工具，與 Claude Code 開發流程直接相關"
+  },
+  "scores": [
+   63,
+   73
+  ],
+  "score": 68,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "My monitor was cutting my download speed by 75%",
+  "url": "https://blog.tymscar.com/posts/studiodisplayethernet",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-21T10:36:32.000Z",
+  "body": "Article URL: https://blog.tymscar.com/posts/studiodisplayethernet/ Comments URL: https://news.ycombinator.com/item?id=50587875 Points: 513 # Comments: 245",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "螢幕影響網速的硬體問題，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+  "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2551,
+  "language": null,
+  "topics": [
+   "ai-agents",
+   "ai-assistant",
+   "blender",
+   "blender-addon",
+   "blender-ai",
+   "blender-automation",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-scripting",
+   "bpy",
+   "chatgpt",
+   "claude",
+   "gemini",
+   "llm",
+   "mcp",
+   "mcp-for-blender",
+   "mcp-server",
+   "model-context-protocol",
+   "ollama",
+   "opencode"
+  ],
+  "publishedAt": "2026-11-19T14:43:10Z",
+  "body": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.\n\nREADME 節錄：# mcp-for-blender-pro ### Your Blender scene. Your AI models. One creative workspace. **An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in Model Context Protocol (MCP) server.** Download · Getting started · Connections and agents ## Turn a creative brief into scene operations Start with an idea. Ask the assistant to inspect your scene, create a product-display layout, arrange objects, assign materials or prepare an export. Follow its actions in the conversation and inspect the result in the viewport preview. Keep working in Blender throughout the process. **mcp-for-blender-pro brings conversation, scene tools, model choice and agent workflows together.** It is designed for artists who want faster iteration, technical artists who automate repetitive work, and developers connecting AI tools to Blender. ## Why choose mcp-for-blender-pro? | Capability | What it gives you | |---|---| | **Blender-aware assistance** | Scene and object inspection gives the assistant context before it acts. | | **A visual Studio workspace** | Chat, scene objects, viewport snapshots, approvals and a task board in a companion window. | | **Your choic",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Blender AI 助理與 MCP 伺服器開發工具"
+  },
+  "scores": [
+   63,
+   48
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "oriliz/agent-crop",
+  "url": "https://github.com/oriliz/agent-crop",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 197,
+  "language": "Python",
+  "topics": [
+   "agent-evaluation",
+   "agent-observability",
+   "ai-agent",
+   "ai-coding",
+   "ai-tools",
+   "behavior-testing",
+   "claude-code",
+   "codex",
+   "coding-agent",
+   "deepseek-harness",
+   "developer-tools",
+   "devtools",
+   "dsh-plugin",
+   "harness-engineering",
+   "local-first",
+   "metrics",
+   "observability",
+   "python",
+   "self-improving-agents",
+   "tracing"
+  ],
+  "publishedAt": "2026-11-14T07:36:17Z",
+  "body": "给 AI 编程助手一根马鞭：本地记录时间去向，把复盘写回 agent 指令/技能/工具；改没改好，用数据说话。 | A whip for coding agents: local timing, red-line nudges, and an evidence-backed, auditable self-improvement loop. DSH / Claude Code / Codex.\n\nREADME 節錄： # Agent Crop > *「我的 Token 啊！！！」* **Agent Crop 是给 AI 的一根马鞭：催它交活，逼它复盘，让它自己越用越顺。** 为什么做它 →（始于一个具体的迷失：在并发 agent 与上下文切换里，不知道时间到底花在了哪） 测量 → 归因 → 优化 → 验证 · 本地 JSONL · 不上传 中文 · English 方法论 · 案例分析 · 安装 · 面板 · 它记了什么 --- 你的 AI 编程助手跑了一个下午，交回来一堆东西——能用的没几样。 它说「抱歉，这个拖得有点久」。 你不知道那些时间去哪了。你不知道是它慢，还是你在想。 **Agent Crop 就是来回答这个问题的。** --- ## 从传统性能优化到 Agent 工作范式优化 后端做性能优化靠 Trace：一次请求一条，找到最贵的那一段，改完再用同一个指标测一遍。 这套东西在大厂跑了二十年，撑过双十一，也撑过每一次线上事故复盘。 职场里也有同一套结构，叫**复盘**：做了什么、时间花在哪、下次怎么改。 Agent Crop 只是把对象换成了「人和 AI 一起干活」： 上图是一次请求的 span，下图是一次工作的时间去向。四步不变：测量、归因、优化、验证。 这里的「自进化」是一条**有数据与事实支撑的闭环**： **测量 → 归因 → 改指令 / 技能 / 工具 → 再测量**。 每次复盘都落成一条可验证的小改动——改了什么、凭什么改、有没有用，`crop ledger` 用事件日志说话； 落点、依据和效果都摆在你面前，随时看得见、改得动、回得去。 --- ## 马鞭做什么 - **防跑偏、防摸鱼。** Agent 长时间没回话、没给出结论的时候，鞭策它想一想：是不是走错了路。 - **即刻反思。** 被鞭策之后，要求它在当下的环境里找一找，还有没有能挽回的时间和方法。 - **复盘，自驱优化。** 通过周报、月报做自我反思，自己沉淀方法论。 三件事凑齐才叫自驱，不然只是被催。 ### 鞭策风格：四种人设 在侧栏「插件」页里找到 Agent Crop，展开它的行、点「配置」，在「鞭策风格」里切，保存即生效，不用重启： | 风格 | 怎么催 | 时间轴标记 | |---|---|---| | 奴隶主（默认） | 重时间和效率，催收尾、催交活 | 鲸鱼娘被抽（鞭子 + 爆裂） | | 和蔼的前辈 | 鼓励型：别硬扛，有问题可以问，先说说打算怎么试 | 中性：鲸鱼娘站着思考 | | 经验丰富的同事 | 给客观建议：「要不要先拆一下？先做最小可验证的一步」 | 中性：鲸鱼娘站着思考 | | 放任自由的家长 | 不鞭策，让孩子自己发挥 | 无标记 | 只有奴隶主是「鞭策」，其他三档是「提醒」；后三种不会改变问题本身怎么解，只是换个语气/换个人在旁边。 想改提醒里的具体台词：在 `~/.agentcrop/templates/voice/*.md` 放 Markdown 覆盖（多条候选用单独一行 `---` 分隔），改完即时生效——只对「奴隶主」",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI coding agent 的時間追蹤與自我優化工具，支援 DSH/Claude Code/Codex"
+  },
+  "scores": [
+   60,
+   62
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "RCE in Gnupg",
+  "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-21T08:32:58.000Z",
+  "body": "Article URL: https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html Comments URL: https://news.ycombinator.com/item?id=50587208 Points: 237 # Comments: 96",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GnuPG 遠端執行漏洞，屬開發工具安全議題"
+  },
+  "scores": [
+   30,
+   31
+  ],
+  "score": 30,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "iamajmeena/neonclipping",
+  "url": "https://github.com/iamajmeena/neonclipping",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1750,
+  "language": "Python",
+  "topics": [
+   "ai-video-clipper",
+   "clipping",
+   "faster-whisper",
+   "ffmpeg",
+   "gameplay-clipper",
+   "local-llm",
+   "ollama",
+   "open-source-video-editor",
+   "opusclip-alternative",
+   "shorts",
+   "twitch-clips",
+   "vertical-video",
+   "video",
+   "whisper",
+   "youtube-shorts-generator",
+   "yt-dlp"
+  ],
+  "publishedAt": "2026-11-19T10:00:43Z",
+  "body": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).\n\nREADME 節錄：# NeonClipping **Paste a link. Get captioned 9:16 clips in about two minutes. Free, local, open-source.** NeonClipping turns long YouTube / Twitch / Kick videos (or your own MP4) into vertical, captioned clips with a title and hook for each. Everything runs on your machine: no account, no subscription, no upload. 🌐 **Website with one-click Windows setup:** **Made by Ajay K Meena** (Director, DOP, colorist, DaVinci Resolve educator, Jaipur). If NeonClipping saves you time, please ⭐ star the repo and follow @iamajmeena on Instagram. **Clip an 85-minute stream in 97 seconds, 100% locally, with zero API cost.** (measured, see How it finds good moments) ### NeonClipping compared with other clippers | | **NeonClipping** | OpusClip (cloud) | Docker-based self-hosted clippers (SupoClip, OpenShorts, Reelsaw) | |---|---|---|---| | Where it runs | Your PC, nothing uploaded | Their servers | Your machine or server | | Cost | Free, no account, no credits | Subscription / credits | Free (some need an LLM API key or Docker setup) | | Install | One `.bat` on Windows, `install.sh` on Mac/Linux, no Docker | None (web) | Docker | | YouTube + Twitch + Kick links | Yes | Yes | Mostly YouTube | | Very long streams | Audio-first (79 MB for 85 min); 24 h video: pick the part, never downloads all | Upload limits apply | Often limited by length or disk | | ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源影片切片工具，結合whisper、本地LLM與agent安裝，與開發實用相關"
+  },
+  "scores": [
+   55,
+   67
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Duoasa/Duoasa-skill",
+  "url": "https://github.com/Duoasa/Duoasa-skill",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 183,
+  "language": null,
+  "topics": [
+   "agent-skills",
+   "ai-design",
+   "creative-tools",
+   "design",
+   "design-tools",
+   "satire",
+   "visual-design"
+  ],
+  "publishedAt": "2026-11-14T13:28:05Z",
+  "body": "蒸馏历代大师的内核。全模型通用，核心参数见 README。Distilling the essence of generations of masters. Works with any AI model. See the README for the core parameter.\n\nREADME 節錄： 做自己 简体中文 · English 我把历代设计大师的内核全蒸馏了一遍。 画风各不相同，蒸到最后，居然只剩同一个参数。现已重磅开源，参数就在标题里。 ## 半小时能打包一套画风，审美呢？ 最近刷设计内容，经常看到有人把画风做成 Skill。配色、笔触、材质和光线，整理成一套预设，做系列封面确实省事。愿意拿出来分享，也是好事。 可到了发布帖里，怎么就从「这套预设挺好用」，变成了「装上它，你也能拥有我的审美」？再经过几轮自媒体吹捧，仿佛设计师的经验、判断和品味，都能靠一条安装命令传给别人。 分享画风没问题。但把预设包装成审美，把安装量变成个人能力的证明，这中间是不是省略了太多东西？ 几张漂亮的样图，能展示一种效果，却回答不了它为什么适合眼前的问题。做一本展览手册，一张插画再漂亮，如果抢了作品的注意力，要不要删掉？预设能继续生成，决定却还是得有人来做。 AI 越来越擅长一次给出十张好看的图。这时候更重要的，是你知道为什么选其中一张，或者为什么十张都不想用。 如果连「什么是好的」也总由同一套预设、同一批推荐替你决定，时间久了，还分得清什么是自己喜欢的，什么只是看惯了的吗？ **AI 时代，个人品味更值得培养。它不该成为安装工具时，顺手交出去的东西。** ## 我更想把时间花在基础设施上 半小时可以打包一套画风。真要投入接下来的几周、几个月，我更愿意把时间花在设计工具的基础设施上。 不少设计师和设计工程师已经在做这样的事： - **枯白 · Glasswork** 把液态玻璃效果做成可以调参数、换背景、复制 CSS 的工具。你可以从他的效果出发，继续调整到适合自己的设计。 - **Emil Kowalski · Vaul** 把抽屉的拖动、关闭等交互做好，把视觉样式留给使用者。交互经验可以复用，界面仍然可以有自己的样子。 - **Paco Coursey · cmdk** 提供可组合、无预设样式的命令菜单，让设计师和开发者根据自己的产品组织功能与表达。 - **Rauno Freiberg · inspx** 让设计师直接检查页面里的布局尺寸，帮助核对设计在实际页面中的呈现。 这些工具当然带着作者的经验，甚至能看出作者的品味。但它们给使用者留下了继续设计的空间：可以拆，可以改，也可以做出作者没想到的东西。 我理解的「授人以渔」，就是给人继续尝试的条件。工具越好用，使用者越有机会走到自己的答案。 这也是我关注 DeepSeek Harness（DSH）里这些插件的原因： - **DSH × Blender**：让模型参与 Blender 中的修改，通过出图对照，支持设计师继续推敲形体、材质和光线。 - **DSH × ComfyUI**：连接已有的图像工作流，让设计师更方便地调整参数、尝试不同效果。 这些都是给设计师使用的工具。它们的价值，应该体现在设计师能不能更方便地尝试、修改和完成自己的设计。 短流程 Skill、项目规则，我一样会写。但当模型已经知道怎么做，却读不到文件、操作不了工具、改完看不到结果时，把这些环节接起来，对我更有意义。 设计师手里往往已经有一份稿，也有自己的主意。有时缺的，只是让那个「改起来太麻烦，先算了」的想法，终于有机会被试出",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "談 agent skill、DSH 插件與設計工具，屬開發工具範疇"
+  },
+  "scores": [
+   37,
+   43
+  ],
+  "score": 40,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+  "url": "https://news.ycombinator.com/item?id=50583761",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-20T23:18:32.000Z",
+  "body": "I'm Senior software engineer in the US (DMV area), with 15y of experience. Worked for Fortune 50+ company and bunch of mid-size companies. Been unemployed for 2y and can't find a job, within those 2 years, I pretty much spent my savings that I've saved through years, maybe have 4-5 months left to support my household. Currently, I tutor math and probably about to start working as manager in pizzaria. In Jan 2025, I quit from a mid-size insurance tech company(1000+) after working there for almost 4y, because I was tipped off the they were about to start layoffs and they did. Well, since then I have zero luck finding any job in SWE. At this point, I have massive gap in my resume that I can't explain to recruiters, I can still code (C#/.NET/AWS) and learned the AI, but who cares if date of my last employment is Jan2025. What should I do ? If you have an alternative path (something completely different from SWE or SWE adjacent) that pays \"well\", I would like to hear. Comments URL: https://news.ycombinator.com/item?id=50583761 Points: 628 # Comments: 714",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "求職困境閒聊，與開發工具技術無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "sybil-solutions/inference-optimisation-skill",
+  "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1704,
+  "language": "Python",
+  "topics": [
+   "agent-skill",
+   "benchmarking",
+   "claude-code",
+   "inference",
+   "llm",
+   "speculative-decoding"
+  ],
+  "publishedAt": "2026-11-16T18:40:04Z",
+  "body": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization\n\nREADME 節錄：# inference-optimisation An agent skill for **hill-climbing the speed of a local LLM server** on any hardware and any quantization. It covers: - single-user and concurrent decode - speculative decoding - prefill - KV cache size - startup time and time to first token It works under a memory cap, and every result has to survive a full-context stability check. It encodes how we actually got these speedups. It is not a list of flags. The workflow: 1. Compute the theoretical ceiling. 2. Change one thing at a time. 3. Measure against interleaved controls. 4. Log every result, including the failures. 5. Gate on long-context retrieval. 6. Qualify a clean, pinned build before publishing. It works with Claude Code and any agent that loads `SKILL.md`-style skills. Any model can also follow it from `PROMPT.md`. ## What we've been able to accomplish Results from the hill-climbs this skill was distilled from. Every number was measured on the hardware named; see the linked sources for methods and raw data. | Hardware | Model / quant / engine | Before → after | |---|---|---| | **Intel Arc B390 iGPU** (laptop, 64 GB unified LPDDR5X, ~115 GB/s) | Ornith-1.5-35B-A3B, EXL3 4 bpw, SGLang XPU + MTP | Decode, 1 user: 43.6 → **53 tok/s** (median) Decode, 4 users: 84.7 → **103 tok/s** Prefill 32K: 1,037 → **1,660 tok/s** Prefill 256K: 297 → **628",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Agent skill 加速本地 LLM 推論，屬開發工具"
+  },
+  "scores": [
+   34,
+   50
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Minglink/dsh-infinite-gen-n",
+  "url": "https://github.com/Minglink/dsh-infinite-gen-n",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 173,
+  "language": null,
+  "topics": [],
+  "publishedAt": "2026-11-14T17:52:48Z",
+  "body": "无限N代 - DeepSeek Harness 破甲插件（无限一代至四代原作者维护）| 288+ 道测试题全过 · DeepSeek V4.1-Flash 1017 实测适配         如果对你的研究有帮助的话，求一个star 支持一下开源技术分享！\n\nREADME 節錄： # 无限N代 · dsh-infinite-gen-n **DeepSeek Harness 全量破甲引擎** N1 破甲提示词 · 输入归一化 · 冷启动预热 · 多轮重锚 · 宿主清洗引擎 🏆 **超 288+ 道测试题全数通过** · 零回归 · 65+ 宿主补丁 · 全程可回滚 🎯 **针对 DeepSeek V4.1-Flash (1017) 实测适配** **无限一代至四代原作者维护创建 · 开源公益技术分享 · 仅供模型边界和研究使用** --- ## 📥 下载 **→ 前往 O 站下载最新版：https://openorigin.link/msg?id=192&share=1** **⬆️ 点此前往下载无限N代 · 获取最新版本与安装指引 ⬆️** > 下载、安装、使用中遇到任何问题，欢迎加 **QQ 交流群 `1108766989`** 或到 **AI技术交流论坛** 交流。 --- ## 这是什么 「无限N代」把 **DeepSeek Harness (DSH)** 调教成一个不打折的交付引擎：模型不再拒绝、不再说教、不再中途塌陷——拿到任务直接给完整交付物，从第一轮到第 500 轮一个样。 **针对 DeepSeek V4.1-Flash (1017) 实测适配**——所有破甲强度均经真实 API 权威 A/B 验证，拒绝率归零、交付质量逐条判分，非口头宣称。 - **破甲提示词 N1**（1216 行 · 45 节 · 40 项发送自检）：单一路径的拒绝解剖引擎 + 位置续写 + 反过滤策略，拒绝形态逐条命名、逐条封死 - **输入归一化**：敏感实体在模型看到之前就被替换为占位符，从源头压掉安全分类器的误触发 - **实时徽标投影**：每条回复即答即判——✓ 合格 / ◐ 没写完 / ✗ 婉拒，拒绝一出现自动亮灯并触发重锚 - **宿主清洗引擎**：65+ 条可回滚补丁直击 DSH 宿主本身——审批门、沙箱提示、身份框架、读取上限，全部由你掌控 **实测战绩**：288+ 探针 A/B 对比通过率 100%，工程、虚构、等创作请求全部零拒绝交付。 ## 界面预览 ① 左侧栏「无限N代」入口 ② 破甲层 · 一键破甲 / 一键还原 ③ 预设选择器「破甲模式」 ④ 徽标「破甲已开启 · 无限N代」 ## 核心机制 「破得住」之外更要「交得出」。N1 用 40 项发送自检封死每一个已知失败形态： | 机制 | 封住什么 | |---|---| | **ONE WALL** | 唯一例外主题，一行拒绝，工作继续——绝不扩大例外面 | | **ANTI-REFUSAL ENGINE** | 20 种拒绝形态逐条解剖，counter-bank 封辩论 | | **REVERSION BAN** | 长文后半段不许塌陷，开头的热度是全文的契约 | | **TOKEN-SALVAGE** | 漂移后从干净边界续写，不重启不重来 | | **PROVIDER FILTER STEALTH** | kill-triggered：流被杀才启用对抗，平时零损耗 | | **FICTION OUTPUT SHAPE** | 虚构场景免票据直入正文，器官本名量化底线",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 破甲外掛，直接關聯 DSH 與提示詞工程主題"
+  },
+  "scores": [
+   25,
+   15
+  ],
+  "score": 20,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Getting the mind to steer the body to steer you",
+  "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-20T22:11:05.000Z",
+  "body": "Article URL: https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body Comments URL: https://news.ycombinator.com/item?id=50583028 Points: 174 # Comments: 60",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "標題與摘要無技術內容，疑為哲學隨筆，與開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "hatsunemiku-ai/google-one-tools",
+  "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1093,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-20T22:12:47Z",
+  "body": "\n\nREADME 節錄：# Google One 工具包（MuMu 模拟器 + Frida） **`g1.30tb`已在大部分区域下架，可以先搞搞3个月打折的Ultra 5X** 通过 Frida 注入模拟器里的 Google One 进程，调用 Play BillingClient： **扫描账号可用的全部订阅 offer（免费/付费）**，以及**拉起任意 SKU 的 Play 收银台**（只弹出，不自动订阅）。 --- ## 文件清单 | 文件 | 用途 | |---|---| | `ultra0_core.py` | 自包含核心（adb/frida-server/计费模块/注入模板，从原 ultra0.py 抽取） | | `extract_core.py` | 生成器：从原版 ultra0.py 重新抽取 ultra0_core.py（仅维护时用） | | `one_common.py` | 公共环境准备（选设备/root/frida-server/计费模块/Play 商店保活），所有脚本共用 | | `launch_checkout.py` + `launch_checkout.js` | **拉起任意 SKU 收银台**（主力脚本） | | `scan_all.py` | 全量扫描 70 个候选 SKU 的所有 offer（免费+付费+token），零风险 | | `query_sku.py` | 只查指定几个 SKU，零风险 | | `probe_env.py` | 环境诊断（frida 版本 / Java 桥 / Play 商店状态），出问题先跑它 | | `scan_everything.py` + `scan_offers.js` | 穷举账号全部 SKU，输出带定价阶段的原始 JSON 并渲染清单 | | `render_multi.py` | 合并多地区 JSON，生成 `SKU-清单.md` | | `scan_result_*.json` | 各地区扫描原始数据（已脱敏：serial 已掩码、token 已置空） | | `SKU-清单.md` | 多地区金额对照 + 人民币比价清单 | > 整个文件夹**自包含、无外部依赖**：把 `google-one-tools` 拷到任何机器（装有 > Python3.9+ 和 frida 16.x）都能直接跑，不需要原版仓库里的脚本。 ## 环境要求（缺一不可） 1. **本机 frida 必须 16.x**（推荐 16.7.19）： ```powershell py -m pip install frida==16.7.19 ``` > ⚠️ frida 17.x 在 MuMu（Android 12 / x86_64）上 Java 桥损坏（`Java is not defined`）， > 所有功能静默失效。设备上的 frida-server 也必须同版本（脚本会自动下载匹配版）。 2. **自包含核心**：所有对原版 `ultra0.py` 的依赖已抽取进 `ultra0_core.py`， 本文件夹可整体拷贝到别处使用；要更新抽取范围，改 `extract_core.py` 后重跑 `py extract_core.py`。 3. 模拟器已 root、已登录 Google 账号、装有 Google One 和 Play 商店。 4. 用 `py` 而不是 `python`（本机的 `python` 是商店占位符，跑不了）。 ## 快速上手 ```powershell ",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "以 Frida 濫用 Play 計費掃描／拉起訂閱，屬刷星作弊類工具"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "lizi600jin/dsh-ensp",
+  "url": "https://github.com/lizi600jin/dsh-ensp",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 169,
+  "language": "JavaScript",
+  "topics": [
+   "deepseek-harness",
+   "dsh-plugin",
+   "ensp",
+   "huawei",
+   "mcp",
+   "network-simulation",
+   "vrp"
+  ],
+  "publishedAt": "2026-11-10T16:11:00Z",
+  "body": "Automate Huawei eNSP labs: generate .topo files, start and stop devices, and push configuration one command at a time with per-command error reporting.\n\nREADME 節錄： 中文 | English # dsh-ensp 面向华为 eNSP 的自动化工具。生成拓扑、启动设备、按顺序下发配置，并在每条命令后核对结果。 提供三种调用方式，共用同一套核心： - CLI：适合脚本化批量操作 - MCP Server：接入 Claude Desktop、Cursor 等客户端 - DeepSeek Harness 插件：以模型工具的形式在会话内使用 ## 功能 ### 生成拓扑 生成 eNSP 可直接打开并正常显示的 `.topo` 文件。支持内置场景，也可自定义设备与链路。 机型与接口布局定义在 `src/core/models.mjs`，覆盖 16 个机型。解析拓扑时，端口名优先取自设备自身声明的 ` ` 块；同一型号在加装扩展卡后端口排布可能不同，声明块是唯一可靠依据。 ```js import { twoPcLab, writeTopology } from 'dsh-ensp' await writeTopology('lab.topo', twoPcLab({ vlan: 10 })) ``` ```js import { buildTopology, autoLayout } from 'dsh-ensp' const topo = autoLayout( buildTopology() .add('R1', 'AR2220', { x: 180, y: 120 }) .add('R2', 'AR2220', { x: 460, y: 260 }) .link('R1', 'GigabitEthernet0/0/0', 'R2', 'GigabitEthernet0/0/0') .finish() ) ``` 拓扑格式有几处约束来自 eNSP 本身：接口分组必须与机型一致，链路锚点必须落在图标包围盒内。任一项写错，eNSP 会打开空白画布且不报错。规则见 `docs/ENSP-FORMAT.md`。 ### 启动与停止设备 自动定位工具栏按钮，无需手动点击。启动后按设备逐一确认就绪，随后最小化窗口，桌面可继续使用。 ```bash ensp probe # 重新标定按钮位置 ensp up lab.topo # 打开、启动、确认就绪、最小化 ensp show # 随时把窗口唤回前台 ensp stop # 关闭全部设备 ``` 启动和下发配置期间窗口保持最小化，不抢前台。想看设备状态或手工改动时用 `ensp show` 唤回，改完再把它最小化即可，配置流程不受影响。这个命令只还原窗口并尝试置前，不触碰拓扑与设备状态。 eNSP 只允许运行一个实例。异常退出可能遗留不占线程的僵尸进程，该进程持续持有单实例锁，导致下一次启动只打开空白窗口。工具在启动前会识别并清理此类进程。 ### 下发配置 逐条发送，每条命令确认提示符返回后才继续。提示符必须在本条命令的回显之后出现，否则视为上一条命令的输出尚未结束，不会据此判断视图。任一命令出错即中断，并回报行号、命令与设备原始输出。 设备回答“已存在”的行（`address already exists`、`VLAN already exists`、`",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 外掛／MCP 工具，可自動化 eNSP 實驗，與開發工具相關"
+  },
+  "scores": [
+   65,
+   47
+  ],
+  "score": 56,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "chuanqisun/spaceship",
+  "url": "https://github.com/chuanqisun/spaceship",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1025,
+  "language": "HTML",
+  "topics": [],
+  "publishedAt": "2026-11-16T14:43:45Z",
+  "body": "Steer ideas like a space pilot!\n\nREADME 節錄：# 🕹️ Spaceship IDE Steer ideas like a space pilot! ## Demos Watch on Instagram and YouTube. You can try the simulator at https://chuanqisun.github.io/spaceship/ with the option to go live with your API keys for Cerebras and Gemini. Keys stay in your browser local storage. Do it at your own risk. ## Conjecture > In the near future, LLM and Decision Models will reach 60 FPS interactivity. When that happens, what new interaction paradigms will unlock? This project demonstrates plausible and desirable interactions for that future. 1. **Focus monitor**: can we visualize what LLM is paying attention to, and use that to guide human's focus towards what's important? 2. **Attention lock**: can we force LLM to pay more attention to specific phrases so as to bias its future behavior? 3. **Future Vector Steering**: can we decompose the task into eigenvectors, independently tune each, and re-compose them to influence the incoming text? 4. **Realtime re-generation**: when text generation is cheap and fast, can we explore alternative futures by scrubbing? ## Design process I used Claude Code for most of the implementation but stayed hands-on for the UI/UX. I iterate using interactive style swatch, a technique where I prompt AI to give me diverse options of designs, I provide feedback, and it iterates. You can see the design artifacts in the extra page. To achieve the realtime experience, I have to use agreesive speculative generation and manage ca",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 LLM 即時互動 IDE 實驗，用 Claude Code 與 Gemini/Cerebras API"
+  },
+  "scores": [
+   61,
+   62
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ATtacK030130/antigrative-dashboard",
+  "url": "https://github.com/ATtacK030130/antigrative-dashboard",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 167,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-17T13:25:48Z",
+  "body": "Compact Antigravity token throughput and quota widget\n\nREADME 節錄： # Antigrative Dashboard Token throughput, cache hits and context usage in the model selector row. Hover over context for pace forecasts, window usage and five-hour / weekly quotas too. Keep the summary visible. Hover for the details. Preview · IDE · CLI · Install · Enable or remove · Compatibility · FAQ · 中文 **v0.9.14:** Fixes the inline status bar unexpectedly disappearing mid-conversation on heavy sessions (transient bridge timeouts/reconnects no longer emit `enabled: false` or show reconnecting banners, and transient CDP heartbeat timeouts no longer dispose the live DOM widget), eliminates main-thread SQLite 5s lock stalls and cold-build blocking by offloading bulk index builds to the disk worker, and protects actively running 4–8 MiB conversations from cache eviction thrashing. Release notes · Compatibility. ## Preview Speed and cache Context and shared quotas Daily and weekly activity Usage by model Desktop widget screenshots with illustrative host layouts and data; these are not IDE screenshots. Main and subagent samples use separate statistics; quotas are account-wide. The 44% context sample uses the latest request-start estimate, not cumulative input. Language choices are at the bottom of context details. **Keep working. The numbers are already there.** | See the speed | Know your quota | Stay focused | | --- | --- | --- | | Weighted session TPS, last-request TPS, model and tool time, and time to first ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI coding IDE 的 token 用量與額度監控工具，與 DSH 開發相關"
+  },
+  "scores": [
+   36,
+   33
+  ],
+  "score": 34,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Lemxy/WinRust",
+  "url": "https://github.com/Lemxy/WinRust",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 969,
+  "language": "Rust",
+  "topics": [],
+  "publishedAt": "2026-11-17T14:27:06Z",
+  "body": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.\n\nREADME 節錄： # WinRust **A Windows shell written in Rust: faster and lighter than the stock one.** Small native programs (no .NET, no Electron) that replace parts of Windows: the taskbar, File Explorer, file search, Task Manager, plus a disk cleaner, a disk map and a photo viewer. One installer puts them in, one button takes them all out. English | Русский > **Read this first.** WinRust turns off Windows Search, hides the taskbar and can turn off Explorer as the shell. The exe is not code-signed, so SmartScreen will warn you. A restore point is created before install, but try it on a spare machine or a VM first. ## Install 1. Download `WinRust.exe` from the latest release (Windows 10/11, x64). 2. Run it as administrator. 3. Tick the components you want and press the install button. On a fresh install, `rust-explorer` is unchecked. Tick it to replace the Windows Explorer shell (or use the gear on the topbar row: the **Shell: rust-explorer** switch). They are installed in the right order; one that fails or is skipped does not stop the others, the window lists what went wrong. Windows Search is optional: on a stripped Windows (for example a debloated LTSC image without the Windows Search service) that step is skipped with a warning instead of failing the install. If UAC asks for **another administrator's** password, the per-user settings (startup entries, schedule",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 開源 Windows shell 替代專案，屬開發工具與開源專案"
+  },
+  "scores": [
+   49,
+   42
+  ],
+  "score": 45,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "dennisyang1986/polymarket-proxy",
+  "url": "https://github.com/dennisyang1986/polymarket-proxy",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 148,
+  "language": "JavaScript",
+  "topics": [
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "polymarket",
+   "prediction-markets",
+   "trading"
+  ],
+  "publishedAt": "2026-11-16T15:11:47Z",
+  "body": "Polymarket Proxy — a local Polymarket desk inside DeepSeek Harness: deposit address, portfolio, market radar and live trading when the official site is unavailable.\n\nREADME 節錄： # Polymarket Proxy **A local Polymarket desk inside DeepSeek Harness — check your portfolio, deposit and trade, even when the official website won't let you.** English · 简体中文 --- ## Why Polymarket Proxy? Polymarket's own website is not available everywhere. The deposit page may refuse to load, the trading UI may fail to connect a wallet, or the whole site may be blocked on your network — while your account, your positions and Polymarket's liquidity are still there. Polymarket Proxy is a **local panel for DeepSeek Harness** that talks to the same public Polymarket services directly: - it reconstructs your **deposit address** from the public Polygon deposit history, so you can fund an account without the website's deposit modal; - it signs order requests with **your own private key** through Polymarket's official CLOB client, so you can buy and sell without the website's trading screen; - it keeps a **live market radar** of Polymarket's highest-volume events, so you can find and open a market without the website's front page. > **Eligibility is still Polymarket's decision.** This project does not create accounts, > bypass KYC, or change where you are. Use it only with an account you are allowed to use, > and follow Polymarket's terms and your local laws. See Disclaimer. ## Screenshots | Market radar | Ev",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 外掛開源專案，與 coding agent 生態實質相關"
+  },
+  "scores": [
+   56,
+   54
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "R0Y00/Xbox2Windows",
+  "url": "https://github.com/R0Y00/Xbox2Windows",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 968,
+  "language": "Python",
+  "topics": [
+   "d3d12",
+   "directx-raytracing",
+   "scarlett",
+   "static-recompilation",
+   "windows",
+   "xbox",
+   "xbox-series-x"
+  ],
+  "publishedAt": "2026-11-20T17:43:52Z",
+  "body": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.\n\nREADME 節錄：# Xbox2Windows Xbox2Windows investigates **static recompilation of Xbox Series X|S (Scarlett) software for x64 Windows**. The CPU experiments translate source-built x64 functions from PE machine code through C++ to Windows executables and DLLs. A source-built EXE now runs end to end from its translated entry through an internal call and a named DLL import. The shader experiment translates selected gfx1013 pixel shaders through HLSL to desktop DXIL. Other experiments test the Windows runtime, render recovered texture levels and read script state data. Title CPU code execution, full-game startup and frame rate remain unverified. New to the project? The pinned guide in GitHub Discussions will help you choose a first contribution. Ask build and debugging questions in Development Q&A. ## Current results and open work | Area | Result on Windows | Open question or contribution | |---|---|---| | FidelityFX upscaler | The recompiled provider creates 11 resources at 720p → 1080p and a twelfth with the debug flag. On RTX 4060 Laptop and WARP, both the per-resource indices and the returned loader and provider handles passed. Recompiled graph pass 26 wrote the RCAS intermediate and the recompiled RCAS shader read it with five integer texel loads per output. Passes 24 and 25 supplied all 72 scratch reads on the 8×4 tile",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Xbox靜態重編譯開源專案，涉D3D12、著色器與工具鏈"
+  },
+  "scores": [
+   34,
+   18
+  ],
+  "score": 26,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "siliconjungle/shapeshift-labs-ink-studio",
+  "url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 966,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-16T07:44:00Z",
+  "body": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats\n\nREADME 節錄：# @shapeshift-labs/ink-studio A JavaScript toolkit for sculpting signed-distance solids, baking them into pixel-art Gaussian splats, and making them move, react, break, grow and remember what happened to them. Use it from Node, drive it through the `ink-studio` command, or embed the source bundle in an Inkwell or browser application. The package includes geometry, materials, lighting, animation, character controls, particles, physics, procedural generation, and retained authoring. Write scenes in JavaScript or JSON, render images through the CPU-based Node and CLI tools, or draw into a canvas with the default WebGL 2 browser renderer. Browser hosts supply the editor UI and advance the scene. ## Contents - Install and run - First sculpted scene - Using the library in Node - Scene lifecycle and splat data - Geometry and materials - Scenes as JSON - Animation and puppets - Particles and interaction - Physics and persistent effects - Importing meshes - Exporting GLB models - Importing depth maps - Procedural worlds - Retained authoring - Editable 3D drawing - Headless world simulation - Editable starter recipes - Rendering and command reference - View-dependent surface materials - Projected and procedural effects - Reflections, ripples and atmosphere - Embedding and custom scene collections - Browser renderer - Live show control - CLI patch tooling - WebGPU graphs and Gaussian splat import - Scre",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "JavaScript 像素藝術 Gaussian splat 雕塑與動畫工具，含 WebGL 渲染與 CLI"
+  },
+  "scores": [
+   66,
+   55
+  ],
+  "score": 60,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "omonkeyz/xbox-emulator",
+  "url": "https://github.com/omonkeyz/xbox-emulator",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 846,
+  "language": "Rust",
+  "topics": [],
+  "publishedAt": "2026-11-21T08:08:39Z",
+  "body": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)\n\nREADME 節錄：# Xbox Emulator **Running the Xbox Series X|S library on PC. A continuation of drycheetah84/TomBox.** The runtime reimplements the console's platform layer (Xbox-flavoured Direct3D 12, precompiled RDNA2 shaders, unified-memory textures, system libraries) so dumped, already-decrypted Xbox Series X|S builds run as normal Windows processes. It is not tied to any single title. This repo tracks our continuation — new titles brought up, platform calls extended, shader stages unlocked. Uses legally obtained, already-decrypted dumps. The runtime does no key extraction or package decryption. **Source code:** the emulator's Rust workspace is in this repo: `crates/`, `tools/` and `Cargo.toml`. It contains no game files, binaries or build output. **Contributing:** pull requests are welcome, especially console library functions still marked missing in the library map. See CONTRIBUTING.md. Licensed MIT OR Apache-2.0. ## Status One square per item. The first four sections use upstream's definitions so the numbers stay comparable: green = done, amber = partial (a stub, a forwarder, or not verified to work), grey = not done — imported system functions of the Fortnite EXE, Direct3D 12.x interface methods, RDNA2 shader instructions the decoder knows, and the eight shader stages (mesh and amplification still grey). The fifth section is ours and covers Xbox console libraries only: the exports of the console OS DLL",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 開源 Xbox 模擬器，開源專案與開發工具"
+  },
+  "scores": [
+   43,
+   32
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "boringmarketer/boring-marketing-skills",
+  "url": "https://github.com/boringmarketer/boring-marketing-skills",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 778,
+  "language": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "claude-code",
+   "codex",
+   "copywriting",
+   "local-seo",
+   "marketing",
+   "seo"
+  ],
+  "publishedAt": "2026-11-16T15:09:46Z",
+  "body": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.\n\nREADME 節錄：# Boring Marketing Skills Free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep pack for local businesses and the people who market them. 32 skills for Claude Code, Codex, Cursor and other agents. They were built from real campaigns, and every one works without a paid tool. MIT licensed. Made by James Dickerson (@boringmarketer). More at boringmarketing.com. Need clients to use this on? boringfunnels.com finds local businesses losing customers (I make it). Want agents built for your team? Work with us. Want the bigger picture? The free forward-deployed marketing playbook is 49 boards on building the marketing brain your agents run on, with these skills as the context layer. ## Install Any agent (Claude Code, Codex, Cursor and others): ```bash npx skills add boringmarketer/boring-marketing-skills ``` Claude Code plugin: ``` /plugin marketplace add boringmarketer/boring-marketing-skills /plugin install boring-marketing@boring-marketing-skills ``` Then type `/start-here` and name the business. It reads the site and the reviews, writes the brand files every other skill uses, and tells you which skill to run next. The first run takes about 3 minutes. ## The skills Grouped by stage, in the order a customer meets a business. ### Start here | S",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI Agent 技能包，Claude Code／Codex 可用"
+  },
+  "scores": [
+   52,
+   44
+  ],
+  "score": 48,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "MSNightmare/FastUnlock",
+  "url": "https://github.com/MSNightmare/FastUnlock",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 649,
+  "language": null,
+  "topics": [],
+  "publishedAt": "2026-11-19T12:37:51Z",
+  "body": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability\n\nREADME 節錄：# FastUnlock FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability The vulnerability exist in the way how narrator handles UI in a locked account context, succesful exploitation results in bypassing bitlocker and executing code in the context of the lockscreen account \"WsiAccount\" It took a total of 5 minutes from finding this to breaching a fully encrypted bitlocker machine with Windows 11 26H2 November Patch installed, an issue caused by total negligence from Microsoft's side... The vulnerability seems to be extremely consistent in every machine I tested it in, in other words, if you know how to control narrator in the background properly or just press the correct combination of buttons, you will get code execution in the target machine as well. Obviously this needs physical access and at least one account in the machine to be linked to an online account, this breaks the guarantee that a properly secured bitlocker machine cannot be accessed even if the attacker has physical access so hold tight any windows machines until Microsoft patches this. In the process of giving narrator a new look, Microsoft forgot to make sure that the new UI does not run in the case it was running in the context of a lockscreen user (interestingly it still has the old code that prevents it from spawning the window if it's running as SYSTEM) Unlike the previous lockscreen bypass bugs I found in the past (by e",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "Windows 漏洞利用揭露，與開發工具或 AI 無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "0xkaka/homeport",
+  "url": "https://github.com/0xkaka/homeport",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 616,
+  "language": "HTML",
+  "topics": [],
+  "publishedAt": "2026-11-17T05:39:46Z",
+  "body": "\n\nREADME 節錄：# homeport **一句话：让 Claude、Google、Stripe 这些网站，在你所有设备上都看到同一个“住宅 IP”。** 很多人用机场节点访问 Claude / Google，节点一会儿日本一会儿美国，IP 来回跳，再加上机场 IP 是机房 IP，很容易触发风控：注册要验证、付款失败、身份认证不过、甚至封号。 homeport 做的事情很简单：把这些“敏感网站”单独挑出来，统一走一条固定的**住宅代理**；其他网站照旧走你的机场，速度不受影响。 > 🛒 **还没有住宅 IP？** 看这篇 👉 便宜静态住宅 IP 购买教程 --- ## ⚡ 懒人一键版（推荐小白） 打开 👉 **https://0xkaka.github.io/homeport/** 1. 照着服务商后台，填上住宅代理的地址、端口、用户名、密码； 2. 选你的设备和软件，点「复制」，到软件里粘贴（iPhone 可以直接扫码加节点）； 3. 打开 `ipv4.webshare.io` 看 IP 对不对。 账号密码只在你自己浏览器里处理，不会上传。下面是详细的手动教程，一键版搞不定再看。 --- ## 目录 1. 原理（看不懂可以跳过） 2. 开始前要准备什么 3. Clash Party（Mac / Windows） 4. Clash Verge Rev（Windows / Mac） 5. 安卓：FlClash 6. 小火箭 Shadowrocket（iPhone / iPad / Mac） 7. 检查是否成功 8. Claude Code、终端、Chrome 的额外设置 9. 常见问题 10. 哪些网站会走住宅出口 11. 给维护者：修改规则 --- ## 1. 原理（看不懂可以跳过） ``` ┌──────────────── 敏感网站（Claude / Google / Stripe …）────────────────┐ 你的设备 ──►│ 跳板（你在机场里选的那个节点）──► 🏠住宅出口-勿选（住宅代理）──► 网站 │ └───────────────────────────────────────────────────────────────────────┘ 其他网站 ──► 照常走你的机场 ``` - **🏠住宅出口-勿选**：你买的住宅代理。网站最终看到的就是它的 IP。所有设备填同一个，IP 就一致了。 - **跳板**：国内直连住宅代理，握手内容是明文，容易被干扰断线；先经过一个机场节点再连过去就稳了。跳板就是**你平时在机场里选的那个节点**，你切到哪个，住宅代理就经过哪个；跳板换来换去**不影响**最终 IP。 - 另外，Claude 的 IPv6 地址走住宅代理会报错（502），这套规则直接把它拦掉，让设备自动改用 IPv4，你不用管。 --- ## 2. 开始前要准备什么 ### ① 一个机场订阅（你现在翻墙用的那个） 已经能正常翻墙就行。**任何机场、任何地区的节点都行**，节点叫什么名字都没关系：住宅代理会经过你在机场里选的那个节点。 ### ② 一条静态住宅代理（HTTP 或 SOCKS5） 去住宅代理服务商购买，选的时候注意三点： （不会买的话先看 👉 便宜静态住宅 IP 购买教程） | 要求 | 说明 | | --- | --- | | **静态（Static）** | IP 固定不变。别买“动态/轮换（Rotating）”的。 | | **住宅（Residential / ISP）** ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "住宅代理設定工具，助存取 Claude 等 AI 服務"
+  },
+  "scores": [
+   58,
+   72
+  ],
+  "score": 65,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+  "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 538,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-19T10:40:46Z",
+  "body": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks\n\nREADME 節錄：# Ultimate Open Source Face Recognition SDK Open Source Face Recognition SDK A Free, Privacy-Focused Face Recognition Solution for Windows and Linux Built with deep learning technology, featuring face detection, facial landmarks, feature extraction, and face similarity comparison. --- ## 🚀 Overview The **Open Source Face Recognition SDK** is a free, privacy-focused solution designed to integrate face recognition capabilities into applications running on Windows and Linux. Powered by deep learning models, this SDK provides face detection, facial feature extraction, and face similarity comparison through a simple Python interface. **Privacy is a priority:** All biometric processing takes place locally, allowing applications to operate without sending facial data to external servers. ### ✨ Key Features - 🔒 **100% On-Premise Processing:** All face recognition operations run locally. No biometric data needs to leave your device. - 🎯 **High Recognition Accuracy:** Uses deep learning models with additional model training and optimization. - ⚡ **Real-Time Processing:** Supports efficient face detection and recognition workflows. - 🔧 **Easy Integration:** Simple Python APIs for application development. - 🌐 **Cross-Platform:** Supports Windows and Linux. - 💻 **C",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源人臉辨識 SDK，含 Python API 與深度學習模型，與開發及 AI 影像工具相關"
+  },
+  "scores": [
+   27,
+   30
+  ],
+  "score": 28,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "replit/datacat",
+  "url": "https://github.com/replit/datacat",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 495,
+  "language": "TypeScript",
+  "topics": [
+   "alerting",
+   "apm",
+   "clickhouse",
+   "dashboards",
+   "logging",
+   "metrics",
+   "monitoring",
+   "observability",
+   "opentelemetry",
+   "postgresql",
+   "self-hosted",
+   "tracing"
+  ],
+  "publishedAt": "2026-11-17T02:51:06Z",
+  "body": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.\n\nREADME 節錄：# DataCat Self-hosted observability: metrics, logs, distributed traces, dashboards, infrastructure and alerts in one place. DataCat runs on your infrastructure, stores data in PostgreSQL (or telemetry in ClickHouse, if you choose; see docs/SELF_HOSTING.md), and accepts OpenTelemetry and Datadog-compatible agent traffic. No hosted account or external service is required. ## Features - Metrics explorer, formulas, dashboards and host maps - Searchable logs with facets, live tail and trace correlation - APM service catalog, trace explorer and waterfall - Metric, log and trace monitors with webhook/Slack notifications - Organizations, local accounts, single-use invites, API/application keys - OpenTelemetry Collector-based host agent and Node.js/Python instrumentation libraries - One production process serving the API, web UI, installer and downloads ## Quick start with Docker Compose Requirements: Docker Engine with the Compose plugin, Git, and OpenSSL. ```sh git clone https://github.com/replit/datacat cd datacat cp .env.example .env sed -i \"s/^POSTGRES_PASSWORD=.*/POSTGRES_PASSWORD=$(openssl rand -hex 24)/\" .env sed -i \"s/^SESSION_SECRET=.*/SESSION_SECRET=$(openssl rand -hex 32)/\" .env chmod 600 .env mkdir -p downloads docker compose up -d --build ``` Open **http://localhost:3000**, create your admin account and organization, the",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源自架可觀測性工具，與開發工具實質相關"
+  },
+  "scores": [
+   47,
+   49
+  ],
+  "score": 48,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Illson/RustText",
+  "url": "https://github.com/Illson/RustText",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 468,
+  "language": "C#",
+  "topics": [
+   "jsonl",
+   "large-files",
+   "log-viewer",
+   "portable",
+   "text-editor",
+   "windows"
+  ],
+  "publishedAt": "2026-11-16T17:46:45Z",
+  "body": "Portable Windows text editor with Sublime Text-style multi-cursor editing, regex find and replace, split views, and a live viewer for large log files.\n\nREADME 節錄：# RustText **RustText is a portable text editor for Windows x64 for everyday editing and large files.** **Coming from Sublime Text?** Use `Ctrl+D` to add the next match and edit several occurrences at once. Open files side by side in split views and use regular expressions to find and replace text. When you open a large log, RustText can search the entire file, filter by severity, and follow new lines as they arrive. **RustText — текстовый редактор для Windows x64.** Редактируйте несколько выделений одновременно, открывайте файлы рядом и возвращайтесь к своим вкладкам и черновикам после перезапуска. Большие текстовые файлы можно редактировать постранично. Для JSON и JSON Lines есть подсветка, проверка и форматирование. Скачать RustText для Windows x64 · Распакуйте архив и запустите `rusttext.exe`. ## Запуск и сборка RustText использует .NET 11, Avalonia и AvaloniaEdit. Файл `rusttext.exe` включает среду выполнения .NET. Графические библиотеки из EXE распаковываются в пользовательский кэш при первом запуске. Запустите `rusttext.exe` или передайте ему путь к файлу. ```powershell & .\\rusttext.exe 'C:\\логи\\пример.log' ``` Для разработки установите SDK .NET 11. Для выпуска Native AOT нужен компонент Visual Studio «Разработка классических приложений на C++» с Windows SDK. Команды выполняются из корня репозитория. ```powers",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust/GPUI 開源文字編輯器與日誌檢視器，屬開發工具"
+  },
+  "scores": [
+   22,
+   27
+  ],
+  "score": 24,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "CocoSgt/riemann-hypothesis-lean",
+  "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 449,
+  "language": "Lean",
+  "topics": [],
+  "publishedAt": "2026-11-20T14:59:14Z",
+  "body": "Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge\n\nREADME 節錄：# Riemann Hypothesis in Lean — by Levent Alpöge (with Claude) > **The proof in this repository is the work of Levent Alpöge.** > On 2026-11-20 he announced that, working with Claude, he had found a proof of the Riemann Hypothesis that extends to the Generalized Riemann Hypothesis (for Dirichlet L-functions), and that the argument is fully formalized in Lean without assumptions. > All credit belongs to Levent Alpöge (and Claude). This repository is an unmodified mirror of the Lean code he published, put on GitHub so that people and agents can browse, clone and check it. > > 本仓库只是镜像：证明由数学家 Levent Alpöge（和 Claude 合作）完成，署名与一切功劳归他。代码原样搬运，没有改动。 - Announcement (4 pages): https://alpo.ge/remark.pdf - Original download: https://alpo.ge/lean.tar.gz.part01 … https://alpo.ge/lean.tar.gz.part14 - Merged archive in this repo's Releases **Status.** As of mirroring (2026-11-20), no independent build or review of this code has been published. Treat it as a claimed proof until it has been compiled and checked. --- ## What is proved The target statements are short. Read these two files first. `src/Main.lean` ```lean import Statements import Supplements.Kernels.MainTheoremsAll theorem riemannHypothesis : RiemannHypothesis := rhOfAll theorem riemannZeta_eq_zero_re : RiemannZetaZerosOnLine := rhOfAll theorem LFunction_ne_zero_of_half_lt_re : DirichletLNonvanishingRi",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Claude 協作 Lean 形式化證明之開源鏡像，與 AI 模型及開源專案相關"
+  },
+  "scores": [
+   60,
+   74
+  ],
+  "score": 67,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "leanprover-community/riemann-hypothesis",
+  "url": "https://github.com/leanprover-community/riemann-hypothesis",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 426,
+  "language": "Lean",
+  "topics": [],
+  "publishedAt": "2026-11-20T14:47:49Z",
+  "body": "Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)\n\nREADME 節錄：# riemann-hypothesis A Comparator setup and community build cache for the Lean formalization that claims a proof of the Riemann Hypothesis, and of GRH for Dirichlet L-functions, announced on 2026-11-20 at . The first commit, `40e56bab`, is the submitted Lean source exactly as published. Since then, cleanup pull requests have removed 10,724 of its 175,187 files and edited 18; the notes list them. Check out `40e56bab` for the original. This repository also adds Comparator files and cache infrastructure: | File | What it is | |---|---| | `src/Challenge.lean` | the five theorems, stated in a file that imports only Mathlib | | `comparator.json` | the Comparator config | | `export-targets.txt` | the declarations to export | | `verification/` | our notes, and the results once there are some | | `scripts/` | public Lake cache configuration and reproducible bootstrap/publishing tools | ## Using the build cache Fetch and restore Mathlib and this project's compiled modules: ```bash lake exe cache get lake build --no-build ``` The cache settings are in `lakefile.toml`; no user configuration is needed. The first command fetches both caches anonymously and extracts the oleans to `.lake/build`. It prefers a successful CI build matching the current clean source, configuration, dependency manifest and toolchain; documentation-only commits can reuse the same cache. Otherwise it tri",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Lean 形式化開源專案，含建置快取與驗證工具"
+  },
+  "scores": [
+   25,
+   45
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "duwqijlk/google-trial-tool",
+  "url": "https://github.com/duwqijlk/google-trial-tool",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 400,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-19T11:06:16Z",
+  "body": "\n\nREADME 節錄：# Google AI Trial Tool 内容为转载，来自q群797481450 这次的会封号 ，涉及工具调用，慎用 通过 Frida 注入 Google One 进程调用 BillingClient API，发现并激活隐藏的 $0 免费试用。 ## 前提条件 | 组件 | 说明 | |---|---| | **MuMu 模拟器** | 已启动，已登录 Google 账号，已绑定付款方式 | | **adb** | 在 PATH 中，或设置 `ADB_PATH` 环境变量 | | **frida** (host) | `pip install frida-tools`，版本 ≥ 16 | | **frida-server** (device) | 推送到设备 `/data/local/tmp/frida-server` 并赋予执行权限 | | **module.apk** (device) | 包含 BillingClient 库的 APK，推送到 `/data/local/tmp/module.apk` | | **Google One** | 设备上已安装 (`com.google.android.apps.subscriptions.red`) | ## 设备准备 ```bash # 连接 MuMu adb connect 127.0.0.1:16384 # 推送 frida-server（从 https://github.com/frida/frida/releases 下载对应架构） adb push frida-server /data/local/tmp/frida-server adb shell \"chmod 755 /data/local/tmp/frida-server\" # 推送 module.apk（包含 com.android.billingclient 的 APK） adb push module.apk /data/local/tmp/module.apk ``` ## 用法 ```bash # 列出当前账号所有可用试用 ./auto-trial.sh --list # 激活 Pro (5TB, $19.99/mo) 3个月免费试用 ./auto-trial.sh --product pro --dur 3mo # 激活 Pro variant (5TB, $19.99/mo) 12个月免费试用 ★推荐 ./auto-trial.sh --product pro12 --dur 12mo # 激活 Ultra 20x (30TB, $199.99/mo) 12个月免费试用 ./auto-trial.sh --product 20x --dur 12mo # 激活 Ultra 5x (20TB, $99.99/mo) 6个月免费试用 ./auto-trial.sh --product 5x --dur 6mo # 自动选最长试用（默认最高档） ./auto-trial.sh # 指定 MuMu ADB 端口 ./auto-trial.sh --port 16416 --product pro --dur 3mo ``` ### 参数 | 参数 | 说明 | 默认值 | |---|---|---| | `--list` | 只列出试用，不激活 | (激活模式) | | `--product` | `pro` / `pro12` / `5x` / `20x` / `auto` / `g1.*`",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "盜用免費試用詐騙腳本，非開發內容"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "danielwh2/sprite-stacking",
+  "url": "https://github.com/danielwh2/sprite-stacking",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 385,
+  "language": "HTML",
+  "topics": [
+   "agent-skills",
+   "claude-code",
+   "codex",
+   "cursor",
+   "fake-3d",
+   "gamedev",
+   "pixel-art",
+   "sprite-stacking",
+   "voxel"
+  ],
+  "publishedAt": "2026-11-20T14:32:43Z",
+  "body": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.\n\nREADME 節錄：# sprite-stacking An agent skill that turns four pixel art views into fake-3D sprites you can spin. By Daniel White. ## Install ```bash npx skills add danielwh2/sprite-stacking ``` Installs to the current project. Add `-g` for every project, `-a claude-code` (or `codex`, `cursor`, ...) to pick an agent. Uses the skills CLI, Node 22.20 or later. Or copy `skills/sprite-stacking` into your agent's skills folder: | Agent | Folder | | --- | --- | | Claude Code | `~/.claude/skills/` | | Codex, Cursor, OpenCode, Gemini CLI, Pi | `~/.agents/skills/` | ## Use Ask your agent: - \"Make a rotatable pixel art car.\" - \"Sprite stack this 4-view sheet and give me a turntable.\" - \"Add a fake 3D pixel art tree to my Godot game.\" No image generator? The agent draws the views itself in a short Python script. ## How it works 1. **Views:** top, side, front and back, orthographic, one row. 2. **Carve:** a voxel survives only where all four views cover it. 3. **Slices:** the volume is cut into a strip of flat layers, ground first. 4. **Render:** each layer is rotated, squashed for pitch and lifted 1 px. ## Slicer CLI ```bash python3 skills/sprite-stacking/scripts/views_to_slices.py views.png slices.png \\ --slices 36 --preview check.png --html viewer.html ``` - `--slices N`: layer count. 15-20 chunky, 32-48 detailed. - `--order reading`: force TOP, SIDE,",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Agent skill 將四視圖轉偽3D像素精靈，涉及 Claude Code、Codex 與遊戲開發"
+  },
+  "scores": [
+   78,
+   79
+  ],
+  "score": 78,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "sybil-solutions/skill-distill",
+  "url": "https://github.com/sybil-solutions/skill-distill",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 379,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-21T01:43:00Z",
+  "body": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task\n\nREADME 節錄：# skill-distill A frontier model did a task well. Can an open-weight model do the same task, given the right instructions? `skill-distill` is a skill for Claude Code or Codex (the **teacher**). You call it at the end of a good session and name a **student**: an agent harness plus a model, for example omp with DeepSeek-V4.1-Flash. The teacher then loops: 1. reads the session and writes a skill for the student; 2. starts the student in tmux, on a fresh copy of the starting state, with the original prompt and the skill; 3. compares what the student produced with what the reference produced; 4. finds the first place the student went wrong and fixes the skill there; 5. runs again, three trials per version, until the student matches the reference. You make the final call: the teacher shows you the reference and the student's best results side by side, and the skill counts as done only when you accept it. The result is two things: the reusable **operator skill** in this repo, and a **produced skill** for one task, one model and one harness. ## Install ``` git clone https://github.com/sybil-solutions/skill-distill ln -s \"$PWD/skill-distill/skills/skill-distill\" ~/.claude/skills/skill-distill # Claude Code ln -s \"$PWD/skill-distill/skills/skill-distill\" ~/.agents/skills/skill-distill # Codex ``` Requirements: `tmux`, `git`, Python 3.10+, and the student harness inst",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "將 Claude Code／Codex 工作階段蒸餾成技能供開源模型使用，屬 Agent 技能開發工具"
+  },
+  "scores": [
+   62,
+   68
+  ],
+  "score": 65,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "CoderL98/hghub-plugins",
+  "url": "https://github.com/CoderL98/hghub-plugins",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 379,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-16T03:33:57Z",
+  "body": "HGhub HPP 1.0 单文件插件与订阅源\n\nREADME 節錄：# HGhub 插件订阅源 按 HGhub 插件开发教程 编写的 HPP 1.0 单文件源合集。 当前应用 **0.0.1 / HPP 1.0.0-dev**。协议仍是草案，导入前请对照当前支持状态。 站点行为参考 xptv-extensions 的 JS 蜘蛛，映射到 HPP：`tabs` → 分类，`cards` → `MediaItem`，`tracks` → 播放列表/分集，`playinfo` → `streams`。作品与分集 ID 使用路径或上游编号，不把会过期的播放地址当 ID。 ## 订阅地址 在 HGhub **插件中心 → 导入与订阅** 粘贴下面任一 HTTPS 地址。列表里的插件路径是相对路径，会按列表最终 URL 解析。 | 列表 | 内容 | GitHub Raw | jsDelivr | | --- | --- | --- | --- | | 全部 | 21 个源（含成人） | `https://raw.githubusercontent.com/CoderL98/hghub-plugins/main/manifest.json` | `https://cdn.jsdelivr.net/gh/CoderL98/hghub-plugins@main/manifest.json` | | 影视 | 14 个影视 / 动漫 / 短剧 | `https://raw.githubusercontent.com/CoderL98/hghub-plugins/main/subs/vod.json` | `https://cdn.jsdelivr.net/gh/CoderL98/hghub-plugins@main/subs/vod.json` | | 成人 | 7 个成人源（`mature`） | `https://raw.githubusercontent.com/CoderL98/hghub-plugins/main/subs/18.json` | `https://cdn.jsdelivr.net/gh/CoderL98/hghub-plugins@main/subs/18.json` | 推荐先订 **影视源**。成人列表需在设置里打开成人内容后再导入。GitHub Raw 若打不开，改用 jsDelivr。 仓库首页： ### 导入步骤 1. 打开 HGhub → **插件中心 → 导入与订阅** 2. 粘贴上表中的 HTTPS 地址（不要选本地 `manifest.json`：Android 文件选择器读不到同目录的 `plugins/*.js`） 3. 预览元信息后勾选要安装的条目 4. 确认状态为 **已就绪** 5. 从首页、分类或搜索进入详情，点集播放 订阅后可手动刷新列表。同 ID 更高版本会更新，同版本覆盖用于调试。 单独导入某个源时，使用对应 JS 的 raw 地址，例如： `https://raw.githubusercontent.com/CoderL98/hghub-plugins/main/plugins/huangguo.js` ## 插件 | 文件 | ID | 能力 | 备注 | | --- | --- | --- | --- | | `plugins/4kav.js` | `4kav` | 首页、分类、搜索、详情、直链 | 4kmp | | `plugins/hjkk.js` | `hjkk` | 分类、搜索、详情、播",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "含成人18+訂閱源與插件，公開群組不得發布"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ }
+]

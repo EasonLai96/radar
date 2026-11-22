@@ -5118,5 +5118,292 @@
    "why": "抓素材或檔案時，不用怕對話結束就中斷，手機上也能放心排隊下載。"
   },
   "at": "2026-11-21T04:10:03.587Z"
+ },
+ "prefilter:d2932bff:deepseek:https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "化學爆裂物示範，與 AI 或開發工具無關"
+  },
+  "at": "2026-11-22T03:19:10.516Z"
+ },
+ "prefilter:d2932bff:deepseek:https://simonwillison.net/2026/Nov/21/muru": {
+  "v": {
+   "label": "PASS",
+   "reason": "AI 輔助 Python Web 伺服器開發工具"
+  },
+  "at": "2026-11-22T03:19:11.650Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/JimLiu/open-artifact": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源 agent 技能與本地 artifact 編輯工具，與 Claude Code 開發流程直接相關"
+  },
+  "at": "2026-11-22T03:19:12.903Z"
+ },
+ "prefilter:d2932bff:deepseek:https://leanprover-community.github.io/blog/posts/riemann-hypothesis": {
+  "v": {
+   "label": "PASS",
+   "reason": "Lean 定理證明器屬程式語言與開源工具，與開發實質相關"
+  },
+  "at": "2026-11-22T03:19:14.699Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/ShinMegamiBoson/lookatmyquant": {
+  "v": {
+   "label": "PASS",
+   "reason": "本地模型低記憶體執行，與AI模型相關"
+  },
+  "at": "2026-11-22T03:19:14.927Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/ItsNotRexed/Leonida": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源遊戲靜態重編譯專案，涉Vulkan著色器技術"
+  },
+  "at": "2026-11-22T03:19:15.063Z"
+ },
+ "prefilter:d2932bff:deepseek:https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently": {
+  "v": {
+   "label": "UNKNOWN",
+   "reason": "僅標題與日期，無法判斷是否與 AI 模型或開發工具有關"
+  },
+  "at": "2026-11-22T03:19:15.489Z"
+ },
+ "prefilter:d2932bff:deepseek:https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html": {
+  "v": {
+   "label": "PASS",
+   "reason": "GnuPG 遠端執行漏洞，屬開發工具安全議題"
+  },
+  "at": "2026-11-22T03:19:16.370Z"
+ },
+ "prefilter:d2932bff:deepseek:https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "標題與摘要無技術內容，疑為哲學隨筆，與開發無關"
+  },
+  "at": "2026-11-22T03:19:18.813Z"
+ },
+ "prefilter:d2932bff:deepseek:https://blog.tymscar.com/posts/studiodisplayethernet": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "螢幕影響網速的硬體問題，與開發無關"
+  },
+  "at": "2026-11-22T03:19:19.173Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/R0Y00/Xbox2Windows": {
+  "v": {
+   "label": "PASS",
+   "reason": "Xbox靜態重編譯開源專案，涉D3D12、著色器與工具鏈"
+  },
+  "at": "2026-11-22T03:19:20.237Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/omonkeyz/xbox-emulator": {
+  "v": {
+   "label": "PASS",
+   "reason": "Rust 開源 Xbox 模擬器，開源專案與開發工具"
+  },
+  "at": "2026-11-22T03:19:21.115Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/hatsunemiku-ai/google-one-tools": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "以 Frida 濫用 Play 計費掃描／拉起訂閱，屬刷星作弊類工具"
+  },
+  "at": "2026-11-22T03:19:21.443Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/CocoSgt/riemann-hypothesis-lean": {
+  "v": {
+   "label": "PASS",
+   "reason": "Claude 協作 Lean 形式化證明之開源鏡像，與 AI 模型及開源專案相關"
+  },
+  "at": "2026-11-22T03:19:22.646Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/replit/datacat": {
+  "v": {
+   "label": "PASS",
+   "reason": "開源自架可觀測性工具，與開發工具實質相關"
+  },
+  "at": "2026-11-22T03:19:23.288Z"
+ },
+ "prefilter:d2932bff:deepseek:https://news.ycombinator.com/item?id=50583761": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "求職困境閒聊，與開發工具技術無關"
+  },
+  "at": "2026-11-22T03:19:23.630Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/danielwh2/sprite-stacking": {
+  "v": {
+   "label": "PASS",
+   "reason": "Agent skill 將四視圖轉偽3D像素精靈，涉及 Claude Code、Codex 與遊戲開發"
+  },
+  "at": "2026-11-22T03:19:26.474Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/leanprover-community/riemann-hypothesis": {
+  "v": {
+   "label": "PASS",
+   "reason": "Lean 形式化開源專案，含建置快取與驗證工具"
+  },
+  "at": "2026-11-22T03:19:26.646Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/sybil-solutions/skill-distill": {
+  "v": {
+   "label": "PASS",
+   "reason": "將 Claude Code／Codex 工作階段蒸餾成技能供開源模型使用，屬 Agent 技能開發工具"
+  },
+  "at": "2026-11-22T03:19:27.681Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/duwqijlk/google-trial-tool": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "盜用免費試用詐騙腳本，非開發內容"
+  },
+  "at": "2026-11-22T03:19:28.890Z"
+ },
+ "prefilter:d2932bff:deepseek:https://github.com/CoderL98/hghub-plugins": {
+  "v": {
+   "label": "BLOCK",
+   "reason": "含成人18+訂閱源與插件，公開群組不得發布"
+  },
+  "at": "2026-11-22T03:19:33.486Z"
+ },
+ "scoreB:118d0780:glm:https://leanprover-community.github.io/blog/posts/riemann-hypothesis": {
+  "v": 75,
+  "at": "2026-11-22T03:19:37.720Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/ShinMegamiBoson/lookatmyquant": {
+  "v": 42,
+  "at": "2026-11-22T03:19:38.011Z"
+ },
+ "scoreB:118d0780:glm:https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently": {
+  "v": 45,
+  "at": "2026-11-22T03:19:38.159Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/ItsNotRexed/Leonida": {
+  "v": 48,
+  "at": "2026-11-22T03:19:38.392Z"
+ },
+ "scoreB:118d0780:glm:https://simonwillison.net/2026/Nov/21/muru": {
+  "v": 37,
+  "at": "2026-11-22T03:19:39.956Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/ShinMegamiBoson/lookatmyquant": {
+  "v": 32,
+  "at": "2026-11-22T03:19:40.442Z"
+ },
+ "scoreA:118d0780:deepseek:https://simonwillison.net/2026/Nov/21/muru": {
+  "v": 33,
+  "at": "2026-11-22T03:19:41.639Z"
+ },
+ "scoreB:118d0780:glm:https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html": {
+  "v": 31,
+  "at": "2026-11-22T03:19:44.096Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/JimLiu/open-artifact": {
+  "v": 73,
+  "at": "2026-11-22T03:19:44.118Z"
+ },
+ "scoreA:118d0780:deepseek:https://leanprover-community.github.io/blog/posts/riemann-hypothesis": {
+  "v": 50,
+  "at": "2026-11-22T03:19:44.306Z"
+ },
+ "scoreA:118d0780:deepseek:https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently": {
+  "v": 3,
+  "at": "2026-11-22T03:19:44.703Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/R0Y00/Xbox2Windows": {
+  "v": 18,
+  "at": "2026-11-22T03:19:47.300Z"
+ },
+ "scoreA:118d0780:deepseek:https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html": {
+  "v": 30,
+  "at": "2026-11-22T03:19:50.122Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/JimLiu/open-artifact": {
+  "v": 63,
+  "at": "2026-11-22T03:19:51.533Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/ItsNotRexed/Leonida": {
+  "v": 38,
+  "at": "2026-11-22T03:19:52.177Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/replit/datacat": {
+  "v": 49,
+  "at": "2026-11-22T03:19:53.589Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/Illson/RustText": {
+  "v": 27,
+  "at": "2026-11-22T03:19:54.960Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/R0Y00/Xbox2Windows": {
+  "v": 34,
+  "at": "2026-11-22T03:19:55.046Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/CocoSgt/riemann-hypothesis-lean": {
+  "v": 74,
+  "at": "2026-11-22T03:19:56.101Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/omonkeyz/xbox-emulator": {
+  "v": 43,
+  "at": "2026-11-22T03:19:56.186Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/omonkeyz/xbox-emulator": {
+  "v": 32,
+  "at": "2026-11-22T03:19:57.377Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/leanprover-community/riemann-hypothesis": {
+  "v": 45,
+  "at": "2026-11-22T03:19:59.984Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/sybil-solutions/skill-distill": {
+  "v": 68,
+  "at": "2026-11-22T03:20:00.293Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/replit/datacat": {
+  "v": 47,
+  "at": "2026-11-22T03:20:01.927Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/CocoSgt/riemann-hypothesis-lean": {
+  "v": 60,
+  "at": "2026-11-22T03:20:03.945Z"
+ },
+ "scoreB:118d0780:glm:https://github.com/danielwh2/sprite-stacking": {
+  "v": 79,
+  "at": "2026-11-22T03:20:04.583Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/danielwh2/sprite-stacking": {
+  "v": 78,
+  "at": "2026-11-22T03:20:06.860Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/leanprover-community/riemann-hypothesis": {
+  "v": 25,
+  "at": "2026-11-22T03:20:09.048Z"
+ },
+ "scoreA:118d0780:deepseek:https://github.com/sybil-solutions/skill-distill": {
+  "v": 62,
+  "at": "2026-11-22T03:20:11.566Z"
+ },
+ "write:2d964375:claude:https://github.com/JimLiu/open-artifact": {
+  "v": {
+   "title": "Open Artifact：讓任何 AI 寫程式助手做可編輯成品",
+   "summary": "JimLiu/open-artifact 是開源專案，讓 Claude Code、Codex 等 agent 把簡報、UI 設計、白板、試算表等存成本機檔案，可編輯、留言、匯出，並把留言送回 agent。",
+   "why": "想讓 AI 幫你做簡報或介面稿，還能自己動手改、再請它修，可以參考這個流程。"
+  },
+  "at": "2026-11-22T03:20:15.390Z"
+ },
+ "write:2d964375:claude:https://github.com/danielwh2/sprite-stacking": {
+  "v": {
+   "title": "四張像素圖變可旋轉假3D",
+   "summary": "sprite-stacking 能把四視角像素圖變成可旋轉的假 3D sprite，支援 Claude Code、Cursor 等。",
+   "why": "做小遊戲想要會轉的像素車或樹，請 agent 生成就好。"
+  },
+  "at": "2026-11-22T03:20:21.167Z"
+ },
+ "write:2d964375:claude:https://github.com/CocoSgt/riemann-hypothesis-lean": {
+  "v": {
+   "title": "Lean 版黎曼猜想證明公開，待驗證",
+   "summary": "Levent Alpöge 宣稱與 Claude 合作，用 Lean 完成黎曼猜想證明；目前尚無獨立編譯或審查。",
+   "why": "可看 AI 輔助寫 Lean 形式化證明的實例，但結論尚未驗證。"
+  },
+  "at": "2026-11-22T03:20:24.105Z"
  }
 }
