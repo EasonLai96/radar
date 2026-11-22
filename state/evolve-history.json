@@ -41,5 +41,11 @@
   "result": "skip",
   "reason": "模型判斷不需要改",
   "summary": "本週讀者回饋只有 6 個 👍，沒有任何 👎，而 👍 與 👎 是最可靠的訊號，目前無法判斷往哪個方向調。6 個 👍 的分數是 66–74，全部在門檻 66 以上，其中 claude-animated-shorts 剛好 66 分，所以不能降低 DSH 生態或 Agent 類的權重，也不宜調高門檻。漏選清單主要靠星數或 HN 分數，熱度不等於讀者在意。gold、solar、corals、Na"
+ },
+ {
+  "date": "2026-11-22",
+  "result": "skip",
+  "reason": "模型判斷不需要改",
+  "summary": "本週讀者回饋只有 6 個 👍（66–74 分，全部在門檻 66 以上，claude-animated-shorts 剛好 66），沒有任何 👎，無法判斷要往哪個方向調，所以不能降低門檻或壓低 DSH 生態與 Agent 類的分數。漏選清單主要靠星數或 HN 分數，熱度不等於讀者在意。gold、solar、corals、Namecheap 被預篩擋掉是對的。tv-vibehack 與 clean"
  }
 ]

@@ -3022,9 +3022,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "github",
-   "stars": 616,
-   "starsPerDay": 24,
-   "checkedAt": "2026-11-15T19:17:18.747Z"
+   "stars": 635,
+   "starsPerDay": 19,
+   "checkedAt": "2026-11-22T20:12:44.344Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -3126,11 +3126,11 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "github",
-   "stars": 436,
-   "starsPerDay": 17,
-   "checkedAt": "2026-11-15T19:17:14.384Z"
+   "stars": 454,
+   "starsPerDay": 14,
+   "checkedAt": "2026-11-22T20:12:43.642Z"
   },
-  "verdict": null,
+  "verdict": "cold",
   "verdictBy": "heat"
  },
  "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security": {
@@ -4389,9 +4389,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 967,
-   "starsPerDay": 51,
-   "checkedAt": "2026-11-15T19:17:50.794Z"
+   "stars": 1032,
+   "starsPerDay": 40,
+   "checkedAt": "2026-11-22T20:12:48.215Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -4412,9 +4412,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 646,
-   "starsPerDay": 29,
-   "checkedAt": "2026-11-15T19:18:16.400Z"
+   "stars": 718,
+   "starsPerDay": 24,
+   "checkedAt": "2026-11-22T20:12:57.050Z"
   }
  },
  "https://github.com/Minglink/dsh-jailbreak-workflow": {
@@ -4433,9 +4433,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 966,
-   "starsPerDay": 66,
-   "checkedAt": "2026-11-15T19:18:15.878Z"
+   "stars": 1210,
+   "starsPerDay": 56,
+   "checkedAt": "2026-11-22T20:12:56.597Z"
   }
  },
  "https://github.com/elvarofficial/teardown": {
@@ -4452,9 +4452,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 3555,
-   "starsPerDay": 217,
-   "checkedAt": "2026-11-15T19:18:04.902Z"
+   "stars": 4019,
+   "starsPerDay": 171,
+   "checkedAt": "2026-11-22T20:12:47.361Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -4473,9 +4473,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 33587,
-   "starsPerDay": 2212,
-   "checkedAt": "2026-11-15T19:18:04.618Z"
+   "stars": 41097,
+   "starsPerDay": 1849,
+   "checkedAt": "2026-11-22T20:12:46.482Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -4494,9 +4494,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 920,
-   "starsPerDay": 57,
-   "checkedAt": "2026-11-15T19:18:15.386Z"
+   "stars": 1025,
+   "starsPerDay": 44,
+   "checkedAt": "2026-11-22T20:12:56.019Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -4515,9 +4515,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 5489,
-   "starsPerDay": 440,
-   "checkedAt": "2026-11-15T19:18:18.189Z"
+   "stars": 6281,
+   "starsPerDay": 322,
+   "checkedAt": "2026-11-22T20:12:58.597Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -4538,7 +4538,7 @@
    "kind": "hn",
    "points": 641,
    "comments": 191,
-   "checkedAt": "2026-11-15T19:18:20.975Z"
+   "checkedAt": "2026-11-22T20:13:00.974Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -4557,9 +4557,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 529,
-   "starsPerDay": 32,
-   "checkedAt": "2026-11-15T19:18:34.818Z"
+   "stars": 592,
+   "starsPerDay": 25,
+   "checkedAt": "2026-11-22T20:13:14.537Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -4578,9 +4578,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 659,
-   "starsPerDay": 46,
-   "checkedAt": "2026-11-15T19:18:34.043Z"
+   "stars": 740,
+   "starsPerDay": 35,
+   "checkedAt": "2026-11-22T20:13:13.823Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -4599,9 +4599,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 942,
-   "starsPerDay": 54,
-   "checkedAt": "2026-11-15T19:18:26.452Z"
+   "stars": 1004,
+   "starsPerDay": 41,
+   "checkedAt": "2026-11-22T20:13:07.360Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -4620,11 +4620,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 2033,
-   "starsPerDay": 163,
-   "checkedAt": "2026-11-15T19:18:36.647Z"
+   "stars": 2231,
+   "starsPerDay": 114,
+   "checkedAt": "2026-11-22T20:13:15.928Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://github.com/lucianodiisouza/flecha-browser": {
@@ -4790,11 +4790,11 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "github",
-   "stars": 348,
-   "starsPerDay": 16,
-   "checkedAt": "2026-11-15T19:17:20.938Z"
+   "stars": 231,
+   "starsPerDay": 8,
+   "checkedAt": "2026-11-22T20:12:42.927Z"
   },
-  "verdict": null,
+  "verdict": "cold",
   "verdictBy": "heat"
  },
  "https://github.com/rddmwmddr/android-ad-cleaner": {
@@ -5617,9 +5617,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 651,
-   "starsPerDay": 32,
-   "checkedAt": "2026-11-15T19:17:35.870Z"
+   "stars": 658,
+   "starsPerDay": 24,
+   "checkedAt": "2026-11-22T20:12:40.606Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -5804,9 +5804,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 182,
-   "starsPerDay": 9,
-   "checkedAt": "2026-11-15T19:17:39.600Z"
+   "stars": 310,
+   "starsPerDay": 12,
+   "checkedAt": "2026-11-22T20:12:39.801Z"
   },
   "verdict": "cold",
   "verdictBy": "heat"
@@ -6356,9 +6356,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 983,
-   "starsPerDay": 39,
-   "checkedAt": "2026-11-15T19:17:45.238Z"
+   "stars": 986,
+   "starsPerDay": 30,
+   "checkedAt": "2026-11-22T20:12:39.570Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -6441,9 +6441,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1857,
-   "starsPerDay": 98,
-   "checkedAt": "2026-11-15T19:17:47.177Z"
+   "stars": 1870,
+   "starsPerDay": 72,
+   "checkedAt": "2026-11-22T20:12:44.772Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -6535,9 +6535,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 7350,
-   "starsPerDay": 425,
-   "checkedAt": "2026-11-15T19:17:49.057Z"
+   "stars": 8012,
+   "starsPerDay": 329,
+   "checkedAt": "2026-11-22T20:12:41.354Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -6586,9 +6586,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 939,
-   "starsPerDay": 49,
-   "checkedAt": "2026-11-15T19:17:49.798Z"
+   "stars": 1012,
+   "starsPerDay": 39,
+   "checkedAt": "2026-11-22T20:12:47.593Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -6776,9 +6776,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1667,
-   "starsPerDay": 101,
-   "checkedAt": "2026-11-15T19:17:52.349Z"
+   "stars": 1692,
+   "starsPerDay": 72,
+   "checkedAt": "2026-11-22T20:12:45.897Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -6793,9 +6793,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 8708,
-   "starsPerDay": 506,
-   "checkedAt": "2026-11-15T19:17:52.587Z"
+   "stars": 9620,
+   "starsPerDay": 397,
+   "checkedAt": "2026-11-22T20:12:40.388Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -6861,9 +6861,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 739,
-   "starsPerDay": 36,
-   "checkedAt": "2026-11-15T19:17:54.032Z"
+   "stars": 814,
+   "starsPerDay": 29,
+   "checkedAt": "2026-11-22T20:12:46.121Z"
   },
   "verdict": null,
   "verdictBy": "heat",
@@ -6916,11 +6916,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 2856,
-   "starsPerDay": 163,
-   "checkedAt": "2026-11-15T19:17:54.796Z"
+   "stars": 2968,
+   "starsPerDay": 121,
+   "checkedAt": "2026-11-22T20:12:43.446Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://phorion.io/blog/offical-claude-code-vsx-compromise": {
@@ -6950,9 +6950,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 2030,
-   "starsPerDay": 111,
-   "checkedAt": "2026-11-15T19:17:55.560Z"
+   "stars": 2199,
+   "starsPerDay": 87,
+   "checkedAt": "2026-11-22T20:12:45.456Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -6967,9 +6967,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "github",
-   "stars": 4817,
-   "starsPerDay": 278,
-   "checkedAt": "2026-11-15T19:17:55.789Z"
+   "stars": 5016,
+   "starsPerDay": 206,
+   "checkedAt": "2026-11-22T20:12:46.937Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7019,9 +7019,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 23275,
-   "starsPerDay": 1511,
-   "checkedAt": "2026-11-15T19:17:56.350Z"
+   "stars": 24222,
+   "starsPerDay": 1079,
+   "checkedAt": "2026-11-22T20:12:39.320Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7036,9 +7036,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 199,
-   "starsPerDay": 12,
-   "checkedAt": "2026-11-15T19:17:56.625Z"
+   "stars": 200,
+   "starsPerDay": 8,
+   "checkedAt": "2026-11-22T20:12:40.854Z"
   },
   "verdict": "cold",
   "verdictBy": "heat"
@@ -7173,9 +7173,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 2108,
-   "starsPerDay": 130,
-   "checkedAt": "2026-11-15T19:17:58.630Z"
+   "stars": 2552,
+   "starsPerDay": 110,
+   "checkedAt": "2026-11-22T20:12:44.954Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7224,9 +7224,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 6009,
-   "starsPerDay": 338,
-   "checkedAt": "2026-11-15T19:17:59.557Z"
+   "stars": 6206,
+   "starsPerDay": 250,
+   "checkedAt": "2026-11-22T20:12:42.712Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7241,9 +7241,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 4485,
-   "starsPerDay": 232,
-   "checkedAt": "2026-11-15T19:17:59.966Z"
+   "stars": 6200,
+   "starsPerDay": 235,
+   "checkedAt": "2026-11-22T20:12:44.121Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7258,9 +7258,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "github",
-   "stars": 1602,
-   "starsPerDay": 87,
-   "checkedAt": "2026-11-15T19:18:00.208Z"
+   "stars": 1802,
+   "starsPerDay": 71,
+   "checkedAt": "2026-11-22T20:12:47.174Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7292,9 +7292,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1708,
-   "starsPerDay": 107,
-   "checkedAt": "2026-11-15T19:18:00.641Z"
+   "stars": 1796,
+   "starsPerDay": 78,
+   "checkedAt": "2026-11-22T20:12:46.726Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7309,11 +7309,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 672,
-   "starsPerDay": 34,
-   "checkedAt": "2026-11-15T19:18:00.919Z"
+   "stars": 66,
+   "starsPerDay": 2,
+   "checkedAt": "2026-11-22T20:12:48.451Z"
   },
-  "verdict": null,
+  "verdict": "cold",
   "verdictBy": "heat"
  },
  "https://github.com/livliv-dev/player": {
@@ -7330,9 +7330,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1558,
-   "starsPerDay": 134,
-   "checkedAt": "2026-11-15T19:18:34.531Z"
+   "stars": 1618,
+   "starsPerDay": 87,
+   "checkedAt": "2026-11-22T20:13:14.322Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7347,7 +7347,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2674,
+   "starsPerDay": 166,
+   "checkedAt": "2026-11-22T20:13:28.689Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
  },
  "https://github.com/jamesondh/chimera-vocal-synth": {
   "url": "https://github.com/jamesondh/chimera-vocal-synth",
@@ -7359,7 +7368,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2956,
+   "starsPerDay": 173,
+   "checkedAt": "2026-11-22T20:13:29.115Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
  },
  "https://github.com/WoYun520/gif-factory": {
   "url": "https://github.com/WoYun520/gif-factory",
@@ -7372,14 +7390,14 @@
    "up": 0,
    "down": 0
   },
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1903,
-   "starsPerDay": 179,
-   "checkedAt": "2026-11-15T19:18:45.587Z"
+   "stars": 2094,
+   "starsPerDay": 119,
+   "checkedAt": "2026-11-22T20:13:24.244Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist": {
@@ -7394,7 +7412,7 @@
    "kind": "hn",
    "points": 247,
    "comments": 255,
-   "checkedAt": "2026-11-15T19:18:01.351Z"
+   "checkedAt": "2026-11-22T20:12:40.091Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7420,7 +7438,7 @@
    "kind": "hn",
    "points": 733,
    "comments": 885,
-   "checkedAt": "2026-11-15T19:18:01.809Z"
+   "checkedAt": "2026-11-22T20:12:41.154Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7444,9 +7462,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 4055,
-   "starsPerDay": 209,
-   "checkedAt": "2026-11-15T19:18:02.100Z"
+   "stars": 4973,
+   "starsPerDay": 188,
+   "checkedAt": "2026-11-22T20:12:41.572Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7463,7 +7481,7 @@
    "kind": "hn",
    "points": 395,
    "comments": 522,
-   "checkedAt": "2026-11-15T19:18:02.517Z"
+   "checkedAt": "2026-11-22T20:12:42.245Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7480,7 +7498,7 @@
    "kind": "hn",
    "points": 1870,
    "comments": 308,
-   "checkedAt": "2026-11-15T19:18:02.798Z"
+   "checkedAt": "2026-11-22T20:12:43.194Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7497,7 +7515,7 @@
    "kind": "hn",
    "points": 584,
    "comments": 182,
-   "checkedAt": "2026-11-15T19:18:03.241Z"
+   "checkedAt": "2026-11-22T20:12:43.885Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7512,9 +7530,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "github",
-   "stars": 1391,
+   "stars": 1520,
    "starsPerDay": 4,
-   "checkedAt": "2026-11-15T19:18:03.550Z"
+   "checkedAt": "2026-11-22T20:12:44.548Z"
   },
   "verdict": "cold",
   "verdictBy": "heat"
@@ -7530,8 +7548,8 @@
   "later": {
    "kind": "hn",
    "points": 479,
-   "comments": 402,
-   "checkedAt": "2026-11-15T19:18:03.743Z"
+   "comments": 403,
+   "checkedAt": "2026-11-22T20:12:45.212Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7546,9 +7564,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 765,
-   "starsPerDay": 30,
-   "checkedAt": "2026-11-15T19:18:04.006Z"
+   "stars": 822,
+   "starsPerDay": 25,
+   "checkedAt": "2026-11-22T20:12:45.670Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7563,9 +7581,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1688,
-   "starsPerDay": 96,
-   "checkedAt": "2026-11-15T19:18:05.173Z"
+   "stars": 2167,
+   "starsPerDay": 88,
+   "checkedAt": "2026-11-22T20:12:47.793Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7580,9 +7598,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1842,
-   "starsPerDay": 100,
-   "checkedAt": "2026-11-15T19:18:05.394Z"
+   "stars": 1869,
+   "starsPerDay": 73,
+   "checkedAt": "2026-11-22T20:12:48.000Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7597,9 +7615,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 863,
-   "starsPerDay": 52,
-   "checkedAt": "2026-11-15T19:18:05.761Z"
+   "stars": 882,
+   "starsPerDay": 37,
+   "checkedAt": "2026-11-22T20:12:48.660Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7614,9 +7632,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1130,
-   "starsPerDay": 66,
-   "checkedAt": "2026-11-15T19:18:05.989Z"
+   "stars": 1209,
+   "starsPerDay": 50,
+   "checkedAt": "2026-11-22T20:12:48.860Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7635,9 +7653,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 3537,
-   "starsPerDay": 243,
-   "checkedAt": "2026-11-15T19:18:11.571Z"
+   "stars": 4573,
+   "starsPerDay": 212,
+   "checkedAt": "2026-11-22T20:12:53.133Z"
   },
   "verdict": "good",
   "verdictBy": "thumbs"
@@ -7653,12 +7671,12 @@
    "up": 0,
    "down": 0
   },
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 561,
-   "starsPerDay": 54,
-   "checkedAt": "2026-11-15T19:18:41.536Z"
+   "stars": 815,
+   "starsPerDay": 47,
+   "checkedAt": "2026-11-22T20:13:21.081Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7673,7 +7691,8 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS"
  },
  "https://github.com/Roland0511/dsh-marktext": {
   "url": "https://github.com/Roland0511/dsh-marktext",
@@ -7685,7 +7704,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 389,
+   "starsPerDay": 19,
+   "checkedAt": "2026-11-22T20:13:26.746Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://github.com/woniuniuniu/dsh-media-desk": {
   "url": "https://github.com/woniuniuniu/dsh-media-desk",
@@ -7698,12 +7726,12 @@
    "up": 0,
    "down": 0
   },
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1387,
-   "starsPerDay": 102,
-   "checkedAt": "2026-11-15T19:18:41.039Z"
+   "stars": 1652,
+   "starsPerDay": 80,
+   "checkedAt": "2026-11-22T20:13:20.639Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -7718,7 +7746,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 606,
+   "starsPerDay": 33,
+   "checkedAt": "2026-11-22T20:13:35.525Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://simonwillison.net/2026/Nov/9/hn-50421091": {
   "url": "https://simonwillison.net/2026/Nov/9/hn-50421091",
@@ -7730,7 +7767,8 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS"
  },
  "https://artificialanalysis.ai/models/claude-fable-5-2": {
   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
@@ -7742,7 +7780,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 380,
+   "comments": 280,
+   "checkedAt": "2026-11-22T20:13:30.964Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://simonwillison.net/2026/Nov/10/llm-gemini": {
   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
@@ -7754,7 +7801,8 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS"
  },
  "https://github.com/GoogleChrome/modern-web-guidance": {
   "url": "https://github.com/GoogleChrome/modern-web-guidance",
@@ -7766,7 +7814,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 24984,
+   "starsPerDay": 102,
+   "checkedAt": "2026-11-22T20:13:38.169Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://github.com/Akillll-DuoHe/fy-code-animation": {
   "url": "https://github.com/Akillll-DuoHe/fy-code-animation",
@@ -7778,7 +7835,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 419,
+   "starsPerDay": 18,
+   "checkedAt": "2026-11-22T20:13:37.956Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare": {
   "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare",
@@ -7790,7 +7856,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 460,
+   "starsPerDay": 22,
+   "checkedAt": "2026-11-22T20:13:43.028Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://av.github.io/safe-sand": {
   "url": "https://av.github.io/safe-sand",
@@ -7802,7 +7877,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 449,
+   "comments": 83,
+   "checkedAt": "2026-11-22T20:13:47.317Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
  },
  "https://github.com/dbcaskml183-dotcom/dsh-prelude": {
   "url": "https://github.com/dbcaskml183-dotcom/dsh-prelude",
@@ -7814,7 +7898,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 255,
+   "starsPerDay": 13,
+   "checkedAt": "2026-11-22T20:13:53.353Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
  },
  "https://github.com/Tranquillitatis-Lab/dsh-live-compact": {
   "url": "https://github.com/Tranquillitatis-Lab/dsh-live-compact",
@@ -7826,7 +7919,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 338,
+   "starsPerDay": 17,
+   "checkedAt": "2026-11-22T20:13:52.654Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://github.com/JDhruv14/line-art-animation": {
   "url": "https://github.com/JDhruv14/line-art-animation",
@@ -7838,7 +7940,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1162,
+   "starsPerDay": 93,
+   "checkedAt": "2026-11-22T20:13:56.921Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://github.com/Fanqi89/dsh-craft-anything": {
   "url": "https://github.com/Fanqi89/dsh-craft-anything",
@@ -7850,7 +7961,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 426,
+   "starsPerDay": 26,
+   "checkedAt": "2026-11-22T20:13:51.322Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://github.com/imsai-sh/fish-pocket": {
   "url": "https://github.com/imsai-sh/fish-pocket",
@@ -7862,7 +7982,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 421,
+   "starsPerDay": 24,
+   "checkedAt": "2026-11-22T20:14:00.570Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://isometricsf.com": {
   "url": "https://isometricsf.com",
@@ -7874,7 +8003,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 257,
+   "comments": 76,
+   "checkedAt": "2026-11-22T20:14:01.730Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://github.com/paulirish/chrome-capture": {
   "url": "https://github.com/paulirish/chrome-capture",
@@ -7886,7 +8024,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 553,
+   "starsPerDay": 39,
+   "checkedAt": "2026-11-22T20:14:04.852Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://github.com/opencoredev/islandcn": {
   "url": "https://github.com/opencoredev/islandcn",
@@ -7898,7 +8045,16 @@
   "thumbs": {
    "up": 0,
    "down": 0
-  }
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 840,
+   "starsPerDay": 90,
+   "checkedAt": "2026-11-22T20:14:09.682Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public": {
   "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
@@ -7912,7 +8068,7 @@
    "kind": "hn",
    "points": 406,
    "comments": 324,
-   "checkedAt": "2026-11-15T19:18:06.261Z"
+   "checkedAt": "2026-11-22T20:12:49.246Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -7963,9 +8119,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 125,
-   "starsPerDay": 8,
-   "checkedAt": "2026-11-15T19:18:06.585Z"
+   "stars": 134,
+   "starsPerDay": 6,
+   "checkedAt": "2026-11-22T20:12:49.489Z"
   },
   "verdict": "cold",
   "verdictBy": "heat"
@@ -7981,8 +8137,8 @@
   "later": {
    "kind": "hn",
    "points": 629,
-   "comments": 221,
-   "checkedAt": "2026-11-15T19:18:07.138Z"
+   "comments": 223,
+   "checkedAt": "2026-11-22T20:12:49.855Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8033,9 +8189,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "hn",
-   "points": 2969,
-   "comments": 901,
-   "checkedAt": "2026-11-15T19:18:07.380Z"
+   "points": 2971,
+   "comments": 902,
+   "checkedAt": "2026-11-22T20:12:50.177Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8061,7 +8217,7 @@
    "kind": "hn",
    "points": 849,
    "comments": 395,
-   "checkedAt": "2026-11-15T19:18:08.508Z"
+   "checkedAt": "2026-11-22T20:12:50.397Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8087,7 +8243,7 @@
    "kind": "hn",
    "points": 492,
    "comments": 476,
-   "checkedAt": "2026-11-15T19:18:08.858Z"
+   "checkedAt": "2026-11-22T20:12:50.614Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8113,7 +8269,7 @@
    "kind": "hn",
    "points": 328,
    "comments": 55,
-   "checkedAt": "2026-11-15T19:18:09.409Z"
+   "checkedAt": "2026-11-22T20:12:50.849Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8137,9 +8293,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "hn",
-   "points": 261,
-   "comments": 369,
-   "checkedAt": "2026-11-15T19:18:09.659Z"
+   "points": 263,
+   "comments": 380,
+   "checkedAt": "2026-11-22T20:12:51.122Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8163,9 +8319,9 @@
   "prefilter": "UNKNOWN",
   "later": {
    "kind": "hn",
-   "points": 1634,
+   "points": 1635,
    "comments": 688,
-   "checkedAt": "2026-11-15T19:18:09.857Z"
+   "checkedAt": "2026-11-22T20:12:51.319Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8182,7 +8338,7 @@
    "kind": "hn",
    "points": 200,
    "comments": 80,
-   "checkedAt": "2026-11-15T19:18:10.507Z"
+   "checkedAt": "2026-11-22T20:12:51.705Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8197,9 +8353,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 3545,
-   "starsPerDay": 238,
-   "checkedAt": "2026-11-15T19:18:10.782Z"
+   "stars": 3685,
+   "starsPerDay": 168,
+   "checkedAt": "2026-11-22T20:12:51.918Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8216,7 +8372,7 @@
    "kind": "hn",
    "points": 683,
    "comments": 155,
-   "checkedAt": "2026-11-15T19:18:11.003Z"
+   "checkedAt": "2026-11-22T20:12:52.663Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8231,11 +8387,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 2512,
-   "starsPerDay": 172,
-   "checkedAt": "2026-11-15T19:18:11.305Z"
+   "stars": 2706,
+   "starsPerDay": 125,
+   "checkedAt": "2026-11-22T20:12:52.935Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://github.com/sleepy-zone/ai-ref-library-cn": {
@@ -8248,9 +8404,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 770,
-   "starsPerDay": 45,
-   "checkedAt": "2026-11-15T19:18:11.830Z"
+   "stars": 792,
+   "starsPerDay": 33,
+   "checkedAt": "2026-11-22T20:12:53.387Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8265,9 +8421,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 837,
-   "starsPerDay": 53,
-   "checkedAt": "2026-11-15T19:18:12.058Z"
+   "stars": 844,
+   "starsPerDay": 37,
+   "checkedAt": "2026-11-22T20:12:53.618Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8282,9 +8438,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1118,
-   "starsPerDay": 62,
-   "checkedAt": "2026-11-15T19:18:12.350Z"
+   "stars": 1194,
+   "starsPerDay": 48,
+   "checkedAt": "2026-11-22T20:12:53.871Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8301,7 +8457,7 @@
    "kind": "hn",
    "points": 399,
    "comments": 60,
-   "checkedAt": "2026-11-15T19:18:12.587Z"
+   "checkedAt": "2026-11-22T20:12:54.127Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8370,9 +8526,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "hn",
-   "points": 519,
+   "points": 520,
    "comments": 265,
-   "checkedAt": "2026-11-15T19:18:12.935Z"
+   "checkedAt": "2026-11-22T20:12:54.353Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8423,9 +8579,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 161,
-   "starsPerDay": 10,
-   "checkedAt": "2026-11-15T19:18:13.164Z"
+   "stars": 156,
+   "starsPerDay": 7,
+   "checkedAt": "2026-11-22T20:12:54.578Z"
   },
   "verdict": "cold",
   "verdictBy": "heat"
@@ -8442,7 +8598,7 @@
    "kind": "hn",
    "points": 421,
    "comments": 171,
-   "checkedAt": "2026-11-15T19:18:13.394Z"
+   "checkedAt": "2026-11-22T20:12:54.793Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8484,9 +8640,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 104,
-   "starsPerDay": 6,
-   "checkedAt": "2026-11-15T19:18:13.624Z"
+   "stars": 106,
+   "starsPerDay": 5,
+   "checkedAt": "2026-11-22T20:12:54.976Z"
   },
   "verdict": "cold",
   "verdictBy": "heat"
@@ -8503,7 +8659,7 @@
    "kind": "hn",
    "points": 740,
    "comments": 214,
-   "checkedAt": "2026-11-15T19:18:13.911Z"
+   "checkedAt": "2026-11-22T20:12:55.210Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8547,7 +8703,7 @@
    "kind": "hn",
    "points": 1533,
    "comments": 500,
-   "checkedAt": "2026-11-15T19:18:15.117Z"
+   "checkedAt": "2026-11-22T20:12:55.835Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8573,7 +8729,7 @@
    "kind": "hn",
    "points": 844,
    "comments": 251,
-   "checkedAt": "2026-11-15T19:18:15.593Z"
+   "checkedAt": "2026-11-22T20:12:56.382Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8599,7 +8755,7 @@
    "kind": "hn",
    "points": 421,
    "comments": 227,
-   "checkedAt": "2026-11-15T19:18:16.124Z"
+   "checkedAt": "2026-11-22T20:12:56.843Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8624,8 +8780,8 @@
   "later": {
    "kind": "hn",
    "points": 1045,
-   "comments": 209,
-   "checkedAt": "2026-11-15T19:18:16.621Z"
+   "comments": 210,
+   "checkedAt": "2026-11-22T20:12:57.289Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8640,9 +8796,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "hn",
-   "points": 500,
+   "points": 501,
    "comments": 243,
-   "checkedAt": "2026-11-15T19:18:16.900Z"
+   "checkedAt": "2026-11-22T20:12:57.523Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8659,7 +8815,7 @@
    "kind": "hn",
    "points": 491,
    "comments": 84,
-   "checkedAt": "2026-11-15T19:18:17.129Z"
+   "checkedAt": "2026-11-22T20:12:57.749Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8674,9 +8830,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1970,
-   "starsPerDay": 115,
-   "checkedAt": "2026-11-15T19:18:17.401Z"
+   "stars": 915,
+   "starsPerDay": 38,
+   "checkedAt": "2026-11-22T20:12:57.990Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8691,9 +8847,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "github",
-   "stars": 1248,
-   "starsPerDay": 71,
-   "checkedAt": "2026-11-15T19:18:17.682Z"
+   "stars": 1285,
+   "starsPerDay": 52,
+   "checkedAt": "2026-11-22T20:12:58.174Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8710,7 +8866,7 @@
    "kind": "hn",
    "points": 384,
    "comments": 238,
-   "checkedAt": "2026-11-15T19:18:17.901Z"
+   "checkedAt": "2026-11-22T20:12:58.377Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8772,7 +8928,7 @@
    "kind": "hn",
    "points": 491,
    "comments": 367,
-   "checkedAt": "2026-11-15T19:18:18.395Z"
+   "checkedAt": "2026-11-22T20:12:58.796Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8816,7 +8972,7 @@
    "kind": "hn",
    "points": 1271,
    "comments": 437,
-   "checkedAt": "2026-11-15T19:18:18.694Z"
+   "checkedAt": "2026-11-22T20:12:59.015Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8841,8 +8997,8 @@
   "later": {
    "kind": "hn",
    "points": 315,
-   "comments": 160,
-   "checkedAt": "2026-11-15T19:18:18.948Z"
+   "comments": 161,
+   "checkedAt": "2026-11-22T20:12:59.225Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8866,11 +9022,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 2765,
-   "starsPerDay": 218,
-   "checkedAt": "2026-11-15T19:18:19.178Z"
+   "stars": 2923,
+   "starsPerDay": 148,
+   "checkedAt": "2026-11-22T20:12:59.403Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://www.ricursive.com/ripple": {
@@ -8885,7 +9041,7 @@
    "kind": "hn",
    "points": 343,
    "comments": 127,
-   "checkedAt": "2026-11-15T19:18:19.376Z"
+   "checkedAt": "2026-11-22T20:12:59.595Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8902,7 +9058,7 @@
    "kind": "hn",
    "points": 397,
    "comments": 215,
-   "checkedAt": "2026-11-15T19:18:19.663Z"
+   "checkedAt": "2026-11-22T20:12:59.841Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8919,7 +9075,7 @@
    "kind": "hn",
    "points": 241,
    "comments": 122,
-   "checkedAt": "2026-11-15T19:18:19.990Z"
+   "checkedAt": "2026-11-22T20:13:00.073Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -8934,11 +9090,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 2298,
-   "starsPerDay": 158,
-   "checkedAt": "2026-11-15T19:18:20.253Z"
+   "stars": 2456,
+   "starsPerDay": 114,
+   "checkedAt": "2026-11-22T20:13:00.281Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections": {
@@ -8951,9 +9107,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "hn",
-   "points": 595,
+   "points": 596,
    "comments": 225,
-   "checkedAt": "2026-11-15T19:18:20.531Z"
+   "checkedAt": "2026-11-22T20:13:00.563Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8968,9 +9124,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 9339,
-   "starsPerDay": 614,
-   "checkedAt": "2026-11-15T19:18:20.763Z"
+   "stars": 10063,
+   "starsPerDay": 452,
+   "checkedAt": "2026-11-22T20:13:00.751Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -8985,9 +9141,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "hn",
-   "points": 265,
+   "points": 266,
    "comments": 94,
-   "checkedAt": "2026-11-15T19:18:21.171Z"
+   "checkedAt": "2026-11-22T20:13:01.201Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9002,9 +9158,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1052,
-   "starsPerDay": 66,
-   "checkedAt": "2026-11-15T19:18:21.461Z"
+   "stars": 1089,
+   "starsPerDay": 47,
+   "checkedAt": "2026-11-22T20:13:01.399Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9021,7 +9177,7 @@
    "kind": "hn",
    "points": 348,
    "comments": 287,
-   "checkedAt": "2026-11-15T19:18:21.711Z"
+   "checkedAt": "2026-11-22T20:13:01.668Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9036,9 +9192,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 8975,
-   "starsPerDay": 735,
-   "checkedAt": "2026-11-15T19:18:21.984Z"
+   "stars": 11517,
+   "starsPerDay": 598,
+   "checkedAt": "2026-11-22T20:13:01.903Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9054,8 +9210,8 @@
   "later": {
    "kind": "hn",
    "points": 573,
-   "comments": 716,
-   "checkedAt": "2026-11-15T19:18:22.352Z"
+   "comments": 718,
+   "checkedAt": "2026-11-22T20:13:02.400Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9081,7 +9237,7 @@
    "kind": "hn",
    "points": 294,
    "comments": 142,
-   "checkedAt": "2026-11-15T19:18:22.691Z"
+   "checkedAt": "2026-11-22T20:13:02.825Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9096,9 +9252,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 789,
-   "starsPerDay": 57,
-   "checkedAt": "2026-11-15T19:18:22.925Z"
+   "stars": 384,
+   "starsPerDay": 18,
+   "checkedAt": "2026-11-22T20:13:03.020Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9113,9 +9269,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "hn",
-   "points": 1309,
+   "points": 1310,
    "comments": 753,
-   "checkedAt": "2026-11-15T19:18:23.203Z"
+   "checkedAt": "2026-11-22T20:13:03.346Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9132,7 +9288,7 @@
    "kind": "hn",
    "points": 265,
    "comments": 134,
-   "checkedAt": "2026-11-15T19:18:23.445Z"
+   "checkedAt": "2026-11-22T20:13:03.568Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9156,9 +9312,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1885,
-   "starsPerDay": 133,
-   "checkedAt": "2026-11-15T19:18:23.988Z"
+   "stars": 2615,
+   "starsPerDay": 123,
+   "checkedAt": "2026-11-22T20:13:03.955Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9173,9 +9329,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 751,
-   "starsPerDay": 45,
-   "checkedAt": "2026-11-15T19:18:24.225Z"
+   "stars": 804,
+   "starsPerDay": 34,
+   "checkedAt": "2026-11-22T20:13:04.304Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9190,11 +9346,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 267,
-   "starsPerDay": 19,
-   "checkedAt": "2026-11-15T19:18:24.434Z"
+   "stars": 103,
+   "starsPerDay": 5,
+   "checkedAt": "2026-11-22T20:13:04.493Z"
   },
-  "verdict": null,
+  "verdict": "cold",
   "verdictBy": "heat"
  },
  "https://github.com/JosssphZhou/poki": {
@@ -9207,9 +9363,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1344,
-   "starsPerDay": 132,
-   "checkedAt": "2026-11-15T19:18:24.662Z"
+   "stars": 1830,
+   "starsPerDay": 106,
+   "checkedAt": "2026-11-22T20:13:04.695Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9226,7 +9382,7 @@
    "kind": "hn",
    "points": 525,
    "comments": 234,
-   "checkedAt": "2026-11-15T19:18:24.985Z"
+   "checkedAt": "2026-11-22T20:13:04.944Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9297,7 +9453,7 @@
    "kind": "hn",
    "points": 1616,
    "comments": 535,
-   "checkedAt": "2026-11-15T19:18:25.338Z"
+   "checkedAt": "2026-11-22T20:13:05.251Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9339,11 +9495,11 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "github",
-   "stars": 240,
-   "starsPerDay": 22,
-   "checkedAt": "2026-11-15T19:18:25.593Z"
+   "stars": 208,
+   "starsPerDay": 12,
+   "checkedAt": "2026-11-22T20:13:05.472Z"
   },
-  "verdict": null,
+  "verdict": "cold",
   "verdictBy": "heat"
  },
  "https://www.cve.org/CVERecord?id=CVE-2026-83844": {
@@ -9356,9 +9512,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "hn",
-   "points": 729,
+   "points": 730,
    "comments": 284,
-   "checkedAt": "2026-11-15T19:18:25.798Z"
+   "checkedAt": "2026-11-22T20:13:06.757Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9391,9 +9547,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "hn",
-   "points": 758,
-   "comments": 413,
-   "checkedAt": "2026-11-15T19:18:26.192Z"
+   "points": 759,
+   "comments": 414,
+   "checkedAt": "2026-11-22T20:13:07.146Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9426,9 +9582,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "hn",
-   "points": 658,
-   "comments": 274,
-   "checkedAt": "2026-11-15T19:18:26.770Z"
+   "points": 660,
+   "comments": 275,
+   "checkedAt": "2026-11-22T20:13:07.565Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9454,7 +9610,7 @@
    "kind": "hn",
    "points": 241,
    "comments": 74,
-   "checkedAt": "2026-11-15T19:18:27.003Z"
+   "checkedAt": "2026-11-22T20:13:07.870Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9480,7 +9636,7 @@
    "kind": "hn",
    "points": 414,
    "comments": 270,
-   "checkedAt": "2026-11-15T19:18:27.239Z"
+   "checkedAt": "2026-11-22T20:13:08.094Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9504,9 +9660,9 @@
   "prefilter": "UNKNOWN",
   "later": {
    "kind": "github",
-   "stars": 1476,
-   "starsPerDay": 24,
-   "checkedAt": "2026-11-15T19:18:27.547Z"
+   "stars": 1543,
+   "starsPerDay": 22,
+   "checkedAt": "2026-11-22T20:13:08.337Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9523,7 +9679,7 @@
    "kind": "hn",
    "points": 189,
    "comments": 95,
-   "checkedAt": "2026-11-15T19:18:27.869Z"
+   "checkedAt": "2026-11-22T20:13:08.572Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9540,7 +9696,7 @@
    "kind": "hn",
    "points": 590,
    "comments": 410,
-   "checkedAt": "2026-11-15T19:18:28.339Z"
+   "checkedAt": "2026-11-22T20:13:08.964Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9555,9 +9711,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 899,
-   "starsPerDay": 75,
-   "checkedAt": "2026-11-15T19:18:28.593Z"
+   "stars": 528,
+   "starsPerDay": 28,
+   "checkedAt": "2026-11-22T20:13:09.200Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9572,9 +9728,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "hn",
-   "points": 627,
+   "points": 628,
    "comments": 2,
-   "checkedAt": "2026-11-15T19:18:28.813Z"
+   "checkedAt": "2026-11-22T20:13:09.452Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9589,9 +9745,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "hn",
-   "points": 272,
-   "comments": 85,
-   "checkedAt": "2026-11-15T19:18:29.051Z"
+   "points": 273,
+   "comments": 87,
+   "checkedAt": "2026-11-22T20:13:09.707Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9608,7 +9764,7 @@
    "kind": "hn",
    "points": 348,
    "comments": 136,
-   "checkedAt": "2026-11-15T19:18:29.293Z"
+   "checkedAt": "2026-11-22T20:13:09.912Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9632,9 +9788,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "hn",
-   "points": 571,
+   "points": 572,
    "comments": 417,
-   "checkedAt": "2026-11-15T19:18:29.938Z"
+   "checkedAt": "2026-11-22T20:13:10.443Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9649,9 +9805,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 734,
-   "starsPerDay": 52,
-   "checkedAt": "2026-11-15T19:18:30.205Z"
+   "stars": 771,
+   "starsPerDay": 36,
+   "checkedAt": "2026-11-22T20:13:10.690Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9668,7 +9824,7 @@
    "kind": "hn",
    "points": 406,
    "comments": 188,
-   "checkedAt": "2026-11-15T19:18:30.567Z"
+   "checkedAt": "2026-11-22T20:13:10.992Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9685,7 +9841,7 @@
    "kind": "hn",
    "points": 268,
    "comments": 31,
-   "checkedAt": "2026-11-15T19:18:30.914Z"
+   "checkedAt": "2026-11-22T20:13:11.227Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9700,9 +9856,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 629,
-   "starsPerDay": 42,
-   "checkedAt": "2026-11-15T19:18:31.203Z"
+   "stars": 584,
+   "starsPerDay": 27,
+   "checkedAt": "2026-11-22T20:13:11.426Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9717,9 +9873,9 @@
   "prefilter": "UNKNOWN",
   "later": {
    "kind": "hn",
-   "points": 3004,
-   "comments": 752,
-   "checkedAt": "2026-11-15T19:18:31.471Z"
+   "points": 3007,
+   "comments": 751,
+   "checkedAt": "2026-11-22T20:13:11.643Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9734,9 +9890,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 771,
-   "starsPerDay": 52,
-   "checkedAt": "2026-11-15T19:18:31.757Z"
+   "stars": 845,
+   "starsPerDay": 38,
+   "checkedAt": "2026-11-22T20:13:11.839Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9753,7 +9909,7 @@
    "kind": "hn",
    "points": 250,
    "comments": 5,
-   "checkedAt": "2026-11-15T19:18:32.025Z"
+   "checkedAt": "2026-11-22T20:13:12.099Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9768,9 +9924,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "hn",
-   "points": 1093,
+   "points": 1094,
    "comments": 216,
-   "checkedAt": "2026-11-15T19:18:32.387Z"
+   "checkedAt": "2026-11-22T20:13:12.436Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9830,9 +9986,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "hn",
-   "points": 383,
+   "points": 385,
    "comments": 362,
-   "checkedAt": "2026-11-15T19:18:32.679Z"
+   "checkedAt": "2026-11-22T20:13:12.638Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9883,9 +10039,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 184,
-   "starsPerDay": 14,
-   "checkedAt": "2026-11-15T19:18:32.901Z"
+   "stars": 191,
+   "starsPerDay": 9,
+   "checkedAt": "2026-11-22T20:13:12.853Z"
   },
   "verdict": "cold",
   "verdictBy": "heat"
@@ -9902,7 +10058,7 @@
    "kind": "hn",
    "points": 603,
    "comments": 156,
-   "checkedAt": "2026-11-15T19:18:33.130Z"
+   "checkedAt": "2026-11-22T20:13:13.083Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -9928,7 +10084,7 @@
    "kind": "hn",
    "points": 290,
    "comments": 145,
-   "checkedAt": "2026-11-15T19:18:33.553Z"
+   "checkedAt": "2026-11-22T20:13:13.381Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9953,8 +10109,8 @@
   "later": {
    "kind": "hn",
    "points": 322,
-   "comments": 634,
-   "checkedAt": "2026-11-15T19:18:33.770Z"
+   "comments": 635,
+   "checkedAt": "2026-11-22T20:13:13.619Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9969,9 +10125,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "hn",
-   "points": 258,
-   "comments": 57,
-   "checkedAt": "2026-11-15T19:18:34.274Z"
+   "points": 259,
+   "comments": 59,
+   "checkedAt": "2026-11-22T20:13:14.063Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -9987,8 +10143,8 @@
   "later": {
    "kind": "hn",
    "points": 369,
-   "comments": 256,
-   "checkedAt": "2026-11-15T19:18:35.061Z"
+   "comments": 257,
+   "checkedAt": "2026-11-22T20:13:14.750Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10003,11 +10159,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1916,
-   "starsPerDay": 181,
-   "checkedAt": "2026-11-15T19:18:35.334Z"
+   "stars": 2043,
+   "starsPerDay": 116,
+   "checkedAt": "2026-11-22T20:13:14.968Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817": {
@@ -10020,9 +10176,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "hn",
-   "points": 1164,
-   "comments": 2119,
-   "checkedAt": "2026-11-15T19:18:35.652Z"
+   "points": 1167,
+   "comments": 2120,
+   "checkedAt": "2026-11-22T20:13:15.183Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10037,9 +10193,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "github",
-   "stars": 3254,
-   "starsPerDay": 346,
-   "checkedAt": "2026-11-15T19:18:35.948Z"
+   "stars": 4157,
+   "starsPerDay": 253,
+   "checkedAt": "2026-11-22T20:13:15.372Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10054,9 +10210,9 @@
   "prefilter": "BLOCK",
   "later": {
    "kind": "hn",
-   "points": 415,
-   "comments": 336,
-   "checkedAt": "2026-11-15T19:18:36.269Z"
+   "points": 417,
+   "comments": 337,
+   "checkedAt": "2026-11-22T20:13:15.675Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10071,9 +10227,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1590,
-   "starsPerDay": 112,
-   "checkedAt": "2026-11-15T19:18:36.898Z"
+   "stars": 1761,
+   "starsPerDay": 83,
+   "checkedAt": "2026-11-22T20:13:16.127Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10088,9 +10244,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 5809,
-   "starsPerDay": 442,
-   "checkedAt": "2026-11-15T19:18:37.116Z"
+   "stars": 12288,
+   "starsPerDay": 609,
+   "checkedAt": "2026-11-22T20:13:16.444Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10105,11 +10261,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1903,
-   "starsPerDay": 179,
-   "checkedAt": "2026-11-15T19:18:37.695Z"
+   "stars": 2094,
+   "starsPerDay": 119,
+   "checkedAt": "2026-11-22T20:13:16.864Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://github.com/kevintngo/looseleaf": {
@@ -10122,9 +10278,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 688,
-   "starsPerDay": 47,
-   "checkedAt": "2026-11-15T19:18:37.970Z"
+   "stars": 731,
+   "starsPerDay": 34,
+   "checkedAt": "2026-11-22T20:13:17.058Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10139,11 +10295,11 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 2553,
-   "starsPerDay": 206,
-   "checkedAt": "2026-11-15T19:18:38.209Z"
+   "stars": 2869,
+   "starsPerDay": 148,
+   "checkedAt": "2026-11-22T20:13:17.280Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://github.com/drakolordx7/switch2-recomp": {
@@ -10153,7 +10309,15 @@
   "date": "2026-11-07",
   "score": 53,
   "picked": false,
-  "prefilter": "PASS"
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 530,
+   "starsPerDay": 26,
+   "checkedAt": "2026-11-22T20:13:17.545Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
  },
  "https://github.com/mhfed/vn-law-check": {
   "url": "https://github.com/mhfed/vn-law-check",
@@ -10165,9 +10329,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 503,
-   "starsPerDay": 37,
-   "checkedAt": "2026-11-15T19:18:38.646Z"
+   "stars": 511,
+   "starsPerDay": 25,
+   "checkedAt": "2026-11-22T20:13:17.790Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10182,9 +10346,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 648,
-   "starsPerDay": 54,
-   "checkedAt": "2026-11-15T19:18:38.882Z"
+   "stars": 683,
+   "starsPerDay": 36,
+   "checkedAt": "2026-11-22T20:13:18.022Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10199,9 +10363,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 785,
-   "starsPerDay": 53,
-   "checkedAt": "2026-11-15T19:18:39.159Z"
+   "stars": 1094,
+   "starsPerDay": 50,
+   "checkedAt": "2026-11-22T20:13:18.209Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10216,9 +10380,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 704,
-   "starsPerDay": 67,
-   "checkedAt": "2026-11-15T19:18:39.391Z"
+   "stars": 738,
+   "starsPerDay": 42,
+   "checkedAt": "2026-11-22T20:13:18.524Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10233,9 +10397,9 @@
   "prefilter": "PASS",
   "later": {
    "kind": "hn",
-   "points": 626,
-   "comments": 431,
-   "checkedAt": "2026-11-15T19:18:39.880Z"
+   "points": 629,
+   "comments": 433,
+   "checkedAt": "2026-11-22T20:13:19.127Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10247,7 +10411,7 @@
   "date": "2026-11-08",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR"
+  "prefilter": "PASS"
  },
  "https://latent.space/p/ainews-anthropic-ipo-whither-now": {
   "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now",
@@ -10268,9 +10432,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "hn",
-   "points": 835,
+   "points": 840,
    "comments": 141,
-   "checkedAt": "2026-11-15T19:18:40.111Z"
+   "checkedAt": "2026-11-22T20:13:19.818Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10287,7 +10451,7 @@
    "kind": "hn",
    "points": 515,
    "comments": 309,
-   "checkedAt": "2026-11-15T19:18:40.336Z"
+   "checkedAt": "2026-11-22T20:13:20.094Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10299,7 +10463,7 @@
   "date": "2026-11-08",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR"
+  "prefilter": "PASS"
  },
  "https://github.com/hedgerow-dev/coldframe": {
   "url": "https://github.com/hedgerow-dev/coldframe",
@@ -10311,9 +10475,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "github",
-   "stars": 77,
-   "starsPerDay": 7,
-   "checkedAt": "2026-11-15T19:18:40.774Z"
+   "stars": 78,
+   "starsPerDay": 4,
+   "checkedAt": "2026-11-22T20:13:20.452Z"
   },
   "verdict": "cold",
   "verdictBy": "heat"
@@ -10329,8 +10493,8 @@
   "later": {
    "kind": "hn",
    "points": 409,
-   "comments": 108,
-   "checkedAt": "2026-11-15T19:18:41.239Z"
+   "comments": 109,
+   "checkedAt": "2026-11-22T20:13:20.855Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10345,9 +10509,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "hn",
-   "points": 560,
+   "points": 561,
    "comments": 371,
-   "checkedAt": "2026-11-15T19:18:41.795Z"
+   "checkedAt": "2026-11-22T20:13:21.302Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10359,14 +10523,14 @@
   "date": "2026-11-08",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1593,
-   "starsPerDay": 162,
-   "checkedAt": "2026-11-15T19:18:42.089Z"
+   "stars": 1688,
+   "starsPerDay": 100,
+   "checkedAt": "2026-11-22T20:13:21.568Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html": {
@@ -10381,7 +10545,7 @@
    "kind": "hn",
    "points": 270,
    "comments": 105,
-   "checkedAt": "2026-11-15T19:18:42.284Z"
+   "checkedAt": "2026-11-22T20:13:21.768Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10396,9 +10560,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "hn",
-   "points": 483,
+   "points": 484,
    "comments": 512,
-   "checkedAt": "2026-11-15T19:18:42.490Z"
+   "checkedAt": "2026-11-22T20:13:21.991Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10413,9 +10577,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "hn",
-   "points": 871,
-   "comments": 470,
-   "checkedAt": "2026-11-15T19:18:42.703Z"
+   "points": 873,
+   "comments": 471,
+   "checkedAt": "2026-11-22T20:13:22.228Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10427,12 +10591,12 @@
   "date": "2026-11-08",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1203,
-   "starsPerDay": 136,
-   "checkedAt": "2026-11-15T19:18:43.002Z"
+   "stars": 1251,
+   "starsPerDay": 79,
+   "checkedAt": "2026-11-22T20:13:22.418Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10448,8 +10612,8 @@
   "later": {
    "kind": "hn",
    "points": 310,
-   "comments": 150,
-   "checkedAt": "2026-11-15T19:18:43.508Z"
+   "comments": 151,
+   "checkedAt": "2026-11-22T20:13:22.659Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10464,11 +10628,11 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "github",
-   "stars": 2334,
-   "starsPerDay": 170,
-   "checkedAt": "2026-11-15T19:18:43.749Z"
+   "stars": 2591,
+   "starsPerDay": 125,
+   "checkedAt": "2026-11-22T20:13:22.848Z"
   },
-  "verdict": "hot",
+  "verdict": null,
   "verdictBy": "heat"
  },
  "https://nfsu2.xyz": {
@@ -10481,9 +10645,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "hn",
-   "points": 1180,
+   "points": 1181,
    "comments": 293,
-   "checkedAt": "2026-11-15T19:18:44.078Z"
+   "checkedAt": "2026-11-22T20:13:23.111Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10495,12 +10659,12 @@
   "date": "2026-11-08",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1375,
-   "starsPerDay": 122,
-   "checkedAt": "2026-11-15T19:18:44.296Z"
+   "stars": 1519,
+   "starsPerDay": 83,
+   "checkedAt": "2026-11-22T20:13:23.310Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10515,9 +10679,9 @@
   "prefilter": "ERROR",
   "later": {
    "kind": "hn",
-   "points": 435,
+   "points": 436,
    "comments": 418,
-   "checkedAt": "2026-11-15T19:18:44.562Z"
+   "checkedAt": "2026-11-22T20:13:23.521Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10534,7 +10698,7 @@
    "kind": "hn",
    "points": 261,
    "comments": 272,
-   "checkedAt": "2026-11-15T19:18:44.995Z"
+   "checkedAt": "2026-11-22T20:13:23.758Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10546,12 +10710,12 @@
   "date": "2026-11-08",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1893,
-   "starsPerDay": 149,
-   "checkedAt": "2026-11-15T19:18:45.327Z"
+   "stars": 2109,
+   "starsPerDay": 107,
+   "checkedAt": "2026-11-22T20:13:24.023Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10563,12 +10727,12 @@
   "date": "2026-11-08",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 3318,
-   "starsPerDay": 260,
-   "checkedAt": "2026-11-15T19:18:45.860Z"
+   "stars": 3694,
+   "starsPerDay": 186,
+   "checkedAt": "2026-11-22T20:13:24.451Z"
   },
   "verdict": "hot",
   "verdictBy": "heat"
@@ -10580,12 +10744,12 @@
   "date": "2026-11-08",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 1085,
-   "starsPerDay": 133,
-   "checkedAt": "2026-11-15T19:18:46.111Z"
+   "stars": 1104,
+   "starsPerDay": 73,
+   "checkedAt": "2026-11-22T20:13:24.698Z"
   },
   "verdict": null,
   "verdictBy": "heat"
@@ -10597,12 +10761,3371 @@
   "date": "2026-11-08",
   "score": null,
   "picked": false,
-  "prefilter": "ERROR",
+  "prefilter": "PASS",
   "later": {
    "kind": "github",
-   "stars": 589,
-   "starsPerDay": 58,
-   "checkedAt": "2026-11-15T19:18:46.595Z"
+   "stars": 596,
+   "starsPerDay": 35,
+   "checkedAt": "2026-11-22T20:13:24.930Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "title": "Claude Fable 5.2 and Mythos 5.2",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": 70,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 1000,
+   "comments": 8,
+   "checkedAt": "2026-11-22T20:13:32.663Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52": {
+  "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+  "title": "Quoting Prompting Claude Fable 5.2",
+  "source": "Simon Willison",
+  "date": "2026-11-11",
+  "score": 70,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  },
+  "prefilter": "PASS"
+ },
+ "https://deepmind.google/blog/introducing-gemini-4-hydrogen": {
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "source": "Google DeepMind",
+  "date": "2026-11-13",
+  "score": 74,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  },
+  "prefilter": "PASS"
+ },
+ "https://github.com/deepseek-ai/chat-demo": {
+  "url": "https://github.com/deepseek-ai/chat-demo",
+  "title": "deepseek-ai/chat-demo",
+  "source": "GitHub 新專案",
+  "date": "2026-11-14",
+  "score": 72,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  },
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 5277,
+   "starsPerDay": 502,
+   "checkedAt": "2026-11-22T20:14:01.976Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/aa1143/NamiDSH": {
+  "url": "https://github.com/aa1143/NamiDSH",
+  "title": "aa1143/NamiDSH",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-16",
+  "score": 72,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/Noniv/abyssal-garden": {
+  "url": "https://github.com/Noniv/abyssal-garden",
+  "title": "Noniv/abyssal-garden",
+  "source": "GitHub 新專案",
+  "date": "2026-11-16",
+  "score": 71,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/fahsq72lan/dsh-guide-tutor": {
+  "url": "https://github.com/fahsq72lan/dsh-guide-tutor",
+  "title": "fahsq72lan/dsh-guide-tutor",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-17",
+  "score": 70,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/Tthanh2k6/turbo-browser-mcp": {
+  "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+  "title": "Tthanh2k6/turbo-browser-mcp",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-17",
+  "score": 69,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/n4ze3m/tiny-voca": {
+  "url": "https://github.com/n4ze3m/tiny-voca",
+  "title": "n4ze3m/tiny-voca",
+  "source": "GitHub 新專案",
+  "date": "2026-11-17",
+  "score": 69,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol": {
+  "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+  "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+  "source": "Simon Willison",
+  "date": "2026-11-18",
+  "score": 84,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/huggingface/pybot": {
+  "url": "https://github.com/huggingface/pybot",
+  "title": "huggingface/pybot",
+  "source": "GitHub 新專案",
+  "date": "2026-11-18",
+  "score": 77,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon": {
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+  "title": "Gemini 4 Neon",
+  "source": "Hacker News",
+  "date": "2026-11-19",
+  "score": 80,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/nilbuild/stick-scene": {
+  "url": "https://github.com/nilbuild/stick-scene",
+  "title": "nilbuild/stick-scene",
+  "source": "GitHub 新專案",
+  "date": "2026-11-20",
+  "score": 71,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/Jestions-dev/dsh-download-server": {
+  "url": "https://github.com/Jestions-dev/dsh-download-server",
+  "title": "Jestions-dev/dsh-download-server",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-21",
+  "score": 71,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/danielwh2/sprite-stacking": {
+  "url": "https://github.com/danielwh2/sprite-stacking",
+  "title": "danielwh2/sprite-stacking",
+  "source": "GitHub 新專案",
+  "date": "2026-11-22",
+  "score": 78,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://github.com/JimLiu/open-artifact": {
+  "url": "https://github.com/JimLiu/open-artifact",
+  "title": "JimLiu/open-artifact",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-22",
+  "score": 68,
+  "picked": true,
+  "thumbs": {
+   "up": 0,
+   "down": 0
+  }
+ },
+ "https://ketchup3d.github.io/app": {
+  "url": "https://ketchup3d.github.io/app",
+  "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "hn",
+   "points": 774,
+   "comments": 241,
+   "checkedAt": "2026-11-22T20:13:25.162Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust": {
+  "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust",
+  "title": "parse_number() as a SQLite extension: C vs Rust",
+  "source": "Simon Willison",
+  "date": "2026-11-09",
+  "score": 37,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/cs146s": {
+  "url": "https://latent.space/p/cs146s",
+  "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+  "source": "Latent Space",
+  "date": "2026-11-09",
+  "score": 29,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/reason-machines/aspen": {
+  "url": "https://github.com/reason-machines/aspen",
+  "title": "reason-machines/aspen",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-09",
+  "score": null,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 137,
+   "starsPerDay": 8,
+   "checkedAt": "2026-11-22T20:13:25.550Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company": {
+  "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+  "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": null,
+  "picked": false,
+  "prefilter": "ERROR",
+  "later": {
+   "kind": "hn",
+   "points": 988,
+   "comments": 1294,
+   "checkedAt": "2026-11-22T20:13:25.772Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco": {
+  "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco",
+  "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+  "source": "Latent Space",
+  "date": "2026-11-09",
+  "score": 27,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors": {
+  "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+  "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://sergeykuhne.com/blog/fighting-ai-brain-fry": {
+  "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+  "title": "How I Fight AI Brain Fry",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": 28,
+  "picked": false,
+  "prefilter": "UNKNOWN",
+  "later": {
+   "kind": "hn",
+   "points": 1,
+   "comments": 2,
+   "checkedAt": "2026-11-22T20:13:26.296Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc": {
+  "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+  "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://duxlabs.dev": {
+  "url": "https://duxlabs.dev",
+  "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": 29,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 346,
+   "comments": 150,
+   "checkedAt": "2026-11-22T20:13:27.015Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/tangerineturtle1/NX2navi": {
+  "url": "https://github.com/tangerineturtle1/NX2navi",
+  "title": "tangerineturtle1/NX2navi",
+  "source": "GitHub 新專案",
+  "date": "2026-11-09",
+  "score": 39,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 4342,
+   "starsPerDay": 281,
+   "checkedAt": "2026-11-22T20:13:27.210Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/muaaz9329/cheap-ag": {
+  "url": "https://github.com/muaaz9329/cheap-ag",
+  "title": "muaaz9329/cheap-ag",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-09",
+  "score": 57,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 342,
+   "starsPerDay": 14,
+   "checkedAt": "2026-11-22T20:13:27.396Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers": {
+  "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+  "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": 36,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 905,
+   "comments": 497,
+   "checkedAt": "2026-11-22T20:13:27.616Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/OpenBMB/ForgeKernel": {
+  "url": "https://github.com/OpenBMB/ForgeKernel",
+  "title": "OpenBMB/ForgeKernel",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-09",
+  "score": 41,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 342,
+   "starsPerDay": 14,
+   "checkedAt": "2026-11-22T20:13:27.823Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html": {
+  "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+  "title": "Writing as a thinking tool",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 477,
+   "comments": 116,
+   "checkedAt": "2026-11-22T20:13:28.033Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/synchopate/llama-modchip": {
+  "url": "https://github.com/synchopate/llama-modchip",
+  "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": 52,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1403,
+   "starsPerDay": 57,
+   "checkedAt": "2026-11-22T20:13:28.251Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://caleb.software/posts/claude-to-pi.html": {
+  "url": "https://caleb.software/posts/claude-to-pi.html",
+  "title": "Goodbye Claude, hello Pi",
+  "source": "Hacker News",
+  "date": "2026-11-09",
+  "score": 25,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 833,
+   "comments": 493,
+   "checkedAt": "2026-11-22T20:13:28.498Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/IainKay/ram-altman": {
+  "url": "https://github.com/IainKay/ram-altman",
+  "title": "IainKay/ram-altman",
+  "source": "GitHub 新專案",
+  "date": "2026-11-09",
+  "score": 52,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2373,
+   "starsPerDay": 138,
+   "checkedAt": "2026-11-22T20:13:28.901Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/sassiestrhihno/boxshelf-beta": {
+  "url": "https://github.com/sassiestrhihno/boxshelf-beta",
+  "title": "sassiestrhihno/boxshelf-beta",
+  "source": "GitHub 新專案",
+  "date": "2026-11-09",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "github",
+   "stars": 974,
+   "starsPerDay": 55,
+   "checkedAt": "2026-11-22T20:13:29.350Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/jhaizhou-ops/S2Arm": {
+  "url": "https://github.com/jhaizhou-ops/S2Arm",
+  "title": "jhaizhou-ops/S2Arm",
+  "source": "GitHub 新專案",
+  "date": "2026-11-09",
+  "score": null,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 3814,
+   "starsPerDay": 261,
+   "checkedAt": "2026-11-22T20:13:29.550Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/AtomIllusionistDwell/watson-username-footprint-finder": {
+  "url": "https://github.com/AtomIllusionistDwell/watson-username-footprint-finder",
+  "title": "AtomIllusionistDwell/watson-username-footprint-finder",
+  "source": "GitHub 新專案",
+  "date": "2026-11-09",
+  "score": 26,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game": {
+  "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+  "title": "Fable 5.2 one-shotted my nephew's dream game",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": 52,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 507,
+   "comments": 456,
+   "checkedAt": "2026-11-22T20:13:30.103Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan": {
+  "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+  "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-10",
+  "score": 19,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
+  "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+  "title": "ChatGPT Enterprise now available in AWS Marketplace",
+  "source": "OpenAI News",
+  "date": "2026-11-10",
+  "score": 11,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot": {
+  "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+  "title": "Claude Fable 5.2 in GitHub Copilot",
+  "source": "GitHub Changelog",
+  "date": "2026-11-10",
+  "score": 43,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/handshake": {
+  "url": "https://latent.space/p/handshake",
+  "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+  "source": "Latent Space",
+  "date": "2026-11-10",
+  "score": 21,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/huamidev/GestaltX": {
+  "url": "https://github.com/huamidev/GestaltX",
+  "title": "huamidev/GestaltX",
+  "source": "GitHub 新專案",
+  "date": "2026-11-10",
+  "score": 30,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 8805,
+   "starsPerDay": 646,
+   "checkedAt": "2026-11-22T20:13:30.424Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx": {
+  "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx",
+  "title": "TPU 8tx and TPU 8i Max",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 259,
+   "comments": 77,
+   "checkedAt": "2026-11-22T20:13:30.713Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/9/mysterious-beeps": {
+  "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+  "title": "Locating the source of a mysterious beep with Claude",
+  "source": "Simon Willison",
+  "date": "2026-11-10",
+  "score": 55,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://huggingface.co/blog/amazon/higher-order-pruning-experts": {
+  "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+  "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-10",
+  "score": 22,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/control-room": {
+  "url": "https://openai.com/index/control-room",
+  "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+  "source": "OpenAI News",
+  "date": "2026-11-10",
+  "score": 29,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs": {
+  "url": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+  "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
+  "source": "GitHub Changelog",
+  "date": "2026-11-10",
+  "score": 35,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/coderabbit-codex-daybreak": {
+  "url": "https://openai.com/index/coderabbit-codex-daybreak",
+  "title": "CodeRabbit scales agentic software development and ships 20x more",
+  "source": "OpenAI News",
+  "date": "2026-11-10",
+  "score": 16,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/dabingfy-dot/solo-to-team-skills": {
+  "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+  "title": "dabingfy-dot/solo-to-team-skills",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-10",
+  "score": 57,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1094,
+   "starsPerDay": 69,
+   "checkedAt": "2026-11-22T20:13:31.195Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://postalpro.usps.com/zcb": {
+  "url": "https://postalpro.usps.com/zcb",
+  "title": "USPS now offers official ZIP Code boundary polygons",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": 52,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 739,
+   "comments": 402,
+   "checkedAt": "2026-11-22T20:13:31.561Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/9/details-summary": {
+  "url": "https://simonwillison.net/2026/Nov/9/details-summary",
+  "title": "Hide your slop PR descriptions behind",
+  "source": "Simon Willison",
+  "date": "2026-11-10",
+  "score": 54,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/kuken": {
+  "url": "https://openai.com/index/kuken",
+  "title": "Kuken Industries searches 70 years of drawings in minutes",
+  "source": "OpenAI News",
+  "date": "2026-11-10",
+  "score": 20,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://yappologistic.github.io/CUI": {
+  "url": "https://yappologistic.github.io/CUI",
+  "title": "CUI – Native UI components for C",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": 30,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 180,
+   "comments": 101,
+   "checkedAt": "2026-11-22T20:13:31.836Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/FJNB5/fujiang-pojia": {
+  "url": "https://github.com/FJNB5/fujiang-pojia",
+  "title": "FJNB5/fujiang-pojia",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-10",
+  "score": 54,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://e-means.github.io": {
+  "url": "https://e-means.github.io",
+  "title": "E-means: Outperforming k-means in one-tenth the epochs",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": 36,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 522,
+   "comments": 93,
+   "checkedAt": "2026-11-22T20:13:32.174Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/thisisme6598/gemini_files": {
+  "url": "https://github.com/thisisme6598/gemini_files",
+  "title": "Google Gemini routes personal Drive files and emails to human annotators",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": 53,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 36,
+   "starsPerDay": 3,
+   "checkedAt": "2026-11-22T20:13:32.425Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://research.meta.ai/blog/muse-ember": {
+  "url": "https://research.meta.ai/blog/muse-ember",
+  "title": "Muse Ember: Our smallest, most efficient model",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": 41,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 334,
+   "comments": 140,
+   "checkedAt": "2026-11-22T20:13:33.000Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.watched.earth": {
+  "url": "https://www.watched.earth",
+  "title": "Show HN: Every satellite that passed over any place this week, and its photos",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": 61,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 503,
+   "comments": 89,
+   "checkedAt": "2026-11-22T20:13:33.378Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy": {
+  "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+  "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 588,
+   "comments": 351,
+   "checkedAt": "2026-11-22T20:13:33.640Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet": {
+  "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet",
+  "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 356,
+   "comments": 267,
+   "checkedAt": "2026-11-22T20:13:34.000Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.foldableflight.com": {
+  "url": "https://www.foldableflight.com",
+  "title": "Foldable Flight: The Best Paper Airplanes",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 1301,
+   "comments": 169,
+   "checkedAt": "2026-11-22T20:13:34.269Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/yappologistic/CUI": {
+  "url": "https://github.com/yappologistic/CUI",
+  "title": "yappologistic/CUI",
+  "source": "GitHub 新專案",
+  "date": "2026-11-10",
+  "score": 61,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1225,
+   "starsPerDay": 70,
+   "checkedAt": "2026-11-22T20:13:34.491Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://benmandrew.com/articles/what-is-malloc-doing-anyway": {
+  "url": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
+  "title": "What is malloc doing, anyway?",
+  "source": "Hacker News",
+  "date": "2026-11-10",
+  "score": 37,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 260,
+   "comments": 65,
+   "checkedAt": "2026-11-22T20:13:34.949Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/lxe/phoneuse": {
+  "url": "https://github.com/lxe/phoneuse",
+  "title": "lxe/phoneuse",
+  "source": "GitHub 新專案",
+  "date": "2026-11-10",
+  "score": 56,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 701,
+   "starsPerDay": 44,
+   "checkedAt": "2026-11-22T20:13:35.758Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/devvmhq/devvm": {
+  "url": "https://github.com/devvmhq/devvm",
+  "title": "devvmhq/devvm",
+  "source": "GitHub 新專案",
+  "date": "2026-11-10",
+  "score": 49,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 751,
+   "starsPerDay": 45,
+   "checkedAt": "2026-11-22T20:13:36.020Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/mahmoudtawfik1998/secure-pdf-document-processor": {
+  "url": "https://github.com/mahmoudtawfik1998/secure-pdf-document-processor",
+  "title": "mahmoudtawfik1998/secure-pdf-document-processor",
+  "source": "GitHub 新專案",
+  "date": "2026-11-10",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://www.vulncheck.com/blog/anthropic-glasswing-november-update": {
+  "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+  "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": 25,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 3,
+   "comments": 0,
+   "checkedAt": "2026-11-22T20:13:36.600Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://huggingface.co/blog/hub-gcp-marketplace": {
+  "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+  "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-11",
+  "score": 16,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/gilbert-tobin-sam-nickless": {
+  "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+  "title": "Gilbert + Tobin rethinks the business of law with AI",
+  "source": "OpenAI News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://deepmind.google/blog/gemini-4-carbon-is-now-available": {
+  "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+  "title": "Gemini 4 Carbon is now available",
+  "source": "Google DeepMind",
+  "date": "2026-11-11",
+  "score": 73,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management": {
+  "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+  "title": "GitHub App support for Enterprise Copilot seat management",
+  "source": "GitHub Changelog",
+  "date": "2026-11-11",
+  "score": 5,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/resend": {
+  "url": "https://latent.space/p/resend",
+  "title": "Designing for Agents — Zeno Rocha, Resend",
+  "source": "Latent Space",
+  "date": "2026-11-11",
+  "score": 34,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america": {
+  "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america",
+  "title": "Scion is back and is going to sell a kei truck in America",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 565,
+   "comments": 413,
+   "checkedAt": "2026-11-22T20:13:36.919Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/10/muse-ember": {
+  "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+  "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+  "source": "Simon Willison",
+  "date": "2026-11-11",
+  "score": 64,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://huggingface.co/blog/decision": {
+  "url": "https://huggingface.co/blog/decision",
+  "title": "Decision Models in Hugging Face",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-11",
+  "score": 25,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life": {
+  "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+  "title": "Helping caregivers use AI in everyday life",
+  "source": "OpenAI News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot": {
+  "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+  "title": "Gemini 4 Carbon in GitHub Copilot",
+  "source": "GitHub Changelog",
+  "date": "2026-11-11",
+  "score": 29,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/naiveai": {
+  "url": "https://latent.space/p/naiveai",
+  "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+  "source": "Latent Space",
+  "date": "2026-11-11",
+  "score": 50,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/pktq/lasik": {
+  "url": "https://github.com/pktq/lasik",
+  "title": "pktq/lasik",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-11",
+  "score": 60,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 143,
+   "starsPerDay": 11,
+   "checkedAt": "2026-11-22T20:13:37.130Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://starlink.com/mini-2": {
+  "url": "https://starlink.com/mini-2",
+  "title": "Starlink Mini 2",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 517,
+   "comments": 631,
+   "checkedAt": "2026-11-22T20:13:37.350Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://openai.com/index/introducing-businesses-chatgpt": {
+  "url": "https://openai.com/index/introducing-businesses-chatgpt",
+  "title": "Introducing Businesses in ChatGPT",
+  "source": "OpenAI News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds": {
+  "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+  "title": "C++ language server now auto-configures MSBuild builds",
+  "source": "GitHub Changelog",
+  "date": "2026-11-11",
+  "score": 24,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins": {
+  "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins",
+  "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+  "source": "Latent Space",
+  "date": "2026-11-11",
+  "score": 54,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f": {
+  "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f",
+  "title": "Synaptics patent claims stop work on DisplayLink drivers",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 493,
+   "comments": 285,
+   "checkedAt": "2026-11-22T20:13:37.714Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/10/yonkers-rises": {
+  "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises",
+  "title": "Yonkers Rises",
+  "source": "Simon Willison",
+  "date": "2026-11-11",
+  "score": 62,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/closing-ai-guidance-gap-education": {
+  "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+  "title": "Closing the AI guidance gap in education",
+  "source": "OpenAI News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories": {
+  "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
+  "title": "Dependabot alerts will pause on inactive repositories",
+  "source": "GitHub Changelog",
+  "date": "2026-11-11",
+  "score": 24,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/ai-effect-on-freelance-work": {
+  "url": "https://openai.com/index/ai-effect-on-freelance-work",
+  "title": "Work at the Frontier: AI’s effect on freelance work",
+  "source": "OpenAI News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard": {
+  "url": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
+  "title": "A more informative GitHub dashboard",
+  "source": "GitHub Changelog",
+  "date": "2026-11-11",
+  "score": 25,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://blog.val.town/winding-down": {
+  "url": "https://blog.val.town/winding-down",
+  "title": "Val Town is winding down",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": 40,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 427,
+   "comments": 102,
+   "checkedAt": "2026-11-22T20:13:38.375Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast": {
+  "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+  "title": "AMD's Zen 6 Family: Feeding the Beast",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 276,
+   "comments": 152,
+   "checkedAt": "2026-11-22T20:13:38.642Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://neil.fraser.name/news/2026/11/10": {
+  "url": "https://neil.fraser.name/news/2026/11/10",
+  "title": ".name Grandfathered",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 938,
+   "comments": 212,
+   "checkedAt": "2026-11-22T20:13:39.193Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/Kianuni/Erosion-CN": {
+  "url": "https://github.com/Kianuni/Erosion-CN",
+  "title": "Kianuni/Erosion-CN",
+  "source": "GitHub 新專案",
+  "date": "2026-11-11",
+  "score": 30,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2708,
+   "starsPerDay": 213,
+   "checkedAt": "2026-11-22T20:13:39.437Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://docodethatmatters.com/home-automation-overnight-success": {
+  "url": "https://docodethatmatters.com/home-automation-overnight-success",
+  "title": "Smart home devices should work without the internet",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 1207,
+   "comments": 446,
+   "checkedAt": "2026-11-22T20:13:39.695Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://tinyvalencia.com": {
+  "url": "https://tinyvalencia.com",
+  "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": 48,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 262,
+   "comments": 63,
+   "checkedAt": "2026-11-22T20:13:39.909Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.ableton.com/en/live": {
+  "url": "https://www.ableton.com/en/live",
+  "title": "Ableton Live 13",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 337,
+   "comments": 358,
+   "checkedAt": "2026-11-22T20:13:40.162Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime": {
+  "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+  "title": "What's new in the .NET 11 runtime",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": 32,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 256,
+   "comments": 1,
+   "checkedAt": "2026-11-22T20:13:40.601Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://deepmind.google/blog/introducing-alphaproof-code": {
+  "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+  "title": "AlphaProof Code",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": 40,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 679,
+   "comments": 197,
+   "checkedAt": "2026-11-22T20:13:40.821Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase": {
+  "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase",
+  "title": "AI usage generates a fragile codebase",
+  "source": "Hacker News",
+  "date": "2026-11-11",
+  "score": 35,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 648,
+   "comments": 626,
+   "checkedAt": "2026-11-22T20:13:41.130Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/thiagoaureliomartins-programador/chief-architect-premier": {
+  "url": "https://github.com/thiagoaureliomartins-programador/chief-architect-premier",
+  "title": "thiagoaureliomartins-programador/chief-architect-premier",
+  "source": "GitHub 新專案",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/RolandoV3/metatrader-5-bot": {
+  "url": "https://github.com/RolandoV3/metatrader-5-bot",
+  "title": "RolandoV3/metatrader-5-bot",
+  "source": "GitHub 新專案",
+  "date": "2026-11-11",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/SsKanDon/blender-ai-mcp-addon": {
+  "url": "https://github.com/SsKanDon/blender-ai-mcp-addon",
+  "title": "SsKanDon/blender-ai-mcp-addon",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-12",
+  "score": 56,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://www.mcmillen.dev/sigbovik": {
+  "url": "https://www.mcmillen.dev/sigbovik",
+  "title": "93% of paint splatters are valid Perl programs (2019)",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 41,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 587,
+   "comments": 80,
+   "checkedAt": "2026-11-22T20:13:41.905Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/11/gemini-decisions-api": {
+  "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
+  "title": "Gemini Decisions API",
+  "source": "Simon Willison",
+  "date": "2026-11-12",
+  "score": 65,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://huggingface.co/blog/qvac/botpsy": {
+  "url": "https://huggingface.co/blog/qvac/botpsy",
+  "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-12",
+  "score": 37,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease": {
+  "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+  "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+  "source": "Google DeepMind",
+  "date": "2026-11-12",
+  "score": 28,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts": {
+  "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+  "title": "Issue types and fields are available for personal accounts",
+  "source": "GitHub Changelog",
+  "date": "2026-11-12",
+  "score": 25,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate": {
+  "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate",
+  "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+  "source": "Latent Space",
+  "date": "2026-11-12",
+  "score": 18,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad": {
+  "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+  "title": "Nvidia is preparing to oust Jensen Huang",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 1227,
+   "comments": 1645,
+   "checkedAt": "2026-11-22T20:13:42.136Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/11/aws-emulator": {
+  "url": "https://simonwillison.net/2026/Nov/11/aws-emulator",
+  "title": "aws-emulator",
+  "source": "Simon Willison",
+  "date": "2026-11-12",
+  "score": 52,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://huggingface.co/blog/token-pooling": {
+  "url": "https://huggingface.co/blog/token-pooling",
+  "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-12",
+  "score": 17,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/chatgpt-plus-for-veterans": {
+  "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+  "title": "ChatGPT Plus for veterans and servicemembers",
+  "source": "OpenAI News",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://latent.space/p/codex-work": {
+  "url": "https://latent.space/p/codex-work",
+  "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+  "source": "Latent Space",
+  "date": "2026-11-12",
+  "score": 35,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://hugovk.dev/blog/2026/lock-github-actions": {
+  "url": "https://hugovk.dev/blog/2026/lock-github-actions",
+  "title": "Lock Your GitHub Actions",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 41,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 337,
+   "comments": 67,
+   "checkedAt": "2026-11-22T20:13:42.406Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/11/tools-tags": {
+  "url": "https://simonwillison.net/2026/Nov/11/tools-tags",
+  "title": "Browse tools.simonwillison.net by tag",
+  "source": "Simon Willison",
+  "date": "2026-11-12",
+  "score": 53,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/jiostar-vijay-seshadri": {
+  "url": "https://openai.com/index/jiostar-vijay-seshadri",
+  "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+  "source": "OpenAI News",
+  "date": "2026-11-12",
+  "score": 15,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html": {
+  "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+  "title": "Jensen Huang said to have had relationship with executive who reports to him",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 412,
+   "comments": 541,
+   "checkedAt": "2026-11-22T20:13:42.794Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/11/llm": {
+  "url": "https://simonwillison.net/2026/Nov/11/llm",
+  "title": "llm 0.37.2",
+  "source": "Simon Willison",
+  "date": "2026-11-12",
+  "score": 43,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights": {
+  "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+  "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 29,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 683,
+   "comments": 711,
+   "checkedAt": "2026-11-22T20:13:43.298Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow": {
+  "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow",
+  "title": "Anthropic's IPO roadshow video",
+  "source": "Simon Willison",
+  "date": "2026-11-12",
+  "score": 46,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://commandlinesystems.com/magic.txt": {
+  "url": "https://commandlinesystems.com/magic.txt",
+  "title": "Emacs in the Age of Magic",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 21,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 313,
+   "comments": 167,
+   "checkedAt": "2026-11-22T20:13:43.778Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/hembramneeraj3-create/aida-64-extreme": {
+  "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
+  "title": "hembramneeraj3-create/aida-64-extreme",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://termsheetplease.com": {
+  "url": "https://termsheetplease.com",
+  "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 58,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 250,
+   "comments": 98,
+   "checkedAt": "2026-11-22T20:13:44.317Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/abdulmannanmalik13-wq/adobe-substance-3d-studio": {
+  "url": "https://github.com/abdulmannanmalik13-wq/adobe-substance-3d-studio",
+  "title": "abdulmannanmalik13-wq/adobe-substance-3d-studio",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api": {
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+  "title": "Gemini Decisions API",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 39,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 571,
+   "comments": 161,
+   "checkedAt": "2026-11-22T20:13:44.815Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/AleRibeiro44/archicad-desktop-setup": {
+  "url": "https://github.com/AleRibeiro44/archicad-desktop-setup",
+  "title": "AleRibeiro44/archicad-desktop-setup",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/aws/aws-emulator": {
+  "url": "https://github.com/aws/aws-emulator",
+  "title": "AWS emulator",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 44,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 9897,
+   "starsPerDay": 137,
+   "checkedAt": "2026-11-22T20:13:45.225Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Somenicehispanic/ashampoo-winoptimizer-desktop": {
+  "url": "https://github.com/Somenicehispanic/ashampoo-winoptimizer-desktop",
+  "title": "Somenicehispanic/ashampoo-winoptimizer-desktop",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://machinelearning.apple.com/research/faster-retrieval": {
+  "url": "https://machinelearning.apple.com/research/faster-retrieval",
+  "title": "Faster Retrieval for Better, More Efficient RAG",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 28,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 242,
+   "comments": 40,
+   "checkedAt": "2026-11-22T20:13:45.615Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/PHISHER420/autodesk-inventor-desktop-config": {
+  "url": "https://github.com/PHISHER420/autodesk-inventor-desktop-config",
+  "title": "PHISHER420/autodesk-inventor-desktop-config",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter": {
+  "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter",
+  "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 592,
+   "comments": 277,
+   "checkedAt": "2026-11-22T20:13:46.064Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/CodeSouvik/clion-standalone-enhancement": {
+  "url": "https://github.com/CodeSouvik/clion-standalone-enhancement",
+  "title": "CodeSouvik/clion-standalone-enhancement",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/FrigadeHQ/yogurt": {
+  "url": "https://github.com/FrigadeHQ/yogurt",
+  "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 45,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2960,
+   "starsPerDay": 246,
+   "checkedAt": "2026-11-22T20:13:46.386Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/sajawal-12/cubase-studio-desktop": {
+  "url": "https://github.com/sajawal-12/cubase-studio-desktop",
+  "title": "sajawal-12/cubase-studio-desktop",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://blog.atuin.sh/threads-agent-sessions": {
+  "url": "https://blog.atuin.sh/threads-agent-sessions",
+  "title": "Atuin Threads: All your agent sessions on every machine",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 46,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 242,
+   "comments": 87,
+   "checkedAt": "2026-11-22T20:13:46.796Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/ebtsamalhakmy-sketch/desktop-backup-suite": {
+  "url": "https://github.com/ebtsamalhakmy-sketch/desktop-backup-suite",
+  "title": "ebtsamalhakmy-sketch/desktop-backup-suite",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/IsaiaR09/daemon-pro-desktop": {
+  "url": "https://github.com/IsaiaR09/daemon-pro-desktop",
+  "title": "IsaiaR09/daemon-pro-desktop",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://nathan.rs/posts/weight-space-lp": {
+  "url": "https://nathan.rs/posts/weight-space-lp",
+  "title": "Can a Linear Program Do Weight-Space Programming?",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 28,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/tss878/delta-executor-toolkit": {
+  "url": "https://github.com/tss878/delta-executor-toolkit",
+  "title": "tss878/delta-executor-toolkit",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://pietromiotti.com/latest/maya-site": {
+  "url": "https://pietromiotti.com/latest/maya-site",
+  "title": "My AI agents found an unmapped Maya site?",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": 51,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 1036,
+   "comments": 393,
+   "checkedAt": "2026-11-22T20:13:48.389Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/JasonCharb/directory-opus": {
+  "url": "https://github.com/JasonCharb/directory-opus",
+  "title": "JasonCharb/directory-opus",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100": {
+  "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100",
+  "title": "Using voltage glitching to unleash the A100 in my mining card",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 357,
+   "comments": 130,
+   "checkedAt": "2026-11-22T20:13:49.381Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Elegantic/designcenter-nx-desktop": {
+  "url": "https://github.com/Elegantic/designcenter-nx-desktop",
+  "title": "Elegantic/designcenter-nx-desktop",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028": {
+  "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+  "title": "Tim Peters has died",
+  "source": "Hacker News",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 1446,
+   "comments": 207,
+   "checkedAt": "2026-11-22T20:13:49.796Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/Vesuvio1/display-fusion": {
+  "url": "https://github.com/Vesuvio1/display-fusion",
+  "title": "Vesuvio1/display-fusion",
+  "source": "GitHub 新專案",
+  "date": "2026-11-12",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://unemploymentlabs.com/checkpoint-forensics": {
+  "url": "https://unemploymentlabs.com/checkpoint-forensics",
+  "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": 47,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 457,
+   "comments": 198,
+   "checkedAt": "2026-11-22T20:13:50.297Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/12/llm-gemini": {
+  "url": "https://simonwillison.net/2026/Nov/12/llm-gemini",
+  "title": "llm-gemini 0.37",
+  "source": "Simon Willison",
+  "date": "2026-11-13",
+  "score": 59,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": {
+  "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+  "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-13",
+  "score": 38,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/business/customer-stories/amplitude": {
+  "url": "https://openai.com/business/customer-stories/amplitude",
+  "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+  "source": "OpenAI News",
+  "date": "2026-11-13",
+  "score": 14,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement": {
+  "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+  "title": "Actions for ARM32 Linux & Windows retirement",
+  "source": "GitHub Changelog",
+  "date": "2026-11-13",
+  "score": 18,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/ainews-d-day-decision-models-day": {
+  "url": "https://latent.space/p/ainews-d-day-decision-models-day",
+  "title": "[AINews] D-Day (Decision Models Day)",
+  "source": "Latent Space",
+  "date": "2026-11-13",
+  "score": 25,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/lili-luo/dsh-plugin-bundle": {
+  "url": "https://github.com/lili-luo/dsh-plugin-bundle",
+  "title": "lili-luo/dsh-plugin-bundle",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-13",
+  "score": 60,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 348,
+   "starsPerDay": 21,
+   "checkedAt": "2026-11-22T20:13:50.510Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/permitzip/mutinybim": {
+  "url": "https://github.com/permitzip/mutinybim",
+  "title": "permitzip/mutinybim",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-13",
+  "score": 37,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 112,
+   "starsPerDay": 9,
+   "checkedAt": "2026-11-22T20:13:50.748Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857": {
+  "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857",
+  "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 397,
+   "comments": 198,
+   "checkedAt": "2026-11-22T20:13:50.995Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://huggingface.co/blog/3d-lora-finetuning": {
+  "url": "https://huggingface.co/blog/3d-lora-finetuning",
+  "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-13",
+  "score": 39,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/business/customer-stories/gondola": {
+  "url": "https://openai.com/business/customer-stories/gondola",
+  "title": "Gondola doubles revenue as its team builds more with Codex",
+  "source": "OpenAI News",
+  "date": "2026-11-13",
+  "score": 13,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare": {
+  "url": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
+  "title": "Secret scanning detects Cloudflare service tokens",
+  "source": "GitHub Changelog",
+  "date": "2026-11-13",
+  "score": 15,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/jev-revolution": {
+  "url": "https://latent.space/p/jev-revolution",
+  "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+  "source": "Latent Space",
+  "date": "2026-11-13",
+  "score": 22,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity": {
+  "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+  "title": "Gemini 4 Hydrogen and Orchestrator",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": 70,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 509,
+   "comments": 165,
+   "checkedAt": "2026-11-22T20:13:51.771Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://openai.com/business/customer-stories/holidays-extras-codex": {
+  "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+  "title": "Holiday Extras is rethinking what it can build with Codex",
+  "source": "OpenAI News",
+  "date": "2026-11-13",
+  "score": 11,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links": {
+  "url": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+  "title": "Public monitoring alerts now have direct links",
+  "source": "GitHub Changelog",
+  "date": "2026-11-13",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/Minglink/dsh-workflows": {
+  "url": "https://github.com/Minglink/dsh-workflows",
+  "title": "Minglink/dsh-workflows",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-13",
+  "score": 41,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 301,
+   "starsPerDay": 14,
+   "checkedAt": "2026-11-22T20:13:51.956Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0": {
+  "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0",
+  "title": "Rust 1.100",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": 34,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 905,
+   "comments": 321,
+   "checkedAt": "2026-11-22T20:13:52.231Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://openai.com/index/children-first-declaration": {
+  "url": "https://openai.com/index/children-first-declaration",
+  "title": "Supporting research on AI and children’s safety",
+  "source": "OpenAI News",
+  "date": "2026-11-13",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/HybridRobotics/supermimic": {
+  "url": "https://github.com/HybridRobotics/supermimic",
+  "title": "HybridRobotics/supermimic",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 27,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1938,
+   "starsPerDay": 156,
+   "checkedAt": "2026-11-22T20:13:52.451Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460": {
+  "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460",
+  "title": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": 35,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 232,
+   "comments": 41,
+   "checkedAt": "2026-11-22T20:13:52.897Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/agentes-chat/agentes-chat": {
+  "url": "https://github.com/agentes-chat/agentes-chat",
+  "title": "agentes-chat/agentes-chat",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 60,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1941,
+   "starsPerDay": 141,
+   "checkedAt": "2026-11-22T20:13:53.105Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://status.cloud.microsoft": {
+  "url": "https://status.cloud.microsoft",
+  "title": "Service degradation on Microsoft 365",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 1176,
+   "comments": 996,
+   "checkedAt": "2026-11-22T20:13:53.627Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen": {
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+  "title": "Gemini 4 Hydrogen",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": 67,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 576,
+   "comments": 356,
+   "checkedAt": "2026-11-22T20:13:53.864Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/apex-compute/ANR": {
+  "url": "https://github.com/apex-compute/ANR",
+  "title": "apex-compute/ANR",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 44,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2895,
+   "starsPerDay": 248,
+   "checkedAt": "2026-11-22T20:13:54.118Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/simpsoka/zigzag": {
+  "url": "https://github.com/simpsoka/zigzag",
+  "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": 35,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1028,
+   "starsPerDay": 43,
+   "checkedAt": "2026-11-22T20:13:54.357Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/HolyArrs/HolyArrs": {
+  "url": "https://github.com/HolyArrs/HolyArrs",
+  "title": "HolyArrs/HolyArrs",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 44,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 2721,
+   "starsPerDay": 212,
+   "checkedAt": "2026-11-22T20:13:54.562Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/hyperionaidev/smolmaxxing": {
+  "url": "https://github.com/hyperionaidev/smolmaxxing",
+  "title": "I'm making LLMs work on small and old devices",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": 42,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1106,
+   "starsPerDay": 60,
+   "checkedAt": "2026-11-22T20:13:54.780Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64": {
+  "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+  "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": 44,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 311,
+   "comments": 131,
+   "checkedAt": "2026-11-22T20:13:55.035Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Goblinmine/homelab-diagram": {
+  "url": "https://github.com/Goblinmine/homelab-diagram",
+  "title": "Goblinmine/homelab-diagram",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 32,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1579,
+   "starsPerDay": 103,
+   "checkedAt": "2026-11-22T20:13:55.225Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at": {
+  "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+  "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 239,
+   "comments": 8,
+   "checkedAt": "2026-11-22T20:13:55.496Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little": {
+  "url": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little",
+  "title": "Our software engineering interviews are changing a little",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": 23,
+  "picked": false,
+  "prefilter": "UNKNOWN",
+  "later": {
+   "kind": "hn",
+   "points": 270,
+   "comments": 261,
+   "checkedAt": "2026-11-22T20:13:55.721Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/kolbicz/WQFiles": {
+  "url": "https://github.com/kolbicz/WQFiles",
+  "title": "kolbicz/WQFiles",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 43,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1283,
+   "starsPerDay": 97,
+   "checkedAt": "2026-11-22T20:13:55.951Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f": {
+  "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+  "title": "Jensen Huang resigns",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 4060,
+   "comments": 3493,
+   "checkedAt": "2026-11-22T20:13:56.167Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/Goldoire/fefw-recomp": {
+  "url": "https://github.com/Goldoire/fefw-recomp",
+  "title": "Goldoire/fefw-recomp",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 50,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://ipo.anthropic.com/us": {
+  "url": "https://ipo.anthropic.com/us",
+  "title": "Anthropic IPO",
+  "source": "Hacker News",
+  "date": "2026-11-13",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 1009,
+   "comments": 922,
+   "checkedAt": "2026-11-22T20:13:56.504Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/alexeyw/lot-map": {
+  "url": "https://github.com/alexeyw/lot-map",
+  "title": "alexeyw/lot-map",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 54,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1126,
+   "starsPerDay": 86,
+   "checkedAt": "2026-11-22T20:13:56.709Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/forcequitOS/worse_query": {
+  "url": "https://github.com/forcequitOS/worse_query",
+  "title": "forcequitOS/worse_query",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 34,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 757,
+   "starsPerDay": 54,
+   "checkedAt": "2026-11-22T20:13:57.254Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/adriadam10/mkw-recomp": {
+  "url": "https://github.com/adriadam10/mkw-recomp",
+  "title": "adriadam10/mkw-recomp",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 61,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1674,
+   "starsPerDay": 127,
+   "checkedAt": "2026-11-22T20:13:57.449Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/serveroshq/panel": {
+  "url": "https://github.com/serveroshq/panel",
+  "title": "serveroshq/panel",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 46,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1185,
+   "starsPerDay": 86,
+   "checkedAt": "2026-11-22T20:13:57.713Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/luobinger/PerkRadar": {
+  "url": "https://github.com/luobinger/PerkRadar",
+  "title": "luobinger/PerkRadar",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 53,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 533,
+   "starsPerDay": 37,
+   "checkedAt": "2026-11-22T20:13:57.979Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/TooonyChen/finallyshell": {
+  "url": "https://github.com/TooonyChen/finallyshell",
+  "title": "TooonyChen/finallyshell",
+  "source": "GitHub 新專案",
+  "date": "2026-11-13",
+  "score": 55,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 710,
+   "starsPerDay": 45,
+   "checkedAt": "2026-11-22T20:13:58.191Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/hitkeeen/blender-ai-mcp-addon": {
+  "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+  "title": "hitkeeen/blender-ai-mcp-addon",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-14",
+  "score": 59,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5": {
+  "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
+  "title": "FAA lifted National Ground Stop at 0119Z",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 209,
+   "comments": 2,
+   "checkedAt": "2026-11-22T20:13:58.583Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/13/datasette-cluster-map": {
+  "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map",
+  "title": "datasette-cluster-map 0.19",
+  "source": "Simon Willison",
+  "date": "2026-11-14",
+  "score": 21,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place": {
+  "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+  "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-14",
+  "score": 26,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/index/introducing-chatgpt-wallet": {
+  "url": "https://openai.com/index/introducing-chatgpt-wallet",
+  "title": "Introducing ChatGPT Wallet",
+  "source": "OpenAI News",
+  "date": "2026-11-14",
+  "score": 43,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december": {
+  "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+  "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+  "source": "GitHub Changelog",
+  "date": "2026-11-14",
+  "score": 25,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia": {
+  "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia",
+  "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+  "source": "Latent Space",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/precygtrucqui1981/blender-ai-copilot-lab": {
+  "url": "https://github.com/precygtrucqui1981/blender-ai-copilot-lab",
+  "title": "precygtrucqui1981/blender-ai-copilot-lab",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-14",
+  "score": 36,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 505,
+   "starsPerDay": 50,
+   "checkedAt": "2026-11-22T20:13:58.793Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html": {
+  "url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+  "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 331,
+   "comments": 258,
+   "checkedAt": "2026-11-22T20:13:59.007Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/13/datasette-leaflet": {
+  "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet",
+  "title": "datasette-leaflet 0.3",
+  "source": "Simon Willison",
+  "date": "2026-11-14",
+  "score": 17,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://huggingface.co/blog/allenai/xybench": {
+  "url": "https://huggingface.co/blog/allenai/xybench",
+  "title": "XYBench: Helping with the problem behind the question",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-14",
+  "score": 22,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://openai.com/business/customer-stories/shield": {
+  "url": "https://openai.com/business/customer-stories/shield",
+  "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+  "source": "OpenAI News",
+  "date": "2026-11-14",
+  "score": 16,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app": {
+  "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+  "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+  "source": "GitHub Changelog",
+  "date": "2026-11-14",
+  "score": 13,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/artcraft": {
+  "url": "https://latent.space/p/artcraft",
+  "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+  "source": "Latent Space",
+  "date": "2026-11-14",
+  "score": 31,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/DandanLLab/SnowCatQQ": {
+  "url": "https://github.com/DandanLLab/SnowCatQQ",
+  "title": "DandanLLab/SnowCatQQ",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-14",
+  "score": 58,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 355,
+   "starsPerDay": 33,
+   "checkedAt": "2026-11-22T20:13:59.219Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/credoksopho1984/blender-ai-copilot-studio": {
+  "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio",
+  "title": "credoksopho1984/blender-ai-copilot-studio",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-14",
+  "score": 42,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 516,
+   "starsPerDay": 51,
+   "checkedAt": "2026-11-22T20:13:59.409Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://orcasairband.com": {
+  "url": "https://orcasairband.com",
+  "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 293,
+   "comments": 72,
+   "checkedAt": "2026-11-22T20:13:59.727Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://huggingface.co/blog/ggml-org/llama-cpp-v1": {
+  "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+  "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+  "source": "Hugging Face Blog",
+  "date": "2026-11-14",
+  "score": 53,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot": {
+  "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+  "title": "Gemini 4 Hydrogen in GitHub Copilot",
+  "source": "GitHub Changelog",
+  "date": "2026-11-14",
+  "score": 45,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/findavoulot1973/Blender-AI-MCP-Suite": {
+  "url": "https://github.com/findavoulot1973/Blender-AI-MCP-Suite",
+  "title": "findavoulot1973/Blender-AI-MCP-Suite",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-14",
+  "score": 37,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 495,
+   "starsPerDay": 49,
+   "checkedAt": "2026-11-22T20:13:59.988Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://twitter.com/flightradar24/status/2121347654714077605": {
+  "url": "https://twitter.com/flightradar24/status/2121347654714077605",
+  "title": "All US airports are currently ground stopped",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 214,
+   "comments": 44,
+   "checkedAt": "2026-11-22T20:14:00.382Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api": {
+  "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+  "title": "Manage AI Scan for repositories using the REST API",
+  "source": "GitHub Changelog",
+  "date": "2026-11-14",
+  "score": 21,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio": {
+  "url": "https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio",
+  "title": "racdeufindurch198812/Blender-AI-MCP-Studio",
+  "source": "GitHub Agent 技能",
+  "date": "2026-11-14",
+  "score": 43,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 517,
+   "starsPerDay": 52,
+   "checkedAt": "2026-11-22T20:14:00.746Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247": {
+  "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+  "title": "FAA issues national ground stop",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 1657,
+   "comments": 1284,
+   "checkedAt": "2026-11-22T20:14:01.004Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://open.m-vave.com/fm1-workbench": {
+  "url": "https://open.m-vave.com/fm1-workbench",
+  "title": "FM-1 Workbench",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": 39,
+  "picked": false,
+  "prefilter": "UNKNOWN",
+  "later": {
+   "kind": "hn",
+   "points": 279,
+   "comments": 179,
+   "checkedAt": "2026-11-22T20:14:01.238Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas": {
+  "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+  "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 387,
+   "comments": 216,
+   "checkedAt": "2026-11-22T20:14:01.490Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://haddyalchaer.com/jepa": {
+  "url": "https://haddyalchaer.com/jepa",
+  "title": "After 600 experiments, here's what I discovered about JEPA world models",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": 40,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 296,
+   "comments": 50,
+   "checkedAt": "2026-11-22T20:14:02.242Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078": {
+  "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+  "title": "A technical vision for the Haskell ecosystem",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": 17,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 235,
+   "comments": 159,
+   "checkedAt": "2026-11-22T20:14:02.626Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.science.org/doi/10.1126/science.132.3436.1291": {
+  "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+  "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 506,
+   "comments": 346,
+   "checkedAt": "2026-11-22T20:14:02.833Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud": {
+  "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud",
+  "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+  "source": "Hacker News",
+  "date": "2026-11-14",
+  "score": 42,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 805,
+   "comments": 225,
+   "checkedAt": "2026-11-22T20:14:03.200Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows": {
+  "url": "https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows",
+  "title": "DevedevT/FFmpeg-GUI-Editor-Windows",
+  "source": "GitHub 新專案",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/AIRzZ90/study-materials-fork": {
+  "url": "https://github.com/AIRzZ90/study-materials-fork",
+  "title": "AIRzZ90/study-materials-fork",
+  "source": "GitHub 新專案",
+  "date": "2026-11-14",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "github",
+   "stars": 763,
+   "starsPerDay": 73,
+   "checkedAt": "2026-11-22T20:14:03.653Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Robbyant/lingbot-touch": {
+  "url": "https://github.com/Robbyant/lingbot-touch",
+  "title": "Robbyant/lingbot-touch",
+  "source": "GitHub 新專案",
+  "date": "2026-11-14",
+  "score": 30,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 802,
+   "starsPerDay": 60,
+   "checkedAt": "2026-11-22T20:14:03.869Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/makepad/relax": {
+  "url": "https://github.com/makepad/relax",
+  "title": "makepad/relax",
+  "source": "GitHub 新專案",
+  "date": "2026-11-14",
+  "score": 58,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 632,
+   "starsPerDay": 57,
+   "checkedAt": "2026-11-22T20:14:04.132Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Dodaios/ste80-humanizer": {
+  "url": "https://github.com/Dodaios/ste80-humanizer",
+  "title": "Dodaios/ste80-humanizer",
+  "source": "GitHub 新專案",
+  "date": "2026-11-14",
+  "score": 62,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 1078,
+   "starsPerDay": 82,
+   "checkedAt": "2026-11-22T20:14:04.406Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/rivet-dev/open-orange": {
+  "url": "https://github.com/rivet-dev/open-orange",
+  "title": "rivet-dev/open-orange",
+  "source": "GitHub 新專案",
+  "date": "2026-11-14",
+  "score": 53,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 705,
+   "starsPerDay": 65,
+   "checkedAt": "2026-11-22T20:14:04.607Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html": {
+  "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+  "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 453,
+   "comments": 242,
+   "checkedAt": "2026-11-22T20:14:05.194Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/14/datasette-llm": {
+  "url": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+  "title": "datasette-llm 0.1a11",
+  "source": "Simon Willison",
+  "date": "2026-11-15",
+  "score": 43,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://latent.space/p/ainews-the-no-ai-slop-manifesto": {
+  "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto",
+  "title": "[AINews] The No AI Slop Manifesto",
+  "source": "Latent Space",
+  "date": "2026-11-15",
+  "score": 21,
+  "picked": false,
+  "prefilter": "UNKNOWN"
+ },
+ "https://www.spacex.com/launches/starship-flight-15": {
+  "url": "https://www.spacex.com/launches/starship-flight-15",
+  "title": "SpaceX catches the Starship to end Flight 15",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 1766,
+   "comments": 1496,
+   "checkedAt": "2026-11-22T20:14:05.465Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://simonwillison.net/2026/Nov/14/datasette-vega": {
+  "url": "https://simonwillison.net/2026/Nov/14/datasette-vega",
+  "title": "datasette-vega 0.7",
+  "source": "Simon Willison",
+  "date": "2026-11-15",
+  "score": 29,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379": {
+  "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
+  "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 293,
+   "comments": 186,
+   "checkedAt": "2026-11-22T20:14:05.696Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/smokeeaasd/flawless-ui-ux": {
+  "url": "https://github.com/smokeeaasd/flawless-ui-ux",
+  "title": "smokeeaasd/flawless-ui-ux",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-15",
+  "score": 62,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 261,
+   "starsPerDay": 14,
+   "checkedAt": "2026-11-22T20:14:05.907Z"
+  },
+  "verdict": "cold",
+  "verdictBy": "heat"
+ },
+ "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles": {
+  "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles",
+  "title": "A family tree of software job titles",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 466,
+   "comments": 220,
+   "checkedAt": "2026-11-22T20:14:06.319Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://www.crissyfield.de/research/lovable-en": {
+  "url": "https://www.crissyfield.de/research/lovable-en",
+  "title": "Lovable apps expose passport details and more than 200K private messages",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": 63,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 1010,
+   "comments": 386,
+   "checkedAt": "2026-11-22T20:14:06.856Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://github.com/boffti/starwire": {
+  "url": "https://github.com/boffti/starwire",
+  "title": "boffti/starwire",
+  "source": "GitHub DSH 生態",
+  "date": "2026-11-15",
+  "score": 19,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 243,
+   "starsPerDay": 15,
+   "checkedAt": "2026-11-22T20:14:07.060Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete": {
+  "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete",
+  "title": "PyPI's redesigned project pages with clearer security signals are now live",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": 32,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 280,
+   "comments": 132,
+   "checkedAt": "2026-11-22T20:14:07.410Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax": {
+  "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+  "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": 46,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "github",
+   "stars": 260,
+   "starsPerDay": 28,
+   "checkedAt": "2026-11-22T20:14:07.589Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14": {
+  "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14",
+  "title": "Italy fines Meta $887M over Android users' data access",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 408,
+   "comments": 313,
+   "checkedAt": "2026-11-22T20:14:07.980Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c": {
+  "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+  "title": "KDE: The documentary [video]",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 583,
+   "comments": 149,
+   "checkedAt": "2026-11-22T20:14:08.414Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature": {
+  "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature",
+  "title": "Advancing science and engineering with Antigravity's /teamwork",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": 42,
+  "picked": false,
+  "prefilter": "PASS",
+  "later": {
+   "kind": "hn",
+   "points": 215,
+   "comments": 50,
+   "checkedAt": "2026-11-22T20:14:08.728Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again": {
+  "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+  "title": "Tech companies are trying to shift the concept of privacy again",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 612,
+   "comments": 228,
+   "checkedAt": "2026-11-22T20:14:09.128Z"
+  },
+  "verdict": "hot",
+  "verdictBy": "heat"
+ },
+ "https://projectzero.google/2026/11/disclosure-policy.html": {
+  "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+  "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+  "source": "Hacker News",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "hn",
+   "points": 325,
+   "comments": 195,
+   "checkedAt": "2026-11-22T20:14:09.458Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Topkiflare74/ai--manus2.0": {
+  "url": "https://github.com/Topkiflare74/ai--manus2.0",
+  "title": "Topkiflare74/ai--manus2.0",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/WarriorRemember/IPTV_Player_2.0": {
+  "url": "https://github.com/WarriorRemember/IPTV_Player_2.0",
+  "title": "WarriorRemember/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/trackboatwrightplan/GitHub-Copilot-app": {
+  "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
+  "title": "trackboatwrightplan/GitHub-Copilot-app",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": 26,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/TrapAccountant/GitHub-Copilot-app": {
+  "url": "https://github.com/TrapAccountant/GitHub-Copilot-app",
+  "title": "TrapAccountant/GitHub-Copilot-app",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": 45,
+  "picked": false,
+  "prefilter": "PASS"
+ },
+ "https://github.com/TurquoiseDetective/IPTV_Player_2.0": {
+  "url": "https://github.com/TurquoiseDetective/IPTV_Player_2.0",
+  "title": "TurquoiseDetective/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/tornadonovicewhirl40/IPTV_Player_2.0": {
+  "url": "https://github.com/tornadonovicewhirl40/IPTV_Player_2.0",
+  "title": "tornadonovicewhirl40/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/WattBeetleLearn/IPTV_Player_2.0": {
+  "url": "https://github.com/WattBeetleLearn/IPTV_Player_2.0",
+  "title": "WattBeetleLearn/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/topapothecarycanal/ai--manus2.0": {
+  "url": "https://github.com/topapothecarycanal/ai--manus2.0",
+  "title": "topapothecarycanal/ai--manus2.0",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "github",
+   "stars": 376,
+   "starsPerDay": 47,
+   "checkedAt": "2026-11-22T20:14:10.835Z"
+  },
+  "verdict": null,
+  "verdictBy": "heat"
+ },
+ "https://github.com/Trapbraneedle/IPTV_Player_2.0": {
+  "url": "https://github.com/Trapbraneedle/IPTV_Player_2.0",
+  "title": "Trapbraneedle/IPTV_Player_2.0",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK"
+ },
+ "https://github.com/trackersnailgrip/GitHub-Copilot-app": {
+  "url": "https://github.com/trackersnailgrip/GitHub-Copilot-app",
+  "title": "trackersnailgrip/GitHub-Copilot-app",
+  "source": "GitHub 新專案",
+  "date": "2026-11-15",
+  "score": null,
+  "picked": false,
+  "prefilter": "BLOCK",
+  "later": {
+   "kind": "github",
+   "stars": 380,
+   "starsPerDay": 47,
+   "checkedAt": "2026-11-22T20:14:11.178Z"
   },
   "verdict": null,
   "verdictBy": "heat"
