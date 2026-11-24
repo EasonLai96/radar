@@ -1,11 +1,4 @@
 {
- "https://simonwillison.net/2026/Nov/9/llm-anthropic": "2026-11-10T04:46:03.120Z",
- "https://github.com/Roland0511/dsh-marktext": "2026-11-10T04:46:03.120Z",
- "https://github.com/woniuniuniu/dsh-media-desk": "2026-11-10T04:46:03.120Z",
- "https://github.com/CityPulso/PulsoIcon": "2026-11-10T04:46:03.120Z",
- "https://www.anthropic.com/claude-fable-and-mythos-5-2": "2026-11-10T04:46:03.120Z",
- "https://simonwillison.net/2026/Nov/9/hn-50421091": "2026-11-10T04:46:03.120Z",
- "https://artificialanalysis.ai/models/claude-fable-5-2": "2026-11-10T04:46:03.120Z",
  "https://simonwillison.net/2026/Nov/10/llm-gemini": "2026-11-11T02:56:37.385Z",
  "https://deepmind.google/blog/gemini-4-carbon-is-now-available": "2026-11-11T02:56:37.385Z",
  "https://github.com/GoogleChrome/modern-web-guidance": "2026-11-11T02:56:37.385Z",
@@ -42,5 +35,10 @@
  "https://github.com/Jestions-dev/dsh-download-server": "2026-11-21T04:10:05.521Z",
  "https://github.com/danielwh2/sprite-stacking": "2026-11-22T03:20:27.650Z",
  "https://github.com/JimLiu/open-artifact": "2026-11-22T03:20:27.650Z",
- "https://github.com/CocoSgt/riemann-hypothesis-lean": "2026-11-22T03:20:27.650Z"
+ "https://github.com/CocoSgt/riemann-hypothesis-lean": "2026-11-22T03:20:27.650Z",
+ "https://z.ai/blog/glm-5.4": "2026-11-24T07:04:37.281Z",
+ "https://simonwillison.net/2026/Nov/23/glm-54": "2026-11-24T07:04:37.281Z",
+ "https://github.com/hovocope135-tech/DSH-projects": "2026-11-24T07:04:37.281Z",
+ "https://github.com/ivall/xcl": "2026-11-24T07:04:37.281Z",
+ "https://github.com/erkamyaman/safe-anything": "2026-11-24T07:04:37.281Z"
 }

@@ -1,6 +1,6 @@
 {
- "date": "2026-11-23",
- "generatedAt": "2026-11-23T03:53:16.124Z",
+ "date": "2026-11-24",
+ "generatedAt": "2026-11-24T07:04:32.882Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -9,7 +9,77 @@
   "write": "2d964375",
   "group": "2dabeeef"
  },
- "items": [],
+ "items": [
+  {
+   "title": "GLM-5.4 主打通用寫程式能力",
+   "summary": "z.ai 發表 GLM-5.4，是其首個 loop transformer，主打通用 coding；HN 破 1100 分。",
+   "why": "想看新架構怎麼影響寫程式能力，可讀官方文章和 HN 上 360 則討論。",
+   "url": "https://z.ai/blog/glm-5.4",
+   "comments": "https://news.ycombinator.com/item?id=50609685",
+   "source": "Hacker News",
+   "alsoFrom": [
+    "Simon Willison"
+   ],
+   "stars": null,
+   "score": 77,
+   "scores": [
+    null,
+    82
+   ],
+   "originalTitle": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "related": [
+    "https://simonwillison.net/2026/Nov/23/glm-54"
+   ]
+  },
+  {
+   "title": "DSH 外掛：一句話交辦並行任務",
+   "summary": "DSH-projects 是 DeepSeek Harness 的開源外掛，說出一句目標，它會追問不清楚處、並行跑任務，完成後再交回給你。",
+   "why": "想同時推進多個專案時可以裝來試，需要 Node 24 以上與模型 API key。",
+   "url": "https://github.com/hovocope135-tech/DSH-projects",
+   "source": "GitHub DSH 生態",
+   "alsoFrom": [],
+   "stars": 422,
+   "score": 68,
+   "scores": [
+    69,
+    67
+   ],
+   "originalTitle": "hovocope135-tech/DSH-projects",
+   "related": []
+  },
+  {
+   "title": "開源專案讓 Xbox Series 遊戲免模擬跑在 Windows",
+   "summary": "xcl 是用 Rust 寫的相容層，重新實作 Xbox Series 系統函式庫並把 RDNA2 shader 轉譯成 DXIL，讓主機遊戲原生跑在 Windows 上，Minecraft Preview、Unicorn Overlord 已可完整遊玩。",
+   "why": "想了解遊戲底層怎麼跑、對圖學或系統程式有興趣可以挖這個 repo。",
+   "url": "https://github.com/ivall/xcl",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 4670,
+   "score": 67,
+   "scores": [
+    null,
+    72
+   ],
+   "originalTitle": "ivall/xcl",
+   "related": []
+  },
+  {
+   "title": "一行指令掃出漏洞與外洩金鑰",
+   "summary": "safe-anything 是 Rust 寫的漏洞掃描器，能找 XSS、SQL 注入、外洩金鑰、套件 CVE，也查 AI agent 設定。",
+   "why": "Discord 機器人的 token 不小心 commit 了？不用設定、不用帳號，跑一次就能掃。",
+   "url": "https://github.com/erkamyaman/safe-anything",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 530,
+   "score": 66,
+   "scores": [
+    null,
+    71
+   ],
+   "originalTitle": "erkamyaman/safe-anything",
+   "related": []
+  }
+ ],
  "nearMiss": [
   {
    "title": "EL4CTEO/fast-anything",
@@ -18,10 +88,10 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "0xkaka/homeport",
-   "url": "https://github.com/0xkaka/homeport",
+   "title": "LIUFelix2004/dsh-workbuddy",
+   "url": "https://github.com/LIUFelix2004/dsh-workbuddy",
    "score": 65,
-   "source": "GitHub 新專案"
+   "source": "GitHub DSH 生態"
   },
   {
    "title": "sybil-solutions/skill-distill",
@@ -30,9 +100,9 @@
    "source": "GitHub 新專案"
   },
   {
-   "title": "iamajmeena/neonclipping",
-   "url": "https://github.com/iamajmeena/neonclipping",
-   "score": 61,
+   "title": "xikhar/papercraft",
+   "url": "https://github.com/xikhar/papercraft",
+   "score": 64,
    "source": "GitHub 新專案"
   },
   {
@@ -59,64 +129,66 @@
    {
     "id": "gh-agent",
     "name": "GitHub Agent 技能",
-    "count": 2,
+    "count": 0,
     "error": null
    },
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 10,
+    "count": 12,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 2,
+    "count": 4,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 0,
+    "count": 1,
     "error": null
    },
    {
     "id": "openai",
     "name": "OpenAI News",
-    "count": 1,
+    "count": 3,
     "error": null
    },
    {
     "id": "deepmind",
     "name": "Google DeepMind",
-    "count": 0,
+    "count": 1,
     "error": null
    },
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 0,
+    "count": 4,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 0,
+    "count": 1,
     "error": null
    }
   ],
-  "candidates": 46,
-  "prefilterPass": 37,
-  "scored": 37,
-  "picked": 0,
+  "candidates": 60,
+  "prefilterPass": 49,
+  "scored": 49,
+  "picked": 4,
   "llm": {
-   "calls": 48,
-   "failures": 13,
+   "calls": 94,
+   "failures": 18,
    "byRoute": {
-    "owob:deepseek-v4.1-flash": 20,
-    "owob:glm-5.3-flash": 15
+    "owob:deepseek-v4.1-flash": 44,
+    "owob:glm-5.3-flash": 27,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 4,
+    "avianjay:mrtoasterrr/claude-sonnet-5": 1
    },
-   "tokens": 39494
+   "tokens": 90720
   }
  }
 }
