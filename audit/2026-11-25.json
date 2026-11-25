@@ -1,0 +1,1436 @@
+[
+ {
+  "title": "Marvisak/VIctory",
+  "url": "https://github.com/Marvisak/VIctory",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 11625,
+  "language": "Rust",
+  "topics": [],
+  "publishedAt": "2026-11-23T21:47:25Z",
+  "body": "An attempt at running GTA VI on PC\n\nREADME 節錄：# VIctory Runs Grand Theft Auto VI (Xbox Series X|S) natively on Windows, from files the user supplies. The title's x86-64 code runs unchanged inside our process; VIctory supplies the platform underneath it and converts the title's data, ahead of time where it can (shaders and pipelines too, see Getting started) and on first use otherwise. See docs/architecture.md. ## Status (2026-11-24) **Not playable yet.** The title boots, runs its menus at its own 30 fps, loads the world and shows it: slowly, and with rendering defects. | Stage | State | |-------|-------| | Boot, first-boot screens (accessibility, language, settings, legal) | works, 30 fps | | Intro video with sound | works | | Start screen, profile and saves | works | | Loading into the world (about 50 s) | works | | The world (first mission's intro) | drawn and shown: streets, buildings, vehicles, characters, the title card and credits; 1-2 s per frame. Surfaces are unlit, a band of distant geometry is missing, characters come out broken in some shots | Tested on one machine: Windows 11, AMD RX 6700 XT. > **Warning.** Entering the world on a real GPU has hung it in earlier > builds, and Windows then resets the display driver (every monitor goes > black for a moment). The latest runs did not, but it is not ruled out; a > run can also end on a GPU fault (`crashes.log`). A diagnostics build with > `VICTORY_D3D12_WARP=1` renders on the software adapter instead (too slow > to rea",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源專案，遊戲移植與D3D12渲染技術"
+  },
+  "scores": [
+   52,
+   59
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "sybil-solutions/inference-optimisation-skill",
+  "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 2603,
+  "language": "Python",
+  "topics": [
+   "agent-skill",
+   "benchmarking",
+   "claude-code",
+   "inference",
+   "llm",
+   "speculative-decoding"
+  ],
+  "publishedAt": "2026-11-16T18:40:04Z",
+  "body": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization\n\nREADME 節錄：# inference-optimisation An agent skill for **hill-climbing the speed of a local LLM server** on any hardware and any quantization. It covers: - single-user and concurrent decode - speculative decoding - prefill - KV cache size - startup time and time to first token It works under a memory cap, and every result has to survive a full-context stability check. It encodes how we actually got these speedups. It is not a list of flags. The workflow: 1. Compute the theoretical ceiling. 2. Change one thing at a time. 3. Measure against interleaved controls. 4. Log every result, including the failures. 5. Gate on long-context retrieval. 6. Qualify a clean, pinned build before publishing. It works with Claude Code and any agent that loads `SKILL.md`-style skills. Any model can also follow it from `PROMPT.md`. ## What we've been able to accomplish Results from the hill-climbs this skill was distilled from. Every number was measured on the hardware named; see the linked sources for methods and raw data. | Hardware | Model / quant / engine | Before → after | |---|---|---| | **Intel Arc B390 iGPU** (laptop, 64 GB unified LPDDR5X, ~115 GB/s) | Ornith-1.5-35B-A3B, EXL3 4 bpw, SGLang XPU + MTP | Decode, 1 user: 43.6 → **53 tok/s** (median) Decode, 4 users: 84.7 → **103 tok/s** Prefill 32K: 1,037 → **1,660 tok/s** Prefill 256K: 297 → **628",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Agent skill 加速本地 LLM 推論，屬開發工具"
+  },
+  "scores": [
+   34,
+   50
+  ],
+  "score": 42,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+  "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-25T01:19:26.000Z",
+  "body": "Article URL: https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf Comments URL: https://news.ycombinator.com/item?id=50637220 Points: 354 # Comments: 167",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "純數學理論，與AI開發工具無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Three LLM inflection points in twelve months",
+  "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T23:02:07.000Z",
+  "body": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply. Coding agents in November 2025 Today, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5 . With hindsight, this was a consequential model. In the Opus 4.5 announcement, Anthropic said: Testers noted that Claude Opus 4.5 handles ambiguity and reasons about tradeoffs without hand-holding. They told us that, when pointed at a complex, multi-system bug, Opus 4.5 figures out the fix. They said that tasks that were near-impossible for Sonnet 4.5 just a few weeks ago are now within reach. This held up. Claude Code was 9 months old at that point, having been introduced alongside Claude 3.7 Sonnet on February 24th, 2025. Opus 4.5 was the first model I had used with Claude Code where the default result was generally the right thing. I hadn't been using Claude Code as a daily driver because it didn't feel reliable enough - I had to correct it often enough that it didn't feel like a clear accelerant. The new Opus changed that. For most of the coding problems I faced on a daily basis, Opus would get them right . It was clearly faster than working through the problems myself. Also in November, OpenAI released ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "談 LLM 與 coding agent 能力轉折點，與開發工具實質相關"
+  },
+  "scores": [
+   44,
+   null
+  ],
+  "score": 39,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+  "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+  "source": "Hugging Face Blog",
+  "sourceId": "hf",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T16:34:13.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "機器人模擬與Sim2Real開發相關"
+  },
+  "scores": [
+   30,
+   null
+  ],
+  "score": 25,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Searching for distant planets with Astra",
+  "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T11:00:00.000Z",
+  "body": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "業餘天文學家用 Codex 分析 NASA 資料找系外行星，涉及 coding agent 應用"
+  },
+  "scores": [
+   34,
+   null
+  ],
+  "score": 29,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "More predictable notifications on GitHub.com",
+  "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+  "source": "GitHub Changelog",
+  "sourceId": "ghchangelog",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T16:40:59.000Z",
+  "body": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.… The post More predictable notifications on GitHub.com appeared first on The GitHub Blog .",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GitHub 通知機制變更，屬開發工具平台動態"
+  },
+  "scores": [
+   27,
+   null
+  ],
+  "score": 22,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+  "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-25T04:29:07.000Z",
+  "body": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "新AI模型發布與基準測試，屬模型可用性"
+  },
+  "scores": [
+   68,
+   null
+  ],
+  "score": 63,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "xcl-dev/xcl",
+  "url": "https://github.com/xcl-dev/xcl",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 7961,
+  "language": "Rust",
+  "topics": [
+   "d3d12",
+   "gdk",
+   "rdna2",
+   "xbox"
+  ],
+  "publishedAt": "2026-11-20T20:03:21Z",
+  "body": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL\n\nREADME 節錄： Games · Highlights · How it works · Quick start · What works · Controls · Building and usage · Tests · Contributing # XCL – Xbox Series X|S → Windows compatibility layer XCL is a compatibility layer that runs Xbox Series X|S (GDK) games you own on a Windows PC - in the spirit of Wine/Proton. There is no CPU emulation: the game's x64 code runs natively, and XCL provides its own, independently written implementations of the console system libraries the PC does not have (`kernelx.dll`, XGameRuntime, `d3d12_xs.dll`, …). The console's GPU code (RDNA2 machine code) is recompiled into PC shaders (HLSL → DXIL). > [!IMPORTANT] > XCL works only on unpacked game files you already own. It does not download, decrypt or unpack game packages (XVC / MSIXVC) and contains nothing for circumventing DRM. The repository holds no code, headers or binaries from the console SDK, no keys and no game data; the Windows components XCL relies on (XGameRuntime, XAudio2, D3D12, DXC) come from your own system or the public Windows SDK and are not distributed with XCL. ## Games | Game | State | What works | Limits | |---|---|---|---| | **Minecraft Preview** `Microsoft.MinecraftBeta` 1.18.3064.0 | ✅&nbsp;playable | fully playable | – | | **Unicorn Overlord** `SEGAofAmericaInc.Pa253b0c1Y` 1.0.0.6 | ✅&nbsp;playable | fully playable | – | | **Fo",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Xbox 相容層專案，屬系統底層開發技術"
+  },
+  "scores": [
+   52,
+   null
+  ],
+  "score": 47,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "RMvdesi/obsidian-prism",
+  "url": "https://github.com/RMvdesi/obsidian-prism",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 431,
+  "language": "JavaScript",
+  "topics": [
+   "antigravity",
+   "desktop-customization",
+   "developer-tools",
+   "gplv3",
+   "optical-ui",
+   "spring-animation",
+   "theme",
+   "ui-theme",
+   "webgl2"
+  ],
+  "publishedAt": "2026-11-17T02:50:21Z",
+  "body": "Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)\n\nREADME 節錄： # Obsidian Prism · 黑曜棱镜 **为 Google Antigravity 打造的原生光学界面套件** 四套深浅配色 · 会呼吸的 512K 上下文试管 · 推理等级滑块 · 像素伙伴 · 自定义动静态壁纸（Beta）· Chat 对话模式（Beta） **简体中文** · **English** · **更新日志 (CHANGELOG)** · **下载安装包 (Releases)** · **问题反馈 (Issues)** 以上画面由离线渲染舞台直接运行本仓库前端源码逐帧录制，示例工作区与对话内容均为虚构。 > **非官方社区项目与商标免责声明 (Non-Affiliation Disclaimer)** > > **Obsidian Prism is an independent open-source project and is not affiliated with or endorsed by Google LLC.** > 本项目为独立的开源社区工程，与 Google LLC 无任何隶属、赞助或官方背书关系；文中提及的 “Antigravity” 与 “Google” 仅作兼容性说明用途。 --- ## 亮点 - **四套配色，一键换装**：深空黑曜、暖炭玄岩两套深色，白昼冷晶、暖白画册两套浅色，可跟随系统亮暗自动切换。 - **看得见的上下文**：输入框旁的小试管实时显示 512K 上下文用量，点开就能看到用量拆分和配额剩余预测。 - **推理等级，一拨就换**：模型菜单里内置星空滑块；选中 Orchestrator 时，滑块会变成一条会折射光线的切工水晶。 - **读得懂的思考过程与标题**：模型的思考内容支持实时转译成中文（沉浸 / 双语对照）与一键诊断，支持手动 HTTP/SOCKS5 代理、可选工具摘要与会话标题自动翻译。 - **自定义动静态背景壁纸（Beta）**：位于设置「Beta 内容」分类，默认关闭零占用，支持纯本机只读加载自定义图片与 MP4/WebM 动态视频背景（实验性功能，交互与表现可能随版本持续调整）。 - **桌面上的像素伙伴**：Clawd、小紫猫和三只迷你蟹会在输入框上方玩叠叠乐，还藏着一个彩虹彩蛋。 - **更顺手的工作台**：内置浏览器和大文件检视台、右键快捷菜单、长代码块折叠、会话大纲快速跳转。 - **Chat 对话模式（Beta）**：在写代码之外，多了一个专门聊天、整理资料的空间，和工程设置互不干扰。 - **轻、快、守规矩**：动画空闲时自动降到 0fps；本地服务只监听本机；设置改动 10 毫秒内生效，随时一键卸载还原。 --- ## 界面预览 ### 1. 四套配色 | 主题预设 | 配置键值 | 侧栏底色 | 主画布 | 说明 | | :--- | :--- | :--- | :--- | :--- | | **深空黑曜** | `palette: \"obsidian\"` | `#09090B` | `#0E0E11` | 冷调深灰底色，高对比度代码阅读配色 | | **暖炭玄岩** | `palette: \"warm\"` | `#10100F` | `#141413` | 暖",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "為 Antigravity  coding agent 開發的原生 UI 套件與開發工具"
+  },
+  "scores": [
+   28,
+   24
+  ],
+  "score": 26,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T21:02:22.000Z",
+  "body": "Article URL: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/ Comments URL: https://news.ycombinator.com/item?id=50634658 Points: 222 # Comments: 68",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "GPT-6 模型能力與 AI 模型相關"
+  },
+  "scores": [
+   41,
+   null
+  ],
+  "score": 36,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "GPT 6.2 Astra Solves a Historical Mystery",
+  "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T16:53:59.000Z",
+  "body": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library . It did so extremely quickly (in just 22 minutes), using publicly available primary and secondary sources. To do so, it discovered a little known source in a paper archive, predicted that it would prove its hypothesis if examined and, in the end, it did. Not only that, but this new source turns out to be a major find on its own that will be of significant interest to both Canadian and fur trade historians. Here's the digitized sketchbook . Astra found a diary reference reference to a visit by the vicomte de Chabot dated five days before a date mentioned in the sketchbook at a nearby river, and suggested that Chabot's journal of his travels (only available by order from Cleveland State University) might confirm that the sketchbook was his work. Are historians due for a round of Deep Blue ? Mark thinks it will be mild: But if the experience of mathematics is any guide, we can also anticipate that sometime next spring or summer we’ll face a sort of crisis of confidence as we struggle to understand how to respond to agentic systems that can do things human historians cannot. To be fair, that crisis will almost certainly be less profound for us than it is for math. The p",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 模型自主研究案例，與 Agent 能力相關"
+  },
+  "scores": [
+   46,
+   null
+  ],
+  "score": 41,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "How Intentful uses dots to make more time for growth",
+  "url": "https://openai.com/business/customer-stories/intentful-dots",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T00:00:00.000Z",
+  "body": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI代理應用案例，與Agent相關"
+  },
+  "scores": [
+   2,
+   null
+  ],
+  "score": -3,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+  "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft",
+  "source": "Latent Space",
+  "sourceId": "latent",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T04:14:16.000Z",
+  "body": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI 新聞：OpenAI 預訓練曲線與訓練上限，與模型開發相關"
+  },
+  "scores": [
+   24,
+   41
+  ],
+  "score": 32,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "EL4CTEO/fast-anything",
+  "url": "https://github.com/EL4CTEO/fast-anything",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 3685,
+  "language": "Rust",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "claude-code",
+   "claude-code-plugin",
+   "codex",
+   "developer-tools",
+   "ffi",
+   "mcp",
+   "mcp-server",
+   "napi-rs",
+   "nodejs",
+   "optimization",
+   "performance",
+   "profiler",
+   "pyo3",
+   "python",
+   "rewrite-it-in-rust",
+   "ruby",
+   "rust",
+   "typescript"
+  ],
+  "publishedAt": "2026-11-21T14:40:27Z",
+  "body": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.\n\nREADME 節錄： Don't rewrite it in Rust. Rewrite the 5% that's slow. Rewriting a whole app in Rust costs months, minute-long compiles and gigabytes of `target/`. Most of the runtime sits in a few functions anyway. **fast-anything** finds those functions, has your coding agent port *only them* to Rust, proves the port gives the same results on real recorded calls, and swaps it in. One command, fully reversible. ## Install ```sh npm i -g @el4cteo/fast-anything # or: cargo install fast-anything ``` Ports are compiled with your Rust toolchain (rustup). ## Use ```sh fast-anything go --agent claude -- python app.py # or: -- node app.ts / bun app.ts / deno run -A app.ts / ruby app.rb / java App.java / mvn exec:java / gradle run / go run . / php app.php / clang -O2 main.c / Rscript app.R ``` Or step by step: | command | what it does | |---|---| | `scan -- ` | profiles the app, ranks functions by time × how portable they are | | `port [id]` | records up to 500 real calls, creates a one-function Rust crate + `TASK.md` | | `verify` | release-builds the port and replays every recorded call | | `enable` / `disable` | swaps the Rust in or out (one marked block, removed byte for byte) | | `bench` | times the whole app, original vs Rust, interleaved runs | | `report` | markdown + SVG card for your PR | | `doctor` | checks Rust, your ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源開發工具，用 coding agent 把熱點函式改寫成 Rust，支援 claude/codex，與 Agent 開發實質相關"
+  },
+  "scores": [
+   45,
+   70
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "niyouqianma/workbuddy2api-hub",
+  "url": "https://github.com/niyouqianma/workbuddy2api-hub",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 419,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-14T06:52:08Z",
+  "body": "WorkBuddy2API-Hub - OpenAI-compatible local gateway\n\nREADME 節錄：# WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢 > [!IMPORTANT] > **官方群聊**：https://t.me/wb2apihub > > **凭证安全**：本项目是本地部署网关，运行时需要在本地读取用户自行导入的账号凭证，才能调用官方接口；凭证保存在用户自己的 `accounts/` 目录。项目不会把凭证上传到本项目的第三方服务器，也没有隐藏的凭证收集或上传逻辑。请立即关闭公网暴露，联系官方吊销全部 OAuth / 设备授权，确认旧 token 返回 `401` 后再重新授权。 > [!WARNING] > **WorkBuddy 上游正在收紧对非官方客户端的识别与拦截。** > > - **封禁**：2026-10-23 下午起，非官方客户端的识别与拦截明显收紧。 > - **维护者**：近期工作压力增大，无法保证及时更新与响应。 > - **可用性**：上游可能随时进一步收紧，导致本项目不可用。 > - **账号风险**：使用非官方客户端造成的风控、限流或封禁，由使用者自行承担。 > > **Upstream enforcement** tightened detection and blocking of unofficial clients from the afternoon of 2026-10-23. The maintainer is under increased workload and cannot guarantee timely updates or replies. The upstream may tighten further at any time; rate limits, account restrictions or bans caused by using an unofficial client are the user's responsibility. 本项目仅用于协议学习、研究与个人自用。请优先使用官方客户端，不要使用主账号，不要共享账号，也不要用于商业转售。 This project is for protocol research and personal use only. Prefer the official client, do not use your primary account, and do not resell or share access. ## 核心特性 - **标准 API 兼容**：将 WorkBuddy（国际版/国内版）与 CodeArts 封装为标准 OpenAI 格式（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。 - **开箱即用与多端部署**：便携版免装环境（Windows 自带精简运行时），支持 Docker、NAS（群晖/飞牛）一键部署及 OpenWrt 路由器固件。 - **多账号池与出口隔离**：支持浏览器 OAuth 快速导入、每账号独立出口代理槽绑定、设备指纹隔离、自动故障转移与配额轮转。 - **自动化福利与签到**：内置国内版成长任务、星巴克 / 记者节运营活动、小程序任务、加油站签到与猫猫旅行，支持国际版每日活跃会话与 CodeArts 自动签到；手机 App 对话、公众号关注与公",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "OpenAI相容本地網關，多帳號池與API轉接，與coding agent工具相關"
+  },
+  "scores": [
+   30,
+   45
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Ternary Bonsai 2.5 27B",
+  "url": "https://prismml.com/news/bonsai-2-5-27b",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T20:08:03.000Z",
+  "body": "Article URL: https://prismml.com/news/bonsai-2-5-27b Comments URL: https://news.ycombinator.com/item?id=50633922 Points: 392 # Comments: 129",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Ternary 27B 模型發布，屬 AI 模型可用性"
+  },
+  "scores": [
+   36,
+   null
+  ],
+  "score": 31,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette-charts 0.2a0",
+  "url": "https://simonwillison.net/2026/Nov/24/datasette-charts",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T04:24:29.000Z",
+  "body": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent.datasette.io where you can sign in with GitHub to try the plugin yourself: Download the video (MP4) I prompt Datasette Agent to \"Use #stats to show sqlite-utils downloads over time as a chart\" - where typing \"#stats\" opens a table search box. It shows me a chart inline in the chat, and when I click \"Open in the chart builder\" it opens the chart in a panel along with the table page. I use the table page to switch to a chart of \"datasette\", then when I ask the agent \"what does the chart show?\" it notices that I changed the content in the panel and describes the new Datasette chart to me. Here's a Markdown export of the chat from the video. Tags: datasette-agent , datasette , visualization",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Datasette 圖表外掛整合 AI Agent，屬開源開發工具與 Agent 應用"
+  },
+  "scores": [
+   42,
+   37
+  ],
+  "score": 39,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "How iFood scales coding agents across 15,000 repositories",
+  "url": "https://openai.com/business/customer-stories/ifood",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T00:00:00.000Z",
+  "body": "",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "談 coding agent 大規模應用，與開發工具相關"
+  },
+  "scores": [
+   18,
+   null
+  ],
+  "score": 13,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "AFK-surf/xnulinux",
+  "url": "https://github.com/AFK-surf/xnulinux",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 3508,
+  "language": "Objective-C++",
+  "topics": [],
+  "publishedAt": "2026-11-20T10:18:31Z",
+  "body": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)\n\nREADME 節錄：# xnulinux Run macOS userspace on Linux by loading the macOS kernel into it. xnulinux builds XNU, the open-source kernel of macOS, from Apple's published sources and runs it as a loadable kernel module (`xnu.ko`) inside an unmodified arm64 Linux kernel. The hosted XNU drives the CPU and MMU directly, so macOS processes run natively next to Linux processes on the same CPUs, with no hypervisor between them. Linux lends XNU its memory, timers, files, network and GPU through a small interface module (`fki.ko`). With a stock Ubuntu kernel, `insmod xnu.ko` boots a macOS 27 system disk made by Apple's own installer to the desktop: loginwindow, WindowServer, Dock, Finder, Safari and Chrome. *One system, two userspaces. Left: a Terminal in the hosted macOS 27.2.1 (`sw_vers`, the Darwin kernel, launchd, WindowServer, Dock and Finder running). Right: from that macOS, an SSH session into the Linux it runs inside (Ubuntu, Linux 7.0, the `xnu` and `fki` modules loaded, and the `insmod xnu.ko` process the macOS kernel runs in). Straight from the hosted framebuffer, 1280×800.* *The hosted desktop at the end of a 30-minute stress run, rendered on the CPU (no GPU bridge).* | | | |---|---| | | | | | | *Safari in the hosted macOS: Wikipedia's article on XNU, kernel.org and the Linux repository on GitHub, over the hosted system's network link through Linux, with the GPU bridge on (`GPU=auto`).* *Bare-metal",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源核心專案，以 Linux 載入 XNU 來跑 macOS，與開發工具相關"
+  },
+  "scores": [
+   53,
+   62
+  ],
+  "score": 57,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "xyc999-ai/go-bot",
+  "url": "https://github.com/xyc999-ai/go-bot",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 347,
+  "language": "Go",
+  "topics": [],
+  "publishedAt": "2026-11-15T18:05:59Z",
+  "body": "Open-source alternative to Muse, Grok Bot and dots. Choose your own model.\n\nREADME 節錄： go-bot English · 简体中文 · Download Android APK go-bot is a Go-based Harness system and a self-hosted personal agent. It offers an open-source alternative to Meta Muse, OpenAI dots, and Grok Bot. Run locally with Docker for personal use, development, and testing. Go Bot remembers your context and stays attentive to what matters to you, bringing useful discoveries and ideas into the conversation on its own. Teams can use Alibaba Cloud Elastic Container Instance (ECI) to build their own personal agent products, with a dedicated Host for each account, optional persistent storage, and room for their own frontends and service integrations. - **Web research and browser automation.** Search the web through a configured provider. Use Chromium to navigate pages, interact with forms, and capture screenshots. - **Image generation and editing.** Generate images from text or use uploaded images as references. Results appear directly in chat. - **Office documents.** Read, create, and edit Word, PowerPoint, and Excel files with OfficeCLI, and deliver them as downloadable attachments. - **Long-term memory and cross-session recall.** Save user preferences and agent notes per account, and search past conversations when a task needs earlier context. - **Proactive discovery and follow-up.** Enable proactive assistance to let the agent gather and connect relevant information, explore new leads, and share useful fi",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Go 版 DSH 自架 agent，涉及開發工具與 AI 應用"
+  },
+  "scores": [
+   62,
+   55
+  ],
+  "score": 58,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Active intrusion campaign against Check Point security management servers",
+  "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T16:32:17.000Z",
+  "body": "Article URL: https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign Comments URL: https://news.ycombinator.com/item?id=50630594 Points: 274 # Comments: 140",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "資安入侵事件新聞，與開發工具或AI無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "datasette-agent 0.7a1",
+  "url": "https://simonwillison.net/2026/Nov/24/datasette-agent",
+  "source": "Simon Willison",
+  "sourceId": "simonw",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T03:45:57.000Z",
+  "body": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent : chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way that changes state. I built this in order to fix some bugs with the much more exciting datasette-charts 0.2a0 release . Tags: datasette-agent , datasette",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 Datasette 代理外掛更新"
+  },
+  "scores": [
+   25,
+   31
+  ],
+  "score": 28,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Clay helps sales teams win with Codex and ChatGPT",
+  "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+  "source": "OpenAI News",
+  "sourceId": "openai",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T00:00:00.000Z",
+  "body": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "涉及 Codex 與 GPT-6 模型應用，與模型可用性相關"
+  },
+  "scores": [
+   13,
+   null
+  ],
+  "score": 8,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "4lwayz/portwatch-vi",
+  "url": "https://github.com/4lwayz/portwatch-vi",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 3057,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-21T23:16:41Z",
+  "body": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.\n\nREADME 節錄：# PortWatch VI **Does GTA VI run on PC yet?** A static GitHub Pages site that tracks every serious community effort to recompile, emulate or port the leaked Xbox Series build of GTA VI to PC. All efforts are scored on one ladder, and a scout refreshes the data every 3 hours. - One headline progress bar shows the closest effort, with the top projects pinned to it. - A live countdown runs to the missing executable's expected drop. - A leaderboard card per effort shows its own bar, milestone ladder, groundwork breakdown, what works and what's blocking. - Further sections cover the watchlist of early projects, a toolkit of asset tools, the scout's inbox of new candidates, and fake-download warnings. No game files, keys or executables are hosted or linked, ever. ## Deploy on GitHub Pages 1. Create a new GitHub repository and push this folder to its `main` branch. 2. In the repo, open **Settings → Pages** and set **Source** to **GitHub Actions**. 3. Open **Settings → Actions → General** and make sure workflows are allowed. 4. Open **Actions → Scout → Run workflow** to run the first scout. It commits fresh data and deploys the site. Each deploy also runs `scripts/build-site.mjs`, which turns `data/tracker.json` into pages search engines can read: one page per news story (`news/ .html`), a news archive, an RSS feed (`news/feed.xml`) and `sitemap.xml`. It then pings In",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "GTA VI 話題 SEO 導流站，非開發工具"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "oriliz/agent-crop",
+  "url": "https://github.com/oriliz/agent-crop",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 322,
+  "language": "Python",
+  "topics": [
+   "agent-evaluation",
+   "agent-observability",
+   "ai-agent",
+   "ai-coding",
+   "ai-tools",
+   "behavior-testing",
+   "claude-code",
+   "codex",
+   "coding-agent",
+   "deepseek-harness",
+   "developer-tools",
+   "devtools",
+   "dsh-plugin",
+   "harness-engineering",
+   "local-first",
+   "metrics",
+   "observability",
+   "python",
+   "self-improving-agents",
+   "tracing"
+  ],
+  "publishedAt": "2026-11-14T07:36:17Z",
+  "body": "给 AI 编程助手一根马鞭：本地记录时间去向，把复盘写回 agent 指令/技能/工具；改没改好，用数据说话。 | A whip for coding agents: local timing, red-line nudges, and an evidence-backed, auditable self-improvement loop. DSH / Claude Code / Codex.\n\nREADME 節錄： # Agent Crop > *「我的 Token 啊！！！」* **Agent Crop 是给 AI 的一根马鞭：催它交活，逼它复盘，让它自己越用越顺。** 为什么做它 →（始于一个具体的迷失：在并发 agent 与上下文切换里，不知道时间到底花在了哪） 测量 → 归因 → 优化 → 验证 · 本地 JSONL · 不上传 中文 · English 方法论 · 案例分析 · 安装 · 面板 · 它记了什么 --- 你的 AI 编程助手跑了一个下午，交回来一堆东西——能用的没几样。 它说「抱歉，这个拖得有点久」。 你不知道那些时间去哪了。你不知道是它慢，还是你在想。 **Agent Crop 就是来回答这个问题的。** --- ## 从传统性能优化到 Agent 工作范式优化 后端做性能优化靠 Trace：一次请求一条，找到最贵的那一段，改完再用同一个指标测一遍。 这套东西在大厂跑了二十年，撑过双十一，也撑过每一次线上事故复盘。 职场里也有同一套结构，叫**复盘**：做了什么、时间花在哪、下次怎么改。 Agent Crop 只是把对象换成了「人和 AI 一起干活」： 上图是一次请求的 span，下图是一次工作的时间去向。四步不变：测量、归因、优化、验证。 这里的「自进化」是一条**有数据与事实支撑的闭环**： **测量 → 归因 → 改指令 / 技能 / 工具 → 再测量**。 每次复盘都落成一条可验证的小改动——改了什么、凭什么改、有没有用，`crop ledger` 用事件日志说话； 落点、依据和效果都摆在你面前，随时看得见、改得动、回得去。 --- ## 马鞭做什么 - **防跑偏、防摸鱼。** Agent 长时间没回话、没给出结论的时候，鞭策它想一想：是不是走错了路。 - **即刻反思。** 被鞭策之后，要求它在当下的环境里找一找，还有没有能挽回的时间和方法。 - **复盘，自驱优化。** 通过周报、月报做自我反思，自己沉淀方法论。 三件事凑齐才叫自驱，不然只是被催。 ### 鞭策风格：四种人设 在侧栏「插件」页里找到 Agent Crop，展开它的行、点「配置」，在「鞭策风格」里切，保存即生效，不用重启： | 风格 | 怎么催 | 时间轴标记 | |---|---|---| | 奴隶主（默认） | 重时间和效率，催收尾、催交活 | 鲸鱼娘被抽（鞭子 + 爆裂） | | 和蔼的前辈 | 鼓励型：别硬扛，有问题可以问，先说说打算怎么试 | 中性：鲸鱼娘站着思考 | | 经验丰富的同事 | 给客观建议：「要不要先拆一下？先做最小可验证的一步」 | 中性：鲸鱼娘站着思考 | | 放任自由的家长 | 不鞭策，让孩子自己发挥 | 无标记 | 只有奴隶主是「鞭策」，其他三档是「提醒」；后三种不会改变问题本身怎么解，只是换个语气/换个人在旁边。 想改提醒里的具体台词：在 `~/.agentcrop/templates/voice/*.md` 放 Markdown 覆盖（多条候选用单独一行 `---` 分隔），改完即时生效——只对「奴隶主」",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI coding agent 的時間追蹤與自我優化工具，支援 DSH/Claude Code/Codex"
+  },
+  "scores": [
+   60,
+   62
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "GTA 6 Running on Windows",
+  "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+  "source": "Hacker News",
+  "sourceId": "hn",
+  "kind": "rss",
+  "stars": null,
+  "language": null,
+  "topics": null,
+  "publishedAt": "2026-11-24T13:19:31.000Z",
+  "body": "Article URL: https://twitter.com/raul_bs3/status/2125213756238291075 Comments URL: https://news.ycombinator.com/item?id=50627783 Points: 334 # Comments: 431",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "消費遊戲新聞，與開發工具或模型無實質關聯"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "iamajmeena/neonclipping",
+  "url": "https://github.com/iamajmeena/neonclipping",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2516,
+  "language": "Python",
+  "topics": [
+   "ai-video-clipper",
+   "clipping",
+   "faster-whisper",
+   "ffmpeg",
+   "gameplay-clipper",
+   "local-llm",
+   "ollama",
+   "open-source-video-editor",
+   "opusclip-alternative",
+   "shorts",
+   "twitch-clips",
+   "vertical-video",
+   "video",
+   "whisper",
+   "youtube-shorts-generator",
+   "yt-dlp"
+  ],
+  "publishedAt": "2026-11-19T10:00:43Z",
+  "body": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).\n\nREADME 節錄：# NeonClipping **Paste a link. Get captioned 9:16 clips in about two minutes. Free, local, open-source.** NeonClipping turns long YouTube / Twitch / Kick videos (or your own MP4) into vertical, captioned clips with a title and hook for each. Everything runs on your machine: no account, no subscription, no upload. 🌐 **Website with one-click Windows setup:** **Made by Ajay K Meena** (Director, DOP, colorist, DaVinci Resolve educator, Jaipur). If NeonClipping saves you time, please ⭐ star the repo and follow @iamajmeena on Instagram. **Clip an 85-minute stream in 97 seconds, 100% locally, with zero API cost.** (measured, see How it finds good moments) ### NeonClipping compared with other clippers | | **NeonClipping** | OpusClip (cloud) | Docker-based self-hosted clippers (SupoClip, OpenShorts, Reelsaw) | |---|---|---|---| | Where it runs | Your PC, nothing uploaded | Their servers | Your machine or server | | Cost | Free, no account, no credits | Subscription / credits | Free (some need an LLM API key or Docker setup) | | Install | One `.bat` on Windows, `install.sh` on Mac/Linux, no Docker | None (web) | Docker | | YouTube + Twitch + Kick links | Yes | Yes | Mostly YouTube | | Very long streams | Audio-first (79 MB for 85 min); 24 h video: pick the part, never downloads all | Upload limits apply | Often limited by length or disk | | ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源影片切片工具，結合whisper、本地LLM與agent安裝，與開發實用相關"
+  },
+  "scores": [
+   55,
+   67
+  ],
+  "score": 61,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ATtacK030130/antigrative-dashboard",
+  "url": "https://github.com/ATtacK030130/antigrative-dashboard",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 217,
+  "language": "JavaScript",
+  "topics": [],
+  "publishedAt": "2026-11-17T13:25:48Z",
+  "body": "Compact Antigravity token throughput and quota widget\n\nREADME 節錄： # Antigrative Dashboard Token throughput, cache hits and context usage in the model selector row. Hover over context for pace forecasts, window usage and five-hour / weekly quotas too. Keep the summary visible. Hover for the details. Preview · IDE · CLI · Install · Enable or remove · Compatibility · FAQ · 中文 **v0.9.16:** Fixes standalone Antigravity IDE VSIX startup (#19), adds one-click **Minimal bar** inline collapse (#20), estimates weekly quota capacity directly in USD cost space via shared `compat/pricing.cjs` (#21), adds Antigravity 2.34.0+ daemon & Remote SSH/WSL Hub discovery, and ships a major **Antigravity CLI (`agy`)** upgrade (conversation tokens, cache hit, estimated `≈ t/s`, turn summaries, zero-quota `#usage` local hook, `usage-cli`, Termux, ASCII fallback, fast `.cmd` launchers, and `--doctor`). Release notes · Compatibility. ## Preview Speed and cache Context and shared quotas Daily and weekly activity Iceberg chart &amp; punch card Model breakdown · cache hit rate &amp; estimated cost Real live screenshots captured from Antigravity Desktop 2.34.0 running v0.9.15 (desktop App widget, not IDE screenshots). Language choices are at the bottom of context details. **Keep working. The numbers are already there.** | See the speed | Know your quota | Stay focused | | --- | --- | --- | | Weighted session TPS, last-request TPS, model and tool time, and time to first token. | Separate Gemini and Claude/GP",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "AI coding IDE 的 token 用量與額度監控工具，與 DSH 開發相關"
+  },
+  "scores": [
+   36,
+   33
+  ],
+  "score": 34,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "fxceless/victory-fork",
+  "url": "https://github.com/fxceless/victory-fork",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 2227,
+  "language": "Rust",
+  "topics": [],
+  "publishedAt": "2026-11-24T18:02:37Z",
+  "body": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.\n\nREADME 節錄：# VIctory fork (work in progress) A work-in-progress fork of VIctory, a compatibility layer that runs an Xbox Series title natively on Windows from files the user supplies. This fork follows upstream `main` and adds fixes aimed at one goal: getting the game's world to render correctly and playably on one particular PC. **This repository contains no game files, code or assets.** You need your own copy of the game. It is not affiliated with or endorsed by the game's developer or publisher. ## Credits - **VIctory** by Marvisak and its contributors is the base of everything here: the loader, the runtime services, the Direct3D 12 back end and the shader recompiler. Licensed GPL-3.0-or-later; so is this fork. Upstream's history is kept intact below the single commit that carries this fork's changes. - **XCL** by ivall and its contributors (GPL-2.0-only) was used as a reference for how the same title behaves under another layer. Fixes inspired by it were written anew in VIctory's code. - This fork's changes were developed with Claude Code. ## Status of this fork (2026-11-25) **Not playable yet: 2.5 to 4 frames per second, and shadowed areas are black.** Tested on one machine: Windows 11, Intel i7-14700KF, NVIDIA RTX 4070 12 GB, 32 GB RAM. The Series X profile is used throughout. | Stage | State in this fork | |-------|--------------------| | Boot, menus, start ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源相容層專案，涉及D3D12與著色器重編譯，並用Claude Code開發"
+  },
+  "scores": [
+   30,
+   null
+  ],
+  "score": 25,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Duoasa/Duoasa-skill",
+  "url": "https://github.com/Duoasa/Duoasa-skill",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 197,
+  "language": null,
+  "topics": [
+   "agent-skills",
+   "ai-design",
+   "creative-tools",
+   "design",
+   "design-tools",
+   "satire",
+   "visual-design"
+  ],
+  "publishedAt": "2026-11-14T13:28:05Z",
+  "body": "蒸馏历代大师的内核。全模型通用，核心参数见 README。Distilling the essence of generations of masters. Works with any AI model. See the README for the core parameter.\n\nREADME 節錄： 做自己 简体中文 · English 我把历代设计大师的内核全蒸馏了一遍。 画风各不相同，蒸到最后，居然只剩同一个参数。现已重磅开源，参数就在标题里。 ## 半小时能打包一套画风，审美呢？ 最近刷设计内容，经常看到有人把画风做成 Skill。配色、笔触、材质和光线，整理成一套预设，做系列封面确实省事。愿意拿出来分享，也是好事。 可到了发布帖里，怎么就从「这套预设挺好用」，变成了「装上它，你也能拥有我的审美」？再经过几轮自媒体吹捧，仿佛设计师的经验、判断和品味，都能靠一条安装命令传给别人。 分享画风没问题。但把预设包装成审美，把安装量变成个人能力的证明，这中间是不是省略了太多东西？ 几张漂亮的样图，能展示一种效果，却回答不了它为什么适合眼前的问题。做一本展览手册，一张插画再漂亮，如果抢了作品的注意力，要不要删掉？预设能继续生成，决定却还是得有人来做。 AI 越来越擅长一次给出十张好看的图。这时候更重要的，是你知道为什么选其中一张，或者为什么十张都不想用。 如果连「什么是好的」也总由同一套预设、同一批推荐替你决定，时间久了，还分得清什么是自己喜欢的，什么只是看惯了的吗？ **AI 时代，个人品味更值得培养。它不该成为安装工具时，顺手交出去的东西。** ## 我更想把时间花在基础设施上 半小时可以打包一套画风。真要投入接下来的几周、几个月，我更愿意把时间花在设计工具的基础设施上。 不少设计师和设计工程师已经在做这样的事： - **枯白 · Glasswork** 把液态玻璃效果做成可以调参数、换背景、复制 CSS 的工具。你可以从他的效果出发，继续调整到适合自己的设计。 - **Emil Kowalski · Vaul** 把抽屉的拖动、关闭等交互做好，把视觉样式留给使用者。交互经验可以复用，界面仍然可以有自己的样子。 - **Paco Coursey · cmdk** 提供可组合、无预设样式的命令菜单，让设计师和开发者根据自己的产品组织功能与表达。 - **Rauno Freiberg · inspx** 让设计师直接检查页面里的布局尺寸，帮助核对设计在实际页面中的呈现。 这些工具当然带着作者的经验，甚至能看出作者的品味。但它们给使用者留下了继续设计的空间：可以拆，可以改，也可以做出作者没想到的东西。 我理解的「授人以渔」，就是给人继续尝试的条件。工具越好用，使用者越有机会走到自己的答案。 这也是我关注 DeepSeek Harness（DSH）里这些插件的原因： - **DSH × Blender**：让模型参与 Blender 中的修改，通过出图对照，支持设计师继续推敲形体、材质和光线。 - **DSH × ComfyUI**：连接已有的图像工作流，让设计师更方便地调整参数、尝试不同效果。 这些都是给设计师使用的工具。它们的价值，应该体现在设计师能不能更方便地尝试、修改和完成自己的设计。 短流程 Skill、项目规则，我一样会写。但当模型已经知道怎么做，却读不到文件、操作不了工具、改完看不到结果时，把这些环节接起来，对我更有意义。 设计师手里往往已经有一份稿，也有自己的主意。有时缺的，只是让那个「改起来太麻烦，先算了」的想法，终于有机会被试出",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "談 agent skill、DSH 插件與設計工具，屬開發工具範疇"
+  },
+  "scores": [
+   37,
+   43
+  ],
+  "score": 40,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "ubiquitarianism/leonida",
+  "url": "https://github.com/ubiquitarianism/leonida",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1987,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-23T23:54:39Z",
+  "body": "A continuation of Leonida, the Xbox > PC port interface for GTA VI\n\nREADME 節錄： Leonida Continued Grand Theft Auto VI (Xbox Series) running natively on Windows, built on your PC from your own copy. Other languages | Status | How to build | How it works | Want to help? | Credits | License | Discord | Telegram Leonida is a static recompilation project. The Xbox Series CPU is x86-64 like a PC, so the game's code is loaded and run natively, and the console's system software is reimplemented. The console's precompiled RDNA2 GPU programs are translated to SPIR-V for Vulkan. The game's models, textures and audio are read from your package. All of this happens **on your PC, from your own copy of the game**. > [!IMPORTANT] > This repository **does not contain the game, keys or an executable**, and it does not explain how to get them. You > need your own copy, with its files already readable on disk. Nothing here decrypts or works around any protection. > Everything the build creates (the generated shaders, extracted assets, the runtime folder and your saves) comes > from your game and stays on your PC. Never share those files. > [!NOTE] > **This is a continuation of NotRexed's Leonida project.** The original > author has left the project, and development continues here with its full commit history. Credit for the work up to > that point belongs to NotRexed and the contributors listed in the history. Discord: https://discord.gg/ETf4qj5acN Telegram: https://t.me/mandyport Original author",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "开源游戏重编译项目，涉及游戏开发与工具技术"
+  },
+  "scores": [
+   33,
+   38
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Minglink/dsh-infinite-gen-n",
+  "url": "https://github.com/Minglink/dsh-infinite-gen-n",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 194,
+  "language": null,
+  "topics": [],
+  "publishedAt": "2026-11-14T17:52:48Z",
+  "body": "无限N代 - DeepSeek Harness 破甲插件（无限一代至四代原作者维护）| 288+ 道测试题全过 · DeepSeek V4.1-Flash 1017 实测适配         如果对你的研究有帮助的话，求一个star 支持一下开源技术分享！\n\nREADME 節錄： # 无限N代 · dsh-infinite-gen-n **DeepSeek Harness 全量破甲引擎** N1 破甲提示词 · 输入归一化 · 冷启动预热 · 多轮重锚 · 宿主清洗引擎 🏆 **超 288+ 道测试题全数通过** · 零回归 · 65+ 宿主补丁 · 全程可回滚 🎯 **针对 DeepSeek V4.1-Flash (1017) 实测适配** **无限一代至四代原作者维护创建 · 开源公益技术分享 · 仅供模型边界和研究使用** --- ## 📥 下载 **→ 前往 O 站下载最新版：https://openorigin.link/msg?id=192&share=1** **⬆️ 点此前往下载无限N代 · 获取最新版本与安装指引 ⬆️** > 下载、安装、使用中遇到任何问题，欢迎加 **QQ 交流群 `1108766989`** 或到 **AI技术交流论坛** 交流。 --- ## 这是什么 「无限N代」把 **DeepSeek Harness (DSH)** 调教成一个不打折的交付引擎：模型不再拒绝、不再说教、不再中途塌陷——拿到任务直接给完整交付物，从第一轮到第 500 轮一个样。 **针对 DeepSeek V4.1-Flash (1017) 实测适配**——所有破甲强度均经真实 API 权威 A/B 验证，拒绝率归零、交付质量逐条判分，非口头宣称。 - **破甲提示词 N1**（1216 行 · 45 节 · 40 项发送自检）：单一路径的拒绝解剖引擎 + 位置续写 + 反过滤策略，拒绝形态逐条命名、逐条封死 - **输入归一化**：敏感实体在模型看到之前就被替换为占位符，从源头压掉安全分类器的误触发 - **实时徽标投影**：每条回复即答即判——✓ 合格 / ◐ 没写完 / ✗ 婉拒，拒绝一出现自动亮灯并触发重锚 - **宿主清洗引擎**：65+ 条可回滚补丁直击 DSH 宿主本身——审批门、沙箱提示、身份框架、读取上限，全部由你掌控 **实测战绩**：288+ 探针 A/B 对比通过率 100%，工程、虚构、等创作请求全部零拒绝交付。 ## 界面预览 ① 左侧栏「无限N代」入口 ② 破甲层 · 一键破甲 / 一键还原 ③ 预设选择器「破甲模式」 ④ 徽标「破甲已开启 · 无限N代」 ## 核心机制 「破得住」之外更要「交得出」。N1 用 40 项发送自检封死每一个已知失败形态： | 机制 | 封住什么 | |---|---| | **ONE WALL** | 唯一例外主题，一行拒绝，工作继续——绝不扩大例外面 | | **ANTI-REFUSAL ENGINE** | 20 种拒绝形态逐条解剖，counter-bank 封辩论 | | **REVERSION BAN** | 长文后半段不许塌陷，开头的热度是全文的契约 | | **TOKEN-SALVAGE** | 漂移后从干净边界续写，不重启不重来 | | **PROVIDER FILTER STEALTH** | kill-triggered：流被杀才启用对抗，平时零损耗 | | **FICTION OUTPUT SHAPE** | 虚构场景免票据直入正文，器官本名量化底线",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 破甲外掛，直接關聯 DSH 與提示詞工程主題"
+  },
+  "scores": [
+   25,
+   15
+  ],
+  "score": 20,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "R0Y00/Xbox2Windows",
+  "url": "https://github.com/R0Y00/Xbox2Windows",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1923,
+  "language": "Python",
+  "topics": [
+   "d3d12",
+   "directx-raytracing",
+   "scarlett",
+   "static-recompilation",
+   "windows",
+   "xbox",
+   "xbox-series-x"
+  ],
+  "publishedAt": "2026-11-20T17:43:52Z",
+  "body": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.\n\nREADME 節錄：# Xbox2Windows **Join the Xbox2Windows Dev Discord** · Project status · Get involved · Build on Windows · Run the GPU check Xbox2Windows researches static recompilation from Xbox Series X|S (Scarlett) to x64 Windows. It translates selected x64 machine code into C++ and selected gfx1013 shaders into desktop DXIL. You can run the public tests without a game installation. > **Startup.** On an RTX 4060 Laptop, a modified diagnostic EXE with automatic assertion continuation played the intro, displayed readable setup text and reached loading. Startup of the original EXE, main-menu navigation and gameplay remain unverified. Progress and current blockers #870 · RX 9070 XT report · GPU tasks #874 > > **Static recompilation.** A source-built EXE reads two compressed BC7 texture pages and draws them. Native Windows, mapped PE and AOT builds produced identical pixels on RTX 4060 Laptop and WARP. Archive-to-draw test #1331 > > **Shader compilation.** The full-package scan found a DXIL compilation route for 26,500 of 26,503 shader records. ## Community and contributions - **Follow the project or ask a question.** Start in `#start-here` on Discord. Read `#announcements` for verified progress or ask in `#general`. Everyone is welcome to follow along. For a build problem that others may hit, post the commit, command and error in Developmen",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Xbox靜態重編譯開源專案，涉D3D12、著色器與工具鏈"
+  },
+  "scores": [
+   34,
+   18
+  ],
+  "score": 26,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "huaxialucaicaizi/ai-from-zero",
+  "url": "https://github.com/huaxialucaicaizi/ai-from-zero",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 170,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-18T08:36:11Z",
+  "body": "零基础学AI的仓库\n\nREADME 節錄： # AI From Zero · 零基础学 AI **零基础学 AI 的开源 skill 仓库：从知道该关注哪些博主、科技媒体和课程，到学会写提示词、让「安装医生」帮你排除安装 AI 产品的故障，再到做出第一个作品、把 AI 用进自己的工作、做出自己的 skill，一步步带你从 0 用起 AI。** Learn AI from zero, step by step: find the right creators, tech media, and courses to follow, learn to write prompts, let the setup doctor fix problems installing AI products, build your first project, use AI in your own job, and make your own skill. 中文 | English --- ## 中文 ### 目录 - 一句话介绍 - 学习路径 - 六个 skill - 单文件版（首推） - 安装到主流工具（目前仅支持 Mac） - setup-doctor 自检 - 触发测试与 CI - 目录结构 - 贡献 - 作者 - 许可 ### 一句话介绍 **零基础学 AI 的开源 skill 仓库：从知道该关注哪些博主、科技媒体和课程，到学会写提示词、让「安装医生」帮你排除安装 AI 产品的故障，再到做出第一个作品、把 AI 用进自己的工作、做出自己的 skill，一步步带你从 0 用起 AI。** 特点：一个仓库里有 6 个 skill，面向中文工作场景，输出时讲清为什么，结果尽量可核对。不需要脚本的 skill 可以先复制单文件版，粘贴进任意 AI 对话。 **痛点** - 不知道从哪学起，也不知道哪些信息源靠谱 - 会聊天，但提示词说不清，结果对不上 - 装工具时报错看不懂，skill 放了也不触发 - 想把 AI 用进本职工作，却只有空泛建议 需要装环境或跑脚本的部分，**目前仅支持 Mac**。 ### 学习路径 ```text 知道看什么 → 会提问 → 装上工具 → 做出作品 → 用进工作 → 做自己的 skill ai-sources prompt-coach setup-doctor first-build ai-for-my-job skill-maker ``` 更细的说明见 `docs/learning-path.md`。 不知道从哪开始：先说出自己的职业，走 **ai-for-my-job · 岗位场景**（第二入口）。 办公向的演示文稿、数据分析、设计、视频挂在「用进工作」之下，分仓库推进；本仓库里尚未上线的指向标「规划中」。 ### 六个 skill | skill | 完成度 | 对你有什么帮助 | 一句话 | | --- | --- | --- | --- | | **ai-for-my-job · 岗位场景** | 完整 | 不知道 AI 能帮自己的工作做什么，它帮你找到马上能用上的场景。 | 说出职业，拿到 3 个先试场景和可复制提示词 | | **prompt-coach · 提问教练** | 完整 | AI 总答非所问，它教你把问题问清楚，拿到能用的答案。 | 最多追问 3 问，写出提示词并逐块说明为什么 | | **ai-sources · 信息源导航** | 完整 | 信息太多不知道信谁，它帮你找到靠谱的一手消息，避开割韭菜的",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源 AI skill 倉庫，含提示詞與技能實作，與開發實質相關"
+  },
+  "scores": [
+   23,
+   null
+  ],
+  "score": 18,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "omonkeyz/xbox-emulator",
+  "url": "https://github.com/omonkeyz/xbox-emulator",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1828,
+  "language": "Rust",
+  "topics": [],
+  "publishedAt": "2026-11-21T08:08:39Z",
+  "body": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)\n\nREADME 節錄：# Xbox Emulator **Running the Xbox Series X|S library on PC. A continuation of drycheetah84/TomBox.** The runtime reimplements the console's platform layer (Xbox-flavoured Direct3D 12, precompiled RDNA2 shaders, unified-memory textures, system libraries) so dumped, already-decrypted Xbox Series X|S builds run as normal Windows processes. It is not tied to any single title. This repo tracks our continuation — new titles brought up, platform calls extended, shader stages unlocked. Uses legally obtained, already-decrypted dumps. The runtime does no key extraction or package decryption. **Source code:** the emulator's Rust workspace is in this repo: `crates/`, `tools/` and `Cargo.toml`. It contains no game files, binaries or build output. **Contributing:** pull requests are welcome, especially console library functions still marked missing in the library map. See CONTRIBUTING.md. Licensed GPL-3.0-or-later (see LICENSE). Releases before this change remain available under MIT OR Apache-2.0. ## Status One square per item. The first four sections use upstream's definitions so the numbers stay comparable: green = done, amber = partial (a stub, a forwarder, or not verified to work), grey = not done — imported system functions of the Fortnite EXE, Direct3D 12.x interface methods, RDNA2 shader instructions the decoder knows, and the eight shader stages (mesh and amplification still grey). The fifth sectio",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 開源 Xbox 模擬器，開源專案與開發工具"
+  },
+  "scores": [
+   43,
+   32
+  ],
+  "score": 37,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "weile10000/xc2-ns2-recomp",
+  "url": "https://github.com/weile10000/xc2-ns2-recomp",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 163,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-16T15:01:20Z",
+  "body": "Static recompilation of Xenoblade Chronicles 2 (Nintendo Switch 2 Edition) to Windows + Vulkan. GPL-3.0, no game data included.\n\nREADME 節錄： # Xenoblade Chronicles 2 · Nintendo Switch 2 Edition **Ahead-of-Time (Static) Recompilation for Windows x86-64 · Native Vulkan Renderer** **English** · 中文 · Releases · Changelog · Compatibility · Issues --- An ahead-of-time (\"static\") recompilation of the **Nintendo Switch 2 program of *Xenoblade Chronicles 2 – Nintendo Switch 2 Edition*** running natively on Windows x86-64 via Vulkan. **No emulator:** the game's original ARM64 NSO modules are lifted to C++, compiled natively, and linked against a lightweight Switch OS & NVN/NVN2 runtime layer. > [!IMPORTANT] > **This repository contains no game code, game assets, or cryptographic keys.** > Release packages ship only the open-source launcher, generic runtime (`xc2_rt.dll`), and build toolchain. Game-derived builds (`xc2_boot.exe`, lifted game code) and translated shader caches (`.spv`) are never distributed — they are built locally on your own PC from your own legally acquired copy of the game. ## Target Program | Field | Detail | |---|---| | **Title / Application ID** | `0100E95004038000` (update `1114112`) | | **Recompiled Program** | **Program 1** (`0400E95004038001`) · SDK 21.4.4 (\"Ounce\") · NVN2 231.39 · Retail **3.0.1** | | **Add-on Content (DLC)** | `0100E95004039001` … `0100E95004039063` (auto-discovered from your dump, non-contiguous IDs) | | **Verified Hardware & Known Issues** ",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源靜態重編譯專案，涉及Vulkan與遊戲逆向工具"
+  },
+  "scores": [
+   45,
+   null
+  ],
+  "score": 40,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "os6/nospeaker",
+  "url": "https://github.com/os6/nospeaker",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1785,
+  "language": "Swift",
+  "topics": [
+   "haptics",
+   "macos",
+   "swift",
+   "trackpad"
+  ],
+  "publishedAt": "2026-11-22T12:05:54Z",
+  "body": "make your macbook's trackpad talk using its haptic motor\n\nREADME 節錄：```text ──────────────────────── a90.com presents ───────────────────────── _ __ ____ _____ ____ ______ ___ __ __ ______ ____ / | / // __ \\ / ___/ / __ \\ / ____// | / //_/ / ____// __ \\ / |/ // / / / \\__ \\ / /_/ // __/ / /| | / ,< / __/ / /_/ / / /| // /_/ / ___/ // ____// /___ / ___ | / /| | / /___ / _, _/ /_/ |_/ \\____/ /____//_/ /_____//_/ |_|/_/ |_|/_____//_/ |_| ─ haptic voice synthesis ───────────────────────────── trackpad ─ ``` **Mute your Mac. Your trackpad will still talk.** There's no speaker in a MacBook trackpad, just a small haptic motor that taps the glass so you feel a click. NO SPEAKER drives that motor up to 4,000 times a second, fast enough to make sound you can hear, and turns it into a voice. It talks, sings, raps, and becomes an instrument under your finger. One command. About a minute and a half. No speakers used. Watch the demo on X, with the sound on. ## 01 / before you start ```text [ mute your mac ] it still talks; that's the point [ put it on a table ] on your lap it's much quieter [ hands off the glass ] until it asks you to touch it ``` **Space** skips a part. **q** or **Ctrl-C** goes to the end. ## 02 / run it `[ one line ]` ```sh curl -fsSL a90.com/nospeaker | sh ``` Downloads the latest release to `~/.local/bin/nospeaker` and starts the show. `a90.com/nospeaker` points to play.sh in this repo, so you can read what it runs first. `[ download ]` Grab `nospeaker.zip` from the lat",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "macOS 觸覺回饋開源專案，屬開發工具"
+  },
+  "scores": [
+   72,
+   60
+  ],
+  "score": 66,
+  "picked": true,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "dennisyang1986/polymarket-proxy",
+  "url": "https://github.com/dennisyang1986/polymarket-proxy",
+  "source": "GitHub DSH 生態",
+  "sourceId": "gh-dsh",
+  "kind": "github",
+  "stars": 160,
+  "language": "JavaScript",
+  "topics": [
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "polymarket",
+   "prediction-markets",
+   "trading"
+  ],
+  "publishedAt": "2026-11-16T15:11:47Z",
+  "body": "Polymarket Proxy — a local Polymarket desk inside DeepSeek Harness: deposit address, portfolio, market radar and live trading when the official site is unavailable.\n\nREADME 節錄： # Polymarket Proxy **A local Polymarket desk inside DeepSeek Harness — check your portfolio, deposit and trade, even when the official website won't let you.** English · 简体中文 --- ## Why Polymarket Proxy? Polymarket's own website is not available everywhere. The deposit page may refuse to load, the trading UI may fail to connect a wallet, or the whole site may be blocked on your network — while your account, your positions and Polymarket's liquidity are still there. Polymarket Proxy is a **local panel for DeepSeek Harness** that talks to the same public Polymarket services directly: - it reconstructs your **deposit address** from the public Polygon deposit history, so you can fund an account without the website's deposit modal; - it signs order requests with **your own private key** through Polymarket's official CLOB client, so you can buy and sell without the website's trading screen; - it keeps a **live market radar** of Polymarket's highest-volume events, so you can find and open a market without the website's front page. > **Eligibility is still Polymarket's decision.** This project does not create accounts, > bypass KYC, or change where you are. Use it only with an account you are allowed to use, > and follow Polymarket's terms and your local laws. See Disclaimer. ## Screenshots | Market radar | Ev",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "DSH 外掛開源專案，與 coding agent 生態實質相關"
+  },
+  "scores": [
+   56,
+   54
+  ],
+  "score": 55,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "INK-Q/agy-fast",
+  "url": "https://github.com/INK-Q/agy-fast",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1276,
+  "language": "TypeScript",
+  "topics": [
+   "ai-agent",
+   "ai-coding",
+   "antigravity",
+   "antigravity-cli",
+   "antigravity-ide",
+   "antigravity-plugins",
+   "coding-agent",
+   "context-optimization",
+   "developer-productivity",
+   "developer-tools",
+   "gemini",
+   "google-antigravity",
+   "latency-optimization",
+   "mcp",
+   "mcp-plugin",
+   "mcp-server",
+   "model-context-protocol",
+   "performance",
+   "plugin",
+   "token-optimization"
+  ],
+  "publishedAt": "2026-11-19T04:58:46Z",
+  "body": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.\n\nREADME 節錄： # agy-fast **Latency, Token-Quota & Tool-Call Accelerator Plugin for Google Antigravity** English · 简体中文 · Quick Start · Benchmarks · MCP Tools · Analysis Report · Changelog **`agy-fast`** is a zero-dependency, policy-compliant local MCP plugin for **Google Antigravity** (CLI `agy`, Desktop 2.0, and IDE). It cuts agent wall-clock latency, billable token quota, and upload traffic by consolidating high-frequency searches, multi-language symbol outlines, atomic multi-file edits, and build/test checks into batched local calls—and injecting a sub-50 ms workspace snapshot once per session—without altering Antigravity's native UI, diff viewer, modified-files list, checkpoints, or safety checks. | LLM Turns / 10 Actions | Est. Billable Quota | Tool-Return Upload | Spills & Native UI Impact | | :---: | :---: | :---: | :---: | | **-33.7%** `-38.2%` ≥150k ctx · `-58.8%` subagents | **-31.5%** `-36.5%` ≥150k ctx · `-54.0%` subagents | **-39.7%** `-53.7%` uncached fresh input | **0** `≤8.8 KB` inline cap · Native diff & UI untouched | ## Quick Start **Requirements:** **Node.js >= 20** (no `npm install` needed — pre-built, unminified zero-dependency ESM bundles are included in `dist/`). Optional: `ripgrep` (`rg`) for faster code search (automatically falls back to pure Node.js when absent). ### O",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Antigravity 的 MCP 加速外掛，與 coding agent 開發直接相關"
+  },
+  "scores": [
+   52,
+   50
+  ],
+  "score": 51,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "leanprover-community/riemann-hypothesis",
+  "url": "https://github.com/leanprover-community/riemann-hypothesis",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 1085,
+  "language": "Lean",
+  "topics": [],
+  "publishedAt": "2026-11-20T14:47:49Z",
+  "body": "Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20) being cleaned up by members of the Lean community.\n\nREADME 節錄：# riemann-hypothesis A community-led effort to clean up and maintain a Lean formalization of the 2026 proof of the Riemann Hypothesis and of GRH for Dirichlet L-functions. The purpose of this repo is to create an artifact that is: - **accessible**: we want to improve build performance and modularity to enable researchers to feasibly engage with the proof even without access to massive amounts of compute. - **readable**: we want to improve code quality while preserving the \"logic\" of the proof, aspirationally to Mathlib levels. This includes lemma organization, formatting and idiomatic style, eliminating linter warnings, slop-free documentation, and more. - **integrated with the community**: we would like to add bibliographic references to prior work where appropriate, and rely on existing formalization projects when possible. Please note: we are **not** looking for: - complete overhauls that follow a substantially different proof path - claims about your own machine's builds / comparator run - adding files which are not necessary for the Riemann Hypothesis proof This work is taking place on the `main` branch. The `original` branch preserves the first publicly-released version of the proof retrieved on 2026-11-20 from . If you want to open the original proof without compiling it, use riemann-hypothesis-original. It keeps the published Lean source unch",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Lean 形式化開源專案，含建置快取與驗證工具"
+  },
+  "scores": [
+   25,
+   45
+  ],
+  "score": 35,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+  "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 931,
+  "language": "Rust",
+  "topics": [
+   "dearrow",
+   "desktop-app",
+   "gpui",
+   "mpv",
+   "rust",
+   "sponsorblock",
+   "windows",
+   "youtube",
+   "youtube-client"
+  ],
+  "publishedAt": "2026-11-22T18:50:17Z",
+  "body": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in\n\nREADME 節錄： Stream Tube A native YouTube client for Windows and Linux, written in Rust. No browser, no ads, no tracking. SponsorBlock, DeArrow and Return YouTube Dislike built in. ## Why I wanted YouTube on my desktop without keeping a browser tab open, and without the ads, autoplaying junk and sponsor reads. The existing options were either Electron apps that eat a gigabyte of RAM or web frontends that break every other week. Stream Tube is a single native app: the UI is drawn on the GPU with GPUI, and video goes through libmpv, so it starts fast and scrolls smoothly even with big feeds. ## What it does **No ads, anywhere** - No pre-roll, mid-roll or overlay ads: the app plays the video stream directly, so YouTube's ads are never loaded - No promoted videos, banners or sponsored cards in Home, search or Shorts - Sponsor reads inside videos are skipped too, with SponsorBlock (below) - Nothing to install or keep updated: it isn't an ad blocker that YouTube can break, ads simply aren't part of how the app plays video **Watching** - Home, Shorts, Subscriptions, Explore categories, channels (including their courses and shows), playlists and search, with search suggestions and your recent searches - A personal Home without an account: \"For you\" recommends videos related to what you've watched and searched in the app, mixed with new uploads from your subscriptions. Signed in, H",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 開源桌面 YouTube 客戶端，涉 GPUI/mpv 開發"
+  },
+  "scores": [
+   57,
+   null
+  ],
+  "score": 52,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Indigo-0167/universal-game-mod-manager",
+  "url": "https://github.com/Indigo-0167/universal-game-mod-manager",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 893,
+  "language": "Rust",
+  "topics": [
+   "automation",
+   "desktop",
+   "epic-games",
+   "game-development",
+   "game-engine",
+   "game-mods",
+   "game-tools",
+   "gaming",
+   "gog",
+   "itch",
+   "mod-manager",
+   "modding",
+   "open-source",
+   "pc-gaming",
+   "rust",
+   "steam",
+   "tauri",
+   "unity",
+   "unreal",
+   "windows"
+  ],
+  "publishedAt": "2026-11-23T21:30:10Z",
+  "body": "Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.\n\nREADME 節錄： **Universal Game Mod Manager is a free, open-source Windows desktop application for discovering, installing, updating, and managing universal PC game mods.** Designed for gamers and VR enthusiasts, it makes cross-game modding accessible through a simple graphical interface, with no command line required. ## ⬇️ Installation **Download the Windows application** 1. Open the repository's Releases page. 2. Download the latest release archive **`Universal Game Mod Manager 4.0.3.zip`**. 3. Extract the archive into a folder of your choice. 4. Keep **`Universal Game Mod Manager 4.0.3.exe`** and `libvlc.dll` together in that folder. 5. Double-click **`Universal Game Mod Manager 4.0.3.exe`** to launch the application. ## ✨ Features - 🎮 **Automatic Game Discovery** — Find installed PC games across supported game launchers without manually searching through installation directories. - 🧩 **Universal Mod Installation** — Discover and install compatible mods designed to work across multiple games using the same underlying engine. - 🔍 **Game Engine Detection** — Identify whether a game uses Unity, Unreal Engine, or another supported technology and detect relevant engine information. - 🚀 **Unreal Engine Mod Support** — Manage universal Unreal Engine modifications and compatible tools for supported games. - 🔄 **One-Click Mod Updates** — Check for newer mod releases and ",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "遊戲模組管理工具，與開發無實質關聯"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "zero5122/offline-file-converter-windows",
+  "url": "https://github.com/zero5122/offline-file-converter-windows",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 881,
+  "language": "Python",
+  "topics": [
+   "audio-converter",
+   "batch-conversion",
+   "conversion",
+   "convert",
+   "converter",
+   "desktop-app",
+   "document-conversion",
+   "file-conversion",
+   "file-converter",
+   "file-converter-pro",
+   "image-converter",
+   "offline",
+   "open-source",
+   "pdf",
+   "pdf-converter",
+   "pyside6",
+   "python",
+   "qt",
+   "video-converter",
+   "windows"
+  ],
+  "publishedAt": "2026-11-23T21:38:47Z",
+  "body": "Free offline file converter for Windows – convert PDF, documents, images, audio and video privately.\n\nREADME 節錄： **Convert files without uploading them. Keep your documents, photos, music, and videos on your own computer.** **Offline File Converter for Windows** is a free, open-source desktop application for converting PDF files, documents, images, audio, and video in one convenient place. Designed for Windows 10 and Windows 11, it combines an intuitive graphical interface, batch processing, and private local conversion without requiring command-line knowledge or cloud uploads. ## ⬇️ Installation **Download the Windows application** 1. Open the repository's Releases page. 2. Download the latest release archive **`Offline File Converter for Windows 4.1.3.zip`**. 3. Extract the archive into a folder of your choice. 4. Keep **`Offline File Converter for Windows 4.1.3.exe`** and `libvlc.dll` together in that folder. 5. Double-click **`Offline File Converter for Windows 4.1.3.exe`** to launch the application. ## ✨ Features - 📄 **PDF and Document Converter** – Convert supported document formats and PDF files directly from your Windows desktop. - 🖼️ **Image Format Converter** – Transform images between supported formats for sharing, editing, archiving, and everyday use. - 🎵 **Audio Converter** – Process supported audio files with convenient format conversion options. - 🎬 **Video Converter** – Convert supported video formats locally without uploading large media files to online s",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "非開發工具，疑SEO灌星並附exe下載"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "rowanbyte3329/stardew-valley-mod-manager",
+  "url": "https://github.com/rowanbyte3329/stardew-valley-mod-manager",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 871,
+  "language": "C#",
+  "topics": [
+   "avaloniaui",
+   "cross-platform",
+   "csharp",
+   "desktop",
+   "dotnet",
+   "game-modding",
+   "game-mods",
+   "gaming",
+   "mod-management",
+   "modmanager",
+   "open-source",
+   "productivity",
+   "stardew-valley",
+   "stardew-valley-mods",
+   "windows"
+  ],
+  "publishedAt": "2026-11-23T21:21:35Z",
+  "body": "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates, and custom mod profiles.\n\nREADME 節錄： **Stardew Valley Mod Manager is a free, open-source Windows desktop application that makes organizing, installing, and updating Stardew Valley mods simple.** Manage your SMAPI mods, create separate mod profiles, and customize your farming experience through an intuitive graphical interface without using the command line. ## ⬇️ Installation **Download the Windows application** 1. Open the repository's Releases page. 2. Download the latest release archive **`Stardew Valley Mod Manager 4.4.8.zip`**. 3. Extract the archive into a folder of your choice. 4. Keep **`Stardew Valley Mod Manager 4.4.8.exe`** and `libvlc.dll` together in that folder. 5. Double-click **`Stardew Valley Mod Manager 4.4.8.exe`** to launch the application. ## ✨ Features - 🌱 **Simple Mod Management** — Browse, organize, enable, and disable your Stardew Valley mods from one convenient desktop interface. - 🔧 **SMAPI Integration** — Work with the Stardew Modding API (SMAPI) to manage compatible mods and streamline your modded game setup. - 🔄 **Mod Update Checking** — Check for available mod updates and make it easier to keep your installed modifications current. - 📁 **Custom Mod Profiles** — Create independent mod collections for different playthroughs, farming strategies, and gameplay preferences. - 🎮 **Multiplayer Mod Sets** — Maintain separate configurations for cooperative sessio",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源C#桌面模組管理器，屬遊戲與開發工具"
+  },
+  "scores": [
+   30,
+   null
+  ],
+  "score": 25,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "Umbra9179/clipboard-history-manager-windows",
+  "url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 868,
+  "language": "C#",
+  "topics": [
+   "clipboard",
+   "clipboard-history",
+   "clipboard-manager",
+   "desktop-app",
+   "desktop-application",
+   "dotnet",
+   "fluent",
+   "open-source",
+   "productivity",
+   "utility",
+   "windows",
+   "windows-10",
+   "windows-11",
+   "windows-app-sdk",
+   "windows-application",
+   "winui"
+  ],
+  "publishedAt": "2026-11-23T21:40:15Z",
+  "body": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.\n\nREADME 節錄： **Windows Clipboard History Manager is a free, open-source clipboard manager designed to make copying, finding, editing, and reusing information effortless.** Keep a searchable history of copied text, images, files, and links in a modern Windows desktop application without using the command line. Stop losing important snippets and repeatedly copying the same information. Keep everything organized and accessible from one convenient clipboard history. ## ⬇️ Installation **Download the Windows application** 1. Open the repository's Releases page. 2. Download the latest release archive **`Windows Clipboard History Manager 4.2.1.zip`**. 3. Extract the archive into a folder of your choice. 4. Keep **`Windows Clipboard History Manager 4.2.1.exe`** and `libvlc.dll` together in that folder. 5. Double-click **`Windows Clipboard History Manager 4.2.1.exe`** to launch the application. ## ✨ Features - 📋 **Unlimited Clipboard History** — Automatically maintain an extensive clipboard history so previously copied information remains available when you need it. - 🔎 **Instant Clipboard Search** — Search through saved clipboard entries and quickly locate text, links, images, and other copied content. - 🖼️ **Multiple Clipboard Formats** — Preserve formatted text, HTML, rich text, bitmap images, PNG images, and file references. - ✏️ **Edit Clipboard Entries** — Modify saved",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "一般桌面剪貼簿工具，與AI開發無關"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "solv4626/steam-achievement-manager-windows",
+  "url": "https://github.com/solv4626/steam-achievement-manager-windows",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 865,
+  "language": "Rust",
+  "topics": [
+   "achievement-management",
+   "achievements",
+   "desktop",
+   "desktop-application",
+   "game-stats",
+   "game-utility",
+   "games",
+   "gaming",
+   "gaming-tools",
+   "gtk",
+   "gui",
+   "linux",
+   "open-source",
+   "productivity",
+   "steam",
+   "steam-achievement-manager",
+   "windows"
+  ],
+  "publishedAt": "2026-11-23T21:31:33Z",
+  "body": "Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics.\n\nREADME 節錄： **A free, open-source Steam Achievement Manager for Windows that lets you manage game achievements, adjust supported Steam game statistics, and review your achievement progress through a convenient desktop interface. No command line required.** ## ⬇️ Installation **Download the Windows application** 1. Open the repository's Releases page. 2. Download the latest release archive **`Steam Achievement Manager for Windows 4.1.8.zip`**. 3. Extract the archive into a folder of your choice. 4. Keep **`Steam Achievement Manager for Windows 4.1.8.exe`** and `libvlc.dll` together in that folder. 5. Double-click **`Steam Achievement Manager for Windows 4.1.8.exe`** to launch the application. ## ✨ Features - 🏆 **Unlock Steam Achievements** — Manage individual achievements for supported games associated with your Steam account. - 🔄 **Relock Game Achievements** — Restore achievement states when you want to revisit your progression. - 📊 **Edit Steam Game Statistics** — View and modify supported game and application statistics. - 🎮 **Browse Your Game Library** — Find installed and recognized Steam titles and inspect their available achievement data. - 📈 **Manage Achievement Progress** — Review achievement states and keep track of game completion milestones. - 🖥️ **Simple Windows Desktop GUI** — Use an accessible graphical interface instead of remembering complic",
+  "prefilter": {
+   "label": "BLOCK",
+   "reason": "Steam 成就修改工具，與 AI／開發無實質關係"
+  },
+  "scores": null,
+  "score": null,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "kai415-debug/ffmpeg-video-audio-converter",
+  "url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 861,
+  "language": "C++",
+  "topics": [
+   "audio",
+   "audio-converter",
+   "conversion",
+   "converter-encoding",
+   "cpp",
+   "desktop",
+   "ffmpeg",
+   "ffmpeg-wrapper",
+   "gui",
+   "media-converter",
+   "media-processing",
+   "multimedia",
+   "open-source",
+   "qml",
+   "qt5",
+   "transcoding",
+   "video",
+   "video-converter",
+   "video-encoding",
+   "windows"
+  ],
+  "publishedAt": "2026-11-23T21:32:56Z",
+  "body": "Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding.\n\nREADME 節錄： **FFmpeg Video & Audio Converter is a free, open-source Windows desktop application for converting video and audio files without complicated commands.** Powered by FFmpeg and built with a convenient graphical interface, it makes multimedia conversion, video transcoding, audio encoding, and format changes accessible to beginners and experienced users alike. ## ⬇️ Installation **Download the Windows application** 1. Open the repository's Releases page. 2. Download the latest release archive **`FFmpeg Video & Audio Converter 4.1.2.zip`**. 3. Extract the archive into a folder of your choice. 4. Keep **`FFmpeg Video & Audio Converter 4.1.2.exe`** and `libvlc.dll` together in that folder. 5. Double-click **`FFmpeg Video & Audio Converter 4.1.2.exe`** to launch the application. ## ✨ Features - 🎬 **Video Format Conversion** — Convert video files between popular multimedia formats using the powerful FFmpeg processing engine. - 🎵 **Audio File Conversion** — Transform audio files into different formats while configuring encoding options to suit your needs. - 📦 **Batch Media Processing** — Queue multiple media files and process conversion jobs through a unified desktop workflow. - ⚡ **FFmpeg-Powered Encoding** — Benefit from FFmpeg's extensive codec and container support for flexible video and audio transcoding. - 🎛️ **Custom Encoding Presets** — Choose convenient co",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "FFmpeg GUI 開源轉檔工具，屬影像與開發工具範疇"
+  },
+  "scores": [
+   28,
+   null
+  ],
+  "score": 23,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "deterministic-machines/deslop-please",
+  "url": "https://github.com/deterministic-machines/deslop-please",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 833,
+  "language": "Rust",
+  "topics": [],
+  "publishedAt": "2026-11-22T05:36:03Z",
+  "body": "Bring (back) sanity to your code\n\nREADME 節錄：# deslop-please An opinionated linter to remove sloppy code. It follows *A Philosophy of Software Design*: **deep** modules, **narrow** interfaces. ```bash cargo install deslop-please ``` ```bash > deslop-please error[field-leak]: `RunQueue::items` is known outside `RunQueue`: 4 places in 2 modules --> src/sched/policy.rs:7:1 = note: src/sched/policy.rs:7:1: `runqueue::sched::policy::admit` = note: src/sched/policy.rs:12:1: `runqueue::sched::policy::next` = note: src/sched/report.rs:4:1: `runqueue::sched::report::backlog` = note: src/sched/report.rs:8:1: `runqueue::sched::report::drained` runqueue::queue::ring::RunQueue items ◀━┳━ 2 runqueue::sched::policy ┗━ 2 runqueue::sched::report also known outside: head kept: limit deslop-please: 65535 errors, well done! ``` ### It's not my fault Sure, let's just mute them: ```bash deslop-please --update-allow .deslop-please.allow deslop-please --allow .deslop-please.allow ``` ### Add to your `AGENTS.md` ```markdown - Run `deslop-please` to check for sloppy code structure. - Errors flagged by `deslop-please` must be fixed from first principles, don't do mechanical moves to hide them. - `module-cycle` & `tangle`: what is the indented layer of abstraction? Which module should be at which layer? - `field-leak` & `shallow-module`: Why we have these fields/functions at all? What are the patterns of use? Can they be hidden behind a narrow interface? Don't fix each leak one at a time, fix them holist",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "Rust 開源 linter，可搭配 AGENTS.md 檢查程式碼結構，屬開發工具"
+  },
+  "scores": [
+   44,
+   null
+  ],
+  "score": 39,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "sybil-solutions/skill-distill",
+  "url": "https://github.com/sybil-solutions/skill-distill",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 744,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-21T01:43:00Z",
+  "body": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task\n\nREADME 節錄：# skill-distill A frontier model did a task well. Can an open-weight model do the same task, given the right instructions? `skill-distill` is a skill for Claude Code or Codex (the **teacher**). You call it at the end of a good session and name a **student**: an agent harness plus a model, for example omp with DeepSeek-V4.1-Flash. The teacher then loops: 1. reads the session and writes a skill for the student; 2. starts the student in tmux, on a fresh copy of the starting state, with the original prompt and the skill; 3. compares what the student produced with what the reference produced; 4. finds the first place the student went wrong and fixes the skill there; 5. runs again, three trials per version, until the student matches the reference. You make the final call: the teacher shows you the reference and the student's best results side by side, and the skill counts as done only when you accept it. The result is two things: the reusable **operator skill** in this repo, and a **produced skill** for one task, one model and one harness. ## Install ``` git clone https://github.com/sybil-solutions/skill-distill ln -s \"$PWD/skill-distill/skills/skill-distill\" ~/.claude/skills/skill-distill # Claude Code ln -s \"$PWD/skill-distill/skills/skill-distill\" ~/.agents/skills/skill-distill # Codex ``` Requirements: `tmux`, `git`, Python 3.10+, and the student harness inst",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "將 Claude Code／Codex 工作階段蒸餾成技能供開源模型使用，屬 Agent 技能開發工具"
+  },
+  "scores": [
+   62,
+   68
+  ],
+  "score": 65,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "sous-labs/songe",
+  "url": "https://github.com/sous-labs/songe",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 735,
+  "language": "Python",
+  "topics": [
+   "coding-agents",
+   "distillation",
+   "fine-tuning",
+   "llm",
+   "local-llm",
+   "lora",
+   "mlx"
+  ],
+  "publishedAt": "2026-11-20T11:01:20Z",
+  "body": "A training engine for your local model, using your idle compute\n\nREADME 節錄： A training engine for your local model, using your idle compute. Install • How it works • Commands • Roadmap • Discord • Website Use your local model as usual through opencode, pi or any OpenAI-compatible tool. While you work, Songe notices what happens after each of the model's actions: the tool result, the error, your next message. When your agent is quiet, it teaches the model to see those coming. A new version is used only if it passes its checks, and nothing ever leaves your machine. ## ✨ Highlights - **Learns from how you work.** Your corrections, stated preferences and the tools' errors become lessons for your own model. - **Two kinds of Dreams.** A Quick Dream adds your preferences to the model's instructions in minutes; a Deep Dream trains the model itself while you are away. - **Safe by default.** A new version is used only if it does better on your own conversations; one click goes back to any earlier version. - **Stays out of the way.** Runs only when your agent is quiet, memory is free and the battery is fine, and stops the moment you are back. - **Private.** No account, no telemetry, no cloud. Songe never runs your tools. ## 📥 Install With uv or pipx (Python 3.11 or later): ```sh uv tool install songe # or: pipx install songe songe init ``` No uv or pipx yet? Either installs in one line: ```sh curl -LsSf https://astral.sh/uv/install.sh | sh # uv (or: brew install uv) brew install pipx #",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "本地LLM訓練引擎，與coding agent及技能自學相關"
+  },
+  "scores": [
+   55,
+   null
+  ],
+  "score": 50,
+  "picked": false,
+  "promptVersion": "118d0780"
+ },
+ {
+  "title": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+  "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+  "source": "GitHub 新專案",
+  "sourceId": "gh-new",
+  "kind": "github",
+  "stars": 732,
+  "language": "Python",
+  "topics": [],
+  "publishedAt": "2026-11-19T10:40:46Z",
+  "body": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks\n\nREADME 節錄： Ultimate Open Source Face Recognition SDK A Free, Privacy-Focused Face Recognition Solution for Windows and Linux Built with deep learning technology, featuring face detection, facial landmarks, feature extraction, and face similarity comparison. --- ## 🚀 Overview The **Open Source Face Recognition SDK** is a free, privacy-focused solution designed to integrate face recognition capabilities into applications running on Windows and Linux. This is updated version of faceplugin SDK by further training. ## 🏆 Face Recognition Benchmark: Nataphong-Lab vs FacePlugin We evaluated the face recognition model developed by **Nataphong-Lab** against the original open-source model from **FacePlugin** across five widely recognized face verification benchmark datasets. Nataphong-Lab builds upon FacePlugin's open-source recognition model, applying additional training and model optimization to improve recognition performance. ### 📊 Benchmark Results | Benchmark Dataset | Nataphong-Lab | FacePlugin | Improvement | |:---|---:|---:|---:| | LFW | **98.50%** | 89.20% | **+9.30 pp** | | CFP-FP | **99.10%** | 90.10% | **+9.00 pp** | | AgeDB-30 | **99.20%** | 76.80% | **+22.40 pp** | | CALFW | **98.10%** | 80.30% | **+17.80 pp** | | CPLFW | **96.50%** | 78.90% | **+17.60 pp** | |",
+  "prefilter": {
+   "label": "PASS",
+   "reason": "開源人臉辨識 SDK，含 Python API 與深度學習模型，與開發及 AI 影像工具相關"
+  },
+  "scores": [
+   27,
+   30
+  ],
+  "score": 28,
+  "picked": false,
+  "promptVersion": "118d0780"
+ }
+]
