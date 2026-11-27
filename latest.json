@@ -1,6 +1,6 @@
 {
- "date": "2026-11-26",
- "generatedAt": "2026-11-26T05:18:25.124Z",
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27T05:15:46.108Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,52 +11,35 @@
  },
  "items": [
   {
-   "title": "WorkBuddy接進DSH外掛",
-   "summary": "dsh-workbuddy 是 DSH 外掛，把多個 WorkBuddy 帳號合成一家提供商，請求依序輪流轉發，並分別顯示各帳號的積分餘額。",
-   "why": "想在 DSH 試多種模型可參考；但它含繞過網關檢查的做法，使用前先看服務條款。",
-   "url": "https://github.com/LIUFelix2004/dsh-workbuddy",
-   "source": "GitHub DSH 生態",
-   "alsoFrom": [],
-   "stars": 169,
-   "score": 71,
-   "scores": [
-    72,
-    70
-   ],
-   "originalTitle": "LIUFelix2004/dsh-workbuddy",
-   "related": []
-  },
-  {
-   "title": "Gemini 4 Neon 跑分超越 Astra、Fable",
-   "summary": "Google的Gemini 4 Neon在LiveBench上打敗Astra和Fable，還把Theo的TS Rust測試跑分時間砍了48.6%。",
-   "why": "效能大躍進，之後用AI寫程式debug速度可能更快。",
-   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab",
-   "comments": null,
-   "source": "Latent Space",
-   "alsoFrom": [],
-   "stars": null,
-   "score": 66,
-   "scores": [
-    68,
-    64
-   ],
-   "originalTitle": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
-   "related": []
-  },
-  {
-   "title": "開源桌面小黑貓 kurocat 支援 Claude Code 連動",
-   "summary": "kurocat 是 Tauri v2 打造的開源 3D/2D 桌面打字貓，v5.1.2 新增與 Claude Code、Codex 等 AI 編程工具即時連動，支援 Win/Mac/Linux/Android。",
-   "why": "寫程式時掛一隻會跟 Claude Code 互動的桌寵，順便熟悉 Tauri 跨平台開發。",
-   "url": "https://github.com/qianyiai/kurocat",
+   "title": "papercraft 紙雕風技能包",
+   "summary": "papercraft 是 agent skill，讓 AI 用立體紙雕風格做遊戲、網頁和動畫，GitHub 838 星。",
+   "why": "做網頁小遊戲時，可以讓 AI 套用這套紙雕風格，畫面更有一致的質感。",
+   "url": "https://github.com/xikhar/papercraft",
    "source": "GitHub 新專案",
    "alsoFrom": [],
-   "stars": 1085,
+   "stars": 838,
+   "score": 70,
+   "scores": [
+    72,
+    69
+   ],
+   "originalTitle": "xikhar/papercraft",
+   "related": []
+  },
+  {
+   "title": "KuroCat：開源桌面打字小黑貓",
+   "summary": "免費開源的桌面打字小黑貓 KuroCat，用 Tauri v2 + Rust 製作，內建 MCP，支援 Win/Mac/Linux/Android 四個平台。",
+   "why": "想做桌面小工具或串 MCP，可看它怎麼做透明置頂視窗。",
+   "url": "https://github.com/qianyiai/KuroCat",
+   "source": "GitHub 新專案",
+   "alsoFrom": [],
+   "stars": 1504,
    "score": 66,
    "scores": [
-    57,
-    76
+    60,
+    72
    ],
-   "originalTitle": "qianyiai/kurocat",
+   "originalTitle": "qianyiai/KuroCat",
    "related": []
   }
  ],
@@ -71,6 +54,12 @@
    "title": "oriliz/agent-crop",
    "url": "https://github.com/oriliz/agent-crop",
    "score": 61,
+   "source": "GitHub DSH 生態"
+  },
+  {
+   "title": "zou172866/Antigravity-agy-dart",
+   "url": "https://github.com/zou172866/Antigravity-agy-dart",
+   "score": 59,
    "source": "GitHub DSH 生態"
   },
   {
@@ -103,19 +92,19 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 9,
+    "count": 14,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 2,
+    "count": 4,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 4,
+    "count": 3,
     "error": null
    },
    {
@@ -133,30 +122,29 @@
    {
     "id": "ghchangelog",
     "name": "GitHub Changelog",
-    "count": 1,
+    "count": 0,
     "error": null
    },
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 3,
+    "count": 1,
     "error": null
    }
   ],
-  "candidates": 53,
+  "candidates": 56,
   "prefilterPass": 41,
   "scored": 41,
-  "picked": 3,
+  "picked": 2,
   "llm": {
-   "calls": 80,
-   "failures": 14,
+   "calls": 74,
+   "failures": 12,
    "byRoute": {
-    "owob:deepseek-v4.1-flash": 39,
-    "owob:glm-5.3-flash": 23,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 2,
-    "avianjay:mrtoasterrr/claude-sonnet-5": 2
+    "owob:deepseek-v4.1-flash": 43,
+    "owob:glm-5.3-flash": 16,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 3
    },
-   "tokens": 83288
+   "tokens": 77146
   }
  }
 }
