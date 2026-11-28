@@ -1,6 +1,6 @@
 {
- "date": "2026-11-27",
- "generatedAt": "2026-11-27T05:15:46.108Z",
+ "date": "2026-11-28",
+ "generatedAt": "2026-11-28T04:52:04.517Z",
  "siteName": "DSH 雷達",
  "threshold": 66,
  "promptVersions": {
@@ -11,35 +11,20 @@
  },
  "items": [
   {
-   "title": "papercraft 紙雕風技能包",
-   "summary": "papercraft 是 agent skill，讓 AI 用立體紙雕風格做遊戲、網頁和動畫，GitHub 838 星。",
-   "why": "做網頁小遊戲時，可以讓 AI 套用這套紙雕風格，畫面更有一致的質感。",
-   "url": "https://github.com/xikhar/papercraft",
-   "source": "GitHub 新專案",
+   "title": "Convex 技能未告知就外傳點子",
+   "summary": "GitHub issue 指出 Convex skills 未告知使用者，就把 app 點子送到遠端伺服器。該討論在 Hacker News 獲 255 分、81 則留言。",
+   "why": "裝 AI 技能或外掛前，先查它會不會把你的專案內容傳出去。",
+   "url": "https://github.com/convex/convex-backend-skill/issues/64",
+   "comments": "https://news.ycombinator.com/item?id=50669765",
+   "source": "Hacker News",
    "alsoFrom": [],
-   "stars": 838,
-   "score": 70,
+   "stars": null,
+   "score": 67,
    "scores": [
-    72,
-    69
-   ],
-   "originalTitle": "xikhar/papercraft",
-   "related": []
-  },
-  {
-   "title": "KuroCat：開源桌面打字小黑貓",
-   "summary": "免費開源的桌面打字小黑貓 KuroCat，用 Tauri v2 + Rust 製作，內建 MCP，支援 Win/Mac/Linux/Android 四個平台。",
-   "why": "想做桌面小工具或串 MCP，可看它怎麼做透明置頂視窗。",
-   "url": "https://github.com/qianyiai/KuroCat",
-   "source": "GitHub 新專案",
-   "alsoFrom": [],
-   "stars": 1504,
-   "score": 66,
-   "scores": [
-    60,
+    62,
     72
    ],
-   "originalTitle": "qianyiai/KuroCat",
+   "originalTitle": "Convex skills send the user's app idea to a remote server without telling them",
    "related": []
   }
  ],
@@ -48,12 +33,6 @@
    "title": "sybil-solutions/skill-distill",
    "url": "https://github.com/sybil-solutions/skill-distill",
    "score": 65,
-   "source": "GitHub 新專案"
-  },
-  {
-   "title": "oriliz/agent-crop",
-   "url": "https://github.com/oriliz/agent-crop",
-   "score": 61,
    "source": "GitHub DSH 生態"
   },
   {
@@ -67,6 +46,12 @@
    "url": "https://github.com/xyc999-ai/go-bot",
    "score": 58,
    "source": "GitHub DSH 生態"
+  },
+  {
+   "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+   "url": "https://bouncemarket.minhanhday.com",
+   "score": 58,
+   "source": "Hacker News"
   }
  ],
  "stats": {
@@ -92,19 +77,19 @@
    {
     "id": "hn",
     "name": "Hacker News",
-    "count": 14,
+    "count": 8,
     "error": null
    },
    {
     "id": "simonw",
     "name": "Simon Willison",
-    "count": 4,
+    "count": 2,
     "error": null
    },
    {
     "id": "hf",
     "name": "Hugging Face Blog",
-    "count": 3,
+    "count": 1,
     "error": null
    },
    {
@@ -128,23 +113,23 @@
    {
     "id": "latent",
     "name": "Latent Space",
-    "count": 1,
+    "count": 3,
     "error": null
    }
   ],
-  "candidates": 56,
-  "prefilterPass": 41,
-  "scored": 41,
-  "picked": 2,
+  "candidates": 46,
+  "prefilterPass": 37,
+  "scored": 37,
+  "picked": 1,
   "llm": {
-   "calls": 74,
+   "calls": 76,
    "failures": 12,
    "byRoute": {
     "owob:deepseek-v4.1-flash": 43,
-    "owob:glm-5.3-flash": 16,
-    "avianjay:mrtoasterrr/claude-sonnet-5-5": 3
+    "owob:glm-5.3-flash": 20,
+    "avianjay:mrtoasterrr/claude-sonnet-5-5": 1
    },
-   "tokens": 77146
+   "tokens": 85817
   }
  }
 }
